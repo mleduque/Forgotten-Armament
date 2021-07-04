@@ -1,0 +1,55 @@
+/* Forgotten Armament
+ *
+ * New items for BG: EE, BGII: EE, and EET
+ *
+ */
+
+BACKUP ~forgotten-armament/backup~
+AUTHOR ~auve and morpheus562~
+
+VERSION ~v0.1~
+README ~forgotten-armament/readme.html~
+
+ASK_EVERY_COMPONENT
+
+ALWAYS
+
+	ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) THEN BEGIN FAIL @3001 END
+
+	ACTION_DEFINE_ARRAY cdreload BEGIN item_descriptions END
+	LAF HANDLE_CHARSETS INT_VAR infer_charsets = 1 STR_VAR tra_path = ~forgotten-armament/languages~ reload_array = cdreload END
+
+END
+
+LANGUAGE ~American English~
+         ~american~
+         ~forgotten-armament/languages/american/setup.tra~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Forgotten Armament by Auve and Morpheus562                            //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Add New Items into the Game                                           //
+///////////////////////////////////////////////////////////////////////////
+
+BEGIN @1 DESIGNATED 1 LABEL ForgottenArmament-AddItems
+
+REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
+
+LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
+
+INCLUDE ~forgotten-armament/components/add_items.tpa~
+
+///////////////////////////////////////////////////////////////////////////
+// Move Certain Items to more Difficult Locations                        //
+///////////////////////////////////////////////////////////////////////////
+
+BEGIN @2 DESIGNATED 2 LABEL ForgottenArmament-MoveItems
+
+REQUIRE_PREDICATE (GAME_IS ~bg2ee eet~) @3002
+
+INCLUDE ~forgotten-armament/components/move_items.tpa~
+

@@ -1,0 +1,11 @@
+// Forgotten Armament - Move Items
+
+///////////////////////////////////////////////////////////////////////////
+// Move Robe of Vecna to Shangalar                                       //
+///////////////////////////////////////////////////////////////////////////
+
+COPY_EXISTING ~HLSHANG.CRE~ ~override~
+    ADD_CRE_ITEM ~WA2ROBE~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
+
+COPY_EXISTING ~WMART2.STO~ ~override~
+    REMOVE_STORE_ITEM ~WA2ROBE~ #0 #0 #0 ~IDENTIFIED~ #1

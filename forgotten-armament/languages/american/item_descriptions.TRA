@@ -1,0 +1,131 @@
+// Forgotten Armament - New Items, American English
+
+///////////////////////////////////////////////////////////////////////////
+// Dojigiri +2 (Katana - BGEE)                                           //
+///////////////////////////////////////////////////////////////////////////
+@2000 = ~Katana~
+@2001 = ~The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process that is more art form than anything else. This blade is an important facet of Kara-Turan culture. To touch or wield a samurai's katana is to insult the samurai and to incite his wrath. For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or the gaijin has murdered a samurai.
+
+STATISTICS:
+
+Damage: 1d10 
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+@2002=~Dojigiri +2~
+@2003=~The name Dojigiri comes from the legend of a notorious ogre-magi, Shutendoji, where it said this katana was used to kill the ogre.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d10+2, +1 acid damage
+Damage type: Slashing
+Speed Factor: 2
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Bastard Sword +2 (Bastard Sword - BGEE)                               //
+///////////////////////////////////////////////////////////////////////////
+@2010 = ~Bastard Sword~
+@2011 = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. The bastard sword has a double-edged blade and a long grip, which can accommodate both hands if preferred. The overall length of the bastard sword ranges between four feet and four feet ten inches.
+
+STATISTICS:
+
+Damage: 2d4 (slashing)
+Speed Factor: 8
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 10~
+
+@2012 = ~~
+@2013 = ~~
+
+///////////////////////////////////////////////////////////////////////////
+// Spear +2 (Spear - BGEE)                                               //
+///////////////////////////////////////////////////////////////////////////
+@2020 = ~Spear~
+@2021 = ~One of the earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When the civilized races mastered metals, spearheads were made from iron and steel. Having reached this end, weaponsmiths began experimenting with different types of spearheads, thus leading to the development of certain polearm types.
+
+STATISTICS:
+
+Damage: 1d6 (piercing)
+Speed Factor: 6
+Proficiency Type: Spear
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 5~
+
+@2022 = ~~
+@2023 = ~~
+
+///////////////////////////////////////////////////////////////////////////
+// Onimaru Kunitsuna +5 (Katana - BGII: EE)                              //
+///////////////////////////////////////////////////////////////////////////
+@2030 = ~Onimaru Kunitsuna +5~
+@2031 = ~The Onimaru Kunitsuna, also known as the Demon Sword, was forged for the demon warrior Xei Win Toh. This is an evil blade that thirsts for the life force of its owner's enemies. Xei Win Toh was eventually defeated in battle by <CHARNAME> while the Bhaalspawn was clearing Watcher's Keep for a group of Helmites known as the Knights of the Vigil. 
+
+STATISTICS:
+
+Combat abilities:
+- 5% chance of instantly draining the life force and killing the opponent with each successful attack
+- Each hit drains 1d6 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
+
+THACO: +5
+Damage: 1d10+5
+Damage type: Slashing
+Speed Factor: 1
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Large Shield of Strength +1 (Large Shield - BGII: EE)                 //
+///////////////////////////////////////////////////////////////////////////
+@2040 = ~Large Shield~
+@2041 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1, an extra +1 vs. missile attacks
+
+Requires:
+ 15 Strength
+
+Weight: 15~
+
+@2042 = ~Large Shield of Strength +1~
+@2043 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +2, an extra +1 vs. missile attacks
+– Strength: +1
+– Slashing Resistance: +10%
+– Piercing Resistance: +10%
+
+Requires:
+ 14 Strength
+
+Weight: 12~
+
