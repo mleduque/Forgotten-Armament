@@ -63,8 +63,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 // Assigns Bastard Sword +2 to Person                                    //
 ///////////////////////////////////////////////////////////////////////////
 
-    COPY_EXISTING ~GORWOM06.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 5
+    COPY_EXISTING ~XXXXX.CRE~ ~override~
         ADD_CRE_ITEM ~MO1H75~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
 ///////////////////////////////////////////////////////////////////////////
