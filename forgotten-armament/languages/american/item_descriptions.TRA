@@ -1,7 +1,7 @@
 // Forgotten Armament - New Items, American English
 
 ///////////////////////////////////////////////////////////////////////////
-// Dojigiri +2 (Katana - BGEE)                                           //
+// Master Li's Way +2 (Katana - BGEE)                                    //
 ///////////////////////////////////////////////////////////////////////////
 @2000 = ~Katana~
 @2001 = ~The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process that is more art form than anything else. This blade is an important facet of Kara-Turan culture. To touch or wield a samurai's katana is to insult the samurai and to incite his wrath. For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or the gaijin has murdered a samurai.
@@ -18,8 +18,8 @@ Requires:
 
 Weight: 4~
 
-@2002=~Dojigiri +2~
-@2003=~The name Dojigiri comes from the legend of a notorious ogre-magi, Shutendoji, where it said this katana was used to kill the ogre.
+@2002=~Master Li's Way +2~
+@2003=~Once thought a unique instance of the swordmaker's craft, several katanas of this type have now been linked to a ship that ran aground on the Sword Coast some years ago. All bear the markings of Master Hu Li, a great artificer from the east, but little else is known of him.
 
 STATISTICS:
 
@@ -35,7 +35,7 @@ Requires:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// <insert name> +2 (Bastard Sword - BGEE)                               //
+// Nameless Light +2 (Bastard Sword - BGEE)                              //
 ///////////////////////////////////////////////////////////////////////////
 @2010 = ~Bastard Sword~
 @2011 = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. The bastard sword has a double-edged blade and a long grip, which can accommodate both hands if preferred. The overall length of the bastard sword ranges between four feet and four feet ten inches.
@@ -51,8 +51,8 @@ Requires:
 
 Weight: 10~
 
-@2012 = ~<insert name> +2~
-@2013 = ~<insert description>
+@2012 = ~Nameless Light +2~
+@2013 = ~Legend states that the warrior Alesia brought the Nameless Light from the stars, although other tales claim it was forged by a grieving father, or was the weapon of a virtuous paladin. In truth, several such blades exist. They were created with the blessing of the Harpers, and each has had many stories from any number of owners. Perhaps that is their true power: they compel people to craft heroes of their own.
 
 STATISTICS:
 
@@ -61,7 +61,8 @@ Equipped abilities:
 - Magic Resistance: +5%
 
 THAC0: +2
-Damage: 2d4+2 (slashing)
+Damage: 2d4+2
+Damage type: Slashing
 Speed Factor: 6
 Proficiency Type: Bastard Sword
 Type: One-handed
@@ -71,7 +72,7 @@ Requires:
 Weight: 7~
 
 ///////////////////////////////////////////////////////////////////////////
-// <insert name> +2 (Spear - BGEE)                                       //
+// Briarspike +2 (Spear - BGEE)                                          //
 ///////////////////////////////////////////////////////////////////////////
 @2020 = ~Spear~
 @2021 = ~One of the earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When the civilized races mastered metals, spearheads were made from iron and steel. Having reached this end, weaponsmiths began experimenting with different types of spearheads, thus leading to the development of certain polearm types.
@@ -87,16 +88,14 @@ Requires:
 
 Weight: 5~
 
-@2022 = ~<insert name> +2~
-@2023 = ~<insert description>
+@2022 = ~Briarspike +2~
+@2023 = ~Briarspikes look like they could have been plucked from some giant quill-covered beast, but the methods involved are very sophisticated and bear the hallmarks of Menold of Waterdeep. This may shed some light on his fate, as he was reported lost to an orc raid on his tower years ago. He may have attempted to buy his freedom with his services, but it would have only made him more valuable as a prisoner.
 
 STATISTICS:
 
-Combat abilities:
-- 10% chance per hit that target is entangled for 1 round
-
 THAC0: +2
-Damage: 1d6+2 (piercing)
+Damage: 1d6+2, +2 poison damage
+Damage type: Piercing
 Speed Factor: 4
 Proficiency Type: Spear 
 Type: Two-handed
@@ -106,16 +105,16 @@ Requires:
 Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
-// Onimaru Kunitsuna +5 (Katana - BGII: EE)                              //
+// Naught Katana +5 (Katana - BGII: EE)                                  //
 ///////////////////////////////////////////////////////////////////////////
-@2030 = ~Onimaru Kunitsuna +5~
-@2031 = ~The Onimaru Kunitsuna, also known as the Demon Sword, was forged for the demon warrior Xei Win Toh. This is an evil blade that thirsts for the life force of its owner's enemies. Xei Win Toh was eventually defeated in battle by <CHARNAME> while the Bhaalspawn was clearing Watcher's Keep for a group of Helmites known as the Knights of the Vigil. 
+@2030 = ~Naught Katana +5~
+@2031 = ~Once a sacred katana from the imperial court of Shou, the poor combination of an especially canny thief and an especially drowsy guard set this powerful artifact into the wilds along the great twisting Golden Way. It was formed from a slice of an unknown substance, cut from another plane, and forged in an act that drank its creator's soul away... and that the blade seems to be growing slowly more powerful - with a sinking hunger that is never satiated.
 
 STATISTICS:
 
 Combat abilities:
-- 5% chance of instantly draining the life force and killing the opponent with each successful attack
-- Each hit drains 1d6 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
+- 5% chance of instantly draining the life force and killing the opponent with each successful attack (Save vs. Death at -4 negates)
+- Each hit drains 2 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
 
 THACO: +5
 Damage: 1d10+5
@@ -160,3 +159,38 @@ Requires:
 
 Weight: 12~
 
+///////////////////////////////////////////////////////////////////////////
+// Spider's Kiss +2 (Scimitar - BGII: EE)                                //
+///////////////////////////////////////////////////////////////////////////
+@2050 = ~Scimitar~
+@2051 = ~The long, curved, single-edged blade is characteristic of both the saber and the scimitar, even though their origins lie in different parts of Faerûn. Whereas the saber was intended chiefly for horsemen, mainly due to its versatility, the scimitar has a heavier oriental influence. The "shamshir," as it was originally called, is larger, more highly curved, and tapered to an elongated, sharp point. This makes the weapon slightly slower but more effective and deadly in combat.
+
+STATISTICS:
+
+Damage: 1d8
+Damage type: Slashing
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 4~
+
+@2052 = ~Spider's Kiss +2~
+@2053 = ~The weapon used by the drow druidess, Pai'Na, within the lower tombs of Athkatla. The blade of this dark weapon is slick with a permanent coating of spider venom.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers 1 point of poison damage per second for 1 round (Save vs. Poison negates)
+
+THACO: +2
+Damage: 1D8+2
+Damage type: Slashing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: One-handed
+Requires: 
+ 10 Strength~

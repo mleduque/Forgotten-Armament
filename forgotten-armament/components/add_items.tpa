@@ -8,7 +8,7 @@
 
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 ///////////////////////////////////////////////////////////////////////////
-// Creates Dojigiri +2 - Katana                                          //
+// Creates Master Li's Way +2 - Katana                                   //
 ///////////////////////////////////////////////////////////////////////////
 
     COPY ~houserules/itm/MO1H55.ITM~ ~override/MO1H55.ITM~
@@ -18,7 +18,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY DESC @2003
 
 ///////////////////////////////////////////////////////////////////////////
-// Creates Bastard Sword +2 - Bastard Sword                              //
+// Creates Nameless Light +2 - Bastard Sword                             //
 ///////////////////////////////////////////////////////////////////////////
 
     COPY ~houserules/itm/MO1H42.ITM~ ~override/MO1H42.ITM~
@@ -28,7 +28,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY DESC @2013
 
 ///////////////////////////////////////////////////////////////////////////
-// Creates Spear +2 - Spear                                              //
+// Creates Briarspike +2 - Spear                                         //
 ///////////////////////////////////////////////////////////////////////////
 
     COPY ~houserules/itm/MOSP01.ITM~ ~override/MOSP01.ITM~
@@ -44,7 +44,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Assigns Dojigiri +2 to Meilum                                         //
+// Assigns Master Li's Way +2 to Meilum                                  //
 ///////////////////////////////////////////////////////////////////////////
 
     COPY_EXISTING ~MEILUM.CRE~ ~override~
@@ -52,7 +52,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         REPLACE_CRE_ITEM ~MO1H55~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
 ///////////////////////////////////////////////////////////////////////////
-// Assigns Spear +2 to Seniyad                                           //
+// Assigns Briarspike +2 to Seniyad                                      //
 ///////////////////////////////////////////////////////////////////////////
 
     COPY_EXISTING ~SENIYA.CRE~ ~override~
@@ -60,19 +60,12 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         REPLACE_CRE_ITEM ~MOSP01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
 ///////////////////////////////////////////////////////////////////////////
-// Assigns Bastard Sword +2 to Person                                    //
+// Assigns Nameless Light +2 to Person                                   //
 ///////////////////////////////////////////////////////////////////////////
 
     COPY_EXISTING ~XXXXX.CRE~ ~override~
         ADD_CRE_ITEM ~MO1H75~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
-///////////////////////////////////////////////////////////////////////////
-// Assigns Spear +2 to Person                                            //
-///////////////////////////////////////////////////////////////////////////
-
-    COPY_EXISTING ~GORWOM06.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 5
-        ADD_CRE_ITEM ~MO1H75~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -83,7 +76,7 @@ END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 ///////////////////////////////////////////////////////////////////////////
-// Creates Onimaru Kunitsuna +5 Katana                                   //
+// Creates Naught Katana +5 Katana                                       //
 ///////////////////////////////////////////////////////////////////////////
 
     COPY ~houserules/itm/MO1H75.ITM~ ~override/MO1H75.ITM~
@@ -103,13 +96,23 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY DESC @2043
 
 ///////////////////////////////////////////////////////////////////////////
+// Spider's Kiss +2                                                      //
+///////////////////////////////////////////////////////////////////////////
+
+    COPY ~houserules/itm/MO1H50.ITM~ ~override/MO1H50.ITM~
+        SAY NAME1 @2050
+        SAY NAME2 @2052
+        SAY UNIDENTIFIED_DESC @2051
+        SAY DESC @2053
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Assign New Items - BG II:EE or BGEET                                  //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Assigns Onimaru Kunitsuna +5 to Xei Win Toh                           //
+// Assigns Naught Katana +5 to Xei Win Toh                               //
 ///////////////////////////////////////////////////////////////////////////
 
     COPY_EXISTING ~GORWOM06.CRE~ ~override~
@@ -117,10 +120,19 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         ADD_CRE_ITEM ~MO1H75~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
 ///////////////////////////////////////////////////////////////////////////
-// Gives Joluv Large Shield of Strength +1 to sell                       //
+// Gives Jaden (Rasaad's Quest) Large Shield of Strength +1              //
 ///////////////////////////////////////////////////////////////////////////
 
-    COPY_EXISTING ~WMART1.STO~ ~override~
-        ADD_STORE_ITEM ~USHLD4A~ #0 #0 #0 ~IDENTIFIED~ #1
+    COPY_EXISTING ~OHRJADEN.CRE~ ~override~
+        REPLACE_CRE_ITEM ~USHLD4A~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
+
+///////////////////////////////////////////////////////////////////////////
+// Assigns Spider's Kiss +2 to Pai'Na                                    //
+///////////////////////////////////////////////////////////////////////////
+
+    COPY_EXISTING ~SPPAIN.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYSCIMITARWAKISASHININJATO~ 1
+        SET_BG2_PROFICIENCY ~PROFICIENCYSINGLEWEAPON~ 1
+        ADD_CRE_ITEM ~MO1H50~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
 END
