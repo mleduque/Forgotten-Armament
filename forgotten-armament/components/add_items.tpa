@@ -21,7 +21,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 // Creates Bastard Sword +2 - Bastard Sword                              //
 ///////////////////////////////////////////////////////////////////////////
 
-    COPY ~houserules/itm/XXXXXX.ITM~ ~override/XXXXXX.ITM~
+    COPY ~houserules/itm/MO1H42.ITM~ ~override/MO1H42.ITM~
         SAY NAME1 @2010
         SAY NAME2 @2012
         SAY UNIDENTIFIED_DESC @2011
@@ -31,7 +31,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 // Creates Spear +2 - Spear                                              //
 ///////////////////////////////////////////////////////////////////////////
 
-    COPY ~houserules/itm/XXXXXX.ITM~ ~override/XXXXXX.ITM~
+    COPY ~houserules/itm/MOSP01.ITM~ ~override/MOSP01.ITM~
         SAY NAME1 @2020
         SAY NAME2 @2022
         SAY UNIDENTIFIED_DESC @2021
@@ -50,6 +50,14 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
     COPY_EXISTING ~MEILUM.CRE~ ~override~
         SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 4
         REPLACE_CRE_ITEM ~MO1H55~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+///////////////////////////////////////////////////////////////////////////
+// Assigns Spear +2 to Seniyad                                           //
+///////////////////////////////////////////////////////////////////////////
+
+    COPY_EXISTING ~SENIYA.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYSPEAR~ 1
+        REPLACE_CRE_ITEM ~MOSP01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
 ///////////////////////////////////////////////////////////////////////////
 // Assigns Bastard Sword +2 to Person                                    //
