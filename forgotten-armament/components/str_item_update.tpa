@@ -9,8 +9,10 @@
 ///////////////////////////////////////////////////////////////////////////
 // Girdle of Hill Giant Strength +2 STR                                  //
 ///////////////////////////////////////////////////////////////////////////
-COPY ~forgotten-armament/itm/BELT06.ITM~ ~override/BELT06.ITM~
-    SAY DESC @300
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/BELT06.ITM~ ~override/BELT06.ITM~
+        SAY DESC @300
+END
 
 ///////////////////////////////////////////////////////////////////////////
 // Girdle of Stone Giant Strength +3 STR                                 //

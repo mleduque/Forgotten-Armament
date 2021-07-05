@@ -49,7 +49,7 @@ INCLUDE ~forgotten-armament/components/add_items.tpa~
 
 BEGIN @2 DESIGNATED 2 LABEL ForgottenArmament-MoveItems
 
-REQUIRE_PREDICATE (GAME_IS ~bg2ee eet~) @3002
+REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
 
 INCLUDE ~forgotten-armament/components/move_items.tpa~
 
@@ -59,7 +59,7 @@ INCLUDE ~forgotten-armament/components/move_items.tpa~
 
 BEGIN @3 DESIGNATED 3 LABEL ForgottenArmament-UpdateStrengthItems
 
-REQUIRE_PREDICATE (GAME_IS ~bg2ee eet~) @3002
+REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
 
 INCLUDE ~forgotten-armament/components/str_item_update.tpa~
 

@@ -20,6 +20,11 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY NAME2 @2002
         SAY UNIDENTIFIED_DESC @2001
         SAY DESC @2003
+
+    // Assign to Kahrk in Firewine Bridge
+    COPY_EXISTING ~KAHRK.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 4
+        REPLACE_CRE_ITEM ~MO1H55~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -42,6 +47,11 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY NAME2 @2022
         SAY UNIDENTIFIED_DESC @2021
         SAY DESC @2023
+
+    // Assign to Seniyad in Cloakwood
+    COPY_EXISTING ~SENIYA.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYSPEAR~ 1
+        REPLACE_CRE_ITEM ~MOSP01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -54,6 +64,11 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @2001
         SAY DESC @2005
     COPY ~forgotten-armament/eff/MO1H75.EFF~ ~override/MO1H75.EFF~
+
+    // Assign to Xei Win Toh in Watcher's Keep Seal 
+    COPY_EXISTING ~GORWOM06.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 5
+        ADD_CRE_ITEM ~MO1H75~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -65,6 +80,12 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @2052
         SAY UNIDENTIFIED_DESC @2051
         SAY DESC @2053
+
+    // Assign to Pai'Na in Graveyard underground
+    COPY_EXISTING ~SPPAIN.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYSCIMITARWAKISASHININJATO~ 1
+        SET_BG2_PROFICIENCY ~PROFICIENCYSINGLEWEAPON~ 1
+        ADD_CRE_ITEM ~MO1H50~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -82,6 +103,10 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @2042
         SAY UNIDENTIFIED_DESC @2041
         SAY DESC @2043
+
+    // Assign to Jaden (Rasaad's Quest)
+    COPY_EXISTING ~OHRJADEN.CRE~ ~override~
+        REPLACE_CRE_ITEM ~USHLD4A~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -110,6 +135,10 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @2032
         SAY UNIDENTIFIED_DESC @2031
         SAY DESC @2033
+
+    // Assign to Carlig's Store in Underdark    
+    COPY_EXISTING ~UDDUER01.STO~ ~override~
+        ADD_STORE_ITEM ~MOFP01.ITM~ #0 #0 #0 ~IDENTIFIED~ #1
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -140,69 +169,3 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY DESC @2075
 END
 
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-// Assign New Items                                                      //
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////////////////
-// Assigns Master Li's Way +2 to Meilum                                  //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
-    COPY_EXISTING ~MEILUM.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 4
-        REPLACE_CRE_ITEM ~MO1H55~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-END
-
-///////////////////////////////////////////////////////////////////////////
-// Assigns Briarspike +2 to Seniyad                                      //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
-    COPY_EXISTING ~SENIYA.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYSPEAR~ 1
-        REPLACE_CRE_ITEM ~MOSP01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-END
-
-///////////////////////////////////////////////////////////////////////////
-// Assigns Nameless Light +2 to Person                                   //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
-    COPY_EXISTING ~XXXXX.CRE~ ~override~
-        ADD_CRE_ITEM ~MO1H42~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-END
-
-///////////////////////////////////////////////////////////////////////////
-// Assigns Naught Katana +5 to Xei Win Toh                               //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY_EXISTING ~GORWOM06.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 5
-        ADD_CRE_ITEM ~MO1H75~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-END
-
-///////////////////////////////////////////////////////////////////////////
-// Gives Jaden (Rasaad's Quest) Large Shield of Strength +1              //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY_EXISTING ~OHRJADEN.CRE~ ~override~
-        REPLACE_CRE_ITEM ~USHLD4A~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
-END
-
-///////////////////////////////////////////////////////////////////////////
-// Assigns Spider's Kiss +2 to Pai'Na                                    //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY_EXISTING ~SPPAIN.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYSCIMITARWAKISASHININJATO~ 1
-        SET_BG2_PROFICIENCY ~PROFICIENCYSINGLEWEAPON~ 1
-        ADD_CRE_ITEM ~MO1H50~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-END
-
-///////////////////////////////////////////////////////////////////////////
-// Adds Storm Armor of the Earth's Children to Carlig Store (Underdark)  //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY_EXISTING ~UDDUER01.STO~ ~override~
-        ADD_STORE_ITEM ~MOFP01.ITM~ #0 #0 #0 ~IDENTIFIED~ #1
-END
