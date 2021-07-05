@@ -113,11 +113,10 @@ Weight: 3~
 STATISTICS:
 
 Combat abilities:
-- 5% chance of instantly draining the life force and killing the opponent with each successful attack (Save vs. Death at -4 negates)
-- Each hit drains 2 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
+- Each hit drains 1d6 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
 
 THACO: +5
-Damage: 1d10+5
+Damage: 1d10+5, +5 extra vs. lawful
 Damage type: Slashing
 Speed Factor: 1
 Proficiency Type: Katana
@@ -194,3 +193,32 @@ Proficiency Type: Scimitar/Wakizashi/Ninja-To
 Type: One-handed
 Requires: 
  10 Strength~
+
+///////////////////////////////////////////////////////////////////////////
+// The Gilded Defender (Plate Mail - BGII: EE)                           //
+///////////////////////////////////////////////////////////////////////////
+@2060 = ~Plate Mail~
+@2061 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen, and groin. Similar in construction to bronze plate mail, true plate mail comprises chain and leather.
+
+STATISTICS:
+
+Armor Class: 3 (0 vs. slashing)
+Requires:
+ 12 Strength
+
+Weight: 50~
+
+@2062 = ~The Gilded Defender~
+@2062 = ~The ring of metal against metal seems to cling to this ornate suit of the very finest armor. Hammered into the most intricate of shapes by the finest dwarven smiths, this armor speaks of the dwarven cultures most honored companions: the Defenders. None shall pass their shield wall and none shall withstand their charge.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +2
+- Hit Points: +10
+
+Armor Class: 1 (-2 vs. slashing)
+Requires:
+ 12 Strength
+
+Weight: 25~
