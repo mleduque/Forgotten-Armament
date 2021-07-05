@@ -2,7 +2,7 @@
 
 @1 = ~Install New Items~
 @2 = ~Move Certain Items to More Difficult Locations~
-@3 = ~Update Strength Items to Increment Strength Instead of Set Strength~
+@3 = ~Update Stat Increasing Items to Increment the Increase~
 
 @3000 = ~Component requires BG: EE, BGII: EE, or EET~
 @3001 = ~DLCMerger is needed before modding SoD games~
