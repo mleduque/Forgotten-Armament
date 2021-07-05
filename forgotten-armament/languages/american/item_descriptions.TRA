@@ -121,6 +121,16 @@ Requires:
 Weight: 50~
 
 ///////////////////////////////////////////////////////////////////////////
+// Belt                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@2070 = ~Girdle~
+@2071 = ~Girdles are generally similar to belts. Unlike belts, girdles are not used to hold up pants and dungarees, but to carry pouches, scabbards, and the like. 
+
+STATISTICS:
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Identified Item Descriptions                                          //
 ///////////////////////////////////////////////////////////////////////////
@@ -285,3 +295,151 @@ Requires:
  15 Strength
 
 Weight: 40~
+
+///////////////////////////////////////////////////////////////////////////
+// Ceremonial Uthgardt Belt (Belt - Any Game)                            //
+///////////////////////////////////////////////////////////////////////////
+@2072 = ~Ceremonial Uthgardt Belt~
+@2073 = ~In an attempt to keep the thriving Uthgardt clans under control, a long-forgotten gathering of druids inflicted them with a virulent pox. This disease soon spread out of control, and far from curbing their numbers actually threatened their extinction. To maintain the balance, these same druids created a number of these ceremonial belts to ensure the survival of the clan's leaders. Ultimately the Uthgardt survived the plague, though the incident did not improve their opinion of outsiders.
+
+STATISTICS:
+
+Charge abilities:
+- Immunity to disease
+- Save vs. death: +4
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Update Strength Items to Increment Str Instead of Set Str             //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Hill Giant Strength (Belt - BGII: EE)                       //
+///////////////////////////////////////////////////////////////////////////
+@300 = ~This plain belt makes the wearer as strong as a hill giant, but does not make him or her giant size. Many a cocky warrior has been surprised by a much smaller opponent with remarkable strength. More often than not a belt such as this is the reason.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +2
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Stone Giant Strength (Belt - BGII: EE)                      //
+///////////////////////////////////////////////////////////////////////////
+@301 = ~As a young boy, Stewart Elttil was kidnapped by raiding kobolds after his family was slain. However, en route to their den, the kobolds surprised a family of stone giants. These giants rescued Stewart and raised him as their own. It soon became apparent that the boy, no matter how hard he tried, could not compete in the family rock-throwing contests. The stone giant father bartered with a local wizard for this girdle, which made Stewart as strong as his brothers and sisters. When Stewart met an untimely end, the girdle was stolen away.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +3
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Frost Giant Strength (Belt - BGII: EE)                      //
+///////////////////////////////////////////////////////////////////////////
+@302 = ~This belt is actually the woven hair from a frost giant's beard. When worn, the belt greatly increases the wearer's Strength, making <PRO_HIMHER> as strong as a frost giant.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +4
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Fire Giant Strength (Belt - BGII: EE)                       //
+///////////////////////////////////////////////////////////////////////////
+@303 = ~This belt is actually the woven hair from a fire giant's beard. When worn, the belt greatly increases the wearer's strength. 
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +5
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Hands of Takkok (Gloves - BGII: EE)                                   //
+///////////////////////////////////////////////////////////////////////////
+@304 = ~Gauntlets of Ogre Power: Hands of Takkok
+The Hands of Takkok are exactly that: his very hands. He lost them when he attacked a strange man crossing the Spine of the World. The mysterious man turned out to be a mage of incredible power, and he used Takkok's hands to create this pair of ogre skin gauntlets.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +1
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Angurvadal +4 (Longsword - BGII: EE)                                  //
+///////////////////////////////////////////////////////////////////////////
+@305 = ~Also known as the Stream of Anguish, this is the legendary burning blade of Frithiof. 
+
+STATISTICS:
+
+Charge abilities:
+- Increase Strength by +5 once per day
+  Duration: 1 turn
+  Area of Effect: The user
+
+THAC0: +4
+Damage: 1d8+4, +1 fire damage
+Damage type: Slashing
+Speed Factor: 1
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Angurvadal +5 (Longsword - BGII: EE)                                  //
+///////////////////////////////////////////////////////////////////////////
+@306 = ~The true power of Frithior's blazing sword has been unleashed by the Liquid Mercury.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +5
+- Immunity to level drain
+
+THAC0: +5
+Damage: 1d8+5, 1d4+1 fire damage
+Damage type: Slashing
+Speed Factor: 0
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Crom Faeyr +5 (War Hammer - BGII: EE)                                 //
+///////////////////////////////////////////////////////////////////////////
+@307 = ~This is the true name that the dwarven weaponsmith, Silverblade, gave to the weapon he intended to create for his son. Alas, his son died before the weapon was ever completed, but here it stands complete... forged from the combined magic of the original hammer with the gauntlets of ogre power and a girdle of frost giant strength. Crom Faeyr gifts its users with all the powers of the original Hammer of Thunderbolts, in addition to enormous strength and the ability to kill golems, ettins, and trolls in one blow.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +8
+
+Combat abilities:
+- Slays stone golems, clay golems, ettins, and trolls
+
+THAC0: +5
+Damage: 2d4+3, +5 electrical
+Damage type: Crushing
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type: One-handed
+
+Weight: 4~
