@@ -49,9 +49,9 @@ END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~houserules/itm/MO1H75.ITM~ ~override/MO1H75.ITM~
         SAY NAME1 @2000
-        SAY NAME2 @2030
+        SAY NAME2 @2004
         SAY UNIDENTIFIED_DESC @2001
-        SAY DESC @2031
+        SAY DESC @2005
     COPY ~houserules/eff/MO1H75.EFF~ ~override/MO1H75.EFF~
 END
 
@@ -101,6 +101,18 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @2062
         SAY UNIDENTIFIED_DESC @2061
         SAY DESC @2063
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Storm Armor of the Earth's Children - Full Mail                       //
+///////////////////////////////////////////////////////////////////////////
+
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~houserules/itm/MOFP01.ITM~ ~override/MOFP01.ITM~
+        SAY NAME1 @2030
+        SAY NAME2 @2032
+        SAY UNIDENTIFIED_DESC @2031
+        SAY DESC @2033
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -166,4 +178,13 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SET_BG2_PROFICIENCY ~PROFICIENCYSCIMITARWAKISASHININJATO~ 1
         SET_BG2_PROFICIENCY ~PROFICIENCYSINGLEWEAPON~ 1
         ADD_CRE_ITEM ~MO1H50~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Adds Storm Armor of the Earth's Children to Carlig Store (Underdark)  //
+///////////////////////////////////////////////////////////////////////////
+
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY_EXISTING ~UDDUER01.STO~ ~override~
+        ADD_STORE_ITEM ~MOFP01.ITM~ #0 #0 #0 ~IDENTIFIED~ #1
 END

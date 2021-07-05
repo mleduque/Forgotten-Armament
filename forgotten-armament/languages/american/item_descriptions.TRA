@@ -1,7 +1,13 @@
 // Forgotten Armament - New Items, American English
 
 ///////////////////////////////////////////////////////////////////////////
-// Master Li's Way +2 (Katana - BGEE)                                    //
+///////////////////////////////////////////////////////////////////////////
+// Unidentified Item Descriptions                                        //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Katana                                                                //
 ///////////////////////////////////////////////////////////////////////////
 @2000 = ~Katana~
 @2001 = ~The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process that is more art form than anything else. This blade is an important facet of Kara-Turan culture. To touch or wield a samurai's katana is to insult the samurai and to incite his wrath. For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or the gaijin has murdered a samurai.
@@ -18,6 +24,111 @@ Requires:
 
 Weight: 4~
 
+///////////////////////////////////////////////////////////////////////////
+// Bastard Sword                                                         //
+///////////////////////////////////////////////////////////////////////////
+@2010 = ~Bastard Sword~
+@2011 = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. The bastard sword has a double-edged blade and a long grip, which can accommodate both hands if preferred. The overall length of the bastard sword ranges between four feet and four feet ten inches.
+
+STATISTICS:
+
+Damage: 2d4 (slashing)
+Speed Factor: 8
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 10~
+
+///////////////////////////////////////////////////////////////////////////
+// Spear                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@2020 = ~Spear~
+@2021 = ~One of the earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When the civilized races mastered metals, spearheads were made from iron and steel. Having reached this end, weaponsmiths began experimenting with different types of spearheads, thus leading to the development of certain polearm types.
+
+STATISTICS:
+
+Damage: 1d6 (piercing)
+Speed Factor: 6
+Proficiency Type: Spear
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Full Plate Mail                                                       //
+///////////////////////////////////////////////////////////////////////////
+@2030 = ~Full Plate Mail~
+@2031 = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection. The perfectly fitted, interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.
+
+STATISTICS:
+
+Armor Class: 1 (-3 vs. slashing, -2 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 70~
+
+///////////////////////////////////////////////////////////////////////////
+// Large Shield                                                          //
+///////////////////////////////////////////////////////////////////////////
+@2040 = ~Large Shield~
+@2041 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1, an extra +1 vs. missile attacks
+
+Requires:
+ 15 Strength
+
+Weight: 15~
+
+///////////////////////////////////////////////////////////////////////////
+// Scimitar                                                              //
+///////////////////////////////////////////////////////////////////////////
+@2050 = ~Scimitar~
+@2051 = ~The long, curved, single-edged blade is characteristic of both the saber and the scimitar, even though their origins lie in different parts of Faerûn. Whereas the saber was intended chiefly for horsemen, mainly due to its versatility, the scimitar has a heavier oriental influence. The "shamshir," as it was originally called, is larger, more highly curved, and tapered to an elongated, sharp point. This makes the weapon slightly slower but more effective and deadly in combat.
+
+STATISTICS:
+
+Damage: 1d8
+Damage type: Slashing
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Plate Mail                                                            //
+///////////////////////////////////////////////////////////////////////////
+@2060 = ~Plate Mail~
+@2061 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen, and groin. Similar in construction to bronze plate mail, true plate mail comprises chain and leather.
+
+STATISTICS:
+
+Armor Class: 3 (0 vs. slashing)
+Requires:
+ 12 Strength
+
+Weight: 50~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Identified Item Descriptions                                          //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Master Li's Way +2 (Katana - BGEE)                                    //
+///////////////////////////////////////////////////////////////////////////
 @2002=~Master Li's Way +2~
 @2003=~Once thought a unique instance of the swordmaker's craft, several katanas of this type have now been linked to a ship that ran aground on the Sword Coast some years ago. All bear the markings of Master Hu Li, a great artificer from the east, but little else is known of him.
 
@@ -35,22 +146,30 @@ Requires:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Nameless Light +2 (Bastard Sword - BGEE)                              //
+// Naught Katana +5 (Katana - BGII: EE)                                  //
 ///////////////////////////////////////////////////////////////////////////
-@2010 = ~Bastard Sword~
-@2011 = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. The bastard sword has a double-edged blade and a long grip, which can accommodate both hands if preferred. The overall length of the bastard sword ranges between four feet and four feet ten inches.
+@2004 = ~Naught Katana +5~
+@2005 = ~Once a sacred katana from the imperial court of Shou, the poor combination of an especially canny thief and an especially drowsy guard set this powerful artifact into the wilds along the great twisting Golden Way. It was formed from a slice of an unknown substance, cut from another plane, and forged in an act that drank its creator's soul away... and that the blade seems to be growing slowly more powerful - with a sinking hunger that is never satiated.
 
 STATISTICS:
 
-Damage: 2d4 (slashing)
-Speed Factor: 8
-Proficiency Type: Bastard Sword
+Combat abilities:
+- Each hit drains 1d6 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
+
+THACO: +5
+Damage: 1d10+5, +5 extra vs. lawful
+Damage type: Slashing
+Speed Factor: 1
+Proficiency Type: Katana
 Type: One-handed
 Requires:
- 11 Strength
+ 6 Strength
 
-Weight: 10~
+Weight: 3~
 
+///////////////////////////////////////////////////////////////////////////
+// Nameless Light +2 (Bastard Sword - BGEE)                              //
+///////////////////////////////////////////////////////////////////////////
 @2012 = ~Nameless Light +2~
 @2013 = ~Legend states that the warrior Alesia brought the Nameless Light from the stars, although other tales claim it was forged by a grieving father, or was the weapon of a virtuous paladin. In truth, several such blades exist. They were created with the blessing of the Harpers, and each has had many stories from any number of owners. Perhaps that is their true power: they compel people to craft heroes of their own.
 
@@ -74,20 +193,6 @@ Weight: 7~
 ///////////////////////////////////////////////////////////////////////////
 // Briarspike +2 (Spear - BGEE)                                          //
 ///////////////////////////////////////////////////////////////////////////
-@2020 = ~Spear~
-@2021 = ~One of the earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When the civilized races mastered metals, spearheads were made from iron and steel. Having reached this end, weaponsmiths began experimenting with different types of spearheads, thus leading to the development of certain polearm types.
-
-STATISTICS:
-
-Damage: 1d6 (piercing)
-Speed Factor: 6
-Proficiency Type: Spear
-Type: Two-handed
-Requires:
- 5 Strength
-
-Weight: 5~
-
 @2022 = ~Briarspike +2~
 @2023 = ~Briarspikes look like they could have been plucked from some giant quill-covered beast, but the methods involved are very sophisticated and bear the hallmarks of Menold of Waterdeep. This may shed some light on his fate, as he was reported lost to an orc raid on his tower years ago. He may have attempted to buy his freedom with his services, but it would have only made him more valuable as a prisoner.
 
@@ -105,43 +210,8 @@ Requires:
 Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
-// Naught Katana +5 (Katana - BGII: EE)                                  //
-///////////////////////////////////////////////////////////////////////////
-@2030 = ~Naught Katana +5~
-@2031 = ~Once a sacred katana from the imperial court of Shou, the poor combination of an especially canny thief and an especially drowsy guard set this powerful artifact into the wilds along the great twisting Golden Way. It was formed from a slice of an unknown substance, cut from another plane, and forged in an act that drank its creator's soul away... and that the blade seems to be growing slowly more powerful - with a sinking hunger that is never satiated.
-
-STATISTICS:
-
-Combat abilities:
-- Each hit drains 1d6 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
-
-THACO: +5
-Damage: 1d10+5, +5 extra vs. lawful
-Damage type: Slashing
-Speed Factor: 1
-Proficiency Type: Katana
-Type: One-handed
-Requires:
- 6 Strength
-
-Weight: 3~
-
-///////////////////////////////////////////////////////////////////////////
 // Large Shield of Strength +1 (Large Shield - BGII: EE)                 //
 ///////////////////////////////////////////////////////////////////////////
-@2040 = ~Large Shield~
-@2041 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
-
-STATISTICS:
-
-Equipped abilities:
-- Armor Class: +1, an extra +1 vs. missile attacks
-
-Requires:
- 15 Strength
-
-Weight: 15~
-
 @2042 = ~Large Shield of Strength +1~
 @2043 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
 
@@ -161,21 +231,6 @@ Weight: 12~
 ///////////////////////////////////////////////////////////////////////////
 // Spider's Kiss +2 (Scimitar - BGII: EE)                                //
 ///////////////////////////////////////////////////////////////////////////
-@2050 = ~Scimitar~
-@2051 = ~The long, curved, single-edged blade is characteristic of both the saber and the scimitar, even though their origins lie in different parts of Faerûn. Whereas the saber was intended chiefly for horsemen, mainly due to its versatility, the scimitar has a heavier oriental influence. The "shamshir," as it was originally called, is larger, more highly curved, and tapered to an elongated, sharp point. This makes the weapon slightly slower but more effective and deadly in combat.
-
-STATISTICS:
-
-Damage: 1d8
-Damage type: Slashing
-Speed Factor: 5
-Proficiency Type: Scimitar/Wakizashi/Ninjatō
-Type: One-handed
-Requires:
- 10 Strength
-
-Weight: 4~
-
 @2052 = ~Spider's Kiss +2~
 @2053 = ~The weapon used by the drow druidess, Pai'Na, within the lower tombs of Athkatla. The blade of this dark weapon is slick with a permanent coating of spider venom.
 
@@ -197,19 +252,8 @@ Requires:
 ///////////////////////////////////////////////////////////////////////////
 // The Gilded Defender (Plate Mail - BGII: EE)                           //
 ///////////////////////////////////////////////////////////////////////////
-@2060 = ~Plate Mail~
-@2061 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen, and groin. Similar in construction to bronze plate mail, true plate mail comprises chain and leather.
-
-STATISTICS:
-
-Armor Class: 3 (0 vs. slashing)
-Requires:
- 12 Strength
-
-Weight: 50~
-
 @2062 = ~The Gilded Defender~
-@2062 = ~The ring of metal against metal seems to cling to this ornate suit of the very finest armor. Hammered into the most intricate of shapes by the finest dwarven smiths, this armor speaks of the dwarven cultures most honored companions: the Defenders. None shall pass their shield wall and none shall withstand their charge.
+@2063 = ~The ring of metal against metal seems to cling to this ornate suit of the very finest armor. Hammered into the most intricate of shapes by the finest dwarven smiths, this armor speaks of the dwarven cultures most honored companions: the Defenders. None shall pass their shield wall and none shall withstand their charge.
 
 STATISTICS:
 
@@ -222,3 +266,22 @@ Requires:
  12 Strength
 
 Weight: 25~
+
+///////////////////////////////////////////////////////////////////////////
+// Storm Armor of the Earth's Children (Full Plate - BGII: EE)           //
+///////////////////////////////////////////////////////////////////////////
+@2032 = ~Storm Armor of the Earth's Children~
+@2033 = ~This well-crafted suit of full plate armor is sized for smaller humanoids, and is crafted of a strange nonmetallic substance that does not conduct electricity or heat. Lore has it that the substance comes from some other plane of existence.
+
+STATISTICS:
+
+Equipped abilities:
+- Cold Resistance: +10%
+- Electrical Resistance: +10%
+- Fire Resistance: +10%
+
+Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 40~
