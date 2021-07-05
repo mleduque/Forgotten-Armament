@@ -57,7 +57,7 @@ INCLUDE ~forgotten-armament/components/move_items.tpa~
 // Update Strength Items to Increment Str Instead of Set Str             //
 ///////////////////////////////////////////////////////////////////////////
 
-BEGIN @3 DESIGNATED 3 LABEL ForgottenArmament-UpdateStrength
+BEGIN @3 DESIGNATED 3 LABEL ForgottenArmament-UpdateStrengthItems
 
 REQUIRE_PREDICATE (GAME_IS ~bg2ee eet~) @3002
 

@@ -306,7 +306,21 @@ STATISTICS:
 
 Charge abilities:
 - Immunity to disease
-- Save vs. death: +4
+- Save vs. Death: +4
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Belt of Agility +2 (Belt - Any Game)                                  //
+///////////////////////////////////////////////////////////////////////////
+@2074 = ~Belt of Agility +2~
+@2075 = ~Attempting to form an anti-thieves' guild, Ronger Delphos, a successful merchant, paid thieves to become security experts, to guard merchants in Waterdeep. The guards were trained to use wands with the Hold Person spell, to capture the thieves for interrogation. To counteract this security measure, magical belts were purchased by the thieves' guild, which nullified the effects of such spells. In the escalating war between the two guilds, many of these belts found their way into pawnshops and equipment stores.
+
+STATISTICS:
+
+Charge abilities:
+- Dexterity: +2
+- Immunity to hold
 
 Weight: 2~
 
