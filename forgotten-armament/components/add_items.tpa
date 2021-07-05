@@ -11,7 +11,7 @@
 ///////////////////////////////////////////////////////////////////////////
 
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
-    COPY ~houserules/itm/MO1H55.ITM~ ~override/MO1H55.ITM~
+    COPY ~forgotten-armament/itm/MO1H55.ITM~ ~override/MO1H55.ITM~
         SAY NAME1 @2000
         SAY NAME2 @2002
         SAY UNIDENTIFIED_DESC @2001
@@ -23,7 +23,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
-    COPY ~houserules/itm/MO1H42.ITM~ ~override/MO1H42.ITM~
+    COPY ~forgotten-armament/itm/MO1H42.ITM~ ~override/MO1H42.ITM~
         SAY NAME1 @2010
         SAY NAME2 @2012
         SAY UNIDENTIFIED_DESC @2011
@@ -35,7 +35,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
-    COPY ~houserules/itm/MOSP01.ITM~ ~override/MOSP01.ITM~
+    COPY ~forgotten-armament/itm/MOSP01.ITM~ ~override/MOSP01.ITM~
         SAY NAME1 @2020
         SAY NAME2 @2022
         SAY UNIDENTIFIED_DESC @2021
@@ -47,12 +47,12 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~houserules/itm/MO1H75.ITM~ ~override/MO1H75.ITM~
+    COPY ~forgotten-armament/itm/MO1H75.ITM~ ~override/MO1H75.ITM~
         SAY NAME1 @2000
         SAY NAME2 @2004
         SAY UNIDENTIFIED_DESC @2001
         SAY DESC @2005
-    COPY ~houserules/eff/MO1H75.EFF~ ~override/MO1H75.EFF~
+    COPY ~forgotten-armament/eff/MO1H75.EFF~ ~override/MO1H75.EFF~
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -60,7 +60,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~houserules/itm/MO1H50.ITM~ ~override/MO1H50.ITM~
+    COPY ~forgotten-armament/itm/MO1H50.ITM~ ~override/MO1H50.ITM~
         SAY NAME1 @2050
         SAY NAME2 @2052
         SAY UNIDENTIFIED_DESC @2051
@@ -78,7 +78,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~houserules/itm/USHLD4A.ITM~ ~override/USHLD4A.ITM~
+    COPY ~forgotten-armament/itm/USHLD4A.ITM~ ~override/USHLD4A.ITM~
         SAY NAME1 @2040
         SAY NAME2 @2042
         SAY UNIDENTIFIED_DESC @2041
@@ -96,7 +96,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~houserules/itm/MOPM01.ITM~ ~override/MOPM01.ITM~
+    COPY ~forgotten-armament/itm/MOPM01.ITM~ ~override/MOPM01.ITM~
         SAY NAME1 @2060
         SAY NAME2 @2062
         SAY UNIDENTIFIED_DESC @2061
@@ -108,7 +108,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~houserules/itm/MOFP01.ITM~ ~override/MOFP01.ITM~
+    COPY ~forgotten-armament/itm/MOFP01.ITM~ ~override/MOFP01.ITM~
         SAY NAME1 @2030
         SAY NAME2 @2032
         SAY UNIDENTIFIED_DESC @2031
