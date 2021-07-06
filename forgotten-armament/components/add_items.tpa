@@ -2,87 +2,91 @@
 
 ///////////////////////////////////////////////////////////////////////////
 // Legend                                                                //
-// *** Means not assigned in the game                                    //
-// **** Means conflict with another mod                                  //
+// *** Means conflict with another mod                                   //
+///////////////////////////////////////////////////////////////////////////
+
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// CREATE NEW MELEE WEAPONS                                              //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Axes                                                                  //
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-// Create New Weapons                                                    //
+// Bastard Swords                                                        //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Master Li's Way +2 - Katana                                    //
+// Nameless Light +2                                                     //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MO1H42.ITM~ ~override/MO1H42.ITM~
+        SAY NAME1 @10100
+        SAY NAME2 @10102
+        SAY UNIDENTIFIED_DESC @10101
+        SAY DESC @10103
+END
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Katanas                                                               //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Master Li's Way +2 - Assign to Kahrk in Firewine Bridge               //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
     COPY ~forgotten-armament/itm/MO1H55.ITM~ ~override/MO1H55.ITM~
-        SAY NAME1 @2000
-        SAY NAME2 @2002
-        SAY UNIDENTIFIED_DESC @2001
-        SAY DESC @2003
+        SAY NAME1 @10600
+        SAY NAME2 @10602
+        SAY UNIDENTIFIED_DESC @10601
+        SAY DESC @10603
 
-    // Assign to Kahrk in Firewine Bridge
     COPY_EXISTING ~KAHRK.CRE~ ~override~
         SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 4
         REPLACE_CRE_ITEM ~MO1H55~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Nameless Light +2 - Bastard Sword ***                          //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
-    COPY ~forgotten-armament/itm/MO1H42.ITM~ ~override/MO1H42.ITM~
-        SAY NAME1 @2010
-        SAY NAME2 @2012
-        SAY UNIDENTIFIED_DESC @2011
-        SAY DESC @2013
-END
-
-///////////////////////////////////////////////////////////////////////////
-// Create Briarspike +2 - Spear                                          //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
-    COPY ~forgotten-armament/itm/MOSP01.ITM~ ~override/MOSP01.ITM~
-        SAY NAME1 @2020
-        SAY NAME2 @2022
-        SAY UNIDENTIFIED_DESC @2021
-        SAY DESC @2023
-
-    // Assign to Seniyad in Cloakwood
-    COPY_EXISTING ~SENIYA.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYSPEAR~ 1
-        REPLACE_CRE_ITEM ~MOSP01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-END
-
-///////////////////////////////////////////////////////////////////////////
-// Create Naught Katana +5 - Katana                                      //
+// Naught Katana +5 - Assign to Xei Win Toh in Watcher's Keep Seal       //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MO1H75.ITM~ ~override/MO1H75.ITM~
-        SAY NAME1 @2000
-        SAY NAME2 @2004
-        SAY UNIDENTIFIED_DESC @2001
-        SAY DESC @2005
+        SAY NAME1 @10600
+        SAY NAME2 @10604
+        SAY UNIDENTIFIED_DESC @10601
+        SAY DESC @10605
     COPY ~forgotten-armament/eff/MO1H75.EFF~ ~override/MO1H75.EFF~
 
-    // Assign to Xei Win Toh in Watcher's Keep Seal 
     COPY_EXISTING ~GORWOM06.CRE~ ~override~
         SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 5
         ADD_CRE_ITEM ~MO1H75~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Spider's Kiss +2 - Scimitar ****                               //
+///////////////////////////////////////////////////////////////////////////
+// Scimitars                                                             //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Create Spider's Kiss +2 - Assign to Pai'Na Below Graveyard ***        //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MO1H50.ITM~ ~override/MO1H50.ITM~
-        SAY NAME1 @2050
-        SAY NAME2 @2052
-        SAY UNIDENTIFIED_DESC @2051
-        SAY DESC @2053
+        SAY NAME1 @11200
+        SAY NAME2 @11202
+        SAY UNIDENTIFIED_DESC @11201
+        SAY DESC @11203
 
-    // Assign to Pai'Na
     // Need to Reassign Elemental Dagger from SoD to BG2EE mod
     COPY_EXISTING ~SPPAIN.CRE~ ~override~
         SET_BG2_PROFICIENCY ~PROFICIENCYSCIMITARWAKISASHININJATO~ 1
@@ -92,60 +96,103 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-// Create New Shields                                                    //
+// Spears                                                                //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Large Shield of Strength +1 from IWDEE                         //
+// Create Briarspike +2 - Assign to Seniyad in Cloakwood                 //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/USHLD4A.ITM~ ~override/USHLD4A.ITM~
-        SAY NAME1 @2040
-        SAY NAME2 @2042
-        SAY UNIDENTIFIED_DESC @2041
-        SAY DESC @2043
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOSP01.ITM~ ~override/MOSP01.ITM~
+        SAY NAME1 @11400
+        SAY NAME2 @11402
+        SAY UNIDENTIFIED_DESC @11401
+        SAY DESC @11403
 
-    // Assign to Jaden (Rasaad's Quest)
-    COPY_EXISTING ~OHRJADEN.CRE~ ~override~
-        REPLACE_CRE_ITEM ~USHLD4A~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
+    COPY_EXISTING ~SENIYA.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYSPEAR~ 1
+        REPLACE_CRE_ITEM ~MOSP01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// CREATE ARMORS                                                         //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-// Create New Armor                                                      //
+// Plate Mail Armors                                                     //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create The Gilded Defender - Plate Mail ***                              //
+// Create The Gilded Defender -                                          //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOPM01.ITM~ ~override/MOPM01.ITM~
-        SAY NAME1 @2060
-        SAY NAME2 @2062
-        SAY UNIDENTIFIED_DESC @2061
-        SAY DESC @2063
+        SAY NAME1 @12800
+        SAY NAME2 @12802
+        SAY UNIDENTIFIED_DESC @12801
+        SAY DESC @12803
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Storm Armor of the Earth's Children - Full Mail                       //
+///////////////////////////////////////////////////////////////////////////
+// Full Plate Armors                                                     //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Storm Armor of the Earth's Children - Carlig's Store in the Underdark //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOFP01.ITM~ ~override/MOFP01.ITM~
-        SAY NAME1 @2030
-        SAY NAME2 @2032
-        SAY UNIDENTIFIED_DESC @2031
-        SAY DESC @2033
+        SAY NAME1 @12900
+        SAY NAME2 @12902
+        SAY UNIDENTIFIED_DESC @12901
+        SAY DESC @12903
 
-    // Assign to Carlig's Store in Underdark    
     COPY_EXISTING ~UDDUER01.STO~ ~override~
         ADD_STORE_ITEM ~MOFP01.ITM~ #0 #0 #0 ~IDENTIFIED~ #1
 END
 
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// CREATE SHIELDS                                                        //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-// Create New Belts                                                      //
+// Create Large Shields                                                  //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Create Large Shield of Strength +1 - Assign to Jaden (Rasaad's Quest) //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/USHLD4A.ITM~ ~override/USHLD4A.ITM~
+        SAY NAME1 @13300
+        SAY NAME2 @13302
+        SAY UNIDENTIFIED_DESC @13301
+        SAY DESC @13303
+
+    COPY_EXISTING ~OHRJADEN.CRE~ ~override~
+        REPLACE_CRE_ITEM ~USHLD4A~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
+END
+
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// CREATE ACCESSORIES                                                    //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Belts                                                                 //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
@@ -154,10 +201,10 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBL01.ITM~ ~override/MOBL01.ITM~
-        SAY NAME1 @2070
-        SAY NAME2 @2072
-        SAY UNIDENTIFIED_DESC @2071
-        SAY DESC @2073
+        SAY NAME1 @13500
+        SAY NAME2 @13502
+        SAY UNIDENTIFIED_DESC @13501
+        SAY DESC @13503
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -165,9 +212,9 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBL02.ITM~ ~override/MOBL02.ITM~
-        SAY NAME1 @2070
-        SAY NAME2 @2074
-        SAY UNIDENTIFIED_DESC @2071
-        SAY DESC @2075
+        SAY NAME1 @13500
+        SAY NAME2 @13504
+        SAY UNIDENTIFIED_DESC @13501
+        SAY DESC @13505
 END
 

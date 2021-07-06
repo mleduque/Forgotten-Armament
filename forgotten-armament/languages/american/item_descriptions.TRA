@@ -1,38 +1,51 @@
 // Forgotten Armament - New Items, American English
 
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// MELEE WEAPONS                                                         //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-// Unidentified Item Descriptions                                        //
+// Axes                                                                  //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Katana                                                                //
+// Battle Axe                                                            //
 ///////////////////////////////////////////////////////////////////////////
-@2000 = ~Katana~
-@2001 = ~The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process that is more art form than anything else. This blade is an important facet of Kara-Turan culture. To touch or wield a samurai's katana is to insult the samurai and to incite his wrath. For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or the gaijin has murdered a samurai.
+@10000 = ~Battle Axe~
+@10001 = ~The most common version of the battle axe is a stout pole about four feet in length with a single-edged, trumpet-shaped blade mounted on one end. Battle axes are also called broad axes. 
 
 STATISTICS:
 
-Damage: 1d10 
+Damage: 1d8 
 Damage type: Slashing
-Speed Factor: 4
-Proficiency Type: Katana
+Speed Factor: 7
+Proficiency Type: Axe
 Type: One-handed
 Requires:
- 6 Strength
+ 10 Strength
 
-Weight: 4~
+Weight: 7~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Bastard Swords                                                        //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Sword                                                         //
 ///////////////////////////////////////////////////////////////////////////
-@2010 = ~Bastard Sword~
-@2011 = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. The bastard sword has a double-edged blade and a long grip, which can accommodate both hands if preferred. The overall length of the bastard sword ranges between four feet and four feet ten inches.
+@10100 = ~Bastard Sword~
+@10101 = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. The bastard sword has a double-edged blade and a long grip, which can accommodate both hands if preferred. The overall length of the bastard sword ranges between four feet and four feet ten inches.
 
 STATISTICS:
 
-Damage: 2d4 (slashing)
+Damage: 2d4
+Damage type: Slashing
 Speed Factor: 8
 Proficiency Type: Bastard Sword
 Type: One-handed
@@ -42,146 +55,10 @@ Requires:
 Weight: 10~
 
 ///////////////////////////////////////////////////////////////////////////
-// Spear                                                                 //
+// Nameless Light +2                                                     //
 ///////////////////////////////////////////////////////////////////////////
-@2020 = ~Spear~
-@2021 = ~One of the earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When the civilized races mastered metals, spearheads were made from iron and steel. Having reached this end, weaponsmiths began experimenting with different types of spearheads, thus leading to the development of certain polearm types.
-
-STATISTICS:
-
-Damage: 1d6 (piercing)
-Speed Factor: 6
-Proficiency Type: Spear
-Type: Two-handed
-Requires:
- 5 Strength
-
-Weight: 5~
-
-///////////////////////////////////////////////////////////////////////////
-// Full Plate Mail                                                       //
-///////////////////////////////////////////////////////////////////////////
-@2030 = ~Full Plate Mail~
-@2031 = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection. The perfectly fitted, interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.
-
-STATISTICS:
-
-Armor Class: 1 (-3 vs. slashing, -2 vs. piercing and missile)
-Requires:
- 15 Strength
-
-Weight: 70~
-
-///////////////////////////////////////////////////////////////////////////
-// Large Shield                                                          //
-///////////////////////////////////////////////////////////////////////////
-@2040 = ~Large Shield~
-@2041 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
-
-STATISTICS:
-
-Equipped abilities:
-- Armor Class: +1, an extra +1 vs. missile attacks
-
-Requires:
- 15 Strength
-
-Weight: 15~
-
-///////////////////////////////////////////////////////////////////////////
-// Scimitar                                                              //
-///////////////////////////////////////////////////////////////////////////
-@2050 = ~Scimitar~
-@2051 = ~The long, curved, single-edged blade is characteristic of both the saber and the scimitar, even though their origins lie in different parts of Faerûn. Whereas the saber was intended chiefly for horsemen, mainly due to its versatility, the scimitar has a heavier oriental influence. The "shamshir," as it was originally called, is larger, more highly curved, and tapered to an elongated, sharp point. This makes the weapon slightly slower but more effective and deadly in combat.
-
-STATISTICS:
-
-Damage: 1d8
-Damage type: Slashing
-Speed Factor: 5
-Proficiency Type: Scimitar/Wakizashi/Ninjatō
-Type: One-handed
-Requires:
- 10 Strength
-
-Weight: 4~
-
-///////////////////////////////////////////////////////////////////////////
-// Plate Mail                                                            //
-///////////////////////////////////////////////////////////////////////////
-@2060 = ~Plate Mail~
-@2061 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen, and groin. Similar in construction to bronze plate mail, true plate mail comprises chain and leather.
-
-STATISTICS:
-
-Armor Class: 3 (0 vs. slashing)
-Requires:
- 12 Strength
-
-Weight: 50~
-
-///////////////////////////////////////////////////////////////////////////
-// Belt                                                                  //
-///////////////////////////////////////////////////////////////////////////
-@2070 = ~Girdle~
-@2071 = ~Girdles are generally similar to belts. Unlike belts, girdles are not used to hold up pants and dungarees, but to carry pouches, scabbards, and the like. 
-
-STATISTICS:
-
-Weight: 2~
-
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-// Identified Item Descriptions                                          //
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////////////////
-// Master Li's Way +2 (Katana - BGEE)                                    //
-///////////////////////////////////////////////////////////////////////////
-@2002=~Master Li's Way +2~
-@2003=~Once thought a unique instance of the swordmaker's craft, several katanas of this type have now been linked to a ship that ran aground on the Sword Coast some years ago. All bear the markings of Master Hu Li, a great artificer from the east, but little else is known of him.
-
-STATISTICS:
-
-THAC0: +2
-Damage: 1d10+2, +1 acid damage
-Damage type: Slashing
-Speed Factor: 2
-Proficiency Type: Katana
-Type: One-handed
-Requires:
- 6 Strength
-
-Weight: 4~
-
-///////////////////////////////////////////////////////////////////////////
-// Naught Katana +5 (Katana - BGII: EE)                                  //
-///////////////////////////////////////////////////////////////////////////
-@2004 = ~Naught Katana +5~
-@2005 = ~Once a sacred katana from the imperial court of Shou, the poor combination of an especially canny thief and an especially drowsy guard set this powerful artifact into the wilds along the great twisting Golden Way. It was formed from a slice of an unknown substance, cut from another plane, and forged in an act that drank its creator's soul away... and that the blade seems to be growing slowly more powerful - with a sinking hunger that is never satiated.
-
-STATISTICS:
-
-Combat abilities:
-- Each hit drains 1d6 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
-
-THACO: +5
-Damage: 1d10+5, +5 extra vs. lawful
-Damage type: Slashing
-Speed Factor: 1
-Proficiency Type: Katana
-Type: One-handed
-Requires:
- 6 Strength
-
-Weight: 3~
-
-///////////////////////////////////////////////////////////////////////////
-// Nameless Light +2 (Bastard Sword - BGEE)                              //
-///////////////////////////////////////////////////////////////////////////
-@2012 = ~Nameless Light +2~
-@2013 = ~Legend states that the warrior Alesia brought the Nameless Light from the stars, although other tales claim it was forged by a grieving father, or was the weapon of a virtuous paladin. In truth, several such blades exist. They were created with the blessing of the Harpers, and each has had many stories from any number of owners. Perhaps that is their true power: they compel people to craft heroes of their own.
+@10102 = ~Nameless Light +2~
+@10103 = ~Legend states that the warrior Alesia brought the Nameless Light from the stars, although other tales claim it was forged by a grieving father, or was the weapon of a virtuous paladin. In truth, several such blades exist. They were created with the blessing of the Harpers, and each has had many stories from any number of owners. Perhaps that is their true power: they compel people to craft heroes of their own.
 
 STATISTICS:
 
@@ -201,200 +78,194 @@ Requires:
 Weight: 7~
 
 ///////////////////////////////////////////////////////////////////////////
-// Briarspike +2 (Spear - BGEE)                                          //
 ///////////////////////////////////////////////////////////////////////////
-@2022 = ~Briarspike +2~
-@2023 = ~Briarspikes look like they could have been plucked from some giant quill-covered beast, but the methods involved are very sophisticated and bear the hallmarks of Menold of Waterdeep. This may shed some light on his fate, as he was reported lost to an orc raid on his tower years ago. He may have attempted to buy his freedom with his services, but it would have only made him more valuable as a prisoner.
+// Clubs                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Club                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@10200 = ~Club~
+@10201 = ~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end. This simple weapon has been used since people first began using tools. Anyone can find a good stout piece of wood and swing it; hence the club's widespread use.
 
 STATISTICS:
 
-THAC0: +2
-Damage: 1d6+2, +2 poison damage
-Damage type: Piercing
+Damage: 1d6
+Damage type: Crushing
 Speed Factor: 4
-Proficiency Type: Spear 
-Type: Two-handed
+Proficiency Type: Club
+Type: One-handed
 Requires:
  5 Strength
 
 Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
-// Large Shield of Strength +1 (Large Shield - BGII: EE)                 //
 ///////////////////////////////////////////////////////////////////////////
-@2042 = ~Large Shield of Strength +1~
-@2043 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
+// Daggers                                                               //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Dagger                                                                //
+///////////////////////////////////////////////////////////////////////////
+@10300 = ~Dagger~
+@10301 = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter.
 
 STATISTICS:
 
-Equipped abilities:
-- Armor Class: +2, an extra +1 vs. missile attacks
-- Strength: +1
-- Slashing Resistance: +10%
-- Piercing Resistance: +10%
-
+Damage: 1d4
+Damage type: Piercing
+Speed Factor: 2
+Proficiency Type: Dagger
+Type: One-handed
 Requires:
- 14 Strength
+ 3 Strength
 
-Weight: 12~
+Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
-// Spider's Kiss +2 (Scimitar - BGII: EE)                                //
 ///////////////////////////////////////////////////////////////////////////
-@2052 = ~Spider's Kiss +2~
-@2053 = ~The weapon used by the drow druidess, Pai'Na, within the lower tombs of Athkatla. The blade of this dark weapon is slick with a permanent coating of spider venom.
+// Flails                                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Flail                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@10400 = ~Flail~
+@10401 = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain.
+
+STATISTICS:
+
+Damage: 1d6+1
+Damage type: Crushing
+Speed Factor: 7
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires:
+ 13 Strength
+
+Weight: 15~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Halberds                                                              //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Halberd                                                               //
+///////////////////////////////////////////////////////////////////////////
+@10500 = ~Halberd~
+@10501 = ~By far the oldest and most often used polearm, the halberd consists of a cleaver-like axe blade mounted on a staff averaging six feet in length. The axe blade is balanced at the rear with a fluke and surmounted by a sharp spike, usually of quadrangular design. The fluke is sometimes replaced by a hook used to dismount cavalry. A halberd can be best described as a cross between a spear and an axe.
+
+STATISTICS:
+
+Damage: 1d10
+Damage type: Piercing or slashing
+Speed Factor: 9
+Proficiency Type: Halberd
+Type: Two-handed
+Requires:
+ 13 Strength
+
+Weight: 15~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Katanas                                                               //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Katana                                                                //
+///////////////////////////////////////////////////////////////////////////
+@10600 = ~Katana~
+@10601 = ~The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process that is more art form than anything else. This blade is an important facet of Kara-Turan culture. To touch or wield a samurai's katana is to insult the samurai and to incite his wrath. For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or the gaijin has murdered a samurai.
+
+STATISTICS:
+
+Damage: 1d10 
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Master Li's Way +2                                                    //
+///////////////////////////////////////////////////////////////////////////
+@10602=~Master Li's Way +2~
+@10603=~Once thought a unique instance of the swordmaker's craft, several katanas of this type have now been linked to a ship that ran aground on the Sword Coast some years ago. All bear the markings of Master Hu Li, a great artificer from the east, but little else is known of him.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d10+2, +1 acid damage
+Damage type: Slashing
+Speed Factor: 2
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Naught Katana +5                                                      //
+///////////////////////////////////////////////////////////////////////////
+@10604 = ~Naught Katana +5~
+@10605 = ~Once a sacred katana from the imperial court of Shou, the poor combination of an especially canny thief and an especially drowsy guard set this powerful artifact into the wilds along the great twisting Golden Way. It was formed from a slice of an unknown substance, cut from another plane, and forged in an act that drank its creator's soul away... and that the blade seems to be growing slowly more powerful - with a sinking hunger that is never satiated.
 
 STATISTICS:
 
 Combat abilities:
-- Hit target suffers 1 point of poison damage per second for 1 round (Save vs. Poison negates)
+- Each hit drains 1d6 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
 
-THACO: +2
-Damage: 1D8+2
+THACO: +5
+Damage: 1d10+5, +5 extra vs. lawful
 Damage type: Slashing
-Weight: 3
-Speed Factor: 4
-Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Speed Factor: 1
+Proficiency Type: Katana
 Type: One-handed
-Requires: 
- 10 Strength~
-
-///////////////////////////////////////////////////////////////////////////
-// The Gilded Defender (Plate Mail - BGII: EE)                           //
-///////////////////////////////////////////////////////////////////////////
-@2062 = ~The Gilded Defender~
-@2063 = ~The ring of metal against metal seems to cling to this ornate suit of the very finest armor. Hammered into the most intricate of shapes by the finest dwarven smiths, this armor speaks of the dwarven cultures most honored companions: the Defenders. None shall pass their shield wall and none shall withstand their charge.
-
-STATISTICS:
-
-Equipped abilities:
-- Strength: +2
-- Hit Points: +10
-
-Armor Class: 1 (-2 vs. slashing)
 Requires:
- 12 Strength
+ 6 Strength
 
-Weight: 25~
+Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
-// Storm Armor of the Earth's Children (Full Plate - BGII: EE)           //
 ///////////////////////////////////////////////////////////////////////////
-@2032 = ~Storm Armor of the Earth's Children~
-@2033 = ~This well-crafted suit of full plate armor is sized for smaller humanoids, and is crafted of a strange nonmetallic substance that does not conduct electricity or heat. Lore has it that the substance comes from some other plane of existence.
+// Long Swords                                                           //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Long Sword                                                            //
+///////////////////////////////////////////////////////////////////////////
+@10700 = ~Long Sword~
+@10701 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
 
 STATISTICS:
 
-Equipped abilities:
-- Cold Resistance: +10%
-- Electrical Resistance: +10%
-- Fire Resistance: +10%
-
-Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+Damage: 1d8
+Damage type: Slashing
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type: One-handed
 Requires:
- 15 Strength
+ 6 Strength
 
-Weight: 40~
-
-///////////////////////////////////////////////////////////////////////////
-// Ceremonial Uthgardt Belt (Belt - Any Game)                            //
-///////////////////////////////////////////////////////////////////////////
-@2072 = ~Ceremonial Uthgardt Belt~
-@2073 = ~In an attempt to keep the thriving Uthgardt clans under control, a long-forgotten gathering of druids inflicted them with a virulent pox. This disease soon spread out of control, and far from curbing their numbers actually threatened their extinction. To maintain the balance, these same druids created a number of these ceremonial belts to ensure the survival of the clan's leaders. Ultimately the Uthgardt survived the plague, though the incident did not improve their opinion of outsiders.
-
-STATISTICS:
-
-Charge abilities:
-- Immunity to disease
-- Save vs. Death: +4
-
-Weight: 2~
+Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Belt of Agility +2 (Belt - Any Game)                                  //
+// Angurvadal +4                                                         //
 ///////////////////////////////////////////////////////////////////////////
-@2074 = ~Belt of Agility +2~
-@2075 = ~Attempting to form an anti-thieves' guild, Ronger Delphos, a successful merchant, paid thieves to become security experts, to guard merchants in Waterdeep. The guards were trained to use wands with the Hold Person spell, to capture the thieves for interrogation. To counteract this security measure, magical belts were purchased by the thieves' guild, which nullified the effects of such spells. In the escalating war between the two guilds, many of these belts found their way into pawnshops and equipment stores.
-
-STATISTICS:
-
-Charge abilities:
-- Dexterity: +2
-- Immunity to hold
-
-Weight: 2~
-
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-// Update Strength Items to Increment Str Instead of Set Str             //
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////////////////
-// Girdle of Hill Giant Strength (Belt - BGII: EE)                       //
-///////////////////////////////////////////////////////////////////////////
-@300 = ~This plain belt makes the wearer as strong as a hill giant, but does not make him or her giant size. Many a cocky warrior has been surprised by a much smaller opponent with remarkable strength. More often than not a belt such as this is the reason.
-
-STATISTICS:
-
-Equipped abilities:
-- Strength: +2
-
-Weight: 2~
-
-///////////////////////////////////////////////////////////////////////////
-// Girdle of Stone Giant Strength (Belt - BGII: EE)                      //
-///////////////////////////////////////////////////////////////////////////
-@301 = ~As a young boy, Stewart Elttil was kidnapped by raiding kobolds after his family was slain. However, en route to their den, the kobolds surprised a family of stone giants. These giants rescued Stewart and raised him as their own. It soon became apparent that the boy, no matter how hard he tried, could not compete in the family rock-throwing contests. The stone giant father bartered with a local wizard for this girdle, which made Stewart as strong as his brothers and sisters. When Stewart met an untimely end, the girdle was stolen away.
-
-STATISTICS:
-
-Equipped abilities:
-- Strength: +3
-
-Weight: 2~
-
-///////////////////////////////////////////////////////////////////////////
-// Girdle of Frost Giant Strength (Belt - BGII: EE)                      //
-///////////////////////////////////////////////////////////////////////////
-@302 = ~This belt is actually the woven hair from a frost giant's beard. When worn, the belt greatly increases the wearer's Strength, making <PRO_HIMHER> as strong as a frost giant.
-
-STATISTICS:
-
-Equipped abilities:
-- Strength: +4
-
-Weight: 2~
-
-///////////////////////////////////////////////////////////////////////////
-// Girdle of Fire Giant Strength (Belt - BGII: EE)                       //
-///////////////////////////////////////////////////////////////////////////
-@303 = ~This belt is actually the woven hair from a fire giant's beard. When worn, the belt greatly increases the wearer's strength. 
-
-STATISTICS:
-
-Equipped abilities:
-- Strength: +5
-
-Weight: 2~
-
-///////////////////////////////////////////////////////////////////////////
-// Hands of Takkok (Gloves - BGII: EE)                                   //
-///////////////////////////////////////////////////////////////////////////
-@304 = ~Gauntlets of Ogre Power: Hands of Takkok
-The Hands of Takkok are exactly that: his very hands. He lost them when he attacked a strange man crossing the Spine of the World. The mysterious man turned out to be a mage of incredible power, and he used Takkok's hands to create this pair of ogre skin gauntlets.
-
-STATISTICS:
-
-Equipped abilities:
-- Strength: +1
-
-Weight: 2~
-
-///////////////////////////////////////////////////////////////////////////
-// Angurvadal +4 (Longsword - BGII: EE)                                  //
-///////////////////////////////////////////////////////////////////////////
-@305 = ~Also known as the Stream of Anguish, this is the legendary burning blade of Frithiof. 
+@10702 = ~Also known as the Stream of Anguish, this is the legendary burning blade of Frithiof. 
 
 STATISTICS:
 
@@ -415,9 +286,9 @@ Requires:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Angurvadal +5 (Longsword - BGII: EE)                                  //
+// Angurvadal +5                                                         //
 ///////////////////////////////////////////////////////////////////////////
-@306 = ~The true power of Frithior's blazing sword has been unleashed by the Liquid Mercury.
+@10703 = ~The true power of Frithior's blazing sword has been unleashed by the Liquid Mercury.
 
 STATISTICS:
 
@@ -437,9 +308,308 @@ Requires:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Crom Faeyr +5 (War Hammer - BGII: EE)                                 //
 ///////////////////////////////////////////////////////////////////////////
-@307 = ~This is the true name that the dwarven weaponsmith, Silverblade, gave to the weapon he intended to create for his son. Alas, his son died before the weapon was ever completed, but here it stands complete... forged from the combined magic of the original hammer with the gauntlets of ogre power and a girdle of frost giant strength. Crom Faeyr gifts its users with all the powers of the original Hammer of Thunderbolts, in addition to enormous strength and the ability to kill golems, ettins, and trolls in one blow.
+// Maces                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Mace                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@10800 = ~Mace~
+@10801 = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with a stone or iron head mounted on the end. The head design varies: Some are spiked, others flanged, and still others have pyramidal knobs.
+
+STATISTICS:
+
+Damage: 1d6+1
+Damage type: Crushing
+Speed Factor: 7
+Proficiency Type: Mace
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 10~
+
+///////////////////////////////////////////////////////////////////////////
+// Mauler's Arm +2                                                       //
+///////////////////////////////////////////////////////////////////////////
+@10802 = ~Jurrg the Mauler was proud chieftain of a northern tribe, but feared he would be the last of his family to lead. His son Kullen was sickly and clearly couldn't meet the traditional requirements of strength for a chieftain. Jurrg knew that wise leadership took more than brawn, however, so he bargained to enchant this mace such that it would cover Kullen's weakness. Who Jurrg made the deal with is unknown, but the cost was apparently high. Kullen came to rule soon after.
+
+STATISTICS:
+
+Equipped Ability:
+- Strength: +1
+
+THAC0: +2
+Damage: 1d6+3 
+Damage type: Crushing
+Speed Factor: 5
+Proficiency Type: Mace
+Type: One-handed
+
+Weight: 7~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Morning Stars                                                         //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Morning Star                                                          //
+///////////////////////////////////////////////////////////////////////////
+@10900 = ~Morning Star~
+@10901 = ~The morning star is a wooden shaft topped with a metal head covered by a spiked iron sheath. Morning stars have an overall length of about four feet. Some have a round, oval, or cylindrical shaped head studded with spikes. Extending from most morning star heads, regardless of design, is a long point for thrusting.
+
+STATISTICS:
+
+Damage: 2d4 
+Damage type: Crushing
+Speed Factor: 7
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 12~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Ninja-Tos                                                             //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Ninja-To                                                              //
+///////////////////////////////////////////////////////////////////////////
+@11000 = ~Ninja-To~
+@11001 = ~The sword of the ninja, the ninjatō, is of lower quality than other Kara-Turan blades such as the katana. The ninjatō is short with a straight blade, making it ideal for subterfuge. The ninjatō is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai use.
+
+STATISTICS:
+
+Damage: 1d8
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 5~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Quarterstaves                                                         //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Quarterstaff                                                          //
+///////////////////////////////////////////////////////////////////////////
+@11100 = ~Quarterstaff~
+@11101 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. High-quality quarterstaves are made of stout oak and are shod with metal at both ends. The quarterstaff must be wielded with both hands.
+
+STATISTICS:
+
+Damage: 1d6
+Damage type: Crushing
+Speed Factor: 4
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Scimitars                                                             //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Scimitar                                                              //
+///////////////////////////////////////////////////////////////////////////
+@11200 = ~Scimitar~
+@11201 = ~The long, curved, single-edged blade is characteristic of both the saber and the scimitar, even though their origins lie in different parts of Faerûn. Whereas the saber was intended chiefly for horsemen, mainly due to its versatility, the scimitar has a heavier oriental influence. The "shamshir," as it was originally called, is larger, more highly curved, and tapered to an elongated, sharp point. This makes the weapon slightly slower but more effective and deadly in combat.
+
+STATISTICS:
+
+Damage: 1d8
+Damage type: Slashing
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Spider's Kiss +2                                                      //
+///////////////////////////////////////////////////////////////////////////
+@11202 = ~Spider's Kiss +2~
+@11203 = ~The weapon used by the drow druidess, Pai'Na, within the lower tombs of Athkatla. The blade of this dark weapon is slick with a permanent coating of spider venom.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers 1 point of poison damage per second for 1 round (Save vs. Poison negates)
+
+THACO: +2
+Damage: 1D8+2
+Damage type: Slashing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: One-handed
+Requires: 
+ 10 Strength~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Short Swords                                                          //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Short Sword                                                           //
+///////////////////////////////////////////////////////////////////////////
+@11300 = ~Short Sword~
+@11301 = ~The short sword is the first type of sword to come into existence. In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger. The term short sword does not exist in sword classifications. However, it has come to be used to describe a double-edged blade about two feet in length. The sword tip is usually pointed, ideal for thrusting.
+
+STATISTICS:
+
+Damage: 1d6
+Damage type: Piercing
+Speed Factor: 3
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Spears                                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Spear                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@11400 = ~Spear~
+@11401 = ~One of the earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When the civilized races mastered metals, spearheads were made from iron and steel. Having reached this end, weaponsmiths began experimenting with different types of spearheads, thus leading to the development of certain polearm types.
+
+STATISTICS:
+
+Damage: 1d6
+Damage type: Piercing
+Speed Factor: 6
+Proficiency Type: Spear
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Briarspike +2 (Spear - BGEE)                                          //
+///////////////////////////////////////////////////////////////////////////
+@11402 = ~Briarspike +2~
+@11403 = ~Briarspikes look like they could have been plucked from some giant quill-covered beast, but the methods involved are very sophisticated and bear the hallmarks of Menold of Waterdeep. This may shed some light on his fate, as he was reported lost to an orc raid on his tower years ago. He may have attempted to buy his freedom with his services, but it would have only made him more valuable as a prisoner.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d6+2, +2 poison damage
+Damage type: Piercing
+Speed Factor: 4
+Proficiency Type: Spear 
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Two-Handed Swords                                                     //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Two-Handed Sword                                                      //
+///////////////////////////////////////////////////////////////////////////
+@11500 = ~Two-Handed Sword~
+@11501 = ~The two-handed sword is a derivative of the long sword. Weaponsmiths have always looked for ways to improve existing weapons. In an effort to improve the long sword, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to properly swing the sword. The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
+
+STATISTICS:
+
+Damage: 1d10
+Damage type: Slashing
+Speed Factor: 10
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 15~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Wakizashis                                                            //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Wakizashi                                                             //
+///////////////////////////////////////////////////////////////////////////
+@11600 = ~Wakizashi~
+@11601 = ~The wakizashi, or companion sword, is extremely important to the samurai. It is worn at all times, even indoors, and is near the samurai when he sleeps at night. As finely made as the katana, the wakizashi, a shorter sword with a length between twelve and twenty-four inches, is a dangerous weapon in the hands of a skilled user.
+
+STATISTICS:
+
+Damage: 1d8
+Damage type: Piercing
+Speed Factor: 3
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// War Hammers                                                           //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// War Hammer                                                            //
+///////////////////////////////////////////////////////////////////////////
+@11700 = ~War Hammer~
+@11701 = ~Mounted knights cannot effectively use long pole weapons while on horseback and, as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand. Maces and flails are two examples of this—the war hammer is another. The horseman's war hammer is the descendent of the Lucerne hammer. It is made entirely of steel, with rondels protecting and strengthening the grip. (Rondels are small disks of metal, often shaped into decorative designs.) The shaft is about eighteen inches long.
+
+STATISTICS:
+
+Damage: 1d4+1
+Damage type: Crushing
+Speed Factor: 4
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+ 9 Strength
+
+Weight: 6~
+
+///////////////////////////////////////////////////////////////////////////
+// Crom Faeyr +5                                                         //
+///////////////////////////////////////////////////////////////////////////
+@11702 = ~This is the true name that the dwarven weaponsmith, Silverblade, gave to the weapon he intended to create for his son. Alas, his son died before the weapon was ever completed, but here it stands complete... forged from the combined magic of the original hammer with the gauntlets of ogre power and a girdle of frost giant strength. Crom Faeyr gifts its users with all the powers of the original Hammer of Thunderbolts, in addition to enormous strength and the ability to kill golems, ettins, and trolls in one blow.
 
 STATISTICS:
 
@@ -457,6 +627,685 @@ Proficiency Type: War Hammer
 Type: One-handed
 
 Weight: 4~
+
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// RANGED WEAPONS                                                        //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Composite Longbows                                                    //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Composite Longbow                                                     //
+///////////////////////////////////////////////////////////////////////////
+@11800 = ~Composite Longbow~
+@11801 = ~Composite bows are longbows or shortbows whose staves are made from more than one type of material. This gives greater flexibility and makes arrows fired from this bow deliver more damage. These were developed after the normal longbow.
+
+STATISTICS:
+
+THAC0: +1
+Damage: +1
+Damage type: Missile
+Speed Factor: 7
+Proficiency Type: Longbow
+Type: Two-handed
+Requires:
+ 18 Strength
+
+Weight: 10~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Longbows                                                              //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Longbow                                                               //
+///////////////////////////////////////////////////////////////////////////
+@11900 = ~Longbow~
+@11901 = ~The longbow is similar to the shortbow, except that the staff is about as tall as the archer is—usually six to six-and-a-half feet. It has better range and accuracy than the shortbow, but a slower Speed Factor.
+
+STATISTICS:
+
+THAC0: +1
+Speed Factor: 7
+Proficiency Type: Longbow
+Type: Two-handed
+Requires:
+ 6 Strength
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Shortbows                                                             //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Shortbow                                                              //
+///////////////////////////////////////////////////////////////////////////
+@12000 = ~Shortbow~
+@12001 = ~Shortbows were the first bows to be developed, although they were not called such. This is more of a default term that refers to anything which is not a longbow. Shortbow staves are about five feet long on the average. As the years passed, attempts were made to increase bow ranges. Bows were either given longer staves or flexibility was increased with no change to the length. The former resulted in what is now called the longbow.
+
+STATISTICS:
+
+Speed Factor: 6
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 3 Strength
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Slings                                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Sling                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@12100 = ~Sling~
+@12101 = ~Slings have existed since the beginning of recorded history. The basic sling consists of a leather or fabric strap with a pouch for holding the missile. The weapon is held by both ends of the strap and twirled around the wielder's head. When top speed is attained, the missile is launched by releasing one of the strap's ends. 
+
+STATISTICS:
+
+Speed Factor: 6
+Proficiency Type: Sling
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 0~
+
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// ARMOR                                                                 //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Robes                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Robe                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@12200 = ~Robe~
+@12201 = ~Since the age of Netheril, mages have learned to bestow a wide variety of magical properties upon the everyday objects that surround them. A favorite item of such enchantment is the common robe. It is lightweight, affordable, and holds its enchantment well, thereby making it ideal equipment for a mage. Due to their magical heritage, however, only single-, dual-, and multi-class mages may wear these enchanted robes.
+
+STATISTICS:
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Leather Armors                                                        //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Leather Armor                                                         //
+///////////////////////////////////////////////////////////////////////////
+@12300 = ~Leather Armor~
+@12301 = ~Basic armor made of thick, wax or water-hardened leather. It is sturdy protection, not supple like boots or a cloak. Soft garment leathers like that would offer no more protection than common clothing. 
+
+STATISTICS:
+
+Armor Class: 8 (10 vs. piercing and missile)
+Requires:
+ 4 Strength
+
+Weight: 15~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Studded Leather Armors                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Studded Leather Armor                                                 //
+///////////////////////////////////////////////////////////////////////////
+@12400 = ~Studded Leather Armor~
+@12401 = ~Studded leather armor has little in common with normal leather armor. Instead of a hardened shell, studded leather offers hundreds of metal rivets affixed to a supple backing. The numerous studs form a flexible coat of metal that helps to turn aside slashing and cutting attacks, while the leather is little more than a means of securing the rivets in place. 
+
+STATISTICS:
+
+Armor Class: 7 (5 vs. slashing, 6 vs. piercing and missile)
+Requires:
+ 6 Strength
+
+Weight: 25~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Hide Armors                                                           //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Hide Armor                                                            //
+///////////////////////////////////////////////////////////////////////////
+@12500 = ~Hide Armor~
+@12501 = ~Hide armor is made from the thick hide of a very large animal (an elephant for example) or from many layers of normal leather from common animals, like cows. Hide armor is far too bulky, inflexible and heavy to be used much in advanced human cultures. However, among the barbaric humanoid masses throughout the dark forests and misty jungles of the world, hide armor is common. Even though it does offer more protection than leather armor, one must get by the offensive odor and shoddy appearance in order to wear it effectively. Even though Thieves can wear this armor, it has a negative effect on their abilities.
+
+STATISTICS:
+
+Equipped abilities:
+– Open Locks: -10%
+– Find Traps: -10%
+– Pick Pockets: -10%
+– Move Silently: -20%
+
+Armor Class: 6 (8 vs. piercing and missile)
+Requires:
+ 6 Strength
+
+Weight: 40~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Chain Mail Armors                                                     //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Chain Mail                                                            //
+///////////////////////////////////////////////////////////////////////////
+@12600 = ~Chain Mail~
+@12601 = ~Chain mail is made of interlocking metal rings. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows. 
+
+STATISTICS:
+
+Armor Class: 5 (3 vs. slashing, 7 vs. crushing)
+Requires:
+ 8 Strength
+
+Weight: 40~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Splint Mail Armors                                                    //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Splint Mail                                                           //
+///////////////////////////////////////////////////////////////////////////
+@12700 = ~Splint Mail~
+@12701 = ~Splint mail is a variant of banded mail in which the metal strips are applied vertically to the backing of chain, leather, or cloth rather than horizontally as in banded mail. Since the body does not swivel in mid-torso as much as it flexes back to front, splint mail is more restrictive in battle. 
+
+STATISTICS:
+
+Armor Class: 4 (3 vs. piercing and missile, 2 vs. crushing)
+Requires:
+ 8 Strength
+
+Weight: 40~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Plate Mail Armors                                                     //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Plate Mail                                                            //
+///////////////////////////////////////////////////////////////////////////
+@12800 = ~Plate Mail~
+@12801 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen, and groin. Similar in construction to bronze plate mail, true plate mail comprises chain and leather.
+
+STATISTICS:
+
+Armor Class: 3 (0 vs. slashing)
+Requires:
+ 12 Strength
+
+Weight: 50~
+
+///////////////////////////////////////////////////////////////////////////
+// The Gilded Defender (Plate Mail - BGII: EE)                           //
+///////////////////////////////////////////////////////////////////////////
+@12802 = ~The Gilded Defender~
+@12803 = ~The ring of metal against metal seems to cling to this ornate suit of the very finest armor. Hammered into the most intricate of shapes by the finest dwarven smiths, this armor speaks of the dwarven cultures most honored companions: the Defenders. None shall pass their shield wall and none shall withstand their charge.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +2
+- Hit Points: +10
+
+Armor Class: 1 (-2 vs. slashing)
+Requires:
+ 12 Strength
+
+Weight: 25~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Full Plate Mail Armors                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Full Plate Mail                                                       //
+///////////////////////////////////////////////////////////////////////////
+@12900 = ~Full Plate Mail~
+@12901 = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection. The perfectly fitted, interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.
+
+STATISTICS:
+
+Armor Class: 1 (-3 vs. slashing, -2 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 70~
+
+///////////////////////////////////////////////////////////////////////////
+// Storm Armor of the Earth's Children (Full Plate - BGII: EE)           //
+///////////////////////////////////////////////////////////////////////////
+@12902 = ~Storm Armor of the Earth's Children~
+@12903 = ~This well-crafted suit of full plate armor is sized for smaller humanoids, and is crafted of a strange nonmetallic substance that does not conduct electricity or heat. Lore has it that the substance comes from some other plane of existence.
+
+STATISTICS:
+
+Equipped abilities:
+- Cold Resistance: +10%
+- Electrical Resistance: +10%
+- Fire Resistance: +10%
+
+Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 40~
+
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// SHIELDS                                                               //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Bucklers                                                              //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Buckler                                                               //
+///////////////////////////////////////////////////////////////////////////
+@13000 = ~Buckler~
+@13001 = ~A buckler, also known as a target shield, is a small round shield of wood or metal that fastens to the forearm. Because of its size, it is light and can be worn with very little restriction to movement.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- No protection against missile and piercing attacks
+
+Requires:
+ 4 Strength
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Small Shields                                                         //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Small Shield                                                          //
+///////////////////////////////////////////////////////////////////////////
+@13100 = ~Small Shield~
+@13101 = ~A small shield is usually round and is carried on the forearm, gripped with the shield hand. Its light weight as compared to a medium shield permits the user to carry other items in that hand, although <PRO_HESHE> cannot wield or carry another weapon. 
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- No protection against missile attacks
+
+Requires:
+ 4 Strength
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Medium Shields                                                        //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Medium Shield                                                         //
+///////////////////////////////////////////////////////////////////////////
+@13200 = ~Medium Shield~
+@13201 = ~A medium shield is carried in the same manner as a small shield. Unlike the small shield, however, its weight prevents the character from using <PRO_HISHER> shield hand for anything other than carrying the medium shield. Medium shields are usually made of metal, range from three to four feet in diameter, and can be of any shape, from round to square to a dragon's spread wings. A typical medieval shield resembles a triangle with one point facing downward.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+
+Requires:
+ 12 Strength
+
+Weight: 7~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Large Shields                                                         //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Large Shield                                                          //
+///////////////////////////////////////////////////////////////////////////
+@13300 = ~Large Shield~
+@13301 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1, an extra +1 vs. missile attacks
+
+Requires:
+ 15 Strength
+
+Weight: 15~
+
+///////////////////////////////////////////////////////////////////////////
+// Large Shield of Strength +1                                           //
+///////////////////////////////////////////////////////////////////////////
+@13302 = ~Large Shield of Strength +1~
+@13303 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2, an extra +1 vs. missile attacks
+- Strength: +1
+- Slashing Resistance: +10%
+- Piercing Resistance: +10%
+
+Requires:
+ 14 Strength
+
+Weight: 12~
+
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// ACCESSORIES                                                           //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Amulets                                                               //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Amulet                                                                //
+///////////////////////////////////////////////////////////////////////////
+@13400 = ~Amulet~
+@13401 = ~Amulets are usually magical devices that are commonly worn around the neck, suspended from a chain. The type of chain that comes with an amulet generally increases the item's aesthetic value, not its magical properties. Only one amulet can be dangled from the neck at a time.
+
+STATISTICS:
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Belts                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Belt                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@13500 = ~Belt~
+@13501 = ~Girdles are generally similar to belts. Unlike belts, girdles are not used to hold up pants and dungarees, but to carry pouches, scabbards, and the like. 
+
+STATISTICS:
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Ceremonial Uthgardt Belt (Belt - Any Game)                            //
+///////////////////////////////////////////////////////////////////////////
+@13502 = ~Ceremonial Uthgardt Belt~
+@13503 = ~In an attempt to keep the thriving Uthgardt clans under control, a long-forgotten gathering of druids inflicted them with a virulent pox. This disease soon spread out of control, and far from curbing their numbers actually threatened their extinction. To maintain the balance, these same druids created a number of these ceremonial belts to ensure the survival of the clan's leaders. Ultimately the Uthgardt survived the plague, though the incident did not improve their opinion of outsiders.
+
+STATISTICS:
+
+Charge abilities:
+- Immunity to disease
+- Save vs. Death: +4
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Belt of Agility +2 (Belt - Any Game)                                  //
+///////////////////////////////////////////////////////////////////////////
+@13504 = ~Belt of Agility +2~
+@13505 = ~Attempting to form an anti-thieves' guild, Ronger Delphos, a successful merchant, paid thieves to become security experts, to guard merchants in Waterdeep. The guards were trained to use wands with the Hold Person spell, to capture the thieves for interrogation. To counteract this security measure, magical belts were purchased by the thieves' guild, which nullified the effects of such spells. In the escalating war between the two guilds, many of these belts found their way into pawnshops and equipment stores.
+
+STATISTICS:
+
+Charge abilities:
+- Dexterity: +2
+- Immunity to hold
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Hill Giant Strength (Belt - BGII: EE)                       //
+///////////////////////////////////////////////////////////////////////////
+@13506 = ~This plain belt makes the wearer as strong as a hill giant, but does not make him or her giant size. Many a cocky warrior has been surprised by a much smaller opponent with remarkable strength. More often than not a belt such as this is the reason.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +2
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Stone Giant Strength (Belt - BGII: EE)                      //
+///////////////////////////////////////////////////////////////////////////
+@13507 = ~As a young boy, Stewart Elttil was kidnapped by raiding kobolds after his family was slain. However, en route to their den, the kobolds surprised a family of stone giants. These giants rescued Stewart and raised him as their own. It soon became apparent that the boy, no matter how hard he tried, could not compete in the family rock-throwing contests. The stone giant father bartered with a local wizard for this girdle, which made Stewart as strong as his brothers and sisters. When Stewart met an untimely end, the girdle was stolen away.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +3
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Frost Giant Strength (Belt - BGII: EE)                      //
+///////////////////////////////////////////////////////////////////////////
+@13508 = ~This belt is actually the woven hair from a frost giant's beard. When worn, the belt greatly increases the wearer's Strength, making <PRO_HIMHER> as strong as a frost giant.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +4
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Fire Giant Strength (Belt - BGII: EE)                       //
+///////////////////////////////////////////////////////////////////////////
+@13509 = ~This belt is actually the woven hair from a fire giant's beard. When worn, the belt greatly increases the wearer's strength. 
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +5
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Fortitude (Belt - BGII: EE)                                 //
+///////////////////////////////////////////////////////////////////////////
+@13510 = ~This girdle greatly increases the wearer's Constitution. King Violos used it when leading an expedition against marsh trolls. He'd been severely sickened the past winter and was no longer the healthy man he once was. The belt gave extra years to his life and inspired his men to renew their confidence in their king once more.
+
+STATISTICS:
+
+Charge abilities:
+- Increase Constitution by 4 once per day
+  Duration: 8 hours
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Boots                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Boots                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@13600 = ~Boots~
+@13601 = ~Boots are normally handmade by cobblers. Common boots are made by using a form, but good boots are designed for the foot of an individual. 
+
+STATISTICS:
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Cloaks                                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Cloak                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@13700 = ~Cloak~
+@13701 = ~The cloak can be made in every possible shape with just about every type of fabric. The most common forms are a circular piece of fabric with a hole in the center for the head, and fabric draped from neck, connected by a chain, brooch, cord, or pins.
+
+STATISTICS:
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Gauntlets                                                             //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Gauntlets                                                             //
+///////////////////////////////////////////////////////////////////////////
+@13800 = ~Gauntlets~
+@13801 = ~Gauntlets are armored gloves. They can be made of leather, metal plates, or chain mail. Every suit of armor is assumed to include gauntlets of an appropriate type. Magical gauntlets tend to be finer, lighter, and more easily worn than normal varieties.
+
+STATISTICS:
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Hands of Takkok                                                       //
+///////////////////////////////////////////////////////////////////////////
+@13802 = ~Gauntlets of Ogre Power: Hands of Takkok
+The Hands of Takkok are exactly that: his very hands. He lost them when he attacked a strange man crossing the Spine of the World. The mysterious man turned out to be a mage of incredible power, and he used Takkok's hands to create this pair of ogre skin gauntlets.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +1
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// The Brawling Hands                                                    //
+///////////////////////////////////////////////////////////////////////////
+@13803 = ~Gauntlets of Dexterity: The Brawling Hands
+This pair of gauntlets was likely developed in Kara-Tur to aid masters of the martial arts. Legends speak of such masters from the Far East bringing these items with them on their journeys, though details remain sketchy. 
+
+STATISTICS:
+
+Equipped abilities:
+- Dexterity: +2
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Bracers                                                               //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Bracers                                                               //
+///////////////////////////////////////////////////////////////////////////
+@13900 = ~Bracers~
+@13901 = ~Bracers are thick bands of metal or leather that are strapped, belted, or tied to a character's forearm.
+
+STATISTICS:
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Helmets                                                               //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Helmet                                                                //
+///////////////////////////////////////////////////////////////////////////
+@14000 = ~Helmet~
+@14001 = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head save the face and neck. These helmets commonly provide protection for the nose. 
+
+STATISTICS:
+
+Equipped abilities:
+- Protects against critical hits
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Ioun Stones                                                           //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Ioun Stone                                                            //
+///////////////////////////////////////////////////////////////////////////
+@14100 = ~Ioun Stone~
+@14101 = ~This is a small stone that floats in an orbit around the owner's head. Simply equip the stone to set it in its orbit. These obviously magical stones have different properties depending on their color.
+
+STATISTICS:
+
+Weight: 0~
+
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Identified Item Descriptions                                          //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+
 
 ///////////////////////////////////////////////////////////////////////////
 // Ring of Human Influence (Ring - BGII: EE)                             //
@@ -490,46 +1339,5 @@ Equipped Abilities:
 Special Abilities:
 - Charm person once per day~
 
-///////////////////////////////////////////////////////////////////////////
-// Mauler's Arm +2 (Ring - BGII: EE)                                     //
-///////////////////////////////////////////////////////////////////////////
-@310 = ~Jurrg the Mauler was proud chieftain of a northern tribe, but feared he would be the last of his family to lead. His son Kullen was sickly and clearly couldn't meet the traditional requirements of strength for a chieftain. Jurrg knew that wise leadership took more than brawn, however, so he bargained to enchant this mace such that it would cover Kullen's weakness. Who Jurrg made the deal with is unknown, but the cost was apparently high. Kullen came to rule soon after.
 
-STATISTICS:
 
-Equipped Ability:
-- Strength: +1
-
-THAC0: +2
-Damage: 1d6+3 (crushing)
-Speed Factor: 5
-Proficiency Type: Mace
-Type: One-handed
-
-Weight: 7~
-
-///////////////////////////////////////////////////////////////////////////
-// The Brawling Hands (Gloves - BG: EE and BGII: EE)                     //
-///////////////////////////////////////////////////////////////////////////
-@311 = ~Gauntlets of Dexterity: The Brawling Hands
-This pair of gauntlets was likely developed in Kara-Tur to aid masters of the martial arts. Legends speak of such masters from the Far East bringing these items with them on their journeys, though details remain sketchy. 
-
-STATISTICS:
-
-Equipped abilities:
-- Dexterity: +2
-
-Weight: 2~
-
-///////////////////////////////////////////////////////////////////////////
-// Girdle of Fortitude (Belt - BGII: EE)                                 //
-///////////////////////////////////////////////////////////////////////////
-@312 = ~This girdle greatly increases the wearer's Constitution. King Violos used it when leading an expedition against marsh trolls. He'd been severely sickened the past winter and was no longer the healthy man he once was. The belt gave extra years to his life and inspired his men to renew their confidence in their king once more.
-
-STATISTICS:
-
-Charge abilities:
-- Increase Constitution by 4 once per day
-  Duration: 8 hours
-
-Weight: 2~
