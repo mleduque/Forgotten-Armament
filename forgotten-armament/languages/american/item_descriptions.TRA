@@ -78,6 +78,28 @@ Requires:
 Weight: 7~
 
 ///////////////////////////////////////////////////////////////////////////
+// Flaming Bastard Sword +1                                              //
+///////////////////////////////////////////////////////////////////////////
+@10104 = ~Flaming Bastard Sword +1~
+@10105 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation, and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Combat abilities:
+– 25% chance of dealing +2d3 fire damage
+
+THAC0: +1
+Damage: 2d4+1
+Damage type: Slashing
+Speed Factor: 8
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 10~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Clubs                                                                 //
 ///////////////////////////////////////////////////////////////////////////
@@ -330,6 +352,72 @@ Requires:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
+// Intercession +1                                                       //
+///////////////////////////////////////////////////////////////////////////
+@10704 = ~Intercession +1~
+@10705 = ~This long sword was crafted for the well-traveled ranger Kelhanion of Soubar in 1272. Wearing light armor and no shield, Kelhanion wanted a weapon that would protect him in combat. Intercession was made for him by an acquaintance, the wizard Peth of Elturel. The weapon itself is rather mundane in appearance, which is exactly how Kelhanion wanted it to look. It has a plain steel blade that meets a similar guard. The grip of the weapon is wrapped in dark, oiled ogre skin. The sword has a mild form of empathetic instinct, turning in the wielder's hand to impose itself in the path of melee weapons. Intercession was lost with Kelhanion when he was slaughtered by over a dozen trolls in the Trollbark Forest.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +2, except vs. missile attacks
+
+THAC0: +1
+Damage: 1d8+1
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Long Sword of Action +2                                               //
+///////////////////////////////////////////////////////////////////////////
+@10706 = ~Long Sword of Action +2~
+@10707 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting. The blade of this sword is covered with all sorts of arcane symbols.
+
+STATISTICS:
+
+Equipped abilities:
+– Dexterity: +1
+
+THAC0: +2
+Damage: 1d8+2
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Spiked Long Sword +1                                                  //
+///////////////////////////////////////////////////////////////////////////
+@10708 = ~Spiked Long Sword +1~
+@10709 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting. The blade of this sword is covered with all sorts of arcane symbols.
+
+STATISTICS:
+
+Combat abilities:
+– 25% chance of dealing +2d6 piercing damage
+
+THAC0: +1
+Damage: 1d8+1
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Maces                                                                 //
 ///////////////////////////////////////////////////////////////////////////
@@ -488,6 +576,34 @@ Proficiency Type: Scimitar/Wakizashi/Ninja-To
 Type: One-handed
 Requires: 
  10 Strength~
+
+///////////////////////////////////////////////////////////////////////////
+// The Lucky Scimitar +2                                                 //
+///////////////////////////////////////////////////////////////////////////
+@11204 = ~The Lucky Scimitar +2~
+@11205 = ~This weapon was used by a well-known Zakharan gambler named Kadan Ibn-Kadur. It is believed that the blade helped Kadan win many foolish bets that he should have lost. Kadan parted with the weapon, however, when he crossed paths with the infamous Nido Ochita Inazuma in western Faerûn. Inazuma was the son of a Cormyrean knight and a Kara-Turian noblewoman. He claimed that his mother was struck by lightning twice while she was pregnant with Inazuma—once when she learned she had conceived and again immediately before she gave birth. Legends say that Inazuma was born on the edge of the Fateful Coin, the mystical method by which Tymora and Beshaba decide whether a person will have good or bad luck throughout his or her life. Sages believe that Inazuma's coin landed on edge, making him immune to the effects of weal and woe. When he came across Kadan and his scimitar, it was only a matter of time before the Zakharan gambled his scimitar and his life into Inazuma's hands.
+
+STATISTICS:
+
+Equipped abilities:
+– Luck (+1 to all rolls)
+
+Charge abilities:
+– Luck once per day
+  Range: 15 ft.
+  Duration: 3 rounds
+  Area of Effect: 1 creature
+
+THAC0: +2
+Damage: 1d8+2
+Damage type: Slashing
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Speed Factor: 4
+Type: One-handed
+Requires:
+ 8 Strength
+
+Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////

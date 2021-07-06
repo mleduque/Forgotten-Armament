@@ -21,6 +21,22 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         COPY_EXISTING ~BASSIL.CRE~ ~override~
             REPLACE_CRE_ITEM ~HAMM02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
     END
+
+///////////////////////////////////////////////////////////////////////////
+// Move Varscona +2 to Pargus (Maulers of Undermountain)                 //
+///////////////////////////////////////////////////////////////////////////
+    COPY_EXISTING ~PARGUS.CRE~ ~override~
+        REPLACE_CRE_ITEM ~SW1H06~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+
+    // Give Greywolf Spiked Long Sword +1 else regular +1 long sowrd
+    ACTION_IF FILE_EXISTS_IN_GAME ~ULSWD2B.ITM~ BEGIN
+        COPY_EXISTING ~GREYWO.CRE~ ~override~
+            REPLACE_CRE_ITEM ~ULSWD2B~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+    END ELSE BEGIN
+        COPY_EXISTING ~GREYWO.CRE~ ~override~
+            REPLACE_CRE_ITEM ~SW1H05~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+    END
+
 END
 
 ///////////////////////////////////////////////////////////////////////////

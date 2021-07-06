@@ -39,6 +39,20 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Flaming Bastard Sword +1 - Assign to Cambion (Irenicus Dungeon)       //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/UBSWD2B.ITM~ ~override/UBSWD2B.ITM~
+        SAY NAME1 @10100
+        SAY NAME2 @10104
+        SAY UNIDENTIFIED_DESC @10101
+        SAY DESC @10105
+
+    COPY_EXISTING ~IDEMON02.CRE~ ~override~
+        ADD_CRE_ITEM ~UBSWD2B~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Katanas                                                               //
 ///////////////////////////////////////////////////////////////////////////
@@ -90,6 +104,54 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
+// Long Swords                                                           //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Intercession +1 - Assign to Meilum outside Firewine Bridge            //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY ~forgotten-armament/itm/INTRCES.ITM~ ~override/INTRCES.ITM~
+        SAY NAME1 @10700
+        SAY NAME2 @10704
+        SAY UNIDENTIFIED_DESC @10701
+        SAY DESC @10705
+
+    COPY_EXISTING ~MEILUM.CRE~ ~override~
+        ADD_CRE_ITEM ~INTRCES~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Long Sword of Action +2 - Give to Tuth in Candlekeep Library          //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY ~forgotten-armament/itm/ULSWD3D.ITM~ ~override/ULSWD3D.ITM~
+        SAY NAME1 @10700
+        SAY NAME2 @10706
+        SAY UNIDENTIFIED_DESC @10701
+        SAY DESC @10707
+
+    COPY_EXISTING ~TUTH.CRE~ ~override~ 
+        ADD_CRE_ITEM ~ULSWD3D~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Spiked Long Sword +1 - Assign to Pargus (Maulers of Undermountain)    //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY ~forgotten-armament/itm/ULSWD2B.ITM~ ~override/ULSWD2B.ITM~
+        SAY NAME1 @10700
+        SAY NAME2 @10708
+        SAY UNIDENTIFIED_DESC @10701
+        SAY DESC @10709
+
+    COPY_EXISTING ~PARGUS.CRE~ ~override~
+        ADD_CRE_ITEM ~ULSWD2B~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
 // Scimitars                                                             //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -109,6 +171,19 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SET_BG2_PROFICIENCY ~PROFICIENCYSCIMITARWAKISASHININJATO~ 1
         SET_BG2_PROFICIENCY ~PROFICIENCYSINGLEWEAPON~ 1
         REPLACE_CRE_ITEM ~MO1H50~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Create The Lucky Scimitar +2 - Assign to         //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/LUCKY.ITM~ ~override/LUCKY.ITM~
+        SAY NAME1 @11200
+        SAY NAME2 @11204
+        SAY UNIDENTIFIED_DESC @11201
+        SAY DESC @11205
+
+
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -153,7 +228,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Rift Hammer +3 -                                                      //
+// Rift Hammer +3 -  TAZOK FIGHT                                                     //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOHM02.ITM~ ~override/MOHM02.ITM~
@@ -180,7 +255,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create The Gilded Defender - Assign to Draug Fea in Temple Sewers     //
+// Create The Gilded Defender - Assign to Draug Fea in Temple Sewers     // FIGHT IN RED DRAGON PLACE DUDES HOME WHEHN ATTACKED
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOPM01.ITM~ ~override/MOPM01.ITM~
