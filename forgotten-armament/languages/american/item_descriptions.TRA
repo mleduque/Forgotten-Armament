@@ -31,6 +31,52 @@ Requires:
 Weight: 7~
 
 ///////////////////////////////////////////////////////////////////////////
+// Battle Axe +2: Defender (IWD)                                         //
+///////////////////////////////////////////////////////////////////////////
+@10002 = ~Battle Axe +2: Defender~
+@10003 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation, and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2
+- Missile Resistance: +10%
+
+THAC0: +2
+Damage: 1d8+2
+Damage type: Slashing
+Speed Factor: 7
+Proficiency Type: Axe
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 7~
+
+///////////////////////////////////////////////////////////////////////////
+// Charged Battle Axe +2 (IWD)                                           //
+///////////////////////////////////////////////////////////////////////////
+@10004 = ~Charged Battle Axe +2~
+@10005 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation, and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Combat abilities:
+- 50% chance of dealing +1d3 electrical damage
+- 15% chance target is stunned for 4 seconds
+
+THAC0: +2
+Damage: 1d8+2
+Damage type: Slashing
+Speed Factor: 7
+Proficiency Type: Axe
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 7~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Swords                                                        //
 ///////////////////////////////////////////////////////////////////////////
@@ -55,7 +101,7 @@ Requires:
 Weight: 10~
 
 ///////////////////////////////////////////////////////////////////////////
-// Nameless Light +2                                                     //
+// Nameless Light +2 (NWN2)                                              //
 ///////////////////////////////////////////////////////////////////////////
 @10102 = ~Nameless Light +2~
 @10103 = ~Legend states that the warrior Alesia brought the Nameless Light from the stars, although other tales claim it was forged by a grieving father, or was the weapon of a virtuous paladin. In truth, several such blades exist. They were created with the blessing of the Harpers, and each has had many stories from any number of owners. Perhaps that is their true power: they compel people to craft heroes of their own.
@@ -78,7 +124,7 @@ Requires:
 Weight: 7~
 
 ///////////////////////////////////////////////////////////////////////////
-// Flaming Bastard Sword +1                                              //
+// Flaming Bastard Sword +1 (IWD)                                        //
 ///////////////////////////////////////////////////////////////////////////
 @10104 = ~Flaming Bastard Sword +1~
 @10105 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation, and although not apparent at first, a slight blue glow can be seen emanating from the runes.
@@ -220,7 +266,7 @@ Requires:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Master Li's Way +2                                                    //
+// Master Li's Way +2 (NWN2)                                             //
 ///////////////////////////////////////////////////////////////////////////
 @10602=~Master Li's Way +2~
 @10603=~Once thought a unique instance of the swordmaker's craft, several katanas of this type have now been linked to a ship that ran aground on the Sword Coast some years ago. All bear the markings of Master Hu Li, a great artificer from the east, but little else is known of him.
@@ -239,7 +285,7 @@ Requires:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Naught Katana +5                                                      //
+// Naught Katana +5 (NWN2)                                               //
 ///////////////////////////////////////////////////////////////////////////
 @10604 = ~Naught Katana +5~
 @10605 = ~Once a sacred katana from the imperial court of Shou, the poor combination of an especially canny thief and an especially drowsy guard set this powerful artifact into the wilds along the great twisting Golden Way. It was formed from a slice of an unknown substance, cut from another plane, and forged in an act that drank its creator's soul away... and that the blade seems to be growing slowly more powerful - with a sinking hunger that is never satiated.
@@ -261,7 +307,7 @@ Requires:
 Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
-// Kaga-To +1                                                            //
+// Kaga-To +1 (NWN2)                                                     //
 ///////////////////////////////////////////////////////////////////////////
 @10606 = ~Kaga-To +1~
 @10607 = ~If memory serves correctly, these weapons date to the stadium battles of old Kai Chen province, where promising warriors would test their skills against the greatest samurai of the day in ritual combat. If ever a challenger was victorious, he or she won the people's ovation and fame forever, symbolized by a Kaga-To katana. The blade is etched with a simple phrase: "Tell me how you fight, and I will tell you what you are."
@@ -307,7 +353,7 @@ Requires:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Angurvadal +4                                                         //
+// Angurvadal +4 (BG2)                                                   //
 ///////////////////////////////////////////////////////////////////////////
 @10702 = ~Also known as the Stream of Anguish, this is the legendary burning blade of Frithiof. 
 
@@ -330,7 +376,7 @@ Requires:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Angurvadal +5                                                         //
+// Angurvadal +5 (BG2)                                                   //
 ///////////////////////////////////////////////////////////////////////////
 @10703 = ~The true power of Frithior's blazing sword has been unleashed by the Liquid Mercury.
 
@@ -352,7 +398,7 @@ Requires:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Intercession +1                                                       //
+// Intercession +1 (IWD)                                                 //
 ///////////////////////////////////////////////////////////////////////////
 @10704 = ~Intercession +1~
 @10705 = ~This long sword was crafted for the well-traveled ranger Kelhanion of Soubar in 1272. Wearing light armor and no shield, Kelhanion wanted a weapon that would protect him in combat. Intercession was made for him by an acquaintance, the wizard Peth of Elturel. The weapon itself is rather mundane in appearance, which is exactly how Kelhanion wanted it to look. It has a plain steel blade that meets a similar guard. The grip of the weapon is wrapped in dark, oiled ogre skin. The sword has a mild form of empathetic instinct, turning in the wielder's hand to impose itself in the path of melee weapons. Intercession was lost with Kelhanion when he was slaughtered by over a dozen trolls in the Trollbark Forest.
@@ -374,7 +420,7 @@ Requires:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Long Sword of Action +2                                               //
+// Long Sword of Action +2 (IWD)                                         //
 ///////////////////////////////////////////////////////////////////////////
 @10706 = ~Long Sword of Action +2~
 @10707 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting. The blade of this sword is covered with all sorts of arcane symbols.
@@ -396,7 +442,7 @@ Requires:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Spiked Long Sword +1                                                  //
+// Spiked Long Sword +1 (IWD)                                            //
 ///////////////////////////////////////////////////////////////////////////
 @10708 = ~Spiked Long Sword +1~
 @10709 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting. The blade of this sword is covered with all sorts of arcane symbols.
@@ -418,7 +464,7 @@ Requires:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Turodahel +2                                                          //
+// Turodahel +2 (IWD)                                                    //
 ///////////////////////////////////////////////////////////////////////////
 @10710 = ~Turodahel +2~
 @10711 = ~Crafted in 1021 DR for the warrior Makael the Lean, Turodahel has a bloody military history. Makael was a mercenary who sold his services to anyone with the right amount of coin. Shrewd and crafty by reputation, Makael applied his skills and the power of Turodahel carefully for over three decades. It wasn't until after Makael died of a magical disease that legends about the man started to spring up. It is believed by modern sages that Makael is likely to have killed over five hundred men with his sword over the years. It was widely known that Makael was neither especially strong nor tough. People assumed that it must have been the power of the sword that made his deeds possible. Makael's grave was robbed within a few years of his burial.
@@ -466,7 +512,7 @@ Requires:
 Weight: 10~
 
 ///////////////////////////////////////////////////////////////////////////
-// Mauler's Arm +2                                                       //
+// Mauler's Arm +2 (BG2)                                                 //
 ///////////////////////////////////////////////////////////////////////////
 @10802 = ~Jurrg the Mauler was proud chieftain of a northern tribe, but feared he would be the last of his family to lead. His son Kullen was sickly and clearly couldn't meet the traditional requirements of strength for a chieftain. Jurrg knew that wise leadership took more than brawn, however, so he bargained to enchant this mace such that it would cover Kullen's weakness. Who Jurrg made the deal with is unknown, but the cost was apparently high. Kullen came to rule soon after.
 
@@ -581,7 +627,7 @@ Requires:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Spider's Kiss +2                                                      //
+// Spider's Kiss +2 (NWN2)                                               //
 ///////////////////////////////////////////////////////////////////////////
 @11202 = ~Spider's Kiss +2~
 @11203 = ~The weapon used by the drow druidess, Pai'Na, within the lower tombs of Athkatla. The blade of this dark weapon is slick with a permanent coating of spider venom.
@@ -602,7 +648,7 @@ Requires:
  10 Strength~
 
 ///////////////////////////////////////////////////////////////////////////
-// The Lucky Scimitar +2                                                 //
+// The Lucky Scimitar +2 (IWD)                                           //
 ///////////////////////////////////////////////////////////////////////////
 @11204 = ~The Lucky Scimitar +2~
 @11205 = ~This weapon was used by a well-known Zakharan gambler named Kadan Ibn-Kadur. It is believed that the blade helped Kadan win many foolish bets that he should have lost. Kadan parted with the weapon, however, when he crossed paths with the infamous Nido Ochita Inazuma in western Faerûn. Inazuma was the son of a Cormyrean knight and a Kara-Turian noblewoman. He claimed that his mother was struck by lightning twice while she was pregnant with Inazuma—once when she learned she had conceived and again immediately before she gave birth. Legends say that Inazuma was born on the edge of the Fateful Coin, the mystical method by which Tymora and Beshaba decide whether a person will have good or bad luck throughout his or her life. Sages believe that Inazuma's coin landed on edge, making him immune to the effects of weal and woe. When he came across Kadan and his scimitar, it was only a matter of time before the Zakharan gambled his scimitar and his life into Inazuma's hands.
@@ -630,7 +676,7 @@ Requires:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Laughing Blade +2                                                     //
+// Laughing Blade +2 (NWN2)                                              //
 ///////////////////////////////////////////////////////////////////////////
 @11206 = ~Laughing Blade +2~
 @11207 = ~It is doubtful the victim of a Laughing Blade finds anything humorous about it. These items were created by master illusionist Daniel Suther, who wanted an interesting twist in the hedge maze he built. Several automatons were equipped with the weapons and heroes accepting his challenge had to battle them, the maze, and their own senses. Suther was eventually jailed after several deaths on his estate.
@@ -676,7 +722,7 @@ Requires:
 Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
-// Sloth +2                                                              //
+// Sloth +2 (IWD)                                                        //
 ///////////////////////////////////////////////////////////////////////////
 @11302 = ~Sloth +2~
 @11303 = ~The short sword is the first type of sword to come into existence. In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger. The term short sword does not exist in sword classifications. However, it has come to be used to describe a double-edged blade about two feet in length. The sword tip is usually pointed, ideal for thrusting. Inscriptions of power can be seen etched on the surface of the blade.
@@ -722,7 +768,7 @@ Requires:
 Weight: 5~
 
 ///////////////////////////////////////////////////////////////////////////
-// Briarspike +2 (Spear - BGEE)                                          //
+// Briarspike +2 (NWN2)                                                  //
 ///////////////////////////////////////////////////////////////////////////
 @11402 = ~Briarspike +2~
 @11403 = ~Briarspikes look like they could have been plucked from some giant quill-covered beast, but the methods involved are very sophisticated and bear the hallmarks of Menold of Waterdeep. This may shed some light on his fate, as he was reported lost to an orc raid on his tower years ago. He may have attempted to buy his freedom with his services, but it would have only made him more valuable as a prisoner.
@@ -765,7 +811,7 @@ Requires:
 Weight: 15~
 
 ///////////////////////////////////////////////////////////////////////////
-// Two-Handed Sword +1: Hammering                                        //
+// Two-Handed Sword +1: Hammering (IWD)                                  //
 ///////////////////////////////////////////////////////////////////////////
 @11502 = ~Two-Handed Sword +1: Hammering~
 @11503 = ~The two-handed sword is a derivative of the long sword. Weaponsmiths have always looked for ways to improve existing weapons. In an effort to improve the long sword, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to properly swing the sword. The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations. This one is particularly good at its job as it has been enchanted with a few magical properties.
@@ -835,7 +881,7 @@ Requires:
 Weight: 6~
 
 ///////////////////////////////////////////////////////////////////////////
-// Lesser Rift Hammer +1                                                 //
+// Lesser Rift Hammer +1 (NWN2)                                          //
 ///////////////////////////////////////////////////////////////////////////
 @11702 = ~Lesser Rift Hammer +1~
 @11703 = ~During the Time of Troubles the walls between dimensions seemed particularly thin, and many creatures normally confined to other planes walked the face of Toril. Unfamiliar items appeared as well, including several of these weapons found after portals or rifts were sighted. The true origins of the Rift Hammers have never been explained, and superstitious folk refuse even to hold them for fear they retain the taint of the lower planes.
@@ -854,7 +900,7 @@ Requires:
 Weight: 6~
 
 ///////////////////////////////////////////////////////////////////////////
-// Crom Faeyr +5                                                         //
+// Crom Faeyr +5 (BG2)                                                   //
 ///////////////////////////////////////////////////////////////////////////
 @11704 = ~This is the true name that the dwarven weaponsmith, Silverblade, gave to the weapon he intended to create for his son. Alas, his son died before the weapon was ever completed, but here it stands complete... forged from the combined magic of the original hammer with the gauntlets of ogre power and a girdle of frost giant strength. Crom Faeyr gifts its users with all the powers of the original Hammer of Thunderbolts, in addition to enormous strength and the ability to kill golems, ettins, and trolls in one blow.
 
@@ -876,7 +922,7 @@ Type: One-handed
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Rift Hammer +3                                                        //
+// Rift Hammer +3 (NWN2)                                                 //
 ///////////////////////////////////////////////////////////////////////////
 @11705 = ~Rift Hammer +3~
 @11706 = ~During the Time of Troubles the walls between dimensions seemed particularly thin, and many creatures normally confined to other planes walked the face of Toril. Unfamiliar items appeared as well, including several of these weapons found after portals or rifts were sighted. The true origins of the Rift Hammers have never been explained, and superstitious folk refuse even to hold them for fear they retain the taint of the lower planes.
@@ -1141,7 +1187,7 @@ Requires:
 Weight: 50~
 
 ///////////////////////////////////////////////////////////////////////////
-// The Gilded Defender - Dwarven Fighter/Kit Only                        //
+// The Gilded Defender - Dwarven Fighter/Kit Only (NWN2)                 //
 ///////////////////////////////////////////////////////////////////////////
 @12802 = ~The Gilded Defender~
 @12803 = ~The ring of metal against metal seems to cling to this ornate suit of the very finest armor. Hammered into the most intricate of shapes by the finest dwarven smiths, this armor speaks of the dwarven cultures most honored companions: the Defenders. None shall pass their shield wall and none shall withstand their charge.
@@ -1179,7 +1225,7 @@ Requires:
 Weight: 70~
 
 ///////////////////////////////////////////////////////////////////////////
-// Storm Armor of the Earth's Children - Shorty Race Only                //
+// Storm Armor of the Earth's Children - Shorty Race Only (NWN2)         //
 ///////////////////////////////////////////////////////////////////////////
 @12902 = ~Storm Armor of the Earth's Children~
 @12903 = ~This well-crafted suit of full plate armor is sized for smaller humanoids, and is crafted of a strange nonmetallic substance that does not conduct electricity or heat. Lore has it that the substance comes from some other plane of existence.
@@ -1294,7 +1340,7 @@ Requires:
 Weight: 15~
 
 ///////////////////////////////////////////////////////////////////////////
-// Large Shield of Strength +1                                           //
+// Large Shield of Strength +1 (IWD)                                     //
 ///////////////////////////////////////////////////////////////////////////
 @13302 = ~Large Shield of Strength +1~
 @13303 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
@@ -1335,7 +1381,7 @@ STATISTICS:
 Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
-// Periapt of Wisdom +2                                                  //
+// Periapt of Wisdom +2 (NWN2)                                           //
 ///////////////////////////////////////////////////////////////////////////
 @13402 = ~Periapt of Wisdom +2~
 @13403 = ~Although it appears to be a simple pearl on a light chain, a Periapt of Wisdom is a powerful item. These items improve perception and insight, and are often used as meditative tools by high-ranking clergy of a faith.
@@ -1348,7 +1394,7 @@ Equipped abilities:
 Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
-// Amulet of Health                                                      //
+// Amulet of Health (NWN2)                                               //
 ///////////////////////////////////////////////////////////////////////////
 @13404 = ~Amulet of Health~
 @13405 = ~Natnea Chesh was one of the first priestesses of Kelemvor in the Moonshae Islands, and became known as "The Defender of the Dead", when she helped stop a necromancer from raising an army of undead. As a gift for her heroic deeds, Kelemvor gave her this amulet, along with the secret of making copies for other clerics dedicated to the destruction of powerful undead creatures. Many a thief has since found these items to be invaluable in their line of work as well.
@@ -1363,7 +1409,7 @@ Equipped abilities:
 Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
-// Amulet of Pure Love                                                   //
+// Amulet of Pure Love (NWN2)                                            //
 ///////////////////////////////////////////////////////////////////////////
 @13406 = ~Amulet of Pure Love~
 @13407 = ~This amulet appears plain and unordinary. When you hold it in your hand, you think you feel a faint echo - an echo of happiness, of complete fulfillment. But as soon as you release the amulet, the feeling is gone and you're unsure whether it was real or imagined.
@@ -1384,7 +1430,7 @@ Charge abilities:
 Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
-// Ysridain's Soul - Bard Only                                           //
+// Ysridain's Soul - Bard Only (NWN2)                                    //
 ///////////////////////////////////////////////////////////////////////////
 @13408 = ~Ysridain's Soul~
 @13409 = ~Everyone said that the bard Ysridain's ability with a lute was exceptional, but a few maintained that it was something more, something supernatural. After Ysridain's death at the hands of a jilter lover, the people of Waterdeep learned just how true those rumors had been. Early in his career, Ysridain realized that his physical beauty was far greater than his talent with music. He was a gifted musician, but he knew he would never be legendary unless he had assistance. Ysridain contracted a wizard to summon forth a powerful demon so the bard could negotiate a pact with the forces of darkness. A succubus answered the call. She agreed to inspire Ysridain with creative forces beyond his understanding. In exchange, upon his death, all that had resulted from her inspiration and Ysridain's soul would be hers.
@@ -1399,7 +1445,7 @@ Equipped abilities:
 Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
-// The Ancient Sermon - Cleric Only                                      //
+// The Ancient Sermon - Cleric Only (NWN2)                               //
 ///////////////////////////////////////////////////////////////////////////
 @13410 = ~The Ancient Sermon~
 @13411 = ~Prized almost universally by clerics of every deity, these rare amulets are said to bestow a god or goddess's favored gaze on the user, granting them additional spells and divine protection.
@@ -1429,7 +1475,7 @@ STATISTICS:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Ceremonial Uthgardt Belt                                              //
+// Ceremonial Uthgardt Belt (NWN2)                                       //
 ///////////////////////////////////////////////////////////////////////////
 @13502 = ~Ceremonial Uthgardt Belt~
 @13503 = ~In an attempt to keep the thriving Uthgardt clans under control, a long-forgotten gathering of druids inflicted them with a virulent pox. This disease soon spread out of control, and far from curbing their numbers actually threatened their extinction. To maintain the balance, these same druids created a number of these ceremonial belts to ensure the survival of the clan's leaders. Ultimately the Uthgardt survived the plague, though the incident did not improve their opinion of outsiders.
@@ -1443,7 +1489,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Belt of Agility +2                                                    //
+// Belt of Agility +2 (NWN2)                                             //
 ///////////////////////////////////////////////////////////////////////////
 @13504 = ~Belt of Agility +2~
 @13505 = ~Attempting to form an anti-thieves' guild, Ronger Delphos, a successful merchant, paid thieves to become security experts, to guard merchants in Waterdeep. The guards were trained to use wands with the Hold Person spell, to capture the thieves for interrogation. To counteract this security measure, magical belts were purchased by the thieves' guild, which nullified the effects of such spells. In the escalating war between the two guilds, many of these belts found their way into pawnshops and equipment stores.
@@ -1457,7 +1503,7 @@ Charge abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Girdle of Hill Giant Strength                                         //
+// Girdle of Hill Giant Strength (BG2)                                   //
 ///////////////////////////////////////////////////////////////////////////
 @13506 = ~This plain belt makes the wearer as strong as a hill giant, but does not make him or her giant size. Many a cocky warrior has been surprised by a much smaller opponent with remarkable strength. More often than not a belt such as this is the reason.
 
@@ -1469,7 +1515,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Girdle of Stone Giant Strength                                        //
+// Girdle of Stone Giant Strength (BG2)                                  //
 ///////////////////////////////////////////////////////////////////////////
 @13507 = ~As a young boy, Stewart Elttil was kidnapped by raiding kobolds after his family was slain. However, en route to their den, the kobolds surprised a family of stone giants. These giants rescued Stewart and raised him as their own. It soon became apparent that the boy, no matter how hard he tried, could not compete in the family rock-throwing contests. The stone giant father bartered with a local wizard for this girdle, which made Stewart as strong as his brothers and sisters. When Stewart met an untimely end, the girdle was stolen away.
 
@@ -1481,7 +1527,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Girdle of Frost Giant Strength                                        //
+// Girdle of Frost Giant Strength (BG2)                                  //
 ///////////////////////////////////////////////////////////////////////////
 @13508 = ~This belt is actually the woven hair from a frost giant's beard. When worn, the belt greatly increases the wearer's Strength, making <PRO_HIMHER> as strong as a frost giant.
 
@@ -1493,7 +1539,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Girdle of Fire Giant Strength                                         //
+// Girdle of Fire Giant Strength (BG2)                                   //
 ///////////////////////////////////////////////////////////////////////////
 @13509 = ~This belt is actually the woven hair from a fire giant's beard. When worn, the belt greatly increases the wearer's strength. 
 
@@ -1505,7 +1551,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Girdle of Fortitude                                                   //
+// Girdle of Fortitude (BG2)                                             //
 ///////////////////////////////////////////////////////////////////////////
 @13510 = ~This girdle greatly increases the wearer's Constitution. King Violos used it when leading an expedition against marsh trolls. He'd been severely sickened the past winter and was no longer the healthy man he once was. The belt gave extra years to his life and inspired his men to renew their confidence in their king once more.
 
@@ -1518,7 +1564,7 @@ Charge abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Grainstone Belt - Monk Only                                           //
+// Grainstone Belt - Monk Only (NWN2)                                    //
 ///////////////////////////////////////////////////////////////////////////
 @13511 = ~Grainstone Belt~
 @13512 = ~The Dark Moon sect has a reputation for hardiness in the hand-to-hand combat challenges they hold annually. Unbeknownst to the other monastic orders, the Dark Moon sect has developed this belt which gives their champions an unfair advantage over their unenhanced brethren.
@@ -1532,7 +1578,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Graena's Triumph - Barbarian Only                                      //
+// Graena's Triumph - Barbarian Only (NWN2)                              //
 ///////////////////////////////////////////////////////////////////////////
 @13513 = ~Graena's Triumph~
 @13514 = ~The famous barbarian explorer Graena was a member of the Sky Pony tribe of the Uthgardt northerners. When she tried to leave the tribe to seek her fortune in southern lands, the elders of the tribe told her she could not leave. At that time, only men were allowed to leave the tribe. The elders believed women were too valuable to let go. In order to prove herself to the elders, Graena had to run a gauntlet of the strongest warriors in the tribe and wrest the belt of the head warrior from his body. Graena underwent the challenge and emerged bloody and broken, but victorious. According to tribal law, she was now the head warrior of the tribe and effectively male. The elders knew she was going to leave, but they gave her a warrior's name, Graena Blood-Has-Dried. She left the tribe, relinquished her position to the old head warrior, and returned his belt to him. But before she left, she swore to never harm a member of the tribe if she encountered one in the future.
@@ -1596,7 +1642,7 @@ STATISTICS:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Hands of Takkok                                                       //
+// Hands of Takkok (BG)                                                  //
 ///////////////////////////////////////////////////////////////////////////
 @13802 = ~Gauntlets of Ogre Power: Hands of Takkok
 The Hands of Takkok are exactly that: his very hands. He lost them when he attacked a strange man crossing the Spine of the World. The mysterious man turned out to be a mage of incredible power, and he used Takkok's hands to create this pair of ogre skin gauntlets.
@@ -1609,7 +1655,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// The Brawling Hands                                                    //
+// The Brawling Hands (BG)                                               //
 ///////////////////////////////////////////////////////////////////////////
 @13803 = ~Gauntlets of Dexterity: The Brawling Hands
 This pair of gauntlets was likely developed in Kara-Tur to aid masters of the martial arts. Legends speak of such masters from the Far East bringing these items with them on their journeys, though details remain sketchy. 
@@ -1689,7 +1735,7 @@ STATISTICS:
 Weight: 0~
 
 ///////////////////////////////////////////////////////////////////////////
-// Ring of Human Influence                                               //
+// Ring of Human Influence (BG2)                                         //
 ///////////////////////////////////////////////////////////////////////////
 @14202 = ~For seven years, Count Fisfnilt searched the realms for a suitable bride for his son Ewnin. Unfortunately, all the women that Fisfnilt found were not up to the standards set by Ewnin, an impossibly spoiled man. Desiring an heir and impatient with his son, the Count had the court mage fashion this ring. He gifted the ring to a woman of no small courtly influence and Ewnin was instantly smitten. They wed three weeks later.
 
@@ -1707,7 +1753,7 @@ Charge abilities:
 Weight: 0~
 
 ///////////////////////////////////////////////////////////////////////////
-// Lord Foreshadow's Ring of Human Influence (Ring - EET)                //
+// Lord Foreshadow's Ring of Human Influence (EET)                       //
 ///////////////////////////////////////////////////////////////////////////
 @14203 = ~Lord Foreshadow's Ring of Human Influence
 Lord Foreshadow gave this ring to <CHARNAME> alluding that it might help <PRO_HIMHER> to win hearts in the future. Obviously there is more to worry about just now, but it's as they say: don't look a gift horse... and as others also say: you never know when you might need one... not to mention  the old proverb that goes something like: all's fair in love and war...
