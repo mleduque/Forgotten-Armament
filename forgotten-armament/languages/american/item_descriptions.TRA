@@ -1141,7 +1141,7 @@ Requires:
 Weight: 50~
 
 ///////////////////////////////////////////////////////////////////////////
-// The Gilded Defender                                                   //
+// The Gilded Defender - Dwarven Fighter/Kit Only                        //
 ///////////////////////////////////////////////////////////////////////////
 @12802 = ~The Gilded Defender~
 @12803 = ~The ring of metal against metal seems to cling to this ornate suit of the very finest armor. Hammered into the most intricate of shapes by the finest dwarven smiths, this armor speaks of the dwarven cultures most honored companions: the Defenders. None shall pass their shield wall and none shall withstand their charge.
@@ -1179,7 +1179,7 @@ Requires:
 Weight: 70~
 
 ///////////////////////////////////////////////////////////////////////////
-// Storm Armor of the Earth's Children                                   //
+// Storm Armor of the Earth's Children - Shorty Race Only                //
 ///////////////////////////////////////////////////////////////////////////
 @12902 = ~Storm Armor of the Earth's Children~
 @12903 = ~This well-crafted suit of full plate armor is sized for smaller humanoids, and is crafted of a strange nonmetallic substance that does not conduct electricity or heat. Lore has it that the substance comes from some other plane of existence.
@@ -1399,6 +1399,20 @@ Equipped abilities:
 Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
+// The Ancient Sermon - Cleric Only                                      //
+///////////////////////////////////////////////////////////////////////////
+@13410 = ~The Ancient Sermon~
+@13411 = ~Prized almost universally by clerics of every deity, these rare amulets are said to bestow a god or goddess's favored gaze on the user, granting them additional spells and divine protection.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Can memorize one extra divine spell of each level from 1st to 3rd
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Belts                                                                 //
 ///////////////////////////////////////////////////////////////////////////
@@ -1500,6 +1514,36 @@ STATISTICS:
 Charge abilities:
 - Increase Constitution by 4 once per day
   Duration: 8 hours
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Grainstone Belt - Monk Only                                           //
+///////////////////////////////////////////////////////////////////////////
+@13511 = ~Grainstone Belt~
+@13512 = ~The Dark Moon sect has a reputation for hardiness in the hand-to-hand combat challenges they hold annually. Unbeknownst to the other monastic orders, the Dark Moon sect has developed this belt which gives their champions an unfair advantage over their unenhanced brethren.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +2
+- +5% resistance to slashing, piercing, and crushing damage
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Graena's Triumph - Barbarian Only                                      //
+///////////////////////////////////////////////////////////////////////////
+@13513 = ~Graena's Triumph~
+@13514 = ~The famous barbarian explorer Graena was a member of the Sky Pony tribe of the Uthgardt northerners. When she tried to leave the tribe to seek her fortune in southern lands, the elders of the tribe told her she could not leave. At that time, only men were allowed to leave the tribe. The elders believed women were too valuable to let go. In order to prove herself to the elders, Graena had to run a gauntlet of the strongest warriors in the tribe and wrest the belt of the head warrior from his body. Graena underwent the challenge and emerged bloody and broken, but victorious. According to tribal law, she was now the head warrior of the tribe and effectively male. The elders knew she was going to leave, but they gave her a warrior's name, Graena Blood-Has-Dried. She left the tribe, relinquished her position to the old head warrior, and returned his belt to him. But before she left, she swore to never harm a member of the tribe if she encountered one in the future.
+
+Years later, she looked back on that fateful day and felt pride in the fact that she had beaten the greatest men of her tribe. She had a belt constructed that looked identical to the belt she had won. Not content to stop there, she had a priest of Tempus bless it with a powerful enchantment. Graena was wearing her belt when she died fighting a vampire and his undead minions in ancient Illefarn ruins.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +2
+- Constitution: +2
 
 Weight: 2~
 

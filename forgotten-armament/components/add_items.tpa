@@ -445,13 +445,26 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// The Ancient Sermon - Assign to                  //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOAM05.ITM~ ~override/MOAM05.ITM~
+        SAY NAME1 @13400
+        SAY NAME2 @13410
+        SAY UNIDENTIFIED_DESC @13401
+        SAY DESC @13411
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Belts                                                                 //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Ceremonial Uthgardt Belt - Setup for BG2EE                            //
+// Ceremonial Uthgardt Belt - Assign to                            //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBL01.ITM~ ~override/MOBL01.ITM~
@@ -462,7 +475,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Belt of Agility +2 - Setup for BG2EE                                  //
+// Belt of Agility +2 - Assign to                                  //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBL02.ITM~ ~override/MOBL02.ITM~
@@ -470,5 +483,32 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @13504
         SAY UNIDENTIFIED_DESC @13501
         SAY DESC @13505
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Grainstone Belt - Assign to Lemzenn at Two-Fold Temple                //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOBL03.ITM~ ~override/MOBL03.ITM~
+        SAY NAME1 @13500
+        SAY NAME2 @13511
+        SAY UNIDENTIFIED_DESC @13501
+        SAY DESC @13512
+
+    COPY_EXISTING ~OHRLEMZE.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOBL03~ #0 #0 #0 ~UNSTEALABLE~ ~BELT~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Graena's Triumph - Assign to                 //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOBL04.ITM~ ~override/MOBL04.ITM~
+        SAY NAME1 @13500
+        SAY NAME2 @13513
+        SAY UNIDENTIFIED_DESC @13501
+        SAY DESC @13514
+
+
 END
 
