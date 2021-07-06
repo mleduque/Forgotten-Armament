@@ -1175,7 +1175,7 @@ STATISTICS:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Ceremonial Uthgardt Belt (Belt - Any Game)                            //
+// Ceremonial Uthgardt Belt                                              //
 ///////////////////////////////////////////////////////////////////////////
 @13502 = ~Ceremonial Uthgardt Belt~
 @13503 = ~In an attempt to keep the thriving Uthgardt clans under control, a long-forgotten gathering of druids inflicted them with a virulent pox. This disease soon spread out of control, and far from curbing their numbers actually threatened their extinction. To maintain the balance, these same druids created a number of these ceremonial belts to ensure the survival of the clan's leaders. Ultimately the Uthgardt survived the plague, though the incident did not improve their opinion of outsiders.
@@ -1189,7 +1189,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Belt of Agility +2 (Belt - Any Game)                                  //
+// Belt of Agility +2                                                    //
 ///////////////////////////////////////////////////////////////////////////
 @13504 = ~Belt of Agility +2~
 @13505 = ~Attempting to form an anti-thieves' guild, Ronger Delphos, a successful merchant, paid thieves to become security experts, to guard merchants in Waterdeep. The guards were trained to use wands with the Hold Person spell, to capture the thieves for interrogation. To counteract this security measure, magical belts were purchased by the thieves' guild, which nullified the effects of such spells. In the escalating war between the two guilds, many of these belts found their way into pawnshops and equipment stores.
@@ -1203,7 +1203,7 @@ Charge abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Girdle of Hill Giant Strength (Belt - BGII: EE)                       //
+// Girdle of Hill Giant Strength                                         //
 ///////////////////////////////////////////////////////////////////////////
 @13506 = ~This plain belt makes the wearer as strong as a hill giant, but does not make him or her giant size. Many a cocky warrior has been surprised by a much smaller opponent with remarkable strength. More often than not a belt such as this is the reason.
 
@@ -1215,7 +1215,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Girdle of Stone Giant Strength (Belt - BGII: EE)                      //
+// Girdle of Stone Giant Strength                                        //
 ///////////////////////////////////////////////////////////////////////////
 @13507 = ~As a young boy, Stewart Elttil was kidnapped by raiding kobolds after his family was slain. However, en route to their den, the kobolds surprised a family of stone giants. These giants rescued Stewart and raised him as their own. It soon became apparent that the boy, no matter how hard he tried, could not compete in the family rock-throwing contests. The stone giant father bartered with a local wizard for this girdle, which made Stewart as strong as his brothers and sisters. When Stewart met an untimely end, the girdle was stolen away.
 
@@ -1227,7 +1227,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Girdle of Frost Giant Strength (Belt - BGII: EE)                      //
+// Girdle of Frost Giant Strength                                        //
 ///////////////////////////////////////////////////////////////////////////
 @13508 = ~This belt is actually the woven hair from a frost giant's beard. When worn, the belt greatly increases the wearer's Strength, making <PRO_HIMHER> as strong as a frost giant.
 
@@ -1239,7 +1239,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Girdle of Fire Giant Strength (Belt - BGII: EE)                       //
+// Girdle of Fire Giant Strength                                         //
 ///////////////////////////////////////////////////////////////////////////
 @13509 = ~This belt is actually the woven hair from a fire giant's beard. When worn, the belt greatly increases the wearer's strength. 
 
@@ -1251,7 +1251,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Girdle of Fortitude (Belt - BGII: EE)                                 //
+// Girdle of Fortitude                                                   //
 ///////////////////////////////////////////////////////////////////////////
 @13510 = ~This girdle greatly increases the wearer's Constitution. King Violos used it when leading an expedition against marsh trolls. He'd been severely sickened the past winter and was no longer the healthy man he once was. The belt gave extra years to his life and inspired his men to renew their confidence in their king once more.
 
