@@ -520,3 +520,16 @@ Equipped abilities:
 - Dexterity: +2
 
 Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Fortitude (Belt - BGII: EE)                                 //
+///////////////////////////////////////////////////////////////////////////
+@312 = ~This girdle greatly increases the wearer's Constitution. King Violos used it when leading an expedition against marsh trolls. He'd been severely sickened the past winter and was no longer the healthy man he once was. The belt gave extra years to his life and inspired his men to renew their confidence in their king once more.
+
+STATISTICS:
+
+Charge abilities:
+- Increase Constitution by 4 once per day
+  Duration: 8 hours
+
+Weight: 2~
