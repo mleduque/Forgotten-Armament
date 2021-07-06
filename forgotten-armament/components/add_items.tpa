@@ -230,9 +230,9 @@ END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/USSWD3A.ITM~ ~override/USSWD3A.ITM~
         SAY NAME1 @11300
-        SAY NAME2 @11304
+        SAY NAME2 @11302
         SAY UNIDENTIFIED_DESC @11301
-        SAY DESC @11305
+        SAY DESC @11303
 
 
 END
