@@ -194,6 +194,73 @@ Requires:
 Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
+// Mage Dagger +1 (IWD)                                                  //
+///////////////////////////////////////////////////////////////////////////
+@10302 = ~Mage Dagger +1~
+@10303 = ~Like most typical daggers, this dagger has a pointed, double-edged blade. It has also been imbued with magical abilities which have increased its usefulness. 
+
+STATISTICS:
+
+Equipped abilities:
+- Can cast one extra 1st-level wizard spell 
+
+THAC0: +1
+Damage: 1d4+1
+Damage type: Piercing
+Speed Factor: 2 
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Mage Dagger +2 (IWD)                                                  //
+///////////////////////////////////////////////////////////////////////////
+@10304 = ~Mage Dagger +2~
+@10305 = ~Like most typical daggers, this dagger has a pointed, double-edged blade. It has also been imbued with magical abilities which have increased its usefulness. 
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Can cast one extra 1st- and 2nd-level wizard spell 
+
+THAC0: +2
+Damage: 1d4+2
+Damage type: Piercing
+Speed Factor: 2 
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Static Dagger +1 (IWD)                                                //
+///////////////////////////////////////////////////////////////////////////
+@10306 = ~Static Dagger +1~
+@10307 = ~Like most typical daggers, this dagger has a pointed, double-edged blade. It has also been imbued with magical abilities which have increased its usefulness. 
+
+STATISTICS:
+
+Combat abilities:
+- 50% chance of dealing +1d3 electrical damage
+
+THAC0: +1
+Damage: 1d4+1
+Damage type: Piercing
+Speed Factor: 2 
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Flails                                                                //
 ///////////////////////////////////////////////////////////////////////////
@@ -214,6 +281,50 @@ Proficiency Type: Flail/Morning Star
 Type: One-handed
 Requires:
  13 Strength
+
+Weight: 15~
+
+///////////////////////////////////////////////////////////////////////////
+// Crooked Flail +1 (IWD)                                                //
+///////////////////////////////////////////////////////////////////////////
+@10402 = ~Crooked Flail +1~
+@10403 = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain.
+
+STATISTICS:
+
+Combat abilities:
+- 50% chance of dealing +1d4 piercing damage
+
+THAC0: +1
+Damage: 1d6+2
+Damage type: Crushing
+Speed Factor: 7
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 15~
+
+///////////////////////////////////////////////////////////////////////////
+// Fast Flail +2 (IWD)                                                   //
+///////////////////////////////////////////////////////////////////////////
+@10404 = ~Fast Flail +2~
+@10405 = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain. This flail has been enhanced magically. Runes can be seen glowing on every surface.
+
+STATISTICS:
+
+Combat abilities:
+- 1 extra attack per round
+
+THAC0: +2
+Damage: 1d6+3
+Damage type: Crushing
+Speed Factor: 7
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires:
+ 11 Strength
 
 Weight: 15~
 
@@ -327,6 +438,50 @@ Requires:
  6 Strength
 
 Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Dragonsblood Katana +2 (NWN2)                                         //
+///////////////////////////////////////////////////////////////////////////
+@10608 = ~Dragonsblood Katana +2~
+@10609 = ~The katana is the pinnacle of the swordsmith's craft, combining grace and artful design with razor-edged efficiency.
+ 
+STATISTICS:
+
+Equipped abilities:
+- Fire Resistance: +10%
+
+THAC0: +2
+Damage: 1d10+2, +2 fire damage
+Damage type: Slashing
+Speed Factor: 2
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// The Devoted Servant +1 (NWN2)                                         //
+///////////////////////////////////////////////////////////////////////////
+@10610 = ~The Devoted Servant +1~
+@10611 = ~Created for the most loyal samurai of the Shogun, these katana hail from the far-off land of Wa - an island nation within Kara-Tur. How it managed to find its way to you is somewhat of a mystery, but its powers remain thankfully intact.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+
+THAC0: +1
+Damage: 1d10+1
+Damage type: Slashing
+Speed Factor: 3
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 5~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
