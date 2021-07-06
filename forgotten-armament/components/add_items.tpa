@@ -21,7 +21,7 @@
 // Battle Axe +2: Defender - Assign to                                               //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/MOAX01.ITM~ ~override/MOAX01.ITM~
+    COPY ~forgotten-armament/itm/U1HAX3B.ITM~ ~override/U1HAX3B.ITM~
         SAY NAME1 @10000
         SAY NAME2 @10002
         SAY UNIDENTIFIED_DESC @10001
@@ -33,7 +33,7 @@ END
 // Charged Battle Axe +2 - Assign to                                               //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/MOAX02.ITM~ ~override/MOAX02.ITM~
+    COPY ~forgotten-armament/itm/U1HAX2A.ITM~ ~override/U1HAX2A.ITM~
         SAY NAME1 @10000
         SAY NAME2 @10004
         SAY UNIDENTIFIED_DESC @10001
