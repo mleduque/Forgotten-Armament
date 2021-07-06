@@ -239,6 +239,28 @@ Requires:
 Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
+// Kaga-To +1                                                            //
+///////////////////////////////////////////////////////////////////////////
+@10606 = ~Kaga-To +1~
+@10607 = ~If memory serves correctly, these weapons date to the stadium battles of old Kai Chen province, where promising warriors would test their skills against the greatest samurai of the day in ritual combat. If ever a challenger was victorious, he or she won the people's ovation and fame forever, symbolized by a Kaga-To katana. The blade is etched with a simple phrase: "Tell me how you fight, and I will tell you what you are."
+
+STATISTICS:
+
+Combat abilities:
+- 5% chance per hit of stunning target for 1 round (Save vs. Spell negates)
+
+THACO: +1
+Damage: 1d10+1
+Damage type: Slashing
+Speed Factor: 1
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Long Swords                                                           //
 ///////////////////////////////////////////////////////////////////////////
@@ -599,6 +621,25 @@ STATISTICS:
 Damage: 1d4+1
 Damage type: Crushing
 Speed Factor: 4
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+ 9 Strength
+
+Weight: 6~
+
+///////////////////////////////////////////////////////////////////////////
+// Lesser Rift Hammer +1                                                 //
+///////////////////////////////////////////////////////////////////////////
+@11702 = ~Lesser Rift Hammer +1~
+@11703 = ~During the Time of Troubles the walls between dimensions seemed particularly thin, and many creatures normally confined to other planes walked the face of Toril. Unfamiliar items appeared as well, including several of these weapons found after portals or rifts were sighted. The true origins of the Rift Hammers have never been explained, and superstitious folk refuse even to hold them for fear they retain the taint of the lower planes.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 1d4+2, +1 fire damage
+Damage type: Crushing
+Speed Factor: 3
 Proficiency Type: War Hammer
 Type: One-handed
 Requires:

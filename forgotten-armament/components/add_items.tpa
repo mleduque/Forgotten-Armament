@@ -24,7 +24,7 @@
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Nameless Light +2                                                     //
+// Nameless Light +2 - Assign to Jardak in Northern Baldur's Gate        //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
     COPY ~forgotten-armament/itm/MO1H42.ITM~ ~override/MO1H42.ITM~
@@ -32,6 +32,10 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY NAME2 @10102
         SAY UNIDENTIFIED_DESC @10101
         SAY DESC @10103
+
+    COPY_EXISTING ~JARDAK.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYBASTARDSWORD~ 5
+        ADD_CRE_ITEM ~MO1H42~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -51,7 +55,6 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY DESC @10603
 
     COPY_EXISTING ~KAHRK.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 4
         REPLACE_CRE_ITEM ~MO1H55~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
@@ -69,6 +72,20 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY_EXISTING ~GORWOM06.CRE~ ~override~
         SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 5
         ADD_CRE_ITEM ~MO1H75~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Kaga-To +1 - Assign to Ogre Mage Cloakwood Mine                       //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MO1H40.ITM~ ~override/MO1H40.ITM~
+        SAY NAME1 @10600
+        SAY NAME2 @10606
+        SAY UNIDENTIFIED_DESC @10601
+        SAY DESC @10607
+
+    COPY_EXISTING ~OGREMA03.CRE~ ~override~
+        ADD_CRE_ITEM ~MO1H40~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -113,6 +130,26 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
     COPY_EXISTING ~SENIYA.CRE~ ~override~
         SET_BG2_PROFICIENCY ~PROFICIENCYSPEAR~ 1
         REPLACE_CRE_ITEM ~MOSP01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// War Hammers                                                           //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Lesser Rift Hammer +1 - Assign to Diyab in Iron Throne Tower          //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOHM01.ITM~ ~override/MOHM01.ITM~
+        SAY NAME1 @11700
+        SAY NAME2 @11702
+        SAY UNIDENTIFIED_DESC @11701
+        SAY DESC @11703
+
+    COPY_EXISTING ~DIYAB.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOHM01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 /*************************************************************************/
