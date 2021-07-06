@@ -112,6 +112,7 @@ END
 // Intercession +1 - Assign to Meilum outside Firewine Bridge            //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY ~forgotten-armament/bam/IINTRCES.BAM~ ~override/IINTRCES.BAM~
     COPY ~forgotten-armament/itm/INTRCES.ITM~ ~override/INTRCES.ITM~
         SAY NAME1 @10700
         SAY NAME2 @10704
@@ -134,6 +135,21 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 
     COPY_EXISTING ~TUTH.CRE~ ~override~ 
         ADD_CRE_ITEM ~ULSWD3D~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Turodahel +2 - Assign to Ruhk Transmuter Firkraag Dungeon             //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY ~forgotten-armament/bam/ITURODAH.BAM~ ~override/ITURODAH.BAM~
+    COPY ~forgotten-armament/itm/TURODAH.ITM~ ~override/TURODAH.ITM~
+        SAY NAME1 @10700
+        SAY NAME2 @10710
+        SAY UNIDENTIFIED_DESC @10701
+        SAY DESC @10711
+
+    COPY_EXISTING ~FIRRAK01.CRE~ ~override~
+        ADD_CRE_ITEM ~TURODAH~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -177,11 +193,31 @@ END
 // Create The Lucky Scimitar +2 - Assign to         //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/bam/ILUCKY.BAM~ ~override/ILUCKY.BAM~
     COPY ~forgotten-armament/itm/LUCKY.ITM~ ~override/LUCKY.ITM~
         SAY NAME1 @11200
         SAY NAME2 @11204
         SAY UNIDENTIFIED_DESC @11201
         SAY DESC @11205
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Short Swords                                                          //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Create Sloth +2 - Assign to                                                             //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/USSWD3A.ITM~ ~override/USSWD3A.ITM~
+        SAY NAME1 @11300
+        SAY NAME2 @11304
+        SAY UNIDENTIFIED_DESC @11301
+        SAY DESC @11305
 
 
 END
@@ -209,6 +245,26 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
+// Two-Handed Swords                                                     //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Two-Handed Sword +1: Hammering - Assign to Aawill (Planar Hunter)     //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/UTSWD2B.ITM~ ~override/UTSWD2B.ITM~
+        SAY NAME1 @11500
+        SAY NAME2 @11502
+        SAY UNIDENTIFIED_DESC @11501
+        SAY DESC @11503
+
+    COPY_EXISTING ~PBHUNT01.CRE~ ~override~
+        REPLACE_CRE_ITEM ~UTSWD2B~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
 // War Hammers                                                           //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -228,7 +284,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Rift Hammer +3 -  TAZOK FIGHT                                                     //
+// Rift Hammer +3 -                                                           //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOHM02.ITM~ ~override/MOHM02.ITM~
@@ -255,7 +311,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create The Gilded Defender - Assign to Draug Fea in Temple Sewers     // FIGHT IN RED DRAGON PLACE DUDES HOME WHEHN ATTACKED
+// Create The Gilded Defender - Assign to Duerger Store Underdark        // 
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOPM01.ITM~ ~override/MOPM01.ITM~
@@ -264,8 +320,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @12801
         SAY DESC @12803
 
-    COPY_EXISTING ~DRAUG.CRE~ ~override~
-        REPLACE_CRE_ITEM ~MOPM01~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
+    COPY_EXISTING ~UDDUER01.STO~ ~override~
+        ADD_STORE_ITEM ~MOPM01~ #0 #0 #0 ~IDENTIFIED~ #1
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -275,7 +331,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Storm Armor of the Earth's Children - Carlig's Store in the Underdark //
+// Storm Armor of the Earth's Children - Assign to Legdor in Firkraag    //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOFP01.ITM~ ~override/MOFP01.ITM~
@@ -284,8 +340,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @12901
         SAY DESC @12903
 
-    COPY_EXISTING ~UDDUER01.STO~ ~override~
-        ADD_STORE_ITEM ~MOFP01.ITM~ #0 #0 #0 ~IDENTIFIED~ #1
+    COPY_EXISTING ~LEGDOR.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOFP01~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
 END
 
 /*************************************************************************/
