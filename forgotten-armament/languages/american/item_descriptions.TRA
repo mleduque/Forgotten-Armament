@@ -457,3 +457,53 @@ Proficiency Type: War Hammer
 Type: One-handed
 
 Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Ring of Human Influence (Ring - BGII: EE)                             //
+///////////////////////////////////////////////////////////////////////////
+@308 = ~For seven years, Count Fisfnilt searched the realms for a suitable bride for his son Ewnin. Unfortunately, all the women that Fisfnilt found were not up to the standards set by Ewnin, an impossibly spoiled man. Desiring an heir and impatient with his son, the Count had the court mage fashion this ring. He gifted the ring to a woman of no small courtly influence and Ewnin was instantly smitten. They wed three weeks later.
+
+STATISTICS:
+
+Equipped abilities:
+- Charisma: +2
+
+Charge abilities:
+- Charm Person once per day (Save vs. Spell at +3 negates)
+  Range: 60 ft.
+  Duration: 100 seconds
+  Area of Effect: 1 creature
+
+Weight: 0~
+
+///////////////////////////////////////////////////////////////////////////
+// Lord Foreshadow's Ring of Human Influence (Ring - EET)                //
+///////////////////////////////////////////////////////////////////////////
+@309 = ~Lord Foreshadow's Ring of Human Influence
+Lord Foreshadow gave this ring to <CHARNAME> alluding that it might help <PRO_HIMHER> to win hearts in the future. Obviously there is more to worry about just now, but it's as they say: don't look a gift horse... and as others also say: you never know when you might need one... not to mention  the old proverb that goes something like: all's fair in love and war...
+
+STATISTICS:
+
+Equipped Abilities:
+- Charisma: +2
+
+Special Abilities:
+- Charm person once per day~
+
+///////////////////////////////////////////////////////////////////////////
+// Mauler's Arm +2 (Ring - BGII: EE)                                     //
+///////////////////////////////////////////////////////////////////////////
+@310 = ~Jurrg the Mauler was proud chieftain of a northern tribe, but feared he would be the last of his family to lead. His son Kullen was sickly and clearly couldn't meet the traditional requirements of strength for a chieftain. Jurrg knew that wise leadership took more than brawn, however, so he bargained to enchant this mace such that it would cover Kullen's weakness. Who Jurrg made the deal with is unknown, but the cost was apparently high. Kullen came to rule soon after.
+
+STATISTICS:
+
+Equipped Ability:
+- Strength: +1
+
+THAC0: +2
+Damage: 1d6+3 (crushing)
+Speed Factor: 5
+Proficiency Type: Mace
+Type: One-handed
+
+Weight: 7~

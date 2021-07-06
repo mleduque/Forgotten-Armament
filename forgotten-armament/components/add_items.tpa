@@ -72,7 +72,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Spider's Kiss +2 - Scimitar                                    //
+// Create Spider's Kiss +2 - Scimitar ***                                //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MO1H50.ITM~ ~override/MO1H50.ITM~
@@ -81,11 +81,6 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @2051
         SAY DESC @2053
 
-    // Assign to Pai'Na in Graveyard underground
-    COPY_EXISTING ~SPPAIN.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYSCIMITARWAKISASHININJATO~ 1
-        SET_BG2_PROFICIENCY ~PROFICIENCYSINGLEWEAPON~ 1
-        ADD_CRE_ITEM ~MO1H50~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
