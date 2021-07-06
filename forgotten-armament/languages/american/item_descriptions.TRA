@@ -1110,6 +1110,55 @@ STATISTICS:
 Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
+// Periapt of Wisdom +2                                                  //
+///////////////////////////////////////////////////////////////////////////
+@13402 = ~Periapt of Wisdom +2~
+@13403 = ~Although it appears to be a simple pearl on a light chain, a Periapt of Wisdom is a powerful item. These items improve perception and insight, and are often used as meditative tools by high-ranking clergy of a faith.
+
+STATISTICS:
+
+Equipped abilities:
+- Wisdom: +2
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Amulet of Health                                                      //
+///////////////////////////////////////////////////////////////////////////
+@13404 = ~Amulet of Health~
+@13405 = ~Natnea Chesh was one of the first priestesses of Kelemvor in the Moonshae Islands, and became known as "The Defender of the Dead", when she helped stop a necromancer from raising an army of undead. As a gift for her heroic deeds, Kelemvor gave her this amulet, along with the secret of making copies for other clerics dedicated to the destruction of powerful undead creatures. Many a thief has since found these items to be invaluable in their line of work as well.
+
+STATISTICS:
+
+Equipped abilities:
+- Immunity to disease
+- Negative Plane Protection
+- Immunity to poison
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Amulet of Pure Love                                                   //
+///////////////////////////////////////////////////////////////////////////
+@13406 = ~Amulet of Pure Love~
+@13407 = ~This amulet appears plain and unordinary. When you hold it in your hand, you think you feel a faint echo - an echo of happiness, of complete fulfillment. But as soon as you release the amulet, the feeling is gone and you're unsure whether it was real or imagined.
+
+STATISTICS:
+
+Equipped abilities:
+- Negative Plane Protection
+- Protects against all forms of panic and boosts morale
+- Regenerate 1 HP/round
+
+Charge abilities:
+- Greater Restoration once per day
+  Special: Reverses any previous level drain; cures feeblemind, confusion, berserk, disease, and poison; and fully heals the target
+  Range: Touch
+  Area of Effect: 1 creature
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Belts                                                                 //
 ///////////////////////////////////////////////////////////////////////////
@@ -1133,7 +1182,7 @@ Weight: 2~
 
 STATISTICS:
 
-Charge abilities:
+Equipped abilities:
 - Immunity to disease
 - Save vs. Death: +4
 
