@@ -152,6 +152,21 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         REPLACE_CRE_ITEM ~MOHM01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
+///////////////////////////////////////////////////////////////////////////
+// Rift Hammer +3 -                                                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOHM02.ITM~ ~override/MOHM02.ITM~
+        SAY NAME1 @11700
+        SAY NAME2 @11705
+        SAY UNIDENTIFIED_DESC @11701
+        SAY DESC @11706
+/*
+    COPY_EXISTING ~DIYAB.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOHM01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+        */
+END
+
 /*************************************************************************/
 ///////////////////////////////////////////////////////////////////////////
 // CREATE ARMORS                                                         //
@@ -165,7 +180,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create The Gilded Defender -                                          //
+// Create The Gilded Defender - Assign to Draug Fea in Temple Sewers     //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOPM01.ITM~ ~override/MOPM01.ITM~
@@ -173,6 +188,9 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @12802
         SAY UNIDENTIFIED_DESC @12801
         SAY DESC @12803
+
+    COPY_EXISTING ~DRAUG.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOPM01~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////

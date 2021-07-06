@@ -650,7 +650,7 @@ Weight: 6~
 ///////////////////////////////////////////////////////////////////////////
 // Crom Faeyr +5                                                         //
 ///////////////////////////////////////////////////////////////////////////
-@11702 = ~This is the true name that the dwarven weaponsmith, Silverblade, gave to the weapon he intended to create for his son. Alas, his son died before the weapon was ever completed, but here it stands complete... forged from the combined magic of the original hammer with the gauntlets of ogre power and a girdle of frost giant strength. Crom Faeyr gifts its users with all the powers of the original Hammer of Thunderbolts, in addition to enormous strength and the ability to kill golems, ettins, and trolls in one blow.
+@11704 = ~This is the true name that the dwarven weaponsmith, Silverblade, gave to the weapon he intended to create for his son. Alas, his son died before the weapon was ever completed, but here it stands complete... forged from the combined magic of the original hammer with the gauntlets of ogre power and a girdle of frost giant strength. Crom Faeyr gifts its users with all the powers of the original Hammer of Thunderbolts, in addition to enormous strength and the ability to kill golems, ettins, and trolls in one blow.
 
 STATISTICS:
 
@@ -666,6 +666,25 @@ Damage type: Crushing
 Speed Factor: 1
 Proficiency Type: War Hammer
 Type: One-handed
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Rift Hammer +3                                                        //
+///////////////////////////////////////////////////////////////////////////
+@11705 = ~Rift Hammer +3~
+@11706 = ~During the Time of Troubles the walls between dimensions seemed particularly thin, and many creatures normally confined to other planes walked the face of Toril. Unfamiliar items appeared as well, including several of these weapons found after portals or rifts were sighted. The true origins of the Rift Hammers have never been explained, and superstitious folk refuse even to hold them for fear they retain the taint of the lower planes.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d4+4, +1d4 fire damage
+Damage type: Crushing
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+ 9 Strength
 
 Weight: 4~
 
