@@ -75,7 +75,7 @@ COPY ~forgotten-armament/itm/BRAC07.ITM~ ~override/BRAC07.ITM~
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/RING30.ITM~ ~override/RING30.ITM~
-        SAY DESC @308
+        SAY DESC @14202
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -83,7 +83,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~X#RINGRO.itm~ BEGIN
     COPY ~forgotten-armament/itm/X#RINGRO.itm~ ~override/X#RINGRO.itm~
-        SAY DESC @309
+        SAY DESC @14203
 END
 
 ///////////////////////////////////////////////////////////////////////////

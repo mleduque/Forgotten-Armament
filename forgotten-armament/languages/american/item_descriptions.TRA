@@ -1298,19 +1298,26 @@ STATISTICS:
 
 Weight: 0~
 
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Rings                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
+// Ring                                                                  //
 ///////////////////////////////////////////////////////////////////////////
-// Identified Item Descriptions                                          //
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
+@14200 = ~Ring~
+@14201 = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession.
 
+STATISTICS:
 
+Weight: 0~
 
 ///////////////////////////////////////////////////////////////////////////
-// Ring of Human Influence (Ring - BGII: EE)                             //
+// Ring of Human Influence                                               //
 ///////////////////////////////////////////////////////////////////////////
-@308 = ~For seven years, Count Fisfnilt searched the realms for a suitable bride for his son Ewnin. Unfortunately, all the women that Fisfnilt found were not up to the standards set by Ewnin, an impossibly spoiled man. Desiring an heir and impatient with his son, the Count had the court mage fashion this ring. He gifted the ring to a woman of no small courtly influence and Ewnin was instantly smitten. They wed three weeks later.
+@14202 = ~For seven years, Count Fisfnilt searched the realms for a suitable bride for his son Ewnin. Unfortunately, all the women that Fisfnilt found were not up to the standards set by Ewnin, an impossibly spoiled man. Desiring an heir and impatient with his son, the Count had the court mage fashion this ring. He gifted the ring to a woman of no small courtly influence and Ewnin was instantly smitten. They wed three weeks later.
 
 STATISTICS:
 
@@ -1328,7 +1335,7 @@ Weight: 0~
 ///////////////////////////////////////////////////////////////////////////
 // Lord Foreshadow's Ring of Human Influence (Ring - EET)                //
 ///////////////////////////////////////////////////////////////////////////
-@309 = ~Lord Foreshadow's Ring of Human Influence
+@14203 = ~Lord Foreshadow's Ring of Human Influence
 Lord Foreshadow gave this ring to <CHARNAME> alluding that it might help <PRO_HIMHER> to win hearts in the future. Obviously there is more to worry about just now, but it's as they say: don't look a gift horse... and as others also say: you never know when you might need one... not to mention  the old proverb that goes something like: all's fair in love and war...
 
 STATISTICS:
