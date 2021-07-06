@@ -610,10 +610,10 @@ Requires:
 STATISTICS:
 
 Equipped abilities:
-– Luck (+1 to all rolls)
+- Luck (+1 to all rolls)
 
 Charge abilities:
-– Luck once per day
+- Luck once per day
   Range: 15 ft.
   Duration: 3 rounds
   Area of Effect: 1 creature
@@ -628,6 +628,28 @@ Requires:
  8 Strength
 
 Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Laughing Blade +2                                                     //
+///////////////////////////////////////////////////////////////////////////
+@11206 = ~Laughing Blade +2~
+@11207 = ~It is doubtful the victim of a Laughing Blade finds anything humorous about it. These items were created by master illusionist Daniel Suther, who wanted an interesting twist in the hedge maze he built. Several automatons were equipped with the weapons and heroes accepting his challenge had to battle them, the maze, and their own senses. Suther was eventually jailed after several deaths on his estate.
+
+STATISTICS:
+
+Combat abilities:
+- 10% chance per hit of confusing the target for 1 round (Save vs. Spell negates)
+
+THAC0: +2
+Damage: 1d8+2, +1 cold damage
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -1358,6 +1380,21 @@ Charge abilities:
   Special: Reverses any previous level drain; cures feeblemind, confusion, berserk, disease, and poison; and fully heals the target
   Range: Touch
   Area of Effect: 1 creature
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Ysridain's Soul - Bard Only                                           //
+///////////////////////////////////////////////////////////////////////////
+@13408 = ~Ysridain's Soul~
+@13409 = ~Everyone said that the bard Ysridain's ability with a lute was exceptional, but a few maintained that it was something more, something supernatural. After Ysridain's death at the hands of a jilter lover, the people of Waterdeep learned just how true those rumors had been. Early in his career, Ysridain realized that his physical beauty was far greater than his talent with music. He was a gifted musician, but he knew he would never be legendary unless he had assistance. Ysridain contracted a wizard to summon forth a powerful demon so the bard could negotiate a pact with the forces of darkness. A succubus answered the call. She agreed to inspire Ysridain with creative forces beyond his understanding. In exchange, upon his death, all that had resulted from her inspiration and Ysridain's soul would be hers.
+
+Ysridain thought on this for a short time and eventually agreed to the succubus' deal. The succubus occupied a pendant that Ysridain wore around his neck. It had the effect of inspiring the bard to great musical deeds, but it also created intense physical lust. When Ysridain died, the bard's soul was swapped into the amulet and the succubus was released into the world. If the amulet ever shatters, Ysridain's soul will be dragged straight to the lower planes. Until then, Ysridain's succubus roams Faerun searching for the children sired by the bard's lust.
+
+STATISTICS:
+
+Equipped abilities:
+- Hit Points: +15 
 
 Weight: 1~
 

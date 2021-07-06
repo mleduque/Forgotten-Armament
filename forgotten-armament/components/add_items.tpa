@@ -204,6 +204,21 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Create Laughing Blade +2 - Assign to Samia in Firkraag's Dungeon      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/spl/MO1H30.SPL~ ~override/MO1H30.SPL~
+    COPY ~forgotten-armament/itm/MO1H30.ITM~ ~override/MO1H30.ITM~
+        SAY NAME1 @11200
+        SAY NAME2 @11206
+        SAY UNIDENTIFIED_DESC @11201
+        SAY DESC @11207
+
+    COPY_EXISTING ~SAMIA.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MO1H30~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Short Swords                                                          //
 ///////////////////////////////////////////////////////////////////////////
@@ -413,6 +428,20 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @13406
         SAY UNIDENTIFIED_DESC @13401
         SAY DESC @13407
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Ysridain's Soul - Assign to Aawill (Planar Hunter)                    //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOAM04.ITM~ ~override/MOAM04.ITM~
+        SAY NAME1 @13400
+        SAY NAME2 @13408
+        SAY UNIDENTIFIED_DESC @13401
+        SAY DESC @13409
+
+    COPY_EXISTING ~PBHUNT01.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOAM04~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
