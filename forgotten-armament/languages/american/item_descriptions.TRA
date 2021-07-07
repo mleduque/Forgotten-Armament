@@ -1785,6 +1785,37 @@ Equipped abilities:
 Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
+// Black Wolf Talisman (IWD)                                             //
+///////////////////////////////////////////////////////////////////////////
+@13412 = ~Black Wolf Talisman~
+@13413 = ~This crude talisman appears to be nothing more than a flat piece of stone with a wolf's paw painted on it. Despite its simple appearance, the Black Wolf Talisman contains powerful beneficial magic.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Save vs. Breath: +1
+- Cold Resistance: +10%
+- Maximum Hit Points: +10
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Clasp of Bron's Cloak (IWD)                                           //
+///////////////////////////////////////////////////////////////////////////
+@13414 = ~Clasp of Bron's Cloak~
+@13415 = ~This small talisman was the clasp of a cloak owned by the notoriously tough warrior known as Bron Balhon. On at least ten different instances during Bron's life, he was reported as dead after getting himself involved in some horrible situation. Some enemies shot him full of crossbow bolts and pushed him into the ocean with lead weights only to be killed by him a month later in a tavern four hundred miles away. On another occasion, Bron's cowardly companions abandoned him when they were attacked by dire wolves in the wilderness. Two weeks later, Bron swaggered into their camp wearing wolfskins. Whether all of the tales surrounding Bron are true or not, it is known that Bron is believed to have met his end in the Spine of the World mountains, fighting polar worms.
+
+STATISTICS:
+
+Equipped abilities:
+- Piercing Resistance: +5%
+- Slashing Resistance: +5%
+- Missile Resistance: +5%
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Belts                                                                 //
 ///////////////////////////////////////////////////////////////////////////
