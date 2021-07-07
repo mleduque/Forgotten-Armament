@@ -1,8 +1,9 @@
 // Forgotten Armament, American English
 
-@1 = ~Install New Items~
-@2 = ~Move Certain Items to More Difficult Locations~
-@3 = ~Update Stat Increasing Items to Increment the Increase~
+@1 = ~Install IWD:EE Items~
+@2 = ~Install Neverwinter Nights Items~
+@3 = ~Move Certain Items to More Difficult Locations~
+@4 = ~Update Stat Increasing Items to Increment the Increase~
 
 @3000 = ~Component requires BG: EE, BGII: EE, or EET~
 @3001 = ~DLCMerger is needed before modding SoD games~

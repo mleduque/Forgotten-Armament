@@ -32,22 +32,34 @@ LANGUAGE ~American English~
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Add New Items into the Game                                           //
+// Add New IWD:EE Items into the Game                                    //
 ///////////////////////////////////////////////////////////////////////////
 
-BEGIN @1 DESIGNATED 1 LABEL ForgottenArmament-AddItems
+BEGIN @1 DESIGNATED 1 LABEL ForgottenArmament-AddIWDItems
 
 REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
-INCLUDE ~forgotten-armament/components/add_items.tpa~
+INCLUDE ~forgotten-armament/components/add_items_iwd.tpa~
+
+///////////////////////////////////////////////////////////////////////////
+// Add New NWN Items into the Game                                       //
+///////////////////////////////////////////////////////////////////////////
+
+BEGIN @2 DESIGNATED 2 LABEL ForgottenArmament-AddNWNItems
+
+REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
+
+LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
+
+INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
 
 ///////////////////////////////////////////////////////////////////////////
 // Move Certain Items to more Difficult Locations                        //
 ///////////////////////////////////////////////////////////////////////////
 
-BEGIN @2 DESIGNATED 2 LABEL ForgottenArmament-MoveItems
+BEGIN @3 DESIGNATED 3 LABEL ForgottenArmament-MoveItems
 
 REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
 
@@ -57,7 +69,7 @@ INCLUDE ~forgotten-armament/components/move_items.tpa~
 // Update Stat Increasing Items to Increment the Increase                //
 ///////////////////////////////////////////////////////////////////////////
 
-BEGIN @3 DESIGNATED 3 LABEL ForgottenArmament-UpdateStrengthItems
+BEGIN @4 DESIGNATED 4 LABEL ForgottenArmament-UpdateStatItems
 
 REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
 
