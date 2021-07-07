@@ -122,7 +122,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Fast Flail +2 - Assign to                 //
+// Fast Flail +2 - Assign to <THIS IS +APR SO LOOK AT LEAVING OUT>       //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/UFLAL3A.ITM~ ~override/UFLAL3A.ITM~
