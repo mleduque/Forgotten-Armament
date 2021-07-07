@@ -383,6 +383,19 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Create The Spear of White Ash +3 - Assign to       //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY ~forgotten-armament/bam/IWHTASH.BAM~ ~override/IWHTASH.BAM~
+    COPY ~forgotten-armament/itm/WHTASH.ITM~ ~override/WHTASH.ITM~
+        SAY NAME1 @11400
+        SAY NAME2 @11404
+        SAY UNIDENTIFIED_DESC @11401
+        SAY DESC @11405
+
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Two-Handed Swords                                                     //
 ///////////////////////////////////////////////////////////////////////////
@@ -403,13 +416,41 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Create Kresselack's Sword +1 -      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/IKRESWRD.BAM~ ~override/IKRESWRD.BAM~
+    COPY ~forgotten-armament/itm/KRESWRD.ITM~ ~override/KRESWRD.ITM~
+        SAY NAME1 @11500
+        SAY NAME2 @11504
+        SAY UNIDENTIFIED_DESC @11501
+        SAY DESC @11505
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Create Serrated Bone Blade +3 -      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/ISERRATE.BAM~ ~override/ISERRATE.BAM~
+    COPY ~forgotten-armament/itm/SERRATE.ITM~ ~override/SERRATE.ITM~
+        SAY NAME1 @11500
+        SAY NAME2 @11506
+        SAY UNIDENTIFIED_DESC @11501
+        SAY DESC @11507
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // War Hammers                                                           //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Lesser Rift Hammer +1 - Assign to Diyab in Iron Throne Tower          //
+// Create Lesser Rift Hammer +1 - Assign to Diyab in Iron Throne Tower   //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOHM01.ITM~ ~override/MOHM01.ITM~
@@ -423,7 +464,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Rift Hammer +3 -                                                           //
+// Create Rift Hammer +3 -                                                           //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOHM02.ITM~ ~override/MOHM02.ITM~
@@ -431,10 +472,21 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @11705
         SAY UNIDENTIFIED_DESC @11701
         SAY DESC @11706
-/*
-    COPY_EXISTING ~DIYAB.CRE~ ~override~
-        REPLACE_CRE_ITEM ~MOHM01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
-        */
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Create Corrosive Hammer +2 -                                                           //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/U1HAM3A.ITM~ ~override/U1HAM3A.ITM~
+        SAY NAME1 @11700
+        SAY NAME2 @11707
+        SAY UNIDENTIFIED_DESC @11701
+        SAY DESC @11708
+
+
 END
 
 /*************************************************************************/
