@@ -31,7 +31,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Axe of Dead Illusk +2 - Assign to                                                       //
+// Create Axe of Dead Illusk +2 - Assign to Revanek in the Twisted Rune  //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOAX02.ITM~ ~override/MOAX02.ITM~
@@ -40,7 +40,10 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10001
         SAY DESC @10009
 
-
+    COPY_EXISTING ~HLREVAN.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYAXE~ 3
+        SET_BG2_PROFICIENCY ~PROFICIENCY2WEAPON~ 2
+        REPLACE_CRE_ITEM ~MOAX02~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -50,7 +53,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Nameless Light +2 - Assign to Jardak in Northern Baldur's Gate        //
+// Create Nameless Light +2 - Assign to Jardak in Northern Baldur's Gate //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
     COPY ~forgotten-armament/itm/MO1H42.ITM~ ~override/MO1H42.ITM~
@@ -65,12 +68,73 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Create Bloodletter +4 - Assign to Revanek in the Twisted Rune         //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    ACTION_IF NOT FILE_EXISTS_IN_GAME ~BDSW1H21.SPL~ BEGIN
+        COPY ~forgotten-armament/spl/BDSW1H21.SPL~ ~override/BDSW1H21.SPL~
+    END
+    
+    COPY ~forgotten-armament/itm/MO1H39.ITM~ ~override/MO1H39.ITM~
+        SAY NAME1 @10100
+        SAY NAME2 @10106
+        SAY UNIDENTIFIED_DESC @10101
+        SAY DESC @10107
+
+    COPY_EXISTING ~HLREVAN.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYBASTARDSWORD~ 5
+        ADD_CRE_ITEM ~MO1H39~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Create Discord +2 - Assign to         //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/spl/MO1H30.SPL~ ~override/MO1H30.SPL~
+    COPY ~forgotten-armament/itm/MO1H03.ITM~ ~override/MO1H03.ITM~
+        SAY NAME1 @10100
+        SAY NAME2 @10108
+        SAY UNIDENTIFIED_DESC @10101
+        SAY DESC @10109
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Daggers                                                               //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
+///////////////////////////////////////////////////////////////////////////
+// Create Myr Styah'be'eh +4 - Assign to                                                       //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MODAG01.ITM~ ~override/MODAG01.ITM~
+        SAY NAME1 @10300
+        SAY NAME2 @10308
+        SAY UNIDENTIFIED_DESC @10301
+        SAY DESC @10309
 
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Create Ice Talon +2 - Assign to            //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    ACTION_IF NOT FILE_EXISTS_IN_GAME ~IBDDAG01.BAM~ BEGIN
+        COPY ~forgotten-armament/bam/IBDDAG01.BAM~ ~override/IBDDAG01.BAM~
+    END
+
+    COPY ~forgotten-armament/itm/MODAG02.ITM~ ~override/MODAG02.ITM~
+        SAY NAME1 @10300
+        SAY NAME2 @10310
+        SAY UNIDENTIFIED_DESC @10301
+        SAY DESC @10311
+
+
+END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -160,9 +224,23 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-// Long Swords                                                           //
+// Ninja-Tos                                                             //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Create Courtesan Blade + 2 - Assign to Akae in Firkraag Dungeon       //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MO1H04.ITM~ ~override/MO1H04.ITM~
+        SAY NAME1 @11000
+        SAY NAME2 @11002
+        SAY UNIDENTIFIED_DESC @11001
+        SAY DESC @11003
+
+    COPY_EXISTING ~AKAE.CRE~ ~override~
+        ADD_CRE_ITEM ~MO1H04~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
+END
 
 
 ///////////////////////////////////////////////////////////////////////////
@@ -192,7 +270,6 @@ END
 // Create Laughing Blade +2 - Assign to Samia in Firkraag's Dungeon      //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/spl/MO1H30.SPL~ ~override/MO1H30.SPL~
     COPY ~forgotten-armament/itm/MO1H30.ITM~ ~override/MO1H30.ITM~
         SAY NAME1 @11200
         SAY NAME2 @11206

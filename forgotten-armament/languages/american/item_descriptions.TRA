@@ -191,6 +191,51 @@ Requires:
 Weight: 10~
 
 ///////////////////////////////////////////////////////////////////////////
+// Bloodletter +4 (NWN2) Non-Good ONLY                                   //
+///////////////////////////////////////////////////////////////////////////
+@10106 = ~Bloodletter +4~
+@10107 = ~Forged in smoldering brimstone fires and cooled in the blood of its creator, a Bloodletter blade is a typically evil weapon, the kind of sword that has inspired more than a little diabolical laughter while being waved in the face of one or another virtuous knight. It is possessed of thoroughly heinous life-stealing energies, but if the fates of its previous owners are any indication, its major characteristic could well be the attraction of "comeuppance."
+
+STATISTICS:
+
+Combat abilities:
+- Inflicts 2 points of bleeding damage per hit (one point per round)
+- Each hit drains 1 Hit Point from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum.
+
+THAC0: +4
+Damage: 2d4+4
+Damage type: Slashing
+Speed Factor: 5
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Discord +2 (NWN2)                                                     //
+///////////////////////////////////////////////////////////////////////////
+@10108 = ~Discord +2~
+@10109 = ~A line of black crystal runs the length of this blade, marking it the handiwork of Ortius of Gond, the Mad Tinker. Blades from his stock resonate unnaturally when struck, and although mortal ears can barely perceive the tone, they certainly suffer the effects well enough. The origin of the crystal is not clear, though Ortius was known to have bartered his services to planar creatures on occasion.
+
+STATISTICS:
+
+Combat abilities:
+- 20% chance per hit of confusing the target for 1 round (Save vs. Spell negates)
+
+THAC0: +2
+Damage: 2d4+2
+Damage type: Slashing
+Speed Factor: 6
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 7~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Clubs                                                                 //
 ///////////////////////////////////////////////////////////////////////////
@@ -298,6 +343,51 @@ THAC0: +1
 Damage: 1d4+1
 Damage type: Piercing
 Speed Factor: 2 
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Myr Styah'be'eh +4 (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@10308 = ~Myr Styah'be'eh +4~
+@10309 = ~Scholars have long argued over the nature of this blade, claming it as a part of many ancient empires - Mulhorandi, Netherese, Imaskari - but its construction defies the conventions of any known civilization. One young wizard, promptly laughed into obscurity, once put forth an argument that the item was actually of kobold make, that its name - considered untranslatable by all others who had studied it - meant something like "master stabby" in an obscure dialect of that dimunitive people. The scholar's final argument was that as harmless as many consider kobold to be today, they do claim their lineage from dragons - and if this blade is any proof, a weapon does not have to look magnificent to be viciously effective.
+
+STATISTICS:
+
+Equipped abilities:
+- Critical Hit Chance: +5%
+
+Combat abilities:
+- Deals an extra 2d10 points of piercing damage on a critical hit
+- Inflicts 2 points of bleeding damage per hit (one point per round)
+
+THAC0: +4
+Damage: 1d4+4
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Ice Talon +2 (NWN2)                                                   //
+///////////////////////////////////////////////////////////////////////////
+@10310 = ~Ice Talon +2~
+@10311 = ~Weapons of this type are technically impossible, since their blades are made of nothing but razor-sharp ice crystals. Most sages agree they are kept frozen by some sort of link to the inner planes, but this is ultimately just speculation. Ice Talon daggers show a jagged blade and may have been part of a single larger weapon at one time, though the force required to shatter the magic blade must have been enormous indeed.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d4+2, +1d6 cold
+Damage type: Piercing
+Speed Factor: 0 
 Proficiency Type: Dagger
 Type: One-handed
 Requires:
@@ -777,6 +867,31 @@ Requires:
  6 Strength
 
 Weight: 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Courtesan Blade + 2 (NWN2)                                            //
+///////////////////////////////////////////////////////////////////////////
+@11002 = ~Courtesan Blade+2~
+@11003 = ~Courtesan assassins were famous for using their wit and charm to infiltrate the intimate chambers of the enemy by the most disarming method imaginable: they were invited. The practice became infamous, which is likely why it is used so infrequently today.
+
+STATISTICS:
+
+Equipped abilities:
+- Critical Hit Chance: +5%
+
+Combat abilities:
+- 10% chance target is stunned for 2 rounds (Save vs. Paralysis negates)
+
+THAC0: +2
+Damage: 1d8+2
+Damage type: Slashing
+Speed Factor: 2
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
