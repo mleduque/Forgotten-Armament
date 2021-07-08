@@ -46,24 +46,6 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
-///////////////////////////////////////////////////////////////////////////
-// Move Robe of Vecna to Shangalar                                       //
-///////////////////////////////////////////////////////////////////////////
 
-    COPY_EXISTING ~HLSHANG.CRE~ ~override~
-        REPLACE_CRE_ITEM ~WA2ROBE~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
-
-    COPY_EXISTING ~WMART2.STO~ ~override~
-        REMOVE_STORE_ITEM ~WA2ROBE~
-
-///////////////////////////////////////////////////////////////////////////
-// Move Vhailor's Helm to Revanek                                        //
-///////////////////////////////////////////////////////////////////////////
-
-    COPY_EXISTING ~HLREVAN.CRE~ ~override~
-        REPLACE_CRE_ITEM ~WA2HELM~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~
-
-    COPY_EXISTING ~WMART2.STO~ ~override~
-        REMOVE_STORE_ITEM ~WA2HELM~
 
 END
