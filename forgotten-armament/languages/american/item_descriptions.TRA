@@ -77,6 +77,51 @@ Requires:
 Weight: 7~
 
 ///////////////////////////////////////////////////////////////////////////
+// Deepstone Progeny +2 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@10006 = ~Deepstone Progeny +2~
+@10007 = ~Torgin of the Light was a respected and prolific slayer of undead, which made his eventual descent into vampirism all the more tragic. His still-living companions saw the change as an insult to the life he once cherished, and vowed to destroy his undead form. To this end they crafted the Deepstone Progeny, adapted from the weapon that had previously served Torgin so well. History does not record the outcome of the battle between Torgin and his friends, but their axes are found across Faerun.
+
+STATISTICS:
+
+Equipped abilities:
+- Immunity to all forms of death magic
+
+THAC0: +2
+Damage: 1d8+2
+Damage type: Slashing
+Speed Factor: 5
+Proficiency Type: Axe
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Axe of Dead Illusk +2 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@10008 = ~Axe of Dead Illusk +2~
+@10009 = ~A little-known section of ruined Illusk holds corpse after corpse from a barbarian invasion repelled ages ago. The clan is forgotten, but their surviving weapons seem to embody everything cruel and savage in warfare, and create fearful images in the minds of those who witness them.
+
+STATISTICS:
+
+Combat abilities:
+- Each hit drains 1 Hit Point from the target and transfer it to the wielder. This will not heal beyond the wielder's maximum.
+- 5% chance per hit of casting Horror on the target
+
+THAC0: +2
+Damage: 1d8+2
+Damage Type: Slashing
+Speed Factor: 5
+Proficiency Type: Axe
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 5~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Swords                                                        //
 ///////////////////////////////////////////////////////////////////////////
@@ -1967,6 +2012,19 @@ STATISTICS:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
+// Boots of the Forgotten Ones - (IWD)                                   //
+///////////////////////////////////////////////////////////////////////////
+@13602 = ~Boots of the Forgotten Ones~
+@13603 = ~These wrinkled, rough boots were made from the scalps of dead orc shamans from the Stinking Paw Tribe. The power-hungry religious leader of the tribe, Algrash Who-Watches-In-Darkness, ordered his underlings to make the boots by digging up the corpses of his predecessors. Algrash was killed when he provoked a fight with a gang of ogres. His boots were left at the scene of the battle.
+
+STATISTICS:
+
+Equipped abilities:
+- Can cast two extra 1st-level spells and one extra 2nd-level spell
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Cloaks                                                                //
 ///////////////////////////////////////////////////////////////////////////
@@ -1981,6 +2039,19 @@ Weight: 4~
 STATISTICS:
 
 Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Cloak of Burdened Spirits (IWD)                                       //
+///////////////////////////////////////////////////////////////////////////
+@13702 = ~Cloak of Burdened Spirits~
+@13703 = ~This incredibly heavy cloak was a gift from Sister Calliana for saving the soul of the Voice of Durdel Anatha. It was originally worn by a penitent necromancer who was ashamed at how he had abused the souls of the dead. The cloak is dark gray and made of five layers of thick, heavy wool.
+
+STATISTICS:
+
+Equipped abilities:
+- Wisdom: +1
+
+Weight: 80~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -2060,6 +2131,21 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
+// Helm of the Trusted Defender (IWD)                                    //
+///////////////////////////////////////////////////////////////////////////
+@14002 = ~Helm of the Trusted Defender~
+@14003 = ~This helmet was worn for four hundred years by halflings and gnomes in the small and virtually unknown community called Shepherd's Valley. Each dawn, the Night Watch captain would hand the helmet over to the Day Watch captain. Each dusk, the Day Watch captain returned the helm. This cycle continued without fail until Pheldon Tock, a Night Watch captain, decided to trade in the helm for another. The helmet probably would have remained in Gibling Armstrong's Curious Armor Shoppe for quite some time if a bored dwarf hadn't bought it and set it on his mantle in distant lands.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +3
+- Immunity to sleep and fatigue
+- Protects against critical hits
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Ioun Stones                                                           //
 ///////////////////////////////////////////////////////////////////////////
@@ -2072,6 +2158,19 @@ Weight: 2~
 @14101 = ~This is a small stone that floats in an orbit around the owner's head. Simply equip the stone to set it in its orbit. These obviously magical stones have different properties depending on their color.
 
 STATISTICS:
+
+Weight: 0~
+
+///////////////////////////////////////////////////////////////////////////
+// Clear Ioun Stone (IWD)                                                //
+///////////////////////////////////////////////////////////////////////////
+@14102 = ~Clear Ioun Stone~
+@14103 = ~This ioun stone has had many owners over the centuries, from the thief who carried it as a good luck charm to the ogre who thought it to be the world's smallest crystal ball. It was once even used by a gnome as a prosthetic eye, although its properties did not improve her vision. Eventually the stone fell into the hands of a group of elven wizards. It is uncertain whether it was used for research purposes or merely worn for protection against hostile magic. Unlike common ioun stones, this one appears to be colorless and almost entirely transparent.
+
+STATISTICS:
+
+Equipped abilities:
+- Magic Resistance: 5%
 
 Weight: 0~
 
