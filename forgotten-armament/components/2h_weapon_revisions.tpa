@@ -14,10 +14,26 @@ COPY_EXISTING ~splprot.2da~ ~override~
       END
     END
 
-COPY_EXISTING ~HALB01.ITM~ ~override~
-    // Uses cast spell of MO2HAPR.SPL to cast improved APR on equip
+COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
+  READ_BYTE  0x31 prof
+  READ_SHORT 0x1c type
+  PATCH_IF (prof = 99) || (prof = 102) || (prof = 98) || (prof = 93) BEGIN
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter1 = 0 parameter2 = 1 timing = 2 STR_VAR resource = ~MO2HAPR~ END
-    // Only allows APR increase if 2 Weapon Fighting Proficiency has **
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 318 target = 1 parameter1 = 0 parameter2 = %2h_bonus% timing = 2 STR_VAR resource = ~MO2HAPR~ END
-    // Cancels all previous APR increases so it doesn't keep stacking
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 1 STR_VAR resource = ~MO2HAPR~ END
+  END ELSE PATCH_IF (prof = 92) || (prof = 89) || (prof = 115) || (prof = 108) || (prof = 103) || (prof = 96) || (prof = 106) || (prof = 100) || (prof = 94) || (prof = 104) || (prof = 90) || (prof = 101) || (prof = 95) || (prof = 105) || (prof = 91) || (prof = 107) || (prof = 97) BEGIN
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 1 STR_VAR resource = ~MO2HAPR~ END
+  END ELSE PATCH_IF (prof = 0) && (type = 28) BEGIN
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 1 STR_VAR resource = ~MO2HAPR~ END
+  END
+  BUT_ONLY
+
+/*
+COPY_EXISTING ~HALB01.ITM~ ~override~
+  // Uses cast spell of MO2HAPR.SPL to cast improved APR on equip
+  LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter1 = 0 parameter2 = 1 timing = 2 STR_VAR resource = ~MO2HAPR~ END
+  // Only allows APR increase if 2 Weapon Fighting Proficiency has **
+  LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 318 target = 1 parameter1 = 0 parameter2 = %2h_bonus% timing = 2 STR_VAR resource = ~MO2HAPR~ END
+  // Cancels all previous APR increases so it doesn't keep stacking
+  LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 1 STR_VAR resource = ~MO2HAPR~ END
+*/
