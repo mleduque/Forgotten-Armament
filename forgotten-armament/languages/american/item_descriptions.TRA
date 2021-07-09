@@ -385,7 +385,7 @@ Weight: 1~
 STATISTICS:
 
 THAC0: +2
-Damage: 1d4+2, +1d6 cold
+Damage: 1d4+2, +1d6 cold damage
 Damage type: Piercing
 Speed Factor: 0 
 Proficiency Type: Dagger
@@ -486,6 +486,50 @@ Requires:
  13 Strength
 
 Weight: 15~
+
+///////////////////////////////////////////////////////////////////////////
+// Cruel Halberd +3 (NWN2)                                               //
+///////////////////////////////////////////////////////////////////////////
+@10502 = ~Cruel Halberd +3~
+@10503 = ~This halberd, permanently stained with the blood of its victims, was wielded by several generations of orc warlords, all who either took it up when the previous owner died in battle or was murdered by a rival. The halberd was lost in the final battle when the orcs were finally driven out of Illusk.
+
+STATISTICS:
+
+Equipped abilities:
+- Critical Hit Chance: +5%
+
+Combat abilities:
+- Deals an extra 1d6 points of piercing damage on a critical hit
+
+THAC0: +3
+Damage: 1d10+3
+Damage type: Piercing
+Speed Factor: 6
+Proficiency Type: Halberd
+Type: Two-handed
+Requires:
+ 13 Strength
+
+Weight: 12~
+
+///////////////////////////////////////////////////////////////////////////
+// Will of Atar +1 (NWN2)                                                //
+///////////////////////////////////////////////////////////////////////////
+@10504 = ~Will of Atar +1~
+@10505 = ~These weapons bear the mark of Atar of the Flame, high shaman of a northern cult that fell under the influence of a creature from the plane of fire. What this entity received in exchange for creating such powerful items is unknown.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 1d10+1, +1 fire damage
+Damage type: Piercing or slashing
+Speed Factor: 8
+Proficiency Type: Halberd
+Type: Two-handed
+Requires:
+ 13 Strength
+
+Weight: 14~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -778,6 +822,25 @@ Requires:
 Weight: 5~
 
 ///////////////////////////////////////////////////////////////////////////
+// Blade of the Gladiator +2 (NWN2)                                      //
+///////////////////////////////////////////////////////////////////////////
+@10712 = ~Blade of the Gladiator +2~
+@10713 = ~Long ago, the formians built great subterranean cities and vast, cavernous empires. Societies of war, they reveled in the blood and glory of the gladiatorial pit, where slaves and prisoners fought for their cruel amusement. One such gladiator was the human Ajan, who stole the blade of his formian master and used it to escape to the surface with Zoe, his love. It is said that all who wield it are bound for greatness.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d8+2, +1 acid damage
+Damage type: Slashing
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Maces                                                                 //
 ///////////////////////////////////////////////////////////////////////////
@@ -800,6 +863,49 @@ Requires:
  10 Strength
 
 Weight: 10~
+
+///////////////////////////////////////////////////////////////////////////
+// Petty's Tempest +2 (NWN2)                                              //
+///////////////////////////////////////////////////////////////////////////
+@10802 = ~Petty's Tempest +2~
+@10803 = ~The most recent recorded appearance of one of these weapons was in the black markets of Amn, rightfully commanding an impressive price. Several such maces have been found over time, each with an array of elemental spells and effects woven through them. The creator remains elusive, though the name "Petty" is evident on each example. It is possible he is a smith on Toril, but his obvious understanding of planar forces suggests a more traveled origin.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target must save vs. Spell at +3 or be slowed for 2 rounds
+
+THAC0: +2
+Damage: 1d6+3, +1d6 electrical damage
+Damage type: Crushing
+Speed Factor: 5
+Proficiency Type: Mace
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 7~
+
+///////////////////////////////////////////////////////////////////////////
+// Soldier's Might +2 (NWN2)                                              //
+///////////////////////////////////////////////////////////////////////////
+@10804 = ~Soldier's Might +2~
+@10805 = ~It is said that lieutenants in the armies of Algarond were given these weapons, but not told of the flaws in their design. Many of the wielders died, but all fought valiantly and were accorded the honor of heroes of the realm. The generals responsible for these flawed weapons escaped punishment, and today they are remembered among the revered dead.
+
+STATISTICS:
+
+Equipped Ability:
+- Immunity to charm
+- Immunity to confusion
+
+THAC0: +2
+Damage: 1d6+3, +1d4 cold damage
+Damage type: Crushing
+Speed Factor: 5
+Proficiency Type: Mace
+Type: One-handed
+
+Weight: 7~
 
 ///////////////////////////////////////////////////////////////////////////
 // Mauler's Arm +2 (BG2)                                                 //
@@ -1238,6 +1344,25 @@ Requires:
 Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
+// Eye of the Sun +3 (NWN2)                                              //
+///////////////////////////////////////////////////////////////////////////
+@11602 = ~Eye of the Sun +3~
+@11603 = ~The markings on this wakizashi indicate it was crafted by a monk of the Sun Soul School. The handle radiates a faint heat when it's grasped.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d8+3, +1 fire damage, +1 acid damage
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // War Hammers                                                           //
 ///////////////////////////////////////////////////////////////////////////
@@ -1288,13 +1413,13 @@ Weight: 6~
 STATISTICS:
 
 Equipped abilities:
-- Strength: +8
+- Strength: +6
 
 Combat abilities:
 - Slays stone golems, clay golems, ettins, and trolls
 
 THAC0: +5
-Damage: 2d4+3, +5 electrical
+Damage: 2d4+3, +5 electrical damage
 Damage type: Crushing
 Speed Factor: 1
 Proficiency Type: War Hammer
