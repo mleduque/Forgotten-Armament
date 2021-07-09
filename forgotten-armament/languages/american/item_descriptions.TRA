@@ -54,7 +54,7 @@ Requires:
 Weight: 7~
 
 ///////////////////////////////////////////////////////////////////////////
-// Charged Battle Axe +2 (IWD)                                           //
+// Charged Battle Axe +2 (IWD) - Sod2BG2 Mod                             //
 ///////////////////////////////////////////////////////////////////////////
 @10004 = ~Charged Battle Axe +2~
 @10005 = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation, and although not apparent at first, a slight blue glow can be seen emanating from the runes.
@@ -1069,7 +1069,7 @@ Requires:
  10 Strength~
 
 ///////////////////////////////////////////////////////////////////////////
-// The Lucky Scimitar +2 (IWD)                                           //
+// The Lucky Scimitar +2 (IWD) - Sod2BG2 Mod                             //
 ///////////////////////////////////////////////////////////////////////////
 @11204 = ~The Lucky Scimitar +2~
 @11205 = ~This weapon was used by a well-known Zakharan gambler named Kadan Ibn-Kadur. It is believed that the blade helped Kadan win many foolish bets that he should have lost. Kadan parted with the weapon, however, when he crossed paths with the infamous Nido Ochita Inazuma in western Faerûn. Inazuma was the son of a Cormyrean knight and a Kara-Turian noblewoman. He claimed that his mother was struck by lightning twice while she was pregnant with Inazuma—once when she learned she had conceived and again immediately before she gave birth. Legends say that Inazuma was born on the edge of the Fateful Coin, the mystical method by which Tymora and Beshaba decide whether a person will have good or bad luck throughout his or her life. Sages believe that Inazuma's coin landed on edge, making him immune to the effects of weal and woe. When he came across Kadan and his scimitar, it was only a matter of time before the Zakharan gambled his scimitar and his life into Inazuma's hands.
@@ -1208,7 +1208,7 @@ Requires:
 Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
-// The Spear of White Ash +3 (IWD)                                       //
+// The Spear of White Ash +3 (IWD) - Sod2BG2 Mod                         //
 ///////////////////////////////////////////////////////////////////////////
 @11404 = ~The Spear of White Ash +3~
 @11405 = ~Consecrated by Malarite priests hundreds of years ago, this spear was used on High Hunts in preparation for their bloody feasts. It was last in the hands of Old Hunter Wellin, who is believed to have died when he foolishly hunted dryads near the Cloakwood. The weapon is made from a single piece of ash wood topped with a cruel spearhead.
@@ -1872,7 +1872,7 @@ Requires:
 Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
-// Waukeen's Defender +2 (IWD)                                           //
+// Waukeen's Defender +2 (IWD) - Sod2BG2 Mod                             //
 ///////////////////////////////////////////////////////////////////////////
 @13102 = ~Waukeen's Defender +2~
 @13103 = ~A number of these shields can be found in Waukeenar temples throughout Faerûn. The church crafts these shields to sell to enterprising adventurers. In exchange for the powers of the device, the bearer is required to keep the front of the shield uncovered and in its original state. If the owner does not comply, the shield's powers fail. In this way, dozens of adventurers walk the realms bearing the golden face of Waukeen on their arm.
@@ -2086,7 +2086,7 @@ Equipped abilities:
 Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
-// Clasp of Bron's Cloak (IWD)                                           //
+// Clasp of Bron's Cloak (IWD) - Sod2BG2 Mod                             //
 ///////////////////////////////////////////////////////////////////////////
 @13414 = ~Clasp of Bron's Cloak~
 @13415 = ~This small talisman was the clasp of a cloak owned by the notoriously tough warrior known as Bron Balhon. On at least ten different instances during Bron's life, he was reported as dead after getting himself involved in some horrible situation. Some enemies shot him full of crossbow bolts and pushed him into the ocean with lead weights only to be killed by him a month later in a tavern four hundred miles away. On another occasion, Bron's cowardly companions abandoned him when they were attacked by dire wolves in the wilderness. Two weeks later, Bron swaggered into their camp wearing wolfskins. Whether all of the tales surrounding Bron are true or not, it is known that Bron is believed to have met his end in the Spine of the World mountains, fighting polar worms.
@@ -2252,7 +2252,7 @@ STATISTICS:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
-// Boots of the Forgotten Ones - (IWD)                                   //
+// Boots of the Forgotten Ones - (IWD) - Sod2BG2 Mod                     //
 ///////////////////////////////////////////////////////////////////////////
 @13602 = ~Boots of the Forgotten Ones~
 @13603 = ~These wrinkled, rough boots were made from the scalps of dead orc shamans from the Stinking Paw Tribe. The power-hungry religious leader of the tribe, Algrash Who-Watches-In-Darkness, ordered his underlings to make the boots by digging up the corpses of his predecessors. Algrash was killed when he provoked a fight with a gang of ogres. His boots were left at the scene of the battle.
@@ -2371,7 +2371,7 @@ Equipped abilities:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Helm of the Trusted Defender (IWD)                                    //
+// Helm of the Trusted Defender (IWD) - Sod2BG2 Mod                      //
 ///////////////////////////////////////////////////////////////////////////
 @14002 = ~Helm of the Trusted Defender~
 @14003 = ~This helmet was worn for four hundred years by halflings and gnomes in the small and virtually unknown community called Shepherd's Valley. Each dawn, the Night Watch captain would hand the helmet over to the Day Watch captain. Each dusk, the Day Watch captain returned the helm. This cycle continued without fail until Pheldon Tock, a Night Watch captain, decided to trade in the helm for another. The helmet probably would have remained in Gibling Armstrong's Curious Armor Shoppe for quite some time if a bored dwarf hadn't bought it and set it on his mantle in distant lands.
@@ -2402,7 +2402,7 @@ STATISTICS:
 Weight: 0~
 
 ///////////////////////////////////////////////////////////////////////////
-// Clear Ioun Stone (IWD)                                                //
+// Clear Ioun Stone (IWD) - Sod2BG2 Mod                                  //
 ///////////////////////////////////////////////////////////////////////////
 @14102 = ~Clear Ioun Stone~
 @14103 = ~This ioun stone has had many owners over the centuries, from the thief who carried it as a good luck charm to the ogre who thought it to be the world's smallest crystal ball. It was once even used by a gnome as a prosthetic eye, although its properties did not improve her vision. Eventually the stone fell into the hands of a group of elven wizards. It is uncertain whether it was used for research purposes or merely worn for protection against hostile magic. Unlike common ioun stones, this one appears to be colorless and almost entirely transparent.
