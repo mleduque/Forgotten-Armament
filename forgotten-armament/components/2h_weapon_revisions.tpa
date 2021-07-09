@@ -1,0 +1,23 @@
+// Forgotten Armament - Two Handed Weapon Revisions
+
+COPY ~forgotten-armament/spl/MO2HAPR.SPL~ ~override/MO2HAPR.SPL~
+COPY ~forgotten-armament/eff/MO2HAPR.EFF~ ~override/MO2HAPR.EFF~
+
+APPEND ~splprot.2da~ ~mo_2h_bonus%TAB%111%TAB%2%TAB%2~ UNLESS ~mo_2h_bonus~
+COPY_EXISTING ~splprot.2da~ ~override~
+    COUNT_2DA_COLS cols
+    READ_2DA_ENTRIES_NOW rows cols
+    FOR (row = 1; row < rows; ++row) BEGIN
+      READ_2DA_ENTRY_FORMER rows row 0 ~stat~
+      PATCH_IF ~%stat%~ STRING_EQUAL_CASE ~mo_2h_bonus~ BEGIN
+        SET 2h_bonus = %row%
+      END
+    END
+
+COPY_EXISTING ~HALB01.ITM~ ~override~
+    // Cancels all previous APR increases so it doesn't keep stacking
+    LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 1 STR_VAR resource = ~MO2HAPR~ END
+    // Only allows APR increase if 2 Weapon Fighting Proficiency has **
+    LPF ADD_SPELL_EFFECT INT_VAR opcode = 318 target = 1 parameter1 = 0 parameter2 = %2h_bonus% timing = 2 STR_VAR resource = ~MO2HAPR~ END
+    // Uses cast spell of MO2HAPR.SPL to cast improved APR on equip
+    LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 target = 1 parameter1 = 0 parameter2 = 1 timing = 2 STR_VAR resource = ~MO2HAPR~ END

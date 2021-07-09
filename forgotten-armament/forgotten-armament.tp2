@@ -77,3 +77,13 @@ LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/stat_item_update.tpa~
 
+///////////////////////////////////////////////////////////////////////////
+// Two Handed Weapon Revisions                                           //
+///////////////////////////////////////////////////////////////////////////
+
+BEGIN @5 DESIGNATED 5
+
+REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
+
+INCLUDE ~forgotten-armament/components/2h_weapon_revisions.tpa~
+
