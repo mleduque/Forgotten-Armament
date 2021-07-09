@@ -1,7 +1,6 @@
 // Forgotten Armament - Two Handed Weapon Revisions
 
 COPY ~forgotten-armament/spl/MO2HAPR.SPL~ ~override/MO2HAPR.SPL~
-COPY ~forgotten-armament/eff/MO2HAPR.EFF~ ~override/MO2HAPR.EFF~
 
 APPEND ~splprot.2da~ ~mo_2h_bonus%TAB%111%TAB%2%TAB%2~ UNLESS ~mo_2h_bonus~
 COPY_EXISTING ~splprot.2da~ ~override~

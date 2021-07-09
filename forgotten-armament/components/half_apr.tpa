@@ -1,0 +1,13 @@
+// Forgotten Armament - Add Half APR Increase for Specialization in Two-Handed Weapons
+
+COPY ~forgotten-armament/eff/halfapr/MO2HAPR.EFF~ ~override/MO2HAPR.EFF~
+
+STRING_SET ~34171~
+
+~TWO-HANDED: This fighting style allows the character to use a two-handed melee weapon and receive special bonuses.
+
+Proficient (1 slot): The wielder gets a +1 bonus to damage rolls, a -2 bonus to Speed Factor, and the ability to score critical hits on a roll of 19 or 20 (instead of just 20) when using a two-handed weapon.
+
+Specialized (2 slots): The wielder gets a further -2 bonus to Speed Factor and an extra 1/2 attack per round when using a two-handed weapon.
+
+NOTE: Magical two-handed weapons are more powerful than their single-handed counterparts. This counterbalances the fact that you can't use a second weapon or shield when using a two-handed weapon. The Holy Avenger and Vorpal Sword are examples of weapons that are two-handed.~

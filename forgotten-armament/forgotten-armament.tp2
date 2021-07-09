@@ -81,9 +81,17 @@ INCLUDE ~forgotten-armament/components/stat_item_update.tpa~
 // Two Handed Weapon Revisions                                           //
 ///////////////////////////////////////////////////////////////////////////
 
-BEGIN @5 DESIGNATED 5
+BEGIN @6 DESIGNATED 6 SUBCOMPONENT @5 LABEL ForgottenArmament-TwoHandAPRHalf
 
 REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
 
+INCLUDE ~forgotten-armament/components/half_apr.tpa~
+INCLUDE ~forgotten-armament/components/2h_weapon_revisions.tpa~
+
+////////////////////////////////////////////////////
+
+BEGIN @7 DESIGNATED 7 SUBCOMPONENT @5 LABEL ForgottenArmament-TwoHandAPRFull
+
+INCLUDE ~forgotten-armament/components/full_apr.tpa~
 INCLUDE ~forgotten-armament/components/2h_weapon_revisions.tpa~
 
