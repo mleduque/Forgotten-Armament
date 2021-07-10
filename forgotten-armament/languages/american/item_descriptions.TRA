@@ -1857,6 +1857,36 @@ Equipped abilities:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
+// Tasha's Atrocious Robe (NWN2)                                         //
+///////////////////////////////////////////////////////////////////////////
+@12206 = ~Tasha's Atrocious Robe~
+@12207 = ~Tasha, the planar-traveling enchantress rumored to be from a parallel prime universe, is perhaps best remembered now for the development of her eponymous dweomer that causes uncontrollable fits of laughter. However, the diminutive wizard also created several powerful artifacts, this robe among them.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1 
+- Saving Throws: +1
+- Magic Resistance: +5%
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Will of the Wychlaran (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@12208 = ~Will of the Wychlaran~
+@12209 = ~Crafted by the male spellcasters of the Rashemi, these robes were originally meant for the witches to wear when they fought a particuarly troublesome foe. However, they are sized to fit both genders in the rare times when both male and female Rashemi spellcasters take to the field of battle, and pit their intense powers and determination against the might of their foes.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2 
+- Can memorize one extra 6th-level spell
+- Magic Resistance: +20%
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Leather Armors                                                        //
 ///////////////////////////////////////////////////////////////////////////
