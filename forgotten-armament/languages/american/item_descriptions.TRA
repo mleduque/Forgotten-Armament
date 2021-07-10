@@ -865,10 +865,29 @@ Requires:
 Weight: 10~
 
 ///////////////////////////////////////////////////////////////////////////
+// Mauler's Arm +2 (BG2)                                                 //
+///////////////////////////////////////////////////////////////////////////
+@10802 = ~Jurrg the Mauler was proud chieftain of a northern tribe, but feared he would be the last of his family to lead. His son Kullen was sickly and clearly couldn't meet the traditional requirements of strength for a chieftain. Jurrg knew that wise leadership took more than brawn, however, so he bargained to enchant this mace such that it would cover Kullen's weakness. Who Jurrg made the deal with is unknown, but the cost was apparently high. Kullen came to rule soon after.
+
+STATISTICS:
+
+Equipped Ability:
+- Strength: +1
+
+THAC0: +2
+Damage: 1d6+3 
+Damage type: Crushing
+Speed Factor: 5
+Proficiency Type: Mace
+Type: One-handed
+
+Weight: 7~
+
+///////////////////////////////////////////////////////////////////////////
 // Petty's Tempest +2 (NWN2)                                              //
 ///////////////////////////////////////////////////////////////////////////
-@10802 = ~Petty's Tempest +2~
-@10803 = ~The most recent recorded appearance of one of these weapons was in the black markets of Amn, rightfully commanding an impressive price. Several such maces have been found over time, each with an array of elemental spells and effects woven through them. The creator remains elusive, though the name "Petty" is evident on each example. It is possible he is a smith on Toril, but his obvious understanding of planar forces suggests a more traveled origin.
+@10803 = ~Petty's Tempest +2~
+@10804 = ~The most recent recorded appearance of one of these weapons was in the black markets of Amn, rightfully commanding an impressive price. Several such maces have been found over time, each with an array of elemental spells and effects woven through them. The creator remains elusive, though the name "Petty" is evident on each example. It is possible he is a smith on Toril, but his obvious understanding of planar forces suggests a more traveled origin.
 
 STATISTICS:
 
@@ -889,8 +908,8 @@ Weight: 7~
 ///////////////////////////////////////////////////////////////////////////
 // Soldier's Might +2 (NWN2)                                              //
 ///////////////////////////////////////////////////////////////////////////
-@10804 = ~Soldier's Might +2~
-@10805 = ~It is said that lieutenants in the armies of Algarond were given these weapons, but not told of the flaws in their design. Many of the wielders died, but all fought valiantly and were accorded the honor of heroes of the realm. The generals responsible for these flawed weapons escaped punishment, and today they are remembered among the revered dead.
+@10805 = ~Soldier's Might +2~
+@10806 = ~It is said that lieutenants in the armies of Algarond were given these weapons, but not told of the flaws in their design. Many of the wielders died, but all fought valiantly and were accorded the honor of heroes of the realm. The generals responsible for these flawed weapons escaped punishment, and today they are remembered among the revered dead.
 
 STATISTICS:
 
@@ -908,23 +927,26 @@ Type: One-handed
 Weight: 7~
 
 ///////////////////////////////////////////////////////////////////////////
-// Mauler's Arm +2 (BG2)                                                 //
+// Chef Gronk's Tenderizer +2 (NWN2)                                     //
 ///////////////////////////////////////////////////////////////////////////
-@10802 = ~Jurrg the Mauler was proud chieftain of a northern tribe, but feared he would be the last of his family to lead. His son Kullen was sickly and clearly couldn't meet the traditional requirements of strength for a chieftain. Jurrg knew that wise leadership took more than brawn, however, so he bargained to enchant this mace such that it would cover Kullen's weakness. Who Jurrg made the deal with is unknown, but the cost was apparently high. Kullen came to rule soon after.
+@10807 = ~Chef Gronk's Tenderizer +2~
+@10808 = ~Cooking for pirates is a tough job - and it's pretty clear from this instrument that Chef Gronk wasn't just an ordinary Chef. While this hammer appears to have been primarily used for culinary purposes, you can't quite discern whether the bits of meat on it are the remains of the pirate band's most recent meal or their most recent battle.
 
 STATISTICS:
 
-Equipped Ability:
-- Strength: +1
+Combat abilities:
+- Target must save vs. Spell or be stunned for 2 rounds
 
 THAC0: +2
 Damage: 1d6+3 
 Damage type: Crushing
-Speed Factor: 5
+Speed Factor: 6
 Proficiency Type: Mace
 Type: One-handed
+Requires:
+ 12 Strength
 
-Weight: 7~
+Weight: 9~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -949,6 +971,47 @@ Requires:
  11 Strength
 
 Weight: 12~
+
+///////////////////////////////////////////////////////////////////////////
+// Sleepwalker Kin +2 (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@10902 = ~Sleepwalker Kin +2~
+@10903 = ~These weapons were supposed to be a great breakthrough for the orcs of Amn. Clan leaders liked the idea of rendering enemies helpless, but after the efforts of many shamans and several imprisoned human wizards, the project was abandoned. It seemed that in the hands of the orc elite, a hit strong enough to activate the ability often killed the target anyway, and the extra cost was deemed redundant.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target must save vs. Poison or fall asleep for 2 rounds
+
+THAC0: +2
+Damage: 2d4+2
+Damage type: Crushing
+Speed Factor: 4
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 8~
+
+///////////////////////////////////////////////////////////////////////////
+// Bone Phoenix +1 (NWN2)                                                //
+///////////////////////////////////////////////////////////////////////////
+@10904 = ~Bone Phoenix +1~
+@10905 = ~These are the hallmark weapons of the fallen Lord Craghand of Unther, and are named for the fate he suffered. Lacking magical talent himself, Craghand employed a cadre of necromancers in an effort to extend his meager legacy. These wizards succeeded only in damning his court to an age of undeath. Now his mindless form stalks Faerun, his ageless skeletal body rising time and again even if destroyed.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 2d4+1, +1d6 fire damage
+Damage type: Crushing
+Speed Factor: 5
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 9~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -1022,6 +1085,83 @@ Requires:
  5 Strength
 
 Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Rakshasa Staff +3 (NWN2) SORCERER/WIZARD ONLY                         //
+///////////////////////////////////////////////////////////////////////////
+@11102 = ~Rakshasa Staff +3~
+@11103 = ~Enchantments abound in the realms of magic, but some have trouble with the incantations. This staff allows the user to charm another, eliminating the need to study the spells.
+
+STATISTICS:
+
+Equipped abilities:
+- Can memorize one extra 4th-level spell, one extra 5th-level spell, and one extra 6th-level spell
+
+Charge abilities:
+- Charm Person once per day (Save vs. Spell at +3 negates)
+  Range: 60 ft.
+  Duration: 100 seconds
+  Area of Effect: 1 creature
+
+THAC0: +3
+Damage: 1d6+3
+Damage type: Crushing
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Remembrance +3 (NWN2)                                                 //
+///////////////////////////////////////////////////////////////////////////
+@11104 = ~Remembrance +3~
+@11105 = ~At the twilight of the Illefarn Empire, several elven archmages belonging to the Order of Fallen Leaves devised a plan to store their accumulated magical knowledge into a number of these staves. The plan never reached fruition and the Order was destroyed by orcs and all but one of the staves destroyed.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2
+- Magic Resistance: +10%
+
+THAC0: +3
+Damage: 1d6+3
+Damage type: Crushing
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Staff of Balpheron +1 (NWN2) CURSED SORCERER/WIZARD ONLY              //
+///////////////////////////////////////////////////////////////////////////
+@11104 = ~Staff of Balpheron +1~
+@11105 = ~Legend holds this staff was created by the wizard Balpheron on the eve of his ascension to lichdom. Many believe Balpheron had already chosen his fate, and only wanted the staff to make himself more powerful as a lich. But others claiming it was the staff itself that led him down the dark path, as the creation of such a powerful item pushed the mage beyond his limits and destroyed what remained of his sanity.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2
+- Magic Resistance: +10%
+- Strength: -2
+- Constitution: -2
+- Can memorize one extra 7th-level spell and one extra 8th-level spell
+
+THAC0: +1
+Damage: 1d6+1
+Damage type: Crushing
+Speed Factor: 2
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -1230,6 +1370,28 @@ Requires:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
+// Heartwood Spear +4 (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@11406 = ~Heartwood Spear +4~
+@11407 = ~This weapon was a gift from the elven nation to the kingdom of Algarond after the declaration of peace between the two peoples in 1065 DR. Spears of this type are carefully crafted, and rumored to come from the wood of Evereska itself.
+
+STATISTICS:
+
+Combat abilities:
+- Target must save vs. Spell or be stunned for 1 round
+
+THAC0: +3
+Damage: 1d6+3, +1d6 acid damage
+Damage type: Piercing
+Speed Factor: 3
+Proficiency Type: Spear 
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Two-Handed Swords                                                     //
 ///////////////////////////////////////////////////////////////////////////
@@ -1320,6 +1482,57 @@ Requires:
 Weight: 25~
 
 ///////////////////////////////////////////////////////////////////////////
+// Blade of the Rashemi +3 (NWN2)                                        //
+///////////////////////////////////////////////////////////////////////////
+@11508 = ~Blade of the Rashemi +3~
+@11509 = ~Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spellcasters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
+
+STATISTICS:
+
+Equipped abilities:
+- Magic Resistance: +15%
+
+Charge abilities:
+- Stoneskin once per day (1 skin per use)
+  Duration: 12 hours
+  Area of Effect: The user
+
+THAC0: +3
+Damage: 1d10+3 (slashing)
+Speed Factor: 7
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 10~
+
+///////////////////////////////////////////////////////////////////////////
+// The Golem's Blade +3 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@11510 = ~The Golem's Blade +3~
+@11511 = ~Part of the process in creating a blade golem involves the crafting of a powerful magic sword to serve as one of the golem's "arms." Usually, the sword becomes a part of the golem, losing all enchantment if the golem is destroyed, but the exceptional power and craftsmanship of this particular sword allowed it to survive its golem's destruction.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +3
+
+Combat abilities:
+- Deals an extra 2d6 points of slashing damage on a critical hit
+
+THAC0: +3
+Damage: 1d12+3, +1d6 slashing damage
+Damage type: Slashing
+Speed Factor: 6
+Proficiency Type: Two-handed Sword 
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 11~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashis                                                            //
 ///////////////////////////////////////////////////////////////////////////
@@ -1361,6 +1574,31 @@ Requires:
  5 Strength
 
 Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// The Dark Companion +4 (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@11604 = ~The Dark Companion +4~
+@11605 = ~This magic weapon has an enhancement bonus to attack and damage, but it doesn't bear the hallmarks of any specific maker.
+
+STATISTICS:
+
+Equipped abilities:
+- Critical Hit Chance: +5%
+
+Combat abilities:
+- Deals an extra 1d10 points of piercing damage on a critical hit
+
+THAC0: +4
+Damage: 1d8+4
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 1~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////

@@ -275,9 +275,9 @@ END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBLN01.ITM~ ~override/MOBLN01.ITM~
         SAY NAME1 @10800
-        SAY NAME2 @10802
+        SAY NAME2 @10803
         SAY UNIDENTIFIED_DESC @10801
-        SAY DESC @10803
+        SAY DESC @10804
 
 
 END
@@ -288,9 +288,54 @@ END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBLN02.ITM~ ~override/MOBLN02.ITM~
         SAY NAME1 @10800
-        SAY NAME2 @10804
+        SAY NAME2 @10805
         SAY UNIDENTIFIED_DESC @10801
-        SAY DESC @10805
+        SAY DESC @10806
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Create Chef Gronk's Tenderizer +2 - Assign to        //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOBLN03.ITM~ ~override/MOBLN03.ITM~
+        SAY NAME1 @10800
+        SAY NAME2 @10807
+        SAY UNIDENTIFIED_DESC @10801
+        SAY DESC @10808
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Morning Stars                                                         //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Create Sleepwalker Kin +2 - Assign to                                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOMS01.ITM~ ~override/MOMS01.ITM~
+        SAY NAME1 @10900
+        SAY NAME2 @10902
+        SAY UNIDENTIFIED_DESC @10901
+        SAY DESC @10903
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Create Bone Phoenix +1 - Assign to                                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOMS02.ITM~ ~override/MOMS02.ITM~
+        SAY NAME1 @10900
+        SAY NAME2 @10904
+        SAY UNIDENTIFIED_DESC @10901
+        SAY DESC @10905
 
 
 END
@@ -315,6 +360,50 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         ADD_CRE_ITEM ~MO1H04~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
 END
 
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Quarterstaves                                                         //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Create Rakshasa Staff +3 - Assign to                                //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOSTA01.ITM~ ~override/MOSTA01.ITM~
+        SAY NAME1 @11100
+        SAY NAME2 @11102
+        SAY UNIDENTIFIED_DESC @11101
+        SAY DESC @11103
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Create Remembrance +3 - Assign to                                //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOSTA02.ITM~ ~override/MOSTA02.ITM~
+        SAY NAME1 @11100
+        SAY NAME2 @11104
+        SAY UNIDENTIFIED_DESC @11101
+        SAY DESC @11105
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Create Staff of Balpheron +1 - Assign to                                //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOSTA03.ITM~ ~override/MOSTA03.ITM~
+        SAY NAME1 @11100
+        SAY NAME2 @11106
+        SAY UNIDENTIFIED_DESC @11101
+        SAY DESC @11107
+
+
+END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -383,6 +472,52 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Create Heartwood Spear +4 - Assign to                   //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOSP02.ITM~ ~override/MOSP02.ITM~
+        SAY NAME1 @11400
+        SAY NAME2 @11406
+        SAY UNIDENTIFIED_DESC @11401
+        SAY DESC @11407
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Two-Handed Swords                                                     //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Create Blade of the Rashemi +3 - Assign to                            //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MO2H01.ITM~ ~override/MO2H01.ITM~
+        SAY NAME1 @11500
+        SAY NAME2 @11508
+        SAY UNIDENTIFIED_DESC @11501
+        SAY DESC @11509
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Create The Golem's Blade +3 - Assign to                            //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/spl/MO2H02.SPL~ ~override/MO2H02.SPL~
+    COPY ~forgotten-armament/itm/MO2H02.ITM~ ~override/MO2H02.ITM~
+        SAY NAME1 @11500
+        SAY NAME2 @11510
+        SAY UNIDENTIFIED_DESC @11501
+        SAY DESC @11511
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashis                                                            //
 ///////////////////////////////////////////////////////////////////////////
@@ -397,6 +532,19 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY NAME2 @11602
         SAY UNIDENTIFIED_DESC @11601
         SAY DESC @11603
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Create The Dark Companion +4 - Assign to                                                   //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY ~forgotten-armament/spl/MO1H07.SPL~ ~override/MO1H07.SPL~
+    COPY ~forgotten-armament/itm/MO1H07.ITM~ ~override/MO1H07.ITM~
+        SAY NAME1 @11600
+        SAY NAME2 @11604
+        SAY UNIDENTIFIED_DESC @11601
+        SAY DESC @11605
 
 END
 
