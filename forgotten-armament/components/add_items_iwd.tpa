@@ -304,7 +304,7 @@ END
 // Create Serrated Bone Blade +3 -      //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/ISERRATE.BAM~ ~override/ISERRATE.BAM~
+    COPY ~forgotten-armament/bam/ISERRATE.BAM~ ~override/ISERRATE.BAM~
     COPY ~forgotten-armament/itm/SERRATE.ITM~ ~override/SERRATE.ITM~
         SAY NAME1 @11500
         SAY NAME2 @11506
