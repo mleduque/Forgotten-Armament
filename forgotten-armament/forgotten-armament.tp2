@@ -16,7 +16,7 @@ ALWAYS
 
 	ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) THEN BEGIN FAIL @3001 END
 
-	ACTION_DEFINE_ARRAY cdreload BEGIN item_descriptions END
+	ACTION_DEFINE_ARRAY cdreload BEGIN item_descriptions style_descriptions END
 	LAF HANDLE_CHARSETS INT_VAR infer_charsets = 1 STR_VAR tra_path = ~forgotten-armament/languages~ reload_array = cdreload END
 
 END
@@ -85,13 +85,15 @@ BEGIN @6 DESIGNATED 6 SUBCOMPONENT @5 LABEL ForgottenArmament-TwoHandAPRHalf
 
 REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
 
+LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/style_descriptions.tra~
+
 INCLUDE ~forgotten-armament/components/half_apr.tpa~
-INCLUDE ~forgotten-armament/components/2h_weapon_revisions.tpa~
+INCLUDE ~forgotten-armament/components/weapon_style_revisions.tpa~
 
 ////////////////////////////////////////////////////
 
 BEGIN @7 DESIGNATED 7 SUBCOMPONENT @5 LABEL ForgottenArmament-TwoHandAPRFull
 
 INCLUDE ~forgotten-armament/components/full_apr.tpa~
-INCLUDE ~forgotten-armament/components/2h_weapon_revisions.tpa~
+INCLUDE ~forgotten-armament/components/weapon_style_revisions.tpa~
 

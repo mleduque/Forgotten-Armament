@@ -1,0 +1,34 @@
+// Forgotten Armament Updated Weapon Style Descriptions, American English
+
+@100 = ~TWO-HANDED: This fighting style allows the character to use a two-handed melee weapon and receive special bonuses.
+
+Proficient (1 slot): The wielder gets a +1 bonus to damage rolls and a -2 bonus to Speed Factor when using a two-handed weapon.
+
+Specialized (2 slots): The wielder gets a +2 bonus to damage rolls, a -4 bonus to Speed Factor, and an extra attack per round when using a two-handed weapon.
+
+NOTE: Magical two-handed weapons are more powerful than their single-handed counterparts. This counterbalances the fact that you can't use a second weapon or shield when using a two-handed weapon. The Holy Avenger and Vorpal Sword are examples of weapons that are two-handed.~
+
+@101 = ~TWO-HANDED: This fighting style allows the character to use a two-handed melee weapon and receive special bonuses.
+
+Proficient (1 slot): The wielder gets a +1 bonus to damage rolls and a -2 bonus to Speed Factor when using a two-handed weapon.
+
+Specialized (2 slots): The wielder gets a +2 bonus to damage rolls, a -4 bonus to Speed Factor, and an extra 1/2 attack per round when using a two-handed weapon.
+
+NOTE: Magical two-handed weapons are more powerful than their single-handed counterparts. This counterbalances the fact that you can't use a second weapon or shield when using a two-handed weapon. The Holy Avenger and Vorpal Sword are examples of weapons that are two-handed.~
+
+@200 = ~SWORD AND SHIELD: Anyone can pick up a shield and get its basic protection bonuses, but by spending slots on this fighting style, an adventurer can maximize the benefits received.
+
+Proficient (1 slot): The wielder gets a -2 bonus to AC and a -1 bonus to Speed Factor.
+
+Specialized (2 slots): The wielder gets a -4 bonus to AC and a -2 bonus to Speed Factor.
+
+NOTE: Despite the name of this style, any one-handed melee weapon in combination with a shield will receive the aforementioned bonuses.~
+
+@300 = ~SINGLE-WEAPON: This fighting style is for characters who do not wish to use a shield but want some bonus when using a one-handed melee weapon.
+
+Proficient (1 slot): The wielder gets a +1 bonus to damage rolls, -1 bonus to Thaco, -1 bonus to AC, and inflicts critical damage on an attack roll of 19 or 20.
+
+Specialized (2 slots): The wielder gets a +2 bonus to damage rolls, -2 bonus to Thaco, -2 bonus to AC, and inflicts critical damage on an attack roll of 18 to 20.~
+
+
+
