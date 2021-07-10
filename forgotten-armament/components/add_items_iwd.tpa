@@ -290,7 +290,7 @@ END
 // Create Kresselack's Sword +1 -      //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/IKRESWRD.BAM~ ~override/IKRESWRD.BAM~
+    COPY ~forgotten-armament/bam/IKRESWRD.BAM~ ~override/IKRESWRD.BAM~
     COPY ~forgotten-armament/itm/KRESWRD.ITM~ ~override/KRESWRD.ITM~
         SAY NAME1 @11500
         SAY NAME2 @11504
