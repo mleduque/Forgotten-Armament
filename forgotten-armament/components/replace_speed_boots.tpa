@@ -15,7 +15,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN // Replace from Token Machine in Spellhold Maze
-    REPLACE_ACTION_TEXT ~tokcre01~   ~GiveItemCreate("BOOT01",LastTalkedToBy,0,0,0)~ ~GiveItemCreate("MOBT04",LastTalkedToBy,0,0,0)~
+    COMPILE ~forgotten-armament/dlg/update_token.d~
 END
 
 ///////////////////////////////////////////////////////////////////////////
