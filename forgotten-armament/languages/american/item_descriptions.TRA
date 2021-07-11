@@ -2024,9 +2024,9 @@ Requires:
 Weight: 40~
 
 ///////////////////////////////////////////////////////////////////////////
-// Baleful Mail +2 (IWD)                                                 //
+// Baleful Mail (IWD)                                                    //
 ///////////////////////////////////////////////////////////////////////////
-@12602 = ~Baleful Mail +2~
+@12602 = ~Baleful Mail~
 @12603 = ~This armor was crafted in 1221 DR by a duergar smith working for a vengeful priest of Bane named Alerri of West Waterdeep. During Alerri's early days in the priesthood, he frequently provoked and attacked agents of Sune. Unfortunately for Alerri, Lady Firehair's followers employed charm magic to cease the Banite's antics. Once he had been charmed, Alerri was commanded to perform all sorts of embarrassing actions in the streets of Waterdeep. After many years, Alerri decided to honor his god of hate by creating a suit of armor that would protect him from charm magic. He communed with the spiritual minions of Bane to discover the materials and rituals necessary for the suit's creation. Following his master's instructions, he murdered thirteen married couples and had their wedding rings woven into the hem of the mail. He then killed thirteen elves and bathed in their blood, uttering prayers for thirteen hours. When he was finished, his armor protected him from the magic of the Sunites and filled him with irrepressible hate. Alerri went on a crusade against the agents of Sune, Llira, and Hanali Celanil for three years. His killing spree ended when elven archers and priests of Corellon Larethian laid a trap for him on a road going north from Waterdeep.
 
 STATISTICS:
@@ -2040,6 +2040,40 @@ Requires:
  8 Strength
 
 Weight: 45~
+
+///////////////////////////////////////////////////////////////////////////
+// Anti-Venom Chainmail (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@12604 = ~Anti-Venom Chainmail~
+@12605 = ~This armor has been blessed by a priest's Neutralize Poison spell and so grants the bearer protection against venoms of all types. It does not bear the mark of any specific maker.
+
+STATISTICS:
+
+Equipped abilities:
+- Immunity to poison
+
+Armor Class: 4 (2 vs. slashing, 6 vs. crushing)
+Requires:
+ 8 Strength
+
+Weight: 20~
+
+///////////////////////////////////////////////////////////////////////////
+// Doron's Mistake (NWN2)                                                //
+///////////////////////////////////////////////////////////////////////////
+@12606 = ~Doron's Mistake~
+@12607 = ~Doron was a master dwarven smith, but even masters make mistakes. While disassembling a suit of "worthless elven chain" - for research, of course - he accidentally dropped several links into his forge, and that trace amount of mithral tainted everything he made until he could scour the thing from top to bottom. Each suit made during this time was infused with strange magic, but Doron threw them all on the trash heap, and was known to slap anyone he saw wearing one.
+
+STATISTICS:
+
+Equipped abilities:
+- Saving Throws: +1
+
+Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
+Requires:
+ 8 Strength
+
+Weight: 10~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -2100,6 +2134,24 @@ Requires:
 Weight: 25~
 
 ///////////////////////////////////////////////////////////////////////////
+// Deep Guardian's Plate (NWN2)                                               //
+///////////////////////////////////////////////////////////////////////////
+@12804 = ~Deep Guardian's Plate~
+@12805 = ~In an effort to better protect their soldiers, the artificers of ancient Imaskar set about creating a kind of living symbiote, something that would bond with their user and protect them from harm. Using specimens pulled from the deepest pits of the ocean, the Imaskari spellcasters slowly began to graft these magically-enhanced creatures onto suits of plate mail, weaning them off of salt water and forcing them to rely on magic for nourishment. This technique worked well, allowing the user a far greater resistance to spells than normal... but other magewrights looked upon this creation with a growing fear, worried that a creature that fed on magic might soon grow too hungry and feed upon its masters instead. Because of this, only a few suits of this armor were ever made, and the creatures created by the Imaskari sealed away and forgotten. When Imaskar fell, it is likely they crept back into the silent darkness they'd come from... or possibly changed into something else...
+
+STATISTICS:
+
+Equipped abilities:
+- Magic Resistance: +10%
+- Immunity to hold and paralysis
+
+Armor Class: 1 (-2 vs. slashing)
+Requires:
+ 12 Strength
+
+Weight: 20~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Full Plate Mail Armors                                                //
 ///////////////////////////////////////////////////////////////////////////
@@ -2138,6 +2190,46 @@ Requires:
 
 Weight: 40~
 
+///////////////////////////////////////////////////////////////////////////
+// Armor of Gram the Mouse - Paladin Only (NWN2)                         //
+///////////////////////////////////////////////////////////////////////////
+@12904 = ~Armor of Gram the Mouse~
+@12905 = ~At the age of eighteen, a small young man from Voonlar named Gram Chandler was inducted into the ranks of the Damaran paladins of Torm. Nicknamed "the Mouse" by his fellow classmates for his small size and great love of cheese, Gram had become well-respected during his time as an initiate. However, when it came time to arm and armor the initiates as full paladins of the church, the embarrassed order found that it did not possess a suit small enough to fit Gram. The priests and paladins apologized to Gram and told him they would get a suit of armor made as quickly as possible. Though Gram's classmates snickered about it, Gram smiled and quietly went about his business.
+
+Only a month later, while most of the other paladins of the church were away on business, a lone wounded rider approached the Tormish fortress and demanded to see whoever was in charge. Gram was far from in charge, but there were no paladins of rank present. The rider turned out to be a Thayan escort for a female Red Wizard who had been attacked by bugbears in the wilderness. The priests sneered at the rider when they learned of his nationality, but Gram told the escort it was his duty to protect travelers from aggression within Tormish territory. The priests tried to dissuade Gram from attempting to go after the Red Wizard, but Gram rebuked them and repeated to the escort that it would be his honor to mount a rescue effort.
+
+Protected only by his helmet and the heavy hide demanded by the climate, Gram followed the escort to the site of the battle. From there, the escort tracked the bugbears to a cave. When Gram and the escort entered, they immediately came under heavy attack from bugbears. The escort's resolve faded and he fled back into the wilderness. Gram pressed on, killing four bugbears and wounding two more before he died within sight of the Red Wizard. Though the bugbears were by no means wiped out, the attack weakened and confused them enough that the Red Wizard was able to blast her way out of the cave system.
+
+Later, she returned to Damara and approached the priests of the wilderness temple of Torm from which Gram came. When she learned about the selfless valiance of Gram, even her Thay-hardened heart was moved. She had a suit of armor constructed and enchanted for her small savior. It was built to the finest standards of quality, and it is said that the priests and paladins of Torm assembled at Gram's burial gasped in awe at its beauty. In later years, Gram was used as an example of devotion to duty for fledgling paladins. His revered tomb was looted by a fractured orcish army from Vaasa when the temple was destroyed in 1298 DR.
+
+STATISTICS:
+
+Equipped abilities:
+- Resistance to Magic Damage: +5%
+
+Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 50~
+
+///////////////////////////////////////////////////////////////////////////
+// Armor of Freedom (NWN2)                                               //
+///////////////////////////////////////////////////////////////////////////
+@12906 = ~Armor of Freedom~
+@12907 = ~After his escape from magical imprisonment, the warrior-priest Archiel vowed he would never again be captured by sorcery. He devoted years to forging these suits of armor for himself and his companions, but ironically was waylaid by mundane means, and died chained to the wall of an ordinary cell.
+
+STATISTICS:
+
+Equipped abilities:
+- Free Action
+
+Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 35
+
 /*************************************************************************/
 ///////////////////////////////////////////////////////////////////////////
 // SHIELDS                                                               //
@@ -2161,6 +2253,45 @@ STATISTICS:
 Equipped abilities:
 - Armor Class: +1
 - No protection against missile and piercing attacks
+
+Requires:
+ 4 Strength
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Shield of the Magi (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@13002 = ~Shield of the Magi~
+@13003 = ~This lightweight shield is of ogre magi construction. Its interior rim is covered with runes of both protection and power.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +3
+- No protection against missile and piercing attacks
+- Can memorize one extra 4th-level spell
+
+Charge abilities:
+- Minor Globe of Invulnerability once per day
+  Special: User is immune to 1st-, 2nd-, and 3rd-level spells
+  Duration: 2 turns
+
+Requires:
+ 4 Strength
+
+Weight: 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Dwarven Mirth (NWN2)                                                  //
+///////////////////////////////////////////////////////////////////////////
+@13004 = ~Dwarven Mirth~
+@13005 = ~Among the dwarven people, the father of all bards was the Master Talesmith Simeron Steelhammer. Well-versed in his people's history and lore, he traveled extensively, spreading tales of their culture and achievements. Near the end of his long life, he returned one last time to his home in the Great Rift. From every lintel hung a version of this shield, commissioned by his clansmen to commemorate his homecoming.
+
+Equipped abilities:
+- Armor Class: +2
+- No protection against missile attacks
+- Charisma: +2
 
 Requires:
  4 Strength
@@ -2207,6 +2338,40 @@ Requires:
  4 Strength
 
 Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// The Frostmaiden's Bane (NWN2)                                         //
+///////////////////////////////////////////////////////////////////////////
+@13104 = ~The Frostmaiden's Bane~
+@13105 = ~This mithral light shield of improved cold resistance has languished in the Imaskari Forges for centuries, never having seen use. The priests of Auril it was meant to be used against were instead slain by a particularly nasty magical plague spread by Imaskari sorcerers.
+
+Equipped abilities:
+- Armor Class: +3
+- No protection against missile attacks
+- Cold Resistance: +20%
+
+Requires:
+ 4 Strength
+
+Weight: 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Protector (NWN2)                                                      //
+///////////////////////////////////////////////////////////////////////////
+@13106 = ~Protector~
+@13107 = ~This light shield proudly bears the mark of Luiren, homeland of the strongheart halflings. While few people think of halflings as possessing any real military tradition, the Luiren folk maintain well-organized militias led by the local clergy and supported with powerful divine magic. This shield likely belonged to an ordinary Luiren soldier who fell in defense of his homeland.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +3 (only +2 vs. missile)
+- No protection against missile attacks
+- +5% resistance to slashing, piercing, and crushing damage
+
+Requires:
+ 4 Strength
+
+Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -2675,6 +2840,87 @@ STATISTICS:
 
 Equipped abilities:
 - Can cast two extra 1st-level spells and one extra 2nd-level spell
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Striding +1 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@13604 = ~Boots of Striding +1~
+@13605 = ~Blessed by priests of Shaundakul the Windrider, these boots seem to make even the most arduous journey easier and more pleasant. This is accomplished not by increasing the wearer's speed, but by making him hardier and more resistant to pain. Numerous versions of these boots exist, their power varying largely in accordance with the priest who blessed them.
+
+STATISTICS:
+
+Equipped abilities:
+- Constitution: +1
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Striding +2 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@13606 = ~Boots of Striding +2~
+@13607 = ~Blessed by priests of Shaundakul the Windrider, these boots seem to make even the most arduous journey easier and more pleasant. This is accomplished not by increasing the wearer's speed, but by making him hardier and more resistant to pain. Numerous versions of these boots exist, their power varying largely in accordance with the priest who blessed them.
+
+STATISTICS:
+
+Equipped abilities:
+- Constitution: +2
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Striding +3 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@13608 = ~Boots of Striding +3~
+@13609 = ~Blessed by priests of Shaundakul the Windrider, these boots seem to make even the most arduous journey easier and more pleasant. This is accomplished not by increasing the wearer's speed, but by making him hardier and more resistant to pain. Numerous versions of these boots exist, their power varying largely in accordance with the priest who blessed them.
+
+STATISTICS:
+
+Equipped abilities:
+- Constitution: +3
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Hardiness +1 (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@13610 = ~Boots of Hardiness +1~
+@13611 = ~Having explored the northlands extensively, a druid named Aawill commissioned the creation of these comfortable boots. Knowing he was heading for the sometimes-dangerous domain of the Neverwinter Woods, Aawill was looking for something helpful in combat, to lighten his need for armor. Since becoming the Archdruid for the Neverwinter Wood's Druid Grove, Aawill has commissioned several, more powerful versions of his original boots.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Constitution: +1
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Hardiness +2 (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@13612 = ~Boots of Hardiness +2~
+@13613 = ~Having explored the northlands extensively, a druid named Aawill commissioned the creation of these comfortable boots. Knowing he was heading for the sometimes-dangerous domain of the Neverwinter Woods, Aawill was looking for something helpful in combat, to lighten his need for armor. Since becoming the Archdruid for the Neverwinter Wood's Druid Grove, Aawill has commissioned several, more powerful versions of his original boots.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2
+- Constitution: +2
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Hardiness +3 (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@13614 = ~Boots of Hardiness +3~
+@13615 = ~Having explored the northlands extensively, a druid named Aawill commissioned the creation of these comfortable boots. Knowing he was heading for the sometimes-dangerous domain of the Neverwinter Woods, Aawill was looking for something helpful in combat, to lighten his need for armor. Since becoming the Archdruid for the Neverwinter Wood's Druid Grove, Aawill has commissioned several, more powerful versions of his original boots.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +3
+- Constitution: +3
 
 Weight: 4~
 

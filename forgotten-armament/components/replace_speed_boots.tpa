@@ -1,0 +1,40 @@
+// Forgotten Armament - Replace Boots of Speed (Paws of the Cheetah)
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Hardiness +1 Replaces                                             //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOBT04.ITM~ ~override/MOBT04.ITM~
+        SAY NAME1 @13500
+        SAY NAME2 @13510
+        SAY UNIDENTIFIED_DESC @13501
+        SAY DESC @13511
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Hardiness +2 Replaces                                             //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOBT05.ITM~ ~override/MOBT05.ITM~
+        SAY NAME1 @13500
+        SAY NAME2 @13512
+        SAY UNIDENTIFIED_DESC @13501
+        SAY DESC @13513
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Hardiness +3 Replaces                                             //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOBT06.ITM~ ~override/MOBT06.ITM~
+        SAY NAME1 @13500
+        SAY NAME2 @13514
+        SAY UNIDENTIFIED_DESC @13501
+        SAY DESC @13515
+
+
+END

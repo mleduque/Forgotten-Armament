@@ -97,3 +97,14 @@ BEGIN @7 DESIGNATED 7 SUBCOMPONENT @5 LABEL ForgottenArmament-TwoHandAPRFull
 INCLUDE ~forgotten-armament/components/full_apr.tpa~
 INCLUDE ~forgotten-armament/components/weapon_style_revisions.tpa~
 
+///////////////////////////////////////////////////////////////////////////
+// Replace Boots of Speed (Paws of the Cheetah)                          //
+///////////////////////////////////////////////////////////////////////////
+
+BEGIN @8 DESIGNATED 8 LABEL ForgottenArmament-ReplaceSpeedBoots
+
+REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
+
+LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
+
+INCLUDE ~forgotten-armament/components/replace_speed_boots.tpa~
