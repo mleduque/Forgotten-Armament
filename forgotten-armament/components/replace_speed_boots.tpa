@@ -1,28 +1,38 @@
 // Forgotten Armament - Replace Boots of Speed (Paws of the Cheetah)
 
 ///////////////////////////////////////////////////////////////////////////
-// Boots of Hardiness +1 Replaces                                             //
+// Boots of Hardiness +1 Replaces in BGEE and BG2EE                      //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/MOBT04.ITM~ ~override/MOBT04.ITM~
-        SAY NAME1 @13600
-        SAY NAME2 @13610
-        SAY UNIDENTIFIED_DESC @13601
-        SAY DESC @13611
+COPY ~forgotten-armament/itm/MOBT04.ITM~ ~override/MOBT04.ITM~
+    SAY NAME1 @13600
+    SAY NAME2 @13610
+    SAY UNIDENTIFIED_DESC @13601
+    SAY DESC @13611
 
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+    COPY_EXISTING ~DRASUS.CRE~ ~override~ // Replace from Drasus BGEE
+        REPLACE_CRE_ITEM ~MOBT04~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~ EQUIP
+END
 
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN // Replace from Token Machine in Spellhold Maze
+    REPLACE_ACTION_TEXT ~tokcre01~   ~GiveItemCreate("BOOT01",LastTalkedToBy,0,0,0)~ ~GiveItemCreate("MOBT04",LastTalkedToBy,0,0,0)~
 END
 
 ///////////////////////////////////////////////////////////////////////////
 // Boots of Hardiness +2 Replaces                                             //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/MOBT05.ITM~ ~override/MOBT05.ITM~
-        SAY NAME1 @13600
-        SAY NAME2 @13612
-        SAY UNIDENTIFIED_DESC @13601
-        SAY DESC @13613
+COPY ~forgotten-armament/itm/MOBT05.ITM~ ~override/MOBT05.ITM~
+    SAY NAME1 @13600
+    SAY NAME2 @13612
+    SAY UNIDENTIFIED_DESC @13601
+    SAY DESC @13613
 
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN // Replace from Lothander BGEE
+    COPY_EXISTING ~LOTHAN.CRE~ ~override~ // Replace from Lothander BGEE
+        REPLACE_CRE_ITEM ~MOBT04~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~ EQUIP
+END
+
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
 END
 
