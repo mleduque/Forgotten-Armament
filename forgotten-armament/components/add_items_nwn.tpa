@@ -1075,10 +1075,10 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBT01.ITM~ ~override/MOBT01.ITM~
-        SAY NAME1 @13500
-        SAY NAME2 @13504
-        SAY UNIDENTIFIED_DESC @13501
-        SAY DESC @13505
+        SAY NAME1 @13600
+        SAY NAME2 @13604
+        SAY UNIDENTIFIED_DESC @13601
+        SAY DESC @13605
 
 
 END
@@ -1088,10 +1088,10 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBT02.ITM~ ~override/MOBT02.ITM~
-        SAY NAME1 @13500
-        SAY NAME2 @13506
-        SAY UNIDENTIFIED_DESC @13501
-        SAY DESC @13507
+        SAY NAME1 @13600
+        SAY NAME2 @13606
+        SAY UNIDENTIFIED_DESC @13601
+        SAY DESC @13607
 
 
 END
@@ -1101,10 +1101,10 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBT03.ITM~ ~override/MOBT03.ITM~
-        SAY NAME1 @13500
-        SAY NAME2 @13508
-        SAY UNIDENTIFIED_DESC @13501
-        SAY DESC @13509
+        SAY NAME1 @13600
+        SAY NAME2 @13608
+        SAY UNIDENTIFIED_DESC @13601
+        SAY DESC @13609
 
 
 END
