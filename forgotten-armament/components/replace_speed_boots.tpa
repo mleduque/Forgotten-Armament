@@ -53,3 +53,17 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY_EXISTING ~SARBAR01.STO~ ~override~
         ADD_STORE_ITEM ~MOBT06~ #0 #0 #0 ~IDENTIFIED~ #1
 END
+
+///////////////////////////////////////////////////////////////////////////
+// Kitten Slippers Replaced from Renal Bloodscalp              //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOBT07.ITM~ ~override/MOBT07.ITM~
+        SAY NAME1 @13600
+        SAY NAME2 @13616
+        SAY UNIDENTIFIED_DESC @13601
+        SAY DESC @13617
+
+    COPY_EXISTING ~RENAL.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOBT07~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~ EQUIP
+END

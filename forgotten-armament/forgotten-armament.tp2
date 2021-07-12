@@ -37,7 +37,7 @@ LANGUAGE ~American English~
 
 BEGIN @1 DESIGNATED 1 LABEL ForgottenArmament-AddIWDItems
 
-REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
@@ -49,7 +49,7 @@ INCLUDE ~forgotten-armament/components/add_items_iwd.tpa~
 
 BEGIN @2 DESIGNATED 2 LABEL ForgottenArmament-AddNWNItems
 
-REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
@@ -61,7 +61,7 @@ INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
 
 BEGIN @3 DESIGNATED 3 LABEL ForgottenArmament-MoveItems
 
-REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 INCLUDE ~forgotten-armament/components/move_items.tpa~
 
@@ -71,7 +71,8 @@ INCLUDE ~forgotten-armament/components/move_items.tpa~
 
 BEGIN @4 DESIGNATED 4 LABEL ForgottenArmament-UpdateStatItems
 
-REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
+REQUIRE_PREDICATE NOT MOD_IS_INSTALLED ~setup-item_rev.tp2~ ~0~ @3003
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
@@ -83,7 +84,7 @@ INCLUDE ~forgotten-armament/components/stat_item_update.tpa~
 
 BEGIN @6 DESIGNATED 6 SUBCOMPONENT @5 LABEL ForgottenArmament-TwoHandAPRHalf
 
-REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/style_descriptions.tra~
 
@@ -103,7 +104,7 @@ INCLUDE ~forgotten-armament/components/weapon_style_revisions.tpa~
 
 BEGIN @8 DESIGNATED 8 LABEL ForgottenArmament-ReplaceSpeedBoots
 
-REQUIRE_PREDICATE (GAME_IS ~bgee bg2ee eet~) @3000
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 

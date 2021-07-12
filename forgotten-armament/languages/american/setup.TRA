@@ -12,4 +12,5 @@
 @3000 = ~Component requires BG: EE, BGII: EE, or EET~
 @3001 = ~DLCMerger is needed before modding SoD games~
 @3002 = ~Component requires BGII: EE or EET~
+@3003 = ~Skipping since Item Revisions is installed~
 
