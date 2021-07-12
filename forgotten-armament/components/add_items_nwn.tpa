@@ -1,10 +1,5 @@
 // Forgotten Armament - Create New Items NWN
 
-///////////////////////////////////////////////////////////////////////////
-// Legend                                                                //
-// *** Means conflict with another mod                                   //
-///////////////////////////////////////////////////////////////////////////
-
 /*************************************************************************/
 ///////////////////////////////////////////////////////////////////////////
 // CREATE NEW MELEE WEAPONS                                              //
@@ -383,7 +378,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Remembrance +3 - Assign in BGEE and BG2EE                                //
+// Create Remembrance +3 - Assign in BGEE and BG2EE                      //
 ///////////////////////////////////////////////////////////////////////////
 COPY ~forgotten-armament/itm/MOSTA02.ITM~ ~override/MOSTA02.ITM~
     SAY NAME1 @11100
@@ -397,11 +392,12 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-
+    COPY_EXISTING ~GPMAGE1.CRE~ ~override~ // Assign to N'ashtar in Underdark
+        REPLACE_CRE_ITEM ~MOSTA02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Staff of Balpheron +1 - Assign to                                //
+// Create Staff of Balpheron +1 - Assign to Conster                      //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOSTA03.ITM~ ~override/MOSTA03.ITM~
@@ -410,7 +406,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @11101
         SAY DESC @11107
 
-
+    COPY_EXISTING ~FIRMAG01.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOSTA03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -485,7 +482,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Heartwood Spear +4 - Assign to                   //
+// Create Heartwood Spear +4 - Assign to                                         //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOSP02.ITM~ ~override/MOSP02.ITM~
@@ -504,7 +501,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Blade of the Rashemi +3 - Assign to                            //
+// Create Blade of the Rashemi +3 - Assign to                                       //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MO2H01.ITM~ ~override/MO2H01.ITM~
@@ -517,7 +514,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create The Golem's Blade +3 - Assign to                            //
+// Create The Golem's Blade +3 - Assign to                                          //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/spl/MO2H02.SPL~ ~override/MO2H02.SPL~
@@ -607,7 +604,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Tasha's Atrocious Robe - Assign to                                         //
+// Create Tasha's Atrocious Robe - Assign to                             //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MORB01.ITM~ ~override/MORB01.ITM~
@@ -616,7 +613,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @12201
         SAY DESC @12207
 
-
+    COPY_EXISTING ~GPMAGE1.CRE~ ~override~ // Assign to N'ashtar in Underdark
+        REPLACE_CRE_ITEM ~MOSTA02~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -639,7 +637,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Armor of Loyalty - Assign to                                  //
+// Create Armor of Loyalty - Assign to                                           //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOLEA01.ITM~ ~override/MOLEA01.ITM~
@@ -652,7 +650,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Aurumvorax Armor - Assign to                                  //
+// Create Aurumvorax Armor - Assign to                                           //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOLEA02.ITM~ ~override/MOLEA02.ITM~
