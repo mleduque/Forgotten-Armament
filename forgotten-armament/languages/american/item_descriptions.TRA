@@ -3271,7 +3271,7 @@ Weight: 2~
 // Golden Circlet (NWN2)                                                 //
 ///////////////////////////////////////////////////////////////////////////
 @14010 = ~Golden Circlet~
-@1401 = ~Creatures that attack the mind are the stuff of nightmares, so it is not surprising that items protecting against them might acquire some of their disrepute. Golden Circlets, for example, have been linked to a claim that when the drow first retreated underground they fed on intellect devourers, and that eating such a creature without wearing a circlet produced a mind flayer. This is all, of course, nothing more than superstitious tavern talk.
+@14011 = ~Creatures that attack the mind are the stuff of nightmares, so it is not surprising that items protecting against them might acquire some of their disrepute. Golden Circlets, for example, have been linked to a claim that when the drow first retreated underground they fed on intellect devourers, and that eating such a creature without wearing a circlet produced a mind flayer. This is all, of course, nothing more than superstitious tavern talk.
 
 STATISTICS:
 
