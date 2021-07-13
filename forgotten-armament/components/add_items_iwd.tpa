@@ -59,7 +59,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY DESC @10105
 
     COPY_EXISTING ~IDEMON02.CRE~ ~override~
-        ADD_CRE_ITEM ~UBSWD2B~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+        REPLACE_CRE_ITEM ~UBSWD2B~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -81,7 +81,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Mage Dagger +2 - Assign to         //
+// Mage Dagger +2 - Assign to Sion                                       //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/UDAGG3B.ITM~ ~override/UDAGG3B.ITM~
@@ -90,6 +90,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10301
         SAY DESC @10305
 
+    COPY_EXISTING ~HLSION.CRE~ ~override~
+        REPLACE_CRE_ITEM ~UDAGG3B~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -136,14 +138,6 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-// Katanas                                                               //
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-
-
-
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
 // Long Swords                                                           //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -160,7 +154,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY DESC @10705
 
     COPY_EXISTING ~MEILUM.CRE~ ~override~
-        ADD_CRE_ITEM ~INTRCES~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+        REPLACE_CRE_ITEM ~INTRCES~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -174,7 +168,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY DESC @10707
 
     COPY_EXISTING ~TUTH.CRE~ ~override~ 
-        ADD_CRE_ITEM ~ULSWD3D~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+        REPLACE_CRE_ITEM ~ULSWD3D~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -189,7 +183,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY DESC @10711
 
     COPY_EXISTING ~FIRRAK01.CRE~ ~override~
-        ADD_CRE_ITEM ~TURODAH~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+        REPLACE_CRE_ITEM ~TURODAH~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -203,7 +197,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY DESC @10709
 
     COPY_EXISTING ~PARGUS.CRE~ ~override~
-        ADD_CRE_ITEM ~ULSWD2B~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+        REPLACE_CRE_ITEM ~ULSWD2B~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -234,7 +228,7 @@ END */
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Sloth +2 - Assign to                                                             //
+// Create Sloth +2 - Assign to Damien in the Underdark                   //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/USSWD3A.ITM~ ~override/USSWD3A.ITM~
@@ -243,7 +237,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @11301
         SAY DESC @11303
 
-
+    COPY_EXISTING ~GPTHIEF1.CRE~ ~override~
+        REPLACE_CRE_ITEM ~USSWD3A~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -379,7 +374,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Baleful Mail - Assign to                                                          //
+// Create Baleful Mail - Assign to Entu in the Planar Sphere             //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/bam/ICHAINBM.BAM~ ~override/ICHAINBM.BAM~
@@ -389,7 +384,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @12601
         SAY DESC @12603
 
-
+    COPY_EXISTING ~OBSHAL01.CRE~ ~override~
+        REPLACE_CRE_ITEM ~CHAINBM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 END
 
 ///////////////////////////////////////////////////////////////////////////
