@@ -73,7 +73,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 // Mage Dagger +1 - Assign to Kayardi in Planar Sphere                   //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/UDAGG2B.ITM~ ~override/UDAGG2B.ITM~
         SAY NAME1 @10300
         SAY NAME2 @10302
