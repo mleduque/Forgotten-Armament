@@ -101,7 +101,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 // Static Dagger +1 - Assign to Brennan Risling                          //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/UDAGG2A.ITM~ ~override/UDAGG2A.ITM~
         SAY NAME1 @10300
         SAY NAME2 @10306
@@ -122,7 +122,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 // Crooked Flail +1 - Assign to Reynald de Chatillon                     //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/UFLAL2A.ITM~ ~override/UFLAL2A.ITM~
         SAY NAME1 @10400
         SAY NAME2 @10402
