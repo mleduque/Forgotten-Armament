@@ -109,14 +109,3 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/replace_speed_boots.tpa~
-
-///////////////////////////////////////////////////////////////////////////
-// Better Equipped Enemies                                               //
-///////////////////////////////////////////////////////////////////////////
-
-BEGIN @9 DESIGNATED 9 LABEL ForgottenArmament-BetterEquippedEnemies
-
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
-
-
-INCLUDE ~forgotten-armament/components/better_equipped_enemies.tpa~

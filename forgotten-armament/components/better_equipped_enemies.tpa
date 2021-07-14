@@ -29,6 +29,14 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 // Den of the Seven Vales                                                //
 ///////////////////////////////////////////////////////////////////////////
 
+// Mencar Pebblecrusher - Lvl 14 Dwarven Fighter
+
+// Brennan Risling - Lvl 14 Human Thief
+
+// Smaeluv Orcslicer - Lvl 10 Half-Orc Fighter
+
+// Amon - Lvl 15 Human Invoker
+
 
 ///////////////////////////////////////////////////////////////////////////
 // Temple District Warehouse Fight                                       //
@@ -47,7 +55,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 // Better armor and 2h sword
 
 // Sion - Lvl 22 Human Mage
-// Dagger, buckler, robe, and helmet
+// Dagger, buckler, and robe
 
 // Stalman - Lvl 16 Human Cleric
 
@@ -55,9 +63,21 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 // Temple District Sewers                                                //
 ///////////////////////////////////////////////////////////////////////////
 
+// Tarnor the Hatchetman - Lvl 13 Dwarven Fighter
+
+// Draug Fea - Lvl 12 Dwarven Fighter
+
+// Gaius - Lvl 14 Elven Mage
+
+// Gallchobhair - Lvl 11 Elven Fighter (archer)
+
+// Rengaard - Lvl 12 Human Fighter/Cleric
+// Add warhammer
+
+// Zorl
 
 ///////////////////////////////////////////////////////////////////////////
-// Planar Sphere *ONLY DID ENTU*                                         //
+// Planar Sphere                                                         //
 ///////////////////////////////////////////////////////////////////////////
 
 // Togan - Lvl 12 Halfling Fighter (Ranged)
@@ -75,8 +95,6 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 // Pai'Na - Give Studded Leather +2                                      //
 ///////////////////////////////////////////////////////////////////////////
 
-	COPY_EXISTING ~SPPAIN.CRE~ ~override~
-        REPLACE_CRE_ITEM ~LEAT07~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
 
 ///////////////////////////////////////////////////////////////////////////
 // Twisted Rune                                                          //
@@ -180,13 +198,56 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 ///////////////////////////////////////////////////////////////////////////
 
 // Aurumach Rilmani - Lvl 25 Tiefling Mage
+// Bracers of Artificer
 
 // Ameralis Zauviir - Lvl 27 Drow Cleric
-// Ancient Sermon
+// Ancient Sermon, Kepeturi
 
 // The Huntress - Lvl 25 Demon Archer
 
 // Xei Win Toh - Lvl 25 Demon Kensai
 // +5 Katana and +4 Wakizashi
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Bhaalspawn                                                            //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Illasera                                                              //
+///////////////////////////////////////////////////////////////////////////
+
+// Illasera - Lvl 18 Human Ranger
+// Gloves of Dex +4
+
+///////////////////////////////////////////////////////////////////////////
+// Gromnir                                                               //
+///////////////////////////////////////////////////////////////////////////
+
+// Gromnir - Lvl 24 Half-Orc Berserker
+// 
+
+// Karun the Black - Lvl 24 Human Invoker
+// Gave mage hat to and bracers
+
+// Berena Elkan - Lvl 18 Human Wizardslayer
+
+// Eler Had - Lvl 15 Half-elf Berserker (assassin)
+
+///////////////////////////////////////////////////////////////////////////
+// Sendai                                                                //
+///////////////////////////////////////////////////////////////////////////
+
+// Odamaron - Lvl 34 Lich
+// Robes
+
+// Diaytha - Lvl 20 Drow Cleric
+// Amulet and Helm added
+
+// Captain Egeissag - Lvl 25 Drow Kensai Mage
+// Golem Blade, amulet
+
+// Thelynn'ss's - Lvl 25 Drow Kensai
 
 END
