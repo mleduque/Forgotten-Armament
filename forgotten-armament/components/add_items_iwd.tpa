@@ -185,7 +185,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 // Turodahel +2 - Assign to Ruhk Transmuter Firkraag Dungeon             //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/bam/ITURODAH.BAM~ ~override/ITURODAH.BAM~
     COPY ~forgotten-armament/itm/TURODAH.ITM~ ~override/TURODAH.ITM~
         SAY NAME1 @10700
