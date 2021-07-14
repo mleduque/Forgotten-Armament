@@ -18,7 +18,7 @@
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Battle Axe +2: Defender - Assign to                                               //
+// Battle Axe +2: Defender - Assign to Insane Dwarf Warrior Underdark    //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/U1HAX3B.ITM~ ~override/U1HAX3B.ITM~
@@ -27,6 +27,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10001
         SAY DESC @10003
 
+    COPY_EXISTING ~UDDWARF.CRE~ ~override~
+        REPLACE_CRE_ITEM ~U1HAX3B~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 /* SOD to BG2 Mod
@@ -97,7 +99,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Static Dagger +1 - Assign to Brennan Risling        //
+// Static Dagger +1 - Assign to Brennan Risling                          //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
     COPY ~forgotten-armament/itm/UDAGG2A.ITM~ ~override/UDAGG2A.ITM~

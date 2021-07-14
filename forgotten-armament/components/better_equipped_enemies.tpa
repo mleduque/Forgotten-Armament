@@ -204,6 +204,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 // Ancient Sermon, Kepeturi
 
 // The Huntress - Lvl 25 Demon Archer
+// Amulet of Health
 
 // Xei Win Toh - Lvl 25 Demon Kensai
 // +5 Katana and +4 Wakizashi
@@ -226,7 +227,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 ///////////////////////////////////////////////////////////////////////////
 
 // Gromnir - Lvl 24 Half-Orc Berserker
-// 
+// Triune Shield
 
 // Karun the Black - Lvl 24 Human Invoker
 // Gave mage hat to and bracers

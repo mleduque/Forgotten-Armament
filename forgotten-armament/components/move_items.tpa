@@ -55,4 +55,11 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY_EXISTING ~WMART1.STO~ ~override~
         REMOVE_STORE_ITEM ~WAFLAIL~
 
+///////////////////////////////////////////////////////////////////////////
+// Move Ninjatō of the Scarlet Brotherhood +3 to Amkethran Smugglers     //
+///////////////////////////////////////////////////////////////////////////
+    COPY_EXISTING ~AMSMUG02.STO~ ~override~
+        ADD_STORE_ITEM ~WANINJA~ #0 #0 #0 ~IDENTIFIED~ #1
+    COPY_EXISTING ~WMART1.STO~ ~override~
+        REMOVE_STORE_ITEM ~WANINJA~
 END

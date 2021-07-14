@@ -13,7 +13,7 @@
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Deepstone Progeny +2 - Assign to                                                       //
+// Create Deepstone Progeny +2 - Assign to Camitis                       //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOAX01.ITM~ ~override/MOAX01.ITM~
@@ -22,7 +22,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10001
         SAY DESC @10007
 
-
+    COPY_EXISTING ~CAMITIS.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOAX01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -103,7 +104,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Myr Styah'be'eh +4 - Assign to                                                       //
+// Create Myr Styah'be'eh +4 - Assign to Kiser Jhaeri                    //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MODAG01.ITM~ ~override/MODAG01.ITM~
@@ -112,11 +113,17 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10301
         SAY DESC @10309
 
+    COPY_EXISTING ~SARKIS01.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYDAGGER~ 1
+        REPLACE_CRE_ITEM ~MODAG01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 
+    COPY_EXISTING ~SARKIS05.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYDAGGER~ 1
+        REPLACE_CRE_ITEM ~MODAG01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Ice Talon +2 - Assign to            //
+// Create Ice Talon +2 - Assign to Joluv Bonus Merchant                  //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     ACTION_IF NOT FILE_EXISTS_IN_GAME ~IBDDAG01.BAM~ BEGIN
@@ -129,7 +136,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10301
         SAY DESC @10311
 
-
+    COPY_EXISTING ~WMART1.STO~ ~override~
+            ADD_STORE_ITEM ~MODAG02~ #0 #0 #0 ~IDENTIFIED~ #1
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -139,7 +147,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Cruel Halberd +3 - Assign to                                                      //
+// Create Cruel Halberd +3 - Assign to Ist'tar Jae'llat                  //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/spl/MOHAL01.SPL~ ~override/MOHAL01.SPL~
@@ -149,11 +157,14 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10501
         SAY DESC @10503
 
-
+    COPY_EXISTING ~JAEL03.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYHALBERD~ 5
+        SET_BG2_PROFICIENCY ~PROFICIENCY2HANDED~ 2
+        REPLACE_CRE_ITEM ~MOHAL01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Will of Atar +1 - Assign to                                                      //
+// Create Will of Atar +1 - Assign to Adventurer Mart                    //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOHAL02.ITM~ ~override/MOHAL02.ITM~
@@ -162,7 +173,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10501
         SAY DESC @10505
 
-
+    COPY_EXISTING ~RIBALD.STO~ ~override~
+            ADD_STORE_ITEM ~MOHAL02~ #0 #0 #0 ~IDENTIFIED~ #1
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -265,12 +277,12 @@ END*/
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-// Maces                                                           //
+// Maces                                                                 //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Petty's Tempest +2 - Assign to                                          //
+// Create Petty's Tempest +2 - Assign to Chandrilla in Underdark         //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBLN01.ITM~ ~override/MOBLN01.ITM~
@@ -279,7 +291,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10801
         SAY DESC @10804
 
-
+    COPY_EXISTING ~GPPRI1.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOBLN01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -306,7 +319,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10801
         SAY DESC @10808
 
-    COPY_EXISTING ~OBSHAL01.CRE~ ~override~
+    COPY_EXISTING ~BREGG.CRE~ ~override~
         SET_BG2_PROFICIENCY ~PROFICIENCYMACE~ 5
         SET_BG2_PROFICIENCY ~PROFICIENCYSINGLEWEAPON~ 2
         REPLACE_CRE_ITEM ~MOBLN03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~
@@ -319,7 +332,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Sleepwalker Kin +2 - Assign to                                      //
+// Create Sleepwalker Kin +2 - Assign to Rilloa Jae'llat                 //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOMS01.ITM~ ~override/MOMS01.ITM~
@@ -328,11 +341,12 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10901
         SAY DESC @10903
 
-
+    COPY_EXISTING ~JAEL02.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOMS01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Bone Phoenix +1 - Assign to                                      //
+// Create Bone Phoenix +1 - Assign to Bregg in Slums District            //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOMS02.ITM~ ~override/MOMS02.ITM~
@@ -341,7 +355,9 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @10901
         SAY DESC @10905
 
-
+    COPY_EXISTING ~OBSHAL01.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYFLAILMORNINGSTAR~ 5
+        REPLACE_CRE_ITEM ~MOMS02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -482,7 +498,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Heartwood Spear +4 - Assign to                                         //
+// Create Heartwood Spear +4 - Assign to Tahazzar in Watcher's Keep      //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOSP02.ITM~ ~override/MOSP02.ITM~
@@ -491,7 +507,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @11401
         SAY DESC @11407
 
-
+    COPY_EXISTING ~GORTAN1.CRE~ ~override~
+        ADD_CRE_ITEM ~MOSP02~ #0 #0 #0 ~NONE~ ~INV~
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -590,7 +607,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Rift Hammer +3 -                                                           //
+// Create Rift Hammer +3 - Assign to Blind Priest in Beholder Cult       //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOHM02.ITM~ ~override/MOHM02.ITM~
@@ -599,7 +616,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @11701
         SAY DESC @11706
 
-
+    COPY_EXISTING ~BRAIWA2.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOHM02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 /*************************************************************************/
@@ -649,7 +667,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Armor of Loyalty - Assign to                                           //
+// Create Armor of Loyalty - Assign to Damien in Underdark               //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOLEA01.ITM~ ~override/MOLEA01.ITM~
@@ -658,7 +676,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @12301
         SAY DESC @12303
 
-
+    COPY_EXISTING ~GPTHIEF1.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOLEA01~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -955,7 +974,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Triune Shield +3 - Assigned to              //
+// Create Triune Shield +3 - Assigned to Gromnir Il-Khan                 //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOMSH05.ITM~ ~override/MOMSH05.ITM~
@@ -964,7 +983,9 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @13201
         SAY DESC @13213
 
-      
+    COPY_EXISTING ~GROMNIR.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYSWORDANDSHIELD~ 2
+        REPLACE_CRE_ITEM ~MOMSH05~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~      
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -988,7 +1009,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Periapt of Wisdom +2 - Setup for BG2EE                                            //
+// Periapt of Wisdom +2 - Assign to Stalman                              //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOAM01.ITM~ ~override/MOAM01.ITM~
@@ -1002,7 +1023,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Amulet of Health - Setup for BG2EE                                                  //
+// Amulet of Health - Assign to The Huntress in Watcher's Keep           //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOAM02.ITM~ ~override/MOAM02.ITM~
@@ -1010,6 +1031,9 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @13404
         SAY UNIDENTIFIED_DESC @13401
         SAY DESC @13405
+
+    COPY_EXISTING ~GORWOM02.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOAM02~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -1142,7 +1166,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Boots of Striding +1 - Assign to                                             //
+// Create Boots of Striding +1 - Assign to Haegan in Slaver Compound     //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBT01.ITM~ ~override/MOBT01.ITM~
@@ -1151,7 +1175,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @13601
         SAY DESC @13605
 
-
+    COPY_EXISTING ~HAEGAN.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOBT01~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -1169,7 +1194,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Boots of Striding +3 - Assign to                                             //
+// Create Boots of Striding +3 - Assign to Yaga-Shura                    //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBT03.ITM~ ~override/MOBT03.ITM~
@@ -1178,7 +1203,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @13601
         SAY DESC @13609
 
-
+    COPY_EXISTING ~YAGA01.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOBT03~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -1253,7 +1279,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Ysridain's Touch - Assign to                                                  //
+// Create Ysridain's Touch - Assign to Dedrei's Store                    //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOGLV01.ITM~ ~override/MOGLV01.ITM~
@@ -1262,7 +1288,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @13801
         SAY DESC @13805
 
-
+    COPY_EXISTING ~WMART2.STO~ ~override~
+            ADD_STORE_ITEM ~MOGLV01~ #0 #0 #0 ~IDENTIFIED~ #1
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -1378,7 +1405,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Golden Circlet - Assign to                                          //
+// Create Golden Circlet - Assign to Kuo-toan Prince                     //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOHED04.ITM~ ~override/MOHED04.ITM~
@@ -1387,7 +1414,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @14001
         SAY DESC @14011
 
-
+    COPY_EXISTING ~UDPRINCE.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOHED04~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
