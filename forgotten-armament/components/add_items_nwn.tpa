@@ -559,7 +559,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 // Create Eye of the Sun +3 - Assign to Koshi                            //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MO1H05.ITM~ ~override/MO1H05.ITM~
         SAY NAME1 @11600
         SAY NAME2 @11602
@@ -575,7 +575,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 // Create The Dark Companion +4 - Assign to Xei Win Toh                  //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/spl/MO1H07.SPL~ ~override/MO1H07.SPL~
     COPY ~forgotten-armament/itm/MO1H07.ITM~ ~override/MO1H07.ITM~
         SAY NAME1 @11600
