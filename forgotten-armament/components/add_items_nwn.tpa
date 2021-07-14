@@ -868,7 +868,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOSSH01.ITM~ ~override/MOSSH01.ITM~
         SAY NAME1 @13100
         SAY NAME2 @13104
-        SAY UNIDENTIFIED_DESC @13101F
+        SAY UNIDENTIFIED_DESC @13101
         SAY DESC @13105
 
     COPY_EXISTING ~HLSTAL.CRE~ ~override~
