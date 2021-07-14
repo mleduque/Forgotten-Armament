@@ -219,14 +219,14 @@ END
 // Kaga-To +1 - Assign to Haseo in the Undercity                         //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
-    COPY ~forgotten-armament/itm/MO1H40.ITM~ ~override/MO1H40.ITM~
+    COPY ~forgotten-armament/itm/MO1H44.ITM~ ~override/MO1H44.ITM~
         SAY NAME1 @10600
         SAY NAME2 @10606
         SAY UNIDENTIFIED_DESC @10601
         SAY DESC @10607
 
     COPY_EXISTING ~HASEO.CRE~ ~override~
-        REPLACE_CRE_ITEM ~MO1H40~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+        REPLACE_CRE_ITEM ~MO1H44~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
