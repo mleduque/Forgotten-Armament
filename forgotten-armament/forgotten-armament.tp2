@@ -95,6 +95,8 @@ INCLUDE ~forgotten-armament/components/weapon_style_revisions.tpa~
 
 BEGIN @7 DESIGNATED 7 SUBCOMPONENT @5 LABEL ForgottenArmament-TwoHandAPRFull
 
+LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/style_descriptions.tra~
+
 INCLUDE ~forgotten-armament/components/full_apr.tpa~
 INCLUDE ~forgotten-armament/components/weapon_style_revisions.tpa~
 
