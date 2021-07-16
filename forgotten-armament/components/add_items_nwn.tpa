@@ -216,17 +216,22 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Kaga-To +1 - Assign to Haseo in the Undercity                         //
+// Kaga-To +1 - Assign BG: EE and BGII: EE                               //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN
-    COPY ~forgotten-armament/itm/MO1H44.ITM~ ~override/MO1H44.ITM~
-        SAY NAME1 @10600
-        SAY NAME2 @10606
-        SAY UNIDENTIFIED_DESC @10601
-        SAY DESC @10607
+COPY ~forgotten-armament/itm/MO1H44.ITM~ ~override/MO1H44.ITM~
+    SAY NAME1 @10600
+    SAY NAME2 @10606
+    SAY UNIDENTIFIED_DESC @10601
+    SAY DESC @10607
 
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN // Assign to Haseo in the Undercity
     COPY_EXISTING ~HASEO.CRE~ ~override~
         REPLACE_CRE_ITEM ~MO1H44~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+END
+
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN // Assign to Adventurer's mart
+    COPY_EXISTING ~WMART2.STO~ ~override~
+            ADD_STORE_ITEM ~MO1H44~ #0 #0 #0 ~IDENTIFIED~ #1
 END
 
 ///////////////////////////////////////////////////////////////////////////
