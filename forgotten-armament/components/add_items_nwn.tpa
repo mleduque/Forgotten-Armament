@@ -242,7 +242,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN // Assign to Ogre Mage in Cloakwood Mine
 END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN // Assign to Adventurer's mart
-    COPY_EXISTING ~RIBALD.STO.STO~ ~override~
+    COPY_EXISTING ~RIBALD.STO~ ~override~
             ADD_STORE_ITEM ~MO1H44~ #0 #0 #0 ~IDENTIFIED~ #1
 END
 
