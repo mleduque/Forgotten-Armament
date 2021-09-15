@@ -315,7 +315,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY NAME2 @11504
         SAY UNIDENTIFIED_DESC @11501
         SAY DESC @11505
-        WRITE_ASCII 0x58
+        WRITE_ASCII 0x58 csw2h11
 
     COPY_EXISTING ~GARDUS.CRE~ ~override~
         SET_BG2_PROFICIENCY ~PROFICIENCYTWOHANDEDSWORD~ 5
@@ -333,7 +333,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @11506
         SAY UNIDENTIFIED_DESC @11501
         SAY DESC @11507
-        WRITE_ASCII 0x58
+        WRITE_ASCII 0x58 csw2h03
 
     COPY_EXISTING ~SENGUA03.CRE~ ~override~
         SET_BG2_PROFICIENCY ~PROFICIENCYTWOHANDEDSWORD~ 5
@@ -356,6 +356,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @11707
         SAY UNIDENTIFIED_DESC @11701
         SAY DESC @11708
+        WRITE_ASCII 0x58 phamm10
 
     COPY_EXISTING ~RENGAA.CRE~ ~override~
         SET_BG2_PROFICIENCY ~PROFICIENCYSWORDANDSHIELD~ 2
@@ -384,6 +385,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @12202
         SAY UNIDENTIFIED_DESC @12201
         SAY DESC @12203
+        WRITE_ASCII 0x58 cclck15
 
     COPY_EXISTING ~SENLICH.CRE~ ~override~
         REPLACE_CRE_ITEM ~ROBEARM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
@@ -392,12 +394,14 @@ END
 ///////////////////////////////////////////////////////////////////////////
 // Create Robe of Enfusing - Assign to Layene in Twisted Rune            //
 ///////////////////////////////////////////////////////////////////////////
+// POTATO
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/UROBE1A.ITM~ ~override/UROBE1A.ITM~
         SAY NAME1 @12200
         SAY NAME2 @12204
         SAY UNIDENTIFIED_DESC @12201
         SAY DESC @12205
+        WRITE_ASCII 0x58 ohncrob2
 
     COPY_EXISTING ~HLLAYEN.CRE~ ~override~
         REPLACE_CRE_ITEM ~UROBE1A~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
@@ -419,6 +423,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @12602
         SAY UNIDENTIFIED_DESC @12601
         SAY DESC @12603
+        WRITE_ASCII 0x58 cchan08
 
     COPY_EXISTING ~OBSHAL01.CRE~ ~override~
         REPLACE_CRE_ITEM ~CHAINBM~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
@@ -503,6 +508,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @13302
         SAY UNIDENTIFIED_DESC @13301
         SAY DESC @13303
+        WRITE_ASCII 0x58 cshld30
 
     COPY_EXISTING ~OHRJADEN.CRE~ ~override~
         REPLACE_CRE_ITEM ~USHLD4A~ #0 #0 #0 ~UNSTEALABLE~ ~SHIELD~
@@ -530,6 +536,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @13412
         SAY UNIDENTIFIED_DESC @13401
         SAY DESC @13413
+        WRITE_ASCII 0x58 camul24
 
     COPY_EXISTING ~SENGUA03.CRE~ ~override~
         REPLACE_CRE_ITEM ~BWTALIS~ #0 #0 #0 ~UNSTEALABLE~ ~AMULET~ EQUIP
@@ -587,6 +594,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY NAME2 @13702
         SAY UNIDENTIFIED_DESC @13701
         SAY DESC @13703
+        WRITE_ASCII 0x58 cclck23
 
     COPY_EXISTING ~HGBER01.CRE~ ~override~ 
         REPLACE_CRE_ITEM ~CLCKBS~ #0 #0 #0 ~UNSTEALABLE~ ~CLOAK~ EQUIP
