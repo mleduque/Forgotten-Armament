@@ -205,7 +205,6 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY DESC @10603
         WRITE_ASCII 0x58 cnsw1h02
 
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN // Assign to Ogre Mage in Cloakwood Mine
     COPY_EXISTING ~OGREMA03.CRE~ ~override~
         REPLACE_CRE_ITEM ~MO1H55~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
