@@ -195,7 +195,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Master Li's Way +2 - Assign to Kahrk in Firewine Bridge               //
+// Master Li's Way +2 - Assign to Haseo in Undercity                     //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
     COPY ~forgotten-armament/itm/MO1H55.ITM~ ~override/MO1H55.ITM~
@@ -205,7 +205,8 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY DESC @10603
         WRITE_ASCII 0x58 cnsw1h02
 
-    COPY_EXISTING ~KAHRK.CRE~ ~override~
+    COPY_EXISTING ~HASEO.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 5
         REPLACE_CRE_ITEM ~MO1H55~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
