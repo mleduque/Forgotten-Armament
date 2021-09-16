@@ -195,7 +195,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Master Li's Way +2 - Assign to Haseo in Undercity                     //
+// Master Li's Way +2 - Assign to Ogre in Cloakwood Mine                 //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
     COPY ~forgotten-armament/itm/MO1H55.ITM~ ~override/MO1H55.ITM~
@@ -205,8 +205,8 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
         SAY DESC @10603
         WRITE_ASCII 0x58 cnsw1h02
 
-    COPY_EXISTING ~HASEO.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 5
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN // Assign to Ogre Mage in Cloakwood Mine
+    COPY_EXISTING ~OGREMA03.CRE~ ~override~
         REPLACE_CRE_ITEM ~MO1H55~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
@@ -237,8 +237,10 @@ COPY ~forgotten-armament/itm/MO1H44.ITM~ ~override/MO1H44.ITM~
     SAY DESC @10607
     WRITE_ASCII 0x58 psw1h70
 
-ACTION_IF (GAME_IS ~bgee eet~) BEGIN // Assign to Ogre Mage in Cloakwood Mine
-    COPY_EXISTING ~OGREMA03.CRE~ ~override~
+ACTION_IF (GAME_IS ~bgee eet~) BEGIN // Assign to Sendai in AR5300
+    COPY_EXISTING ~SENDAI.CRE~ ~override~
+        SET_BG2_PROFICIENCY ~PROFICIENCYKATANA~ 4
+        SET_BG2_PROFICIENCY ~PROFICIENCY2WEAPON~ 2
         REPLACE_CRE_ITEM ~MO1H44~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
 END
 
