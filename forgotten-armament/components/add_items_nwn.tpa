@@ -691,7 +691,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         WRITE_ASCII 0x58 ohncrob1
 
     COPY_EXISTING ~GPMAGE1.CRE~ ~override~ 
-        REPLACE_CRE_ITEM ~MOSTA02~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
+        REPLACE_CRE_ITEM ~MORB01~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////
