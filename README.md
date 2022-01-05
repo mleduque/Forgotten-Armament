@@ -12,7 +12,7 @@
 
 ## Introduction
 
-This mod seeks to add items that:
+Gibberish as I wait to type this out. 
 
 There are a lot of enemies with normal/no weapons when they are at a level of the player who is wielding vastly better equipment.
 
