@@ -32,7 +32,7 @@ LANGUAGE ~American English~
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Add New IWD:EE Items into the Game                                    //
+// Add New Forgotten Armament Items into the Game                        //
 ///////////////////////////////////////////////////////////////////////////
 
 BEGIN @1 DESIGNATED 1 LABEL ForgottenArmament-AddIWDItems
@@ -42,7 +42,9 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/add_items_iwd.tpa~
+INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
 
+/*
 ///////////////////////////////////////////////////////////////////////////
 // Add New NWN Items into the Game                                       //
 ///////////////////////////////////////////////////////////////////////////
@@ -54,6 +56,7 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
+*/
 
 ///////////////////////////////////////////////////////////////////////////
 // Move Certain Items to more Difficult Locations                        //
