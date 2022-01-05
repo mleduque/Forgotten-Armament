@@ -9,6 +9,7 @@ COPY ~forgotten-armament/itm/MOBT04.ITM~ ~override/MOBT04.ITM~
     SAY UNIDENTIFIED_DESC @13601
     SAY DESC @13611
     WRITE_ASCII 0x58 cboot04
+    WRITE_LONG 0x34 3000
 
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
     COPY_EXISTING ~DRASUS.CRE~ ~override~ // Replace from Drasus
@@ -28,6 +29,7 @@ COPY ~forgotten-armament/itm/MOBT05.ITM~ ~override/MOBT05.ITM~
     SAY UNIDENTIFIED_DESC @13601
     SAY DESC @13613
     WRITE_ASCII 0x58 cboot04
+    WRITE_LONG 0x34 4000
 
 ACTION_IF (GAME_IS ~bgee eet~) BEGIN
     COPY_EXISTING ~LOTHAN.CRE~ ~override~ // Replace from Lothander
@@ -49,6 +51,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @13601
         SAY DESC @13615
         WRITE_ASCII 0x58 cboot04
+        WRITE_LONG 0x34 6000
 
     COPY_EXISTING ~SARBAR01.STO~ ~override~
         REMOVE_STORE_ITEM ~BOOT01~
@@ -67,6 +70,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @13601
         SAY DESC @13617
         WRITE_ASCII 0x58 cboot02
+        WRITE_LONG 0x34 6000
 
     COPY_EXISTING ~RENAL.CRE~ ~override~
         REPLACE_CRE_ITEM ~MOBT07~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~ EQUIP
@@ -82,7 +86,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY UNIDENTIFIED_DESC @13601
         SAY DESC @13619
         WRITE_ASCII 0x58 cboot02
-        WRITE_LONG 0x34 5000
+        WRITE_LONG 0x34 10000
 
     COPY_EXISTING ~ILLASERA.CRE~ ~override~
         REPLACE_CRE_ITEM ~MOBT08~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~ EQUIP // Edit Name
