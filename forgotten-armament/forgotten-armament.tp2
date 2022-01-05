@@ -58,6 +58,7 @@ LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
 */
 
+/*
 ///////////////////////////////////////////////////////////////////////////
 // Move Certain Items to more Difficult Locations                        //
 ///////////////////////////////////////////////////////////////////////////
@@ -67,7 +68,9 @@ BEGIN @3 DESIGNATED 3 LABEL ForgottenArmament-MoveItems
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 INCLUDE ~forgotten-armament/components/move_items.tpa~
+*/
 
+/*
 ///////////////////////////////////////////////////////////////////////////
 // Update Stat Increasing Items to Increment the Increase                //
 ///////////////////////////////////////////////////////////////////////////
@@ -80,6 +83,7 @@ REQUIRE_PREDICATE NOT MOD_IS_INSTALLED ~setup-item_rev.tp2~ ~0~ @3003
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/stat_item_update.tpa~
+*/
 
 /*
 ///////////////////////////////////////////////////////////////////////////

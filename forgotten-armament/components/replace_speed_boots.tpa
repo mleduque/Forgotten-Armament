@@ -58,7 +58,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Kitten Slippers Replaced from Renal Bloodscalp              //
+// Kitten Slippers Replaced from Renal Bloodscalp                        //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBT07.ITM~ ~override/MOBT07.ITM~
@@ -70,4 +70,20 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
     COPY_EXISTING ~RENAL.CRE~ ~override~
         REPLACE_CRE_ITEM ~MOBT07~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~ EQUIP
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Dragon Slippers Replaced from Illasera                                //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+    COPY ~forgotten-armament/itm/MOBT08.ITM~ ~override/MOBT07.ITM~ // Edit Name
+        SAY NAME1 @13600
+        SAY NAME2 @13618
+        SAY UNIDENTIFIED_DESC @13601
+        SAY DESC @13619
+        WRITE_ASCII 0x58 cboot02
+        WRITE_LONG 0x34 5000
+
+    COPY_EXISTING ~ILLASERA.CRE~ ~override~
+        REPLACE_CRE_ITEM ~MOBT08~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~ EQUIP // Edit Name
 END

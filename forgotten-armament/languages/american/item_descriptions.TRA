@@ -2953,6 +2953,21 @@ Equipped abilities:
 Weight: 4~
 
 ///////////////////////////////////////////////////////////////////////////
+// Dragon Slippers (NWN2)                                                //
+///////////////////////////////////////////////////////////////////////////
+@13618 = ~Dragon Slippers~
+@13619 = ~Feryl Dragonhunter was a monster of a man who, with four kills to his credit, thought he had perfected the art of dragon slaying. He aided his efforts by creating magical equipment from his previous victories, including several different boots he mockingly called his Dragon Slippers. Amazingly, Feryl was not defeated by his preferred enemy, but was surprised by a small band of goblins on his way to a hunt.
+
+STATISTICS:
+
+Equipped abilities:
+- Dexterity: +2
+- Immunity Fear
+- Magic Resistance: +10%
+
+Weight: 4~
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Cloaks                                                                //
 ///////////////////////////////////////////////////////////////////////////
