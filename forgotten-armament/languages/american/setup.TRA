@@ -1,6 +1,7 @@
 // Forgotten Armament, American English
 
-@1 = ~Install IWD:EE Items~
+@1 = ~Install Forgotten Armament Items~
+//@1 = ~Install IWD:EE Items~
 @2 = ~Install Neverwinter Nights Items~
 @3 = ~Move Certain Items to More Difficult Locations~
 @4 = ~Update Stat Increasing Items to Increment the Increase~
