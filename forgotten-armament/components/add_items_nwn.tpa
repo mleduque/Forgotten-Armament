@@ -262,7 +262,7 @@ END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN // Assign to Adventurer's mart
     COPY_EXISTING ~RIBALD.STO~ ~override~
-            ADD_STORE_ITEM ~MO1H44~ #0 #0 #0 ~IDENTIFIED~ #1
+        ADD_STORE_ITEM ~MO1H44~ #0 #0 #0 ~IDENTIFIED~ #1
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -479,7 +479,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Staff of Balpheron +1 - Assign to Karun the Black              //
+// Create Staff of Balpheron +1 - Assign to Vongoethe Inventory          //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOSTA03.ITM~ ~override/MOSTA03.ITM~
@@ -490,8 +490,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         WRITE_ASCII 0x58 cstaf16
         WRITE_LONG 0x34 3000
 
-    COPY_EXISTING ~GROMG08.CRE~ ~override~
-        REPLACE_CRE_ITEM ~MOSTA03~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+    COPY_EXISTING ~AMLICH01.CRE~ ~override~
+        ADD_CRE_ITEM ~MOSTA03~ #0 #0 #0 ~NONE~ ~INV~
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -587,7 +587,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Blade of the Rashemi +3 - Assign to Olaf Rassmusen             //
+// Create Blade of the Rashemi +3 - Add to Karthis Store ToB             //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MO2H01.ITM~ ~override/MO2H01.ITM~
@@ -598,12 +598,12 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         WRITE_ASCII 0x58 csw2h12
         WRITE_LONG 0x34 6000
 
-    COPY_EXISTING ~HLOLAF.CRE~ ~override~
-        REPLACE_CRE_ITEM ~MO2H01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+    COPY_EXISTING ~HGKAR01.STO~ ~override~
+        ADD_STORE_ITEM ~MO2H01~ #0 #0 #0 ~IDENTIFIED~ #1
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create The Golem's Blade +3 - Assign to Berenn in Yaga-Shura Temple   //
+// Create The Golem's Blade +3 - Assign to Ka'rashur's Inventory in WK   //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/spl/MO2H02.SPL~ ~override/MO2H02.SPL~
@@ -615,10 +615,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         WRITE_ASCII 0x58 csw2h07
         WRITE_LONG 0x34 6000
 
-    COPY_EXISTING ~HGBER01.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYTWOHANDEDSWORD~ 5
-        SET_BG2_PROFICIENCY ~PROFICIENCY2HANDED~ 2
-        REPLACE_CRE_ITEM ~MO2H02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+    COPY_EXISTING ~GORBAT1.CRE~ ~override~
+        ADD_CRE_ITEM ~MO2H02~ #0 #0 #0 ~NONE~ ~INV~
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -1307,7 +1305,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Boots of Striding +1 - Assign to Haegan in Slaver Compound     //
+// Create Boots of Striding +1 - Assign to Anarg in Docks District       //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOBT01.ITM~ ~override/MOBT01.ITM~
@@ -1318,7 +1316,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         WRITE_ASCII 0x58 cboot01
         WRITE_LONG 0x34 3000
 
-    COPY_EXISTING ~HAEGAN.CRE~ ~override~
+    COPY_EXISTING ~KAYPAL01.CRE~ ~override~
         REPLACE_CRE_ITEM ~MOBT01~ #0 #0 #0 ~UNSTEALABLE~ ~BOOTS~ EQUIP
 END
 
@@ -1450,7 +1448,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Favor of Ilum Lura - Assign to Illasera                        //
+// Create Favor of Ilum Lura - Assign to The Huntress WK Final Seal      //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOGLV02.ITM~ ~override/MOGLV02.ITM~
@@ -1461,7 +1459,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         WRITE_ASCII 0x58 cbrac18
         WRITE_LONG 0x34 6000
 
-    COPY_EXISTING ~ILLASERA.CRE~ ~override~ 
+    COPY_EXISTING ~GORWOM02.CRE~ ~override~ 
         REPLACE_CRE_ITEM ~MOGLV02~ #0 #0 #0 ~UNSTEALABLE~ ~GLOVES~ EQUIP
 END
 
@@ -1544,7 +1542,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Anagrys' Mindmaze - Assign to Karun the Black                  //
+// Create Anagrys' Mindmaze - Assign to Layene in the Twisted Rune       //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/MOHED02.ITM~ ~override/MOHED02.ITM~
@@ -1555,7 +1553,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         WRITE_ASCII 0x58 cbdhel11
         WRITE_LONG 0x34 6000
 
-    COPY_EXISTING ~GROMG08.CRE~ ~override~
+    COPY_EXISTING ~HLLAYEN.CRE~ ~override~
         REPLACE_CRE_ITEM ~MOHED02~ #0 #0 #0 ~UNSTEALABLE~ ~HELMET~ EQUIP
 END
 

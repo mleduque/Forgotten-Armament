@@ -342,7 +342,7 @@ ACTION_IF (GAME_IS ~bgee eet~) BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Create Serrated Bone Blade +3 - Captain Egeissag                      //
+// Create Serrated Bone Blade +3 - Inventory of Vaxal in Twisted Runes   //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/bam/ISERRATE.BAM~ ~override/ISERRATE.BAM~
@@ -354,10 +354,8 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         WRITE_ASCII 0x58 csw2h03
         WRITE_LONG 0x34 6000
 
-    COPY_EXISTING ~SENGUA03.CRE~ ~override~
-        SET_BG2_PROFICIENCY ~PROFICIENCYTWOHANDEDSWORD~ 5
-        SET_BG2_PROFICIENCY ~PROFICIENCY2HANDED~ 2
-        REPLACE_CRE_ITEM ~SERRATE~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ EQUIP
+    COPY_EXISTING ~HLVAXAL.CRE~ ~override~
+        ADD_CRE_ITEM ~SERRATE~ #0 #0 #0 ~NONE~ ~INV~
 END
 
 ///////////////////////////////////////////////////////////////////////////
