@@ -35,7 +35,7 @@ END
 
 /* SOD to BG2 Mod
 ///////////////////////////////////////////////////////////////////////////
-// Charged Battle Axe +2 - Assign to                                               //
+// Charged Battle Axe +2 - Assign to                                                       //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY ~forgotten-armament/itm/U1HAX2A.ITM~ ~override/U1HAX2A.ITM~

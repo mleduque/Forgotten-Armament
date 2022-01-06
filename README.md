@@ -12,15 +12,15 @@
 
 ## Introduction
 
-Gibberish as I wait to type this out. 
+Forgotten Armament aims to bring many low to mid-tier magical weapons, armors, and items into the games of Baldur's Gate: Enhanced Edition, Baldur's Gate II: Enhanced Edition, and the Enhanced Edition Trilogy (EET). The focus is to bring competitive mid-tier items, inspired by IWD and NWN2, into the game. One aspect of this mod is to ensure all weapons, armor, and items are equally represented and have steady progression paths for players throughout the series. Additionally throughout the games, many a mid-level enemy is poorly equipped with either non-magical or generically magical (+1 non-named) weapons and armor while similarly leveled players have +2/+3 weapons and gear. Forgotten Armament will provide many of these enemies with unique +1/+2/+3 weapons and gear providing for improved encounters with properly equipped foes.   
 
-There are a lot of enemies with normal/no weapons when they are at a level of the player who is wielding vastly better equipment.
-
-Covers gaps in items.
+A list of the item descriptions is [here]().
+A list of the item locations is coming soon.
 
 ## Compatibility
+
 If you are upgrading from an earlier version of this mod, I recommend uninstalling all mod components and replacing all files with the new ones before doing a fresh install.
 
 ## Special Thanks
 
-- Auve for early support in the creation of this mod.
+- Auve for support in the creation, inspiration, testing, and feedback for this mod.
