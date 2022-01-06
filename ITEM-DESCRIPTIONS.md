@@ -15,13 +15,20 @@ Combat abilities:
 - 5% chance per hit of casting Horror on the target
 
 THAC0: +2
+
 Damage: 1d8+2
+
 Damage Type: Slashing
+
 Speed Factor: 5
+
 Proficiency Type: Axe
+
 Type: One-handed
+
 Requires:
- 10 Strength
+
+10 Strength
 
 Weight: 5
 
@@ -36,13 +43,20 @@ Equipped abilities:
 - Missile Resistance: +10%
 
 THAC0: +2
+
 Damage: 1d8+2
+
 Damage type: Slashing
+
 Speed Factor: 7
+
 Proficiency Type: Axe
+
 Type: One-handed
+
 Requires:
- 10 Strength
+
+10 Strength
 
 Weight: 7
 
@@ -56,13 +70,20 @@ Equipped abilities:
 - Immunity to all forms of death magic
 
 THAC0: +2
+
 Damage: 1d8+2
+
 Damage type: Slashing
+
 Speed Factor: 5
+
 Proficiency Type: Axe
+
 Type: One-handed
+
 Requires:
- 10 Strength
+
+10 Strength
 
 Weight: 5
 
@@ -79,13 +100,20 @@ Combat abilities:
 - Each hit drains 1 Hit Point from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum.
 
 THAC0: +4
+
 Damage: 2d4+4
+
 Damage type: Slashing
+
 Speed Factor: 5
+
 Proficiency Type: Bastard Sword
+
 Type: One-handed
+
 Requires:
- 11 Strength
+
+11 Strength
 
 Weight: 5
 
