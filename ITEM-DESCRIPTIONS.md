@@ -49,7 +49,8 @@
 
 ### Battle Axes
 
-#### Axe of Dead Illusk +2 (NWN2)
+#### Axe of Dead Illusk +2
+(NWN2) - [Item Location](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-LOCATIONS.md#axe-of-dead-illusk-2)
 
 A little-known section of ruined Illusk holds corpse after corpse from a barbarian invasion repelled ages ago. The clan is forgotten, but their surviving weapons seem to embody everything cruel and savage in warfare, and create fearful images in the minds of those who witness them.
 
