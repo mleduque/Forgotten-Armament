@@ -4,6 +4,42 @@
 [Melee Weapons](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#melee-weapons)
 - [Battle Axes](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#battle-axes)
 - [Bastard Swords](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bastard-swords)
+- [Daggers](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#daggers)
+- [Flails](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#flails)
+- [Halberds](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#halberds)
+- [Katanas](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#katanas)
+- [Long Swords](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#long-swords)
+- [Maces](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#maces)
+- [Morning Stars](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#morning-stars)
+- [Ninja-Tos](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#ninja-tos)
+- [Quarterstaves](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#quarterstaves)
+- [Scimitars](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#scimitars)
+- [Short Swords](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#short-swords)
+- [Spears](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#spears)
+- [Two-Handed Swords](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#two-handed-swords)
+- [Wakizashis](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#wakizashis)
+- [Warhammers](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#warhammers)
+[Armors](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#armors)
+- [Robes](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#robes)
+- [Leather Armors](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#leather-armors)
+- [Studded Leather Armors](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#studded-leather-armors)
+- [Chain Mail Armors](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#chain-mail-armors)
+- [Plate Mail Armors](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#plate-mail-armors)
+- [Full Plate Mail Armors](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#full-plate-mail-armors)
+[Shields](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#shields)
+- [Bucklers](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bucklers)
+- [Small Shields](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#small-shields)
+- [Medium Shields](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#medium-shields)
+- [Large Shields](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#large-shields)
+[Accessories](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#accessories)
+- [Amulets](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#amulets)
+- [Belts](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#belts)
+- [Boots](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#boots)
+- [Bracers] (https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bracers)
+- [Cloaks](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#cloaks)
+- [Gauntlets](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#gauntlets)
+- [Helmets](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#helmets)
+- [Rings](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#rings)
 
 ## Melee Weapons
 
@@ -2137,6 +2173,35 @@ Equipped abilities:
 Weight: 4
 
 
+### Bracers
+
+#### Bracers of Artifice (NWN2)
+
+Created by ancient Imaskari artificers, bracers such as these hid extraordinary powers underneath their simple copper exteriors. In addition to protecting their user from harm with all the benefits of heavy armor - and none of the drawbacks - they let them focus and collect their arcane energy more efficently.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: 5
+- Can memorize one extra 8th-level spell
+- Resistance to Magic Damage: +5%
+
+Weight: 2
+
+
+#### Imaskari Bracers of Immortality (NWN2)
+
+These ancient bracers were presumably found in the depths of the Sunken City. Their craftsmenship suggests an Imaskari origin and despite being clearly magical, they look badly worn through the passage of millenia. You cannot be sure whether their magic has faded as much as their appearance has.
+
+STATISTICS:
+
+Equipped abilities:
+- Constitution: +4
+- Regenerate 1 HP/round
+
+Weight: 2
+
+
 ### Cloaks
 
 #### A Mad Gent's Cloak - Cleric Only (NWN2)
@@ -2260,35 +2325,6 @@ Equipped abilities:
 - Armor Class: +2
 
 Weight: 1
-
-
-### Bracers
-
-#### Bracers of Artifice (NWN2)
-
-Created by ancient Imaskari artificers, bracers such as these hid extraordinary powers underneath their simple copper exteriors. In addition to protecting their user from harm with all the benefits of heavy armor - and none of the drawbacks - they let them focus and collect their arcane energy more efficently.
-
-STATISTICS:
-
-Equipped abilities:
-- Armor Class: 5
-- Can memorize one extra 8th-level spell
-- Resistance to Magic Damage: +5%
-
-Weight: 2
-
-
-#### Imaskari Bracers of Immortality (NWN2)
-
-These ancient bracers were presumably found in the depths of the Sunken City. Their craftsmenship suggests an Imaskari origin and despite being clearly magical, they look badly worn through the passage of millenia. You cannot be sure whether their magic has faded as much as their appearance has.
-
-STATISTICS:
-
-Equipped abilities:
-- Constitution: +4
-- Regenerate 1 HP/round
-
-Weight: 2
 
 
 ### Helmets
