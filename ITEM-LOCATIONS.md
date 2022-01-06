@@ -125,216 +125,216 @@
 
 ### Ninja-Tos
 
-[Courtesan Blade + 2]()
+[Courtesan Blade + 2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#courtesan-blade--2-nwn2) - Assigned to Akae in Windspear Hills Dungeon
 
 ### Quarterstaves
 
-[Rakshasa Staff +3 - Sorcerer/Wizard Only]()
+[Rakshasa Staff +3 - Sorcerer/Wizard Only](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#rakshasa-staff-3---sorcererwizard-only-nwn2) - Assign to Ihtafeer in Druid Grove
 
-[Remembrance +3]()
+[Remembrance +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#remembrance-3-nwn2) - Assigned to Tracea Carol in Ulgoth's Beard and assigned to N'ashtar in Underdark
 
-[Staff of Balpheron +1 - Sorcerer/Wizard Only]()
+[Staff of Balpheron +1 - Sorcerer/Wizard Only](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#staff-of-balpheron-1---sorcererwizard-only-nwn2) - Assigned to Vongoethe in Amkethran
 
 ### Scimitars
 
-[Laughing Blade +2]()
+[Laughing Blade +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#laughing-blade-2-nwn2) - Assigned to Samia in Windspear Hills Dungeon
 
-[Spider's Kiss +2]()
+[Spider's Kiss +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#spiders-kiss-2-nwn2) - Assigned to Pai'Na below Graveyard District
 
 ### Short Swords
 
-[Sloth +2]()
+[Sloth +2]() - 
 
 ### Spears
 
-[Briarspike +2]()
+[Briarspike +2]() - 
 
-[Heartwood Spear +4]()
+[Heartwood Spear +4]() - 
 
 ### Two-Handed Swords
 
-[Blade of the Rashemi +3]()
+[Blade of the Rashemi +3]() - 
 
-[Kresselack's Sword +1]()
+[Kresselack's Sword +1]() - 
 
-[Serrated Bone Blade +3]()
+[Serrated Bone Blade +3]() - 
 
-[The Golem's Blade +3]()
+[The Golem's Blade +3]() - 
 
-[Two-Handed Sword +1: Hammering]()
+[Two-Handed Sword +1: Hammering]() - 
 
 ### Wakizashis
 
-[Eye of the Sun +3]()
+[Eye of the Sun +3]() - 
 
-[The Dark Companion +4]()
+[The Dark Companion +4]() - 
 
 ### Warhammers
 
-[Corrosive Hammer +2]()
+[Corrosive Hammer +2]() - 
 
-[Lesser Rift Hammer +1]()
+[Lesser Rift Hammer +1]() - 
 
-[Rift Hammer +3]()
+[Rift Hammer +3]() - 
 
 ## Armors
 
 ### Robes
 
-[Robe of Enfusing]()
+[Robe of Enfusing]() - 
 
-[Robe of Armory]()
+[Robe of Armory]() - 
 
-[Tasha's Atrocious Robe]()
+[Tasha's Atrocious Robe]() - 
 
-[Will of the Wychlaran]()
+[Will of the Wychlaran]() - 
 
 ### Leather Armors
 
-[Armor of Loyalty]()
+[Armor of Loyalty]() - 
 
-[Aurumvorax Armor]()
+[Aurumvorax Armor]() - 
 
 ### Studded Leather Armors
 
-[Black Flame Armor]()
+[Black Flame Armor]() - 
 
 ### Chain Mail Armors
 
-[Anti-Venom Chainmail]()
+[Anti-Venom Chainmail]() - 
 
-[Baleful Mail]()
+[Baleful Mail]() - 
 
-[Doron's Mistake]()
+[Doron's Mistake]() - 
 
 ### Plate Mail Armors
 
-[Deep Guardian's Plate]()
+[Deep Guardian's Plate]() - 
 
-[The Gilded Defender - Dwarven Fighter/Kit Only]()
+[The Gilded Defender - Dwarven Fighter/Kit Only]() - 
 
 ### Full Plate Mail Armors
 
-[Armor of Freedom]()
+[Armor of Freedom]() - 
 
-[Armor of Gram the Mouse - Paladin Only]()
+[Armor of Gram the Mouse - Paladin Only]() - 
 
-[Storm Armor of the Earth's Children - Shorty Race Only]()
+[Storm Armor of the Earth's Children - Shorty Race Only]() - 
 
 ## Shields
 
 ### Bucklers
 
-[Dwarven Mirth]()
+[Dwarven Mirth]() - 
 
-[Shield of the Magi]()
+[Shield of the Magi]() - 
 
 ### Small Shields
 
-[The Frostmaiden's Bane]()
+[The Frostmaiden's Bane]() - 
 
-[Protector]()
+[Protector]() - 
 
 ### Medium Shields
 
-[Kepeturi Crest +3]()
+[Kepeturi Crest +3]() - 
 
-[Laeral's Spell Shield +1]()
+[Laeral's Spell Shield +1]() - 
 
-[Silver Shield +2]()
+[Silver Shield +2]() - 
 
-[Triune Shield +3]()
+[Triune Shield +3]() - 
 
-[Uthgardt Holy Shield +2]()
+[Uthgardt Holy Shield +2]() - 
 
 ### Large Shields
 
-[Large Shield of Strength +1]()
+[Large Shield of Strength +1]() - 
 
 ## Accessories
 
 ### Amulets
 
-[Amulet of Health]()
+[Amulet of Health]() - 
 
-[Amulet of Pure Love]()
+[Amulet of Pure Love]() - 
 
-[Periapt of Wisdom +2]()
+[Periapt of Wisdom +2]() - 
 
-[The Ancient Sermon - Cleric Only]()
+[The Ancient Sermon - Cleric Only]() - 
 
-[Black Wolf Talisman]()
+[Black Wolf Talisman]() - 
 
-[Ysridain's Soul - Bard Only]()
+[Ysridain's Soul - Bard Only]() - 
 
 ### Belts
 
-[Belt of Agility +2]()
+[Belt of Agility +2]() - 
 
-[Ceremonial Uthgardt Belt]()
+[Ceremonial Uthgardt Belt]() - 
 
-[Graena's Triumph - Barbarian Only]()
+[Graena's Triumph - Barbarian Only]() - 
 
-[Grainstone Belt - Monk Only]()
+[Grainstone Belt - Monk Only]() - 
 
-[Sash of Shimmering]()
+[Sash of Shimmering]() - 
 
 ### Boots 
 
-[Boots of Hardiness +1]()
+[Boots of Hardiness +1]() - 
 
-[Boots of Hardiness +2]()
+[Boots of Hardiness +2]() - 
 
-[Boots of Hardiness +3]()
+[Boots of Hardiness +3]() - 
 
-[Boots of Striding +1]()
+[Boots of Striding +1]() - 
 
-[Boots of Striding +2]()
+[Boots of Striding +2]() - 
 
-[Boots of Striding +3]()
+[Boots of Striding +3]() - 
 
-[Dragon Slippers]() 
+[Dragon Slippers]() -  
 
-[Kitten Slippers]()
+[Kitten Slippers]() - 
 
 ### Bracers
 
-[Bracers of Artifice]()
+[Bracers of Artifice]() - 
 
-[Imaskari Bracers of Immortality]()
+[Imaskari Bracers of Immortality]() - 
 
 ### Cloaks
 
-[A Mad Gent's Cloak - Cleric Only]()
+[A Mad Gent's Cloak - Cleric Only]() - 
 
-[Antimagic Cloak]()
+[Antimagic Cloak]() - 
 
-[Balhodrie's Constant Hearth - Thief Only]()
+[Balhodrie's Constant Hearth - Thief Only]() - 
 
-[Cloak of Burdened Spirits]()
+[Cloak of Burdened Spirits]() - 
 
-[Mantle of Gram the Mouse - Paladin Only]()
+[Mantle of Gram the Mouse - Paladin Only]() - 
 
 ### Gauntlets
 
-[Elder Oak Gloves - Druid Only]() 
+[Elder Oak Gloves - Druid Only]() -  
 
-[Favor of Ilum Lura]()
+[Favor of Ilum Lura]() - 
 
-[Ysridain's Touch - Bard Only]()
+[Ysridain's Touch - Bard Only]() - 
 
 ### Helmets
 
-[Anagrys' Mindmaze - Wizard/Sorcerer Only]()
+[Anagrys' Mindmaze - Wizard/Sorcerer Only]() - 
 
-[Golden Circlet]()
+[Golden Circlet]() - 
 
-[Helm of Gram the Mouse - Paladin Only]()
+[Helm of Gram the Mouse - Paladin Only]() - 
 
-[The Regal]()
+[The Regal]() - 
 
 ### Rings
 
-[Bone Dancer's Ring]()
+[Bone Dancer's Ring]() - 
 
-[Bone Ring]()
+[Bone Ring]() - 
