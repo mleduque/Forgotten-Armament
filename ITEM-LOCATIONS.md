@@ -101,27 +101,27 @@
 
 ### Long Swords
 
-[Intercession +1]()
+[Intercession +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#intercession-1-iwd) - Assigned to Meilum outside Firewine Bridge
 
-[Long Sword of Action +2]()
+[Long Sword of Action +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#long-sword-of-action-2-iwd) - Assigned to Tuth in Candlekeep Library
 
-[Spiked Long Sword +1]()
+[Spiked Long Sword +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#spiked-long-sword-1-iwd) - Assigned to Pargus in Helm and Cloak Inn
 
-[Turodahel +2]()
+[Turodahel +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#turodahel-2-iwd) - Assigned to Ruhk Transmuter Windspear Hills Dungeon
 
 ### Maces
 
-[Petty's Tempest +2]() 
+[Petty's Tempest +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#pettys-tempest-2-nwn2) - Assigned to Chandrilla in Underdark
 
-[Soldier's Might +2]()
+[Soldier's Might +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#soldiers-might-2-nwn2) - Assigned to Stalman in the Guarded Compound (Temple District)
 
-[Chef Gronk's Tenderizer +2]()
+[Chef Gronk's Tenderizer +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#chef-gronks-tenderizer-2-nwn2) - Assigned to Entu in Planar Sphere
 
 ### Morning Stars
 
-[Bone Phoenix +1]()
+[Bone Phoenix +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bone-phoenix-1-nwn2) - Assigned to Bregg in Slums District
 
-[Sleepwalker Kin +2]()
+[Sleepwalker Kin +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#sleepwalker-kin-2-nwn2) - Assigned to Rilloa Jae'llat in Ust Natha
 
 ### Ninja-Tos
 
