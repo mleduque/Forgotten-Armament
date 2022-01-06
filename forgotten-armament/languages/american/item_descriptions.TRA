@@ -884,7 +884,7 @@ Type: One-handed
 Weight: 7~
 
 ///////////////////////////////////////////////////////////////////////////
-// Petty's Tempest +2 (NWN2)                                              //
+// Petty's Tempest +2 (NWN2)                                             //
 ///////////////////////////////////////////////////////////////////////////
 @10803 = ~Petty's Tempest +2~
 @10804 = ~The most recent recorded appearance of one of these weapons was in the black markets of Amn, rightfully commanding an impressive price. Several such maces have been found over time, each with an array of elemental spells and effects woven through them. The creator remains elusive, though the name "Petty" is evident on each example. It is possible he is a smith on Toril, but his obvious understanding of planar forces suggests a more traveled origin.
@@ -906,7 +906,7 @@ Requires:
 Weight: 7~
 
 ///////////////////////////////////////////////////////////////////////////
-// Soldier's Might +2 (NWN2)                                              //
+// Soldier's Might +2 (NWN2)                                             //
 ///////////////////////////////////////////////////////////////////////////
 @10805 = ~Soldier's Might +2~
 @10806 = ~It is said that lieutenants in the armies of Algarond were given these weapons, but not told of the flaws in their design. Many of the wielders died, but all fought valiantly and were accorded the honor of heroes of the realm. The generals responsible for these flawed weapons escaped punishment, and today they are remembered among the revered dead.
