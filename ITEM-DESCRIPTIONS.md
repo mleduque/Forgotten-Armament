@@ -1,6 +1,7 @@
 # Forgotten-Armament Item Descriptions
 
 ## Legend
+
 [Melee Weapons](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#melee-weapons)
 - [Battle Axes](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#battle-axes)
 - [Bastard Swords](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bastard-swords)
@@ -19,6 +20,7 @@
 - [Two-Handed Swords](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#two-handed-swords)
 - [Wakizashis](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#wakizashis)
 - [Warhammers](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#warhammers)
+
 [Armors](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#armors)
 - [Robes](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#robes)
 - [Leather Armors](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#leather-armors)
@@ -26,11 +28,13 @@
 - [Chain Mail Armors](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#chain-mail-armors)
 - [Plate Mail Armors](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#plate-mail-armors)
 - [Full Plate Mail Armors](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#full-plate-mail-armors)
+
 [Shields](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#shields)
 - [Bucklers](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bucklers)
 - [Small Shields](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#small-shields)
 - [Medium Shields](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#medium-shields)
 - [Large Shields](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#large-shields)
+
 [Accessories](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#accessories)
 - [Amulets](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#amulets)
 - [Belts](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#belts)
