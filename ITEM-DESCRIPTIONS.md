@@ -628,7 +628,7 @@ Weight: 3
 
 ### Quarterstaves
 
-#### Rakshasa Staff +3 (NWN2) SORCERER/WIZARD ONLY
+#### Rakshasa Staff +3 - Sorcerer/Wizard Only (NWN2)
 
 Enchantments abound in the realms of magic, but some have trouble with the incantations. This staff allows the user to charm another, eliminating the need to study the spells.
 
@@ -675,7 +675,7 @@ Requires:
 
 Weight: 2
 
-#### Staff of Balpheron +1 (NWN2) CURSED SORCERER/WIZARD ONLY
+#### Staff of Balpheron +1 - Sorcerer/Wizard Only (NWN2)
 
 Legend holds this staff was created by the wizard Balpheron on the eve of his ascension to lichdom. Many believe Balpheron had already chosen his fate, and only wanted the staff to make himself more powerful as a lich. But others claiming it was the staff itself that led him down the dark path, as the creation of such a powerful item pushed the mage beyond his limits and destroyed what remained of his sanity.
 
@@ -1007,3 +1007,536 @@ Requires:
  9 Strength
 
 Weight: 4
+
+## Armors
+
+### Robes
+
+#### Robe of Enfusing (IWD)
+
+Since the age of Netheril, mages have learned to bestow a wide variety of magical properties upon the everyday objects that surround them. A favorite item of such enchantment is the common robe. It is lightweight, affordable, and holds its enchantment well, thereby making it ideal equipment for a mage. Due to their magical heritage, however, only single-, dual-, and multi-class mages may wear these enchanted robes.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2
+- Magic Resistance: +5%
+- Lore: +5
+- Can cast one extra 1st-level wizard spell
+
+Weight: 4
+
+#### Robe of Armory (IWD)
+
+There are a small number of these valuable gold and crimson robes floating around the realms, and all of them are the creation of an abjurer named Delgam of the Many Hands—so called for his extensive use of the expression "on the other hand..." Delgam eschewed imbuing his items with offensive powers or other miscellaneous magic effects. Instead, he focused on what abjurers tend to focus on: defense. His robes were extremely popular, so much so that mages were coming to him from all over the world to demand that he make more for them. Delgam decided to fade into obscurity rather than cater to packs of power-hungry wizards. His robes are his most well-known legacy.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: 3
+- Physical Damage Resistance: +10%
+
+Weight: 5
+
+#### Tasha's Atrocious Robe (NWN2)
+
+Tasha, the planar-traveling enchantress rumored to be from a parallel prime universe, is perhaps best remembered now for the development of her eponymous dweomer that causes uncontrollable fits of laughter. However, the diminutive wizard also created several powerful artifacts, this robe among them.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1 
+- Saving Throws: +1
+- Magic Resistance: +10%
+
+Weight: 4
+
+#### Will of the Wychlaran (NWN2)
+
+Crafted by the male spellcasters of the Rashemi, these robes were originally meant for the witches to wear when they fought a particuarly troublesome foe. However, they are sized to fit both genders in the rare times when both male and female Rashemi spellcasters take to the field of battle, and pit their intense powers and determination against the might of their foes.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2 
+- Can memorize one extra 6th-level spell
+- Magic Resistance: +20%
+
+Weight: 3
+
+### Leather Armors
+
+#### Armor of Loyalty (NWN2)
+
+When he angered a rival enchanter, the wizard Mekhari came under repeated attack from his own charmed bodyguards. This was expensive as well as dangerous, so he set about trying to counter the threat in a way that would not mean constantly killing his own men. With armor of this type Mekhari considered his men above reproach. He was proven wrong when his own lieutenant murdered him in a dispute over back wages.
+
+STATISTICS:
+
+Equipped abilities:
+- Wearer is immune to Charm
+
+Armor Class: 7 (9 vs. piercing and missile)
+Requires:
+ 4 Strength
+
+Weight: 5
+
+#### Aurumvorax Armor (NWN2)
+
+This gold-hued armor is supposedly made from the hide of a ferocious aurumvorax, a six-legged wolverine-like beast that devours not only meat, but also precious metals. The diet of the creature gives its hide a spectacular finish and incredible protective qualities, a resilience shared by armor constructed from it.
+
+STATISTICS:
+
+Equipped abilities:
+- +5% resistance to slashing and piercing damage
+
+Armor Class: 6 (8 vs. piercing and missile)
+Requires:
+ 4 Strength
+
+Weight: 5
+
+### Studded Leather Armors
+
+#### Black Flame Armor (NWN2)
+
+Halfling artificers are credited with creating the best-known modern examples of this heat resistant armor, having apparently constructed a number of suits to combat a marauding efreeti some 50 years ago. The design has since been copied, though the great expense involved and the highly specific focus of the finished item means that copies are rarely seen on the market.
+
+STATISTICS:
+
+Equipped abilities:
+- Fire Resistance: +30%
+
+Armor Class: 4 (2 vs. slashing, 3 vs. piercing and missile)
+Requires:
+ 6 Strength
+
+Weight: 6
+
+### Chain Mail Armors
+
+#### Anti-Venom Chainmail (NWN2)
+
+This armor has been blessed by a priest's Neutralize Poison spell and so grants the bearer protection against venoms of all types. It does not bear the mark of any specific maker.
+
+STATISTICS:
+
+Equipped abilities:
+- Immunity to poison
+
+Armor Class: 4 (2 vs. slashing, 6 vs. crushing)
+Requires:
+ 8 Strength
+
+Weight: 20
+
+#### Baleful Mail (IWD)
+
+This armor was crafted in 1221 DR by a duergar smith working for a vengeful priest of Bane named Alerri of West Waterdeep. During Alerri's early days in the priesthood, he frequently provoked and attacked agents of Sune. Unfortunately for Alerri, Lady Firehair's followers employed charm magic to cease the Banite's antics. Once he had been charmed, Alerri was commanded to perform all sorts of embarrassing actions in the streets of Waterdeep. After many years, Alerri decided to honor his god of hate by creating a suit of armor that would protect him from charm magic. He communed with the spiritual minions of Bane to discover the materials and rituals necessary for the suit's creation. Following his master's instructions, he murdered thirteen married couples and had their wedding rings woven into the hem of the mail. He then killed thirteen elves and bathed in their blood, uttering prayers for thirteen hours. When he was finished, his armor protected him from the magic of the Sunites and filled him with irrepressible hate. Alerri went on a crusade against the agents of Sune, Llira, and Hanali Celanil for three years. His killing spree ended when elven archers and priests of Corellon Larethian laid a trap for him on a road going north from Waterdeep.
+
+STATISTICS:
+
+Equipped abilities:
+- Charisma: -2
+- Immunity to Dire Charm, Charm Person, Confusion, Command, and Rigid Thinking
+
+Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
+Requires:
+ 8 Strength
+
+Weight: 45
+
+#### Doron's Mistake (NWN2)
+
+Doron was a master dwarven smith, but even masters make mistakes. While disassembling a suit of "worthless elven chain" - for research, of course - he accidentally dropped several links into his forge, and that trace amount of mithral tainted everything he made until he could scour the thing from top to bottom. Each suit made during this time was infused with strange magic, but Doron threw them all on the trash heap, and was known to slap anyone he saw wearing one.
+
+STATISTICS:
+
+Equipped abilities:
+- Saving Throws: +1
+
+Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
+Requires:
+ 8 Strength
+
+Weight: 10
+
+### Plate Mail Armors
+
+#### Deep Guardian's Plate (NWN2)
+
+In an effort to better protect their soldiers, the artificers of ancient Imaskar set about creating a kind of living symbiote, something that would bond with their user and protect them from harm. Using specimens pulled from the deepest pits of the ocean, the Imaskari spellcasters slowly began to graft these magically-enhanced creatures onto suits of plate mail, weaning them off of salt water and forcing them to rely on magic for nourishment. This technique worked well, allowing the user a far greater resistance to spells than normal... but other magewrights looked upon this creation with a growing fear, worried that a creature that fed on magic might soon grow too hungry and feed upon its masters instead. Because of this, only a few suits of this armor were ever made, and the creatures created by the Imaskari sealed away and forgotten. When Imaskar fell, it is likely they crept back into the silent darkness they'd come from... or possibly changed into something else...
+
+STATISTICS:
+
+Equipped abilities:
+- Magic Resistance: +10%
+- Immunity to hold and paralysis
+
+Armor Class: 1 (-2 vs. slashing)
+Requires:
+ 12 Strength
+
+Weight: 20
+
+#### The Gilded Defender - Dwarven Fighter/Kit Only (NWN2)
+
+The ring of metal against metal seems to cling to this ornate suit of the very finest armor. Hammered into the most intricate of shapes by the finest dwarven smiths, this armor speaks of the dwarven cultures most honored companions: the Defenders. None shall pass their shield wall and none shall withstand their charge.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +2
+- Hit Points: +10
+
+Armor Class: 1 (-2 vs. slashing)
+Requires:
+ 12 Strength
+
+Weight: 25
+
+### Full Plate Mail Armors
+
+#### Armor of Freedom (NWN2)
+
+After his escape from magical imprisonment, the warrior-priest Archiel vowed he would never again be captured by sorcery. He devoted years to forging these suits of armor for himself and his companions, but ironically was waylaid by mundane means, and died chained to the wall of an ordinary cell.
+
+STATISTICS:
+
+Equipped abilities:
+- Free Action
+
+Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 35
+
+#### Armor of Gram the Mouse - Paladin Only (NWN2)
+
+At the age of eighteen, a small young man from Voonlar named Gram Chandler was inducted into the ranks of the Damaran paladins of Torm. Nicknamed "the Mouse" by his fellow classmates for his small size and great love of cheese, Gram had become well-respected during his time as an initiate. However, when it came time to arm and armor the initiates as full paladins of the church, the embarrassed order found that it did not possess a suit small enough to fit Gram. The priests and paladins apologized to Gram and told him they would get a suit of armor made as quickly as possible. Though Gram's classmates snickered about it, Gram smiled and quietly went about his business.
+
+Only a month later, while most of the other paladins of the church were away on business, a lone wounded rider approached the Tormish fortress and demanded to see whoever was in charge. Gram was far from in charge, but there were no paladins of rank present. The rider turned out to be a Thayan escort for a female Red Wizard who had been attacked by bugbears in the wilderness. The priests sneered at the rider when they learned of his nationality, but Gram told the escort it was his duty to protect travelers from aggression within Tormish territory. The priests tried to dissuade Gram from attempting to go after the Red Wizard, but Gram rebuked them and repeated to the escort that it would be his honor to mount a rescue effort.
+
+Protected only by his helmet and the heavy hide demanded by the climate, Gram followed the escort to the site of the battle. From there, the escort tracked the bugbears to a cave. When Gram and the escort entered, they immediately came under heavy attack from bugbears. The escort's resolve faded and he fled back into the wilderness. Gram pressed on, killing four bugbears and wounding two more before he died within sight of the Red Wizard. Though the bugbears were by no means wiped out, the attack weakened and confused them enough that the Red Wizard was able to blast her way out of the cave system.
+
+Later, she returned to Damara and approached the priests of the wilderness temple of Torm from which Gram came. When she learned about the selfless valiance of Gram, even her Thay-hardened heart was moved. She had a suit of armor constructed and enchanted for her small savior. It was built to the finest standards of quality, and it is said that the priests and paladins of Torm assembled at Gram's burial gasped in awe at its beauty. In later years, Gram was used as an example of devotion to duty for fledgling paladins. His revered tomb was looted by a fractured orcish army from Vaasa when the temple was destroyed in 1298 DR.
+
+STATISTICS:
+
+Equipped abilities:
+- Resistance to Magic Damage: +5%
+
+Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 50
+
+#### Storm Armor of the Earth's Children - Shorty Race Only (NWN2)
+
+This well-crafted suit of full plate armor is sized for smaller humanoids, and is crafted of a strange nonmetallic substance that does not conduct electricity or heat. Lore has it that the substance comes from some other plane of existence.
+
+STATISTICS:
+
+Equipped abilities:
+- Cold Resistance: +10%
+- Electrical Resistance: +10%
+- Fire Resistance: +10%
+
+Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 40
+
+## Shields
+
+### Bucklers
+
+#### Dwarven Mirth (NWN2)
+
+Among the dwarven people, the father of all bards was the Master Talesmith Simeron Steelhammer. Well-versed in his people's history and lore, he traveled extensively, spreading tales of their culture and achievements. Near the end of his long life, he returned one last time to his home in the Great Rift. From every lintel hung a version of this shield, commissioned by his clansmen to commemorate his homecoming.
+
+Equipped abilities:
+- Armor Class: +2
+- No protection against missile attacks
+- Charisma: +2
+
+Requires:
+ 4 Strength
+
+Weight: 2
+
+#### Shield of the Magi (NWN2)
+
+This lightweight shield is of ogre magi construction. Its interior rim is covered with runes of both protection and power.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +3
+- No protection against missile and piercing attacks
+- Can memorize one extra 4th-level spell
+
+Charge abilities:
+- Minor Globe of Invulnerability once per day
+  Special: User is immune to 1st-, 2nd-, and 3rd-level spells
+  Duration: 2 turns
+
+Requires:
+ 4 Strength
+
+Weight: 1
+
+### Small Shields
+
+#### The Frostmaiden's Bane (NWN2)
+
+This mithral light shield of improved cold resistance has languished in the Imaskari Forges for centuries, never having seen use. The priests of Auril it was meant to be used against were instead slain by a particularly nasty magical plague spread by Imaskari sorcerers.
+
+Equipped abilities:
+- Armor Class: +3
+- No protection against missile attacks
+- Cold Resistance: +20%
+
+Requires:
+ 4 Strength
+
+Weight: 2
+
+#### Protector (NWN2)
+
+This light shield proudly bears the mark of Luiren, homeland of the strongheart halflings. While few people think of halflings as possessing any real military tradition, the Luiren folk maintain well-organized militias led by the local clergy and supported with powerful divine magic. This shield likely belonged to an ordinary Luiren soldier who fell in defense of his homeland.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +3 (only +2 vs. missile)
+- No protection against missile attacks
+- +5% resistance to slashing, piercing, and crushing damage
+
+Requires:
+ 4 Strength
+
+Weight: 2
+
+### Medium Shields
+
+#### Kepeturi Crest +3 (NWN2)
+
+This heavy shield was once held in the Mulhorandi prayer towers of Kepetur. After the towers fell to the archfiend Eltab and his minions, it ended up in the powerful hands of the Thayans.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +4
+- Wisdom: +2
+
+Charge abilities:
+- Sunray once per day
+ Damage: 3d6 (Save vs. Spell or be blinded for 1 turn)
+ Undead: An additional 1d6 points of damage per level of caster (Save vs. Spell or be destroyed)
+ Range: 20 ft.
+ Area: 15-ft. radius
+
+Requires:
+ 12 Strength
+
+Weight: 7
+
+#### Laeral's Spell Shield +1 (NWN2)
+
+Named for Laeral Silverhand Arunsun, who created the first shield of this type, this large steel shield also imbues the wearer with resistance against spells.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2
+- Magic Resistance: +10%
+
+Requires:
+ 12 Strength
+
+Weight: 6
+
+#### Silver Shield +2 (NWN2)
+
+This shield is made of the same silvery metal used in the creation of the famed githyanki silver swords and possesses several potent defensive abilities. Whether the githyanki would make it a point to hunt down the bearer of this shield as they do for their silver swords is unknown.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +3
+- +10% resistance to slashing, piercing, and crushing damage
+- Protects against all forms of panic and boosts morale
+
+Requires:
+ 12 Strength
+
+Weight: 5
+
+#### Triune Shield +3 (NWN2)
+
+Sacred to the triple goddesses of Rashemen - Bhalla, Mielikki, and the Hidden One - the powers of the three that protect the land have invested their interest in this shield, and reflect their united desire to protect its user.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +4
+- Magic Resistance: +10%
+- Immunity to disease
+
+Requires:
+ 12 Strength
+
+Weight: 3
+
+#### Uthgardt Holy Shield +2 (NWN2)
+
+The Uthgardt value strength above all, and these shields provide strength to spare. They also disdain fancy talk and fine words, and the shields do their best to make the wearer as barbaric as the wild men of the north.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +3
+- Strength: +2
+- Charisma: -2
+
+Requires:
+ 12 Strength
+
+Weight: 7
+
+### Large Shields
+
+#### Large Shield of Strength +1 (IWD)
+
+The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2, an extra +1 vs. missile attacks
+- Strength: +1
+- Slashing Resistance: +10%
+- Piercing Resistance: +10%
+
+Requires:
+ 14 Strength
+
+Weight: 12
+
+## Accessories
+
+### Amulets
+
+#### Amulet of Health (NWN2)
+
+Natnea Chesh was one of the first priestesses of Kelemvor in the Moonshae Islands, and became known as "The Defender of the Dead", when she helped stop a necromancer from raising an army of undead. As a gift for her heroic deeds, Kelemvor gave her this amulet, along with the secret of making copies for other clerics dedicated to the destruction of powerful undead creatures. Many a thief has since found these items to be invaluable in their line of work as well.
+
+STATISTICS:
+
+Equipped abilities:
+- Immunity to disease
+- Negative Plane Protection
+- Immunity to poison
+
+Weight: 1
+
+#### Amulet of Pure Love (NWN2)
+
+This amulet appears plain and unordinary. When you hold it in your hand, you think you feel a faint echo - an echo of happiness, of complete fulfillment. But as soon as you release the amulet, the feeling is gone and you're unsure whether it was real or imagined.
+
+STATISTICS:
+
+Equipped abilities:
+- Negative Plane Protection
+- Protects against all forms of panic and boosts morale
+- Regenerate 1 HP/round
+
+Charge abilities:
+- Greater Restoration once per day
+  Special: Reverses any previous level drain; cures feeblemind, confusion, berserk, disease, and poison; and fully heals the target
+  Range: Touch
+  Area of Effect: 1 creature
+
+Weight: 1
+
+#### Periapt of Wisdom +2 (NWN2)
+
+Although it appears to be a simple pearl on a light chain, a Periapt of Wisdom is a powerful item. These items improve perception and insight, and are often used as meditative tools by high-ranking clergy of a faith.
+
+STATISTICS:
+
+Equipped abilities:
+- Wisdom: +2
+
+Weight: 1
+
+#### The Ancient Sermon - Cleric Only (NWN2)
+
+Prized almost universally by clerics of every deity, these rare amulets are said to bestow a god or goddess's favored gaze on the user, granting them additional spells and divine protection.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Can memorize one extra divine spell of each level from 1st to 3rd
+
+Weight: 1
+
+#### Black Wolf Talisman (IWD)
+
+This crude talisman appears to be nothing more than a flat piece of stone with a wolf's paw painted on it. Despite its simple appearance, the Black Wolf Talisman contains powerful beneficial magic.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Save vs. Breath: +1
+- Cold Resistance: +10%
+- Maximum Hit Points: +10
+
+Weight: 1
+
+#### Ysridain's Soul - Bard Only (NWN2)
+
+Everyone said that the bard Ysridain's ability with a lute was exceptional, but a few maintained that it was something more, something supernatural. After Ysridain's death at the hands of a jilter lover, the people of Waterdeep learned just how true those rumors had been. Early in his career, Ysridain realized that his physical beauty was far greater than his talent with music. He was a gifted musician, but he knew he would never be legendary unless he had assistance. Ysridain contracted a wizard to summon forth a powerful demon so the bard could negotiate a pact with the forces of darkness. A succubus answered the call. She agreed to inspire Ysridain with creative forces beyond his understanding. In exchange, upon his death, all that had resulted from her inspiration and Ysridain's soul would be hers.
+
+Ysridain thought on this for a short time and eventually agreed to the succubus' deal. The succubus occupied a pendant that Ysridain wore around his neck. It had the effect of inspiring the bard to great musical deeds, but it also created intense physical lust. When Ysridain died, the bard's soul was swapped into the amulet and the succubus was released into the world. If the amulet ever shatters, Ysridain's soul will be dragged straight to the lower planes. Until then, Ysridain's succubus roams Faerun searching for the children sired by the bard's lust.
+
+STATISTICS:
+
+Equipped abilities:
+- Hit Points: +15 
+
+Weight: 1
+
+### Belts
+
+#### Belt of Agility +2 (NWN2)
+
+Attempting to form an anti-thieves' guild, Ronger Delphos, a successful merchant, paid thieves to become security experts, to guard merchants in Waterdeep. The guards were trained to use wands with the Hold Person spell, to capture the thieves for interrogation. To counteract this security measure, magical belts were purchased by the thieves' guild, which nullified the effects of such spells. In the escalating war between the two guilds, many of these belts found their way into pawnshops and equipment stores.
+
+STATISTICS:
+
+Charge abilities:
+- Dexterity: +2
+- Immunity to hold
+
+Weight: 2
+
+#### Ceremonial Uthgardt Belt (NWN2)
+
+In an attempt to keep the thriving Uthgardt clans under control, a long-forgotten gathering of druids inflicted them with a virulent pox. This disease soon spread out of control, and far from curbing their numbers actually threatened their extinction. To maintain the balance, these same druids created a number of these ceremonial belts to ensure the survival of the clan's leaders. Ultimately the Uthgardt survived the plague, though the incident did not improve their opinion of outsiders.
+
+STATISTICS:
+
+Equipped abilities:
+- Immunity to disease
+- Save vs. Death: +4
+
+Weight: 2
+
+
