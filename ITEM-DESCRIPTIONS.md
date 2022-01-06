@@ -137,7 +137,7 @@ Weight: 5
 
 ### Bastard Swords
 
-#### Bloodletter +4 (NWN2) Non-Good ONLY
+#### Bloodletter +4 - Non-Good Only (NWN2)
 
 Forged in smoldering brimstone fires and cooled in the blood of its creator, a Bloodletter blade is a typically evil weapon, the kind of sword that has inspired more than a little diabolical laughter while being waved in the face of one or another virtuous knight. It is possessed of thoroughly heinous life-stealing energies, but if the fates of its previous owners are any indication, its major characteristic could well be the attraction of "comeuppance."
 
