@@ -1201,12 +1201,13 @@ Combat abilities:
 THACO: +2
 Damage: 1D8+2
 Damage type: Slashing
-Weight: 3
 Speed Factor: 4
 Proficiency Type: Scimitar/Wakizashi/Ninja-To
 Type: One-handed
 Requires: 
- 10 Strength~
+ 10 Strength
+
+Weight: 3~
 
 ///////////////////////////////////////////////////////////////////////////
 // The Lucky Scimitar +2 (IWD) - NOT INCLUDED                               //
@@ -1498,7 +1499,8 @@ Charge abilities:
   Area of Effect: The user
 
 THAC0: +3
-Damage: 1d10+3 (slashing)
+Damage: 1d10+3 
+Damage type: Slashing
 Speed Factor: 7
 Proficiency Type: Two-handed Sword
 Type: Two-handed
