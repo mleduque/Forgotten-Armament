@@ -15,13 +15,20 @@ Combat abilities:
 - 5% chance per hit of casting Horror on the target
 
 THAC0: +2
+
 Damage: 1d8+2
+
 Damage Type: Slashing
+
 Speed Factor: 5
+
 Proficiency Type: Axe
+
 Type: One-handed
+
 Requires:
- 10 Strength
+
+10 Strength
 
 Weight: 5
 
