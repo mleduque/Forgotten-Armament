@@ -49,8 +49,8 @@
 
 ### Battle Axes
 
-Axe of Dead Illusk +2 - Assigned to Maferan in Guarded Compound (Temple District)
--[Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#axe-of-dead-illusk-2-nwn2)
+#### Axe of Dead Illusk +2 
+Assigned to Maferan in Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#axe-of-dead-illusk-2-nwn2)
 
 [Battle Axe +2: Defender](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#battle-axe-2-defender-iwd) - Assigned to Insane Dwarf Warrior in the Underdark
 
