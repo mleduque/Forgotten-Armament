@@ -625,3 +625,385 @@ Requires:
  6 Strength
 
 Weight: 3
+
+### Quarterstaves
+
+#### Rakshasa Staff +3 (NWN2) SORCERER/WIZARD ONLY
+
+Enchantments abound in the realms of magic, but some have trouble with the incantations. This staff allows the user to charm another, eliminating the need to study the spells.
+
+STATISTICS:
+
+Equipped abilities:
+- Can memorize one extra 4th-level spell, one extra 5th-level spell, and one extra 6th-level spell
+
+Charge abilities:
+- Charm Person once per day (Save vs. Spell at +3 negates)
+  Range: 60 ft.
+  Duration: 100 seconds
+  Area of Effect: 1 creature
+
+THAC0: +3
+Damage: 1d6+3
+Damage type: Crushing
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3
+
+#### Remembrance +3 (NWN2)
+
+At the twilight of the Illefarn Empire, several elven archmages belonging to the Order of Fallen Leaves devised a plan to store their accumulated magical knowledge into a number of these staves. The plan never reached fruition and the Order was destroyed by orcs and all but one of the staves destroyed.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2
+- Magic Resistance: +10%
+
+THAC0: +3
+Damage: 1d6+3
+Damage type: Crushing
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 2
+
+#### Staff of Balpheron +1 (NWN2) CURSED SORCERER/WIZARD ONLY
+
+Legend holds this staff was created by the wizard Balpheron on the eve of his ascension to lichdom. Many believe Balpheron had already chosen his fate, and only wanted the staff to make himself more powerful as a lich. But others claiming it was the staff itself that led him down the dark path, as the creation of such a powerful item pushed the mage beyond his limits and destroyed what remained of his sanity.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2
+- Magic Resistance: +10%
+- Strength: -2
+- Constitution: -2
+- Can memorize one extra 7th-level spell and one extra 8th-level spell
+
+THAC0: +1
+Damage: 1d6+1
+Damage type: Crushing
+Speed Factor: 2
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3
+
+### Scimitars
+
+#### Laughing Blade +2 (NWN2)
+
+It is doubtful the victim of a Laughing Blade finds anything humorous about it. These items were created by master illusionist Daniel Suther, who wanted an interesting twist in the hedge maze he built. Several automatons were equipped with the weapons and heroes accepting his challenge had to battle them, the maze, and their own senses. Suther was eventually jailed after several deaths on his estate.
+
+STATISTICS:
+
+Combat abilities:
+- 10% chance per hit of confusing the target for 1 round (Save vs. Spell negates)
+
+THAC0: +2
+Damage: 1d8+2, +1 cold damage
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 3
+
+#### Spider's Kiss +2 (NWN2)
+
+The weapon used by the drow druidess, Pai'Na, within the lower tombs of Athkatla. The blade of this dark weapon is slick with a permanent coating of spider venom.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers 1 point of poison damage per second for 1 round (Save vs. Poison negates)
+
+THACO: +2
+Damage: 1D8+2
+Damage type: Slashing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: One-handed
+Requires: 
+ 10 Strength
+
+ ### Short Swords
+
+ #### Sloth +2 (IWD)
+
+ The short sword is the first type of sword to come into existence. In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger. The term short sword does not exist in sword classifications. However, it has come to be used to describe a double-edged blade about two feet in length. The sword tip is usually pointed, ideal for thrusting. Inscriptions of power can be seen etched on the surface of the blade.
+
+STATISTICS:
+
+Combat abilities:
+- 10% chance target is slowed for 2 rounds
+
+THAC0: +2
+Damage: 1d6+2
+Damage type: Piercing
+Speed Factor: 2
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3
+
+### Spears
+
+#### Briarspike +2 (NWN2)
+
+Briarspikes look like they could have been plucked from some giant quill-covered beast, but the methods involved are very sophisticated and bear the hallmarks of Menold of Waterdeep. This may shed some light on his fate, as he was reported lost to an orc raid on his tower years ago. He may have attempted to buy his freedom with his services, but it would have only made him more valuable as a prisoner.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d6+2, +2 poison damage
+Damage type: Piercing
+Speed Factor: 4
+Proficiency Type: Spear 
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3
+
+#### Heartwood Spear +4 (NWN2)
+
+This weapon was a gift from the elven nation to the kingdom of Algarond after the declaration of peace between the two peoples in 1065 DR. Spears of this type are carefully crafted, and rumored to come from the wood of Evereska itself.
+
+STATISTICS:
+
+Combat abilities:
+- Target must save vs. Spell or be stunned for 1 round
+
+THAC0: +3
+Damage: 1d6+3, +1d4 acid damage
+Damage type: Piercing
+Speed Factor: 3
+Proficiency Type: Spear 
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3
+
+### Two-Handed Swords
+
+#### Blade of the Rashemi +3 (NWN2)
+
+Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spellcasters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
+
+STATISTICS:
+
+Equipped abilities:
+- Magic Resistance: +15%
+
+Charge abilities:
+- Stoneskin once per day (1 skin per use)
+  Duration: 12 hours
+  Area of Effect: The user
+
+THAC0: +3
+Damage: 1d10+3 (slashing)
+Speed Factor: 7
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 10
+
+#### Kresselack's Sword +1 (IWD)
+
+Kresselack, the barbarian king, once wielded this sword to aid him in his conquest of the northern lands. It is not known, however, how he originally acquired the weapon. Most scholars believe Kresselack simply found the weapon in one of his many conquests. However, rumors do persist that the sword was the creation of some powerful wizard and was commissioned by Kresselack himself. The truth of the matter will never be known.
+
+STATISTICS:
+
+Equipped abilities:
+- Cold Resistance: +10%
+
+THAC0: +1
+Damage: 1d10+1
+Damage type: Slashing
+Speed Factor: 8
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 12
+
+#### Serrated Bone Blade +3 (IWD)
+
+Emanating a faint blue aura, this gigantic weapon is a serrated two-handed sword made of bone. It will occasionally strike with a shocking force of cold, chilling the victim to the bone.
+
+STATISTICS:
+
+Combat abilities:
+- 20% chance of dealing +1d10 cold damage
+
+THAC0: +3
+Damage: 1d10+3
+Damage type: Slashing
+Speed Factor: 10
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 25
+
+#### The Golem's Blade +3 (NWN2)
+
+Part of the process in creating a blade golem involves the crafting of a powerful magic sword to serve as one of the golem's "arms." Usually, the sword becomes a part of the golem, losing all enchantment if the golem is destroyed, but the exceptional power and craftsmanship of this particular sword allowed it to survive its golem's destruction.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +3
+
+Combat abilities:
+- Deals an extra 2d6 points of slashing damage on a critical hit
+
+THAC0: +3
+Damage: 1d12+3, +1d6 slashing damage
+Damage type: Slashing
+Speed Factor: 6
+Proficiency Type: Two-handed Sword 
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 11
+
+#### Two-Handed Sword +1: Hammering (IWD)
+
+The two-handed sword is a derivative of the long sword. Weaponsmiths have always looked for ways to improve existing weapons. In an effort to improve the long sword, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to properly swing the sword. The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations. This one is particularly good at its job as it has been enchanted with a few magical properties.
+
+STATISTICS:
+
+Combat abilities:
+- 20% chance target is stunned for 3 seconds
+
+THAC0: +1
+Damage: 1d10+1
+Damage type: Slashing
+Speed Factor: 9
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 13 Strength
+
+Weight: 12
+
+### Wakizashis
+
+#### Eye of the Sun +3 (NWN2)
+
+The markings on this wakizashi indicate it was crafted by a monk of the Sun Soul School. The handle radiates a faint heat when it's grasped.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d8+3, +1 fire damage, +1 acid damage
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 2
+
+#### The Dark Companion +4 (NWN2)
+
+This magic weapon has an enhancement bonus to attack and damage, but it doesn't bear the hallmarks of any specific maker.
+
+STATISTICS:
+
+Equipped abilities:
+- Critical Hit Chance: +5%
+
+Combat abilities:
+- Deals an extra 1d10 points of piercing damage on a critical hit
+
+THAC0: +4
+Damage: 1d8+4
+Damage type: Piercing
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 1
+
+### Warhammers
+
+#### Corrosive Hammer +2 (IWD)
+
+Like others of its type, this war hammer is made entirely of steel, with a bone-crushing hammer mounted upon an eighteen-inch shaft. It has also been bestowed with a small number of magical properties, however, making it more effective in combat. 
+
+STATISTICS:
+
+Combat abilities:
+- 30% chance of dealing +1d4 acid damage
+
+THAC0: +2
+Damage: 1d4+3
+Damage type: Crushing
+Speed Factor: 3
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+ 9 Strength
+
+Weight: 6
+
+#### Lesser Rift Hammer +1 (NWN2)
+
+During the Time of Troubles the walls between dimensions seemed particularly thin, and many creatures normally confined to other planes walked the face of Toril. Unfamiliar items appeared as well, including several of these weapons found after portals or rifts were sighted. The true origins of the Rift Hammers have never been explained, and superstitious folk refuse even to hold them for fear they retain the taint of the lower planes.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 1d4+2, +1 fire damage
+Damage type: Crushing
+Speed Factor: 3
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+ 9 Strength
+
+Weight: 6
+
+#### Rift Hammer +3 (NWN2)
+
+During the Time of Troubles the walls between dimensions seemed particularly thin, and many creatures normally confined to other planes walked the face of Toril. Unfamiliar items appeared as well, including several of these weapons found after portals or rifts were sighted. The true origins of the Rift Hammers have never been explained, and superstitious folk refuse even to hold them for fear they retain the taint of the lower planes.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d4+4, +1d4 fire damage
+Damage type: Crushing
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+ 9 Strength
+
+Weight: 4
