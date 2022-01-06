@@ -1,5 +1,10 @@
 # Forgotten-Armament Item Descriptions
 
+## Legend
+[Melee Weapons](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#melee-weapons)
+- [Battle Axes](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#battle-axes)
+- [Bastard Swords](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bastard-swords)
+
 ## Melee Weapons
 
 ### Battle Axes
