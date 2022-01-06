@@ -8,7 +8,7 @@
 
 **Author**: [morpheus562](https://www.gibberlings3.net/profile/11591-morpheus562/)
 
-**On the Web**: [Discussion Topic](https://www.gibberlings3.net/forums/topic/33661-thieving-skills-for-bards/)
+**On the Web**: [Discussion Topic](https://www.gibberlings3.net/forums/topic/33923-forgotten-armament-beta/)
 
 ## Introduction
 
