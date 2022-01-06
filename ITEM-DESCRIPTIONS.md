@@ -1064,11 +1064,11 @@ Requires:
 Weight: 3
 
 
- ### Short Swords
+### Short Swords
 
- #### Sloth +2 (IWD)
+#### Sloth +2 (IWD)
 
- The short sword is the first type of sword to come into existence. In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger. The term short sword does not exist in sword classifications. However, it has come to be used to describe a double-edged blade about two feet in length. The sword tip is usually pointed, ideal for thrusting. Inscriptions of power can be seen etched on the surface of the blade.
+The short sword is the first type of sword to come into existence. In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger. The term short sword does not exist in sword classifications. However, it has come to be used to describe a double-edged blade about two feet in length. The sword tip is usually pointed, ideal for thrusting. Inscriptions of power can be seen etched on the surface of the blade.
 
 STATISTICS:
 

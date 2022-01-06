@@ -16,7 +16,7 @@ Forgotten Armament aims to bring many low to mid-tier magical weapons, armors, a
 
 A list of the item descriptions is [here](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md).
 
-A list of the item locations is coming soon.
+A list of the item locations is [here](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-LOCATIONS.md).
 
 ## Compatibility
 
