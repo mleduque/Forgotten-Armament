@@ -143,39 +143,39 @@
 
 ### Short Swords
 
-[Sloth +2]() - 
+[Sloth +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#sloth-2-iwd) - Assigned to Damien in the Underdark
 
 ### Spears
 
-[Briarspike +2]() - 
+[Briarspike +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#briarspike-2-nwn2) - Assigned to Seniyad in Cloakwood
 
-[Heartwood Spear +4]() - 
+[Heartwood Spear +4](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#heartwood-spear-4-nwn2) - Assigned to Tahazzar in Watcher's Keep
 
 ### Two-Handed Swords
 
-[Blade of the Rashemi +3]() - 
+[Blade of the Rashemi +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#blade-of-the-rashemi-3-nwn2) - Added to Karthis store ToB
 
-[Kresselack's Sword +1]() - 
+[Kresselack's Sword +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#kresselacks-sword-1-iwd) - Assigned to Gardush in the Iron Throne Tower
 
-[Serrated Bone Blade +3]() - 
+[Serrated Bone Blade +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#serrated-bone-blade-3-iwd) - Assigned to Vaxal in the Twisted Runes
 
-[The Golem's Blade +3]() - 
+[The Golem's Blade +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-golems-blade-3-nwn2) - Assigned to Ka'rashur's in Watcher's Keep
 
-[Two-Handed Sword +1: Hammering]() - 
+[Two-Handed Sword +1: Hammering](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#two-handed-sword-1-hammering-iwd) - Assigned to Aawill (Planar Hunter)
 
 ### Wakizashis
 
-[Eye of the Sun +3]() - 
+[Eye of the Sun +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#eye-of-the-sun-3-nwn2) - Assigned to Koshi in the Guarded Compound (Temple District)
 
-[The Dark Companion +4]() - 
+[The Dark Companion +4](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-dark-companion-4-nwn2) - Assigned to Xei Win Toh in Watcher's Keep Final Seal
 
 ### Warhammers
 
-[Corrosive Hammer +2]() - 
+[Corrosive Hammer +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#corrosive-hammer-2-iwd) - Assigned to Renaard in the Temple District Sewers
 
-[Lesser Rift Hammer +1]() - 
+[Lesser Rift Hammer +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#lesser-rift-hammer-1-nwn2) - Assigned to Diyab in the Iron Throne Tower
 
-[Rift Hammer +3]() - 
+[Rift Hammer +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#rift-hammer-3-nwn2) - Assigned to Blind Priest in the Temple District
 
 ## Armors
 
