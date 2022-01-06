@@ -32,6 +32,7 @@ Requires:
 
 Weight: 5
 
+
 #### Battle Axe +2: Defender (IWD)
 
 Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation, and although not apparent at first, a slight blue glow can be seen emanating from the runes.
@@ -60,6 +61,7 @@ Requires:
 
 Weight: 7
 
+
 #### Deepstone Progeny +2 (NWN2)
 
 Torgin of the Light was a respected and prolific slayer of undead, which made his eventual descent into vampirism all the more tragic. His still-living companions saw the change as an insult to the life he once cherished, and vowed to destroy his undead form. To this end they crafted the Deepstone Progeny, adapted from the weapon that had previously served Torgin so well. History does not record the outcome of the battle between Torgin and his friends, but their axes are found across Faerun.
@@ -86,6 +88,7 @@ Requires:
 10 Strength
 
 Weight: 5
+
 
 ### Bastard Swords
 
@@ -117,6 +120,7 @@ Requires:
 
 Weight: 5
 
+
 #### Discord +2 (NWN2)
 
 A line of black crystal runs the length of this blade, marking it the handiwork of Ortius of Gond, the Mad Tinker. Blades from his stock resonate unnaturally when struck, and although mortal ears can barely perceive the tone, they certainly suffer the effects well enough. The origin of the crystal is not clear, though Ortius was known to have bartered his services to planar creatures on occasion.
@@ -127,15 +131,23 @@ Combat abilities:
 - 20% chance per hit of confusing the target for 1 round (Save vs. Spell negates)
 
 THAC0: +2
+
 Damage: 2d4+2
+
 Damage type: Slashing
+
 Speed Factor: 6
+
 Proficiency Type: Bastard Sword
+
 Type: One-handed
+
 Requires:
- 11 Strength
+
+11 Strength
 
 Weight: 7
+
 
 #### Flaming Bastard Sword +1 (IWD)
 
@@ -147,15 +159,23 @@ Combat abilities:
 - 25% chance of dealing +2d3 fire damage
 
 THAC0: +1
+
 Damage: 2d4+1
+
 Damage type: Slashing
+
 Speed Factor: 8
+
 Proficiency Type: Bastard Sword
+
 Type: One-handed
+
 Requires:
- 11 Strength
+
+11 Strength
 
 Weight: 10
+
 
 #### Nameless Light +2 (NWN2)
 
@@ -168,15 +188,23 @@ Equipped abilities:
 - Magic Resistance: +5%
 
 THAC0: +2
+
 Damage: 2d4+2
+
 Damage type: Slashing
+
 Speed Factor: 6
+
 Proficiency Type: Bastard Sword
+
 Type: One-handed
+
 Requires:
- 11 Strength
+
+11 Strength
 
 Weight: 7
+
 
 ### Daggers
 
@@ -187,15 +215,23 @@ Weapons of this type are technically impossible, since their blades are made of 
 STATISTICS:
 
 THAC0: +2
+
 Damage: 1d4+2, +1 cold damage
+
 Damage type: Piercing
+
 Speed Factor: 0 
+
 Proficiency Type: Dagger
+
 Type: One-handed
+
 Requires:
- 3 Strength
+
+3 Strength
 
 Weight: 1
+
 
 #### Mage Dagger +1 (IWD)
 
@@ -207,15 +243,23 @@ Equipped abilities:
 - Can cast one extra 1st-level wizard spell 
 
 THAC0: +1
+
 Damage: 1d4+1
+
 Damage type: Piercing
+
 Speed Factor: 2 
+
 Proficiency Type: Dagger
+
 Type: One-handed
+
 Requires:
- 3 Strength
+
+3 Strength
 
 Weight: 1
+
 
 #### Mage Dagger +2 (IWD)
 
@@ -228,15 +272,23 @@ Equipped abilities:
 - Can cast one extra 1st- and 2nd-level wizard spell 
 
 THAC0: +2
+
 Damage: 1d4+2
+
 Damage type: Piercing
+
 Speed Factor: 2 
+
 Proficiency Type: Dagger
+
 Type: One-handed
+
 Requires:
- 3 Strength
+
+3 Strength
 
 Weight: 1
+
 
 #### Myr Styah'be'eh +4 (NWN2)
 
@@ -252,15 +304,23 @@ Combat abilities:
 - Inflicts 2 points of bleeding damage per hit (one point per round)
 
 THAC0: +4
+
 Damage: 1d4+4
+
 Damage type: Piercing
+
 Speed Factor: 0
+
 Proficiency Type: Dagger
+
 Type: One-handed
+
 Requires:
- 3 Strength
+
+3 Strength
 
 Weight: 1
+
 
 #### Static Dagger +1 (IWD)
 
@@ -272,15 +332,23 @@ Combat abilities:
 - 50% chance of dealing +1d3 electrical damage
 
 THAC0: +1
+
 Damage: 1d4+1
+
 Damage type: Piercing
+
 Speed Factor: 2 
+
 Proficiency Type: Dagger
+
 Type: One-handed
+
 Requires:
- 3 Strength
+
+3 Strength
 
 Weight: 1
+
 
 ### Flails
 
@@ -294,15 +362,23 @@ Combat abilities:
 - 50% chance of dealing +1d4 piercing damage
 
 THAC0: +1
+
 Damage: 1d6+2
+
 Damage type: Crushing
+
 Speed Factor: 7
+
 Proficiency Type: Flail/Morning Star
+
 Type: One-handed
+
 Requires:
- 11 Strength
+
+11 Strength
 
 Weight: 15
+
 
 ### Halberds
 
@@ -319,15 +395,23 @@ Combat abilities:
 - Deals an extra 1d6 points of piercing damage on a critical hit
 
 THAC0: +3
+
 Damage: 1d10+3
+
 Damage type: Piercing
+
 Speed Factor: 6
+
 Proficiency Type: Halberd
+
 Type: Two-handed
+
 Requires:
- 13 Strength
+
+13 Strength
 
 Weight: 12
+
 
 #### Will of Atar +1 (NWN2)
 
@@ -336,15 +420,23 @@ These weapons bear the mark of Atar of the Flame, high shaman of a northern cult
 STATISTICS:
 
 THAC0: +1
+
 Damage: 1d10+1, +1 fire damage
+
 Damage type: Piercing or slashing
+
 Speed Factor: 8
+
 Proficiency Type: Halberd
+
 Type: Two-handed
+
 Requires:
- 13 Strength
+
+13 Strength
 
 Weight: 14
+
 
 ### Katanas
 
@@ -358,15 +450,23 @@ Equipped abilities:
 - Fire Resistance: +10%
 
 THAC0: +2
+
 Damage: 1d10+2, +2 fire damage
+
 Damage type: Slashing
+
 Speed Factor: 2
+
 Proficiency Type: Katana
+
 Type: One-handed
+
 Requires:
- 6 Strength
+
+6 Strength
 
 Weight: 4
+
 
 #### Kaga-To +1 (NWN2)
 
@@ -378,15 +478,23 @@ Combat abilities:
 - 5% chance per hit of stunning target for 1 round (Save vs. Spell negates)
 
 THACO: +1
+
 Damage: 1d10+1
+
 Damage type: Slashing
+
 Speed Factor: 1
+
 Proficiency Type: Katana
+
 Type: One-handed
+
 Requires:
- 6 Strength
+
+6 Strength
 
 Weight: 3
+
 
 #### Master Li's Way +2 (NWN2)
 
@@ -395,15 +503,23 @@ Once thought a unique instance of the swordmaker's craft, several katanas of thi
 STATISTICS:
 
 THAC0: +2
+
 Damage: 1d10+2, +1 acid damage
+
 Damage type: Slashing
+
 Speed Factor: 2
+
 Proficiency Type: Katana
+
 Type: One-handed
+
 Requires:
- 6 Strength
+
+6 Strength
 
 Weight: 4
+
 
 #### Naught Katana +5 (NWN2)
 
@@ -415,15 +531,23 @@ Combat abilities:
 - Each hit drains 1d4 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
 
 THACO: +5
+
 Damage: 1d10+5, +5 extra vs. lawful
+
 Damage type: Slashing
+
 Speed Factor: 1
+
 Proficiency Type: Katana
+
 Type: One-handed
+
 Requires:
- 6 Strength
+
+6 Strength
 
 Weight: 3
+
 
 #### The Devoted Servant +1 (NWN2)
 
@@ -435,15 +559,23 @@ Equipped abilities:
 - Armor Class: +1
 
 THAC0: +1
+
 Damage: 1d10+1
+
 Damage type: Slashing
+
 Speed Factor: 3
+
 Proficiency Type: Katana
+
 Type: One-handed
+
 Requires:
- 6 Strength
+
+6 Strength
 
 Weight: 5
+
 
 ### Long Swords
 
@@ -457,15 +589,23 @@ Equipped abilities:
 - Armor Class: +2, except vs. missile attacks
 
 THAC0: +1
+
 Damage: 1d8+1
+
 Damage type: Slashing
+
 Speed Factor: 4
+
 Proficiency Type: Long Sword
+
 Type: One-handed
+
 Requires:
- 6 Strength
+
+6 Strength
 
 Weight: 4
+
 
 #### Long Sword of Action +2 (IWD)
 
@@ -477,15 +617,23 @@ Equipped abilities:
 - Dexterity: +1
 
 THAC0: +2
+
 Damage: 1d8+2
+
 Damage type: Slashing
+
 Speed Factor: 4
+
 Proficiency Type: Long Sword
+
 Type: One-handed
+
 Requires:
- 6 Strength
+
+6 Strength
 
 Weight: 4
+
 
 #### Spiked Long Sword +1 (IWD)
 
@@ -497,15 +645,23 @@ Combat abilities:
 - 25% chance of dealing +2d6 piercing damage
 
 THAC0: +1
+
 Damage: 1d8+1
+
 Damage type: Slashing
+
 Speed Factor: 4
+
 Proficiency Type: Long Sword
+
 Type: One-handed
+
 Requires:
- 6 Strength
+
+6 Strength
 
 Weight: 4
+
 
 #### Turodahel +2 (IWD)
 
@@ -519,15 +675,23 @@ Equipped abilities:
 - Intelligence: +1
 
 THAC0: +2
+
 Damage: 1d8+2
+
 Damage type: Slashing
+
 Speed Factor: 3
+
 Proficiency Type: Long Sword
+
 Type: One-handed
+
 Requires:
- 6 Strength
+
+6 Strength
 
 Weight: 5
+
 
 ### Maces
 
@@ -541,15 +705,23 @@ Combat abilities:
 - Hit target must save vs. Spell at +3 or be slowed for 2 rounds
 
 THAC0: +2
+
 Damage: 1d6+3, +1 electrical damage
+
 Damage type: Crushing
+
 Speed Factor: 5
+
 Proficiency Type: Mace
+
 Type: One-handed
+
 Requires:
- 10 Strength
+
+10 Strength
 
 Weight: 7
+
 
 #### Soldier's Might +2 (NWN2)
 
@@ -562,13 +734,19 @@ Equipped Ability:
 - Immunity to confusion
 
 THAC0: +2
+
 Damage: 1d6+3, +1 cold damage
+
 Damage type: Crushing
+
 Speed Factor: 5
+
 Proficiency Type: Mace
+
 Type: One-handed
 
 Weight: 7
+
 
 #### Chef Gronk's Tenderizer +2 (NWN2)
 
@@ -580,15 +758,23 @@ Combat abilities:
 - Target must save vs. Spell or be stunned for 2 rounds
 
 THAC0: +2
+
 Damage: 1d6+3 
+
 Damage type: Crushing
+
 Speed Factor: 6
+
 Proficiency Type: Mace
+
 Type: One-handed
+
 Requires:
- 12 Strength
+
+12 Strength
 
 Weight: 9
+
 
 ### Morning Stars
 
@@ -599,15 +785,23 @@ These are the hallmark weapons of the fallen Lord Craghand of Unther, and are na
 STATISTICS:
 
 THAC0: +1
+
 Damage: 2d4+1, +2 fire damage
+
 Damage type: Crushing
+
 Speed Factor: 5
+
 Proficiency Type: Flail/Morning Star
+
 Type: One-handed
+
 Requires:
- 11 Strength
+
+11 Strength
 
 Weight: 9
+
 
 #### Sleepwalker Kin +2 (NWN2)
 
@@ -619,15 +813,23 @@ Combat abilities:
 - Hit target must save vs. Poison or fall asleep for 2 rounds
 
 THAC0: +2
+
 Damage: 2d4+2
+
 Damage type: Crushing
+
 Speed Factor: 4
+
 Proficiency Type: Flail/Morning Star
+
 Type: One-handed
+
 Requires:
- 11 Strength
+
+11 Strength
 
 Weight: 8
+
 
 ### Ninja-Tos
 
@@ -644,15 +846,23 @@ Combat abilities:
 - 10% chance target is stunned for 2 rounds (Save vs. Paralysis negates)
 
 THAC0: +2
+
 Damage: 1d8+2
+
 Damage type: Slashing
+
 Speed Factor: 2
+
 Proficiency Type: Scimitar/Wakizashi/Ninjatō
+
 Type: One-handed
+
 Requires:
- 6 Strength
+
+6 Strength
 
 Weight: 3
+
 
 ### Quarterstaves
 
@@ -672,15 +882,23 @@ Charge abilities:
   Area of Effect: 1 creature
 
 THAC0: +3
+
 Damage: 1d6+3
+
 Damage type: Crushing
+
 Speed Factor: 1
+
 Proficiency Type: Quarterstaff
+
 Type: Two-handed
+
 Requires:
- 5 Strength
+
+5 Strength
 
 Weight: 3
+
 
 #### Remembrance +3 (NWN2)
 
@@ -693,15 +911,23 @@ Equipped abilities:
 - Magic Resistance: +10%
 
 THAC0: +3
+
 Damage: 1d6+3
+
 Damage type: Crushing
+
 Speed Factor: 1
+
 Proficiency Type: Quarterstaff
+
 Type: Two-handed
+
 Requires:
- 5 Strength
+
+5 Strength
 
 Weight: 2
+
 
 #### Staff of Balpheron +1 - Sorcerer/Wizard Only (NWN2)
 
@@ -717,15 +943,23 @@ Equipped abilities:
 - Can memorize one extra 7th-level spell and one extra 8th-level spell
 
 THAC0: +1
+
 Damage: 1d6+1
+
 Damage type: Crushing
+
 Speed Factor: 2
+
 Proficiency Type: Quarterstaff
+
 Type: Two-handed
+
 Requires:
- 5 Strength
+
+5 Strength
 
 Weight: 3
+
 
 ### Scimitars
 
@@ -739,15 +973,23 @@ Combat abilities:
 - 10% chance per hit of confusing the target for 1 round (Save vs. Spell negates)
 
 THAC0: +2
+
 Damage: 1d8+2, +1 cold damage
+
 Damage type: Slashing
+
 Speed Factor: 4
+
 Proficiency Type: Scimitar/Wakizashi/Ninjatō
+
 Type: One-handed
+
 Requires:
- 10 Strength
+
+10 Strength
 
 Weight: 3
+
 
 #### Spider's Kiss +2 (NWN2)
 
@@ -759,14 +1001,23 @@ Combat abilities:
 - Hit target suffers 1 point of poison damage per second for 1 round (Save vs. Poison negates)
 
 THACO: +2
+
 Damage: 1D8+2
+
 Damage type: Slashing
-Weight: 3
+
 Speed Factor: 4
+
 Proficiency Type: Scimitar/Wakizashi/Ninja-To
+
 Type: One-handed
+
 Requires: 
- 10 Strength
+
+10 Strength
+
+Weight: 3
+
 
  ### Short Swords
 
@@ -780,15 +1031,23 @@ Combat abilities:
 - 10% chance target is slowed for 2 rounds
 
 THAC0: +2
+
 Damage: 1d6+2
+
 Damage type: Piercing
+
 Speed Factor: 2
+
 Proficiency Type: Short Sword
+
 Type: One-handed
+
 Requires:
- 5 Strength
+
+5 Strength
 
 Weight: 3
+
 
 ### Spears
 
@@ -799,15 +1058,23 @@ Briarspikes look like they could have been plucked from some giant quill-covered
 STATISTICS:
 
 THAC0: +2
+
 Damage: 1d6+2, +2 poison damage
+
 Damage type: Piercing
+
 Speed Factor: 4
+
 Proficiency Type: Spear 
+
 Type: Two-handed
+
 Requires:
- 5 Strength
+
+5 Strength
 
 Weight: 3
+
 
 #### Heartwood Spear +4 (NWN2)
 
@@ -819,15 +1086,23 @@ Combat abilities:
 - Target must save vs. Spell or be stunned for 1 round
 
 THAC0: +3
+
 Damage: 1d6+3, +1d4 acid damage
+
 Damage type: Piercing
+
 Speed Factor: 3
+
 Proficiency Type: Spear 
+
 Type: Two-handed
+
 Requires:
- 5 Strength
+
+5 Strength
 
 Weight: 3
+
 
 ### Two-Handed Swords
 
@@ -846,14 +1121,23 @@ Charge abilities:
   Area of Effect: The user
 
 THAC0: +3
-Damage: 1d10+3 (slashing)
+
+Damage: 1d10+3 
+
+Damage type: Slashing
+
 Speed Factor: 7
+
 Proficiency Type: Two-handed Sword
+
 Type: Two-handed
+
 Requires:
- 14 Strength
+
+14 Strength
 
 Weight: 10
+
 
 #### Kresselack's Sword +1 (IWD)
 
@@ -865,15 +1149,23 @@ Equipped abilities:
 - Cold Resistance: +10%
 
 THAC0: +1
+
 Damage: 1d10+1
+
 Damage type: Slashing
+
 Speed Factor: 8
+
 Proficiency Type: Two-handed Sword
+
 Type: Two-handed
+
 Requires:
- 14 Strength
+
+14 Strength
 
 Weight: 12
+
 
 #### Serrated Bone Blade +3 (IWD)
 
@@ -885,15 +1177,23 @@ Combat abilities:
 - 20% chance of dealing +1d10 cold damage
 
 THAC0: +3
+
 Damage: 1d10+3
+
 Damage type: Slashing
+
 Speed Factor: 10
+
 Proficiency Type: Two-handed Sword
+
 Type: Two-handed
+
 Requires:
- 14 Strength
+
+14 Strength
 
 Weight: 25
+
 
 #### The Golem's Blade +3 (NWN2)
 
@@ -908,15 +1208,23 @@ Combat abilities:
 - Deals an extra 2d6 points of slashing damage on a critical hit
 
 THAC0: +3
+
 Damage: 1d12+3, +1d6 slashing damage
+
 Damage type: Slashing
+
 Speed Factor: 6
+
 Proficiency Type: Two-handed Sword 
+
 Type: Two-handed
+
 Requires:
- 14 Strength
+
+14 Strength
 
 Weight: 11
+
 
 #### Two-Handed Sword +1: Hammering (IWD)
 
@@ -928,15 +1236,23 @@ Combat abilities:
 - 20% chance target is stunned for 3 seconds
 
 THAC0: +1
+
 Damage: 1d10+1
+
 Damage type: Slashing
+
 Speed Factor: 9
+
 Proficiency Type: Two-handed Sword
+
 Type: Two-handed
+
 Requires:
- 13 Strength
+
+13 Strength
 
 Weight: 12
+
 
 ### Wakizashis
 
@@ -947,15 +1263,23 @@ The markings on this wakizashi indicate it was crafted by a monk of the Sun Soul
 STATISTICS:
 
 THAC0: +3
+
 Damage: 1d8+3, +1 fire damage, +1 acid damage
+
 Damage type: Piercing
+
 Speed Factor: 0
+
 Proficiency Type: Scimitar/Wakizashi/Ninjatō
+
 Type: One-handed
+
 Requires:
- 5 Strength
+
+5 Strength
 
 Weight: 2
+
 
 #### The Dark Companion +4 (NWN2)
 
@@ -970,15 +1294,23 @@ Combat abilities:
 - Deals an extra 1d10 points of piercing damage on a critical hit
 
 THAC0: +4
+
 Damage: 1d8+4
+
 Damage type: Piercing
+
 Speed Factor: 0
+
 Proficiency Type: Scimitar/Wakizashi/Ninjatō
+
 Type: One-handed
+
 Requires:
- 5 Strength
+
+5 Strength
 
 Weight: 1
+
 
 ### Warhammers
 
@@ -992,15 +1324,23 @@ Combat abilities:
 - 30% chance of dealing +1d4 acid damage
 
 THAC0: +2
+
 Damage: 1d4+3
+
 Damage type: Crushing
+
 Speed Factor: 3
+
 Proficiency Type: War Hammer
+
 Type: One-handed
+
 Requires:
- 9 Strength
+
+9 Strength
 
 Weight: 6
+
 
 #### Lesser Rift Hammer +1 (NWN2)
 
@@ -1009,15 +1349,23 @@ During the Time of Troubles the walls between dimensions seemed particularly thi
 STATISTICS:
 
 THAC0: +1
+
 Damage: 1d4+2, +1 fire damage
+
 Damage type: Crushing
+
 Speed Factor: 3
+
 Proficiency Type: War Hammer
+
 Type: One-handed
+
 Requires:
- 9 Strength
+
+9 Strength
 
 Weight: 6
+
 
 #### Rift Hammer +3 (NWN2)
 
@@ -1026,15 +1374,23 @@ During the Time of Troubles the walls between dimensions seemed particularly thi
 STATISTICS:
 
 THAC0: +3
+
 Damage: 1d4+4, +1d4 fire damage
+
 Damage type: Crushing
+
 Speed Factor: 1
+
 Proficiency Type: War Hammer
+
 Type: One-handed
+
 Requires:
- 9 Strength
+
+9 Strength
 
 Weight: 4
+
 
 ## Armors
 
@@ -1054,6 +1410,7 @@ Equipped abilities:
 
 Weight: 4
 
+
 #### Robe of Armory (IWD)
 
 There are a small number of these valuable gold and crimson robes floating around the realms, and all of them are the creation of an abjurer named Delgam of the Many Hands—so called for his extensive use of the expression "on the other hand..." Delgam eschewed imbuing his items with offensive powers or other miscellaneous magic effects. Instead, he focused on what abjurers tend to focus on: defense. His robes were extremely popular, so much so that mages were coming to him from all over the world to demand that he make more for them. Delgam decided to fade into obscurity rather than cater to packs of power-hungry wizards. His robes are his most well-known legacy.
@@ -1065,6 +1422,7 @@ Equipped abilities:
 - Physical Damage Resistance: +10%
 
 Weight: 5
+
 
 #### Tasha's Atrocious Robe (NWN2)
 
@@ -1078,6 +1436,7 @@ Equipped abilities:
 - Magic Resistance: +10%
 
 Weight: 4
+
 
 #### Will of the Wychlaran (NWN2)
 
@@ -1104,10 +1463,13 @@ Equipped abilities:
 - Wearer is immune to Charm
 
 Armor Class: 7 (9 vs. piercing and missile)
+
 Requires:
- 4 Strength
+
+4 Strength
 
 Weight: 5
+
 
 #### Aurumvorax Armor (NWN2)
 
@@ -1119,10 +1481,13 @@ Equipped abilities:
 - +5% resistance to slashing and piercing damage
 
 Armor Class: 6 (8 vs. piercing and missile)
+
 Requires:
- 4 Strength
+
+4 Strength
 
 Weight: 5
+
 
 ### Studded Leather Armors
 
@@ -1136,10 +1501,13 @@ Equipped abilities:
 - Fire Resistance: +30%
 
 Armor Class: 4 (2 vs. slashing, 3 vs. piercing and missile)
+
 Requires:
- 6 Strength
+
+6 Strength
 
 Weight: 6
+
 
 ### Chain Mail Armors
 
@@ -1153,10 +1521,13 @@ Equipped abilities:
 - Immunity to poison
 
 Armor Class: 4 (2 vs. slashing, 6 vs. crushing)
+
 Requires:
- 8 Strength
+
+8 Strength
 
 Weight: 20
+
 
 #### Baleful Mail (IWD)
 
@@ -1169,10 +1540,13 @@ Equipped abilities:
 - Immunity to Dire Charm, Charm Person, Confusion, Command, and Rigid Thinking
 
 Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
+
 Requires:
- 8 Strength
+
+8 Strength
 
 Weight: 45
+
 
 #### Doron's Mistake (NWN2)
 
@@ -1184,10 +1558,13 @@ Equipped abilities:
 - Saving Throws: +1
 
 Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
+
 Requires:
- 8 Strength
+
+8 Strength
 
 Weight: 10
+
 
 ### Plate Mail Armors
 
@@ -1202,10 +1579,13 @@ Equipped abilities:
 - Immunity to hold and paralysis
 
 Armor Class: 1 (-2 vs. slashing)
+
 Requires:
- 12 Strength
+
+12 Strength
 
 Weight: 20
+
 
 #### The Gilded Defender - Dwarven Fighter/Kit Only (NWN2)
 
@@ -1218,10 +1598,13 @@ Equipped abilities:
 - Hit Points: +10
 
 Armor Class: 1 (-2 vs. slashing)
+
 Requires:
- 12 Strength
+
+12 Strength
 
 Weight: 25
+
 
 ### Full Plate Mail Armors
 
@@ -1235,10 +1618,13 @@ Equipped abilities:
 - Free Action
 
 Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+
 Requires:
- 15 Strength
+
+15 Strength
 
 Weight: 35
+
 
 #### Armor of Gram the Mouse - Paladin Only (NWN2)
 
@@ -1256,10 +1642,13 @@ Equipped abilities:
 - Resistance to Magic Damage: +5%
 
 Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+
 Requires:
- 15 Strength
+
+15 Strength
 
 Weight: 50
+
 
 #### Storm Armor of the Earth's Children - Shorty Race Only (NWN2)
 
@@ -1273,10 +1662,13 @@ Equipped abilities:
 - Fire Resistance: +10%
 
 Armor Class: 0 (-4 vs. slashing, -3 vs. piercing and missile)
+
 Requires:
- 15 Strength
+
+15 Strength
 
 Weight: 40
+
 
 ## Shields
 
@@ -1292,9 +1684,11 @@ Equipped abilities:
 - Charisma: +2
 
 Requires:
- 4 Strength
+
+4 Strength
 
 Weight: 2
+
 
 #### Shield of the Magi (NWN2)
 
@@ -1313,9 +1707,11 @@ Charge abilities:
   Duration: 2 turns
 
 Requires:
- 4 Strength
+
+4 Strength
 
 Weight: 1
+
 
 ### Small Shields
 
@@ -1329,9 +1725,11 @@ Equipped abilities:
 - Cold Resistance: +20%
 
 Requires:
- 4 Strength
+
+4 Strength
 
 Weight: 2
+
 
 #### Protector (NWN2)
 
@@ -1345,9 +1743,11 @@ Equipped abilities:
 - +5% resistance to slashing, piercing, and crushing damage
 
 Requires:
- 4 Strength
+
+4 Strength
 
 Weight: 2
+
 
 ### Medium Shields
 
@@ -1369,9 +1769,11 @@ Charge abilities:
  Area: 15-ft. radius
 
 Requires:
- 12 Strength
+
+12 Strength
 
 Weight: 7
+
 
 #### Laeral's Spell Shield +1 (NWN2)
 
@@ -1384,9 +1786,11 @@ Equipped abilities:
 - Magic Resistance: +10%
 
 Requires:
- 12 Strength
+
+12 Strength
 
 Weight: 6
+
 
 #### Silver Shield +2 (NWN2)
 
@@ -1400,9 +1804,11 @@ Equipped abilities:
 - Protects against all forms of panic and boosts morale
 
 Requires:
- 12 Strength
+
+12 Strength
 
 Weight: 5
+
 
 #### Triune Shield +3 (NWN2)
 
@@ -1416,9 +1822,11 @@ Equipped abilities:
 - Immunity to disease
 
 Requires:
- 12 Strength
+
+12 Strength
 
 Weight: 3
+
 
 #### Uthgardt Holy Shield +2 (NWN2)
 
@@ -1432,9 +1840,11 @@ Equipped abilities:
 - Charisma: -2
 
 Requires:
- 12 Strength
+
+12 Strength
 
 Weight: 7
+
 
 ### Large Shields
 
@@ -1451,9 +1861,11 @@ Equipped abilities:
 - Piercing Resistance: +10%
 
 Requires:
- 14 Strength
+
+14 Strength
 
 Weight: 12
+
 
 ## Accessories
 
@@ -1471,6 +1883,7 @@ Equipped abilities:
 - Immunity to poison
 
 Weight: 1
+
 
 #### Amulet of Pure Love (NWN2)
 
@@ -1491,6 +1904,7 @@ Charge abilities:
 
 Weight: 1
 
+
 #### Periapt of Wisdom +2 (NWN2)
 
 Although it appears to be a simple pearl on a light chain, a Periapt of Wisdom is a powerful item. These items improve perception and insight, and are often used as meditative tools by high-ranking clergy of a faith.
@@ -1501,6 +1915,7 @@ Equipped abilities:
 - Wisdom: +2
 
 Weight: 1
+
 
 #### The Ancient Sermon - Cleric Only (NWN2)
 
@@ -1513,6 +1928,7 @@ Equipped abilities:
 - Can memorize one extra divine spell of each level from 1st to 3rd
 
 Weight: 1
+
 
 #### Black Wolf Talisman (IWD)
 
@@ -1528,6 +1944,7 @@ Equipped abilities:
 
 Weight: 1
 
+
 #### Ysridain's Soul - Bard Only (NWN2)
 
 Everyone said that the bard Ysridain's ability with a lute was exceptional, but a few maintained that it was something more, something supernatural. After Ysridain's death at the hands of a jilter lover, the people of Waterdeep learned just how true those rumors had been. Early in his career, Ysridain realized that his physical beauty was far greater than his talent with music. He was a gifted musician, but he knew he would never be legendary unless he had assistance. Ysridain contracted a wizard to summon forth a powerful demon so the bard could negotiate a pact with the forces of darkness. A succubus answered the call. She agreed to inspire Ysridain with creative forces beyond his understanding. In exchange, upon his death, all that had resulted from her inspiration and Ysridain's soul would be hers.
@@ -1540,6 +1957,7 @@ Equipped abilities:
 - Hit Points: +15 
 
 Weight: 1
+
 
 ### Belts
 
@@ -1555,6 +1973,7 @@ Charge abilities:
 
 Weight: 2
 
+
 #### Ceremonial Uthgardt Belt (NWN2)
 
 In an attempt to keep the thriving Uthgardt clans under control, a long-forgotten gathering of druids inflicted them with a virulent pox. This disease soon spread out of control, and far from curbing their numbers actually threatened their extinction. To maintain the balance, these same druids created a number of these ceremonial belts to ensure the survival of the clan's leaders. Ultimately the Uthgardt survived the plague, though the incident did not improve their opinion of outsiders.
@@ -1566,6 +1985,7 @@ Equipped abilities:
 - Save vs. Death: +4
 
 Weight: 2
+
 
 #### Graena's Triumph - Barbarian Only (NWN2)
 
@@ -1581,6 +2001,7 @@ Equipped abilities:
 
 Weight: 2
 
+
 #### Grainstone Belt - Monk Only (NWN2)
 
 The Dark Moon sect has a reputation for hardiness in the hand-to-hand combat challenges they hold annually. Unbeknownst to the other monastic orders, the Dark Moon sect has developed this belt which gives their champions an unfair advantage over their unenhanced brethren.
@@ -1593,6 +2014,7 @@ Equipped abilities:
 
 Weight: 2
 
+
 #### Sash of Shimmering (NWN2)
 
 When the wizard Midnight saw her abilities grow so great as to assume a station amongst the gods, her soul drank magic straight from the fabric of the weave. She ascended, abandoning much of her mortal self and belongings, though they too were transformed. The sash she wore absorbed so much energy that it sundered, and each of the many pieces became a powerful item in its own right, protecting the wielder from magical attack.
@@ -1604,6 +2026,7 @@ Equipped abilities:
 
 
 Weight: 2
+
 
 ### Boots 
 
@@ -1619,6 +2042,7 @@ Equipped abilities:
 
 Weight: 4
 
+
 #### Boots of Hardiness +2 (NWN2)
 
 Having explored the northlands extensively, a druid named Aawill commissioned the creation of these comfortable boots. Knowing he was heading for the sometimes-dangerous domain of the Neverwinter Woods, Aawill was looking for something helpful in combat, to lighten his need for armor. Since becoming the Archdruid for the Neverwinter Wood's Druid Grove, Aawill has commissioned several, more powerful versions of his original boots.
@@ -1630,6 +2054,7 @@ Equipped abilities:
 - Constitution: +2
 
 Weight: 4
+
 
 #### Boots of Hardiness +3 (NWN2)
 
@@ -1643,6 +2068,7 @@ Equipped abilities:
 
 Weight: 4
 
+
 #### Boots of Striding +1 (NWN2)
 
 Blessed by priests of Shaundakul the Windrider, these boots seem to make even the most arduous journey easier and more pleasant. This is accomplished not by increasing the wearer's speed, but by making him hardier and more resistant to pain. Numerous versions of these boots exist, their power varying largely in accordance with the priest who blessed them.
@@ -1653,6 +2079,7 @@ Equipped abilities:
 - Constitution: +1
 
 Weight: 4
+
 
 #### Boots of Striding +2 (NWN2)
 
@@ -1665,6 +2092,7 @@ Equipped abilities:
 
 Weight: 4
 
+
 #### Boots of Striding +3 (NWN2)
 
 Blessed by priests of Shaundakul the Windrider, these boots seem to make even the most arduous journey easier and more pleasant. This is accomplished not by increasing the wearer's speed, but by making him hardier and more resistant to pain. Numerous versions of these boots exist, their power varying largely in accordance with the priest who blessed them.
@@ -1675,6 +2103,7 @@ Equipped abilities:
 - Constitution: +3
 
 Weight: 4
+
 
 #### Dragon Slippers (NWN2) 
 
@@ -1689,6 +2118,7 @@ Equipped abilities:
 
 Weight: 4
 
+
 #### Kitten Slippers (NWN2)
 
 Crafted for a rich noble who wanted too much to masquerade as a daring thief - creeping about 'on little cat feet' - these boots hold many excellent enchantments to aid their user in all kinds of covert endeavors. They do, however, come with a warning to use them wisely: despite their powers, they provide no protection against a well-placed knife... as the noble found out himself when the local thieves guild wished to show their 'disapproval' of his nightly actions.
@@ -1700,6 +2130,7 @@ Equipped abilities:
 - Free Action
 
 Weight: 4
+
 
 ### Cloaks
 
@@ -1719,6 +2150,7 @@ Equipped abilities:
 
 Weight: 3
 
+
 #### Antimagic Cloak (NWN2)
 
 This plain-looking cloak is made from the fibers of plants specially cultivated during the Time of Troubles, and the weave of the cloak is woven counter to the magical Weave of Faerun. The result is that magic in its vicinity tends to fade and lose its power, making this a handy item to have when confronting mages.
@@ -1734,6 +2166,7 @@ Charge abilities:
   Duration: 2 turns
 
 Weight: 3
+
 
 #### Balhodrie's Constant Hearth - Thief Only (NWN2)
 
@@ -1751,6 +2184,7 @@ Equipped abilities:
 
 Weight: 3
 
+
 #### Cloak of Burdened Spirits (IWD)
 
 This incredibly heavy cloak was a gift from Sister Calliana for saving the soul of the Voice of Durdel Anatha. It was originally worn by a penitent necromancer who was ashamed at how he had abused the souls of the dead. The cloak is dark gray and made of five layers of thick, heavy wool.
@@ -1761,6 +2195,7 @@ Equipped abilities:
 - Wisdom: +1
 
 Weight: 80
+
 
 #### Mantle of Gram the Mouse - Paladin Only (NWN2)
 
@@ -1776,6 +2211,7 @@ Equipped abilities:
 
 Weight: 3
 
+
 ### Gauntlets
 
 #### Elder Oak Gloves - Druid Only (NWN2) 
@@ -1789,6 +2225,7 @@ Equipped abilities:
 - Can memorize one extra 1st-level, one extra 2nd-level, and one extra 3rd-level Druid spell
 
 Weight: 2
+
 
 #### Favor of Ilum Lura (NWN2)
 
@@ -1805,6 +2242,7 @@ Equipped abilities:
 
 Weight: 2
 
+
 #### Ysridain's Touch - Bard Only (NWN2)
 
 Besides his prized lute, the seductive half-elven minstrel Ysridain's most valued possessions were his hands. During one of his most famous affairs, Ysridain managed to seduce one of the most powerful wizards in old Waterdeep. This wizard, Crestana, cherished Ysridain's company so much that she crafted anything he wanted at the slightest suggestion. The product of one such request was a pair of fine, thin gloves that protected Ysridain's hands and made him even more charming.
@@ -1817,6 +2255,7 @@ Equipped abilities:
 - Armor Class: +2
 
 Weight: 1
+
 
 ### Bracers
 
@@ -1832,6 +2271,7 @@ Equipped abilities:
 - Resistance to Magic Damage: +5%
 
 Weight: 2
+
 
 #### Imaskari Bracers of Immortality (NWN2)
 
@@ -1863,6 +2303,7 @@ Equipped abilities:
 
 Weight: 0
 
+
 #### Golden Circlet (NWN2)
 
 Creatures that attack the mind are the stuff of nightmares, so it is not surprising that items protecting against them might acquire some of their disrepute. Golden Circlets, for example, have been linked to a claim that when the drow first retreated underground they fed on intellect devourers, and that eating such a creature without wearing a circlet produced a mind flayer. This is all, of course, nothing more than superstitious tavern talk.
@@ -1875,6 +2316,7 @@ Equipped abilities:
 - Immunity to confusion
 
 Weight: 1
+
 
 #### Helm of Gram the Mouse - Paladin Only (NWN2)
 
@@ -1891,6 +2333,7 @@ Equipped abilities:
 
 Weight: 2
 
+
 #### The Regal (NWN2)
 
 This bronze helm was last worn by a hero of little fame who led a crusade into the Underdark. His goal? To eliminate the drow. His mission sadly failed, the hero lies in an unmarked grave. His helmet was taken as a trophy by the drow who slaughtered him.
@@ -1903,6 +2346,7 @@ Equipped abilities:
 - Fire Resistance: +10%
 
 Weight: 2
+
 
 ### Rings
 
@@ -1917,6 +2361,7 @@ Equipped Abilities:
 - +10% resistance to slashing and piercing damage
 
 Weight: 0
+
 
 #### Bone Ring (NWN2)
 
