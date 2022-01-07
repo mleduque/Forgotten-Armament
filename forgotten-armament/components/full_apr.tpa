@@ -2,5 +2,10 @@
 
 COPY ~forgotten-armament/eff/fullapr/MO2HAPR.EFF~ ~override/MO2HAPR.EFF~
 
-STRING_SET ~34171~ @100 // 2H Weapon Style
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+	STRING_SET ~34171~ @100 // 2H Weapon Style
+END ELSE ACTION_IF GAME_IS ~bgee~ BEGIN
+	STRING_SET ~25044~ @100 // 2H Weapon Style
+END
+
 
