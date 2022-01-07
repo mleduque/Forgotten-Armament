@@ -14,9 +14,41 @@
 
 Forgotten Armament aims to bring many low to mid-tier magical weapons, armors, and items into the games of Baldur's Gate: Enhanced Edition, Baldur's Gate II: Enhanced Edition, and the Enhanced Edition Trilogy (EET). The focus is to bring competitive mid-tier items, inspired by IWD and NWN2, into the game. One aspect of this mod is to ensure all weapons, armor, and items are equally represented and have steady progression paths for players throughout the series. Additionally throughout the games, many a mid-level enemy is poorly equipped with either non-magical or generically magical (+1 non-named) weapons and armor while similarly leveled players have +2/+3 weapons and gear. Forgotten Armament will provide many of these enemies with unique +1/+2/+3 weapons and gear providing for improved encounters with properly equipped foes.   
 
+## Components
+
+### Install Forgotten Armament Items
+
+This installs all new items throughout the game. 
+
 A list of the item descriptions is [here](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md).
 
 A list of the item locations is [here](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-LOCATIONS.md).
+
+### Update Weapon Fighting Styles (2H Weapons, 1H Weapons, Sword & Shield)
+
+TWO-HANDED: This fighting style allows the character to use a two-handed melee weapon and receive special bonuses.
+
+Proficient (1 slot): The wielder gets a +1 bonus to damage rolls and a -2 bonus to Speed Factor when using a two-handed weapon.
+
+Specialized (2 slots): The wielder gets a +2 bonus to damage rolls, a -4 bonus to Speed Factor, and an extra attack per round (or 0.5 APR depending on the component selected) when using a two-handed weapon.
+
+SWORD AND SHIELD: Anyone can pick up a shield and get its basic protection bonuses, but by spending slots on this fighting style, an adventurer can maximize the benefits received.
+
+Proficient (1 slot): The wielder gets a -1 bonus to AC and a -1 bonus to Speed Factor.
+
+Specialized (2 slots): The wielder gets a -2 bonus to AC and a -2 bonus to Speed Factor.
+
+NOTE: Despite the name of this style, any one-handed melee weapon in combination with a shield will receive the aforementioned bonuses.
+
+SINGLE-WEAPON: This fighting style is for characters who do not wish to use a shield but want some bonus when using a one-handed melee weapon.
+
+Proficient (1 slot): The wielder gets a +1 bonus to damage rolls, -1 bonus to Thaco, -1 bonus to AC, and inflicts critical damage on an attack roll of 19 or 20.
+
+Specialized (2 slots): The wielder gets a +2 bonus to damage rolls, -2 bonus to Thaco, -2 bonus to AC, and inflicts critical damage on an attack roll of 18 to 20.
+
+### Replace Boots of Speed (Paws of the Cheetah)
+
+This component replaces Boots of Speed (Paws of the Cheetah) with other boot options.
 
 ## Compatibility
 
