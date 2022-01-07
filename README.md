@@ -26,6 +26,8 @@ A list of the item locations is [here](https://github.com/Gibberlings3/Forgotten
 
 ### Update Weapon Fighting Styles (2H Weapons, 1H Weapons, Sword & Shield)
 
+PLEASE NOTE THIS IS BETA! THESE NUMBERS CAN BE ADJUSTED AND FEEDBACK IS WELCOME FOR BALANCING PURPOSES!
+
 TWO-HANDED: This fighting style allows the character to use a two-handed melee weapon and receive special bonuses.
 
 Proficient (1 slot): The wielder gets a +1 bonus to damage rolls and a -2 bonus to Speed Factor when using a two-handed weapon.
