@@ -263,186 +263,186 @@ Assigned to Tam in Candlekeep Underground and Rengarrd in the Temple Sewers - [I
 Assign to Entu in the Planar Sphere - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#baleful-mail) 
 
 #### Doron's Mistake
-Assigned to Mogadish in Planar Sphere - [Item Description]() 
+Assigned to Mogadish in Planar Sphere - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#dorons-mistake) 
 
 ### Plate Mail Armors
 
 #### Deep Guardian's Plate
-Assigned to Revanek in the Twisted Rune - [Item Description]() 
+Assigned to Revanek in the Twisted Rune - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#deep-guardians-plate) 
 
 #### The Gilded Defender - Dwarven Fighter/Kit Only
-Assigned to Duerger Store in the Underdark - [Item Description]() 
+Assigned to Duerger Store in the Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-gilded-defender---dwarven-fighterkit-only) 
 
 ### Full Plate Mail Armors
 
 #### Armor of Freedom
-Assigned to Olaf Rassmusen in the Guarded Compound (Temple District) - [Item Description]()
+Assigned to Olaf Rassmusen in the Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#armor-of-freedom)
 
 #### Armor of Gram the Mouse - Paladin Only
-Added to Joluv Special Merchant store - [Item Description]()
+Added to Joluv Special Merchant store - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#armor-of-gram-the-mouse---paladin-only)
 
 #### Storm Armor of the Earth's Children - Shorty Race Only
-Assigned to Legdor in Windspear Hills Dungeon - [Item Description]() 
+Assigned to Legdor in Windspear Hills Dungeon - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#storm-armor-of-the-earths-children---shorty-race-only) 
 
 ## Shields
 
 ### Bucklers
 
 #### Dwarven Mirth
-Assigned to Tarnor the Hatchetman in the Temple District Sewers - [Item Description]()
+Assigned to Tarnor the Hatchetman in the Temple District Sewers - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#dwarven-mirth)
 
 #### Shield of the Magi
-Assign to Sion in Guarded Compound (Temple District) - [Item Description]()
+Assign to Sion in Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#shield-of-the-magi)
 
 ### Small Shields
 
 #### The Frostmaiden's Bane
-Assigned to Stalman in the Guarded Compound (Temple District) - [Item Description]()
+Assigned to Stalman in the Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-frostmaidens-bane)
 
 #### Protector
-Assigned to Mogadish in Planar Sphere - [Item Description]()
+Assigned to Mogadish in Planar Sphere - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#protector)
 
 ### Medium Shields
 
 #### Kepeturi Crest +3
-Assigned to Ameralis Zauviir in Watcher's Keep Final Seal - [Item Description]()
+Assigned to Ameralis Zauviir in Watcher's Keep Final Seal - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#kepeturi-crest-3)
 
 #### Laeral's Spell Shield +1
-Assigned to Rengaard Temple District Sewers - [Item Description]() 
+Assigned to Rengaard Temple District Sewers - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#laerals-spell-shield-1) 
 
 #### Silver Shield +2
-Assigned to Simyaz in Underdark - [Item Description]() 
+Assigned to Simyaz in Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#silver-shield-2) 
 
 #### Triune Shield +3
-Assigned to Gromnir Il-Khan in Saradush - [Item Description]() 
+Assigned to Gromnir Il-Khan in Saradush - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#triune-shield-3) 
 
 #### Uthgardt Holy Shield +2
-Assigned to Revanek in the Twisted Rune - [Item Description]() 
+Assigned to Revanek in the Twisted Rune - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#uthgardt-holy-shield-2) 
 
 ### Large Shields
 
 #### Large Shield of Strength +1
-Assigned to Jaden (Rasaad's Quest) - [Item Description]()
+Assigned to Jaden (Rasaad's Quest) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#large-shield-of-strength-1)
 
 ## Accessories
 
 ### Amulets
 
 #### Amulet of Health
-Assigned to The Huntress in Watcher's Keep Final Seal - [Item Description]()
+Assigned to The Huntress in Watcher's Keep Final Seal - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#amulet-of-health)
 
 #### Amulet of Pure Love
-Assigned to Diaytha in Sendai's Enclave - [Item Description]()
+Assigned to Diaytha in Sendai's Enclave - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#amulet-of-pure-love)
 
 #### Periapt of Wisdom +2
-Assigned to Stalman in the Guarded Compound (Temple District) - [Item Description]()
+Assigned to Stalman in the Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#periapt-of-wisdom-2)
 
 #### The Ancient Sermon - Cleric Only
-Assigned to Ameralis Zauviir in Watcher's Keep - [Item Description]()
+Assigned to Ameralis Zauviir in Watcher's Keep - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-ancient-sermon---cleric-only)
 
 #### Black Wolf Talisman
-Assigned to Captain Egeissag in Sendai's Enclave - [Item Description]() 
+Assigned to Captain Egeissag in Sendai's Enclave - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#black-wolf-talisman) 
 
 #### Ysridain's Soul - Bard Only
-Assigned to Aawill (Planar Hunter) - [Item Description]()
+Assigned to Aawill (Planar Hunter) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#ysridains-soul---bard-only)
 
 ### Belts
 
 #### Belt of Agility +2
-Assigned to Togan in Planar Sphere - [Item Description]()
+Assigned to Togan in Planar Sphere - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#belt-of-agility-2)
 
 #### Ceremonial Uthgardt Belt
-Assigned to Pai'Na under the Graveyard District - [Item Description]()
+Assigned to Pai'Na under the Graveyard District - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#ceremonial-uthgardt-belt)
 
 #### Graena's Triumph - Barbarian Only
-Assigned to Maferan in Guarded Compound (Temple District) - [Item Description]()
+Assigned to Maferan in Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#graenas-triumph---barbarian-only)
 
 #### Grainstone Belt - Monk Only
-Assigned to Lemzenn at Two-Fold Temple - [Item Description]() 
+Assigned to Lemzenn at Two-Fold Temple - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#grainstone-belt---monk-only) 
 
 #### Sash of Shimmering
-Assigned to Tracea Carol in Ulgoth's Beard and Kayardi in Planar Sphere - [Item Description]()
+Assigned to Tracea Carol in Ulgoth's Beard and Kayardi in Planar Sphere - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#sash-of-shimmering)
 
 ### Boots 
 
 #### Boots of Hardiness +1 (Replace Boots of Speed Component ONLY)
-Replaces Paws of the Cheetah from Drasus and the Token Machine in the Spellhold Maze - [Item Description]()
+Replaces Paws of the Cheetah from Drasus and the Token Machine in the Spellhold Maze - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#boots-of-hardiness-1)
 
 #### Boots of Hardiness +2 (Replace Boots of Speed Component ONLY)
-Replaces Paws of the Cheetah from Lothander and the Bounty Hunter (Planar Sphere) - [Item Description]()
+Replaces Paws of the Cheetah from Lothander and the Bounty Hunter (Planar Sphere) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#boots-of-hardiness-2)
 
 #### Boots of Hardiness +3 (Replace Boots of Speed Component ONLY)
-Replaces Paws of the Cheetah from Tankard Tree store in Saradush - [Item Description]()
+Replaces Paws of the Cheetah from Tankard Tree store in Saradush - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#boots-of-hardiness-3)
 
 #### Boots of Striding +1
-Assigned to Anarg in Docks District - [Item Description]()
+Assigned to Anarg in Docks District - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#boots-of-striding-1)
 
 #### Boots of Striding +2
-Assigned to Boz in the Underdark - [Item Description]() 
+Assigned to Boz in the Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#boots-of-striding-2) 
 
 #### Boots of Striding +3
-Assigned to Yaga-Shura in Siege Camp - [Item Description]()
+Assigned to Yaga-Shura in Siege Camp - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#boots-of-striding-3)
 
 #### Dragon Slippers (Replace Boots of Speed Component ONLY)
-Replaces Paws of the Cheetah from Illasera the Quick - [Item Description]()
+Replaces Paws of the Cheetah from Illasera the Quick - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#dragon-slippers)
 
 #### Kitten Slippers (Replace Boots of Speed Component ONLY)
-Replaces Paws of the Cheetah from Renal Bloodscalp - [Item Description]()
+Replaces Paws of the Cheetah from Renal Bloodscalp - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#kitten-slippers)
 
 ### Bracers
 
 #### Bracers of Artifice
-Assign to Aurumach Rilmani in the Watcher's Keep Final Seal - [Item Description]()
+Assign to Aurumach Rilmani in the Watcher's Keep Final Seal - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bracers-of-artifice)
 
 #### Imaskari Bracers of Immortality
-Assign to Berenn in the Fire Giant Temple - [Item Description]()
+Assign to Berenn in the Fire Giant Temple - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#imaskari-bracers-of-immortality)
 
 ### Cloaks
 
 #### A Mad Gent's Cloak - Cleric Only
-Assigned to Chandrilla in Underdark - [Item Description]() 
+Assigned to Chandrilla in Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#a-mad-gents-cloak---cleric-only) 
 
 #### Antimagic Cloak
-Assign to Aurumach Rilmani in the Watcher's Keep Final Seal - [Item Description]()
+Assign to Aurumach Rilmani in the Watcher's Keep Final Seal - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#antimagic-cloak)
 
 #### Balhodrie's Constant Hearth - Thief Only
-Assigned to Ketta in the Guarded Compound (Temple District) - [Item Description]()
+Assigned to Ketta in the Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#balhodries-constant-hearth---thief-only)
 
 #### Cloak of Burdened Spirits
-Assigned to Berenn in the Fire Giant Temple - [Item Description]()  
+Assigned to Berenn in the Fire Giant Temple - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#cloak-of-burdened-spirits)  
 
 #### Mantle of Gram the Mouse - Paladin Only
-Assigned to Reynald de Chatillon in the Bridge District - [Item Description]() 
+Assigned to Reynald de Chatillon in the Bridge District - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#mantle-of-gram-the-mouse---paladin-only) 
 
 ### Gauntlets
 
 #### Elder Oak Gloves - Druid Only
-Assigned to Nyalee in the Temple of Bhaal (Forest of Mir) - [Item Description]()  
+Assigned to Nyalee in the Temple of Bhaal (Forest of Mir) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#elder-oak-gloves---druid-only)  
 
 #### Favor of Ilum Lura
-Assigned to The Huntress in Watcher's Keep Final Seal - [Item Description]()
+Assigned to The Huntress in Watcher's Keep Final Seal - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#favor-of-ilum-lura)
 
 #### Ysridain's Touch - Bard Only
-Added to Dedrei Bonus Merchant store - [Item Description]()
+Added to Dedrei Bonus Merchant store - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#ysridains-touch---bard-only)
 
 ### Helmets
 
 #### Anagrys' Mindmaze - Wizard/Sorcerer Only
-Assigned to Layene in the Twisted Rune - [Item Description]() 
+Assigned to Layene in the Twisted Rune - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#anagrys-mindmaze---wizardsorcerer-only) 
 
 #### Golden Circlet
-Assigned to Kuo-toan Prince in the Underdark - [Item Description]()
+Assigned to Kuo-toan Prince in the Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#golden-circlet)
 
 #### Helm of Gram the Mouse - Paladin Only
-Added to Deidre Bonus Merchant store - [Item Description]()
+Added to Deidre Bonus Merchant store - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#helm-of-gram-the-mouse---paladin-only)
 
 #### The Regal
-Assigned to Diaytha in Sendai's Enclave - [Item Description]() 
+Assigned to Diaytha in Sendai's Enclave - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-regal) 
 
 ### Rings
 
 #### Bone Dancer's Ring
-Assigned to Odamaron in Sendai's Enclave - [Item Description]()
+Assigned to Odamaron in Sendai's Enclave - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bone-dancers-ring)
 
 #### Bone Ring
-Assigned to Layene in the Twisted Rune - [Item Description]()
+Assigned to Layene in the Twisted Rune - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bone-ring)
