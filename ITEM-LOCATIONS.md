@@ -52,290 +52,397 @@
 #### Axe of Dead Illusk +2 
 Assigned to Maferan in Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#axe-of-dead-illusk-2)
 
-[Battle Axe +2: Defender](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#battle-axe-2-defender-iwd) - Assigned to Insane Dwarf Warrior in the Underdark
+#### Battle Axe +2: Defender
+Assigned to Insane Dwarf Warrior in the Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#battle-axe-2-defender)
 
-[Deepstone Progeny +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#deepstone-progeny-2-nwn2) - Assigned to Camitis in the Bridge District
+#### Deepstone Progeny +2
+Assigned to Camitis in the Bridge District - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#deepstone-progeny-2)
 
 ### Bastard Swords
 
-[Bloodletter +4 - Non-Good Only](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bloodletter-4---non-good-only-nwn2) - Assigned to Revanek in the Twisted Rune
+#### Bloodletter +4 - Non-Good Only
+Assigned to Revanek in the Twisted Rune - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bloodletter-4---non-good-only)
 
-[Discord +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#discord-2-nwn2) - Assigned to Simyaz in Underdark
+#### Discord +2 
+Assigned to Simyaz in Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#discord-2)
 
-[Flaming Bastard Sword +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#flaming-bastard-sword-1-iwd) - Assigned to Cambion (Irenicus Dungeon)
+#### Flaming Bastard Sword +1 
+Assigned to Cambion (Irenicus Dungeon) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#flaming-bastard-sword-1)
 
-[Nameless Light +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#nameless-light-2-nwn2) - Assigned to Jardak in Northern Baldur's Gate
+#### Nameless Light +2
+Assigned to Jardak in Northern Baldur's Gate - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#nameless-light-2)
 
 ### Daggers
 
-[Ice Talon +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#ice-talon-2-nwn2) - Added to Joluv Bonus Merchant store
+#### Ice Talon +2 
+Added to Joluv Bonus Merchant store - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#ice-talon-2)
 
-[Mage Dagger +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#mage-dagger-1-iwd) - Assigned to Kayardi in Planar Sphere
+#### Mage Dagger +1 
+Assigned to Kayardi in Planar Sphere - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#mage-dagger-1)
 
-[Mage Dagger +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#mage-dagger-2-iwd) - Assigned to Sion in Guarded Compound (Temple District)
+#### Mage Dagger +2 
+Assigned to Sion in Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#mage-dagger-2)
 
-[Myr Styah'be'eh +4](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#myr-styahbeeh-4-nwn2) - Assign to Kiser Jhaeri in Saradush
+#### Myr Styah'be'eh +4 
+Assign to Kiser Jhaeri in Saradush - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#myr-styahbeeh-4)
 
-[Static Dagger +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#static-dagger-1-iwd) - Assigned to Brennan Risling in the Den of Seven Vales (Promenade District)
+#### Static Dagger +1 
+Assigned to Brennan Risling in the Den of Seven Vales (Promenade District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#static-dagger-1)
 
 ### Flails
 
-[Crooked Flail +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#crooked-flail-1-iwd) - Assigned to Reynald de Chatillon in the Bridge District
+#### Crooked Flail +1 
+Assigned to Reynald de Chatillon in the Bridge District - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#crooked-flail-1)
 
 ### Halberds
 
-[Cruel Halberd +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#cruel-halberd-3) - Assigned to Ist'tar Jae'llat in Ust Natha
+#### Cruel Halberd +3 
+Assigned to Ist'tar Jae'llat in Ust Natha - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#cruel-halberd-3)
 
-[Will of Atar +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#will-of-atar-1-nwn2) - Added to Adventurer Mart
+#### Will of Atar +1 
+Added to Adventurer Mart - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#will-of-atar-1)
 
 ### Katanas
 
-[Dragonsblood Katana +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#dragonsblood-katana-2-nwn2) - Assigned to Akae in Windspear Hills Dungeon
+#### Dragonsblood Katana +2 
+Assigned to Akae in Windspear Hills Dungeon - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#dragonsblood-katana-2)
 
-[Kaga-To +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#kaga-to-1-nwn2) - Assigned to BGEE Sendai in AR5300 and added to the Adventurer Mart
+#### Kaga-To +1 
+Assigned to BGEE Sendai in AR5300 and added to the Adventurer Mart - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#kaga-to-1)
 
-[Master Li's Way +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#master-lis-way-2-nwn2) - Assigned to Ogre in Cloakwood Mine
+#### Master Li's Way +2 
+Assigned to Ogre in Cloakwood Mine - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#master-lis-way-2)
 
-[Naught Katana +5](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#naught-katana-5-nwn2) - Assigned to Xei Win Toh in Watcher's Keep Final Seal
+#### Naught Katana +5 
+Assigned to Xei Win Toh in Watcher's Keep Final Seal - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#naught-katana-5)
 
-[The Devoted Servant +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-devoted-servant-1-nwn2) - Assigned to Droth in AR3100
+#### The Devoted Servant +1 
+Assigned to Droth in AR3100 - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-devoted-servant-1)
 
 ### Long Swords
 
-[Intercession +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#intercession-1-iwd) - Assigned to Meilum outside Firewine Bridge
+#### Intercession +1 
+Assigned to Meilum outside Firewine Bridge - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#intercession-1)
 
-[Long Sword of Action +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#long-sword-of-action-2-iwd) - Assigned to Tuth in Candlekeep Library
+#### Long Sword of Action +2 
+Assigned to Tuth in Candlekeep Library - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#long-sword-of-action-2)
 
-[Spiked Long Sword +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#spiked-long-sword-1-iwd) - Assigned to Pargus in Helm and Cloak Inn
+#### Spiked Long Sword +1 
+Assigned to Pargus in Helm and Cloak Inn - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#spiked-long-sword-1)
 
-[Turodahel +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#turodahel-2-iwd) - Assigned to Ruhk Transmuter Windspear Hills Dungeon
+#### Turodahel +2 
+Assigned to Ruhk Transmuter Windspear Hills Dungeon - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#turodahel-2)
 
 ### Maces
 
-[Petty's Tempest +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#pettys-tempest-2-nwn2) - Assigned to Chandrilla in Underdark
+#### Petty's Tempest +2 
+Assigned to Chandrilla in Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#pettys-tempest-2)
 
-[Soldier's Might +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#soldiers-might-2-nwn2) - Assigned to Stalman in the Guarded Compound (Temple District)
+#### Soldier's Might +2 
+Assigned to Stalman in the Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#soldiers-might-2)
 
-[Chef Gronk's Tenderizer +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#chef-gronks-tenderizer-2-nwn2) - Assigned to Entu in Planar Sphere
+#### Chef Gronk's Tenderizer +2 
+Assigned to Entu in Planar Sphere - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#chef-gronks-tenderizer-2)
 
 ### Morning Stars
 
-[Bone Phoenix +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bone-phoenix-1-nwn2) - Assigned to Bregg in Slums District
+#### Bone Phoenix +1 
+Assigned to Bregg in Slums District - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#bone-phoenix-1)
 
-[Sleepwalker Kin +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#sleepwalker-kin-2-nwn2) - Assigned to Rilloa Jae'llat in Ust Natha
+#### Sleepwalker Kin +2 
+Assigned to Rilloa Jae'llat in Ust Natha - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#sleepwalker-kin-2)
 
 ### Ninja-Tos
 
-[Courtesan Blade + 2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#courtesan-blade--2-nwn2) - Assigned to Akae in Windspear Hills Dungeon
+#### Courtesan Blade + 2 
+Assigned to Akae in Windspear Hills Dungeon - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#courtesan-blade--2)
 
 ### Quarterstaves
 
-[Rakshasa Staff +3 - Sorcerer/Wizard Only](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#rakshasa-staff-3---sorcererwizard-only-nwn2) - Assign to Ihtafeer in Druid Grove
+#### Rakshasa Staff +3 - Sorcerer/Wizard Only 
+Assign to Ihtafeer in Druid Grove - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#rakshasa-staff-3---sorcererwizard-only)
 
-[Remembrance +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#remembrance-3-nwn2) - Assigned to Tracea Carol in Ulgoth's Beard and assigned to N'ashtar in Underdark
+#### Remembrance +3 
+Assigned to Tracea Carol in Ulgoth's Beard and assigned to N'ashtar in Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#remembrance-3)
 
-[Staff of Balpheron +1 - Sorcerer/Wizard Only](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#staff-of-balpheron-1---sorcererwizard-only-nwn2) - Assigned to Vongoethe in Amkethran
+#### Staff of Balpheron +1 - Sorcerer/Wizard Only 
+Assigned to Vongoethe in Amkethran - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#staff-of-balpheron-1---sorcererwizard-only)
 
 ### Scimitars
 
-[Laughing Blade +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#laughing-blade-2-nwn2) - Assigned to Samia in Windspear Hills Dungeon
+#### Laughing Blade +2 
+Assigned to Samia in Windspear Hills Dungeon - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#laughing-blade-2)
 
-[Spider's Kiss +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#spiders-kiss-2-nwn2) - Assigned to Pai'Na below Graveyard District
+#### Spider's Kiss +2 
+Assigned to Pai'Na below Graveyard District - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#spiders-kiss-2)
 
 ### Short Swords
 
-[Sloth +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#sloth-2-iwd) - Assigned to Damien in the Underdark
+#### Sloth +2 
+Assigned to Damien in the Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#sloth-2)
 
 ### Spears
 
-[Briarspike +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#briarspike-2-nwn2) - Assigned to Seniyad in Cloakwood
+#### Briarspike +2 
+Assigned to Seniyad in Cloakwood - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#briarspike-2)
 
-[Heartwood Spear +4](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#heartwood-spear-4-nwn2) - Assigned to Tahazzar in Watcher's Keep
+#### Heartwood Spear +4 
+Assigned to Tahazzar in Watcher's Keep - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#heartwood-spear-4)
 
 ### Two-Handed Swords
 
-[Blade of the Rashemi +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#blade-of-the-rashemi-3-nwn2) - Added to Karthis store ToB
+#### Blade of the Rashemi +3 
+Added to Karthis store ToB - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#blade-of-the-rashemi-3)
 
-[Kresselack's Sword +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#kresselacks-sword-1-iwd) - Assigned to Gardush in the Iron Throne Tower
+#### Kresselack's Sword +1 
+Assigned to Gardush in the Iron Throne Tower - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#kresselacks-sword-1)
 
-[Serrated Bone Blade +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#serrated-bone-blade-3-iwd) - Assigned to Vaxal in the Twisted Runes
+#### Serrated Bone Blade +3 
+Assigned to Vaxal in the Twisted Runes - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#serrated-bone-blade-3)
 
-[The Golem's Blade +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-golems-blade-3-nwn2) - Assigned to Ka'rashur's in Watcher's Keep
+#### The Golem's Blade +3 
+Assigned to Ka'rashur's in Watcher's Keep - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-golems-blade-3)
 
-[Two-Handed Sword +1: Hammering](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#two-handed-sword-1-hammering-iwd) - Assigned to Aawill (Planar Hunter)
+#### Two-Handed Sword +1: Hammering 
+Assigned to Aawill (Planar Hunter) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#two-handed-sword-1-hammering)
 
 ### Wakizashis
 
-[Eye of the Sun +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#eye-of-the-sun-3-nwn2) - Assigned to Koshi in the Guarded Compound (Temple District)
+#### Eye of the Sun +3 
+Assigned to Koshi in the Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#eye-of-the-sun-3)
 
-[The Dark Companion +4](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-dark-companion-4-nwn2) - Assigned to Xei Win Toh in Watcher's Keep Final Seal
+#### The Dark Companion +4 
+Assigned to Xei Win Toh in Watcher's Keep Final Seal - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#the-dark-companion-4)
 
 ### Warhammers
 
-[Corrosive Hammer +2](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#corrosive-hammer-2-iwd) - Assigned to Renaard in the Temple District Sewers
+#### Corrosive Hammer +2 
+Assigned to Renaard in the Temple District Sewers - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#corrosive-hammer-2)
 
-[Lesser Rift Hammer +1](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#lesser-rift-hammer-1-nwn2) - Assigned to Diyab in the Iron Throne Tower
+#### Lesser Rift Hammer +1 
+Assigned to Diyab in the Iron Throne Tower - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#lesser-rift-hammer-1)
 
-[Rift Hammer +3](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#rift-hammer-3-nwn2) - Assigned to Blind Priest in the Temple District
+#### Rift Hammer +3 
+Assigned to Blind Priest in the Temple District - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#rift-hammer-3)
 
 ## Armors
 
 ### Robes
 
-[Robe of Enfusing]() - 
+#### Robe of Enfusing
+Assigned to Layene in the Twisted Rune - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#robe-of-enfusing)
 
-[Robe of Armory]() - 
+#### Robe of Armory
+Assigned to Odamaron in Sendai's Enclave - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#robe-of-armory)
 
-[Tasha's Atrocious Robe]() - 
+#### Tasha's Atrocious Robe
+Assigned to N'ashtar in the Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#tashas-atrocious-robe) 
 
-[Will of the Wychlaran]() - 
+#### Will of the Wychlaran
+Assigned to Sion in Guarded Compound (Temple District) - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#will-of-the-wychlaran)
 
 ### Leather Armors
 
-[Armor of Loyalty]() - 
+#### Armor of Loyalty
+Assigned to Damien in Underdark - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#armor-of-loyalty) 
 
-[Aurumvorax Armor]() - 
+#### Aurumvorax Armor
+Assigned to Dalok in Druid Grove - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#aurumvorax-armor)
 
 ### Studded Leather Armors
 
-[Black Flame Armor]() - 
+#### Black Flame Armor
+Assigned to Togan in Planar Sphere - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#black-flame-armor)
 
 ### Chain Mail Armors
 
-[Anti-Venom Chainmail]() - 
+#### Anti-Venom Chainmail
+Assigned to Tam in Candlekeep Underground and Rengarrd in the Temple Sewers - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#anti-venom-chainmail)
 
-[Baleful Mail]() - 
+#### Baleful Mail
+Assign to Entu in the Planar Sphere - [Item Description](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-DESCRIPTIONS.md#baleful-mail) 
 
-[Doron's Mistake]() - 
+#### Doron's Mistake
+Assigned to Mogadish in Planar Sphere - [Item Description]() 
 
 ### Plate Mail Armors
 
-[Deep Guardian's Plate]() - 
+#### Deep Guardian's Plate
+Assigned to Revanek in the Twisted Rune - [Item Description]() 
 
-[The Gilded Defender - Dwarven Fighter/Kit Only]() - 
+#### The Gilded Defender - Dwarven Fighter/Kit Only
+Assigned to Duerger Store in the Underdark - [Item Description]() 
 
 ### Full Plate Mail Armors
 
-[Armor of Freedom]() - 
+#### Armor of Freedom
+Assigned to Olaf Rassmusen in the Guarded Compound (Temple District) - [Item Description]()
 
-[Armor of Gram the Mouse - Paladin Only]() - 
+#### Armor of Gram the Mouse - Paladin Only
+Added to Joluv Special Merchant store - [Item Description]()
 
-[Storm Armor of the Earth's Children - Shorty Race Only]() - 
+#### Storm Armor of the Earth's Children - Shorty Race Only
+Assigned to Legdor in Windspear Hills Dungeon - [Item Description]() 
 
 ## Shields
 
 ### Bucklers
 
-[Dwarven Mirth]() - 
+#### Dwarven Mirth
+Assigned to Tarnor the Hatchetman in the Temple District Sewers - [Item Description]()
 
-[Shield of the Magi]() - 
+#### Shield of the Magi
+Assign to Sion in Guarded Compound (Temple District) - [Item Description]()
 
 ### Small Shields
 
-[The Frostmaiden's Bane]() - 
+#### The Frostmaiden's Bane
+Assigned to Stalman in the Guarded Compound (Temple District) - [Item Description]()
 
-[Protector]() - 
+#### Protector
+Assigned to Mogadish in Planar Sphere - [Item Description]()
 
 ### Medium Shields
 
-[Kepeturi Crest +3]() - 
+#### Kepeturi Crest +3
+Assigned to Ameralis Zauviir in Watcher's Keep Final Seal - [Item Description]()
 
-[Laeral's Spell Shield +1]() - 
+#### Laeral's Spell Shield +1
+Assigned to Rengaard Temple District Sewers - [Item Description]() 
 
-[Silver Shield +2]() - 
+#### Silver Shield +2
+Assigned to Simyaz in Underdark - [Item Description]() 
 
-[Triune Shield +3]() - 
+#### Triune Shield +3
+Assigned to Gromnir Il-Khan in Saradush - [Item Description]() 
 
-[Uthgardt Holy Shield +2]() - 
+#### Uthgardt Holy Shield +2
+Assigned to Revanek in the Twisted Rune - [Item Description]() 
 
 ### Large Shields
 
-[Large Shield of Strength +1]() - 
+#### Large Shield of Strength +1
+Assigned to Jaden (Rasaad's Quest) - [Item Description]()
 
 ## Accessories
 
 ### Amulets
 
-[Amulet of Health]() - 
+#### Amulet of Health
+Assigned to The Huntress in Watcher's Keep Final Seal - [Item Description]()
 
-[Amulet of Pure Love]() - 
+#### Amulet of Pure Love
+Assigned to Diaytha in Sendai's Enclave - [Item Description]()
 
-[Periapt of Wisdom +2]() - 
+#### Periapt of Wisdom +2
+Assigned to Stalman in the Guarded Compound (Temple District) - [Item Description]()
 
-[The Ancient Sermon - Cleric Only]() - 
+#### The Ancient Sermon - Cleric Only
+Assigned to Ameralis Zauviir in Watcher's Keep - [Item Description]()
 
-[Black Wolf Talisman]() - 
+#### Black Wolf Talisman
+Assigned to Captain Egeissag in Sendai's Enclave - [Item Description]() 
 
-[Ysridain's Soul - Bard Only]() - 
+#### Ysridain's Soul - Bard Only
+Assigned to Aawill (Planar Hunter) - [Item Description]()
 
 ### Belts
 
-[Belt of Agility +2]() - 
+#### Belt of Agility +2
+Assigned to Togan in Planar Sphere - [Item Description]()
 
-[Ceremonial Uthgardt Belt]() - 
+#### Ceremonial Uthgardt Belt
+Assigned to Pai'Na under the Graveyard District - [Item Description]()
 
-[Graena's Triumph - Barbarian Only]() - 
+#### Graena's Triumph - Barbarian Only
+Assigned to Maferan in Guarded Compound (Temple District) - [Item Description]()
 
-[Grainstone Belt - Monk Only]() - 
+#### Grainstone Belt - Monk Only
+Assigned to Lemzenn at Two-Fold Temple - [Item Description]() 
 
-[Sash of Shimmering]() - 
+#### Sash of Shimmering
+Assigned to Tracea Carol in Ulgoth's Beard and Kayardi in Planar Sphere - [Item Description]()
 
 ### Boots 
 
-[Boots of Hardiness +1]() - 
+#### Boots of Hardiness +1 (Replace Boots of Speed Component ONLY)
+Replaces Paws of the Cheetah from Drasus and the Token Machine in the Spellhold Maze - [Item Description]()
 
-[Boots of Hardiness +2]() - 
+#### Boots of Hardiness +2 (Replace Boots of Speed Component ONLY)
+Replaces Paws of the Cheetah from Lothander and the Bounty Hunter (Planar Sphere) - [Item Description]()
 
-[Boots of Hardiness +3]() - 
+#### Boots of Hardiness +3 (Replace Boots of Speed Component ONLY)
+Replaces Paws of the Cheetah from Tankard Tree store in Saradush - [Item Description]()
 
-[Boots of Striding +1]() - 
+#### Boots of Striding +1
+Assigned to Anarg in Docks District - [Item Description]()
 
-[Boots of Striding +2]() - 
+#### Boots of Striding +2
+Assigned to Boz in the Underdark - [Item Description]() 
 
-[Boots of Striding +3]() - 
+#### Boots of Striding +3
+Assigned to Yaga-Shura in Siege Camp - [Item Description]()
 
-[Dragon Slippers]() -  
+#### Dragon Slippers (Replace Boots of Speed Component ONLY)
+Replaces Paws of the Cheetah from Illasera the Quick - [Item Description]()
 
-[Kitten Slippers]() - 
+#### Kitten Slippers (Replace Boots of Speed Component ONLY)
+Replaces Paws of the Cheetah from Renal Bloodscalp - [Item Description]()
 
 ### Bracers
 
-[Bracers of Artifice]() - 
+#### Bracers of Artifice
+Assign to Aurumach Rilmani in the Watcher's Keep Final Seal - [Item Description]()
 
-[Imaskari Bracers of Immortality]() - 
+#### Imaskari Bracers of Immortality
+Assign to Berenn in the Fire Giant Temple - [Item Description]()
 
 ### Cloaks
 
-[A Mad Gent's Cloak - Cleric Only]() - 
+#### A Mad Gent's Cloak - Cleric Only
+Assigned to Chandrilla in Underdark - [Item Description]() 
 
-[Antimagic Cloak]() - 
+#### Antimagic Cloak
+Assign to Aurumach Rilmani in the Watcher's Keep Final Seal - [Item Description]()
 
-[Balhodrie's Constant Hearth - Thief Only]() - 
+#### Balhodrie's Constant Hearth - Thief Only
+Assigned to Ketta in the Guarded Compound (Temple District) - [Item Description]()
 
-[Cloak of Burdened Spirits]() - 
+#### Cloak of Burdened Spirits
+Assigned to Berenn in the Fire Giant Temple - [Item Description]()  
 
-[Mantle of Gram the Mouse - Paladin Only]() - 
+#### Mantle of Gram the Mouse - Paladin Only
+Assigned to Reynald de Chatillon in the Bridge District - [Item Description]() 
 
 ### Gauntlets
 
-[Elder Oak Gloves - Druid Only]() -  
+#### Elder Oak Gloves - Druid Only
+Assigned to Nyalee in the Temple of Bhaal (Forest of Mir) - [Item Description]()  
 
-[Favor of Ilum Lura]() - 
+#### Favor of Ilum Lura
+Assigned to The Huntress in Watcher's Keep Final Seal - [Item Description]()
 
-[Ysridain's Touch - Bard Only]() - 
+#### Ysridain's Touch - Bard Only
+Added to Dedrei Bonus Merchant store - [Item Description]()
 
 ### Helmets
 
-[Anagrys' Mindmaze - Wizard/Sorcerer Only]() - 
+#### Anagrys' Mindmaze - Wizard/Sorcerer Only
+Assigned to Layene in the Twisted Rune - [Item Description]() 
 
-[Golden Circlet]() - 
+#### Golden Circlet
+Assigned to Kuo-toan Prince in the Underdark - [Item Description]()
 
-[Helm of Gram the Mouse - Paladin Only]() - 
+#### Helm of Gram the Mouse - Paladin Only
+Added to Deidre Bonus Merchant store - [Item Description]()
 
-[The Regal]() - 
+#### The Regal
+Assigned to Diaytha in Sendai's Enclave - [Item Description]() 
 
 ### Rings
 
-[Bone Dancer's Ring]() - 
+#### Bone Dancer's Ring
+Assigned to Odamaron in Sendai's Enclave - [Item Description]()
 
-[Bone Ring]() - 
+#### Bone Ring
+Assigned to Layene in the Twisted Rune - [Item Description]()

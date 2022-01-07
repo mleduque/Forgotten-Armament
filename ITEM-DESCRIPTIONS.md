@@ -79,7 +79,8 @@ Requires:
 Weight: 5
 
 
-#### Battle Axe +2: Defender (IWD)
+#### Battle Axe +2: Defender 
+(Taken from IWD) - [Item Location]()
 
 Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation, and although not apparent at first, a slight blue glow can be seen emanating from the runes.
 
@@ -108,7 +109,8 @@ Requires:
 Weight: 7
 
 
-#### Deepstone Progeny +2 (NWN2)
+#### Deepstone Progeny +2 
+(Taken from NWN2) - [Item Location]()
 
 Torgin of the Light was a respected and prolific slayer of undead, which made his eventual descent into vampirism all the more tragic. His still-living companions saw the change as an insult to the life he once cherished, and vowed to destroy his undead form. To this end they crafted the Deepstone Progeny, adapted from the weapon that had previously served Torgin so well. History does not record the outcome of the battle between Torgin and his friends, but their axes are found across Faerun.
 
@@ -138,7 +140,8 @@ Weight: 5
 
 ### Bastard Swords
 
-#### Bloodletter +4 - Non-Good Only (NWN2)
+#### Bloodletter +4 - Non-Good Only 
+(Taken from NWN2) - [Item Location]()
 
 Forged in smoldering brimstone fires and cooled in the blood of its creator, a Bloodletter blade is a typically evil weapon, the kind of sword that has inspired more than a little diabolical laughter while being waved in the face of one or another virtuous knight. It is possessed of thoroughly heinous life-stealing energies, but if the fates of its previous owners are any indication, its major characteristic could well be the attraction of "comeuppance."
 
@@ -167,7 +170,8 @@ Requires:
 Weight: 5
 
 
-#### Discord +2 (NWN2)
+#### Discord +2 
+(Taken from NWN2) - [Item Location]()
 
 A line of black crystal runs the length of this blade, marking it the handiwork of Ortius of Gond, the Mad Tinker. Blades from his stock resonate unnaturally when struck, and although mortal ears can barely perceive the tone, they certainly suffer the effects well enough. The origin of the crystal is not clear, though Ortius was known to have bartered his services to planar creatures on occasion.
 
@@ -195,7 +199,8 @@ Requires:
 Weight: 7
 
 
-#### Flaming Bastard Sword +1 (IWD)
+#### Flaming Bastard Sword +1 
+(Taken from IWD) - [Item Location]()
 
 Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation, and although not apparent at first, a slight blue glow can be seen emanating from the runes.
 
@@ -223,7 +228,8 @@ Requires:
 Weight: 10
 
 
-#### Nameless Light +2 (NWN2)
+#### Nameless Light +2 
+(Taken from NWN2) - [Item Location]()
 
 Legend states that the warrior Alesia brought the Nameless Light from the stars, although other tales claim it was forged by a grieving father, or was the weapon of a virtuous paladin. In truth, several such blades exist. They were created with the blessing of the Harpers, and each has had many stories from any number of owners. Perhaps that is their true power: they compel people to craft heroes of their own.
 
@@ -254,7 +260,8 @@ Weight: 7
 
 ### Daggers
 
-#### Ice Talon +2 (NWN2)
+#### Ice Talon +2 
+(Taken from NWN2) - [Item Location]()
 
 Weapons of this type are technically impossible, since their blades are made of nothing but razor-sharp ice crystals. Most sages agree they are kept frozen by some sort of link to the inner planes, but this is ultimately just speculation. Ice Talon daggers show a jagged blade and may have been part of a single larger weapon at one time, though the force required to shatter the magic blade must have been enormous indeed.
 
@@ -279,7 +286,8 @@ Requires:
 Weight: 1
 
 
-#### Mage Dagger +1 (IWD)
+#### Mage Dagger +1 
+(Taken from IWD) - [Item Location]()
 
 Like most typical daggers, this dagger has a pointed, double-edged blade. It has also been imbued with magical abilities which have increased its usefulness. 
 
@@ -307,7 +315,8 @@ Requires:
 Weight: 1
 
 
-#### Mage Dagger +2 (IWD)
+#### Mage Dagger +2 
+(Taken from IWD) - [Item Location]()
 
 Like most typical daggers, this dagger has a pointed, double-edged blade. It has also been imbued with magical abilities which have increased its usefulness. 
 
@@ -336,7 +345,8 @@ Requires:
 Weight: 1
 
 
-#### Myr Styah'be'eh +4 (NWN2)
+#### Myr Styah'be'eh +4 
+(Taken from NWN2) - [Item Location]()
 
 Scholars have long argued over the nature of this blade, claming it as a part of many ancient empires - Mulhorandi, Netherese, Imaskari - but its construction defies the conventions of any known civilization. One young wizard, promptly laughed into obscurity, once put forth an argument that the item was actually of kobold make, that its name - considered untranslatable by all others who had studied it - meant something like "master stabby" in an obscure dialect of that dimunitive people. The scholar's final argument was that as harmless as many consider kobold to be today, they do claim their lineage from dragons - and if this blade is any proof, a weapon does not have to look magnificent to be viciously effective.
 
@@ -368,7 +378,8 @@ Requires:
 Weight: 1
 
 
-#### Static Dagger +1 (IWD)
+#### Static Dagger +1 
+(Taken from IWD) - [Item Location]()
 
 Like most typical daggers, this dagger has a pointed, double-edged blade. It has also been imbued with magical abilities which have increased its usefulness. 
 
@@ -398,7 +409,8 @@ Weight: 1
 
 ### Flails
 
-#### Crooked Flail +1 (IWD)
+#### Crooked Flail +1 
+(Taken from IWD) - [Item Location]()
 
 The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain.
 
@@ -429,6 +441,7 @@ Weight: 15
 ### Halberds
 
 #### Cruel Halberd +3
+(Taken from NWN2) - [Item Location]()
 
 This halberd, permanently stained with the blood of its victims, was wielded by several generations of orc warlords, all who either took it up when the previous owner died in battle or was murdered by a rival. The halberd was lost in the final battle when the orcs were finally driven out of Illusk.
 
@@ -459,7 +472,8 @@ Requires:
 Weight: 12
 
 
-#### Will of Atar +1 (NWN2)
+#### Will of Atar +1 
+(Taken from NWN2) - [Item Location]()
 
 These weapons bear the mark of Atar of the Flame, high shaman of a northern cult that fell under the influence of a creature from the plane of fire. What this entity received in exchange for creating such powerful items is unknown.
 
@@ -486,7 +500,8 @@ Weight: 14
 
 ### Katanas
 
-#### Dragonsblood Katana +2 (NWN2)
+#### Dragonsblood Katana +2 
+(Taken from NWN2) - [Item Location]()
 
 The katana is the pinnacle of the swordsmith's craft, combining grace and artful design with razor-edged efficiency.
  
@@ -514,7 +529,8 @@ Requires:
 Weight: 4
 
 
-#### Kaga-To +1 (NWN2)
+#### Kaga-To +1 
+(Taken from NWN2) - [Item Location]()
 
 If memory serves correctly, these weapons date to the stadium battles of old Kai Chen province, where promising warriors would test their skills against the greatest samurai of the day in ritual combat. If ever a challenger was victorious, he or she won the people's ovation and fame forever, symbolized by a Kaga-To katana. The blade is etched with a simple phrase: "Tell me how you fight, and I will tell you what you are."
 
@@ -542,7 +558,8 @@ Requires:
 Weight: 3
 
 
-#### Master Li's Way +2 (NWN2)
+#### Master Li's Way +2 
+(Taken from NWN2) - [Item Location]()
 
 Once thought a unique instance of the swordmaker's craft, several katanas of this type have now been linked to a ship that ran aground on the Sword Coast some years ago. All bear the markings of Master Hu Li, a great artificer from the east, but little else is known of him.
 
@@ -567,7 +584,8 @@ Requires:
 Weight: 4
 
 
-#### Naught Katana +5 (NWN2)
+#### Naught Katana +5 
+(Taken from NWN2) - [Item Location]()
 
 Once a sacred katana from the imperial court of Shou, the poor combination of an especially canny thief and an especially drowsy guard set this powerful artifact into the wilds along the great twisting Golden Way. It was formed from a slice of an unknown substance, cut from another plane, and forged in an act that drank its creator's soul away... and that the blade seems to be growing slowly more powerful - with a sinking hunger that is never satiated.
 
@@ -595,7 +613,8 @@ Requires:
 Weight: 3
 
 
-#### The Devoted Servant +1 (NWN2)
+#### The Devoted Servant +1 
+(Taken from NWN2) - [Item Location]()
 
 Created for the most loyal samurai of the Shogun, these katana hail from the far-off land of Wa - an island nation within Kara-Tur. How it managed to find its way to you is somewhat of a mystery, but its powers remain thankfully intact.
 
@@ -625,7 +644,8 @@ Weight: 5
 
 ### Long Swords
 
-#### Intercession +1 (IWD)
+#### Intercession +1 
+(Taken from IWD) - [Item Location]()
 
 This long sword was crafted for the well-traveled ranger Kelhanion of Soubar in 1272. Wearing light armor and no shield, Kelhanion wanted a weapon that would protect him in combat. Intercession was made for him by an acquaintance, the wizard Peth of Elturel. The weapon itself is rather mundane in appearance, which is exactly how Kelhanion wanted it to look. It has a plain steel blade that meets a similar guard. The grip of the weapon is wrapped in dark, oiled ogre skin. The sword has a mild form of empathetic instinct, turning in the wielder's hand to impose itself in the path of melee weapons. Intercession was lost with Kelhanion when he was slaughtered by over a dozen trolls in the Trollbark Forest.
 
@@ -653,7 +673,8 @@ Requires:
 Weight: 4
 
 
-#### Long Sword of Action +2 (IWD)
+#### Long Sword of Action +2 
+(Taken from IWD) - [Item Location]()
 
 These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting. The blade of this sword is covered with all sorts of arcane symbols.
 
@@ -681,7 +702,8 @@ Requires:
 Weight: 4
 
 
-#### Spiked Long Sword +1 (IWD)
+#### Spiked Long Sword +1 
+(Taken from IWD) - [Item Location]()
 
 These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting. The blade of this sword is covered with all sorts of arcane symbols.
 
@@ -709,7 +731,8 @@ Requires:
 Weight: 4
 
 
-#### Turodahel +2 (IWD)
+#### Turodahel +2 
+(Taken from IWD) - [Item Location]()
 
 Crafted in 1021 DR for the warrior Makael the Lean, Turodahel has a bloody military history. Makael was a mercenary who sold his services to anyone with the right amount of coin. Shrewd and crafty by reputation, Makael applied his skills and the power of Turodahel carefully for over three decades. It wasn't until after Makael died of a magical disease that legends about the man started to spring up. It is believed by modern sages that Makael is likely to have killed over five hundred men with his sword over the years. It was widely known that Makael was neither especially strong nor tough. People assumed that it must have been the power of the sword that made his deeds possible. Makael's grave was robbed within a few years of his burial.
 
@@ -741,7 +764,8 @@ Weight: 5
 
 ### Maces
 
-#### Petty's Tempest +2 (NWN2) 
+#### Petty's Tempest +2 
+(Taken from NWN2) - [Item Location]() 
 
 The most recent recorded appearance of one of these weapons was in the black markets of Amn, rightfully commanding an impressive price. Several such maces have been found over time, each with an array of elemental spells and effects woven through them. The creator remains elusive, though the name "Petty" is evident on each example. It is possible he is a smith on Toril, but his obvious understanding of planar forces suggests a more traveled origin.
 
@@ -769,7 +793,8 @@ Requires:
 Weight: 7
 
 
-#### Soldier's Might +2 (NWN2)
+#### Soldier's Might +2 
+(Taken from NWN2) - [Item Location]()
 
 It is said that lieutenants in the armies of Algarond were given these weapons, but not told of the flaws in their design. Many of the wielders died, but all fought valiantly and were accorded the honor of heroes of the realm. The generals responsible for these flawed weapons escaped punishment, and today they are remembered among the revered dead.
 
@@ -794,7 +819,8 @@ Type: One-handed
 Weight: 7
 
 
-#### Chef Gronk's Tenderizer +2 (NWN2)
+#### Chef Gronk's Tenderizer +2 
+(Taken from NWN2) - [Item Location]()
 
 Cooking for pirates is a tough job - and it's pretty clear from this instrument that Chef Gronk wasn't just an ordinary Chef. While this hammer appears to have been primarily used for culinary purposes, you can't quite discern whether the bits of meat on it are the remains of the pirate band's most recent meal or their most recent battle.
 
@@ -824,7 +850,8 @@ Weight: 9
 
 ### Morning Stars
 
-#### Bone Phoenix +1 (NWN2)
+#### Bone Phoenix +1 
+(Taken from NWN2) - [Item Location]()
 
 These are the hallmark weapons of the fallen Lord Craghand of Unther, and are named for the fate he suffered. Lacking magical talent himself, Craghand employed a cadre of necromancers in an effort to extend his meager legacy. These wizards succeeded only in damning his court to an age of undeath. Now his mindless form stalks Faerun, his ageless skeletal body rising time and again even if destroyed.
 
@@ -849,7 +876,8 @@ Requires:
 Weight: 9
 
 
-#### Sleepwalker Kin +2 (NWN2)
+#### Sleepwalker Kin +2 
+(Taken from NWN2) - [Item Location]()
 
 These weapons were supposed to be a great breakthrough for the orcs of Amn. Clan leaders liked the idea of rendering enemies helpless, but after the efforts of many shamans and several imprisoned human wizards, the project was abandoned. It seemed that in the hands of the orc elite, a hit strong enough to activate the ability often killed the target anyway, and the extra cost was deemed redundant.
 
@@ -879,7 +907,8 @@ Weight: 8
 
 ### Ninja-Tos
 
-#### Courtesan Blade + 2 (NWN2)
+#### Courtesan Blade + 2 
+(Taken from NWN2) - [Item Location]()
 
 Courtesan assassins were famous for using their wit and charm to infiltrate the intimate chambers of the enemy by the most disarming method imaginable: they were invited. The practice became infamous, which is likely why it is used so infrequently today.
 
@@ -912,7 +941,8 @@ Weight: 3
 
 ### Quarterstaves
 
-#### Rakshasa Staff +3 - Sorcerer/Wizard Only (NWN2)
+#### Rakshasa Staff +3 - Sorcerer/Wizard Only 
+(Taken from NWN2) - [Item Location]()
 
 Enchantments abound in the realms of magic, but some have trouble with the incantations. This staff allows the user to charm another, eliminating the need to study the spells.
 
@@ -946,7 +976,8 @@ Requires:
 Weight: 3
 
 
-#### Remembrance +3 (NWN2)
+#### Remembrance +3 
+(Taken from NWN2) - [Item Location]()
 
 At the twilight of the Illefarn Empire, several elven archmages belonging to the Order of Fallen Leaves devised a plan to store their accumulated magical knowledge into a number of these staves. The plan never reached fruition and the Order was destroyed by orcs and all but one of the staves destroyed.
 
@@ -975,7 +1006,8 @@ Requires:
 Weight: 2
 
 
-#### Staff of Balpheron +1 - Sorcerer/Wizard Only (NWN2)
+#### Staff of Balpheron +1 - Sorcerer/Wizard Only 
+(Taken from NWN2) - [Item Location]()
 
 Legend holds this staff was created by the wizard Balpheron on the eve of his ascension to lichdom. Many believe Balpheron had already chosen his fate, and only wanted the staff to make himself more powerful as a lich. But others claiming it was the staff itself that led him down the dark path, as the creation of such a powerful item pushed the mage beyond his limits and destroyed what remained of his sanity.
 
@@ -1009,7 +1041,8 @@ Weight: 3
 
 ### Scimitars
 
-#### Laughing Blade +2 (NWN2)
+#### Laughing Blade +2 
+(Taken from NWN2) - [Item Location]()
 
 It is doubtful the victim of a Laughing Blade finds anything humorous about it. These items were created by master illusionist Daniel Suther, who wanted an interesting twist in the hedge maze he built. Several automatons were equipped with the weapons and heroes accepting his challenge had to battle them, the maze, and their own senses. Suther was eventually jailed after several deaths on his estate.
 
@@ -1037,7 +1070,8 @@ Requires:
 Weight: 3
 
 
-#### Spider's Kiss +2 (NWN2)
+#### Spider's Kiss +2 
+(Taken from NWN2) - [Item Location]()
 
 The weapon used by the drow druidess, Pai'Na, within the lower tombs of Athkatla. The blade of this dark weapon is slick with a permanent coating of spider venom.
 
@@ -1067,7 +1101,8 @@ Weight: 3
 
 ### Short Swords
 
-#### Sloth +2 (IWD)
+#### Sloth +2 
+(Taken from IWD) - [Item Location]()
 
 The short sword is the first type of sword to come into existence. In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger. The term short sword does not exist in sword classifications. However, it has come to be used to describe a double-edged blade about two feet in length. The sword tip is usually pointed, ideal for thrusting. Inscriptions of power can be seen etched on the surface of the blade.
 
@@ -1097,7 +1132,8 @@ Weight: 3
 
 ### Spears
 
-#### Briarspike +2 (NWN2)
+#### Briarspike +2 
+(Taken from NWN2) - [Item Location]()
 
 Briarspikes look like they could have been plucked from some giant quill-covered beast, but the methods involved are very sophisticated and bear the hallmarks of Menold of Waterdeep. This may shed some light on his fate, as he was reported lost to an orc raid on his tower years ago. He may have attempted to buy his freedom with his services, but it would have only made him more valuable as a prisoner.
 
@@ -1122,7 +1158,8 @@ Requires:
 Weight: 3
 
 
-#### Heartwood Spear +4 (NWN2)
+#### Heartwood Spear +4 
+(Taken from NWN2) - [Item Location]()
 
 This weapon was a gift from the elven nation to the kingdom of Algarond after the declaration of peace between the two peoples in 1065 DR. Spears of this type are carefully crafted, and rumored to come from the wood of Evereska itself.
 
@@ -1152,7 +1189,8 @@ Weight: 3
 
 ### Two-Handed Swords
 
-#### Blade of the Rashemi +3 (NWN2)
+#### Blade of the Rashemi +3 
+(Taken from NWN2) - [Item Location]()
 
 Like all greatswords from the Land of Berserkers, these weapons are massively built, and so durable that some have survived for thousands of years. These swords are notable for their effectiveness against spellcasters, and history records that the land's Witch rulers expelled all known copies out of fear of their abilities.
 
@@ -1185,7 +1223,8 @@ Requires:
 Weight: 10
 
 
-#### Kresselack's Sword +1 (IWD)
+#### Kresselack's Sword +1 
+(Taken from IWD) - [Item Location]()
 
 Kresselack, the barbarian king, once wielded this sword to aid him in his conquest of the northern lands. It is not known, however, how he originally acquired the weapon. Most scholars believe Kresselack simply found the weapon in one of his many conquests. However, rumors do persist that the sword was the creation of some powerful wizard and was commissioned by Kresselack himself. The truth of the matter will never be known.
 
@@ -1213,7 +1252,8 @@ Requires:
 Weight: 12
 
 
-#### Serrated Bone Blade +3 (IWD)
+#### Serrated Bone Blade +3 
+(Taken from IWD) - [Item Location]()
 
 Emanating a faint blue aura, this gigantic weapon is a serrated two-handed sword made of bone. It will occasionally strike with a shocking force of cold, chilling the victim to the bone.
 
@@ -1241,7 +1281,8 @@ Requires:
 Weight: 25
 
 
-#### The Golem's Blade +3 (NWN2)
+#### The Golem's Blade +3 
+(Taken from NWN2) - [Item Location]()
 
 Part of the process in creating a blade golem involves the crafting of a powerful magic sword to serve as one of the golem's "arms." Usually, the sword becomes a part of the golem, losing all enchantment if the golem is destroyed, but the exceptional power and craftsmanship of this particular sword allowed it to survive its golem's destruction.
 
@@ -1272,7 +1313,8 @@ Requires:
 Weight: 11
 
 
-#### Two-Handed Sword +1: Hammering (IWD)
+#### Two-Handed Sword +1: Hammering 
+(Taken from IWD) - [Item Location]()
 
 The two-handed sword is a derivative of the long sword. Weaponsmiths have always looked for ways to improve existing weapons. In an effort to improve the long sword, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to properly swing the sword. The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations. This one is particularly good at its job as it has been enchanted with a few magical properties.
 
@@ -1302,7 +1344,8 @@ Weight: 12
 
 ### Wakizashis
 
-#### Eye of the Sun +3 (NWN2)
+#### Eye of the Sun +3 
+(Taken from NWN2) - [Item Location]()
 
 The markings on this wakizashi indicate it was crafted by a monk of the Sun Soul School. The handle radiates a faint heat when it's grasped.
 
@@ -1327,7 +1370,8 @@ Requires:
 Weight: 2
 
 
-#### The Dark Companion +4 (NWN2)
+#### The Dark Companion +4 
+(Taken from NWN2) - [Item Location]()
 
 This magic weapon has an enhancement bonus to attack and damage, but it doesn't bear the hallmarks of any specific maker.
 
@@ -1360,7 +1404,8 @@ Weight: 1
 
 ### Warhammers
 
-#### Corrosive Hammer +2 (IWD)
+#### Corrosive Hammer +2 
+(Taken from IWD) - [Item Location]()
 
 Like others of its type, this war hammer is made entirely of steel, with a bone-crushing hammer mounted upon an eighteen-inch shaft. It has also been bestowed with a small number of magical properties, however, making it more effective in combat. 
 
@@ -1388,7 +1433,8 @@ Requires:
 Weight: 6
 
 
-#### Lesser Rift Hammer +1 (NWN2)
+#### Lesser Rift Hammer +1 
+(Taken from NWN2) - [Item Location]()
 
 During the Time of Troubles the walls between dimensions seemed particularly thin, and many creatures normally confined to other planes walked the face of Toril. Unfamiliar items appeared as well, including several of these weapons found after portals or rifts were sighted. The true origins of the Rift Hammers have never been explained, and superstitious folk refuse even to hold them for fear they retain the taint of the lower planes.
 
@@ -1413,7 +1459,8 @@ Requires:
 Weight: 6
 
 
-#### Rift Hammer +3 (NWN2)
+#### Rift Hammer +3 
+(Taken from NWN2) - [Item Location]()
 
 During the Time of Troubles the walls between dimensions seemed particularly thin, and many creatures normally confined to other planes walked the face of Toril. Unfamiliar items appeared as well, including several of these weapons found after portals or rifts were sighted. The true origins of the Rift Hammers have never been explained, and superstitious folk refuse even to hold them for fear they retain the taint of the lower planes.
 
@@ -1442,7 +1489,8 @@ Weight: 4
 
 ### Robes
 
-#### Robe of Enfusing (IWD)
+#### Robe of Enfusing 
+(Taken from IWD) - [Item Location]()
 
 Since the age of Netheril, mages have learned to bestow a wide variety of magical properties upon the everyday objects that surround them. A favorite item of such enchantment is the common robe. It is lightweight, affordable, and holds its enchantment well, thereby making it ideal equipment for a mage. Due to their magical heritage, however, only single-, dual-, and multi-class mages may wear these enchanted robes.
 
@@ -1457,7 +1505,8 @@ Equipped abilities:
 Weight: 4
 
 
-#### Robe of Armory (IWD)
+#### Robe of Armory 
+(Taken from IWD) - [Item Location]()
 
 There are a small number of these valuable gold and crimson robes floating around the realms, and all of them are the creation of an abjurer named Delgam of the Many Hands—so called for his extensive use of the expression "on the other hand..." Delgam eschewed imbuing his items with offensive powers or other miscellaneous magic effects. Instead, he focused on what abjurers tend to focus on: defense. His robes were extremely popular, so much so that mages were coming to him from all over the world to demand that he make more for them. Delgam decided to fade into obscurity rather than cater to packs of power-hungry wizards. His robes are his most well-known legacy.
 
@@ -1470,7 +1519,8 @@ Equipped abilities:
 Weight: 5
 
 
-#### Tasha's Atrocious Robe (NWN2)
+#### Tasha's Atrocious Robe 
+(Taken from NWN2) - [Item Location]()
 
 Tasha, the planar-traveling enchantress rumored to be from a parallel prime universe, is perhaps best remembered now for the development of her eponymous dweomer that causes uncontrollable fits of laughter. However, the diminutive wizard also created several powerful artifacts, this robe among them.
 
@@ -1484,7 +1534,8 @@ Equipped abilities:
 Weight: 4
 
 
-#### Will of the Wychlaran (NWN2)
+#### Will of the Wychlaran 
+(Taken from NWN2) - [Item Location]()
 
 Crafted by the male spellcasters of the Rashemi, these robes were originally meant for the witches to wear when they fought a particuarly troublesome foe. However, they are sized to fit both genders in the rare times when both male and female Rashemi spellcasters take to the field of battle, and pit their intense powers and determination against the might of their foes.
 
@@ -1499,7 +1550,8 @@ Weight: 3
 
 ### Leather Armors
 
-#### Armor of Loyalty (NWN2)
+#### Armor of Loyalty 
+(Taken from NWN2) - [Item Location]()
 
 When he angered a rival enchanter, the wizard Mekhari came under repeated attack from his own charmed bodyguards. This was expensive as well as dangerous, so he set about trying to counter the threat in a way that would not mean constantly killing his own men. With armor of this type Mekhari considered his men above reproach. He was proven wrong when his own lieutenant murdered him in a dispute over back wages.
 
@@ -1517,7 +1569,8 @@ Requires:
 Weight: 5
 
 
-#### Aurumvorax Armor (NWN2)
+#### Aurumvorax Armor 
+(Taken from NWN2) - [Item Location]()
 
 This gold-hued armor is supposedly made from the hide of a ferocious aurumvorax, a six-legged wolverine-like beast that devours not only meat, but also precious metals. The diet of the creature gives its hide a spectacular finish and incredible protective qualities, a resilience shared by armor constructed from it.
 
@@ -1537,7 +1590,8 @@ Weight: 5
 
 ### Studded Leather Armors
 
-#### Black Flame Armor (NWN2)
+#### Black Flame Armor 
+(Taken from NWN2) - [Item Location]()
 
 Halfling artificers are credited with creating the best-known modern examples of this heat resistant armor, having apparently constructed a number of suits to combat a marauding efreeti some 50 years ago. The design has since been copied, though the great expense involved and the highly specific focus of the finished item means that copies are rarely seen on the market.
 
@@ -1557,7 +1611,8 @@ Weight: 6
 
 ### Chain Mail Armors
 
-#### Anti-Venom Chainmail (NWN2)
+#### Anti-Venom Chainmail 
+(Taken from NWN2) - [Item Location]()
 
 This armor has been blessed by a priest's Neutralize Poison spell and so grants the bearer protection against venoms of all types. It does not bear the mark of any specific maker.
 
@@ -1575,7 +1630,8 @@ Requires:
 Weight: 20
 
 
-#### Baleful Mail (IWD)
+#### Baleful Mail 
+(Taken from IWD) - [Item Location]()
 
 This armor was crafted in 1221 DR by a duergar smith working for a vengeful priest of Bane named Alerri of West Waterdeep. During Alerri's early days in the priesthood, he frequently provoked and attacked agents of Sune. Unfortunately for Alerri, Lady Firehair's followers employed charm magic to cease the Banite's antics. Once he had been charmed, Alerri was commanded to perform all sorts of embarrassing actions in the streets of Waterdeep. After many years, Alerri decided to honor his god of hate by creating a suit of armor that would protect him from charm magic. He communed with the spiritual minions of Bane to discover the materials and rituals necessary for the suit's creation. Following his master's instructions, he murdered thirteen married couples and had their wedding rings woven into the hem of the mail. He then killed thirteen elves and bathed in their blood, uttering prayers for thirteen hours. When he was finished, his armor protected him from the magic of the Sunites and filled him with irrepressible hate. Alerri went on a crusade against the agents of Sune, Llira, and Hanali Celanil for three years. His killing spree ended when elven archers and priests of Corellon Larethian laid a trap for him on a road going north from Waterdeep.
 
@@ -1594,7 +1650,8 @@ Requires:
 Weight: 45
 
 
-#### Doron's Mistake (NWN2)
+#### Doron's Mistake 
+(Taken from NWN2) - [Item Location]()
 
 Doron was a master dwarven smith, but even masters make mistakes. While disassembling a suit of "worthless elven chain" - for research, of course - he accidentally dropped several links into his forge, and that trace amount of mithral tainted everything he made until he could scour the thing from top to bottom. Each suit made during this time was infused with strange magic, but Doron threw them all on the trash heap, and was known to slap anyone he saw wearing one.
 
@@ -1614,7 +1671,8 @@ Weight: 10
 
 ### Plate Mail Armors
 
-#### Deep Guardian's Plate (NWN2)
+#### Deep Guardian's Plate 
+(Taken from NWN2) - [Item Location]()
 
 In an effort to better protect their soldiers, the artificers of ancient Imaskar set about creating a kind of living symbiote, something that would bond with their user and protect them from harm. Using specimens pulled from the deepest pits of the ocean, the Imaskari spellcasters slowly began to graft these magically-enhanced creatures onto suits of plate mail, weaning them off of salt water and forcing them to rely on magic for nourishment. This technique worked well, allowing the user a far greater resistance to spells than normal... but other magewrights looked upon this creation with a growing fear, worried that a creature that fed on magic might soon grow too hungry and feed upon its masters instead. Because of this, only a few suits of this armor were ever made, and the creatures created by the Imaskari sealed away and forgotten. When Imaskar fell, it is likely they crept back into the silent darkness they'd come from... or possibly changed into something else...
 
@@ -1633,7 +1691,8 @@ Requires:
 Weight: 20
 
 
-#### The Gilded Defender - Dwarven Fighter/Kit Only (NWN2)
+#### The Gilded Defender - Dwarven Fighter/Kit Only 
+(Taken from NWN2) - [Item Location]()
 
 The ring of metal against metal seems to cling to this ornate suit of the very finest armor. Hammered into the most intricate of shapes by the finest dwarven smiths, this armor speaks of the dwarven cultures most honored companions: the Defenders. None shall pass their shield wall and none shall withstand their charge.
 
@@ -1654,7 +1713,8 @@ Weight: 25
 
 ### Full Plate Mail Armors
 
-#### Armor of Freedom (NWN2)
+#### Armor of Freedom 
+(Taken from NWN2) - [Item Location]()
 
 After his escape from magical imprisonment, the warrior-priest Archiel vowed he would never again be captured by sorcery. He devoted years to forging these suits of armor for himself and his companions, but ironically was waylaid by mundane means, and died chained to the wall of an ordinary cell.
 
@@ -1672,7 +1732,8 @@ Requires:
 Weight: 35
 
 
-#### Armor of Gram the Mouse - Paladin Only (NWN2)
+#### Armor of Gram the Mouse - Paladin Only 
+(Taken from NWN2) - [Item Location]()
 
 At the age of eighteen, a small young man from Voonlar named Gram Chandler was inducted into the ranks of the Damaran paladins of Torm. Nicknamed "the Mouse" by his fellow classmates for his small size and great love of cheese, Gram had become well-respected during his time as an initiate. However, when it came time to arm and armor the initiates as full paladins of the church, the embarrassed order found that it did not possess a suit small enough to fit Gram. The priests and paladins apologized to Gram and told him they would get a suit of armor made as quickly as possible. Though Gram's classmates snickered about it, Gram smiled and quietly went about his business.
 
@@ -1696,7 +1757,8 @@ Requires:
 Weight: 50
 
 
-#### Storm Armor of the Earth's Children - Shorty Race Only (NWN2)
+#### Storm Armor of the Earth's Children - Shorty Race Only 
+(Taken from NWN2) - [Item Location]()
 
 This well-crafted suit of full plate armor is sized for smaller humanoids, and is crafted of a strange nonmetallic substance that does not conduct electricity or heat. Lore has it that the substance comes from some other plane of existence.
 
@@ -1720,7 +1782,8 @@ Weight: 40
 
 ### Bucklers
 
-#### Dwarven Mirth (NWN2)
+#### Dwarven Mirth 
+(Taken from NWN2) - [Item Location]()
 
 Among the dwarven people, the father of all bards was the Master Talesmith Simeron Steelhammer. Well-versed in his people's history and lore, he traveled extensively, spreading tales of their culture and achievements. Near the end of his long life, he returned one last time to his home in the Great Rift. From every lintel hung a version of this shield, commissioned by his clansmen to commemorate his homecoming.
 
@@ -1736,7 +1799,8 @@ Requires:
 Weight: 2
 
 
-#### Shield of the Magi (NWN2)
+#### Shield of the Magi 
+(Taken from NWN2) - [Item Location]()
 
 This lightweight shield is of ogre magi construction. Its interior rim is covered with runes of both protection and power.
 
@@ -1761,7 +1825,8 @@ Weight: 1
 
 ### Small Shields
 
-#### The Frostmaiden's Bane (NWN2)
+#### The Frostmaiden's Bane 
+(Taken from NWN2) - [Item Location]()
 
 This mithral light shield of improved cold resistance has languished in the Imaskari Forges for centuries, never having seen use. The priests of Auril it was meant to be used against were instead slain by a particularly nasty magical plague spread by Imaskari sorcerers.
 
@@ -1777,7 +1842,8 @@ Requires:
 Weight: 2
 
 
-#### Protector (NWN2)
+#### Protector 
+(Taken from NWN2) - [Item Location]()
 
 This light shield proudly bears the mark of Luiren, homeland of the strongheart halflings. While few people think of halflings as possessing any real military tradition, the Luiren folk maintain well-organized militias led by the local clergy and supported with powerful divine magic. This shield likely belonged to an ordinary Luiren soldier who fell in defense of his homeland.
 
@@ -1797,7 +1863,8 @@ Weight: 2
 
 ### Medium Shields
 
-#### Kepeturi Crest +3 (NWN2)
+#### Kepeturi Crest +3 
+(Taken from NWN2) - [Item Location]()
 
 This heavy shield was once held in the Mulhorandi prayer towers of Kepetur. After the towers fell to the archfiend Eltab and his minions, it ended up in the powerful hands of the Thayans.
 
@@ -1821,7 +1888,8 @@ Requires:
 Weight: 7
 
 
-#### Laeral's Spell Shield +1 (NWN2)
+#### Laeral's Spell Shield +1 
+(Taken from NWN2) - [Item Location]()
 
 Named for Laeral Silverhand Arunsun, who created the first shield of this type, this large steel shield also imbues the wearer with resistance against spells.
 
@@ -1838,7 +1906,8 @@ Requires:
 Weight: 6
 
 
-#### Silver Shield +2 (NWN2)
+#### Silver Shield +2 
+(Taken from NWN2) - [Item Location]()
 
 This shield is made of the same silvery metal used in the creation of the famed githyanki silver swords and possesses several potent defensive abilities. Whether the githyanki would make it a point to hunt down the bearer of this shield as they do for their silver swords is unknown.
 
@@ -1856,7 +1925,8 @@ Requires:
 Weight: 5
 
 
-#### Triune Shield +3 (NWN2)
+#### Triune Shield +3 
+(Taken from NWN2) - [Item Location]()
 
 Sacred to the triple goddesses of Rashemen - Bhalla, Mielikki, and the Hidden One - the powers of the three that protect the land have invested their interest in this shield, and reflect their united desire to protect its user.
 
@@ -1874,7 +1944,8 @@ Requires:
 Weight: 3
 
 
-#### Uthgardt Holy Shield +2 (NWN2)
+#### Uthgardt Holy Shield +2 
+(Taken from NWN2) - [Item Location]()
 
 The Uthgardt value strength above all, and these shields provide strength to spare. They also disdain fancy talk and fine words, and the shields do their best to make the wearer as barbaric as the wild men of the north.
 
@@ -1894,7 +1965,8 @@ Weight: 7
 
 ### Large Shields
 
-#### Large Shield of Strength +1 (IWD)
+#### Large Shield of Strength +1 
+(Taken from IWD) - [Item Location]()
 
 The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm, and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
 
@@ -1917,7 +1989,8 @@ Weight: 12
 
 ### Amulets
 
-#### Amulet of Health (NWN2)
+#### Amulet of Health 
+(Taken from NWN2) - [Item Location]()
 
 Natnea Chesh was one of the first priestesses of Kelemvor in the Moonshae Islands, and became known as "The Defender of the Dead", when she helped stop a necromancer from raising an army of undead. As a gift for her heroic deeds, Kelemvor gave her this amulet, along with the secret of making copies for other clerics dedicated to the destruction of powerful undead creatures. Many a thief has since found these items to be invaluable in their line of work as well.
 
@@ -1931,7 +2004,8 @@ Equipped abilities:
 Weight: 1
 
 
-#### Amulet of Pure Love (NWN2)
+#### Amulet of Pure Love 
+(Taken from NWN2) - [Item Location]()
 
 This amulet appears plain and unordinary. When you hold it in your hand, you think you feel a faint echo - an echo of happiness, of complete fulfillment. But as soon as you release the amulet, the feeling is gone and you're unsure whether it was real or imagined.
 
@@ -1951,7 +2025,8 @@ Charge abilities:
 Weight: 1
 
 
-#### Periapt of Wisdom +2 (NWN2)
+#### Periapt of Wisdom +2 
+(Taken from NWN2) - [Item Location]()
 
 Although it appears to be a simple pearl on a light chain, a Periapt of Wisdom is a powerful item. These items improve perception and insight, and are often used as meditative tools by high-ranking clergy of a faith.
 
@@ -1963,7 +2038,8 @@ Equipped abilities:
 Weight: 1
 
 
-#### The Ancient Sermon - Cleric Only (NWN2)
+#### The Ancient Sermon - Cleric Only 
+(Taken from NWN2) - [Item Location]()
 
 Prized almost universally by clerics of every deity, these rare amulets are said to bestow a god or goddess's favored gaze on the user, granting them additional spells and divine protection.
 
@@ -1976,7 +2052,8 @@ Equipped abilities:
 Weight: 1
 
 
-#### Black Wolf Talisman (IWD)
+#### Black Wolf Talisman 
+(Taken from IWD) - [Item Location]()
 
 This crude talisman appears to be nothing more than a flat piece of stone with a wolf's paw painted on it. Despite its simple appearance, the Black Wolf Talisman contains powerful beneficial magic.
 
@@ -1991,7 +2068,8 @@ Equipped abilities:
 Weight: 1
 
 
-#### Ysridain's Soul - Bard Only (NWN2)
+#### Ysridain's Soul - Bard Only 
+(Taken from NWN2) - [Item Location]()
 
 Everyone said that the bard Ysridain's ability with a lute was exceptional, but a few maintained that it was something more, something supernatural. After Ysridain's death at the hands of a jilter lover, the people of Waterdeep learned just how true those rumors had been. Early in his career, Ysridain realized that his physical beauty was far greater than his talent with music. He was a gifted musician, but he knew he would never be legendary unless he had assistance. Ysridain contracted a wizard to summon forth a powerful demon so the bard could negotiate a pact with the forces of darkness. A succubus answered the call. She agreed to inspire Ysridain with creative forces beyond his understanding. In exchange, upon his death, all that had resulted from her inspiration and Ysridain's soul would be hers.
 
@@ -2007,7 +2085,8 @@ Weight: 1
 
 ### Belts
 
-#### Belt of Agility +2 (NWN2)
+#### Belt of Agility +2 
+(Taken from NWN2) - [Item Location]()
 
 Attempting to form an anti-thieves' guild, Ronger Delphos, a successful merchant, paid thieves to become security experts, to guard merchants in Waterdeep. The guards were trained to use wands with the Hold Person spell, to capture the thieves for interrogation. To counteract this security measure, magical belts were purchased by the thieves' guild, which nullified the effects of such spells. In the escalating war between the two guilds, many of these belts found their way into pawnshops and equipment stores.
 
@@ -2020,7 +2099,8 @@ Charge abilities:
 Weight: 2
 
 
-#### Ceremonial Uthgardt Belt (NWN2)
+#### Ceremonial Uthgardt Belt 
+(Taken from NWN2) - [Item Location]()
 
 In an attempt to keep the thriving Uthgardt clans under control, a long-forgotten gathering of druids inflicted them with a virulent pox. This disease soon spread out of control, and far from curbing their numbers actually threatened their extinction. To maintain the balance, these same druids created a number of these ceremonial belts to ensure the survival of the clan's leaders. Ultimately the Uthgardt survived the plague, though the incident did not improve their opinion of outsiders.
 
@@ -2033,7 +2113,8 @@ Equipped abilities:
 Weight: 2
 
 
-#### Graena's Triumph - Barbarian Only (NWN2)
+#### Graena's Triumph - Barbarian Only 
+(Taken from NWN2) - [Item Location]()
 
 The famous barbarian explorer Graena was a member of the Sky Pony tribe of the Uthgardt northerners. When she tried to leave the tribe to seek her fortune in southern lands, the elders of the tribe told her she could not leave. At that time, only men were allowed to leave the tribe. The elders believed women were too valuable to let go. In order to prove herself to the elders, Graena had to run a gauntlet of the strongest warriors in the tribe and wrest the belt of the head warrior from his body. Graena underwent the challenge and emerged bloody and broken, but victorious. According to tribal law, she was now the head warrior of the tribe and effectively male. The elders knew she was going to leave, but they gave her a warrior's name, Graena Blood-Has-Dried. She left the tribe, relinquished her position to the old head warrior, and returned his belt to him. But before she left, she swore to never harm a member of the tribe if she encountered one in the future.
 
@@ -2048,7 +2129,8 @@ Equipped abilities:
 Weight: 2
 
 
-#### Grainstone Belt - Monk Only (NWN2)
+#### Grainstone Belt - Monk Only 
+(Taken from NWN2) - [Item Location]()
 
 The Dark Moon sect has a reputation for hardiness in the hand-to-hand combat challenges they hold annually. Unbeknownst to the other monastic orders, the Dark Moon sect has developed this belt which gives their champions an unfair advantage over their unenhanced brethren.
 
@@ -2061,7 +2143,8 @@ Equipped abilities:
 Weight: 2
 
 
-#### Sash of Shimmering (NWN2)
+#### Sash of Shimmering 
+(Taken from NWN2) - [Item Location]()
 
 When the wizard Midnight saw her abilities grow so great as to assume a station amongst the gods, her soul drank magic straight from the fabric of the weave. She ascended, abandoning much of her mortal self and belongings, though they too were transformed. The sash she wore absorbed so much energy that it sundered, and each of the many pieces became a powerful item in its own right, protecting the wielder from magical attack.
 
@@ -2076,7 +2159,8 @@ Weight: 2
 
 ### Boots 
 
-#### Boots of Hardiness +1 (NWN2)
+#### Boots of Hardiness +1 
+(Taken from NWN2) - [Item Location]()
 
 Having explored the northlands extensively, a druid named Aawill commissioned the creation of these comfortable boots. Knowing he was heading for the sometimes-dangerous domain of the Neverwinter Woods, Aawill was looking for something helpful in combat, to lighten his need for armor. Since becoming the Archdruid for the Neverwinter Wood's Druid Grove, Aawill has commissioned several, more powerful versions of his original boots.
 
@@ -2089,7 +2173,8 @@ Equipped abilities:
 Weight: 4
 
 
-#### Boots of Hardiness +2 (NWN2)
+#### Boots of Hardiness +2 
+(Taken from NWN2) - [Item Location]()
 
 Having explored the northlands extensively, a druid named Aawill commissioned the creation of these comfortable boots. Knowing he was heading for the sometimes-dangerous domain of the Neverwinter Woods, Aawill was looking for something helpful in combat, to lighten his need for armor. Since becoming the Archdruid for the Neverwinter Wood's Druid Grove, Aawill has commissioned several, more powerful versions of his original boots.
 
@@ -2102,7 +2187,8 @@ Equipped abilities:
 Weight: 4
 
 
-#### Boots of Hardiness +3 (NWN2)
+#### Boots of Hardiness +3 
+(Taken from NWN2) - [Item Location]()
 
 Having explored the northlands extensively, a druid named Aawill commissioned the creation of these comfortable boots. Knowing he was heading for the sometimes-dangerous domain of the Neverwinter Woods, Aawill was looking for something helpful in combat, to lighten his need for armor. Since becoming the Archdruid for the Neverwinter Wood's Druid Grove, Aawill has commissioned several, more powerful versions of his original boots.
 
@@ -2115,7 +2201,8 @@ Equipped abilities:
 Weight: 4
 
 
-#### Boots of Striding +1 (NWN2)
+#### Boots of Striding +1 
+(Taken from NWN2) - [Item Location]()
 
 Blessed by priests of Shaundakul the Windrider, these boots seem to make even the most arduous journey easier and more pleasant. This is accomplished not by increasing the wearer's speed, but by making him hardier and more resistant to pain. Numerous versions of these boots exist, their power varying largely in accordance with the priest who blessed them.
 
@@ -2127,7 +2214,8 @@ Equipped abilities:
 Weight: 4
 
 
-#### Boots of Striding +2 (NWN2)
+#### Boots of Striding +2 
+(Taken from NWN2) - [Item Location]()
 
 Blessed by priests of Shaundakul the Windrider, these boots seem to make even the most arduous journey easier and more pleasant. This is accomplished not by increasing the wearer's speed, but by making him hardier and more resistant to pain. Numerous versions of these boots exist, their power varying largely in accordance with the priest who blessed them.
 
@@ -2139,7 +2227,8 @@ Equipped abilities:
 Weight: 4
 
 
-#### Boots of Striding +3 (NWN2)
+#### Boots of Striding +3 
+(Taken from NWN2) - [Item Location]()
 
 Blessed by priests of Shaundakul the Windrider, these boots seem to make even the most arduous journey easier and more pleasant. This is accomplished not by increasing the wearer's speed, but by making him hardier and more resistant to pain. Numerous versions of these boots exist, their power varying largely in accordance with the priest who blessed them.
 
@@ -2151,7 +2240,8 @@ Equipped abilities:
 Weight: 4
 
 
-#### Dragon Slippers (NWN2) 
+#### Dragon Slippers 
+(Taken from NWN2) - [Item Location]() 
 
 Feryl Dragonhunter was a monster of a man who, with four kills to his credit, thought he had perfected the art of dragon slaying. He aided his efforts by creating magical equipment from his previous victories, including several different boots he mockingly called his Dragon Slippers. Amazingly, Feryl was not defeated by his preferred enemy, but was surprised by a small band of goblins on his way to a hunt.
 
@@ -2165,7 +2255,8 @@ Equipped abilities:
 Weight: 4
 
 
-#### Kitten Slippers (NWN2)
+#### Kitten Slippers 
+(Taken from NWN2) - [Item Location]()
 
 Crafted for a rich noble who wanted too much to masquerade as a daring thief - creeping about 'on little cat feet' - these boots hold many excellent enchantments to aid their user in all kinds of covert endeavors. They do, however, come with a warning to use them wisely: despite their powers, they provide no protection against a well-placed knife... as the noble found out himself when the local thieves guild wished to show their 'disapproval' of his nightly actions.
 
@@ -2180,7 +2271,8 @@ Weight: 4
 
 ### Bracers
 
-#### Bracers of Artifice (NWN2)
+#### Bracers of Artifice 
+(Taken from NWN2) - [Item Location]()
 
 Created by ancient Imaskari artificers, bracers such as these hid extraordinary powers underneath their simple copper exteriors. In addition to protecting their user from harm with all the benefits of heavy armor - and none of the drawbacks - they let them focus and collect their arcane energy more efficently.
 
@@ -2194,7 +2286,8 @@ Equipped abilities:
 Weight: 2
 
 
-#### Imaskari Bracers of Immortality (NWN2)
+#### Imaskari Bracers of Immortality 
+(Taken from NWN2) - [Item Location]()
 
 These ancient bracers were presumably found in the depths of the Sunken City. Their craftsmenship suggests an Imaskari origin and despite being clearly magical, they look badly worn through the passage of millenia. You cannot be sure whether their magic has faded as much as their appearance has.
 
@@ -2209,7 +2302,8 @@ Weight: 2
 
 ### Cloaks
 
-#### A Mad Gent's Cloak - Cleric Only (NWN2)
+#### A Mad Gent's Cloak - Cleric Only 
+(Taken from NWN2) - [Item Location]()
 
 In the not-so-distant history of Abeir-Toril, the deities of the world were cast out of their celestial and infernal homes by the High God, Ao. The gods were forced to inhabit the bodies of mortals and walk the face of Faerun. This was an aptly-named Time of Troubles for most people in the world. For Madachi Jhent of Waterdeep, it meant the end of his fortune, his family, and his sanity.
 
@@ -2226,7 +2320,8 @@ Equipped abilities:
 Weight: 3
 
 
-#### Antimagic Cloak (NWN2)
+#### Antimagic Cloak 
+(Taken from NWN2) - [Item Location]()
 
 This plain-looking cloak is made from the fibers of plants specially cultivated during the Time of Troubles, and the weave of the cloak is woven counter to the magical Weave of Faerun. The result is that magic in its vicinity tends to fade and lose its power, making this a handy item to have when confronting mages.
 
@@ -2243,7 +2338,8 @@ Charge abilities:
 Weight: 3
 
 
-#### Balhodrie's Constant Hearth - Thief Only (NWN2)
+#### Balhodrie's Constant Hearth - Thief Only 
+(Taken from NWN2) - [Item Location]()
 
 Balhoderie the Wrathful was a pirate captain in Nelanther in the mid-1300s DR. Though he was known for his great temper and brutality, he was rather sensitive when it came to physical discomfort from the elements. He was constantly commanding his underlings to add wood to his fires or open windows in his cabin. He was so annoyed by the inability of his crew to constantly maintain a perfect temperature around him that he hunted down a Stormlord of Talos and slew him for his cloak.
 
@@ -2260,7 +2356,8 @@ Equipped abilities:
 Weight: 3
 
 
-#### Cloak of Burdened Spirits (IWD)
+#### Cloak of Burdened Spirits 
+(Taken from IWD) - [Item Location]()
 
 This incredibly heavy cloak was a gift from Sister Calliana for saving the soul of the Voice of Durdel Anatha. It was originally worn by a penitent necromancer who was ashamed at how he had abused the souls of the dead. The cloak is dark gray and made of five layers of thick, heavy wool.
 
@@ -2272,7 +2369,8 @@ Equipped abilities:
 Weight: 80
 
 
-#### Mantle of Gram the Mouse - Paladin Only (NWN2)
+#### Mantle of Gram the Mouse - Paladin Only 
+(Taken from NWN2) - [Item Location]()
 
 In 926 DR, ranks of the fighting orders of Torm grew thin due to a number of factors. In the northern reaches of the Dalelands, there were few who upheld the principles of duty and honor. The small number of priests there had a small trickle of converts to the faith and even fewer paladin candidates. But, on his thirteenth birthday, a local boy named Gram Chandler was presented to the church of Torm in Voonlar with the hopes that he would join one of their fighting orders. At first, the priests dismissed the boy because they thought he could be no older than nine years old. To their shock, they learned that his size was simply dwarfish for his age.
 
@@ -2289,7 +2387,8 @@ Weight: 3
 
 ### Gauntlets
 
-#### Elder Oak Gloves - Druid Only (NWN2) 
+#### Elder Oak Gloves - Druid Only 
+(Taken from NWN2) - [Item Location]() 
 
 Originally crafted by the druids of the High Forest from bark shed by the oldest living oaks in the wood, these potent gloves give the wearer a supernatural attunement with the natural world around him. The ancient treant Turlang is said to bestow Elder Oak Gloves upon druids who perform a great service in protection of the High Forest. 
 
@@ -2302,7 +2401,8 @@ Equipped abilities:
 Weight: 2
 
 
-#### Favor of Ilum Lura (NWN2)
+#### Favor of Ilum Lura 
+(Taken from NWN2) - [Item Location]()
 
 The city of Nivian in ancient Illefarn observed an annual custom in which the six districts of the city vied for possession of the statue of a local hero. The tradition dictated that each of the districts participate in a non-lethal grand melee. The last combatant standing claimed the prize for his or her district. Since civic chaos was not the desired effect, each district had a champion that fought for its citizens. Though not required, champions often enjoyed a large morale boost when they had the patronage of a noble family.
 
@@ -2318,7 +2418,8 @@ Equipped abilities:
 Weight: 2
 
 
-#### Ysridain's Touch - Bard Only (NWN2)
+#### Ysridain's Touch - Bard Only 
+(Taken from NWN2) - [Item Location]()
 
 Besides his prized lute, the seductive half-elven minstrel Ysridain's most valued possessions were his hands. During one of his most famous affairs, Ysridain managed to seduce one of the most powerful wizards in old Waterdeep. This wizard, Crestana, cherished Ysridain's company so much that she crafted anything he wanted at the slightest suggestion. The product of one such request was a pair of fine, thin gloves that protected Ysridain's hands and made him even more charming.
 
@@ -2334,7 +2435,8 @@ Weight: 1
 
 ### Helmets
 
-#### Anagrys' Mindmaze - Wizard/Sorcerer Only (NWN2)
+#### Anagrys' Mindmaze - Wizard/Sorcerer Only 
+(Taken from NWN2) - [Item Location]()
 
 Anagrys Brightbrass was a talented gold dwarf wizard who hailed from the Great Rift, far to the south of Neverwinter. Although the folk of the North might be surprised by the idea of a dwarven wizard, the gold dwarves lack the suspicion of magic commonly held by shield dwarves. From an early age, Anagrys showed an aptitude for magic, and when she came of age at 50, her family enrolled her in the Academy Arcane deep within the Rift.
 
@@ -2350,7 +2452,8 @@ Equipped abilities:
 Weight: 0
 
 
-#### Golden Circlet (NWN2)
+#### Golden Circlet 
+(Taken from NWN2) - [Item Location]()
 
 Creatures that attack the mind are the stuff of nightmares, so it is not surprising that items protecting against them might acquire some of their disrepute. Golden Circlets, for example, have been linked to a claim that when the drow first retreated underground they fed on intellect devourers, and that eating such a creature without wearing a circlet produced a mind flayer. This is all, of course, nothing more than superstitious tavern talk.
 
@@ -2364,7 +2467,8 @@ Equipped abilities:
 Weight: 1
 
 
-#### Helm of Gram the Mouse - Paladin Only (NWN2)
+#### Helm of Gram the Mouse - Paladin Only 
+(Taken from NWN2) - [Item Location]()
 
 Three years into his paladin training deep in the frozen land of Damara, the sixteen year-old Gram "the Mouse" found himself part of a patrol that was scouring the countryside for lost pilgrims that may have been slain by marauding orcish invaders. He had earned his nickname due to his small size and his insatiable appetite for cheese. Unfortunately, this epithet also biased many of the other candidates against him. He was not trusted with serious tasks, certainly not ones that required martial prowess.
 
@@ -2380,7 +2484,8 @@ Equipped abilities:
 Weight: 2
 
 
-#### The Regal (NWN2)
+#### The Regal 
+(Taken from NWN2) - [Item Location]()
 
 This bronze helm was last worn by a hero of little fame who led a crusade into the Underdark. His goal? To eliminate the drow. His mission sadly failed, the hero lies in an unmarked grave. His helmet was taken as a trophy by the drow who slaughtered him.
 
@@ -2396,7 +2501,8 @@ Weight: 2
 
 ### Rings
 
-#### Bone Dancer's Ring (NWN2)
+#### Bone Dancer's Ring 
+(Taken from NWN2) - [Item Location]()
 
 Crafted from stone or ivory, the power of this ring belies its simple appearance. Previously a Bone Ring carved by the Myrkulite faithful, when the wearer was raised to the promising rank of Bone Dancer, their rings were taken and consecrated with additional dark blessings, bringing them closer to the nature of the undead that they saw fit to use - and often emulate.
 
@@ -2409,7 +2515,8 @@ Equipped Abilities:
 Weight: 0
 
 
-#### Bone Ring (NWN2)
+#### Bone Ring 
+(Taken from NWN2) - [Item Location]()
 
 Crafted by clerics of Myrkul, these rings are carved from stone or ivory as often as from bone, but are never made of metal. The rings grant their wearer immunity to energy drain and ability drain attacks.
 
