@@ -33,8 +33,8 @@ TWO-HANDED: This fighting style allows the character to use a two-handed melee w
 - Specialized (2 slots): The wielder gets a +2 bonus to damage rolls, a -4 bonus to Speed Factor, and an extra attack per round (or 0.5 APR depending on the component selected) when using a two-handed weapon.
 
 SWORD AND SHIELD: Anyone can pick up a shield and get its basic protection bonuses, but by spending slots on this fighting style, an adventurer can maximize the benefits received.
-- Proficient (1 slot): The wielder gets a -1 bonus to AC and a -1 bonus to Speed Factor.
-- Specialized (2 slots): The wielder gets a -2 bonus to AC and a -2 bonus to Speed Factor.
+- Proficient (1 slot): The wielder gets a -1 bonus to AC.
+- Specialized (2 slots): The wielder gets a -2 bonus to AC and a becomes immune to dragon Wing Buffets.
 
 NOTE: Despite the name of this style, any one-handed melee weapon in combination with a shield will receive the aforementioned bonuses.
 
