@@ -9,7 +9,8 @@
 ///////////////////////////////////////////////////////////////////////////
 COPY ~forgotten-armament/spl/MO2HAPR.SPL~   ~override/MO2HAPR.SPL~
 COPY ~forgotten-armament/2da/STYLBONU.2DA~  ~override/STYLBONU.2DA~
-COPY ~forgotten-armament/eff/moswsh01.eff~  ~override/moswsh01.eff~
+COPY ~forgotten-armament/eff/MOSWSH01.SPL~  ~override/MOSWSH01.SPL~
+COPY ~forgotten-armament/eff/MOSWSH01.EFF~  ~override/MOSWSH01.EFF~
 
 ///////////////////////////////////////////////////////////////////////////
 // Set Descriptions                                                      //
@@ -85,5 +86,10 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 1 STR_VAR resource = ~MO2HAPR~ END
   END ELSE PATCH_IF (prof = 0) && (type = 28) BEGIN // Fist Weapons
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 1 STR_VAR resource = ~MO2HAPR~ END
+  END
+
+  PATCH_IF (type = 12) BEGIN // Shields
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 318 target = 1 parameter1 = 0 parameter2 = %swsh_bonus% timing = 2 STR_VAR resource = ~MOSWSH01~ END
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter1 = 0 parameter2 = 1 timing = 2 STR_VAR resource = ~MOSWSH01~ END 
   END
   BUT_ONLY
