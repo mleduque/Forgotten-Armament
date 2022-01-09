@@ -82,7 +82,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
     (prof = 106) OR       // Dart
     (prof = 107) OR       // Sling
     (prof = 108) OR       // Black Jack
-    (prof = 115) OR BEGIN // Club
+    (prof = 115) BEGIN // Club
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 1 STR_VAR resource = ~MO2HAPR~ END
   END ELSE PATCH_IF (prof = 0) && (type = 28) BEGIN // Fist Weapons
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 1 STR_VAR resource = ~MO2HAPR~ END
