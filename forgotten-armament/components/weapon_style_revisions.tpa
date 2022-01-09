@@ -89,7 +89,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   END
 
   PATCH_IF (type = 12) BEGIN // Shields
-    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter1 = 0 parameter2 = 1 timing = 2 STR_VAR resource = ~MOSWSH01~ END 
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 177 target = 1 parameter1 = 0 parameter2 = 2 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSWSH01~ END 
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 318 target = 1 parameter1 = 0 parameter2 = %swsh_bonus% timing = 2 STR_VAR resource = ~MOSWSH01~ END
   END
   BUT_ONLY
