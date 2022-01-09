@@ -9,12 +9,7 @@
 ///////////////////////////////////////////////////////////////////////////
 COPY ~forgotten-armament/spl/MO2HAPR.SPL~   ~override/MO2HAPR.SPL~
 COPY ~forgotten-armament/2da/STYLBONU.2DA~  ~override/STYLBONU.2DA~
-//COPY ~forgotten-armament/eff/mocr01.eff~  ~override/mocr01.eff~
-//COPY ~forgotten-armament/eff/mocr02.eff~  ~override/mocr02.eff~
-//COPY ~forgotten-armament/eff/mopr01.eff~  ~override/mopr01.eff~
-//COPY ~forgotten-armament/eff/mopr02.eff~  ~override/mopr02.eff~
-//COPY ~forgotten-armament/eff/mosl01.eff~  ~override/mosl01.eff~
-//COPY ~forgotten-armament/eff/mosl02.eff~  ~override/mosl02.eff~
+COPY ~forgotten-armament/eff/moswsh01.eff~  ~override/moswsh01.eff~
 
 ///////////////////////////////////////////////////////////////////////////
 // Set Descriptions                                                      //
@@ -31,8 +26,7 @@ END
 // Add Bonuses to SPLPROT.2da                                            //
 ///////////////////////////////////////////////////////////////////////////
 APPEND ~splprot.2da~ ~mo_2h_bonus%TAB%111%TAB%2%TAB%2~ UNLESS ~mo_2h_bonus~
-//APPEND ~splprot.2da~ ~mo_ss1_bonus%TAB%112%TAB%1%TAB%4~ UNLESS ~mo_ss1_bonus~
-//APPEND ~splprot.2da~ ~mo_ss2_bonus%TAB%112%TAB%2%TAB%4~ UNLESS ~mo_ss2_bonus~
+APPEND ~splprot.2da~ ~mo_swsh_bonus%TAB%112%TAB%2%TAB%4~ UNLESS ~mo_swsh_bonus~
 COPY_EXISTING ~splprot.2da~ ~override~
     COUNT_2DA_COLS cols
     READ_2DA_ENTRIES_NOW rows cols
@@ -41,14 +35,9 @@ COPY_EXISTING ~splprot.2da~ ~override~
       // 2H APR Bonus
       PATCH_IF ~%stat%~ STRING_EQUAL_CASE ~mo_2h_bonus~ BEGIN 
         SET 2h_bonus = %row%
-      /*
-      // Sword and Shield 1 pip Bonus
-      END ELSE PATCH_IF ~%stat%~ STRING_EQUAL_CASE ~mo_ss1_bonus~ BEGIN
-        SET ss1_bonus = %row%
       // Sword and Shield 2 pip Bonus
-      END ELSE PATCH_IF ~%stat%~ STRING_EQUAL_CASE ~mo_ss2_bonus~ BEGIN
-        SET ss2_bonus = %row%
-        */
+      END ELSE PATCH_IF ~%stat%~ STRING_EQUAL_CASE ~mo_swsh_bonus~ BEGIN
+        SET swsh_bonus = %row%
       END
     END
 
