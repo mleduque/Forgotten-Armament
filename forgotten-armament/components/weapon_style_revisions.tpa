@@ -9,7 +9,7 @@
 ///////////////////////////////////////////////////////////////////////////
 COPY ~forgotten-armament/spl/MO2HAPR.SPL~   ~override/MO2HAPR.SPL~
 COPY ~forgotten-armament/2da/STYLBONU.2DA~  ~override/STYLBONU.2DA~
-COPY ~forgotten-armament/eff/MOSWSH01.SPL~  ~override/MOSWSH01.SPL~
+COPY ~forgotten-armament/spl/MOSWSH01.SPL~  ~override/MOSWSH01.SPL~
 COPY ~forgotten-armament/eff/MOSWSH01.EFF~  ~override/MOSWSH01.EFF~
 
 ///////////////////////////////////////////////////////////////////////////
