@@ -1,4 +1,4 @@
-## Version 0.22 BETA
+## Version 0.2.2 BETA
 
 January 17, 2022
 
