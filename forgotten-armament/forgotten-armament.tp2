@@ -13,17 +13,15 @@ README ~forgotten-armament/readme.html~
 ASK_EVERY_COMPONENT
 
 ALWAYS
-
 	ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) THEN BEGIN FAIL @3001 END
-
-	ACTION_DEFINE_ARRAY cdreload BEGIN item_descriptions style_descriptions END
-	LAF HANDLE_CHARSETS INT_VAR infer_charsets = 1 STR_VAR tra_path = ~forgotten-armament/languages~ reload_array = cdreload END
-
 END
 
-LANGUAGE ~American English~
-         ~american~
-         ~forgotten-armament/languages/american/setup.tra~
+AUTO_TRA ~forgotten-armament/languages/%s~
+LANGUAGE ~English~
+         ~english~
+         ~forgotten-armament/languages/english/setup.tra~
+         ~forgotten-armament/languages/english/item_descriptions.tra~
+         ~forgotten-armament/languages/english/style_descriptions.tra~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
