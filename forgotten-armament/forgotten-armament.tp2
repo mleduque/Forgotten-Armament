@@ -7,7 +7,7 @@
 BACKUP ~forgotten-armament/backup~
 AUTHOR ~morpheus562~
 
-VERSION ~v0.2.2-beta~
+VERSION ~v0.3-beta~
 README ~forgotten-armament/readme.html~
 
 ASK_EVERY_COMPONENT
@@ -83,6 +83,7 @@ LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 INCLUDE ~forgotten-armament/components/stat_item_update.tpa~
 */
 
+/*
 ///////////////////////////////////////////////////////////////////////////
 // Two Handed Weapon Revisions                                           //
 ///////////////////////////////////////////////////////////////////////////
@@ -104,6 +105,8 @@ LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/style_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/full_apr.tpa~
 INCLUDE ~forgotten-armament/components/weapon_style_revisions.tpa~
+
+*/
 
 ///////////////////////////////////////////////////////////////////////////
 // Replace Boots of Speed (Paws of the Cheetah)                          //

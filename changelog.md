@@ -1,3 +1,12 @@
+## Version 0.3 BETA
+
+February 4, 2022
+
+### Changed
+
+- Removed Weapon Style Changes, these are now part of my Skills and Abilities mod.
+- Updated TRA files.
+
 ## Version 0.2.2 BETA
 
 January 17, 2022
