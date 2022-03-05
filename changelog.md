@@ -1,3 +1,11 @@
+## Version 0.4 BETA
+
+March 4, 2022
+
+### Changed
+
+- Added French translations courtesy of JohnBob.
+
 ## Version 0.3 BETA
 
 February 4, 2022

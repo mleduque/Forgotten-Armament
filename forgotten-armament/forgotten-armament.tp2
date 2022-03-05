@@ -7,7 +7,7 @@
 BACKUP ~forgotten-armament/backup~
 AUTHOR ~morpheus562~
 
-VERSION ~v0.3-beta~
+VERSION ~v0.4-beta~
 README ~forgotten-armament/readme.html~
 
 ASK_EVERY_COMPONENT
@@ -22,6 +22,11 @@ LANGUAGE ~English~
          ~forgotten-armament/languages/english/setup.tra~
          ~forgotten-armament/languages/english/item_descriptions.tra~
          ~forgotten-armament/languages/english/style_descriptions.tra~
+LANGUAGE ~French~
+         ~french~
+         ~forgotten-armament/languages/french/setup.tra~
+         ~forgotten-armament/languages/french/item_descriptions.tra~
+         ~forgotten-armament/languages/french/style_descriptions.tra~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////

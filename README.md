@@ -1,7 +1,7 @@
 # Forgotten-Armament
 
 [![Latest Release](https://img.shields.io/github/v/release/gibberlings3/Forgotten-Armament?include_prereleases)](https://github.com/Gibberlings3/Forgotten-Armament/releases/latest)
-![Language](https://img.shields.io/static/v1?label=language&message=english&color=informational)
+![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french&color=informational)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 
 [A Gibberlings Three Mod](https://www.gibberlings3.net/)
@@ -28,6 +28,10 @@ A list of the item locations is [here](https://github.com/Gibberlings3/Forgotten
 
 This component replaces Boots of Speed (Paws of the Cheetah) with other boot options.
 
+### Weapon Style Revisions DEPRECATED
+
+This component has moved to my [Skills and Abilities](https://github.com/Gibberlings3/Skills-and-Abilities) mod.
+
 ## Compatibility
 
 If you are upgrading from an earlier version of this mod, I recommend uninstalling all mod components and replacing all files with the new ones before doing a fresh install.
@@ -37,3 +41,4 @@ I have reviewed and deconflicted any compatibility issues with multiple item mod
 ## Special Thanks
 
 - Auve for support in the creation, inspiration, testing, and feedback for this mod.
+- JohnBob for translating into French.
