@@ -1,0 +1,56 @@
+// Forgotten Armament Updated Weapon Style Descriptions, American English
+
+@100 = ~ARME À DEUX MAINS : Ce style de combat permet au personnage d'utiliser une arme de mêlée à deux mains et de bénéficier de bonus spéciaux.
+
+Compétent (1 point de compétence) : Le porteur de l'arme bénéficie d'un bonus de 1 aux jets de dégâts et d'un bonus de 2 au facteur de vitesse lorsqu'il utilise une arme à deux mains.// (-2 au facteur de vitesse)
+
+Spécialisé (2 points de compétences) : Le porteur de l'arme bénéficie d'un bonus de 2 aux jets de dégâts, d'un bonus de 4 au facteur de vitesse et d'une demi-attaque supplémentaire par round lorsqu'il utilise une arme à deux mains.
+
+NOTE : Les armes magiques à deux mains sont plus puissantes que leurs équivalents à une main. Cela contrebalance le fait que vous ne pouvez pas utiliser une deuxième arme ou un bouclier lorsque vous utilisez une arme à deux mains. Carsomyr et l'Épée d'Argent sont des exemples d'armes à deux mains.~ ~ARME À DEUX MAINS : Ce style de combat permet au personnage d'utiliser une arme de mêlée à deux mains et de bénéficier de bonus spéciaux.
+
+Compétente (1 point de compétence) : La porteuse de l'arme bénéficie d'un bonus de 1 aux jets de dégâts et d'un bonus de 2 au facteur de vitesse lorsqu'elle utilise une arme à deux mains.
+
+Spécialisée (2 points de compétences) : La porteuse de l'arme bénéficie d'un bonus de 2 aux jets de dégâts, d'un bonus de 4 au facteur de vitesse et d'une demi-attaque supplémentaire par round lorsqu'elle utilise une arme à deux mains.
+
+NOTE : Les armes magiques à deux mains sont plus puissantes que leurs équivalents à une main. Cela contrebalance le fait que vous ne pouvez pas utiliser une deuxième arme ou un bouclier lorsque vous utilisez une arme à deux mains. Carsomyr et l'Épée d'Argent sont des exemples d'armes à deux mains.~
+
+@101 = ~ARME À DEUX MAINS : Ce style de combat permet au personnage d'utiliser une arme de mêlée à deux mains et de bénéficier de bonus spéciaux.
+
+Compétent (1 point de compétence) : Le porteur de l'arme bénéficie d'un bonus de 1 aux jets de dégâts et d'un bonus de 2 au facteur de vitesse lorsqu'il utilise une arme à deux mains.// (-2 au facteur de vitesse)
+
+Spécialisé (2 points de compétences) : Le porteur de l'arme bénéficie d'un bonus de 2 aux jets de dégâts, d'un bonus de 4 au facteur de vitesse et d'une demi-attaque supplémentaire par round lorsqu'il utilise une arme à deux mains.// (-4 au facteur de vitesse)
+
+NOTE : Les armes magiques à deux mains sont plus puissantes que leurs équivalents à une main. Cela contrebalance le fait que vous ne pouvez pas utiliser une deuxième arme ou un bouclier lorsque vous utilisez une arme à deux mains. Carsomyr et l'Épée d'Argent sont des exemples d'armes à deux mains.~ ~ARME À DEUX MAINS : Ce style de combat permet au personnage d'utiliser une arme de mêlée à deux mains et de bénéficier de bonus spéciaux.
+
+Compétente (1 point de compétence) : La porteuse de l'arme bénéficie d'un bonus de 1 aux jets de dégâts et d'un bonus de 2 au facteur de vitesse lorsqu'elle utilise une arme à deux mains.// (-2 au facteur de vitesse)
+
+Spécialisée (2 points de compétences) : La porteuse de l'arme bénéficie d'un bonus de 2 aux jets de dégâts, d'un bonus de 4 au facteur de vitesse et d'une demi-attaque supplémentaire par round lorsqu'elle utilise une arme à deux mains.// (-4 au facteur de vitesse)
+
+NOTE : Les armes magiques à deux mains sont plus puissantes que leurs équivalents à une main. Cela contrebalance le fait que vous ne pouvez pas utiliser une deuxième arme ou un bouclier lorsque vous utilisez une arme à deux mains. Carsomyr et l'Épée d'Argent sont des exemples d'armes à deux mains.~
+
+@200 = ~ÉPÉE ET BOUCLIER : N'importe qui peut prendre un bouclier et bénéficier de sa protection basiques, mais en dépensant des points de compétences dans ce style de combat, un aventurier peut optimiser sa protection.
+
+Compétent (1 point de compétence) : Le porteur du bouclier bénéficie d'un bonus de -1 à la CA.
+
+Spécialisé (2 points de compétences) : Le porteur du bouclier bénéficie d'un bonus de -2 à la CA et devient immunisé contre les Coups d'ailes des dragons.
+
+REMARQUE : malgré le nom de ce style de combat, toute arme de mêlée à une main combinée à un bouclier bénéficie des bonus mentionnés.~ ~ÉPÉE ET BOUCLIER : N'importe qui peut prendre un bouclier et bénéficier de sa protection basiques, mais en dépensant des points de compétences dans ce style de combat, une aventurière peut optimiser sa protection.
+
+Compétente (1 point de compétence) : La porteuse du bouclier bénéficie d'un bonus de -1 à la CA.
+
+Spécialisée (2 points de compétences) : La porteuse du bouclier bénéficie d'un bonus de -2 à la CA et devient immunisée contre les Coups d'ailes des dragons.
+
+REMARQUE : malgré le nom de ce style de combat, toute arme de mêlée à une main combinée à un bouclier bénéficie des bonus mentionnés.~
+
+@300 = ~ARME À UNE MAIN : Ce style de combat est destiné aux personnages qui ne souhaitent pas utiliser de bouclier mais qui désirent un bonus lorsqu'ils utilisent une arme de mêlée à une main.
+
+Compétent (1 point de compétence) : Le porteur de l'arme bénéficie d'un bonus de 1 aux jets de dégâts, -1 au TAC0, -1 à la CA, et inflige des coups critiques sur un jet d'attaque de 19 ou 20.
+
+Spécialisé (2 points de compétences) : Le porteur de l'arme obtient un bonus de 2 aux jets de dégâts, -2 au TAC0, -2 à la CA, et inflige des coups critiques sur un jet d'attaque de 18 à 20.~ ~ARME À UNE MAIN : Ce style de combat est destiné aux personnages qui ne souhaitent pas utiliser de bouclier mais qui désirent un bonus lorsqu'ils utilisent une arme de mêlée à une main.
+
+Compétente (1 point de compétence) : La porteuse de l'arme bénéficie d'un bonus de 1 aux jets de dégâts, -1 au TAC0, -1 à la CA, et inflige des coups critiques sur un jet d'attaque de 19 ou 20.
+
+Spécialisée (2 points de compétences) : La porteuse de l'arme obtient un bonus de 2 aux jets de dégâts, -2 au TAC0, -2 à la CA, et inflige des coups critiques sur un jet d'attaque de 18 à 20.~
+
+
+

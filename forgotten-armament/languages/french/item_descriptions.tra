@@ -1,0 +1,3322 @@
+// Forgotten Armament – New Items, American English
+
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// MELEE WEAPONS                                                         //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Axes                                                                  //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Battle Axe                                                            //
+///////////////////////////////////////////////////////////////////////////
+@10000 = ~Hache d'armes~
+@10001 = ~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètre de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches. 
+
+PARAMÈTRES :
+
+Dégâts : 1d8 (tranchant)
+Facteur de vitesse : 7
+Type de compétence : hache
+Type : arme à une main
+Nécessite : 10 en force
+
+Poids : 7~
+
+///////////////////////////////////////////////////////////////////////////
+// Battle Axe +2: Defender (IWD)                                         //
+///////////////////////////////////////////////////////////////////////////
+@10002 = ~Hache d'armes gardienne +2~
+@10003 = ~Hache d'Armes Gardienne +2
+Cette arme a été ouvragée par un maître-artisan et de minuscules runes magiques sont visibles à sa surface. Sa création a manifestement demandé beaucoup de temps et, même si cela n'est pas apparent au premier coup d'œil, une lueur bleutée semble émaner des runes.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- classe d'armure : +2
+- résistance aux dégâts projectiles : +10%
+
+TAC0 : +2
+Dégâts : 1d8 +2 (tranchant)
+Facteur de vitesse : 7
+Type de compétence : hache
+Type : arme à une main
+Nécessite : 10 en force
+
+Poids : 7~
+
+///////////////////////////////////////////////////////////////////////////
+// Charged Battle Axe +2 (IWD) – NOT INCLUDED                            //
+///////////////////////////////////////////////////////////////////////////
+@10004 = ~Hache d'armes électrique +2~
+@10005 = ~Hache d'armes électrique +2
+Cette arme a été ouvragée par un maître-artisan et de minuscules runes magiques sont visibles à sa surface. Sa création a manifestement demandé beaucoup de temps et, même si cela n'est pas apparent au premier coup d'œil, une lueur bleutée semble émaner des runes.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 50% de chances d'infliger +1d3 points de dégâts d'électricité à chaque coup au but
+- 15% de chances d'étourdir la cible pendant 4 secondes à chaque coup au but
+
+TAC0 : +2
+Dégâts : 1d8 +2 (tranchant)
+Facteur de vitesse : 7
+Type de compétence : hache
+Type : arme à une main
+Nécessite : 10 en force
+
+Poids : 7~
+
+///////////////////////////////////////////////////////////////////////////
+// Deepstone Progeny +2 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@10006 = ~Hache d'armes de Fondpierre +2~
+@10007 = ~Torgin Vivelumière était un tueur de morts-vivants particulièrement efficace et respecté, ce qui ne rend sa fin que plus tragique, puisqu'il succomba au vampirisme. Ses compagnons virent cette transformation comme une véritable insulte à l'égard de cette vie que Torgin avait tant chérie, aussi prêtèrent-ils serment de détruire le mort-vivant qu'il était devenu. C'est dans ce but qu'ils créèrent les haches de Fondpierre, adaptées des armes que Torgin avait si bien utilisées au long de sa carrière. Nul ne sait quelle fut l'issue de la bataille entre Torgin et ses anciens amis, mais leurs haches se trouvent aujourd'hui dispersées dans tout Faerûn.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité à toutes les formes de mort magique.
+
+TAC0 : +2
+Dégâts : 1d8+2
+Type de dégâts : Tranchant
+Facteur de vitesse : 5
+Type de compétence : Hache
+Type : arme à une main
+Nécessite :
+ 10 en force
+
+Poids : 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Axe of Dead Illusk +2 (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@10008 = ~Hache d'armes de la mort Illusk +2~
+@10009 = ~Une partie méconnue des ruines d'Illusk contient de nombreux cadavres provenant d'une invasion barbare repoussée il y a bien longtemps. Tout le monde ignore désormais de quel clan il s'agissait, mais les armes qui leur ont survécu montrent qu'ils étaient d'une grande sauvagerie et d'une grande cruauté, et elles évoquent de terribles images à l'esprit de quiconque les voit.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Pour chaque point de dégât infligé, un point de vie est ajouté au porteur (qui ne peut pas dépasser son maximum).
+– 5 % de chances de lancer Horreur sur l'adversaire à chaque coup réussi
+
+TAC0 : +2
+Dégâts : 1d8+2
+Type de dégâts : Tranchant
+Facteur de vitesse : 5
+Type de compétence : Hache
+Type : arme à une main
+Nécessite :
+ 10 en force
+
+Poids : 5~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// épée bâtardes                                                        //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// épée bâtarde                                                         //
+///////////////////////////////////////////////////////////////////////////
+@10100 = ~Épée bâtarde~
+@10101 = ~Egalement connue sous le nom d'épée à une main et demie, l'épée bâtarde tire son nom de son aspect intermédiaire entre l'épée à deux mains et l'épée longue. Elle possède une lame à double tranchant et une longue poignée, qui peut éventuellement accueillir les deux mains. La longueur de l'épée bâtarde varie entre 1,20 m et 1,50 m.
+
+PARAMÈTRES :
+
+Dégâts : 2d4 (tranchant)
+Facteur de vitesse : 8
+Type de compétence : épée bâtarde 
+Type : arme à une main
+Nécessite : 11 en Force
+
+Poids : 10~
+
+///////////////////////////////////////////////////////////////////////////
+// Nameless Light +2 (NWN2)                                              //
+///////////////////////////////////////////////////////////////////////////
+@10102 = ~Lumière sans nom +2~
+@10103 = ~La légende dit que la guerrière Alesia est allée chercher la Lumière Sans Nom dans les étoiles, même si certains récits prétendent plutôt qu'elle aurait été forgée par un père en deuil ou qu'il s'agissait de l'arme d'un paladin vertueux. Quoi qu'il en soit, il existe plusieurs armes de ce type, qui furent toutes créées avec la bénédiction des Ménestrels et autour desquelles gravitent de nombreuses histoires. Mais peut-être leur véritable pouvoir est-il là, dans le fait d'inciter leur possesseur à se comporter en héros pour imiter ses illustres prédécesseurs.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +1
+– Résistance Magique : +5% 
+
+TAC0 : +2
+Dégâts : 2d4+2
+Type de dégâts : Tranchant
+Facteur de vitesse : 6
+Type de compétence : épée bâtarde
+Type : arme à une main
+Nécessite :
+ 11 en force
+
+Poids : 7~
+
+///////////////////////////////////////////////////////////////////////////
+// Flaming épée bâtarde +1 (IWD)                                        //
+///////////////////////////////////////////////////////////////////////////
+@10104 = ~Épée bâtarde de feu +1~
+@10105 = ~Epée bâtarde de feu +1
+Cette arme a été ouvragée par un maître-artisan et de minuscules runes magiques sont visibles à sa surface. Sa création a manifestement demandé beaucoup de temps et, même si cela n'est pas apparent au premier coup d'œil, une lueur bleutée semble émaner des runes.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 25% de chances d'infliger +2d3 points de dégâts de feu à chaque coup au but
+
+TAC0 : +1
+Dégâts : 2d4 +1 (tranchant)
+Facteur de vitesse : 8
+Type de compétence : épée bâtarde
+Type : arme à une main
+Nécessite : 11 en force
+
+Poids : 10~
+
+///////////////////////////////////////////////////////////////////////////
+// Bloodletter +4 (NWN2) Non-Good ONLY                                   //
+///////////////////////////////////////////////////////////////////////////
+@10106 = ~Sanglante +4~
+@10107 = ~Forgée dans un brasier à base de soufre et refroidie dans le sang de son créateur, la Sanglante est une arme typiquement maléfique. C'est le genre d'épée que les malfaisants aiment agiter devant les yeux d'un chevalier vertueux en laissant entendre un rire inquiétant. Elle possède le pouvoir de voler l'énergie vitale de ses ennemis mais, s'il faut en croire ce qu'il est advenu de ses propriétaires successifs, ceux-ci finissent toujours par avoir le sort qu'ils méritent.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Inflige 2 points de dégâts d'hémorragie à chaque coup réussi (un point par round)
+– Pour chaque coup réussi, un point de vie est ajouté au porteur (qui ne peut pas dépasser son maximum).
+
+TAC0 : +4
+Dégâts : 2d4+4
+Type de dégâts : Tranchant
+Facteur de vitesse : 5
+Type de compétence : épée bâtarde
+Type : arme à une main
+Nécessite :
+ 11 en force
+
+Poids : 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Discord +2 (NWN2)                                                     //
+///////////////////////////////////////////////////////////////////////////
+@10108 = ~Discorde +2~
+@10109 = ~Cette épée s'orne d'une longue ligne de cristal noir sur toute la longueur de sa lame, signature d'Ortius de Gond, l'inventeur fou. Les lames qu'on lui doit émettent un étrange tintement quand elles en rencontrent une autre et, même si l'oreille humaine perçoit à peine la différence, son effet est pourtant dévastateur. On ignore d'où proviennent ces cristaux, mais on sait qu'Ortius louait parfois ses services aux créatures des autres plans.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– 20% de chance à chaque coup réussi de rendre la cible confuse pendant un round (JS contre les sorts annule l'effet)
+
+TAC0 : +2
+Dégâts : 2d4+2
+Type de dégâts : Tranchant
+Facteur de vitesse : 6
+Type de compétence : épée bâtarde
+Type : arme à une main
+Nécessite :
+ 11 en force
+
+Poids : 7~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Clubs                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Club                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@10200 = ~Gourdin~
+@10201 = ~La plupart des gourdins sont de gros bâtons résistants, étroits à une extrémité et plus large à l'autre. Cette arme simple est utilisée depuis que l'on a découvert les outils. N'importe qui peut trouver un gros morceau de bois et le brandir, d'où l'utilisation très répandue du gourdin.
+
+PARAMÈTRES :
+
+Dégâts : 1d6 (contondant)
+Facteur de vitesse : 4
+Type de compétence : gourdin
+Type : arme à une main
+Nécessite : 5 en Force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Daggers                                                               //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Dagger                                                                //
+///////////////////////////////////////////////////////////////////////////
+@10300 = ~Dague~
+@10301 = ~La dague traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau doté d'un seul tranchant et qui est plus court.
+ 
+PARAMÈTRES: 
+
+Dégâts : 1d4 (perforant)
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : arme à une main
+Nécessite : 3 en Force
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Mage Dagger +1 (IWD)                                                  //
+///////////////////////////////////////////////////////////////////////////
+@10302 = ~Dague du Mage +1~
+@10303 = ~Dague du Mage +1
+Comme la plupart des dagues, celle-ci possède une lame pointue à double tranchant. Les enchantements dont elle a bénéficié augmentent son efficacité.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- permet de lancer un sort de magicien supplémentaire de niveau 1
+
+TAC0 : +1
+Dégâts : 1d4 +1 (perforant)
+Facteur de vitesse : 2 
+Type de compétence : dague
+Type : arme à une main
+Nécessite : 3 en force
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Mage Dagger +2 (IWD)                                                  //
+///////////////////////////////////////////////////////////////////////////
+@10304 = ~Dague du Mage +2~
+@10305 = ~Dague du Mage +2
+Comme la plupart des dagues, celle-ci possède une lame pointue à double tranchant. Les enchantements dont elle a bénéficié augmentent son efficacité.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- classe d'armure : +1
+- permet de lancer un sort de magicien supplémentaire des niveau 1 et 2
+
+TAC0 : +2
+Dégâts : 1d4 +2 (perforant)
+Facteur de vitesse : 2 
+Type de compétence : dague
+Type : arme à une main
+Nécessite : 3 en force
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Static Dagger +1 (IWD)                                                //
+///////////////////////////////////////////////////////////////////////////
+@10306 = ~Dague d'électricité +1~
+@10307 = ~Dague d'Électricité +1
+Comme la plupart des dagues, celle-ci possède une lame pointue à double tranchant. Les enchantements dont elle a bénéficié augmentent son efficacité.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 50% de chances d'infliger +1d3 dégâts d'électricité à chaque coup au but
+
+TAC0 : +1
+Dégâts : 1d4 +1 (perforant)
+Facteur de vitesse : 2 
+Type de compétence : dague
+Type : arme à une main
+Nécessite : 3 en force
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Myr Styah'be'eh +4 (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@10308 = ~Myr Styah'be'eh +4~
+@10309 = ~Les érudits ont longuement devisé sur la nature de cette lame, soutenant qu'elle provenait de tel ou tel empire d'antan : Mulhorande, Néthéril, Imaskar... Mais sa construction défie les conventions de toutes les civilisations connues. Un jeune mage, bien vite tourné en dérision, affirma un jour qu'elle pourrait être d'origine « kobold », son nom (jusqu'ici considéré comme intraduisible) voulant dire quelque chose comme « tranche-dos » dans quelque obscur dialecte du petit peuple écailleux. Autre argument, plus probant celui-ci : les kobolds sont certes relativement inoffensifs, mais ils prétendent descendre des dragons. Et cette lame est une preuve éclatante qu'il n'est pas nécessaire d'être impressionnant ou majestueux pour être redoutable.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– +5% de chance de faire un coup critique.
+
+Capacités de combat :
+– Inflige 2d10 dégâts perforant supplémentaires en cas de coup critique.
+– Inflige 2 points de dégâts d'hémorragie à chaque coup réussi (un point par round)
+
+TAC0 : +4
+Dégâts : 1d4+4
+Type de dégâts : Perforant
+Facteur de vitesse : 0
+Type de compétence : Dague
+Type : arme à une main
+Nécessite :
+ 3 en force
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Ice Talon +2 (NWN2)                                                   //
+///////////////////////////////////////////////////////////////////////////
+@10310 = ~Griffe de glace +2~
+@10311 = ~En théorie, cette arme est impossible à fabriquer, compte tenu du fait que sa lame est constituée de cristaux de glace tranchants comme des rasoirs. La plupart des sages s'accordent à penser que ceux-ci sont refroidis grâce à un lien avec un autre plan, mais ils reconnaissent que ce n'est que pure spéculation. La Griffe de glace n'est pas droite, ce qui peut laisser penser qu'elle faisait autrefois partie d'une arme unique de plus grande taille, mais la force nécessaire pour casser une telle arme est proprement inconcevable.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d4+2, +1 dégât de froid
+Type de dégâts : Perforant
+Facteur de vitesse : 0 
+Type de compétence : Dague
+Type : arme à une main
+Nécessite :
+ 3 en force
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Flails                                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Flail                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@10400 = ~Fléau d'armes~
+@10401 = ~Le fléau d'armes est une solide poignée en bois attachée à une tringle en fer, une baguette de bois comportant des pointes, ou une boule en fer pointue. La poignée et l'équipement qui l'accompagne sont reliés par une charnière ou une chaîne. Cette arme servait à l'origine à battre le grain. 
+
+PARAMÈTRES :
+
+Dégâts : 1d6 +1 (contondant)
+Facteur de vitesse : 7
+Type de compétence : Fléau d'armes / Morgenstern
+Type : arme à une main
+Nécessite : 13 en force
+
+Poids : 15~
+
+///////////////////////////////////////////////////////////////////////////
+// Crooked Flail +1 (IWD)                                                //
+///////////////////////////////////////////////////////////////////////////
+@10402 = ~Fléau tordu +1~
+@10403 = ~Le Fléau Tordu
+Le fléau d'armes est une solide poignée en bois attachée à une tringle en fer, une baguette de bois comportant des pointes, ou une boule en fer pointue. La poignée et l'équipement qui l'accompagne sont reliés par une charnière ou une chaîne. Cette arme servait à l'origine à battre le grain.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 50% de chances d'infliger +1d4 points de dégâts perforants à chaque coup au but
+
+TAC0 : +1
+Dégâts : 1d6 +2 (contondant)
+Facteur de vitesse : 7
+Type de compétence : Fléau d'armes / Morgenstern
+Type : arme à une main
+Nécessite : 11 en force
+
+Poids : 15~
+
+///////////////////////////////////////////////////////////////////////////
+// Fast Flail +2 (IWD) NOT INCLUDED                                                  //
+///////////////////////////////////////////////////////////////////////////
+@10404 = ~Fléau de rapidité +2~
+@10405 = ~Fléau de Rapidité
+Le fléau d'armes est une solide poignée en bois attachée à une tringle en fer, une baguette de bois comportant des pointes, ou une boule en fer pointue. La poignée et l'équipement qui l'accompagne sont reliés par une charnière ou une chaîne. Cette arme servait à l'origine à battre le grain. Ce fléau est enchanté ; on peut voir des runes en illuminer la surface.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- une attaque supplémentaire par round
+
+TAC0 : +2
+Dégâts : 1d6 +3 (contondant)
+Facteur de vitesse : 7
+Type de compétence : Fléau d'armes / Morgenstern
+Type : arme à une main
+Nécessite : 11 en force
+
+Poids : 15~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Halberds                                                              //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Halberd                                                               //
+///////////////////////////////////////////////////////////////////////////
+@10500 = ~Hallebarde~
+@10501 = ~De loin l'arme d'hast la plus ancienne et la plus répandue, la hallebarde se compose d'une hache en forme de couperet montée sur un bâton d'1,80 mètre de long. La hache est équilibrée à l'arrière par un barbillon et surmontée d'une pointe acérée, généralement de forme quadrangulaire. Le barbillon est parfois remplacé par un crochet utilisé pour faire tomber l'ennemi de cheval. La hallebarde est en réalité un croisement entre la lance et la hache. 
+
+PARAMÈTRES :
+
+Dégâts : 1d10 (perforant)
+Facteur de vitesse : 9
+Type de compétence : Hallebarde
+Type : arme à deux mains
+Nécessite : 13 en Force
+
+Poids : 15~
+
+///////////////////////////////////////////////////////////////////////////
+// Cruel Halberd +3 (NWN2)                                               //
+///////////////////////////////////////////////////////////////////////////
+@10502 = ~Cruauté +3~
+@10503 = ~Cette hallebarde, à jamais imprégnée du sang de ses victimes, fut maniée par plusieurs générations de seigneurs de guerre orques, qui se l'appropriaient à la mort de leur prédécesseur sur le champ de bataille ou des mains d'un rival. Elle fut perdue lors de l'ultime bataille contre les orques, au cours de laquelle ces derniers furent enfin boutés hors d'Illusk.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– +5% de chance de faire un coup critique.
+
+Capacités de combat :
+– Inflige 1d6 dégâts perforant supplémentaires en cas de coup critique.
+
+TAC0 : +3
+Dégâts : 1d10+3
+Type de dégâts : Perforant
+Facteur de vitesse : 6
+Type de compétence : Hallebarde
+Type : arme à deux mains
+Nécessite :
+ 13 en force
+
+Poids : 12~
+
+///////////////////////////////////////////////////////////////////////////
+// Will of Atar +1 (NWN2)                                                //
+///////////////////////////////////////////////////////////////////////////
+@10504 = ~Volonté d'Atar +1~
+@10505 = ~Cette arme porte la marque d'Atar des Flammes, grand chaman d'un culte du Nord qui obtint l'aide d'une entité du plan du Feu pour la fabriquer. On ignore ce que cette entité reçut en retour.
+
+PARAMÈTRES :
+
+TAC0 : +1
+Dégâts : 1d10+1, +1 dégât de feu
+Type de dégâts : Perforant ou Tranchant
+Facteur de vitesse : 8
+Type de compétence : Hallebarde
+Type : arme à deux mains
+Nécessite :
+ 13 en force
+
+Poids : 14~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Katanas                                                               //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Katana                                                                //
+///////////////////////////////////////////////////////////////////////////
+@10600 = ~Katana~
+@10601 = ~Le katana est une épée légèrement courbée à simple tranchant, dont la lame se termine en pointe. C'est probablement une des meilleures épées jamais conçues. Les étapes de sa fabrication constituent un procédé long et secret qui est considéré plus comme un art que comme une technique. Cette lame représente un aspect important de la culture de Kara-Tur. C'est faire insulte à un samouraï et provoquer sa colère que d'utiliser ou même de toucher son katana. Il est très rare pour un gaïjin, un étranger, de posséder une telle lame. Cela implique que le gaïjin soit l'ami estimé d'un personnage important, ou bien qu'il ait assassiné un samouraï.
+
+PARAMÈTRES :
+
+Dégâts : 1d10 (tranchant)
+Facteur de vitesse : 4
+Type de compétence : katana
+Type : arme à une main
+Nécessite : 6 en Force
+
+Poids : 6~
+
+///////////////////////////////////////////////////////////////////////////
+// Master Li's Way +2 (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@10602 = ~La Voie de Maître Li +2~
+@10603 = ~On pensait autrefois que ce katana était une pièce unique, mais depuis, d'autres ont été découverts. Ils auraient tous la même provenance : un navire qui s'est échoué sur la Côte des épées il y a quelques années de cela. Tous arborent la marque de Hu Li, mais on ignore tout de lui, si ce n'est qu'il est l'un des maîtres forgerons d'Orient.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d10+2, +1 dégât d'acide
+Type de dégâts : Tranchant
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : arme à une main
+Nécessite :
+ 6 en force
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Naught Katana +5 (NWN2)                                               //
+///////////////////////////////////////////////////////////////////////////
+@10604 = ~Katana du néant +5~
+@10605 = ~Ancien katana sacré de la cour impériale de Shou, ce puissant artefact se perdit dans les méandres de la Voie dorée suite à la ruse d'un voleur assez opportuniste pour profiter de la torpeur d'un garde. Taillé dans une souche matérielle inconnue issue d'un autre plan, il fut forgé dans un acte qui absorba l'âme de son créateur... Le pouvoir de cette lame semble se renforcer peu à peu, et générer une faim dévorante comparable à celle qui vous anime.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Pour chaque coup réussi, 1d4 point de vie sont drainés de la cible pour être ajouté au porteur (qui ne peut pas dépasser son maximum).
+
+THACO: +5
+Dégâts : 1d10+5, +5 points de dégâts contre les personnages loyal
+Type de dégâts : Tranchant
+Facteur de vitesse : 1
+Type de compétence : Katana
+Type : arme à une main
+Nécessite :
+ 6 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Kaga-To +1 (NWN2)                                                     //
+///////////////////////////////////////////////////////////////////////////
+@10606 = ~Kaga-To +1~
+@10607 = ~Cette arme remonterait à l'époque des combats spectacles de l'ancienne province de Kai Chen, durant lesquels des guerriers prometteurs testaient leurs facultés martiales contre le plus grand samourai du moment. Si jamais le concurrent était victorieux, il gagnait l'admiration de tous et sa gloire était assurée. De plus, il recevait également un katana de Kaga-To, sur la lame duquel est gravée la phrase suivante : « Dis-moi comment tu te bats, je te dirai qui tu es. »
+
+PARAMÈTRES :
+
+Capacités de combat :
+– 5% de chance à chaque coup réussi de rendre la cible étourdie pendant un round (JS contre les sorts annule l'effet)
+
+THACO: +1
+Dégâts : 1d10+1
+Type de dégâts : Tranchant
+Facteur de vitesse : 1
+Type de compétence : Katana
+Type : arme à une main
+Nécessite :
+ 6 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Dragonsblood Katana +2 (NWN2)                                         //
+///////////////////////////////////////////////////////////////////////////
+@10608 = ~Katana draconique +2~
+@10609 = ~Le katana est l'aboutissement de l'art de la forge. C'est une arme d'une grande finesse à la fois élégante et tranchante comme un rasoir.
+ 
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance au feu : +10%
+
+TAC0 : +2
+Dégâts : 1d10+2, +2 dégâts de feu
+Type de dégâts : Tranchant
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : arme à une main
+Nécessite :
+ 6 en force
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// The Devoted Servant +1 (NWN2)                                         //
+///////////////////////////////////////////////////////////////////////////
+@10610 = ~Le serviteur dévoué +1~
+@10611 = ~Créés pour le samouraï le plus loyal du Shogun, ces katanas proviennent de la lointaine terre de Wa, une nation insulaire de Kara-Tur. Comment celui-ci a pu se retrouver ici est un mystère mais, par chance, ses pouvoirs sont intacts.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +1
+
+TAC0 : +1
+Dégâts : 1d10+1
+Type de dégâts : Tranchant
+Facteur de vitesse : 3
+Type de compétence : Katana
+Type : arme à une main
+Nécessite :
+ 6 en force
+
+Poids : 5~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Long Swords                                                           //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Long Sword                                                            //
+///////////////////////////////////////////////////////////////////////////
+@10700 = ~Épée longue~
+@10701 = ~Cette arme reçoit parfois le nom d'épée à double tranchant, épée de guerre ou épée de bataille. Souvent, l'épée longue a une lame à simple tranchant. Il n'existe pas de version type : le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. Une des caractéristiques principales de l'épée longue est sa taille, qui varie entre 90 cm et 1,20 m. Dans ce second cas, la lame fait un bon mètre. La plupart des épées longues ont deux tranchants et une pointe acérée. Malgré cette dernière, l'arme est conçue pour frapper de taille, et non d'estoc.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 (tranchant)
+Facteur de vitesse : 5
+Type de compétence : épée longue
+Type : arme à une main
+Nécessite : 6 en Force
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Angurvadal +4 (BG2)                                                   //
+///////////////////////////////////////////////////////////////////////////
+@10702 = ~Egalement connu sous le nom de Fleuve d'angoisse, il s'agit de la légendaire lame enflammée de Frithiof.
+
+PARAMÈTRES
+
+Capacité spéciale :
+Bonus de 5 en Force pendant 60 secondes, 1 fois par jour
+
+TAC0 : +4
+Dégâts : 1D8 +4, +1 de feu 
+Type de dégâts : Tranchant
+Poids : 2
+Facteur de Vitesse : 1
+Compétence : Épée longue
+Type d'arme : à 1 main~
+
+///////////////////////////////////////////////////////////////////////////
+// Angurvadal +5 (BG2)                                                   //
+///////////////////////////////////////////////////////////////////////////
+@10703 = ~Les vrais pouvoirs de l'épée enflammée de Frithiof ont été activés par le Mercure liquide.
+
+PARAMÈTRES
+
+Capacités spéciales :
+
+L'utilisateur est immunisé contre le drainage de niveau
+Force : +5
+
+TAC0 : +5
+Dégâts : 1D8 +5, 1d4+1 de feu
+Type de dégâts : Tranchant
+Poids : 2
+Facteur de Vitesse : 0
+Compétence : Épée longue
+Type d'arme : à 1 main
+Force nécessaire : 6~
+
+///////////////////////////////////////////////////////////////////////////
+// Intercession +1 (IWD)                                                 //
+///////////////////////////////////////////////////////////////////////////
+@10704 = ~Intercepteuse +1~
+@10705 = ~L'Intercepteuse
+Cette épée longue fut forgée pour le rôdeur Kelhanion de Soubar en 1272 CV. Ne portant qu'une armure légère et n'utilisant jamais de bouclier, Kelhanion voulait une arme capable de le protéger au combat. Intercepteuse fut forgée par l'une de ses connaissances, le mage Peth d'Elturel. Conformément aux souhaits du rôdeur, l'épée a l'air on ne peut plus normale : sa lame sobre en acier s'achève par une garde similaire. Sa poignée est recouverte de peau d'ogre noire et huilée. Elle possède un instinct empathique très réduit qui lui permet de bouger dans la main de son porteur pour parer les attaques. Intercepteuse disparut quand Kelhanion fut massacré par une douzaine de trolls dans la forêt de l'Écorce de Troll.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- classe d'armure : +2 (sauf contre les projectiles)
+
+TAC0 : +1
+Dégâts : 1d8 +1 (tranchant)
+Facteur de vitesse : 4
+Type de compétence : épée longue
+Type : arme à une main
+Nécessite : 6 en force
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Long Sword of Action +2 (IWD)                                         //
+///////////////////////////////////////////////////////////////////////////
+@10706 = ~Épée longue d'action +2~
+@10707 = ~Epée Longue d'Action
+Cette arme reçoit parfois le nom d'épée à double tranchant, épée de guerre ou épée de bataille. Souvent, l'épée longue a une lame à simple tranchant. Il n'existe pas de version type : le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. Une des caractéristiques principales de l'épée longue est sa taille, qui varie entre 90 cm et 1,20 m. Dans ce second cas, la lame fait un bon mètre. La plupart des épées longues ont deux tranchants et une pointe acérée. Malgré cette dernière, l'arme est conçue pour frapper de taille, et non d'estoc. La lame de celle-ci est couverte de symboles magiques divers et variés.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- dextérité : +1
+
+TAC0 : +2
+Dégâts : 1d8 +2 (tranchant)
+Facteur de vitesse : 4
+Type de compétence : épée longue
+Type : arme à une main
+Nécessite : 6 en force
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Spiked Long Sword +1 (IWD)                                            //
+///////////////////////////////////////////////////////////////////////////
+@10708 = ~Épée longue dentelée +1~
+@10709 = ~Epée Longue Dentelée
+Cette arme reçoit parfois le nom d'épée à double tranchant, épée de guerre ou épée de bataille. Souvent, l'épée longue a une lame à simple tranchant. Il n'existe pas de version type : le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. Une des caractéristiques principales de l'épée longue est sa taille, qui varie entre 90 cm et 1,20 m. Dans ce second cas, la lame fait un bon mètre. La plupart des épées longues ont deux tranchants et une pointe acérée. Malgré cette dernière, l'arme est conçue pour frapper de taille, et non d'estoc. La lame de celle-ci est couverte de symboles magiques divers et variés.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 25% de chances d'infliger +2d6 dégâts perforants à chaque coup au but
+
+TAC0 : +1
+Dégâts : 1d8 +1 (tranchant)
+Facteur de vitesse : 4
+Type de compétence : épée longue
+Type : arme à une main
+Nécessite : 6 en force
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Turodahel +2 (IWD)                                                    //
+///////////////////////////////////////////////////////////////////////////
+@10710 = ~Turodahel +2~
+@10711 = ~Turodahel
+Forgée en 1021 CV pour Makael l'Affûté, l'épée Turodahel a un passé sanglant. Makael était un mercenaire louant ses services à quiconque pouvait le payer. Rusé et astucieux, il a utilisé ses talents et la puissance de Turodahel plus de trois décennies durant. Ce n'est qu'après sa mort, due à une maladie magique, que des légendes ont commencé à circuler à son sujet. Les sages actuels pensent que Makael a dû tuer plus de cinq cents adversaires à l'aide de son épée au cours de sa carrière. Et pourtant, on sait qu'il n'était pas particulièrement fort ou résistant. Les gens s'accordent à penser que son épée devait grandement l'aider. Sa tombe a été profanée quelques années après son enterrement.
+Au cours des décennies qui ont suivi, guerriers et voleurs de la mer de Lune et des Vaux ont multiplié meurtres et complots pour s'approprier l'épée légendaire de Makael. Un prêtre de Baine a volé le crâne du mercenaire pour obtenir des renseignements sur l'arme. Lorsqu'on lui a demandé quel était le pouvoir de son épée, l'esprit de Makael a répondu par un seul mot : « turodahel ». Le prêtre de Baine a dû se plonger dans ses grimoires plusieurs mois durant avant de trouver une traduction de ce terme. Dans la langue de l'ancienne Néthéril, « turodahel » signifie approximativement « le pouvoir de la discrétion ».
+
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- intelligence : +1
+
+TAC0 : +2
+Dégâts : 1d8 +2 (tranchant)
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à une main
+Nécessite : 6 en force
+
+Poids : 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Blade of the Gladiator +2 (NWN2)  NOT INCLUDED                                    //
+///////////////////////////////////////////////////////////////////////////
+@10712 = ~Épée longue de gladiateur +2~
+@10713 = ~Il y a fort longtemps, les formiens bâtirent d'immenses cités souterraines dans leurs empires situés loin sous la surface du sol. Leur société guerrière n'aimait rien tant que les combats de gladiateurs, au cours desquels esclaves et prisonniers combattaient au fond d'une fosse pour le plus grand amusement de leurs maîtres. L'un de ces gladiateurs était un humain du nom d'Ajan, qui vola l'épée de son maître formien et s'en servit pour fuir en compagnie de Zoé, la femme qu'il aimait. On dit que le porteur de cette arme est destiné à faire de grandes choses.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d8+2, +1 dégât d'acide
+Type de dégâts : Tranchant
+Facteur de vitesse : 3
+Type de compétence : Épée Longue
+Type : arme à une main
+Nécessite :
+ 6 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Maces                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Mace                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@10800 = ~Masse~
+@10801 = ~La masse d'armes descend directement du simple gourdin ; elle n'est rien de plus qu'une hampe de bois avec une tête en pierre ou en fer fixée à l'extrémité. La forme de la tête varie ; certaines sont pointues, d'autres à rebord, et d'autres encore ont un pommeau pyramidal.
+
+PARAMÈTRES :
+
+Dégâts : 1d6 +1 (contondant)
+Facteur de vitesse : 7
+Type de compétence : Masse d'armes
+Type : arme à une main
+Nécessite : 10 en Force
+
+Poids : 10~
+
+///////////////////////////////////////////////////////////////////////////
+// Mauler's Arm +2 (BG2)                                                 //
+///////////////////////////////////////////////////////////////////////////
+@10802 = ~Masse +2 : le Bras du Destructeur
+Jurrg le Destructeur était le fier chef d'une tribu du nord, mais il craignait d'être le dernier de sa famille à commander. Son fils Kullen était chétif, et ne parviendrait jamais à passer les traditionnelles épreuves de force pour pouvoir devenir chef de la tribu. Jurrg savait cependant que la vraie valeur d'un chef n'est pas dans ses muscles, et il fit un marché pour enchanter une masse qui devrait masquer la faiblesse de Kullen. On ne sait pas avec qui il pactisa, mais le prix dut être élevé. Kullen devint chef peu après.
+
+PARAMETRES :
+
+Force : +1
+TAC0 : +2
+Dégâts : 1D6 +3
+Type de dégât : contondant
+Poids : 7
+Facteur de vitesse : 5
+Type de compétence : masse
+Type : arme à 1 main~
+
+///////////////////////////////////////////////////////////////////////////
+// Petty's Tempest +2 (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@10803 = ~Masse d'armes +2 : Tourmente de Petty~
+@10804 = ~La plus récente apparition rapportée de l'une des armes de ce type eut lieu au marché noir d'Amn, où elle fut vendue un prix exorbitant. Plusieurs de ces masses ont été découvertes au fil du temps, chacune d'elles possédant une panoplie de sorts et pouvoirs liés aux éléments. Le nom de leur créateur reste partiellement inconnu, si ce n'est le sobriquet « Petty ». Il est possible qu'il s'agisse d'un forgeron de Toril, mais sa grande connaissance des autres plans d'existence suggère qu'il a énormément voyagé.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– La créature touchée doit faire un jet de sauvegarde contre les sorts à +3 pour ne pas être sous l'effet de lenteur pendant 2 rounds.
+
+TAC0 : +2
+Dégâts : 1d6+3, +1 dégât d'électricité
+Type de dégâts : Contondant
+Facteur de vitesse : 5
+Type de compétence : Masse d'armes
+Type : arme à une main
+Nécessite :
+ 10 en force
+
+Poids : 7~
+
+///////////////////////////////////////////////////////////////////////////
+// Soldier's Might +2 (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@10805 = ~Masse d'armes +2 : Puissance du soldat~
+@10806 = ~On prétend que les lieutenants des armées d'Algarond recevaient l'une de ces armes sans qu'on leur indique leur défaut essentiel. Beaucoup de ces officiers périrent, la plupart en combattant vaillamment. Les généraux responsables de la création de ces armes imparfaites échappèrent à tout blâme, et font même aujourd'hui partie des grands noms du passé.
+
+PARAMÈTRES :
+
+Equipped Ability:
+– Immunité au charme
+– Immunité à la confusion
+
+TAC0 : +2
+Dégâts : 1d6+3, +1 dégât de froid
+Type de dégâts : Contondant
+Facteur de vitesse : 5
+Type de compétence : Masse d'armes
+Type : arme à une main
+
+Poids : 7~
+
+///////////////////////////////////////////////////////////////////////////
+// Chef Gronk's Tenderizer +2 (NWN2)                                     //
+///////////////////////////////////////////////////////////////////////////
+@10807 = ~Attendrisseur du chef Gronk +2~
+@10808 = ~Cuisiner pour des pirates n'est pas toujours une partie de plaisir, et en voyant cet instrument, il est évident que le chef Gronk n'était pas un cuisinier ordinaire. Ce marteau semble avoir été conçu comme outil de cuisine, mais vous ne savez pas vraiment si les bouts de viande qui y sont encore accrochés sont les restes du dernier repas des pirates ou de leur dernier combat en date.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– La créature touchée doit réussir un jet de sauvegarde contre les sorts ou être étourdie pendant deux round.
+
+TAC0 : +2
+Dégâts : 1d6+3 
+Type de dégâts : Contondant
+Facteur de vitesse : 6
+Type de compétence : Masse d'armes
+Type : arme à une main
+Nécessite :
+ 12 en force
+
+Poids : 9~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Morning Stars                                                         //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Morning Star                                                          //
+///////////////////////////////////////////////////////////////////////////
+@10900 = ~Étoile du matin~
+@10901 = ~La morgenstern est un manche en bois couronné d'une tête en métal constituée d'une gaine de fer cloutée. Les morgensterns mesurent environ 1,20 m. Certaines de ces armes possèdent une tête de forme ronde, ovale ou cylindrique garnie de clous. Sur la plupart des têtes de morgenstern, quelle que soit leur forme, se trouve une longue pointe pour porter une attaque perforante. 
+
+PARAMÈTRES :
+
+Dégâts : 2d4 (contondant)
+Facteur de vitesse : 7
+Type de compétence : Fléau d'armes / Morgenstern
+Type : arme à une main
+Nécessite : 11 en Force
+
+Poids : 12~
+
+///////////////////////////////////////////////////////////////////////////
+// Sleepwalker Kin +2 (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@10902 = ~Morgenstern +2 : Somnambule~
+@10903 = ~Les armes de ce type étaient censées conférer un avantage important aux orques d'Amn. Leurs chefs appréciaient l'idée de rendre l'ennemi incapable de se défendre, mais, malgré les efforts de nombreux chamans et de plusieurs mages humains capturés, le projet dut finalement être abandonné. Apparemment, entre les mains d'un champion orque, tout coup permettant d'activer le pouvoir suffisait déjà à tuer la cible. On jugea donc qu'il n'était pas nécessaire d'en rajouter.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– La créature touchée doit réussir un jet de sauvegarde contre le poison ou être endormie pour 2 rounds.
+
+TAC0 : +2
+Dégâts : 2d4+2
+Type de dégâts : Contondant
+Facteur de vitesse : 4
+Type de compétence : Fléau d'armes / Morgenstern
+Type : arme à une main
+Nécessite :
+ 11 en force
+
+Poids : 8~
+
+///////////////////////////////////////////////////////////////////////////
+// Bone Phoenix +1 (NWN2)                                                //
+///////////////////////////////////////////////////////////////////////////
+@10904 = ~Morgenstern +1 : Phénix d'os~
+@10905 = ~Ces armes furent celles du Seigneur Craghand d'Unther, et elles tirent leur nom de ce qui a causé sa perte. N'ayant aucun pouvoir magique, il décida d'employer un groupe de nécromanciens afin de prolonger son existence, mais ses « serviteurs » réussirent juste à les transformer en morts-vivants, lui et les membres de sa cour. Aujourd'hui, son spectre incapable de la moindre pensée cohérente erre un peu partout, tandis que son corps squelettique s'anime encore et encore, et ce quel que soit le nombre de fois qu'on le détruit.
+
+PARAMÈTRES :
+
+TAC0 : +1
+Dégâts : 2d4+1, +2 dégâts de feu
+Type de dégâts : Contondant
+Facteur de vitesse : 5
+Type de compétence : Fléau d'armes / Morgenstern
+Type : arme à une main
+Nécessite :
+ 11 en force
+
+Poids : 9~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Ninja-Tos                                                             //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Ninja-To                                                              //
+///////////////////////////////////////////////////////////////////////////
+@11000 = ~Ninja-To~
+@11001 = ~Ninja-To
+L'épée du ninja, le ninja-to est de qualité inférieure aux autres lames de Kara-Tur, comme le katana. Le ninja-to est court et sa lame est droite, ce qui le rend idéal pour la dissimulation. Il est aussi plus approprié pour le combat en espace confiné, donnant parfois l'avantage aux ninjas sur les lames plus longues utilisées par les samouraïs.
+
+PARAMETRES :
+
+Dégâts : 1D8
+Type de dégât : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à 1 main
+Force nécessaire : 6~
+
+///////////////////////////////////////////////////////////////////////////
+// Courtesan Blade + 2 (NWN2)                                            //
+///////////////////////////////////////////////////////////////////////////
+@11002 = ~Lame de la courtisane +2~
+@11003 = ~Les premières tueuses opérant à la cour étaient célèbres pour utiliser leurs charmes afin de se faire inviter dans la chambre de la victime. Leur pratique connut un tel succès qu'elle est désormais utilisée un peu partout.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– +5% de chance de faire un coup critique.
+
+Capacités de combat :
+– 10% de chance que la soit étourdie pendant 2 rounds. (Jet de sauvegarde contre la paralysie annule)
+
+TAC0 : +2
+Dégâts : 1d8+2
+Type de dégâts : Tranchant
+Facteur de vitesse : 2
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à une main
+Nécessite :
+ 6 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Quarterstaves                                                         //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// bâton                                                          //
+///////////////////////////////////////////////////////////////////////////
+@11100 = ~Bâton~
+@11101 = ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains. 
+
+PARAMÈTRES :
+
+Dégâts : 1d6 (contondant)
+Facteur de vitesse : 4
+Type de compétence : bâton
+Type : arme à deux mains
+Nécessite : 5 en Force
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Rakshasa Staff +3 (NWN2) SORCERER/WIZARD ONLY                         //
+///////////////////////////////////////////////////////////////////////////
+@11102 = ~Bâton de rakshasa +3~
+@11103 = ~Les enchantements sont légion, mais certains ont des difficultés à en maîtriser les arcanes. Ce bâton permet à son utilisateur de contrôler ou même dominer quelqu'un, ce qui évite d'avoir à étudier les incantations nécessaires.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Mémorisation d'un sort supplémentaire de 4ème, 5ème, 6ème niveau
+
+Capacités spéciales :
+– Charme-personnes une fois par jour ((JS contre les sorts à +3 annule l'effet)
+  Portée : Champ visuel du lanceur
+  Durée : 5 rounds
+  Zone d'effet : 1 personne
+
+TAC0 : +3
+Dégâts : 1d6+3
+Type de dégâts : Contondant
+Facteur de vitesse : 1
+Type de compétence : bâton
+Type : arme à deux mains
+Nécessite :
+ 5 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Remembrance +3 (NWN2)                                                 //
+///////////////////////////////////////////////////////////////////////////
+@11104 = ~Souvenir +3~
+@11105 = ~Voyant l'empire d'Illefarn décliner progressivement, plusieurs archimages elfes de l'Ordre des feuilles mortes mirent leurs pouvoirs en commun pour entreposer leur considérable savoir magique dans plusieurs bâtons similaires à celui-ci. Mais l'Ordre fut détruit par les orques avant qu'ils ne puissent mener leur projet à terme et seul un bâton existe encore de nos jours.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +2
+– Résistance Magique : +10%
+
+TAC0 : +3
+Dégâts : 1d6+3
+Type de dégâts : Contondant
+Facteur de vitesse : 1
+Type de compétence : bâton
+Type : arme à deux mains
+Nécessite :
+ 5 en force
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Staff of Balpheron +1 (NWN2) CURSED SORCERER/WIZARD ONLY              //
+///////////////////////////////////////////////////////////////////////////
+@11106 = ~Bâton de Balphéron +1~
+@11107 = ~Selon la légende, ce bâton fut créé par le magicien Balphéron avant qu'il ne se transforme en liche. Nombreux sont ceux qui croient que Balphéron avait choisi son destin et qu'il n'avait fabriqué ce bâton que pour devenir encore plus puissant en tant que liche. Mais certains prétendent que c'est le bâton qui le poussa à embrasser les arts noirs, la création d'un objet aussi puissant ayant poussé le mage bien au-delà de ses limites et anéanti ce qui restait de sa santé mentale.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +2
+– Résistance Magique : +10%
+– Force : -2
+– Constitution : -2
+– Mémorisation d'un sort supplémentaire de 7ème et 8ème niveau
+
+TAC0 : +1
+Dégâts : 1d6+1
+Type de dégâts : Contondant
+Facteur de vitesse : 2
+Type de compétence : bâton
+Type : arme à deux mains
+Nécessite :
+ 5 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Scimitars                                                             //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Scimitar                                                              //
+///////////////////////////////////////////////////////////////////////////
+@11200 = ~Cimeterre~
+@11201 = ~La longue lame recourbée à un seul tranchant tient à la fois du sabre et du cimeterre, bien que ces deux armes proviennent de régions différentes de Féérûne. Alors que le sabre était plutôt fait pour les cavaliers, surtout en raison de sa souplesse, le cimeterre était plus courant en Orient. Le « shamshir », comme on l'appelait à l'origine, est plus grand, plus courbe et doté d'une longue pointe acérée. Résultat : il est un peu moins maniable, mais en général plus efficace et mortel au combat.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 (tranchant)
+Facteur de vitesse : 5
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à une main
+Nécessite : 10 en Force
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Spider's Kiss +2 (NWN2)                                               //
+///////////////////////////////////////////////////////////////////////////
+@11202 = ~Le baiser de l'araignée +2~
+@11203 = ~Cette arme était utilisée par la druidesse elfe noir, Pai'Na, dans les tombes inférieures d'Athkatla. La lame de cette sombre épée est perpétuellement recouverte de venin d'araignée.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– La cible touchée prend 1 point de dégât de poison par seconde pendant 15 secondes (Jet de sauvegarde contre le poison annule)
+
+THACO: +2
+Dégâts : 1D8+2
+Type de dégâts : Tranchant
+Facteur de vitesse : 4
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à une main
+Nécessite : 
+ 10 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+// The Lucky Scimitar +2 (IWD) – NOT INCLUDED                               //
+///////////////////////////////////////////////////////////////////////////
+@11204 = ~Cimeterre porte-bonheur +2~
+@11205 = ~Le Cimeterre Porte-Bonheur
+Cette arme appartenait à un célèbre joueur professionnel de Zakhara, Kadan Ibn-Kadur. On pense qu'elle lui permit de remporter de nombreux paris stupides qu'il aurait dû perdre. Kadan perdit toutefois le cimeterre quand il croisa la route du tristement célèbre Nido Ochita Inazuma à l'ouest de Féérûne. Inazuma était le fils d'un chevalier du Cormyr et d'une noble dame de Kara-Tur. Il prétendait que sa mère avait été frappée par la foudre à deux reprises tandis qu'elle le portait dans son ventre, une fois alors qu'elle venait de tomber enceinte, et la seconde juste avant de donner naissance à Inazuma. Selon la légende, Inazuma serait né sur la tranche de la Pièce du Destin, la méthode mystique qu'utilisent Tymora et Bashaba afin de déterminer si l'individu sera chanceux ou malchanceux tout au long de son existence. Les sages pensent que la pièce concernant Inazuma tomba sur la tranche, l'immunisant contre les effets de la chance et de la malchance. Quand il croisa Kadan, il ne fallut pas longtemps pour que le zakharien parie son cimeterre et le perde au profit d'Inazuma.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- le possesseur est toujours sous l'effet du sort Chance (+1 à tous les jets)
+
+Capacités de combat :
+- Chance une fois par jour
+  Portée : 4,5 mètres
+  Durée : 3 rounds
+  Zone d'effet : 1 créature
+
+TAC0 : +2
+Dégâts : 1d8 +2 (perforant)
+Facteur de vitesse :  4
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à une main
+Nécessite : 8 en force
+
+Poids :  4~
+
+///////////////////////////////////////////////////////////////////////////
+// Laughing Blade +2 (NWN2)                                              //
+///////////////////////////////////////////////////////////////////////////
+@11206 = ~Lame rieuse +2~
+@11207 = ~Il serait surprenant que les victimes de la Lame rieuse y voient quoi que ce soit d'amusant. Cette arme et d'autres du même genre furent créées par un maître illusionniste du nom de Daniel Suther, qui souhaitait rajouter une difficulté supplémentaire à un labyrinthe qu'il avait personnellement conçu. Les aventuriers qui relevaient le défi devaient trouver la sortie du dédale en résistant aux automates armés de Lames rieuses et en luttant contre leurs propres sens. Suther fut emprisonné après que plusieurs personnes eurent perdu la vie dans sa propriété.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– 10% de chance à chaque coup réussi de rendre la cible confuse pendant un round (JS contre les sorts annule l'effet)
+
+TAC0 : +2
+Dégâts : 1d8+2, +1 dégât de froid
+Type de dégâts : Tranchant
+Facteur de vitesse : 4
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à une main
+Nécessite :
+ 10 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Short Swords                                                          //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Short Sword                                                           //
+///////////////////////////////////////////////////////////////////////////
+@11300 = ~Épée courte~
+@11301 = ~L'épée courte est le premier type d'épée à être apparu. Grossièrement, on peut comparer une épée courte à une dague dont la lame serait si longue qu'on ne pourrait plus l'appeler dague. Le terme épée courte n'entre pas dans les catégories d'épées. Pourtant, il est utilisé pour décrire une lame à double tranchant longue d'environ 60 cm. L'estoc de l'épée est généralement pointu, et on la range donc parmi les armes perforantes.
+
+PARAMÈTRES :
+
+Dégâts : 1d6 (perforant)
+Facteur de vitesse : 3
+Type de compétence : épée courte
+Type : arme à une main
+Nécessite : 5 en Force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Sloth +2 (IWD)                                                        //
+///////////////////////////////////////////////////////////////////////////
+@11302 = ~Paresseuse +2~
+@11303 = ~Paresseuse
+L'épée courte est le premier type d'épée à être apparu. Grossièrement, on peut comparer une épée courte à une dague dont la lame serait si longue qu'on ne pourrait plus l'appeler dague. Le terme épée courte n'entre pas dans les catégories d'épées. Pourtant, il est utilisé pour décrire une lame à double tranchant longue d'environ 60 cm. L'estoc de l'épée est généralement pointu, et on la range donc parmi les armes perforantes. Des symboles magiques ont été gravés sur la lame.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 10% de chances de ralentir la cible pendant 2 rounds à chaque coup au but
+
+TAC0 : +2
+Dégâts : 1d6 +2 (perforant)
+Facteur de vitesse : 2
+Type de compétence : épée courte
+Type : arme à une main
+Nécessite : 5 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Spears                                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Spear                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@11400 = ~Lance~
+@11401 = ~La lance, l'une des premières armes jamais créées, remonte à l'époque primitive et était initialement constitué d'un pic ou d'un bâton de bois taillé en pointe à une extrémité. Avec la découverte et la maîtrise des métaux, les races civilisées ont commencé à remplacer les pointes en bois par des pointes en fer et en acier. Les armuriers ont alors pu essayer différents types de pointes, ce qui a permis l'élaboration de certains types d'armes d'hast.
+
+PARAMÈTRES :
+
+Dégâts : 1d6 (perforant)
+Facteur de vitesse : 6
+Type de compétence : lance
+Type : arme à deux mains
+Nécessite : 5 en Force
+
+Poids : 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Briarspike +2 (NWN2)                                                  //
+///////////////////////////////////////////////////////////////////////////
+@11402 = ~Lance +2 : Épine~
+@11403 = ~Cette arme ressemble à un piquant de porc-épic géant, mais son processus de création est extrêmement complexe et porte la marque de Ménolde d'Eauprofonde. Cela pourrait apporter quelques éclaircissements sur le sort de ce dernier, car on dit qu'il aurait disparu suite à un raid d'orques sur sa tour il y a plusieurs années de cela. Il a probablement essayé de leur proposer ses services en échange de sa libération mais, hélas pour lui, cela n'aurait fait qu'augmenter sa valeur en tant que prisonnier.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d6+2, +2 dégâts de poison
+Type de dégâts : Perforant
+Facteur de vitesse : 4
+Type de compétence : Lance 
+Type : arme à deux mains
+Nécessite :
+ 5 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+// The Spear of White Ash +3 (IWD) – NOT INCLUDED                             //
+///////////////////////////////////////////////////////////////////////////
+@11404 = ~Épieu de Frêne Blanc+3~
+@11405 = ~L'Épieu de Frêne Blanc
+Consacré par les prêtres de Malar voici plusieurs siècles, cet épieu est utilisé lors des Grandes Chasses pour préparer les festins sanglants du clergé. Son dernier possesseur était le Vieux Chasseur Wellin, qui aurait péri après avoir bêtement chassé les dryades à Bois-Manteau. La hampe en frêne s'achève par un fer redoutable.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 5% des attaques portées infligent 1d6 points de dégâts perforants supplémentaires en raison des barbillons qui ornent le fer
+
+TAC0 : +3
+Dégâts : 1d8 +3 (perforant)
+Facteur de vitesse : 5
+Type de compétence : lance
+Type : arme à deux mains
+Nécessite : 5 en force
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Heartwood Spear +4 (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@11406 = ~Lance d'Evereska +4~
+@11407 = ~Cette arme est un don de la nation elfe au royaume d'Algarond après la signature du traité de paix entre les deux peuples. Des lances de ce type sont particulièrement bien travaillées et on raconte que le bois dont elles sont faites provient de la forêt d'Evereska.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– la cible doit réussir un JS contre les sorts ou être étourdie pendant un round
+
+TAC0 : +3
+Dégâts : 1d6+3, +1d4 dégâts d'acide
+Type de dégâts : Perforant
+Facteur de vitesse : 3
+Type de compétence : Lance 
+Type : arme à deux mains
+Nécessite :
+ 5 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// arme à deux mains Swords                                                     //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// arme à deux mains Sword                                                      //
+///////////////////////////////////////////////////////////////////////////
+@11500 = ~Épée à deux mains~
+@11501 = ~L'épée à deux mains est un dérivé de l'épée longue. Les forgerons d'armes ont toujours cherché à améliorer les armes de leur temps. Pour l'épée longue, ils ont allongé la lame. Après la lame, c'est la poignée qui s'est allongée. Il est alors devenu nécessaire d'utiliser les deux mains pour manier l'épée. La fonction première de l'épée à deux mains est de désarçonner les chevaliers montés et de désorganiser les haies de piques.
+
+PARAMÈTRES :
+
+Dégâts : 1d10
+Type de dégâts : Tranchant
+Facteur de vitesse : 10
+Type de compétence : Epée à deux mains
+Type : arme à deux mains
+Nécessite :
+ 14 en force
+
+Poids : 15~
+
+///////////////////////////////////////////////////////////////////////////
+// arme à deux mains Sword +1: Hammering (IWD)                                  //
+///////////////////////////////////////////////////////////////////////////
+@11502 = ~Épée à deux mains de martèlement +1~
+@11503 = ~Epée à Deux Mains de Martèlement
+L'épée à deux mains est un dérivé de l'épée longue. Les forgerons d'armes ont toujours cherché à améliorer les armes de leur temps. Pour l'épée longue, ils ont allongé la lame. Après la lame, c'est la poignée qui s'est allongée. Il est alors devenu nécessaire d'utiliser les deux mains pour manier l'épée. La fonction première de l'épée à deux mains est de désarçonner les chevaliers montés et de désorganiser les haies de piques. Celle-ci bénéficie de quelques enchantements qui la rendent particulièrement efficace.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 20% de chances d'étourdir la cible pendant 3 secondes à chaque coup au but
+
+TAC0 : +1
+Dégâts : 1d10 +1 (tranchant)
+Facteur de vitesse : 9
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite : 13 en force
+
+Poids : 12~
+
+///////////////////////////////////////////////////////////////////////////
+// Kresselack's Sword +1 (IWD)                                           //
+///////////////////////////////////////////////////////////////////////////
+@11504 = ~Épée de Kresselack +1~
+@11505 = ~L'Épée de Kresselack
+L'épée à deux mains est un dérivé de l'épée longue. Les forgerons d'armes ont toujours cherché à améliorer les armes de leur temps. Pour l'épée longue, ils ont allongé la lame. Après la lame, c'est la poignée qui s'est allongée. Il est alors devenu nécessaire d'utiliser les deux mains pour manier l'épée. La fonction première de l'épée à deux mains est de désarçonner les chevaliers montés et de désorganiser les haies de piques. 
+Cette épée appartenait autrefois à Kresselack, le roi barbare. Les enchantements dont elle a fait l'objet lui confèrent des propriétés magiques.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+
+- résistance au froid : +10%
+
+TAC0 : +1
+Dégâts : 1d10 +1 (tranchant)
+Facteur de vitesse : 9
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+
+Poids : 12~
+
+///////////////////////////////////////////////////////////////////////////
+// Serrated Bone Blade +3 (IWD)                                          //
+///////////////////////////////////////////////////////////////////////////
+@11506 = ~Épée d'os dentelée +3~
+@11507 = ~L'Épée d'Os Dentelée
+Cette gigantesque épée à deux mains en os émet une faible aura bleutée. Il arrive qu'un froid intense accompagne ses coups, gelant son porteur jusqu'aux os et affaiblissant d'autant ses victimes.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 20% de chances d'infliger +1d10 dégâts de froid
+
+TAC0 : +3
+Dégâts : 1d10 +3 (tranchant)
+Facteur de vitesse : 10
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite : 14 en force
+
+Poids : 25~
+
+///////////////////////////////////////////////////////////////////////////
+// Blade of the Rashemi +3 (NWN2)                                        //
+///////////////////////////////////////////////////////////////////////////
+@11508 = ~Lame de Rashéménie +3~
+@11509 = ~Comme toutes les épées à deux mains du pays des berserkers, cette arme est massive et si résistante que certains modèles perdurent toujours après plusieurs millénaires d'existence. Elle est particulièrement efficace contre les lanceurs de sorts, à tel point que les textes historiques rapportent que les ensorceleuses qui gouvernaient autrefois le pays auraient fait sortir du territoire tous les exemplaires connus, de peur qu'ils soient utilisés contre elles.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance Magique : +15%
+
+Capacités spéciales :
+– Peau de pierre 1 fois par jour (une seule peau)
+  Durée : 12 heures
+  Zone d'effet : le lanceur
+
+TAC0 : +3
+Dégâts : 1d10+3 
+Type de dégâts : Tranchant
+Facteur de vitesse : 7
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite :
+ 14 en force
+
+Poids : 10~
+
+///////////////////////////////////////////////////////////////////////////
+// The Golem's Blade +3 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@11510 = ~Lame du golem +3~
+@11511 = ~Pour créer un golem de lames, il est essentiel de forger une puissante épée magique destinée à servir de « bras » au golem. La plupart du temps, l'épée fusionne avec le golem à un point tel qu'elle perd tous ses enchantements si celui-ci vient à être détruit. Cependant, la puissance magique et la qualité de cette épée sont telles qu'elle est restée intacte malgré la destruction de son golem.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Force: +3
+
+Capacités de combat :
+– Inflige 2d6 points de dégâts tranchants supplémentaires en cas de coup critique.
+
+TAC0 : +3
+Dégâts : 1d12+3, +1d6
+Type de dégâts : Tranchant
+Facteur de vitesse : 6
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite :
+ 14 en force
+
+Poids : 11~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Wakizashis                                                            //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Wakizashi                                                             //
+///////////////////////////////////////////////////////////////////////////
+@11600 = ~Wakizashi~
+@11601 = ~Wakizashi
+Le wakizashi est une arme essentielle pour tout samouraï. C'est l'arme qu'il porte en permanence, même en intérieur, et qu'il garde à portée de main pendant son sommeil. Fabriqué de la même façon que le katana, le wakizashi est, malgré sa plus petite taille, une arme redoutable entre les mains d'un pratiquant accompli.
+
+PARAMETRES :
+
+Dégâts : 1D8
+Type de dégât : perforant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à 1 main
+Force nécessaire : 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Eye of the Sun +3 (NWN2)                                              //
+///////////////////////////////////////////////////////////////////////////
+@11602 = ~Œil du soleil +3~
+@11603 = ~Les symboles inscrits sur ce kama indiquent qu'il a été fabriqué par un moine de l'Ordre de la conscience solaire. Lorsque le kama est tenu en main, sa poignée émet une chaleur diffuse.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : 1d8+3, +1 dégât de feu, +1 dégât d'acide
+Type de dégâts : Perforant
+Facteur de vitesse : 0
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à une main
+Nécessite :
+ 5 en force
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// The Dark Companion +4 (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@11604 = ~Le Sombre Compagnon +4~
+@11605 = ~Cette arme magique bénéficie d'un bonus d'altération à l'attaque et aux dégâts mais ne porte aucune marque de fabrique..
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– +5% de chance de faire un coup critique.
+
+Capacités de combat :
+– Inflige 1d10 dégâts perforant supplémentaires en cas de coup critique.
+
+TAC0 : +4
+Dégâts : 1d8+4
+Type de dégâts : Perforant
+Facteur de vitesse : 0
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : arme à une main
+Nécessite :
+ 5 en force
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// War Hammers                                                           //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// War Hammer                                                            //
+///////////////////////////////////////////////////////////////////////////
+@11700 = ~Marteau de guerre~
+@11701 = ~Les cavaliers peuvent difficilement manier les armes longues. C'est pourquoi de nombreuses armes ont été munies de manches plus courts pouvant être portées d'une seule main. La masse d'armes et le fléau d'armes sont deux exemples d'armes longues qui ont suivi cette évolution ; le marteau de guerre en est un autre. Le marteau de guerre du cavalier est le descendant du marteau de Lucerne. Il est entièrement fabriqué en acier, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche mesure environ 45 cm de long.
+
+PARAMÈTRES :
+
+Dégâts : 1d4 +1 (contondant)
+Facteur de vitesse : 4
+Type de compétence : marteau de guerre
+Type : arme à une main
+Nécessite : 9 en Force
+
+Poids : 6~
+
+///////////////////////////////////////////////////////////////////////////
+// Lesser Rift Hammer +1 (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@11702 = ~Marteau de faille mineur +1~
+@11703 = ~Durant le Temps des Troubles, les murailles séparant les dimensions étaient particulièrement fines, et de nombreuses créatures habituellement confinées dans leur plan d'origine purent arpenter le monde de Toril. Des objets étranges apparurent également, dont plusieurs armes de ce type, la plupart du temps après qu'un portail ou une déchirure de la réalité eût été aperçu. Personne n'a jamais su expliquer quelle était l'origine de ces marteaux, et les gens superstitieux refusent ne serait-ce que de les toucher, par peur qu'ils aient en eux la corruption des plans inférieurs.
+
+PARAMÈTRES :
+
+TAC0 : +1
+Dégâts : 1d4+2, +1 dégât de feu
+Type de dégâts : Contondant
+Facteur de vitesse : 3
+Type de compétence : marteau de guerre
+Type : arme à une main
+Nécessite :
+ 9 en force
+
+Poids : 6~
+
+///////////////////////////////////////////////////////////////////////////
+// Crom Faeyr +5 (BG2)                                                   //
+///////////////////////////////////////////////////////////////////////////
+@11704 = ~Crom Faeyr
+
+Il s'agit du nom véritable que le forgeron nain Silverblade a donné à l'arme qu'il a créée pour son fils. Malheureusement, son fils est mort avant que l'arme ne soit terminée, mais la voici complète... combinant la magie du marteau initial avec des Gantelets de force d'ogre et un Ceinturon de force de Géant du froid. Crom Faeyr procure à son utilisateur toutes les capacités du Marteau de tonnerre original, en plus d'une force colossale et de la capacité de tuer les golems, les ettins et les trolls en un seul coup.
+
+PARAMÈTRES :
+
+Capacités spéciales : Force : +6 
+                      Tue les Golems de Pierre et d'Argile, les Ettins et les Trolls en un seul coup
+TAC0 : +5
+Dégâts : 2D4+3, +5 dégâts d'électricité
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 1
+Type de compétence : marteau
+Type : arme à 1 main~
+
+///////////////////////////////////////////////////////////////////////////
+// Rift Hammer +3 (NWN2)                                                 //
+///////////////////////////////////////////////////////////////////////////
+@11705 = ~Marteau de faille +3~
+@11706 = ~Durant le Temps des Troubles, les murailles séparant les dimensions étaient particulièrement fines, et de nombreuses créatures habituellement confinées dans leur plan d'origine purent arpenter le monde de Toril. Des objets étranges apparurent également, dont plusieurs armes de ce type, la plupart du temps après qu'un portail ou une déchirure de la réalité eût été aperçu. Personne n'a jamais su expliquer quelle était l'origine de ces marteaux, et les gens superstitieux refusent ne serait-ce que de les toucher, par peur qu'ils aient en eux la corruption des plans inférieurs.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : 1d4+4, +1d4 dégâts de feu
+Type de dégâts : Contondant
+Facteur de vitesse : 1
+Type de compétence : marteau de guerre
+Type : arme à une main
+Nécessite :
+ 9 en force
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Corrosive Hammer +2 (IWD)                                             //
+///////////////////////////////////////////////////////////////////////////
+@11707 = ~Marteau de guerre corrosif +2~
+@11708 = ~Marteau de Guerre Corrosif
+Comme tous les autres marteaux, celui-ci est intégralement en acier. Sa tête capable de broyer les os de n'importe quelle créature a été montée sur un manche de 45 cm de long. Il bénéficie d'enchantements mineurs qui accroissent encore son efficacité.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 30% de chances d'infliger 1d4 dégâts d'acide à chaque coup au but
+
+TAC0 : +2
+Dégâts : 1d4 +3 (contondant)
+Facteur de vitesse : 3
+Type de compétence : marteau de guerre
+Type : arme à une main
+Nécessite : 9 en force
+
+Poids : 6~
+
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// RANGED WEAPONS                                                        //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Composite Longbows                                                    //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Composite Longbow                                                     //
+///////////////////////////////////////////////////////////////////////////
+@11800 = ~Arc long composite~
+@11801 = ~Les arcs composites sont des arcs longs ou courts dont les branches sont faites de plusieurs matériaux. Cela rend l'arc plus souple, ce qui accroît sa portée. Ceux-ci ont été conçus après l'arc long ordinaire. 
+
+PARAMÈTRES :
+
+TAC0 : +1
+Dégâts : +1 (projectile)
+Facteur de vitesse : 7
+Type de compétence : Arc long
+Type : Arme à 2 mains
+Nécessite :
+ Force 18
+
+Poids : 10~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Longbows                                                              //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Longbow                                                               //
+///////////////////////////////////////////////////////////////////////////
+@11900 = ~Arc long~
+@11901 = ~L'arc long est similaire à l'arc court, sauf que la branche est pratiquement aussi grande que l'archer, généralement entre 1,80 m et 2 m. Sa portée est supérieure à celle de l'arc court mais sa rapidité de tir est inférieure.
+
+PARAMÈTRES :
+
+TAC0 : +1
+Facteur de vitesse : 7
+Type de compétence : arc long
+Type : arme à deux mains
+Nécessite : 6 en Force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Shortbows                                                             //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Shortbow                                                              //
+///////////////////////////////////////////////////////////////////////////
+@12000 = ~Arc court~
+@12001 = ~Les arcs courts ont été fabriqués avant les autres, même s'ils ne s'appelaient pas encore ainsi. Ce terme est utilisé par défaut pour désigner tout ce qui n'est pas un arc long. Les branches d'arc court mesurent 1,50 m en moyenne. Avec les années, on s'est efforcé d'améliorer la portée de l'arc. Tantôt on augmentait la longueur des branches, tantôt on améliorait leur flexibilité sans modifier leur longueur. La première expérience a engendré ce qui s'appelle aujourd'hui l'arc long. 
+
+PARAMETRES :
+
+Poids : 2
+Facteur de vitesse : 6
+Type de compétence : Arc court
+Type : arme à 2 mains
+Force nécessaire : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Slings                                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Sling                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@12100 = ~Fronde~
+@12101 = ~Les frondes existent depuis la nuit des temps. La fronde de base se compose d'une courroie en cuir ou en tissu comportant une bourse pouvant contenir un projectile. L'utilisateur tient la fronde par ses deux extrémités et la fait tournoyer autour de sa tête. Lorsque la vitesse maximale est atteinte, il suffit de relâcher l'une des extrémités de la courroie pour larguer le projectile.
+
+PARAMETRES :
+
+TAC0 : +1
+Poids : 0
+Facteur de vitesse : 6
+Type de compétence : fronde~
+
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// ARMOR                                                                 //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Robes                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Robe                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@12200 = ~Robe~
+@12201 = ~Depuis l'ère de Néthéril, les mages ont appris à conférer aux objets quotidiens qui les entouraient une grande variété de propriétés magiques. L'un des plus usités de ces objets est la robe courante. Elle est légère, peu onéreuse et conserve bien ses enchantements. Cela en fait une parure de mage idéale. Cependant, en raison de leur héritage magique, ces robes enchantées ne peuvent être portées que par des mages mono classés, à classes jumelées ou multiclassés.
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Robe of Armory (IWD)                                                  //
+///////////////////////////////////////////////////////////////////////////
+@12202 = ~Robe d'armure~
+@12203 = ~Robe d'Armure
+Plusieurs de ces robes rouge et or existent dans les royaumes, et toutes ont été confectionnées par un abjurateur appelé Delgam aux Multiples Côtés (qui reçut ce surnom à force d'utiliser l'expression « d'un autre côté »). Delgam n'était pas du genre à conférer des propriétés offensives ou généralistes à ses objets, préférant, comme tous les abjurateurs, se concentrer sur la défense. Ses robes étaient particulièrement appréciées, à tel point que des magiciens vinrent le trouver des quatre coins du monde pour lui demander d'en confectionner davantage. Il décida de disparaître plutôt que dispenser ses robes à des magiciens avides de pouvoir. Ses robes constituent son legs à la postérité.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- classe d'armure : 3
+- résistance aux dégâts physiques : +10%
+
+Poids : 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Robe of Enfusing (IWD)                                                //
+///////////////////////////////////////////////////////////////////////////
+@12204 = ~Robe de fusion~
+@12205 = ~La Robe de Fusion
+Depuis l'époque de Néthéril, les mages ont appris à conférer de nombreuses propriétés magiques aux objets de tous les jours. L'un de leurs objets favoris est la robe de magicien. Légère et peu onéreuse, elle conserve bien les enchantements dont on la dote, ce qui en fait un objet rêvé. Seuls les magiciens (monoclassés, multiclassés ou à classes jumelées) sont toutefois capables de la porter, en raison de la relation qu'ils entretiennent avec la magie.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +2
+- Résistance à la magie : +5%
+- Score de connaissance : +5
+- Permet de mémoriser un sort de magicien de niveau 1 supplémentaire
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Tasha's Atrocious Robe (NWN2)                                         //
+///////////////////////////////////////////////////////////////////////////
+@12206 = ~L'Atroce Robe de Tasha~
+@12207 = ~Tasha, l'enchanteresse qui voyage entre les plans serait selon la rumeur issue d'un univers parallèle primaire. On se souvient surtout de Tasha pour avoir mis au point le sortilège qui porte son nom et qui provoque des fous rires incontrôlables. Cependant, cette modeste magicienne a également créé plusieurs artefacts puissants, dont cette robe.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +1 
+– Jets de sauvegarde : +1
+– Résistance Magique : +10%
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Will of the Wychlaran (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@12208 = ~Volonté des Wychlarans~
+@12209 = ~Confectionnées par les lanceurs de sorts mâles de Rashéménie, ces robes étaient conçues pour être portées par les sorcières lors d'un combat contre un adversaire particulièrement coriace. Mais elles conviennent aux hommes comme aux femmes, pour les rares occasions où Rashémis des deux sexes avaient à combattre côte à côte.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +2 
+– Mémorisation d'un sort supplémentaire de 6ème niveau
+– Résistance Magique : +20%
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Leather Armors                                                        //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Leather Armor                                                         //
+///////////////////////////////////////////////////////////////////////////
+@12300 = ~Armure de cuir~
+@12301 = ~Armure de base faite de cuir épais, ciré ou durci à l'eau, elle offre une solide protection, contrairement au cuir souple des bottes ou des capes. Du cuir de vêtement comme ceux-là n'offrirait pas de meilleure protection qu'un vêtement ordinaire.
+
+PARAMÈTRES :
+
+Classe d'armure : 8 (10 contre perforant et projectile)
+Nécessite :
+ Force 4
+
+Poids : 15~
+
+///////////////////////////////////////////////////////////////////////////
+// Armor of Loyalty (NWN2)                                               //
+///////////////////////////////////////////////////////////////////////////
+@12302 = ~Armure de loyauté~
+@12303 = ~Quand il mit un enchanteur rival en colère, Mékhari le magicien se retrouva attaqué par ses propres gardes du corps, qu'il avait pourtant charmés. Sans compter le danger que cela représentait, la répétition de ces assauts finit par lui coûter cher, tant et si bien qu'il décida de contrer la menace d'une façon qui ne l'obligerait pas à tuer ses hommes un à un. Afin d'éviter qu'ils puissent échapper à son contrôle, il les dota d'armures de ce type, qui lui permirent de reprendre confiance en eux. Son lieutenant lui démontra qu'il avait tort en le tuant suite à une querelle concernant ses arriérés de salaire.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité au charme
+
+Classe d'armure : 7 (9 contre perforant et projectile)
+Nécessite :
+ 4 en force
+
+Poids : 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Aurumvorax Armor (NWN2)                                               //
+///////////////////////////////////////////////////////////////////////////
+@12304 = ~Armure en peau d'Aurumvorax~
+@12305 = ~Cette armure aux reflets d'or aurait été confectionnée à partir de la peau d'un Aurumvorax, carnivore à six pattes qui dévore non seulement la viande, mais aussi les métaux précieux. C'est son régime alimentaire si particulier qui confère ce brillant et cette exceptionnelle résistance à sa peau, laquelle permet de réaliser d'excellentes armures.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– +5% resistance aux dégâts tranchants et perforants
+
+Classe d'armure : 6 (8 contre perforant et projectile)
+Nécessite :
+ 4 en force
+
+Poids : 5~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Studded Leather Armors                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Studded Leather Armor                                                 //
+///////////////////////////////////////////////////////////////////////////
+@12400 = ~Besantine~
+@12401 = ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place. 
+
+PARAMETRES :
+
+Classe d'Armure : 7 (5 contre tranchant, 6 contre perforant et projectile)
+Poids : 25
+Force nécessaire : 6~
+
+///////////////////////////////////////////////////////////////////////////
+// Black Flame Armor (NWN2)                                              //
+///////////////////////////////////////////////////////////////////////////
+@12402 = ~Armure de la Flamme Noire~
+@12403 = ~Ce sont les artisans halfelins que l'on crédite de la fabrication des meilleures armures résistant à la chaleur. Apparemment, ils les auraient forgées pour mettre un terme aux exactions d'un éfrit voici une cinquantaine d'années. Depuis, le modèle a souvent été copié, mais la fabrication de telles armures est tellement coûteuse que l'on n'en voit que très rarement sur le marché.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance au feu : +30%
+
+Classe d'armure : 4 (2 contre tranchant, 3 contre perforant et projectile)
+Nécessite :
+ 6 en force
+
+Poids : 6~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Hide Armors                                                           //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Hide Armor                                                            //
+///////////////////////////////////////////////////////////////////////////
+@12500 = ~Cuirasse
+~
+@12501 = ~L'armure de peau est fabriquée à partir de la peau épaisse d'un grand animal (un éléphant, par exemple) ou avec de nombreuses couches de peau provenant d'animaux courants (vaches, etc.). Cette armure est bien trop encombrante, raide et lourde pour être utilisée dans les civilisations évoluées. Mais parmi les masses humanoïdes barbares qui peuplent les sombres forêts et les jungles, l'armure de peau est courante. Bien qu'elle offre une meilleure protection que l'armure en cuir, il faut pouvoir surmonter sa puanteur et son aspect miteux pour arriver à en tirer profit. Les voleurs peuvent porter cette armure, mais elle a des effets négatifs sur leurs aptitudes.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -10 %
+- déplacement silencieux : -20 %
+- se cacher dans l'ombre : -20 %
+
+Classe d'armure : 6 (8 contre les armes perforantes et les projectiles)
+Nécessite : 9 en Force
+
+Poids : 40~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Chain Mail Armors                                                     //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Chain Mail                                                            //
+///////////////////////////////////////////////////////////////////////////
+@12600 = ~Armure en cottes de mailles~
+@12601 = ~L'armure de cotte de mailles est constituée d'anneaux métalliques imbriqués les uns dans les autres. Elle est toujours portée par-dessus une couche de tissu matelassé ou de cuir souple pour empêcher le frottement et réduire l'impact des chocs. 
+
+PARAMÈTRES :
+
+Classe d'armure : 5 (3 contre tranchant, 7 contre contondant)
+Nécessite :
+ Force 8
+
+Poids : 40~
+
+///////////////////////////////////////////////////////////////////////////
+// Baleful Mail (IWD)                                                    //
+///////////////////////////////////////////////////////////////////////////
+@12602 = ~Armure de la haine~
+@12603 = ~L'Armure de la Haine
+Cette armure fut fabriquée en 1221 CV par un forgeron duergar, sur commande d'Alerri, prêtre vengeur de Baine officiant dans le quartier ouest d'Eauprofonde. Après avoir rallié le culte du Seigneur Noir, Alerri provoquait fréquemment les prêtres de Sunie, qu'il adorait attaquer. Malheureusement pour lui, les disciples de Dame aux Cheveux de Feu parvinrent un jour à le charmer, et il dut alors se livrer à de nombreux actes embarrassants dans les rues d'Eauprofonde. De nombreuses années plus tard, Alerri décida de faire honneur au dieu de la Haine en faisant fabriquer une armure qui le protégerait contre les charmes. Il entra en contact avec les serviteurs spirituels de Baine et, suivant les instructions de son maître, il assassina treize couples mariés et fit incruster leurs alliances dans les mailles de l'armure. Cela fait, il massacra treize elfes et se baigna dans leur sang tout en priant treize heures durant. Quand il en eut fini, son armure le protégea de la magie des Sunites, tout en l'emplissant d'une haine irrépressible. Il partit en croisade contre les serviteurs de Sunie, Lliira et Hanali Celanil pendant trois ans, perpétrant de multiples meurtres jusqu'au jour où archers et prêtres elfes de Corellon Larethian lui tendirent une embuscade sur une route au nord d'Eauprofonde.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Charisme : -2
+- immunité aux sorts de Charme néfaste, Charme-personne, Confusion, Injonction et Obstination bornée
+
+CA : 3 (1 contre les armes tranchantes, 5 contre les armes contondantes)
+Nécessite : 8 en force
+
+Poids : 45~
+
+///////////////////////////////////////////////////////////////////////////
+// Anti-Venom Chainmail (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@12604 = ~Cottes de mailles Anti-Venin~
+@12605 = ~Cette armure a été bénie par le sort Neutralisation du poison d'un prêtre, elle offre à son porteur une protection contre tous les types de venins et ne porte aucune marque de fabrication particulière.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité au poison
+
+Classe d'armure : 4 (2 contre les armes tranchantes, 6 contre les armes contondantes)
+Nécessite :
+ 8 en force
+
+Poids : 20~
+
+///////////////////////////////////////////////////////////////////////////
+// Doron's Mistake (NWN2)                                                //
+///////////////////////////////////////////////////////////////////////////
+@12606 = ~L'erreur de Doron~
+@12607 = ~Doron était un maître artisan nain, mais même les maîtres commettent des erreurs. Alors qu'il démontait une « ridicule armure elfique » afin de mieux l'étudier, il fit accidentellement tomber plusieurs mailles de mithral dans sa forge, et cela modifia toutes les armures qu'il créa par la suite jusqu'à ce qu'il eut nettoyé sa forge de fond en comble. Les armures affectées par le mithral montrèrent d'étonnantes propriétés magiques, mais Doron les jeta toutes à la poubelle. Il était tellement furieux de son erreur qu'on prétend même qu'il giflait ceux qu'il voyait porter ses armures « corrompues ».
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Jets de sauvegarde : +1
+
+Classe d'armure : 3 (1 contre les armes tranchantes, 5 contre les armes contondantes)
+Nécessite :
+ 8 en force
+
+Poids : 10~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Splint Mail Armors                                                    //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Splint Mail                                                           //
+///////////////////////////////////////////////////////////////////////////
+@12700 = ~Armure feuilletée~
+@12701 = ~L'armure feuilletée est une variante de l'armure à bandes. Elle comporte des bandes métalliques appliquées verticalement au renforcement des mailles, du cuir et du tissu, plutôt qu'horizontalement comme dans l'armure à bandes. Comme le corps humain ne pivote pas au niveau du torse autant qu'il peut se courber en avant, l'armure feuilletée limite les mouvements lors des combats.
+
+PARAMETRES :
+
+Classe d'Armure : 4 (3 contre perforant et projectile, 2 contre contondant)
+Poids : 40
+Force nécessaire : 8~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Plate Mail Armors                                                     //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Plate Mail                                                            //
+///////////////////////////////////////////////////////////////////////////
+@12800 = ~Armure de plates~
+@12801 = ~L'armure de plates est une combinaison de cottes de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l'abdomen et l'aine. De fabrication semblable à l'armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir. 
+
+PARAMETRES :
+
+Classe d'Armure : 3 (0 contre les armes tranchantes)
+Poids : 50
+Force nécessaire : 12~
+
+///////////////////////////////////////////////////////////////////////////
+// The Gilded Defender – Dwarven Fighter/Kit Only (NWN2)                 //
+///////////////////////////////////////////////////////////////////////////
+@12802 = ~Le Protecteur Doré~
+@12803 = ~Le tintement des anneaux de métal accompagne cette armure de grande qualité, finement ornée. Forgée selon une forme complexe par les meilleurs forgerons nains, cette armure est l'incarnation des compagnons nains les plus respectés : les Protecteurs. Nul ne peut franchir le rempart de leurs boucliers et nul ne peut résister à leur charge.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Force : +2
+– Points de vie : +10
+
+Classe d'armure : 1 (-2 contre les armes tranchantes)
+Nécessite :
+ 12 en force
+
+Poids : 25~
+
+///////////////////////////////////////////////////////////////////////////
+// Deep Guardian's Plate (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@12804 = ~Armure du gardien des profondeurs~
+@12805 = ~Pour apporter une meilleure protection aux soldats, les artificiers de l'ancienne Imaskar fabriquèrent une sorte de symbiote vivant, lié à son utilisateur pour le protéger. A partir de spécimens trouvés dans les profondeurs des océans, les lanceurs de sorts imaskaris commencèrent à greffer ces créatures enchantées sur des armures, les sevrant d'eau salée et les forçant à se nourrir de la magie. Cette technique fut un succès : l'utilisateur de cette armure bénéficiait ainsi d'une meilleure résistance aux sorts. Mais certains thaumartisans considérèrent cette création avec une crainte grandissante, persuadés qu'une créature qui se repaissait de magie deviendrait très vite plus exigeante et finirait pas se nourrir directement de son maître. Pour cette raison, seules quelques armures furent conçues et les créatures créées par les Imaskaris furent enfermées et oubliées. A la chute d'Imaskar, ces créatures sont probablement retournées dans le silence des profondeurs... ou peut-être se sont-elles transformées en autre chose...
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance Magique : +10%
+– Le porteur est immunisé au sort d'immobilisation des personnes.
+
+Classe d'armure : 1 (-2 contre les armes tranchantes)
+Nécessite :
+ 12 en force
+
+Poids : 20~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Full Plate Mail Armors                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Full Plate Mail                                                       //
+///////////////////////////////////////////////////////////////////////////
+@12900 = ~Armure de plates complète~
+@12901 = ~L'armure de plates complète est la meilleure armure qu'un guerrier puisse acheter, aussi bien d'un point de vue esthétique que pratique. Les plaques parfaitement fixées et imbriquées les unes dans les autres sont inclinées de façon à détourner les flèches et les coups, et l'ensemble de la tunique est soigneusement orné de riches gravures et de détails en relief. 
+
+PARAMETRES :
+
+Classe d'Armure : 1 (-3 contre tranchant, -2 contre perforant et projectile)
+Poids : 70
+Force nécessaire : 15~
+
+///////////////////////////////////////////////////////////////////////////
+// Storm Armor of the Earth's Children – Shorty Race Only (NWN2)         //
+///////////////////////////////////////////////////////////////////////////
+@12902 = ~Armure des tempêtes des fils de la terre~
+@12903 = ~Ce harnois particulièrement bien ouvragé est conçu pour les humanoïdes de petite taille. Il est fait d'une étrange matière non métallique qui ne conduit pas l'électricité ni la chaleur. La légende dit que cette matière proviendrait d'un autre plan.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance au froid : +10%
+– Résistance à l'électricité : +10%
+– Résistance au feu : +10%
+
+Classe d'armure : 0 (-4 contre tranchant, -3 contre perforant et projectile)
+Nécessite :
+ 15 en force
+
+Poids : 40~
+
+///////////////////////////////////////////////////////////////////////////
+// Armor of Gram the Mouse – Paladin Only (NWN2)                         //
+///////////////////////////////////////////////////////////////////////////
+@12904 = ~Armure de Gram la Souris~
+@12905 = ~A l'âge de dix-huit ans, un petit homme de Vounlar du nom de Gram Chandler rejoint les paladins de Damarie de Torm. Surnommé « la Souris » par ses camarades de formation pour sa petite taille et son grand amour du fromage, Gram devint très respecté pendant sa période d'initié. Toutefois, quand il fut temps de remettre aux initiés armes et armures, pour en faire des paladins de l'église, l'ordre fut très embarrassé de découvrir qu'il n'avait pas d'armure assez petite pour Gram. Les prêtres et paladins s'excusèrent auprès de Gram et lui promirent de faire fabriquer une armure le plus tôt possible. Malgré les railleries des camarades de Gram, celui-ci se mit à sourire et reprit ses occupations.
+
+Un mois plus tard, alors que la plupart des autres paladins de l'église étaient en mission, un cavalier blessé approcha de la forteresse de Torm et demanda à voir le chef. Gram n'avait aucune autorité, mais aucun autre paladin n'était présent. Le cavalier était un garde de Thay qui escortait une magicienne rouge. Mais leur convoi avait été attaqué par des gobelours dans les terres sauvages. Les prêtres raillèrent le cavalier en apprenant sa nationalité, mais Gram dit au garde qu'il était de son devoir de protéger les voyageurs de toute agression dans le territoire de Torm. Les prêtres tentèrent de dissuader Gram de se lancer au secours de la magicienne rouge, mais Gram n'en tint pas compte et répéta au garde qu'il serait honoré d'organiser une mission de secours.
+
+Protégé seulement par son casque et la lourde peau de bête rendue obligatoire par le climat, Gram suivit le garde jusqu'au lieu du combat. De là, ils suivirent les traces des gobelours jusqu'à une caverne. Quand Gram et le garde y pénétrèrent, ils furent immédiatement attaqués par de nombreux gobelours. La détermination du garde lui fit défaut et il prit la fuite. Gram continua, tuant quatre gobelours et en blessant deux autres avant de mourir aux pieds de la magicienne rouge. Il restait d'autres gobelours dans la caverne, mais ils étaient suffisamment affaiblis et désorientés par cette attaque pour permettre à la magicienne de se frayer un chemin jusqu'à la sortie.
+
+Par la suite, elle rentra à Damarie et contacta les prêtres du temple d'où venait Gram. Quand elle apprit la vaillance altruiste de Gram, même son coeur durci aux feux de Thay se serra. Elle fit fabriquer et enchanter une armure à la taille de son petit sauveteur. Sa qualité était des plus exceptionnelles, et l'on raconte que les prêtres et paladins de Torm assemblés autour du tombeau de Gram furent saisis par sa beauté. Dans les années qui suivirent, Gram fut érigé en exemple de dévotion pour les apprentis paladins. Son tombeau sacré fut pillé par une faction de l'armée orque de la Vaasie lors de la destruction du temple, en 1298 CV.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Resistance aux dégâts magiques : +5%
+
+Classe d'armure : 0 (-4 contre tranchant, -3 contre perforant et projectile)
+Nécessite :
+ 15 en force
+
+Poids : 50~
+
+///////////////////////////////////////////////////////////////////////////
+// Armor of Freedom (NWN2)                                               //
+///////////////////////////////////////////////////////////////////////////
+@12906 = ~Armure de liberté~
+@12907 = ~Après avoir échappé à un emprisonnement magique, le prêtre-guerrier Archiel jura de ne plus jamais se laisser piéger par la sorcellerie. Il consacra plusieurs années de sa vie à la création de ces armures, pour lui-même et ses compagnons, mais il finit tout de même enchaîné au fond d'une cellule tout à fait quelconque après avoir été capturé par un moyen on ne peut plus ordinaire.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Action Libre
+
+Classe d'armure : 0 (-4 contre tranchant, -3 contre perforant et projectile)
+Nécessite :
+ 15 en force
+
+Poids : 35~
+
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// SHIELDS                                                               //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Bucklers                                                              //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Buckler                                                               //
+///////////////////////////////////////////////////////////////////////////
+@13000 = ~Targe~
+@13001 = ~La targe est un petit bouclier circulaire de bois ou de métal qui se fixe sur l'avant-bras. Elle peut être portée par un arbalétrier ou un archer sans que ce dernier soit pour autant gêné dans ses attaques avec son arme. 
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +1
+- Ne protège pas contre les attaques perforantes ou les projectiles
+
+Nécessite : 4 en Force
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Shield of the Magi (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@13002 = ~Égide de Magus~
+@13003 = ~Ce bouclier léger a été façonné par des ogres mages. Sa face intérieure est couverte de runes de protection et de pouvoir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +3
+– Ne protège pas contre les attaques perforantes ou les projectiles
+– Mémorisation d'un sort supplémentaire de 4ème niveau
+
+Capacités spéciales :
+– Globe mineur d'invulnérabilité une fois par jour
+  Spécial : l'utilisateur est immunisé aux sorts de niveau 1 à 3
+  Durée : 2 tours
+
+Nécessite :
+ 4 en force
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Dwarven Mirth (NWN2)                                                  //
+///////////////////////////////////////////////////////////////////////////
+@13004 = ~Bonheur des nains~
+@13005 = ~Chez les nains, Simeron Marteaudacier fait figure de père de tous les bardes. Connaissant sur le bout des doigts l'histoire de son peuple, il voyageait énormément, racontant partout comment les nains vivaient et ce qu'on leur devait. Au terme de sa longue existence, il retourna une dernière fois chez lui, dans la région de la Grande Faille. A cette occasion, tous les linteaux arboraient un bouclier semblable à celui-ci, forgés par les membres de son clan afin de lui rendre hommage.
+
+Capacités d'équipement :
+– Classe d'armure : +2
+– Ne protège pas contre les projectiles
+– Charisme : +2
+
+Nécessite :
+ 4 en force
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Small Shields                                                         //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Small Shield                                                          //
+///////////////////////////////////////////////////////////////////////////
+@13100 = ~Rondache~
+@13101 = ~La rondache est généralement ronde et se tient à bout de bras par la poignée. Comme elle est légère comparée à un écu, le combattant peut porter d'autres objets dans la même main, mais ne peut manier ou porter une autre arme. 
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +1
+- Ne protège pas contre les projectiles
+
+Nécessite : 4 en Force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Waukeen's Defender +2 (IWD) – NOT INCLUDED                              //
+///////////////////////////////////////////////////////////////////////////
+@13102 = ~Gardien de Waukyne +2~
+@13103 = ~Le Gardien de Waukyne
+Plusieurs boucliers similaires existent dans les divers temples construits à la gloire de Waukyne en Féérûne. Le clergé les fabrique pour les vendre à de courageux aventuriers, qui doivent s'engager à conserver la face extérieure du bouclier telle qu'elle est, sans jamais la recouvrir. Dans le cas contraire, les propriétés du bouclier disparaissent. C'est ainsi que des dizaines d'aventuriers parcourent les Royaumes en arborant fidèlement l'effigie de Waukyne.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +3 (+2 seulement contre les projectiles)
+- Jets de sauvegarde : +2
+- Résistance à la magie : +10%
+
+Nécessite : 4 en force
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// The Frostmaiden's Bane (NWN2)                                         //
+///////////////////////////////////////////////////////////////////////////
+@13104 = ~Fléau de la Vierge de glace~
+@13105 = ~Ce bouclier léger en mithral dispose d'une résistance améliorée au froid a croupi dans les forges d'Imaskari pendant des siècles, sans jamais avoir servi. Les prêtres d'Auril contre lesquels il était censé être utilisé ont été tués par une infection magique particulièrement vicieuse répandue par les sorciers d'Imaskari.
+
+Capacités d'équipement :
+– Classe d'armure : +3
+– Ne protège pas contre les projectiles
+– Résistance au froid : +20%
+
+Nécessite :
+ 4 en force
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Protector (NWN2)                                                      //
+///////////////////////////////////////////////////////////////////////////
+@13106 = ~Protecteur~
+@13107 = ~Cette rondache arbore fièrement la marque de Luiren, patrie des halfelins vaillants. Peu de gens soupçonnent les halfelins d'avoir une tradition militaire digne de ce nom. Pourtant, le petit peuple de Luiren dispose d'une milice bien entraînée, conduite par le clergé local et appuyée par une puissante magie divine. Ce bouclier a certainement appartenu à un soldat de Luiren mort en défendant sa patrie.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +3 (+2 contre les projectiles)
+– Ne protège pas contre les projectiles
+– +5% de résistance contre les dégâts tranchants, perforants et contondants
+
+Nécessite :
+ 4 en force
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Medium Shields                                                        //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Medium Shield                                                         //
+///////////////////////////////////////////////////////////////////////////
+@13200 = ~Écu~
+@13201 = ~L'écu se porte comme la rondache. Mais contrairement à la rondache, son poids ne permet pas au combattant de porter autre chose. Les écus sont généralement fabriqués en métal, mesurent entre 90 cm et 1,20 m de diamètre et peuvent avoir n'importe quelle forme (carrée, ronde ou comme les ailes déployées d'un dragon). Un bouclier médiéval typique ressemble à un triangle dont un des angles pointerait vers le bas. 
+
+PARAMETRES :
+
+Bonus à la classe d'armure : 1
+Poids : 7
+Force nécessaire : 12~
+
+///////////////////////////////////////////////////////////////////////////
+// The Argent Shield +2 (IWD) NOT INCLUDED                                           //
+///////////////////////////////////////////////////////////////////////////
+@13202 = ~Bouclier d'argent +2~
+@13203 = ~Bouclier de la Main
+Ce bouclier en argent se trouvait à l'intérieur de la Main de la Seldarine. Il protégeait son porteur contre la magie et les attaques physiques. Incapables de l'utiliser, orques et gobelins l'ont laissé dans la tour, où la Vierge Ilmadia l'a récupéré.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +3
+- Résistance à la magie : +25%
+
+Nécessite : 12 en force
+
+Poids : 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Laeral's Spell Shield +1 (NWN2)                                       //
+///////////////////////////////////////////////////////////////////////////
+@13204 = ~Bouclier contre les sorts de Laeral +1~
+@13205 = ~Ce grand bouclier d'acier, dont le nom provient de Laeral Maindargent Arunsun, qui fut le premier à en fabriquer, octroie à son porteur une résistance contre les sortilèges.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +2
+– Résistance Magique : +10%
+
+Nécessite :
+ 12 en force
+
+Poids : 6~
+
+///////////////////////////////////////////////////////////////////////////
+// Silver Shield +2 (NWN2)                                               //
+///////////////////////////////////////////////////////////////////////////
+@13206 = ~Bouclier en argent +2~
+@13207 = ~Ce bouclier est fait du même métal que les célèbres lames d'argent githyanki et possède de puissantes capacités défensives. Quant à savoir si les githyanki mettront un point d'honneur à traquer le porteur de ce bouclier comme elles le font pour leurs lames d'argent... cela reste un mystère.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +3
+– +10% de résistance contre les dégâts tranchants, perforants et contondants
+– Protège contre toute forme de terreur et renforce le moral
+
+Nécessite :
+ 12 en force
+
+Poids : 5~
+
+///////////////////////////////////////////////////////////////////////////
+// Uthgardt Holy Shield +2 (NWN2)                                        //
+///////////////////////////////////////////////////////////////////////////
+@13208 = ~Bouclier sacré d'Uthgardt +2~
+@13209 = ~Les Uthgardt mettent la force physique en exergue et ces boucliers semblent faits pour eux. D'autant qu'ils n'aiment guère parler pour ne rien dire, et que ces boucliers ont pour principal effet de transformer leur possesseur en sauvage digne des barbares du Grand Nord.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +3
+– Force : +2
+– Charisme : -2
+
+Nécessite :
+ 12 en force
+
+Poids : 7~
+
+///////////////////////////////////////////////////////////////////////////
+// Kepeturi Crest +3 (NWN2)                                              //
+///////////////////////////////////////////////////////////////////////////
+@13210 = ~Égide de Kepetur +3~
+@13211 = ~Ce lourd écu se tenait autrefois dans les tours à prière de Mulhorande, à Kepetur. Après la chute des tours suite aux assauts d'Eltab et de sa horde démoniaque, il finit aux mains des redoutés Thayens.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +4
+– Sagesse : +2
+
+Capacités spéciales :
+– Rayon solaire
+Dégâts : 3D6 (jet de sauvegarde contre les sorts sous peine d'être aveuglé 	pendant 10 rounds)
+Mort-vivant : 1D6 de dégâts supplémentaires par niveau du lanceur (jet de sauvegarde contre les sorts sous peine d'être détruit)
+Portée : 6 mètres
+Zone d'effet : 6 mètres de rayon
+
+Nécessite :
+ 12 en force
+
+Poids : 7~
+
+///////////////////////////////////////////////////////////////////////////
+// Triune Shield +3 (NWN2)                                              //
+///////////////////////////////////////////////////////////////////////////
+@13212 = ~Bouclier de la Trinité +3~
+@13213 = ~Consacré par la trinité divine protectrice de Rashéménie (Bhalla, Mailikki et l'Occulte), ce bouclier investi de leurs pouvoirs reflète leur désir commun de protéger son porteur.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +4
+– Résistance Magique : +10%
+– Immunité aux maladies
+
+Nécessite :
+ 12 en force
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Large Shields                                                         //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Large Shield                                                          //
+///////////////////////////////////////////////////////////////////////////
+@13300 = ~Grand bouclier~
+@13301 = ~Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place. 
+
+PARAMETRES :
+
+Bonus à la classe d'armure : 1
+Spécial : +1 contre les armes à projectile
+Poids : 15
+Force nécessaire : 15~
+
+///////////////////////////////////////////////////////////////////////////
+// Large Shield of en force +1 (IWD)                                     //
+///////////////////////////////////////////////////////////////////////////
+@13302 = ~Pavois de force +1~
+@13303 = ~Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +2, bonus de +1 contre les projectiles
+- Force : +1
+- Résistance aux dégâts tranchants : +10%
+- Résistance aux dégâts perforants : +10%
+
+Nécessite : 14 en force
+
+Poids : 12~
+
+/*************************************************************************/
+///////////////////////////////////////////////////////////////////////////
+// ACCESSORIES                                                           //
+///////////////////////////////////////////////////////////////////////////
+/*************************************************************************/
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Amulets                                                               //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Amulet                                                                //
+///////////////////////////////////////////////////////////////////////////
+@13400 = ~Amulette~
+@13401 = ~Les amulettes sont généralement des objets magiques suspendus autour du cou par une chaîne. Le type de chaîne accompagnant l'amulette augmente souvent la valeur esthétique de l'objet, mais pas ses propriétés magiques. On ne peut porter qu'une seule amulette autour du cou. 
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Periapt of Wisdom +2 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@13402 = ~Médaillon de Sagesse +2~
+@13403 = ~S'ils ne semblent être faits que de simples pierres fixées à de maigres chaînes, les médaillons de Sagesse sont en réalité de puissants objets. Souvent utilisés par les hautes autorités religieuses d'un culte, ils améliorent la perception et la perspicacité de leur propriétaire.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Sagesse : +2
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Amulet of Health (NWN2)                                               //
+///////////////////////////////////////////////////////////////////////////
+@13404 = ~Amulette de Santé~
+@13405 = ~Natnea Chesh fut l'une des premières prêtresses de Kelemvor sur les Iles Lunae. Elle fut connue sous le nom de « Protectrice des Morts » quand elle empêcha un nécromancien de lever une armée de morts-vivants. En récompense pour cet exploit héroïque, Kelemvor lui donna cette amulette ainsi que le secret pour en faire des copies pour les autres prêtres voués à la destruction des morts-vivants les plus puissants. Depuis, de nombreux voleurs ont trouvé que ces objets leur étaient particulièrement utiles.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité aux maladies
+– Protection contre le Plan négatif 
+– Immunité au poison
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Amulet of Pure Love (NWN2)                                            //
+///////////////////////////////////////////////////////////////////////////
+@13406 = ~Amulette d'amour pur~
+@13407 = ~Au premier abord, cette amulette n'a rien d'extraordinaire, mais lorsque vous la tenez dans la main, vous éprouvez une vague sensation de bonheur et d'épanouissement. Dès que vous la lâchez, la sensation s'estompe. Vous en venez à croire que vous l'avez rêvée.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Protection contre le Plan négatif
+– Protège contre toute forme de terreur et renforce le moral
+– Régénération d'1 PV/round
+
+Capacités spéciales :
+– Restauration majeure 1 fois par jour
+  Spécial : Annule les effets de toute absorption d'énergie/niveau, annule la Débilité Mentale, la Confusion ou la Rage, soigne complètement la cible et la guérie toutes les maladies ou poisons.
+  Portée : Contact
+  Zone d'effet : Créature ciblée
+  
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Ysridain's Soul – Bard Only (NWN2)                                    //
+///////////////////////////////////////////////////////////////////////////
+@13408 = ~Ame d'Ysridain~
+@13409 = ~Tout le monde affirmait que l'adresse d'Ysridain au luth était exceptionnelle, mais quelques-uns allaient jusqu'à dire qu'elle touchait au surnaturel. Après le trépas d'Ysridain des mains d'une maîtresse délaissée, les habitants d'Eauprofonde purent constater toute la véracité de ces rumeurs. Au début de sa carrière, Ysridain se rendit compte que sa beauté physique était de loin supérieure à son talent musical. C'était un bon musicien, mais il ne pourrait jamais devenir légendaire sans aide. Ysridain fit appel à un magicien pour invoquer un puissant démon afin que le barde puisse négocier un pacte avec les forces des ténèbres. C'est un succube qui répondit à son appel. Elle accepta d'inspirer Ysridain avec des forces créatrices bien au-delà de sa compréhension. En échange, à sa mort, tout ce qui découlerait de cette inspiration lui reviendrait, ainsi que l'âme d'Ysridain.
+
+Ysridain réfléchit un instant, et finit par accepter le marché du succube. Le succube occupa un pendentif qu'Ysridain portait au cou. Il inspirait au barde de hauts-faits musicaux, mais l'incitait aussi aux affres du désir. A la mort d'Ysridain, l'âme du barde passa dans l'amulette, et le succube fut incarné dans notre monde. Si cette amulette devait se briser, l'âme d'Ysridain sera aussitôt entraînée vers les plans infernaux. Jusqu'à ce jour, le succube d'Ysridain traque dans Faerûn les enfants engendrés par les conquêtes du barde.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Points de vie : +15 
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// The Ancient Sermon – Cleric Only (NWN2)                               //
+///////////////////////////////////////////////////////////////////////////
+@13410 = ~Le Sermon ancien~
+@13411 = ~Ces amulettes sont appréciées de la plupart des prêtres. Elles attirent la faveur des dieux sur le porteur, leur donnent accès à des sorts supplémentaires et leur offrent une protection divine..
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +1
+– Permet de mémoriser un sort de magicien supplémentaire des niveaux 1 à 3
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Black Wolf Talisman (IWD)                                             //
+///////////////////////////////////////////////////////////////////////////
+@13412 = ~Talisman du Loup Noir~
+@13413 = ~Le Talisman du Loup Noir
+Ce talisman grossier prend la forme d'une pierre plate sur laquelle on a peint une patte de loup. Malgré son aspect simpliste, le talisman du Loup Noir est extrêmement puissant et bénéfique.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- classe d'armure : +1
+- jets de sauvegarde contre les souffles : +1
+- points de vie : +10
+- résistance au froid : +10 %
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Clasp of Bron's Cloak (IWD) – NOT INCLUDED                             //
+///////////////////////////////////////////////////////////////////////////
+@13414 = ~Fermoir de la cape de Bron~
+@13415 = ~Le Fermoire de la Cape de Bron
+Ce petit talisman servait d'attache à la cape du célèbre guerrier Bron Balhon. Plus de dix fois, Bron fut déclaré mort après s'être retrouvé dans une situation inextricable. Des ennemis le criblèrent de carreaux d'arbalète et le jetèrent à l'océan en le lestant de plomb... pour se retrouver tués par lui un mois plus tard, dans une taverne distante de plus de 600 km. Une autre fois, les compagnons de Bron l'abandonnèrent lâchement alors qu'ils étaient attaqués par des loups noirs. Deux mois plus tard, Bron arriva en titubant à leur campement, vêtu de peaux de loup. Que toutes ces histoires gravitant autour des nombreuses morts de Bron soient vraies ou pas, on sait avec une quasi-certitude qu'il est mort dans les montagnes de l'Épine Dorsale du Monde, tué par des ours polaires.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- résistance aux attaques tranchantes : +5%
+- résistance aux attaques perforantes : +5%
+- résistance aux attaques contondantes : +5%
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Belts                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Belt                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@13500 = ~Ceinturon~
+@13501 = ~Les ceinturons ressemblent généralement aux ceintures. Mais à la différence de ces dernières, ils ne servent pas à retenir les pantalons ou les salopettes, mais à porter bourses, fourreaux et choses de ce genre. 
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Ceremonial Uthgardt Belt (NWN2)                                       //
+///////////////////////////////////////////////////////////////////////////
+@13502 = ~Ceinture de cérémonie des Uthgardt~
+@13503 = ~Afin d'empêcher les Uthgardt de trop se multiplier, un groupe de druides oubliés depuis longtemps leur transmit une variole extrêmement virulente. Mais la maladie échappa bien vite à tout contrôle et faillit avoir l'effet inverse, à savoir faire disparaître purement et simplement les barbares. Désireux de maintenir l'équilibre, ces mêmes druides fabriquèrent alors toute une série de ceintures de cérémonie visant à garantir la survie des chefs de clan. L'épidémie finit par passer, mais elle n'arrangea en rien la mauvaise opinion que les Uthgardt ont des étrangers.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité aux maladies
+– Jet de sauvegarde contre la mort : +4
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Belt of Agility +2 (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@13504 = ~Ceinturon d'Agilité +2~
+@13505 = ~Dans l'optique de créer une guilde pour contrer les voleurs, Ronger Delphos, un marchand réputé, paya des voleurs pour devenir agents de sécurité afin de protéger les marchands d'Eauprofonde. Les gardes apprirent à se servir de baguettes contenant le sort d'Immobilisation des personnes pour capturer les voleurs afin qu'ils soient interrogés. Pour contrer ces mesures de sécurité, la guilde des voleurs acheta des ceinturons magiques qui permettaient d'annuler les effets de ce genre de sort. Au cours de l'affrontement entre ces deux guildes, bon nombre de ces ceinturons apparurent dans les commerces.
+
+PARAMÈTRES :
+
+Capacités spéciales :
+– Dextérité : +2
+– Immunité à l'immobilisation
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Hill Giant en force (BG2)                                   //
+///////////////////////////////////////////////////////////////////////////
+@13506 = ~Ceinturon de force de géant des collines
+Cette ceinture d'aspect ordinaire rend son porteur aussi fort qu'un géant des collines, sans modifier sa taille. Nombreux sont les guerriers arrogants qui ont été surpris par un adversaire bien plus petit doué d'une force surprenante. Le plus souvent, la raison en est un ceinturon de ce type.
+
+PARAMETRES :
+
+Force : +2
+
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Stone Giant en force (BG2)                                  //
+///////////////////////////////////////////////////////////////////////////
+@13507 = ~Ceinturon de force de géant des pierres
+Alors qu'il était encore enfant, Stewart Elttil fut emporté par un groupe de kobolds qui avait massacré les siens. Cependant, les kobolds sur le chemin du retour tombèrent sur une famille de géants des pierres. Ces géants sauvèrent Stewart et l'élevèrent comme un de leurs enfants. Il devint bientôt clair que le garçon, malgré tous ses efforts, ne pourrait pas prendre part aux concours familiaux de lancer de rochers. Son père d'adoption marchanda alors avec un sorcier local pour obtenir ce ceinturon, qui rendit Stewart aussi fort que ses frères et soeurs. Après la mort prématurée de Stewart, le ceinturon fut dérobé.
+
+PARAMETRES :
+
+Force : +3
+
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Frost Giant en force (BG2)                                  //
+///////////////////////////////////////////////////////////////////////////
+@13508 = ~Ceinturon de force de géant du froid
+Cette ceinture est en fait une tresse réalisée avec des poils de barbe d'un géant du froid. Quand elle est portée, elle augmente considérablement la force de son porteur, le rendant aussi fort qu'un géant du froid.
+
+PARAMETRES :
+
+Force : +4
+
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Fire Giant en force (BG2)                                   //
+///////////////////////////////////////////////////////////////////////////
+@13509 = ~Cette ceinture est faite des poils de barbe tressés d'un géant du feu. Celui qui la porte voit sa force augmenter.
+
+PARAMÈTRES :
+
+Capacités quand équipé :
+– Force : +5
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Girdle of Fortitude (BG2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@13510 = ~Ce ceinturon augmente considérablement la Constitution de son porteur. Le roi Violos s'en servit pour mener une expédition contre des trolls des marais. Il avait été gravement malade l'hiver précédent et n'avait pas retrouvé sa santé passée. La ceinture lui permit de prolonger sa vie de plusieurs années et rendit à ses hommes leur confiance en leur roi.
+
+PARAMÈTRES :
+
+Capacités spéciales :
+– Constitution : +4 (1 fois par jour)
+  Durée : 8 heures
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Grainstone Belt – Monk Only (NWN2)                                    //
+///////////////////////////////////////////////////////////////////////////
+@13511 = ~Ceinture de Losegrain~
+@13512 = ~La secte de la Lune sombre a la réputation d'organiser chaque année des tournois de combats à mains nues d'une haute tenue. A l'insu des autres ordres monastiques, la secte a conçu cette ceinture qui confère à ses champions un avantage déloyal sur les autres concurrents.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Force : +2
+– +5% de résistance aux dégâts Tranchants, Perforants, et Contondants
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Graena's Triumph – Barbarian Only (NWN2)                              //
+///////////////////////////////////////////////////////////////////////////
+@13513 = ~Triomphe de Graena~
+@13514 = ~La célèbre exploratrice barbare Graena était membre de la tribu uthgardt du Tarpan céleste. Quand elle voulut quitter la tribu pour chercher fortune dans les terres du sud, les chefs de la tribu lui interdirent de partir. A cette époque, seuls les hommes avaient le droit de quitter la tribu. Les anciens pensaient que les femmes étaient trop précieuses pour pouvoir partir. Afin de faire ses preuves aux yeux des anciens, Graena dut subir une épreuve contre les guerriers les plus forts de la tribu, et arracher la ceinture du meilleur guerrier. Graena sortit de cette épreuve blessée et meurtrie, mais victorieuse. Comme le voulait la loi tribale, elle avait pris la place du premier guerrier, et était donc devenue un homme. Les anciens savaient qu'elle allait partir, mais lui donnèrent un nom de guerrier, Graena Sang-Séché. Elle quitta la tribu, abandonna sa position à l'ancien premier guerrier et lui rendit sa tribu. Mais avant de partir, elle jura de ne jamais blesser un membre de la tribu si elle en croisait un à l'avenir.
+
+Des années plus tard, elle regretta se terrible jour, et s'enorgueillit d'avoir vaincu les hommes les plus forts de sa tribu. Elle se fit fabriquer une ceinture identique à celle qu'elle avait mérité.  Puis elle demanda à un prêtre de Tempus d'y apposer une puissante bénédiction. Graena portait sa ceinture quand elle est morte face à un vampire et ses serviteurs morts-vivants dans les antiques ruines d'Illefarn.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Force : +2
+– Constitution : +2
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Sash of Shimmering (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@13515 = ~Ceinture scintillante~
+@13516 = ~Quand Minuit la magicienne devint si puissante qu'elle acquit un statut divin, son âme absorba la magie de la Toile. Ce faisant, elle devint une déesse, abandonnant derrière elle son existence de mortelle et la plupart de ses possessions matérielles, même si elles aussi furent transformées par son avènement. Sa ceinture céda en plusieurs points, mais l'énergie qu'elle avait absorbée était telle que chacun de ses fragments devint un objet magique à part entière, protégeant son porteur contre les attaques magiques.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance Magique : +10%
+
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Boots                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Boots                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@13600 = ~Bottes~
+@13601 = ~Les bottes sont généralement fabriquées artisanalement par des cordonniers. Les bottes ordinaires sont fabriquées à l'aide d'un moule, mais les bottes de qualité supérieure sont faites sur mesure. 
+
+PARAMETRES :
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of the Forgotten Ones – (IWD) – NOT INCLUDED                      //
+///////////////////////////////////////////////////////////////////////////
+@13602 = ~Bottes des oubliés~
+@13603 = ~Les Bottes des Oubliés
+Ces bottes ridées et râpeuses ont été confectionnées à partir du scalp des chamans de la tribu orque de la Patte Puante. Avide de pouvoir, le chef spirituel de la tribu, Algrash Qui-Surveille-dans-le-Noir, a ordonné à ses séides de déterrer les cadavres de ses prédécesseurs afin d'obtenir les scalps nécessaires. Il est mort après avoir provoqué une lutte contre une bande d'ogres. Les bottes sont restées sur le lieu du combat.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- permet de lancer 2 sorts de prêtre supplémentaires de niveau 1 et un sort de prêtre supplémentaire de niveau 2
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Striding +1 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@13604 = ~Bottes de sept lieues +1~
+@13605 = ~Plusieurs paires de bottes de ce type furent fabriquées pour les bataillons elfes lors de l'Année des Flèches sifflantes (884 CV). Les éclaireurs qui les portaient renversèrent le cours d'au moins deux batailles d'importance contre les mercenaires de Sembie.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Constitution : +1
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Striding +2 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@13606 = ~Bottes de sept lieues +2~
+@13607 = ~Plusieurs paires de bottes de ce type furent fabriquées pour les bataillons elfes lors de l'Année des Flèches sifflantes (884 CV). Les éclaireurs qui les portaient renversèrent le cours d'au moins deux batailles d'importance contre les mercenaires de Sembie.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Constitution : +2
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Striding +3 (NWN2)                                           //
+///////////////////////////////////////////////////////////////////////////
+@13608 = ~Bottes de sept lieues +3~
+@13609 = ~Plusieurs paires de bottes de ce type furent fabriquées pour les bataillons elfes lors de l'Année des Flèches sifflantes (884 CV). Les éclaireurs qui les portaient renversèrent le cours d'au moins deux batailles d'importance contre les mercenaires de Sembie.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Constitution : +3
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Hardiness +1 (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@13610 = ~Bottes de Vigueur +1~
+@13611 = ~Après avoir exploré les terres du nord, un druide nommé Aawill commanda la fabrication de ces bottes particulièrement confortables. Sachant qu'il allait se rendre dans la région parfois dangereuse du Bois de Padhiver, Aawill cherchait quelque chose d'utile en combat pour diminuer son armure. Depuis qu'il est devenu l'Archidruide du bosquet druidique du Bois de Padhiver, Aawill a commandé plusieurs versions plus puissantes de ces bottes.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +1
+– Constitution : +1
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Hardiness +2 (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@13612 = ~Bottes de Vigueur +2~
+@13613 = ~Après avoir exploré les terres du nord, un druide nommé Aawill commanda la fabrication de ces bottes particulièrement confortables. Sachant qu'il allait se rendre dans la région parfois dangereuse du Bois de Padhiver, Aawill cherchait quelque chose d'utile en combat pour diminuer son armure. Depuis qu'il est devenu l'Archidruide du bosquet druidique du Bois de Padhiver, Aawill a commandé plusieurs versions plus puissantes de ces bottes.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +2
+– Constitution : +2
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Boots of Hardiness +3 (NWN2)                                          //
+///////////////////////////////////////////////////////////////////////////
+@13614 = ~Bottes de Vigueur +3~
+@13615 = ~Après avoir exploré les terres du nord, un druide nommé Aawill commanda la fabrication de ces bottes particulièrement confortables. Sachant qu'il allait se rendre dans la région parfois dangereuse du Bois de Padhiver, Aawill cherchait quelque chose d'utile en combat pour diminuer son armure. Depuis qu'il est devenu l'Archidruide du bosquet druidique du Bois de Padhiver, Aawill a commandé plusieurs versions plus puissantes de ces bottes.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +3
+– Constitution : +3
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Kitten Slippers (NWN2)                                                //
+///////////////////////////////////////////////////////////////////////////
+@13616 = ~Coussinets du Chat~
+@13617 = ~Destinées à un riche noble qui désirait plus que tout se faire passer pour un voleur audacieux et se déplacer « à petits pas de chat », ces bottes ont subi plusieurs enchantements pour permettre à son utilisateur toutes sortes d'activités secrètes. Toutefois, leurs pouvoirs restent limités : elles ne protègent pas contre un coup de couteau bien placé... comme le noble en a fait la triste expérience, lorsque la guilde des voleurs locale lui a signifié sa « désapprobation » de ses actions nocturnes.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Dextérité : +2
+– Action libre
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Dragon Slippers (NWN2)                                                //
+///////////////////////////////////////////////////////////////////////////
+@13618 = ~Pantoufles en Dragon~
+@13619 = ~Féryl « Tueur-de-Dragons » était un véritable colosse passé maître dans l'art de tuer les dragons, puisqu'il réussit à en abattre quatre. Il était aidé par un équipement magique qu'il fabriquait lui-même, en utilisant les écailles de ses précédentes victimes, dont ces bottes qu'il appelait ironiquement ses « pantoufles en dragon ». Contre toute attente, il périt non pas face à l'un de ses ennemis jurés, mais surpris par un petit groupe de gobelins alors qu'il partait chasser.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Dextérité : +2
+– Résistance Magique : +10%
+– Protège contre toute forme de terreur et renforce le moral.
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Cloaks                                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Cloak                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@13700 = ~Cape~
+@13701 = ~La cape peut être fabriquée dans presque n'importe quel type de tissu et prendre n'importe quelle forme. Les capes les plus courantes sont faites d'un morceau de tissu circulaire troué en son centre pour passer la tête et d'un tissu drapé à partir du cou, attaché par une chaîne, une broche, une ficelle ou des épingles.
+
+
+Poids : 4~
+
+///////////////////////////////////////////////////////////////////////////
+// Cloak of Burdened Spirits (IWD)                                       //
+///////////////////////////////////////////////////////////////////////////
+@13702 = ~Cape des âmes en peine~
+@13703 = ~La Cape des Âmes en Peine
+Cette cape incroyablement lourde vous a été offerte par Sœur Calliana pour vous remercier d'avoir sauvé la Voix de Durdel Anatha. Elle fut à l'origine portée par un nécromancien pénitent, honteux de la manière dont il s'était servi de l'âme des morts. Gris sombre, la cape est constituée de cinq couches de laine épaisse.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- sagesse : +1
+
+Poids : 80~
+
+///////////////////////////////////////////////////////////////////////////
+// Mantle of Gram the Mouse – Paladin Only (NWN2)                        //
+///////////////////////////////////////////////////////////////////////////
+@13704 = ~Cape de Gram la Souris~
+@13705 = ~En 926 CV, les rangs des ordres guerriers de Torm furent éclaircis par un certain nombre de facteurs. Dans les régions nord des Vaux, rares étaient ceux qui respectaient les valeurs du devoir et de l'honneur. Le petit nombre de prêtres avaient peu de convertis à leur foi, et encore moins de candidats paladins. Mais à son treizième anniversaire, un garçon du cru nommé Gram Chandler fut présenté à l'église de Torm à Vounlar, dans l'espoir qu'il rejoindrait l'un des ordres guerriers. Tout d'abord, les prêtres refusèrent le garçon, se disant qu'il ne pouvait avoir plus de neuf ans. Ils apprirent avec surprise qu'il était simplement très petit pour son âge.
+
+Les prêtres hésitaient à admettre un garçon si petit dans l'ordre, mais les candidats se faisaient rares. Ils l'inscrirent pour un départ à Damarie pour qu'il y commence son entraînement. Le clerc nota : "Gram Chandler, blond, treize ans, petit, aime le fromage".  Le paladin qui initia Gram lui donna une cape verte pour lui tenir chaud au cours de leur long voyage vers le nord. Gram promit, spontanément, de ne jamais la perdre. Le paladin sceptique ne le sut jamais, mais Gram porta cette cape pour le restant de ses jours.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Sagesse : +2
+– Charisme : +2
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Balhodrie's Constant Hearth – Thief Only (NWN2)                       //
+///////////////////////////////////////////////////////////////////////////
+@13706 = ~Foyer perpétuel de Balhodrie~
+@13707 = ~Balhoderie l'Irascible était un capitaine pirate des Nélanthères vers 1350 CV. Connu avant tout pour sa brutalité et sa mauvaise humeur, il appréciait assez le confort physique. Il ordonnait sans cesse à ses sous-fifres d'ajouter du bois dans ses flambées, ou d'ouvrir les fenêtres de sa cabine. Il était si agacé par l'incapacité de son équipage à maintenir la bonne température autour de lui qu'il chassa un seigneur des tempêtes de Talos et le tua pour lui prendre sa cape.
+
+Balhoderie avait demandé à quelques amies à lui de recouvrir les symboles talosiens avec des morceaux de drapeau pirate, mais les frères du seigneur des tempêtes n'en oublièrent pas moins le blasphème de Balhoderie. En 1360, ils avaient réussi à installer un jeune seigneur des tempêtes sur l'un des trois navires de Balhoderie, le Sarketa. Quand l'occasion se présenta, le seigneur des tempêtes poussa l'équipage à la mutinerie. Après que Balhoderie fut renversé, le seigneur des tempêtes ramena la cape à la confrérie et devint le nouveau commandant de la flotte du pirate mort.
+
+Le Nuage noir de Madion terrorisa le sud de la Côté des épées pendant cinq ans avant de mourir face à des navires marchands puissamment armés, aux abords du port de la Porte de Baldur.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance au Feu : +5%
+– Résistance au Froid : +5%
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+// A Mad Gent's Cloak – Cleric Only (NWN2)                               //
+///////////////////////////////////////////////////////////////////////////
+@13708 = ~Cape du gentilhomme fou~
+@13709 = ~Dans l'histoire relativement récente d'Abeir-Toril, les divinités du monde furent chassées de leurs demeures infernales et célestes par le Grand dieu, Ao. Les dieux furent forcés de s'incarner dans des humains pour errer sur Faerûn. Ce Temps des Troubles si bien nommé n'épargna aucun peuple de ce monde. Pour Madachi Jhent d'Eauprofonde, cela fit sa fortune, sa famille et sa folie. 
+
+Quand le Temps des Troubles s'acheva, la déesse de la richesse, Waukyne, manquait à l'appel. Les prêtres de cette divinité refusèrent de débourser une seule pièce confiée par les adorateurs à l'église de la déesse. Madachi Jhent, lourdement endetté à l'époque et occupé à transférer le restant de sa fortune, perdit presque tout. Son épouse aristocrate, dégoûtée par la faillite de son mari, emmena leurs enfants à la Porte de Baldur. Madachi Jhent ne sauva qu'une cape, une paire de bottes et une paire de gants des griffes des huissiers qui vidèrent sa maison.
+
+Il affirma par la suite, étendue dans la rue devant sa maison, qu'il voyait un motif dans le tissu noir de sa cape. Bien des semaines plus tard, il se rendit compte que ce motif était celui du Grand dieu, Ao. C'était pour lui un signe qu'il était destiné à appeler les fidèles à la nouvelle église d'Ao.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +2
+– Charisme : +2
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+// Antimagic Cloak (NWN2)                                                //
+///////////////////////////////////////////////////////////////////////////
+@13710 = ~Cape anti-magie~
+@13711 = ~Cette cape d'apparence ordinaire est fabriquée à partir de fibres de plantes spécialement cultivées pendant le Temps des Troubles, et la toile de la cape est tissée dans le sens inverse de celui de la Toile magique de Féérune. Il en résulte que la magie à proximité a tendance à s'estomper et à perdre sa puissance, ce qui en fait un objet pratique pour affronter les mages.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance Magique : +10%
+
+Capacités spéciales :
+– Globe mineur d'invulnérabilité une fois par jour
+  Spécial : l'utilisateur est immunisé aux sorts de niveau 1 à 3
+  Durée : 2 tours
+
+Poids : 3~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Gauntlets                                                             //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Gauntlets                                                             //
+///////////////////////////////////////////////////////////////////////////
+@13800 = ~Gantelets~
+@13801 = ~Les gantelets sont des gants blindés. Il en existe en cuir, en plaques de métal et en cotte de mailles. Chaque armure complète doit comporter des gantelets d'un type approprié. Les gantelets magiques ont tendance à être plus fins, plus légers et plus confortables que les modèles ordinaires.
+
+PARAMÈTRES :
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Hands of Takkok (BG)                                                  //
+///////////////////////////////////////////////////////////////////////////
+@13802 = ~Gantelets des Ogres : Les Mains de Takkok
+Comme leur nom l'indique, les Mains de Takkok sont ses véritables mains. Il les perdit en attaquant un homme étrange qui traversait l'Épine Dorsale du Monde. Il s'avéra que l'homme mystérieux était un mage possesseur d'une puissance incroyable et c'est avec les mains de Takkok qu'il créa cette paire de gantelets en peau d'ogre.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Force : +1
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// The Brawling Hands (BG)                                               //
+///////////////////////////////////////////////////////////////////////////
+@13803 = ~Gantelets de Dextérité : Les Mains de Rixe
+Cette paire de gantelets fut probablement mise au point à Kara-Tur pour aider les maîtres des arts martiaux. Les légendes racontent que ces maîtres auraient rapporté ces objets d'Extrême-Orient, mais on ne dispose pas d'informations précises. 
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Dextérité : +2
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Ysridain's Touch – Bard Only (NWN2)                                   //
+///////////////////////////////////////////////////////////////////////////
+@13804 = ~Main d'Ysridain~
+@13805 = ~Outre son luth chéri, le bien le plus précieux de ce séduisant ménestrel demi-elfe était ses mains. Au cours d'une de ses liaisons les plus connues, Ysridain parvint à séduire l'une des magiciennes les plus puissantes de l'ancienne Eauprofonde. Cette magicienne, Crestana, aimait tant la compagnie d'Ysridain qu'elle fabriquait tout ce qu'il lui demandait. L'une de ces requêtes fut de lui fabriquer une paire de gants fins qui protégeaient les mains d'Ysridain et le rendaient plus charmant encore.
+
+Bien que peu croient qu'Ysridain ait eu besoin d'aide en ce domaine, il accepta ces gants avec joie. Malheureusement pour le barde errant, Crestana avait aussi enchanté ces gants d'un pouvoir qui l'empêchait de mentir. Quand Ysridain entama une liaison avec quelques autres dames d'Eauprofonde, Crestana en eut rapidement vent. Pris au sortir de la demeure d'une de ces dames, Ysridain tenta de se tirer d'affaire par de belles paroles. Grâce à ses enchantements, Crestana perça à jour les mensonges d'Ysridain. Crestana déchaîna toute sa magie contre le barde, dans un parc public. Il n'en réchappa pas. Les autorités locales comprirent les motivations de Crestana, toutefois il fallait bien faire un exemple. Elle fut bannie d'Eauprofonde, et l'on n'entendit plus jamais parler d'elle.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +2
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+// Favor of Ilum Lura (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@13806 = ~Faveur d'Ilum Lura~
+@13807 = ~La ville de Nivian dans l'antique Illefarn célébrait un rite annuel durant lequel les six quartiers de la ville se disputaient la statue d'un héros local. La tradition voulait que chaque quartier participe à une grande bataille inoffensive. Le dernier combattant debout pourrait s'approprier le trophée pour son quartier. Puisque la tradition ne devait pas dégénérer dans un chaos dans toute la ville, chaque quartier avait un champion qui luttait au nom de ses voisins. Même si cela n'était pas obligatoire, les champions se sentaient souvent bien plus vaillants lorsqu'ils bénéficiaient du soutien d'une famille noble.
+
+En -1239 CV, le champion du Quartier des artisans était un dénommé Beloran. Beloran était un homme apparemment possédé par le désir de remporter la lutte pour son quartier. Il essayait depuis six ans, et avait toujours échoué. Sans que personne ne le sache dans la ville, Beloran ne participait à cette lutte que pour gagner la faveur de la nièce de l'empereur. Cette beauté, Ilum Lura, avait toujours poliment rejeté les avances de Beloran. Après six ans de fierté civique mal placée, le père d'Ilum ordonna à sa fille de donner à Beloran un gage de sa faveur. Elle accepta à contrecoeur, remettant au champion une paire de gants d'équitation qu'il porta épinglés à l'épaule de son bras armé. A la surprise de tous sauf de la famille de l'empereur, il combattit plus férocement que jamais auparavant. Il gagna la statue pour le Quartier des artisans. Comme le voulait la coutume, il avait aussi mérité un baiser de la femme dont il portait la faveur. Ilum donna son baiser à Beloran et se retira immédiatement dans la propriété de sa famille.
+
+Au cours des mois qui suivirent, Beloran tenta, sans comprendre son échec, de nouer une relation avec Ilum, qui le fuyait toujours. Elle finit par accepter de le rencontrer, mais lui dit simplement que son coeur était déjà pris. Fou de douleur à cette nouvelle, Beloran se rendit dans les profondeurs d'Illefarn, et ne reparut jamais. Ceux qui le virent quitter Nivian assurèrent qu'il portait encore la faveur d'Ilum à l'épaule. 
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Dextérité : +4
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Elder Oak Gloves – Druid Only (NWN2)                                  //
+///////////////////////////////////////////////////////////////////////////
+@13808 = ~Gants du chêne vénérable~
+@13809 = ~Fabriqués par les druides de la Grande forêt avec l'écorce des chênes les plus anciens, ces gants puissants font entrer le porteur en harmonie surnaturelle avec la nature environnante. Le maître sylvanien Turlang ferait don d'une paire de gants du chêne vénérable aux druides ayant faire oeuvre de protection de la Grande forêt. 
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Sagesse : +2
+– Mémorisation d'un sort de druide supplémentaire de 1er, 2ème et 3ème niveau.
+
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Bracers                                                               //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Bracers                                                               //
+///////////////////////////////////////////////////////////////////////////
+@13900 = ~Bracelets~
+@13901 = ~Les bracelets sont d'épaisses lanières de métal ou de cuir que l'on se noue ou s'attache autour de l'avant-bras.
+
+PARAMÈTRES :
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Imaskari Bracers of Immortality (NWN2)                                //
+///////////////////////////////////////////////////////////////////////////
+@13902 = ~Bracelets Imaskaris d'immortalité~
+@13903 = ~Ces antiques bracelets magiques ont sans doute été découverts dans les entrailles de la Cité engloutie. Ils semblent de confection imaskari. Toutefois, le passage du temps les a durement éprouvés, et vous ne pouvez qu'espérer qu'ils aient conservé quelque magie.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Constitution : +4
+– Régénération d'1 PV/round
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Bracers of Artifice (NWN2)                                            //
+///////////////////////////////////////////////////////////////////////////
+@13904 = ~Bracelets d'artifice~
+@13905 = ~Créés par d'anciens artificiers imaskaris, ces bracelets renferment d'extraordinaires pouvoirs malgré leur modeste facture. A l'instar d'une armure lourde, mais sans ses inconvénients, ils protègent leur propriétaire contre les attaques, mais lui permettent aussi de canaliser son énergie profane plus efficacement.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +5
+– Mémorisation d'un sort supplémentaire de 8ème niveau.
+– Resistance aux dégâts magiques : +5%
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Helmets                                                               //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Helmet                                                                //
+///////////////////////////////////////////////////////////////////////////
+@14000 = ~Casque~
+@14001 = ~Cette catégorie de cabasset, fabriquée en cuir ou en métal renforcé, couvre presque l'ensemble de la tête, à l'exception du visage et du cou. Ces casques protègent bien le nez. 
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Protège contre les coups critiques
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Helm of the Trusted Defender (IWD) – NOT INCLUDED                       //
+///////////////////////////////////////////////////////////////////////////
+@14002 = ~Casque du Fidèle Défenseur~
+@14003 = ~Le Casque du Fidèle Défenseur
+Ce casque s'est transmis près de quatre siècles durant entre les petites-gens et les gnomes de la communauté presque inconnue de la vallée du Berger. À l'aube, le capitaine de la garde de nuit le remettait à son homologue de la garde de jour, et l'échange s'effectuait en sens inverse à la nuit tombée. Le cycle se poursuivit jusqu'au jour où Pheldon Tock, capitaine de la garde de nuit, décida d'échanger le casque contre un autre. Cet objet serait sans doute resté longtemps dans la boutique de curiosités de Gibling Fordebras si un nain ne l'avait acheté pour en orner le manteau de sa cheminée.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +3
+- Immunité au sommeil et aux effets de la fatigue
+- Protège contre les coups critiques
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Helm of Gram the Mouse – Paladin Only (NWN2)                          //
+///////////////////////////////////////////////////////////////////////////
+@14004 = ~Casque de Gram la Souris~
+@14005 = ~Pour ses seize ans, trois ans après le début de son entraînement, loin dans les terres gelées de Damarie, Gram la Souris participa à une patrouille partie à la recherche de pèlerins peut-être massacrés par des envahisseurs orques en maraude. Son surnom venait de sa petite taille et de son penchant pour le fromage. Malheureusement, son épithète donna également à d'autres candidats un préjugé négatif à son encontre. On ne lui confiait pas de tâche importante, et encore moins de missions requérant la moindre prouesse martiale.
+
+Pour s'assurer que les pèlerins pourraient voir leur caravane, le groupe portait une bannière d'un vert éclatant, portant l'emblème de Torm de chaque côté. Quand la caravane fut attaquée par des orques, le chef des paladins cria à Gram de ne laisser tomber le drapeau sous aucun prétexte. Gram saisit le drapeau, et quelques instants plus tard, le paladin qui lui avait donné cet ordre fut abattu par les orques. Les autres initiés chargèrent les orques et dirent à Gram de se mettre à l'abri. Gram refusa et resta sur place tandis que les flèches sifflaient autour de lui. Bien sûr, une de ces flèches finit par frapper Gram sur le côté de la tête. Il resta droit comme un "i", mais l'hémorragie le fit bientôt vaciller. Les initiés crurent Gram mort, et retournèrent au temple pour chercher des renforts.
+
+Les pèlerins trouvèrent la caravane une heure plus tard, alors que les orques étaient repartis depuis longtemps. Gram était presque gelé, debout mais inconscient, encore cramponné au drapeau penché. Quand les paladins de Torm ramenèrent Gram au temple, les autres candidats furent punis de l'avoir abandonné. Et l'on donna à Gram un lourd casque de plaques pour se protéger au cours de futurs affrontements.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance aux dégâts Perforants : +5%
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Anagrys' Mindmaze – Wizard/Sorcerer Only (NWN2)                       //
+///////////////////////////////////////////////////////////////////////////
+@14006 = ~Labyrinthe mortel d'Anagrys~
+@14007 = ~Anagrys Blancmetail était une magicienne naine d'or talentueuse et originaire de la Grande faille, au sud de Padhiver. Les peuples du Nord pourraient être surpris par l'idée d'une magicienne naine, mais les nains d'or n'ont pas la méfiance envers la magie qu'on trouve si couramment chez les nains d'écu. Dès sa jeunesse, Anagrys fit preuve d'une certaine aptitude pour la magie, et quand elle eut 50 ans, sa famille l'enrôla dans l'Académie des arcanes, dans les profondeurs de la Grande faille.
+
+Anagrys étudia la magie sous la tutelle de l'archimage Randak Forn, un ancien aventurier qui avait passé une grande partie de sa vie à guerroyer contre les aberrations qui vivaient autour de la Grande faille. Quand Anagrys eut achevé ses études, son maître lui donna ce casque, qu'il avait porté en s'aventurant dans l'Outreterre. Randak espérait encourager son élève à reprendre sa croisade là où lui avait dû l'interrompre ; Anagrys ne le déçut pas.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Intelligence : +2
+– Immunité au charme
+– Immunité à la confusion
+
+Poids : 0~
+
+///////////////////////////////////////////////////////////////////////////
+// The Regal (NWN2)                                                      //
+///////////////////////////////////////////////////////////////////////////
+@14008 = ~Le Majestueux~
+@14009 = ~Ce heaume de bronze fut porté pour la dernière fois par un héros peu connu qui mena une croisade en Outreterre. Son objectif ? Détruire les drows ! Sa mission échoua et son corps repose dans une tombe anonyme. Son heaume fut pris comme trophée par les drows qui le massacrèrent.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– +5% de résistance aux dégâts Tranchants, Perforants, et Contondants
+– Résistance à l'Acide : +10%
+– Résistance au Feu : +10%
+
+Poids : 2~
+
+///////////////////////////////////////////////////////////////////////////
+// Golden Circlet (NWN2)                                                 //
+///////////////////////////////////////////////////////////////////////////
+@14010 = ~Serre-tête en or~
+@14011 = ~Les créatures attaquant l'esprit de leurs victimes sont extrêmement redoutées, aussi n'est-il pas étonnant que les objets permettant de s'en protéger acquièrent une partie de leur mauvaise réputation. Par exemple, on dit souvent que, quand les drows se sont repliés sous terre pour la première fois, ils se nourrissaient de dévoreurs d'intellect et qu'ils se transformaient en illithids quand ils avaient le malheur de manger une telle créature sans porter un serre-tête en or. Mais ce n'est là que pure superstition d'ivrogne, bien sûr.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance Magique : +10%
+– Immunité au charme
+– Immunité à la confusion
+
+Poids : 1~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Ioun Stones                                                           //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Ioun Stone                                                            //
+///////////////////////////////////////////////////////////////////////////
+@14100 = ~Pierre ionique~
+@14101 = ~Cette petite pierre flotte autour de la tête de son possesseur quand on la place dans son inventaire. Ces pierres évidemment magiques ont des propriétés différentes en fonction de leur couleur.
+
+PARAMÈTRES :
+
+Poids : 0~
+
+///////////////////////////////////////////////////////////////////////////
+// Clear Ioun Stone (IWD) – NOT INCLUDED                                 //
+///////////////////////////////////////////////////////////////////////////
+@14102 = ~Pierre ionique translucide~
+@14103 = ~Pierre Ionique Translucide
+Cette pierre ionique a connu nombre de propriétaires durant les siècles passés, dont un voleur qui la gardait sur lui comme porte-bonheur et un ogre qui croyait qu'il tenait là la plus petite boule de cristal du monde. Elle a même été utilisée comme œil de verre par un gnome borgne, bien que ses propriétés magiques n'aient nullement amélioré sa vision. Finalement, cette pierre est tombée entre les mains d'un groupe de magiciens elfes, sans que l'on sache vraiment s'ils la gardaient pour leurs recherches magiques ou pour se protéger des sorciers ennemis. Contrairement aux pierres ioniques communes, celle-ci est incolore et presque entièrement transparente.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- résistance à la magie : +5%
+
+Poids : 0~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// Rings                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Ring                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@14200 = ~Anneau~
+@14201 = ~Un anneau est une fine lanière de métal précieux. Il sert en général d'ornement. Plus rares, certains sont enchantés et permettent à quiconque les porte d'user de la magie qu'ils contiennent. Ils sont de ce fait très recherchés par les aventuriers.
+
+Poids : 0~
+
+///////////////////////////////////////////////////////////////////////////
+// Ring of Human Influence (BG2)                                         //
+///////////////////////////////////////////////////////////////////////////
+@14202 = ~Anneau d'Influence Humaine
+Pendant sept ans le Comte Fisfnilt chercha dans les Royaumes une épouse convenant à son fils Ewnin. Malheureusement, aucune des femmes qu'il put trouver ne correspondait aux standards fixées par Ewnin, un enfant terriblement gâté. Lassé des exigences de son fils et impatient d'avoir un héritier, le Comte fit fabriquer cet anneau par le mage de sa cour. Il l'offrit ensuite à une jeune fille d'une influente famille dont il tomba aussitôt amoureux. Ils se marièrent trois semaines plus tard.
+
+PARAMETRES :
+
+Capacités d'équipement : Charisme +2
+
+Capacité spéciale : Charme-personne une fois par jour (jet de sauvegarde contre les sorts avec un modificateur de +3)
+Zone d'effet : 1 personne
+Durée : 5 rounds
+Portée : 18 mètres
+
+
+Poids : 0~
+
+///////////////////////////////////////////////////////////////////////////
+// Lord Foreshadow's Ring of Human Influence (EET)                       //
+///////////////////////////////////////////////////////////////////////////
+@14203 = ~Anneau d'Influence Humaine du Seigneur Présage
+Le Seigneur Présage a donné cette bague à <CHARNAME> en sous-entendant qu'elle pourrait l'aider dans ses conquêtes amoureuses. Évidemment, vous avez d'autres préoccupations pour l'instant, mais comme on dit : à cheval donné on ne regarde pas les dents... ou alors : on ne sait jamais quand on aura besoin de ceux que l'on a méprisés... sans oublier le vieux proverbe : à la guerre comme en amour, tous les coups sont permis...
+
+PARAMETRES :
+
+Capacités d'équipement : Charisme +2
+
+Capacité spéciale : Charme-personne une fois par jour~
+
+
+///////////////////////////////////////////////////////////////////////////
+// Bone Ring (NWN2)                                                      //
+///////////////////////////////////////////////////////////////////////////
+@14204 = ~Anneau d'os~
+@14205 = ~Fabriqués par les prêtres de Myrkul, ces anneaux sont aussi souvent taillés dans la pierre ou l'ivoire que dans des ossements. Mais ils ne sont jamais fait de métal. Ces anneaux confèrent à leurs porteurs une immunité contre l'absorption d'énergie et la diminution de caractéristiques.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité contre le drainage de niveau
+
+Poids : 0~
+
+///////////////////////////////////////////////////////////////////////////
+// Bone Dancer's Ring (NWN2)                                             //
+///////////////////////////////////////////////////////////////////////////
+@14206 = ~Anneau de Danseur d'os~
+@14207 = ~Fait d'os et d'ivoire, cet anneau est doté d'une puissance que son apparence banale ne trahit en rien. C'était autrefois un anneau d'os tel qu'en portaient les disciples de Myrkul, mais quand un porteur était promu au rang de Danseur d'os, son anneau était consacré par de sombres rituels qui rendaient le porteur plus proche de la nature des morts-vivants dont il faisait souvent usage... jusqu'à leur ressembler.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité contre le drainage de niveau
+– +10% de résistance aux dégâts Tranchants et Perforants
+
+Poids : 0~
