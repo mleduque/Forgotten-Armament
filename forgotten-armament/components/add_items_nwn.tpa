@@ -881,7 +881,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         WRITE_LONG 0x34 10000
 
     COPY_EXISTING ~HLREVAN.CRE~ ~override~
-        REPLACE_CRE_ITEM ~MOPMO2~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
+        REPLACE_CRE_ITEM ~MOPM02~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~ EQUIP
 END
 
 ///////////////////////////////////////////////////////////////////////////

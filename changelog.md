@@ -1,3 +1,11 @@
+## Version 0.4.1 BETA
+
+March 27, 2022
+
+### Changed
+
+- Corrected bug where a non-valid armor was assigned to Revanek.
+
 ## Version 0.4 BETA
 
 March 4, 2022
