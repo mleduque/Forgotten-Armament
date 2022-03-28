@@ -1,10 +1,10 @@
 ## Version 0.5 BETA
 
-March xx, 2022
+March 27, 2022
 
 ### Changed
 
-- Updated Spears to deal 1d8 damage instead of 1d6 damage.
+- Updated Spears to deal 1d8 damage instead of 1d6 damage. Additionally, on critical hits Spears will now deal and additional +1d8 damage.
 
 ## Version 0.4.1 BETA
 
