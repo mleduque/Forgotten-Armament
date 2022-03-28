@@ -28,9 +28,9 @@ A list of the item locations is [here](https://github.com/Gibberlings3/Forgotten
 
 This component replaces Boots of Speed (Paws of the Cheetah) with other boot options.
 
-### Weapon Style Revisions DEPRECATED
+### Improved Spears
 
-This component has moved to my [Skills and Abilities](https://github.com/Gibberlings3/Skills-and-Abilities) mod.
+This component improves Spears by increasing their base damage from 1d6 to 1d8. Additionally, on critical hits Spears will now deal an additional +1d8 damage.
 
 ## Compatibility
 
