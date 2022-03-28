@@ -1,15 +1,16 @@
 // Forgotten Armament, American English
 
-@1 = ~Install Forgotten Armament Items~
+@1  = ~Install Forgotten Armament Items~
 //@1 = ~Install IWD:EE Items~
-@2 = ~Install Neverwinter Nights Items~
-@3 = ~Move Certain Items to More Difficult Locations~
-@4 = ~Update Stat Increasing Items to Increment the Increase~
-@5 = ~Update Weapon Fighting Styles (2H Weapons, 1H Weapons, Sword & Shield)~
-@6 = ~1/2 APR increase to all 2H Weapons when Specialized (2 slots) in Two-Handed Fighting Style~
-@7 = ~1 APR increase to all 2H Weapons when Specialized (2 slots) in Two-Handed Fighting Style~
-@8 = ~Replace Boots of Speed (Paws of the Cheetah)~
-@9 = ~Better Equipped Enemies~
+@2  = ~Install Neverwinter Nights Items~
+@3  = ~Move Certain Items to More Difficult Locations~
+@4  = ~Update Stat Increasing Items to Increment the Increase~
+@5  = ~Update Weapon Fighting Styles (2H Weapons, 1H Weapons, Sword & Shield)~
+@6  = ~1/2 APR increase to all 2H Weapons when Specialized (2 slots) in Two-Handed Fighting Style~
+@7  = ~1 APR increase to all 2H Weapons when Specialized (2 slots) in Two-Handed Fighting Style~
+@8  = ~Replace Boots of Speed (Paws of the Cheetah)~
+@9  = ~Better Equipped Enemies~
+@10 = ~Improved Spears~
 
 @3000 = ~Component requires BG: EE, BGII: EE, or EET~
 @3001 = ~DLCMerger is needed before modding SoD games~

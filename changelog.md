@@ -1,3 +1,11 @@
+## Version 0.5 BETA
+
+March xx, 2022
+
+### Changed
+
+- Updated Spears to deal 1d8 damage instead of 1d6 damage.
+
 ## Version 0.4.1 BETA
 
 March 27, 2022

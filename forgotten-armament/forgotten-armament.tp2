@@ -7,7 +7,7 @@
 BACKUP ~forgotten-armament/backup~
 AUTHOR ~morpheus562~
 
-VERSION ~v0.4.1-beta~
+VERSION ~v0.5-beta~
 README ~forgotten-armament/readme.html~
 
 ASK_EVERY_COMPONENT
@@ -47,72 +47,6 @@ LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 INCLUDE ~forgotten-armament/components/add_items_iwd.tpa~
 INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
 
-/*
-///////////////////////////////////////////////////////////////////////////
-// Add New NWN Items into the Game                                       //
-///////////////////////////////////////////////////////////////////////////
-
-BEGIN @2 DESIGNATED 2 LABEL ForgottenArmament-AddNWNItems
-
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
-
-LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
-
-INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
-*/
-
-/*
-///////////////////////////////////////////////////////////////////////////
-// Move Certain Items to more Difficult Locations                        //
-///////////////////////////////////////////////////////////////////////////
-
-BEGIN @3 DESIGNATED 3 LABEL ForgottenArmament-MoveItems
-
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
-
-INCLUDE ~forgotten-armament/components/move_items.tpa~
-*/
-
-/*
-///////////////////////////////////////////////////////////////////////////
-// Update Stat Increasing Items to Increment the Increase                //
-///////////////////////////////////////////////////////////////////////////
-
-BEGIN @4 DESIGNATED 4 LABEL ForgottenArmament-UpdateStatItems
-
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
-REQUIRE_PREDICATE NOT MOD_IS_INSTALLED ~setup-item_rev.tp2~ ~0~ @3003
-
-LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
-
-INCLUDE ~forgotten-armament/components/stat_item_update.tpa~
-*/
-
-/*
-///////////////////////////////////////////////////////////////////////////
-// Two Handed Weapon Revisions                                           //
-///////////////////////////////////////////////////////////////////////////
-
-BEGIN @6 DESIGNATED 6 SUBCOMPONENT @5 LABEL ForgottenArmament-TwoHandAPRHalf
-
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
-
-LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/style_descriptions.tra~
-
-INCLUDE ~forgotten-armament/components/half_apr.tpa~
-INCLUDE ~forgotten-armament/components/weapon_style_revisions.tpa~
-
-////////////////////////////////////////////////////
-
-BEGIN @7 DESIGNATED 7 SUBCOMPONENT @5 LABEL ForgottenArmament-TwoHandAPRFull
-
-LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/style_descriptions.tra~
-
-INCLUDE ~forgotten-armament/components/full_apr.tpa~
-INCLUDE ~forgotten-armament/components/weapon_style_revisions.tpa~
-
-*/
-
 ///////////////////////////////////////////////////////////////////////////
 // Replace Boots of Speed (Paws of the Cheetah)                          //
 ///////////////////////////////////////////////////////////////////////////
@@ -124,3 +58,15 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/replace_speed_boots.tpa~
+
+///////////////////////////////////////////////////////////////////////////
+// Improved Spears                                                       //
+///////////////////////////////////////////////////////////////////////////
+
+BEGIN @10 DESIGNATED 10 LABEL ForgottenArmament-ImprovedSpears
+
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
+
+LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
+
+INCLUDE ~forgotten-armament/components/improved_spears.tpa~
