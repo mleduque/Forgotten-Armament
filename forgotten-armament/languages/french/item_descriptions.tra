@@ -1341,13 +1341,19 @@ Nécessite :
 Poids : 3~
 
 ///////////////////////////////////////////////////////////////////////////
+// Improved Spears                                                       //
 ///////////////////////////////////////////////////////////////////////////
-// arme à deux mains Swords                                                     //
+@11408 = ~Dégâts Critiques : Inflige 1d8 dégâts supplémentaire en cas de coup critique
+Facteur de vitesse~
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// arme à deux mains                                                     //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// arme à deux mains Sword                                                      //
+// arme à deux mains                                                     //
 ///////////////////////////////////////////////////////////////////////////
 @11500 = ~Épée à deux mains~
 @11501 = ~L'épée à deux mains est un dérivé de l'épée longue. Les forgerons d'armes ont toujours cherché à améliorer les armes de leur temps. Pour l'épée longue, ils ont allongé la lame. Après la lame, c'est la poignée qui s'est allongée. Il est alors devenu nécessaire d'utiliser les deux mains pour manier l'épée. La fonction première de l'épée à deux mains est de désarçonner les chevaliers montés et de désorganiser les haies de piques.
@@ -1365,7 +1371,7 @@ Nécessite :
 Poids : 15~
 
 ///////////////////////////////////////////////////////////////////////////
-// arme à deux mains Sword +1: Hammering (IWD)                                  //
+// arme à deux mains +1: Hammering (IWD)                                  //
 ///////////////////////////////////////////////////////////////////////////
 @11502 = ~Épée à deux mains de martèlement +1~
 @11503 = ~Epée à Deux Mains de Martèlement
