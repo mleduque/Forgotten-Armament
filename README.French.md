@@ -26,34 +26,13 @@ Une liste des descriptions des objets se trouve [ici]
 Une liste des descriptions des objets se trouve [ici]
 (https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-LOCATIONS.md).
 
-### Mise à jour des styles de combat (Armes à deux mains, Arme à une main et épée et bouclier)
-
-VEUILLEZ NOTER QU'IL S'AGIT D'UNE BÊTA ! CES CHIFFRES PEUVENT ÊTRE AJUSTÉS ET LES COMMENTAIRES SONT LES BIENVENUS AFIN DE GARANTIR L'ÉQUILIBRE DU JEU !
-
-ARME À DEUX MAINS : Ce style de combat permet au personnage d'utiliser une arme de mêlée à deux mains et de bénéficier de bonus spéciaux.
-
-Compétent (1 point de compétence) : Le porteur de l'arme bénéficie d'un bonus de 1 aux jets de dégâts et d'un bonus de 2 au facteur de vitesse lorsqu'il utilise une arme à deux mains.
-
-Spécialisé (2 points de compétences) : Le porteur de l'arme bénéficie d'un bonus de 2 aux jets de dégâts, d'un bonus de 4 au facteur de vitesse et d'une demi-attaque supplémentaire par round lorsqu'il utilise une arme à deux mains.
-
-ÉPÉE ET BOUCLIER : N'importe qui peut prendre un bouclier et bénéficier de sa protection basiques, mais en dépensant des points de compétences dans ce style de combat, un aventurier peut optimiser sa protection.
-
-Compétent (1 point de compétence) : Le porteur du bouclier bénéficie d'un bonus de -1 à la CA.
-
-Spécialisé (2 points de compétences) : Le porteur du bouclier bénéficie d'un bonus de -2 à la CA et devient immunisé contre les Coups d'ailes des dragons.
-
-REMARQUE : malgré le nom de ce style de combat, toute arme de mêlée à une main combinée à un bouclier bénéficie des bonus mentionnés.
-
-ARME À UNE MAIN : Ce style de combat est destiné aux personnages qui ne souhaitent pas utiliser de bouclier mais qui désirent un bonus lorsqu'ils utilisent une arme de mêlée à une main.
-
-Compétent (1 point de compétence) : Le porteur de l'arme bénéficie d'un bonus de 1 aux jets de dégâts, -1 au TAC0, -1 à la CA, et inflige des coups critiques sur un jet d'attaque de 19 ou 20.
-
-Spécialisé (2 points de compétences) : Le porteur de l'arme obtient un bonus de 2 aux jets de dégâts, -2 au TAC0, -2 à la CA, et inflige des coups critiques sur un jet d'attaque de 18 à 20.
-
-
 ### Remplacer les Bottes de Rapidité (Les Pattes de Guepard)
 
 Ce composant remplace les bottes de Rapidité (Les Pattes de guépard) par d'autres options de bottes.
+
+### Lances améliorées
+
+Ce composant améliore les lances, leurs dégâts de base passe de 1d6 à 1d8 et inflige 1d8 dégâts supplémentaire en cas de coup critique.
 
 ## Compatibilité
 
