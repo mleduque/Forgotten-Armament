@@ -38,6 +38,8 @@ If you are upgrading from an earlier version of this mod, I recommend uninstalli
 
 I have reviewed and deconflicted any compatibility issues with multiple item mods to include: Made in Heaven: Item Pack, Sod2BG2 items, and The Calling Exotic Item Pack. If you do notice a compatibility issue with other mods, especially the ones listed here, please let me know so I can correct it.
 
+Do not install the Improved Spears component with other mods that alter spear damage like Scales of Balance.  
+
 ## Special Thanks
 
 - Auve for support in the creation, inspiration, testing, and feedback for this mod.
