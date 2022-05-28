@@ -8,8 +8,8 @@
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 SPRINT source ~%SOURCE_FILE%~
 READ_LONG 0x6a fx_off ELSE 0
-READ_LONG 0x6e fx_num ELSE 0
-READ_SHORT fx_off fx_type
+READ_SHORT 0x6e fx_num ELSE 0
+READ_LONG fx_off fx_type
 //READ_BYTE 0x33 fx_type ELSE 2
 
 FOR (index = 0 ; index < fx_num ; ++index) BEGIN
