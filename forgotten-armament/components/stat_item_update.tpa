@@ -7,44 +7,9 @@
 ///////////////////////////////////////////////////////////////////////////
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 SPRINT item_name ~%SOURCE_FILE%~
-
-/*
-PATCH_IF ~SOURCE_SIZE~ > 0x71 BEGIN
-    GET_OFFSET_ARRAY ab_array 0x64 4 0x68 2 0 0 0x38
-    PHP_EACH ab_array AS int => ab_off BEGIN
-    GET_OFFSET_ARRAY2 fx_array ab_off ITM_V10_HEAD_EFFECTS
-    PHP_EACH fx_array AS int => fx_off BEGIN
-        READ_SHORT fx_off fx_type
-        PATCH_IF fx_type = 44 BEGIN
-            PATCH_PRINT ~%item_name% alters strength~
-            READ_LONG (fx_off + 0x04) fx_param1
-            PATCH_IF fx_param1 = 19 BEGIN
-                PATCH_PRINT ~%item_name% alters strength to 19~
-                LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 44 parameter1 = 2 parameter2 = 0 END
-
-                PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
-                READ_LONG ~%offset%~ desc_strref
-                    PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
-                      READ_STRREF ~%offset%~ desc
-                      INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-                        REPLACE_TEXTUALLY ~19~ ~+2~
-                      END
-                    END
-                END  
-            END
-        END
-    END
-    END
-END
-BUT_ONLY
-*/
-
-SPRINT source ~%SOURCE_FILE%~
 READ_LONG 0x6a  fx_off ELSE 0
 READ_SHORT 0x6e fx_ind ELSE 0
 READ_SHORT 0x70 fx_num ELSE 0
-//READ_SHORT fx_off fx_type
-//READ_BYTE 0x33 fx_type ELSE 2
 
 FOR (index = 0 ; index < fx_num ; ++index) BEGIN
   READ_SHORT (fx_off + 0x30 * index) opcode
@@ -54,7 +19,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
     READ_LONG (fx_off + 0x30 * index + 4) strength
 
     PATCH_IF (strength = 18) BEGIN
-        PATCH_PRINT ~%item_name% alters strength to 18/00~
+        PATCH_PRINT ~%item_name% altered to increase strength by +1~
         LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 1 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
@@ -69,7 +34,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
             SAY_EVALUATED ~%offset%~ ~%desc%~
         END
     END ELSE PATCH_IF (strength = 19) BEGIN
-        PATCH_PRINT ~%item_name% alters strength to 19~
+        PATCH_PRINT ~%item_name% altered to increase strength by +2~
         LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 2 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
@@ -82,43 +47,125 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
             END
             SAY_EVALUATED ~%offset%~ ~%desc%~
         END
+    END ELSE PATCH_IF (strength = 20) BEGIN
+        PATCH_PRINT ~%item_name% altered to increase strength by +3~
+        LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 3 parameter2 = 0 END
+
+        PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+            READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~20~ ~+3~
+              END
+            END
+            SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+    END ELSE PATCH_IF (strength = 21) BEGIN
+        PATCH_PRINT ~%item_name% altered to increase strength by +4~
+        LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 4 parameter2 = 0 END
+
+        PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+            READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~21~ ~+4~
+              END
+            END
+            SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+    END ELSE PATCH_IF (strength = 22) BEGIN
+        PATCH_PRINT ~%item_name% altered to increase strength by +5~
+        LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 5 parameter2 = 0 END
+
+        PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+            READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~22~ ~+5~
+              END
+            END
+            SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+    END ELSE PATCH_IF (strength = 23) BEGIN
+        PATCH_PRINT ~%item_name% altered to increase strength by +6~
+        LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 6 parameter2 = 0 END
+
+        PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+            READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~23~ ~+6~
+              END
+            END
+            SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+    END ELSE PATCH_IF (strength = 24) BEGIN
+        PATCH_PRINT ~%item_name% altered to increase strength by +7~
+        LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 7 parameter2 = 0 END
+
+        PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+            READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~24~ ~+7~
+              END
+            END
+            SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+    END ELSE PATCH_IF (strength = 25) BEGIN
+        PATCH_PRINT ~%item_name% altered to increase strength by +8~
+        LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 6 parameter2 = 0 END
+
+        PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+            READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~25~ ~+8~
+              END
+            END
+            SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
     END
   END
+END
+
+
+
+GET_OFFSET_ARRAY ab_array 0x64 4 0x68 2 0 0 0x38
+PHP_EACH ab_array AS int => ab_off BEGIN
+    GET_OFFSET_ARRAY2 fx_array ab_off ITM_V10_HEAD_EFFECTS
+    PHP_EACH fx_array AS int => ex_off BEGIN
+        READ_SHORT ex_off opcode
+        PATCH_IF opcode = 44 BEGIN
+            PATCH_PRINT ~%item_name% alters strength~
+            READ_LONG (ex_off + 0x04) param1
+            PATCH_IF param1 = 19 BEGIN
+                PATCH_PRINT ~%item_name% alters strength to 19~
+                LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 2 parameter2 = 0 END
+
+                PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+                    READ_LONG ~%offset%~ desc_strref
+                    PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+                      READ_STRREF ~%offset%~ desc
+                      INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                        REPLACE_TEXTUALLY ~19~ ~+2~
+                      END
+                    END
+                    SAY_EVALUATED ~%offset%~ ~%desc%~
+                END  
+            END
+        END
+    END
 END
 BUT_ONLY
 
 /*
-///////////////////////////////////////////////////////////////////////////
-// Girdle of Hill Giant Strength +2 STR                                  //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/BELT06.ITM~ ~override/BELT06.ITM~
-        SAY DESC @13506
-END
-
-///////////////////////////////////////////////////////////////////////////
-// Girdle of Stone Giant Strength +3 STR                                 //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/BELT07.ITM~ ~override/BELT07.ITM~
-        SAY DESC @13507
-END
-
-///////////////////////////////////////////////////////////////////////////
-// Girdle of Frost Giant Strength +4 STR                                 //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/BELT08.ITM~ ~override/BELT08.ITM~
-        SAY DESC @13508
-END
-
-///////////////////////////////////////////////////////////////////////////
-// Girdle of Fire Giant Strength +5 STR                                  //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/BELT11.ITM~ ~override/BELT11.ITM~
-        SAY DESC @13509
-END
 
 ///////////////////////////////////////////////////////////////////////////
 // Girdle of Fortitude +4 CON                                            //
@@ -133,12 +180,6 @@ END
 // Gauntlets                                                             //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////////////////
-// Hands of Takkok +1 STR                                                //
-///////////////////////////////////////////////////////////////////////////
-COPY ~forgotten-armament/itm/BRAC06.ITM~ ~override/BRAC06.ITM~
-    SAY DESC @13802
 
 ///////////////////////////////////////////////////////////////////////////
 // The Brawling Hands +2 DEX                                             //
@@ -182,27 +223,6 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
         SAY DESC @10702
 END
 
-///////////////////////////////////////////////////////////////////////////
-// Angurvadal +5 (+5 STR)                                                //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/SW1H61.ITM~ ~override/SW1H61.ITM~
-        SAY DESC @10703
-END
 
-///////////////////////////////////////////////////////////////////////////
-// Crom Faeyr +5 (+8 STR)                                                //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/HAMM09.ITM~ ~override/HAMM09.ITM~
-        SAY DESC @11704
-END
 
-///////////////////////////////////////////////////////////////////////////
-// Mauler's Arm +2 (+1 STR)                                              //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/BLUN19.ITM~ ~override/BLUN19.ITM~
-        SAY DESC @10802
-END
 */
