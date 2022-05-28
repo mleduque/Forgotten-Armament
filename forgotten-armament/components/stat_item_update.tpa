@@ -7,6 +7,7 @@
 ///////////////////////////////////////////////////////////////////////////
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 SPRINT source ~%SOURCE_FILE%~
+/*
 READ_LONG 0x6a fx_off ELSE 0
 READ_SHORT 0x6e fx_num ELSE 0
 //READ_LONG fx_off fx_type
@@ -17,34 +18,46 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
   
   PATCH_IF (opcode = 44) BEGIN
     READ_LONG  (fx_off + 0x04 + (0x10 * fx_type) + (index * (0x30 + (0xd8 * fx_type)))) strength
+*/
 
-    PATCH_IF (strength = 18) BEGIN
-        LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 1 parameter2 = 0 END
+GET_OFFSET_ARRAY ab_array 0x64 4 0x68 2 0 0 0x38
+PHP_EACH ab_array AS int => ab_off BEGIN
+    CLEAR_ARRAY fx_array
+    GET_OFFSET_ARRAY2 fx_array ab_off ITM_V10_HEAD_EFFECTS
+    PHP_EACH fx_array AS int => fx_off BEGIN
+        READ_SHORT fx_off fx_type
+        PATCH_IF fx_type = 44 BEGIN
+            READ_LONG fx_off + 0x4 strength
+            PATCH_IF (strength = 18) BEGIN
+                LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 1 parameter2 = 0 END
 
-        PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
-        READ_LONG ~%offset%~ desc_strref
-            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
-              READ_STRREF ~%offset%~ desc
-              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-                REPLACE_TEXTUALLY ~18/00~ ~+1~
-              END
-            END
-        END
-    END ELSE PATCH_IF (strength = 19) BEGIN
-        LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 2 parameter2 = 0 END
+                PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+                READ_LONG ~%offset%~ desc_strref
+                    PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+                      READ_STRREF ~%offset%~ desc
+                      INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                        REPLACE_TEXTUALLY ~18/00~ ~+1~
+                      END
+                    END
+                END
+            END ELSE PATCH_IF (strength = 19) BEGIN
+                LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 2 parameter2 = 0 END
 
-        PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
-        READ_LONG ~%offset%~ desc_strref
-            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
-              READ_STRREF ~%offset%~ desc
-              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-                REPLACE_TEXTUALLY ~19~ ~+2~
-              END
+                PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+                READ_LONG ~%offset%~ desc_strref
+                    PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+                      READ_STRREF ~%offset%~ desc
+                      INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                        REPLACE_TEXTUALLY ~19~ ~+2~
+                      END
+                    END
+                END
             END
         END
     END
   END
 END
+BUT_ONLY
 /*
 ///////////////////////////////////////////////////////////////////////////
 // Girdle of Hill Giant Strength +2 STR                                  //
