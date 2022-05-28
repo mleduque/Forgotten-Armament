@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-// Forgotten Armament Improved Spears                                    //
+// Forgotten Armament NWN2 Style Weapons                                 //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
@@ -10,9 +10,12 @@
 COPY ~forgotten-armament/spl/MOSPR01.SPL~ ~override~ // +1d8 DMG on Crit Strike
 
 ///////////////////////////////////////////////////////////////////////////
-// Update all Spears                                                      //
+// Review and Update all Weapons                                         //
 ///////////////////////////////////////////////////////////////////////////
-OUTER_SPRINT spearcrit @11408
+OUTER_SPRINT speedfactor @20000
+
+OUTER_SPRINT spearcrit @20900
+
 
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   READ_BYTE  0x31 prof
@@ -28,7 +31,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         READ_STRREF ~%offset%~ desc
         INNER_PATCH_SAVE desc ~%desc%~ BEGIN
           REPLACE_TEXTUALLY ~1d6~ ~1d8~
-          REPLACE_TEXTUALLY ~Speed Factor~ ~%spearcrit%~
+          REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
         END
         SAY_EVALUATED ~%offset%~ ~%desc%~
       END
