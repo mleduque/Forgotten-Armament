@@ -37,9 +37,11 @@ OUTER_SPRINT spearcrit   @20902
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   READ_BYTE  0x31 prof
   READ_SHORT 0x1c type
+  SPRINT item_name ~%SOURCE_FILE%~
 
   // Bastard Swords
   PATCH_IF (prof = 89) BEGIN
+    PATCH_PRINT ~%item_name% is a Bastard Sword~
     LPF ALTER_ITEM_HEADER INT_VAR header_type=1 dicesize=10 dicenumber=1 END
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 301 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
 
@@ -59,6 +61,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 
   // Spears
   END ELSE PATCH_IF (prof = 98) BEGIN
+    PATCH_PRINT ~%item_name% is a Spear~
     LPF ALTER_ITEM_HEADER INT_VAR header_type=1 dicesize=8 dicenumber=1 END
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
     
