@@ -47,7 +47,10 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   // Bastard Swords
   PATCH_IF (prof = 89) BEGIN
     PATCH_PRINT ~%item_name% is a Bastard Sword~
+    // Update to 1d10 damage
     LPF ALTER_ITEM_HEADER INT_VAR header_type=1 dicesize=10 dicenumber=1 END
+    
+    // Check if existing keen property
     FOR (index = 0 ; index < fx_num ; ++index) BEGIN
       READ_SHORT (fx_off + 0x30 * index) opcode
       PATCH_IF (opcode = 301) BEGIN
@@ -56,6 +59,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
       END
     END
 
+    // Update Crit Threat Range 
     PATCH_IF critmatch BEGIN
         param1 += 1
         LPF ALTER_EFFECT INT_VAR match_opcode = 301 parameter1 = param1 END
@@ -63,17 +67,28 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 301 target = 1 parameter1 = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
     END
 
+    // Update Item Description
     PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
       READ_LONG ~%offset%~ desc_strref
       PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
         READ_STRREF ~%offset%~ desc
-        INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-          REPLACE_TEXTUALLY ~%oldslash%~ ~~
-          REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslash%~
-          REPLACE_TEXTUALLY ~%bstddmgold%~ ~%bstddmgnew%~
-          REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
+        found_index = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newslash%~ ~%desc%~)
+
+        PATCH_IF found_index > "-1" BEGIN
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%bstddmgold%~ ~%bstddmgnew%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldslash%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslash%~
+            REPLACE_TEXTUALLY ~%bstddmgold%~ ~%bstddmgnew%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
         END
-        SAY_EVALUATED ~%offset%~ ~%desc%~
       END
     END
 
@@ -83,6 +98,24 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR header_type=1 dicesize=8 dicenumber=1 END
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
     
+    // Check if existing keen property
+    FOR (index = 0 ; index < fx_num ; ++index) BEGIN
+      READ_SHORT (fx_off + 0x30 * index) opcode
+      PATCH_IF (opcode = 301) BEGIN
+        SET critmatch = 1
+        READ_LONG (fx_off + 0x30 * index + 4) param1
+      END
+    END
+
+    // Update Crit Threat Range 
+    PATCH_IF critmatch BEGIN
+        param1 += 1
+        LPF ALTER_EFFECT INT_VAR match_opcode = 301 parameter1 = param1 END
+    END ELSE BEGIN
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 301 target = 1 parameter1 = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
+    END
+
+    // Update Item Description
     PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
       READ_LONG ~%offset%~ desc_strref
       PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
