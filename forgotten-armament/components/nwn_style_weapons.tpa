@@ -102,19 +102,19 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         // 18-20
         PATCH_IF param1 = 2 BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%critrang2%~ ~critrang3~
+            REPLACE_TEXTUALLY ~%critrang2%~ ~%critrang3%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         // 17-20
         END ELSE PATCH_IF param1 = 3 BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%critrang2%~ ~critrang4~
+            REPLACE_TEXTUALLY ~%critrang2%~ ~%critrang4%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         // 16-20
         END ELSE PATCH_IF param1 = 4 BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%critrang2%~ ~critrang5~
+            REPLACE_TEXTUALLY ~%critrang2%~ ~%critrang5%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END 
