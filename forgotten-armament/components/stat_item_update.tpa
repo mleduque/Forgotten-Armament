@@ -58,13 +58,14 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
         LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 1 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
-        READ_LONG ~%offset%~ desc_strref
+            READ_LONG ~%offset%~ desc_strref
             PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
               READ_STRREF ~%offset%~ desc
               INNER_PATCH_SAVE desc ~%desc%~ BEGIN
                 REPLACE_TEXTUALLY ~18/00~ ~+1~
               END
             END
+            SAY_EVALUATED ~%offset%~ ~%desc%~
         END
     END ELSE PATCH_IF (strength = 19) BEGIN
         PATCH_PRINT ~%item_name% alters strength to 19~
