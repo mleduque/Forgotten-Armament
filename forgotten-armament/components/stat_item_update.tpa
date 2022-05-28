@@ -18,7 +18,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
     READ_LONG  (fx_off + 0x04 + (0x10 * fx_type) + (index * (0x30 + (0xd8 * fx_type)))) strength
 
     PATCH_IF (strength = 18) BEGIN
-        ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 1 parameter2 = 0 END
+        LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 1 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
         READ_LONG ~%offset%~ desc_strref
@@ -30,7 +30,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
             END
         END
     END ELSE PATCH_IF (strength = 19) BEGIN
-        ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 2 parameter2 = 0 END
+        LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 2 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
         READ_LONG ~%offset%~ desc_strref
