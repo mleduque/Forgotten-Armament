@@ -7,7 +7,7 @@
 ///////////////////////////////////////////////////////////////////////////
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 PATCH_IF (%SOURCE_SIZE% > 0x71) BEGIN
-    GET_OFFSET_ARRAY ab_array ITM_V10_HEADERS
+    GET_OFFSET_ARRAY ab_array 0x64 4 0x68 2 0 0 0x38
     PHP_EACH ab_array AS int => ab_off BEGIN
     GET_OFFSET_ARRAY2 fx_array ab_off ITM_V10_HEAD_EFFECTS
     PHP_EACH fx_array AS int => fx_off BEGIN
