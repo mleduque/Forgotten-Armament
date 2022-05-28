@@ -13,24 +13,63 @@ COPY ~forgotten-armament/spl/MOSPR01.SPL~ ~override~ // +1d8 DMG on Crit Strike
 // Review and Update all Weapons                                         //
 ///////////////////////////////////////////////////////////////////////////
 OUTER_SPRINT speedfactor @20000
+OUTER_SPRINT oldslash    @20001
+OUTER_SPRINT oldpierc    @20002
+OUTER_SPRINT oldcrush    @20003
+OUTER_SPRINT oldslpie    @20004
+OUTER_SPRINT oldmissi    @20005
+OUTER_SPRINT newslash    @20006
+OUTER_SPRINT newpierc    @20007
+OUTER_SPRINT newcrush    @20008
+OUTER_SPRINT newslpie    @20009
+OUTER_SPRINT newmissi    @20010
 
-OUTER_SPRINT spearcrit @20900
+
+OUTER_SPRINT bstddmgold  @20100
+OUTER_SPRINT bstddmgnew  @20101
+OUTER_SPRINT bstdcrit    @20102
+
+OUTER_SPRINT speardmgold @20900
+OUTER_SPRINT speardmgnew @20901
+OUTER_SPRINT spearcrit   @20902
 
 
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   READ_BYTE  0x31 prof
   READ_SHORT 0x1c type
 
-  // Spears
-  PATCH_IF (prof = 98) BEGIN
-    LPF ALTER_ITEM_HEADER INT_VAR header_type=1 dicesize=8 dicenumber=1 END
-    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
+  // Bastard Swords
+  PATCH_IF (prof = 89) BEGIN
+    LPF ALTER_ITEM_HEADER INT_VAR header_type=1 dicesize=10 dicenumber=1 END
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 301 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
+
     PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
       READ_LONG ~%offset%~ desc_strref
       PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
         READ_STRREF ~%offset%~ desc
         INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-          REPLACE_TEXTUALLY ~1d6~ ~1d8~
+          REPLACE_TEXTUALLY ~%oldslash%~ ~~
+          REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslash~
+          REPLACE_TEXTUALLY ~%bstddmgold%~ ~%bstddmgnew%~
+          REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
+        END
+        SAY_EVALUATED ~%offset%~ ~%desc%~
+      END
+    END
+
+  // Spears
+  END ELSE PATCH_IF (prof = 98) BEGIN
+    LPF ALTER_ITEM_HEADER INT_VAR header_type=1 dicesize=8 dicenumber=1 END
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
+    
+    PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+      READ_LONG ~%offset%~ desc_strref
+      PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+        READ_STRREF ~%offset%~ desc
+        INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+          REPLACE_TEXTUALLY ~%oldslpie%~ ~~
+          REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc~
+          REPLACE_TEXTUALLY ~%speardmgold%~ ~%speardmgnew%~
           REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
         END
         SAY_EVALUATED ~%offset%~ ~%desc%~

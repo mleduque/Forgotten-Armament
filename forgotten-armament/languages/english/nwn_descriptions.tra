@@ -4,9 +4,35 @@
 // Speed Factor                                                          //
 ///////////////////////////////////////////////////////////////////////////
 @20000 = ~Speed Factor~
+@20001 = ~(slashing)~
+@20002 = ~(piercing)~
+@20003 = ~(crushing)~
+@20004 = ~(slashing or piercing, whichever is better)~
+@20005 = ~(missile)~
+@20006 = ~Damage type: Slashing
+Speed Factor~
+@20007 = ~Damage type: Piercing
+Speed Factor~
+@20008 = ~Damage type: Crushing
+Speed Factor~
+@20009 = ~Damage type: Slashing or Piercing, whichever is better
+Speed Factor~
+@20010 = ~Damage type: Missile
+Speed Factor~
+
+
+///////////////////////////////////////////////////////////////////////////
+// Bastard Swords                                                        //
+///////////////////////////////////////////////////////////////////////////
+@20100 = ~2d4~
+@20101 = ~1d10~
+@20102 = ~Critical Threat: 19-20/x2
+Speed Factor~
 
 ///////////////////////////////////////////////////////////////////////////
 // Improved Spears                                                       //
 ///////////////////////////////////////////////////////////////////////////
-@20900 = ~Critical Threat: 20/x2+1d8
+@20900 = ~1d6~
+@20901 = ~1d8~
+@20902 = ~Critical Threat: 20/x2+1d8
 Speed Factor~
