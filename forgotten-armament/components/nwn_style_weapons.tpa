@@ -170,6 +170,35 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         END
       END
     END
+
+      PATCH_IF critmatch BEGIN
+        // 19-20
+        PATCH_IF param1 = 1 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang2%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 18-20
+        END ELSE PATCH_IF param1 = 2 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang3%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 17-20
+        END ELSE PATCH_IF param1 = 3 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang4%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+      // 16-20 
+      END ELSE PATCH_IF param1 = 4 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang5%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END 
+      END
   END
 
   BUT_ONLY
