@@ -52,14 +52,13 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
       READ_SHORT (fx_off + 0x30 * index) opcode
       PATCH_IF (opcode = 301) BEGIN
         SET critmatch = 1
-        READ_LONG (ex_off + 0x04) param1
-        SET critamount = EVAL %param1%
+        READ_LONG (fx_off + 0x30 * index + 4) param1
       END
     END
 
     PATCH_IF critmatch BEGIN
-        critamount += 1
-        LPF ALTER_EFFECT INT_VAR match_opcode = 301 parameter1 = critamount END
+        param1 += 1
+        LPF ALTER_EFFECT INT_VAR match_opcode = 301 parameter1 = param1 END
     END ELSE BEGIN
         LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 301 target = 1 parameter1 = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
     END
