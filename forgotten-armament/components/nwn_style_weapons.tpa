@@ -42,6 +42,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   READ_SHORT 0x70 fx_num ELSE 0
   SPRINT item_name ~%SOURCE_FILE%~
   SET critmatch = 0
+  SET critamount = 0
 
   // Bastard Swords
   PATCH_IF (prof = 89) BEGIN
@@ -52,12 +53,13 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
       PATCH_IF (opcode = 301) BEGIN
         SET critmatch = 1
         READ_LONG (ex_off + 0x04) param1
+        //SET critamount = EVAL %param1%
       END
     END
 
     PATCH_IF critmatch BEGIN
         param1 += 1
-        LPF ALTER_EFFECT INT_VAR match_opcode = 301 parameter1 = %param1% END
+        LPF ALTER_EFFECT INT_VAR match_opcode = 301 parameter1 = param1 END
     END ELSE BEGIN
         LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 301 target = 1 parameter1 = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
     END
