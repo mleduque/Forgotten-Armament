@@ -48,16 +48,16 @@ INCLUDE ~forgotten-armament/components/add_items_iwd.tpa~
 INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
 
 ///////////////////////////////////////////////////////////////////////////
-// Update Stat Increasing Items to Increment the Increase                //
+// NWN2 Style Weapons                                                    //
 ///////////////////////////////////////////////////////////////////////////
 
-BEGIN @4 DESIGNATED 4 LABEL ForgottenArmament-StatIncreaseItems
+BEGIN @10 DESIGNATED 10 LABEL ForgottenArmament-NWNStyleWeapons
 
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
-INCLUDE ~forgotten-armament/components/stat_item_update.tpa~
+INCLUDE ~forgotten-armament/components/nwn_style_weapons.tpa~
 
 ///////////////////////////////////////////////////////////////////////////
 // Replace Boots of Speed (Paws of the Cheetah)                          //
@@ -72,13 +72,13 @@ LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 INCLUDE ~forgotten-armament/components/replace_speed_boots.tpa~
 
 ///////////////////////////////////////////////////////////////////////////
-// Improved Spears                                                       //
+// Update Stat Increasing Items to Increment the Increase                //
 ///////////////////////////////////////////////////////////////////////////
 
-BEGIN @10 DESIGNATED 10 LABEL ForgottenArmament-ImprovedSpears
+BEGIN @4 DESIGNATED 4 LABEL ForgottenArmament-StatIncreaseItems
 
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
-INCLUDE ~forgotten-armament/components/improved_spears.tpa~
+INCLUDE ~forgotten-armament/components/stat_item_update.tpa~
