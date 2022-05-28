@@ -55,7 +55,7 @@ BEGIN @10 DESIGNATED 10 LABEL ForgottenArmament-NWNStyleWeapons
 
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
-LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
+LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/nwn_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/nwn_style_weapons.tpa~
 
@@ -79,6 +79,6 @@ BEGIN @4 DESIGNATED 4 LABEL ForgottenArmament-StatIncreaseItems
 
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
-LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/nwn_descriptions.tra~
+LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/stat_item_update.tpa~
