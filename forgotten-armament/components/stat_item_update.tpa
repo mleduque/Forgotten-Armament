@@ -63,6 +63,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
               READ_STRREF ~%offset%~ desc
               INNER_PATCH_SAVE desc ~%desc%~ BEGIN
                 REPLACE_TEXTUALLY ~18/00~ ~+1~
+                REPLACE_TEXTUALLY ~18~ ~+1~
               END
             END
             SAY_EVALUATED ~%offset%~ ~%desc%~
