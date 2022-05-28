@@ -24,7 +24,7 @@ PATCH_IF (%SOURCE_SIZE% > 0x71) BEGIN
 
     PATCH_IF strength BEGIN
         PATCH_IF param1 = 19 BEGIN
-            LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 2 parameter2 = 0 END
+            LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 44 parameter1 = 2 parameter2 = 0 END
 
             PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
             READ_LONG ~%offset%~ desc_strref
