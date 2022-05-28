@@ -19,7 +19,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
     READ_LONG (fx_off + 0x30 * index + 4) strength
 
     PATCH_IF (strength = 18) BEGIN
-        PATCH_PRINT ~%item_name% altered to increase strength by +1~
+        PATCH_PRINT ~%item_name% alters strength to +1~
         LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 1 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
@@ -34,7 +34,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
             SAY_EVALUATED ~%offset%~ ~%desc%~
         END
     END ELSE PATCH_IF (strength = 19) BEGIN
-        PATCH_PRINT ~%item_name% altered to increase strength by +2~
+        PATCH_PRINT ~%item_name% alters strength to +2~
         LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 2 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
@@ -48,7 +48,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
             SAY_EVALUATED ~%offset%~ ~%desc%~
         END
     END ELSE PATCH_IF (strength = 20) BEGIN
-        PATCH_PRINT ~%item_name% altered to increase strength by +3~
+        PATCH_PRINT ~%item_name% alters strength to +3~
         LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 3 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
@@ -62,7 +62,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
             SAY_EVALUATED ~%offset%~ ~%desc%~
         END
     END ELSE PATCH_IF (strength = 21) BEGIN
-        PATCH_PRINT ~%item_name% altered to increase strength by +4~
+        PATCH_PRINT ~%item_name% alters strength to +4~
         LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 4 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
@@ -76,7 +76,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
             SAY_EVALUATED ~%offset%~ ~%desc%~
         END
     END ELSE PATCH_IF (strength = 22) BEGIN
-        PATCH_PRINT ~%item_name% altered to increase strength by +5~
+        PATCH_PRINT ~%item_name% alters strength to +5~
         LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 5 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
@@ -85,12 +85,13 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
               READ_STRREF ~%offset%~ desc
               INNER_PATCH_SAVE desc ~%desc%~ BEGIN
                 REPLACE_TEXTUALLY ~22~ ~+5~
+                REPLACE_TEXTUALLY ~Set Strength to~ ~Increment Strength by~
               END
             END
             SAY_EVALUATED ~%offset%~ ~%desc%~
         END
     END ELSE PATCH_IF (strength = 23) BEGIN
-        PATCH_PRINT ~%item_name% altered to increase strength by +6~
+        PATCH_PRINT ~%item_name% alters strength to +6~
         LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 6 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
@@ -104,7 +105,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
             SAY_EVALUATED ~%offset%~ ~%desc%~
         END
     END ELSE PATCH_IF (strength = 24) BEGIN
-        PATCH_PRINT ~%item_name% altered to increase strength by +7~
+        PATCH_PRINT ~%item_name% alters strength to +7~
         LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 7 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
@@ -118,7 +119,7 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
             SAY_EVALUATED ~%offset%~ ~%desc%~
         END
     END ELSE PATCH_IF (strength = 25) BEGIN
-        PATCH_PRINT ~%item_name% altered to increase strength by +8~
+        PATCH_PRINT ~%item_name% alters strength to +8~
         LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 6 parameter2 = 0 END
 
         PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
@@ -132,7 +133,27 @@ FOR (index = 0 ; index < fx_num ; ++index) BEGIN
             SAY_EVALUATED ~%offset%~ ~%desc%~
         END
     END
-  END
+
+  // Dexterity Updates
+  END ELSE PATCH_IF (opcode = 15) BEGIN
+    PATCH_PRINT ~%item_name% alters Dexterity~
+
+  // Constitution Updates
+  END ELSE PATCH_IF (opcode = 10) BEGIN
+    PATCH_PRINT ~%item_name% alters Constitution~
+
+  // Intelligence Updates
+  END ELSE PATCH_IF (opcode = 19) BEGIN
+    PATCH_PRINT ~%item_name% alters Intelligence~
+
+  // Wisdom Updates
+  END ELSE PATCH_IF (opcode = 49) BEGIN
+    PATCH_PRINT ~%item_name% alters Wisdom~
+
+  // Charisma Updates
+  END ELSE PATCH_IF (opcode = 6) BEGIN
+    PATCH_PRINT ~%item_name% alters Charisma~
+  END 
 END
 
 GET_OFFSET_ARRAY ab_array 0x64 4 0x68 2 0 0 0x38
@@ -145,7 +166,7 @@ PHP_EACH ab_array AS int => ab_off BEGIN
         PATCH_IF (opcode = 44) BEGIN
             READ_LONG (ex_off + 0x04) param1
             PATCH_IF (param1 = 18) BEGIN
-                PATCH_PRINT ~%item_name% altered to increase strength by +1~
+                PATCH_PRINT ~%item_name% alters strength to +1~
                 LPF ALTER_EFFECT INT_VAR match_opcode = 44 parameter1 = 1 parameter2 = 0 END
 
                 PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
@@ -306,21 +327,6 @@ ACTION_IF FILE_EXISTS_IN_GAME ~X#RINGRO.itm~ BEGIN
     COPY ~forgotten-armament/itm/X#RINGRO.itm~ ~override/X#RINGRO.itm~
         SAY DESC @14203
 END
-
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-// Weapons                                                               //
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////////////////
-// Angurvadal +4 (+5 STR Temp)                                           //
-///////////////////////////////////////////////////////////////////////////
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY ~forgotten-armament/itm/SW1H60.ITM~ ~override/SW1H60.ITM~
-        SAY DESC @10702
-END
-
 
 
 */
