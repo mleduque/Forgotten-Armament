@@ -55,7 +55,6 @@ PHP_EACH ab_array AS int => ab_off BEGIN
             END
         END
     END
-  END
 END
 BUT_ONLY
 /*
