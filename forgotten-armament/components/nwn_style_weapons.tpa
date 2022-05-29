@@ -54,6 +54,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   SPRINT item_name ~%SOURCE_FILE%~
   SET critmatch = 0
   SET critamount = 0
+  SET meleeaxe = 0
 
   // Bastard Swords
   PATCH_IF (prof = 89) BEGIN
@@ -363,7 +364,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         found_index2 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldthrown%~ ~%desc%~)
 
         PATCH_IF found_index1 > "-1" BEGIN
-          LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
+          SET meleeaxe = 1
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
             REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
@@ -376,7 +377,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
-          LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
+          SET meleeaxe = 1
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%oldslash%~ ~~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslash%~
@@ -384,6 +385,10 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END
+      END
+
+      PATCH_IF meleeaxe BEGIN
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
       END
       
       PATCH_IF critmatch BEGIN
