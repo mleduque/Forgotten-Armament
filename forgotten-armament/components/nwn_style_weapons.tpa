@@ -161,7 +161,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldslpie%~ ~~
+            REPLACE_TEXTUALLY ~%oldpierc%~ ~~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc%~
             REPLACE_TEXTUALLY ~%speardmgold%~ ~%speardmgnew%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
