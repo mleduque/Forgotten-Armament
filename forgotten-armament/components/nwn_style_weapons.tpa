@@ -28,6 +28,8 @@ OUTER_SPRINT critrang2   @20012  // 19-20
 OUTER_SPRINT critrang3   @20013  // 18-20
 OUTER_SPRINT critrang4   @20014  // 17-20
 OUTER_SPRINT critrang5   @20015  // 16-20
+OUTER_SPRINT olddmgtyp   @20016
+OUTER_SPRINT newdmgtyp   @20017
 
 
 OUTER_SPRINT bstddmgold  @20100
@@ -85,6 +87,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%bstddmgold%~ ~%bstddmgnew%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
+            REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
@@ -155,6 +158,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%speardmgold%~ ~%speardmgnew%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
+            REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
@@ -230,6 +234,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         PATCH_IF found_index > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
+            REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
