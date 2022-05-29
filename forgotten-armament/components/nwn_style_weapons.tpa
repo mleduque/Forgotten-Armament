@@ -18,11 +18,13 @@ OUTER_SPRINT oldpierc    @20002
 OUTER_SPRINT oldcrush    @20003
 OUTER_SPRINT oldslpie    @20004
 OUTER_SPRINT oldmissi    @20005
+OUTER_SPRINT oldmagic    @20018
 OUTER_SPRINT newslash    @20006
 OUTER_SPRINT newpierc    @20007
 OUTER_SPRINT newcrush    @20008
 OUTER_SPRINT newslpie    @20009
 OUTER_SPRINT newmissi    @20010
+OUTER_SPRINT newmagic    @20019
 OUTER_SPRINT critrang1   @20011  // 20
 OUTER_SPRINT critrang2   @20012  // 19-20
 OUTER_SPRINT critrang3   @20013  // 18-20
@@ -164,12 +166,20 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
       READ_LONG ~%offset%~ desc_strref
       PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
         READ_STRREF ~%offset%~ desc
-        found_index = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newslash%~ ~%desc%~)
+        found_index1 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newslash%~ ~%desc%~)
+        found_index2 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldmagic%~ ~%desc%~)
 
-        PATCH_IF found_index > "-1" BEGIN
+        PATCH_IF found_index1 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
             REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE PATCH_IF found_index2 > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldmagic%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newmagic%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
