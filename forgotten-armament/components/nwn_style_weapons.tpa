@@ -37,13 +37,16 @@ OUTER_SPRINT bstddmgnew  @20101  // 1d10
 OUTER_SPRINT bstdcrit    @20102
 
 OUTER_SPRINT throwncrit  @20200
-OUTER_SPRINT oldthrown   @20201
-OUTER_SPRINT newthrown   @20202
+OUTER_SPRINT oldthrown1  @20201
+OUTER_SPRINT newthrown1  @20202
 
 OUTER_SPRINT oldtwohand  @20300  // 1d12
 OUTER_SPRINT newtwohand  @20301  // 2d6
 
 OUTER_SPRINT scimcrit    @20400
+
+OUTER_SPRINT oldthrown2  @20500
+OUTER_SPRINT newthrown2  @20501
 
 OUTER_SPRINT speardmgold @20900  // 1d6
 OUTER_SPRINT speardmgnew @20901  // 1d8
@@ -229,12 +232,19 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
       READ_LONG ~%offset%~ desc_strref
       PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
         READ_STRREF ~%offset%~ desc
-        found_index = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newpierc%~ ~%desc%~)
+        found_index1 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newpierc%~ ~%desc%~)
+        found_index2 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldthrown2%~ ~%desc%~)
 
-        PATCH_IF found_index > "-1" BEGIN
+        PATCH_IF found_index1 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
             REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE PATCH_IF found_index2 > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldthrown2%~ ~%newthrown2%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
@@ -246,7 +256,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END
       END
-      
+
       PATCH_IF critmatch BEGIN
         // 18-20
         PATCH_IF param1 = 2 BEGIN
@@ -292,7 +302,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
       PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
         READ_STRREF ~%offset%~ desc
         found_index1 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newslash%~ ~%desc%~)
-        found_index2 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldthrown%~ ~%desc%~)
+        found_index2 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldthrown1%~ ~%desc%~)
 
         PATCH_IF found_index1 > "-1" BEGIN
           SET meleeaxe = 1
@@ -303,7 +313,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE PATCH_IF found_index2 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldthrown%~ ~%newthrown%~
+            REPLACE_TEXTUALLY ~%oldthrown1%~ ~%newthrown1%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
