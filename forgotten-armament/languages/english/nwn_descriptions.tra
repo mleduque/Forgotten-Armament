@@ -9,21 +9,23 @@
 @20003 = ~(crushing)~
 @20004 = ~(slashing or piercing, whichever is better)~
 @20005 = ~(missile)~
-@20006 = ~Damage type: Slashing
+@20006 = ~Damage Type: Slashing
 Speed Factor~
-@20007 = ~Damage type: Piercing
+@20007 = ~Damage Type: Piercing
 Speed Factor~
-@20008 = ~Damage type: Crushing
+@20008 = ~Damage Type: Crushing
 Speed Factor~
-@20009 = ~Damage type: Slashing or Piercing, whichever is better
+@20009 = ~Damage Type: Slashing or Piercing, whichever is better
 Speed Factor~
-@20010 = ~Damage type: Missile
+@20010 = ~Damage Type: Missile
 Speed Factor~
 @20011 = ~20/~
 @20012 = ~19-20/~
 @20013 = ~18-20/~
 @20014 = ~17-20/~
 @20015 = ~16-20/~
+@20016 = ~Damage type:~
+@20017 = ~Damage Type:~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Swords                                                        //
