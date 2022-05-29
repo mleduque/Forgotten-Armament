@@ -132,8 +132,8 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
       END
     END
 
-  // Longsword
-  END ELSE PATCH_IF (prof = 90) BEGIN
+  // Longsword and Katana (changing to 19-20/x2 Slashing)
+  END ELSE PATCH_IF (prof = 90) or (prof = 94) BEGIN
     
     // Check if existing keen property
     FOR (index = 0 ; index < fx_num ; ++index) BEGIN
@@ -422,9 +422,6 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         END 
       END
     END
-
-  // Katana
-  END ELSE PATCH_IF (prof = 94) BEGIN
 
   // Scimitar/Wakisashi/Ninjato
   END ELSE PATCH_IF (prof = 95) BEGIN
