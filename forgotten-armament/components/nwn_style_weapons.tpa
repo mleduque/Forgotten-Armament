@@ -386,11 +386,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END
       END
-
-      PATCH_IF meleeaxe BEGIN
-        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
-      END
-      
+    
       PATCH_IF critmatch BEGIN
         // 19-20
         PATCH_IF param1 = 1 BEGIN
@@ -418,6 +414,10 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END
       END
+    END
+
+    PATCH_IF meleeaxe BEGIN
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
     END
   END
 
