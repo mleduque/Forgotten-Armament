@@ -234,6 +234,8 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         READ_STRREF ~%offset%~ desc
         found_index1 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newpierc%~ ~%desc%~)
         found_index2 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldthrown2%~ ~%desc%~)
+        found_index3 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldmissi%~ ~%desc%~)
+        found_index4 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldslash%~ ~%desc%~)
 
         PATCH_IF found_index1 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
@@ -244,6 +246,20 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         END ELSE PATCH_IF found_index2 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%oldthrown2%~ ~%newthrown2%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE PATCH_IF found_index3 > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldmissi%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newmissi%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE PATCH_IF found_index4 > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldslash%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslash%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
