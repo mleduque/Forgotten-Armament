@@ -33,7 +33,6 @@ OUTER_SPRINT critrang5   @20015  // 16-20
 OUTER_SPRINT olddmgtyp   @20016
 OUTER_SPRINT newdmgtyp   @20017
 
-
 OUTER_SPRINT bstddmgold  @20100  // 2d4
 OUTER_SPRINT bstddmgnew  @20101  // 1d10
 OUTER_SPRINT bstdcrit    @20102
