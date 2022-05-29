@@ -202,8 +202,8 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
       END
     END
 
-  // Short Sword
-  END ELSE PATCH_IF (prof = 91) BEGIN
+  // Short Sword or Dagger (19-20/x2 Piercing)
+  END ELSE PATCH_IF (prof = 91) OR (prof = 96) BEGIN
     
     // Check if existing keen property
     FOR (index = 0 ; index < fx_num ; ++index) BEGIN
@@ -500,9 +500,6 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         END
       END
     END
-
-  // Dagger
-  END ELSE PATCH_IF (prof = 96) BEGIN
 
   // Warhammer
   END ELSE PATCH_IF (prof = 97) BEGIN
