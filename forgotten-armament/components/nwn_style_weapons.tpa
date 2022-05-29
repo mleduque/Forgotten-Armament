@@ -32,13 +32,15 @@ OUTER_SPRINT olddmgtyp   @20016
 OUTER_SPRINT newdmgtyp   @20017
 
 
-OUTER_SPRINT bstddmgold  @20100
-OUTER_SPRINT bstddmgnew  @20101
+OUTER_SPRINT bstddmgold  @20100  // 2d4
+OUTER_SPRINT bstddmgnew  @20101  // 1d10
 OUTER_SPRINT bstdcrit    @20102
 
 OUTER_SPRINT throwncrit  @20200
 OUTER_SPRINT oldthrown   @20201
 OUTER_SPRINT newthrown   @20202
+
+OUTER_SPRINT newtwohand  @20300  // 2d6
 
 OUTER_SPRINT speardmgold @20900
 OUTER_SPRINT speardmgnew @20901
@@ -126,80 +128,6 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END 
-      END
-    END
-
-  // Spears
-  END ELSE PATCH_IF (prof = 98) BEGIN
-    //PATCH_PRINT ~%item_name% is a Spear~
-    LPF ALTER_ITEM_HEADER INT_VAR header_type=1 dicesize=8 dicenumber=1 END
-    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
-    
-    // Check if existing keen property
-    FOR (index = 0 ; index < fx_num ; ++index) BEGIN
-      READ_SHORT (fx_off + 0x30 * index) opcode
-      PATCH_IF (opcode = 301) BEGIN
-        SET critmatch = 1
-        READ_LONG (fx_off + 0x30 * index + 4) param1
-      END
-    END
-
-    // Update Crit Threat Range 
-    PATCH_IF critmatch BEGIN
-      LPF ALTER_EFFECT INT_VAR match_opcode = 301 parameter1 = param1 END
-    END
-
-    // Update Item Description
-    PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
-      READ_LONG ~%offset%~ desc_strref
-      PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
-        READ_STRREF ~%offset%~ desc
-        found_index = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newpierc%~ ~%desc%~)
-
-        PATCH_IF found_index > "-1" BEGIN
-          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%speardmgold%~ ~%speardmgnew%~
-            REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
-            REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
-          END
-          SAY_EVALUATED ~%offset%~ ~%desc%~
-        END ELSE BEGIN
-          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldpierc%~ ~~
-            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc%~
-            REPLACE_TEXTUALLY ~%speardmgold%~ ~%speardmgnew%~
-            REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
-          END
-          SAY_EVALUATED ~%offset%~ ~%desc%~
-        END
-      END
-
-      PATCH_IF critmatch BEGIN
-        // 19-20
-        PATCH_IF param1 = 1 BEGIN
-          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang2%~
-          END
-          SAY_EVALUATED ~%offset%~ ~%desc%~
-        // 18-20
-        END ELSE PATCH_IF param1 = 2 BEGIN
-          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang3%~
-          END
-          SAY_EVALUATED ~%offset%~ ~%desc%~
-        // 17-20
-        END ELSE PATCH_IF param1 = 3 BEGIN
-          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang4%~
-          END
-          SAY_EVALUATED ~%offset%~ ~%desc%~
-        // 16-20 
-        END ELSE PATCH_IF param1 = 4 BEGIN
-          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang5%~
-          END
-          SAY_EVALUATED ~%offset%~ ~%desc%~
-        END
       END
     END
 
@@ -419,6 +347,124 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
     PATCH_IF meleeaxe BEGIN
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
     END
-  END
+
+  // Two-Handed Sword
+  END ELSE PATCH_IF (prof = 93) BEGIN
+
+  // Katana
+  END ELSE PATCH_IF (prof = 94) BEGIN
+
+  // Scimitar/Wakisashi/Ninjato
+  END ELSE PATCH_IF (prof = 95) BEGIN
+
+  // Dagger
+  END ELSE PATCH_IF (prof = 96) BEGIN
+
+  // Warhammer
+  END ELSE PATCH_IF (prof = 97) BEGIN
+
+  // Club
+  END ELSE PATCH_IF (prof = 115) BEGIN
+
+  // Spear
+  END ELSE PATCH_IF (prof = 98) BEGIN
+    LPF ALTER_ITEM_HEADER INT_VAR header_type=1 dicesize=8 dicenumber=1 END
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
+    
+    // Check if existing keen property
+    FOR (index = 0 ; index < fx_num ; ++index) BEGIN
+      READ_SHORT (fx_off + 0x30 * index) opcode
+      PATCH_IF (opcode = 301) BEGIN
+        SET critmatch = 1
+        READ_LONG (fx_off + 0x30 * index + 4) param1
+      END
+    END
+
+    // Update Crit Threat Range 
+    PATCH_IF critmatch BEGIN
+      LPF ALTER_EFFECT INT_VAR match_opcode = 301 parameter1 = param1 END
+    END
+
+    // Update Item Description
+    PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+      READ_LONG ~%offset%~ desc_strref
+      PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+        READ_STRREF ~%offset%~ desc
+        found_index = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newpierc%~ ~%desc%~)
+
+        PATCH_IF found_index > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%speardmgold%~ ~%speardmgnew%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
+            REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldpierc%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc%~
+            REPLACE_TEXTUALLY ~%speardmgold%~ ~%speardmgnew%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+      END
+
+      PATCH_IF critmatch BEGIN
+        // 19-20
+        PATCH_IF param1 = 1 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang2%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 18-20
+        END ELSE PATCH_IF param1 = 2 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang3%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 17-20
+        END ELSE PATCH_IF param1 = 3 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang4%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 16-20 
+        END ELSE PATCH_IF param1 = 4 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang5%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+      END
+    END
+
+  // Halberd
+  END ELSE PATCH_IF (prof = 99) BEGIN
+
+  // Flail/Morningstar
+  END ELSE PATCH_IF (prof = 100) BEGIN
+
+  // Mace
+  END ELSE PATCH_IF (prof = 101) BEGIN
+
+  // Quarterstaff
+  END ELSE PATCH_IF (prof = 102) BEGIN
+
+  // Crossbow
+  END ELSE PATCH_IF (prof = 103) BEGIN
+
+  // Longbow
+  END ELSE PATCH_IF (prof = 104) BEGIN
+
+  // Shortbow
+  END ELSE PATCH_IF (prof = 105) BEGIN
+
+  // Dart
+  END ELSE PATCH_IF (prof = 106) BEGIN
+
+  // Sling
+  END ELSE PATCH_IF (prof = 107) BEGIN
+  END 
 
   BUT_ONLY
