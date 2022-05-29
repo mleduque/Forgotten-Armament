@@ -41,6 +41,12 @@ Speed Factor~
 // Thrown
 @20200 = ~Critical Threat: 20/x2
 Speed Factor~
+@20201 = ~Damage type (melee): Slashing
+Damage type (thrown): Missile
+Speed Factor~
+@20202 = ~Damage Type (melee): Slashing
+Damage Type (thrown): Missile
+Speed Factor~
 
 ///////////////////////////////////////////////////////////////////////////
 // Spears                                                                //
