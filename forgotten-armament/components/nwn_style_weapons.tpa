@@ -996,7 +996,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
-        PATCH_IF found_index2 > "-1" BEGIN
+        END ELSE PATCH_IF found_index2 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%oldpierc%~ ~~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc%~
