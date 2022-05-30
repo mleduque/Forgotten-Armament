@@ -1167,12 +1167,20 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
       READ_LONG ~%offset%~ desc_strref
       PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
         READ_STRREF ~%offset%~ desc
-        found_index = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newmissi%~ ~%desc%~)
+        found_index1 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newmissi%~ ~%desc%~)
+        found_index2 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldcrush%~ ~%desc%~)
 
-        PATCH_IF found_index > "-1" BEGIN
+        PATCH_IF found_index1 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bowcrit%~
             REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE PATCH_IF found_index2 > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldcrush%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newcrush%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%bowcrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
