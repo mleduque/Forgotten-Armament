@@ -965,8 +965,8 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
       END
     END
 
-  // Mace
-  END ELSE PATCH_IF (prof = 101) BEGIN
+  // Mace and Quarterstaff 20/x2 Crushing
+  END ELSE PATCH_IF (prof = 101) OR (prof = 102) BEGIN
     
     // Check if existing keen property
     FOR (index = 0 ; index < fx_num ; ++index) BEGIN
@@ -1033,9 +1033,6 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         END
       END
     END
-
-  // Quarterstaff
-  END ELSE PATCH_IF (prof = 102) BEGIN
 
   // Crossbow
   END ELSE PATCH_IF (prof = 103) BEGIN
