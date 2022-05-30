@@ -374,6 +374,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         READ_STRREF ~%offset%~ desc
         found_index1 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newslash%~ ~%desc%~)
         found_index2 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldthrown1%~ ~%desc%~)
+        found_index3 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldpierc%~ ~%desc%~)
 
         PATCH_IF found_index1 > "-1" BEGIN
           SET meleeaxe = 1
@@ -386,6 +387,13 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%oldthrown1%~ ~%newthrown1%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE PATCH_IF found_index3 > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldpierc%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
