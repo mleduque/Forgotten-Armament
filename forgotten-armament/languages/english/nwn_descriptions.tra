@@ -32,6 +32,7 @@ Speed Factor~
 @20020 = ~(piercing or slashing)~
 @20021 = ~Damage Type: Piercing or Crushing
 Speed Factor~
+@20022 = ~Damage Type: Missile~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Swords                                                        //
