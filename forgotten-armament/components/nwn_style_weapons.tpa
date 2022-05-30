@@ -925,13 +925,13 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END
         INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-          REPLACE_TEXTUALLY ~%bstdmgold%~ ~%speardmgnew%~
-          REPLACE_TEXTUALLY ~%oldflail1%~ ~%speardmgnew%~
-          REPLACE_TEXTUALLY ~%oldflail2%~ ~%newhamm01%~
-          REPLACE_TEXTUALLY ~%oldflail3%~ ~%newhamm02%~
-          REPLACE_TEXTUALLY ~%oldflail4%~ ~%newhamm03%~
-          REPLACE_TEXTUALLY ~%oldflail5%~ ~%newhamm04%~
-          REPLACE_TEXTUALLY ~%oldflail6%~ ~%newhamm05%~
+          REPLACE_TEXTUALLY ~%bstddmgold%~ ~%speardmgnew%~
+          REPLACE_TEXTUALLY ~%oldflail1%~  ~%speardmgnew%~
+          REPLACE_TEXTUALLY ~%oldflail2%~  ~%newhamm01%~
+          REPLACE_TEXTUALLY ~%oldflail3%~  ~%newhamm02%~
+          REPLACE_TEXTUALLY ~%oldflail4%~  ~%newhamm03%~
+          REPLACE_TEXTUALLY ~%oldflail5%~  ~%newhamm04%~
+          REPLACE_TEXTUALLY ~%oldflail6%~  ~%newhamm05%~
         END
         SAY_EVALUATED ~%offset%~ ~%desc%~
       END
