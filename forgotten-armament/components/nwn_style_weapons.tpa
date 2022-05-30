@@ -1184,7 +1184,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 
       PATCH_IF ("%item_name%" STRING_EQUAL_CASE "BOW19.ITM") BEGIN
         INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-          REPLACE_TEXTUALLY ~%gessen%~ ~~
+          REPLACE_TEXTUALLY ~%gesen%~ ~~
         END
         SAY_EVALUATED ~%offset%~ ~%desc%~
       END
