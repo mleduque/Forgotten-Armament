@@ -37,6 +37,7 @@ OUTER_SPRINT olddmgtyp   @20016
 OUTER_SPRINT newdmgtyp   @20017
 OUTER_SPRINT piercrush   @20021  // Damage Type: Piercing or Crushing
 OUTER_SPRINT gesen       @20022
+OUTER_SPRINT critthreat  @20023
 
 OUTER_SPRINT bstddmgold  @20100  // 2d4
 OUTER_SPRINT bstddmgnew  @20101  // 1d10
@@ -1184,7 +1185,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 
       PATCH_IF ("%item_name%" STRING_EQUAL_CASE "BOW19.ITM") BEGIN
         INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-          REPLACE_TEXTUALLY ~%gesen%~ ~~
+          REPLACE_TEXTUALLY ~%gesen%~ ~%critthreat%~
         END
         SAY_EVALUATED ~%offset%~ ~%desc%~
       END
