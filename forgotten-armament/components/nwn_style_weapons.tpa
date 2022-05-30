@@ -49,6 +49,22 @@ OUTER_SPRINT scimcrit    @20400
 OUTER_SPRINT oldthrown2  @20500
 OUTER_SPRINT newthrown2  @20501
 
+OUTER_SPRINT oldthrown3  @20600
+OUTER_SPRINT newthrown3  @20601
+OUTER_SPRINT oldhamm01   @20602  // 1d4+1
+OUTER_SPRINT oldhamm02   @20603  // 1d4+2
+OUTER_SPRINT oldhamm03   @20604  // 1d4+3
+OUTER_SPRINT oldhamm04   @20605  // 1d4+4
+OUTER_SPRINT oldhamm05   @20606  // 2d4+3
+OUTER_SPRINT oldhamm06   @20607  // 2d4+4
+OUTER_SPRINT oldhamm07   @20608  // 2d4+5
+OUTER_SPRINT newhamm01   @20609  // 1d8+1
+OUTER_SPRINT newhamm02   @20610  // 1d8+2
+OUTER_SPRINT newhamm03   @20611  // 1d8+3
+OUTER_SPRINT newhamm04   @20612  // 1d8+4
+OUTER_SPRINT newhamm05   @20613  // 1d8+5
+
+
 OUTER_SPRINT speardmgold @20900  // 1d6
 OUTER_SPRINT speardmgnew @20901  // 1d8
 OUTER_SPRINT spearcrit   @20902
@@ -57,7 +73,8 @@ OUTER_SPRINT spearcrit   @20902
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   READ_BYTE  0x31 prof
   READ_SHORT 0x1c type
-  READ_LONG 0x6a  fx_off ELSE 0
+  READ_LONG  0x60 ench
+  READ_LONG  0x6a fx_off ELSE 0
   READ_SHORT 0x6e fx_ind ELSE 0
   READ_SHORT 0x70 fx_num ELSE 0
   SPRINT item_name ~%SOURCE_FILE%~
@@ -538,6 +555,102 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 
   // Warhammer
   END ELSE PATCH_IF (prof = 97) BEGIN
+
+    // Update to 1d8 Damage
+    LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = ench END
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
+
+    // Check if existing keen property
+    FOR (index = 0 ; index < fx_num ; ++index) BEGIN
+      READ_SHORT (fx_off + 0x30 * index) opcode
+      PATCH_IF (opcode = 301) BEGIN
+        SET critmatch = 1
+        READ_LONG (fx_off + 0x30 * index + 4) param1
+      END
+    END
+
+    // Update Crit Threat Range 
+    PATCH_IF critmatch BEGIN
+      LPF ALTER_EFFECT INT_VAR match_opcode = 301 parameter1 = param1 END
+    END
+
+    // Update Item Description
+    PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+      READ_LONG ~%offset%~ desc_strref
+      PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+        READ_STRREF ~%offset%~ desc
+        found_index1 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newcrush%~ ~%desc%~)
+        found_index2 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldthrown3%~ ~%desc%~)
+        found_index3 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldmagic%~ ~%desc%~)
+
+        PATCH_IF found_index1 > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
+            REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE PATCH_IF found_index2 > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldthrown3%~ ~%newthrown3%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE PATCH_IF found_index3 > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldmagic%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newmagic%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldscrush%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newcrush%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+        // Update Damage
+        INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+          REPLACE_TEXTUALLY ~%oldhamm01%~ ~%speardmgnew%~
+          REPLACE_TEXTUALLY ~%oldhamm02%~ ~%newhamm01%~
+          REPLACE_TEXTUALLY ~%oldhamm03%~ ~%newhamm02%~
+          REPLACE_TEXTUALLY ~%oldhamm04%~ ~%newhamm03%~
+          REPLACE_TEXTUALLY ~%oldhamm05%~ ~%newhamm05%~
+          REPLACE_TEXTUALLY ~%oldhamm06%~ ~%newhamm04%~
+          REPLACE_TEXTUALLY ~%oldhamm07%~ ~%newhamm05%~
+        END
+        SAY_EVALUATED ~%offset%~ ~%desc%~
+      END
+    
+      PATCH_IF critmatch BEGIN
+        // 19-20
+        PATCH_IF param1 = 1 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang2%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 18-20
+        END ELSE PATCH_IF param1 = 2 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang3%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 17-20
+        END ELSE PATCH_IF param1 = 3 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang4%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 16-20 
+        END ELSE PATCH_IF param1 = 4 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang5%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+      END
+    END
 
   // Club
   END ELSE PATCH_IF (prof = 115) BEGIN
