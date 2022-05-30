@@ -1,3 +1,12 @@
+## Version 0.6 BETA
+
+June xx, 2022
+
+### Changed
+
+- Added component to update all stat increasing items to increment instead of set the value
+- Added component to update all weapons to NWN2 Style stats.
+
 ## Version 0.5 BETA
 
 March 27, 2022
