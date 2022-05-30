@@ -8,6 +8,7 @@
 // Import Files                                                          //
 ///////////////////////////////////////////////////////////////////////////
 COPY ~forgotten-armament/spl/MOSPR01.SPL~ ~override~ // +1d8 DMG on Crit Strike
+COPY ~forgotten-armament/spl/MOSPR02.SPL~ ~override~ // +1d10 DMG on Crit Strike
 
 ///////////////////////////////////////////////////////////////////////////
 // Review and Update all Weapons                                         //
@@ -16,9 +17,10 @@ OUTER_SPRINT speedfactor @20000
 OUTER_SPRINT oldslash    @20001
 OUTER_SPRINT oldpierc    @20002
 OUTER_SPRINT oldcrush    @20003
-OUTER_SPRINT oldslpie    @20004
+OUTER_SPRINT oldslpie1   @20004
 OUTER_SPRINT oldmissi    @20005
 OUTER_SPRINT oldmagic    @20018
+OUTER_SPRINT oldslpie2   @20020
 OUTER_SPRINT newslash    @20006
 OUTER_SPRINT newpierc    @20007
 OUTER_SPRINT newcrush    @20008
@@ -64,6 +66,7 @@ OUTER_SPRINT newhamm03   @20611  // 1d8+3
 OUTER_SPRINT newhamm04   @20612  // 1d8+4
 OUTER_SPRINT newhamm05   @20613  // 1d8+5
 
+OUTER_SPRINT halbcrit    @20700  // 20/x2+1d10
 OUTER_SPRINT speardmgold @20900  // 1d6
 OUTER_SPRINT speardmgnew @20901  // 1d8
 OUTER_SPRINT spearcrit   @20902
@@ -801,6 +804,78 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 
   // Halberd
   END ELSE PATCH_IF (prof = 99) BEGIN
+    // Update damage to 1d10 Piercing or Slashing 
+    LPF ALTER_ITEM_HEADER INT_VAR header_type=1 dicesize=10 dicenumber=1 damage_type=7 END
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR02~ END
+
+    // Check if existing keen property
+    FOR (index = 0 ; index < fx_num ; ++index) BEGIN
+      READ_SHORT (fx_off + 0x30 * index) opcode
+      PATCH_IF (opcode = 301) BEGIN
+        SET critmatch = 1
+        READ_LONG (fx_off + 0x30 * index + 4) param1
+      END
+    END
+
+    // Update Crit Threat Range 
+    PATCH_IF critmatch BEGIN
+      LPF ALTER_EFFECT INT_VAR match_opcode = 301 parameter1 = param1 END
+    END
+
+    // Update Item Description
+    PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+      READ_LONG ~%offset%~ desc_strref
+      PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+        READ_STRREF ~%offset%~ desc
+        found_index = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newpierc%~ ~%desc%~)
+
+        PATCH_IF found_index > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%newpierc%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslpie%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%halbcrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldpierc%~ ~~
+            REPLACE_TEXTUALLY ~%oldslpie1%~ ~~
+            REPLACE_TEXTUALLY ~%oldslpie2%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslpie%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%halbcrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+      END
+
+      PATCH_IF critmatch BEGIN
+        // 19-20
+        PATCH_IF param1 = 1 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang2%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 18-20
+        END ELSE PATCH_IF param1 = 2 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang3%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 17-20
+        END ELSE PATCH_IF param1 = 3 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang4%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 16-20 
+        END ELSE PATCH_IF param1 = 4 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang5%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+      END
+    END
 
   // Flail/Morningstar
   END ELSE PATCH_IF (prof = 100) BEGIN

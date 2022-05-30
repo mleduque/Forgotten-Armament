@@ -15,7 +15,7 @@ Speed Factor~
 Speed Factor~
 @20008 = ~Damage Type: Crushing
 Speed Factor~
-@20009 = ~Damage Type: Slashing or Piercing, whichever is better
+@20009 = ~Damage Type: Piercing or Slashing
 Speed Factor~
 @20010 = ~Damage Type: Missile
 Speed Factor~
@@ -29,6 +29,7 @@ Speed Factor~
 @20018 = ~(magic)~
 @20019 = ~Damage Type: Magic
 Speed Factor~
+@20020 = ~(piercing or slashing)~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Swords                                                        //
@@ -94,6 +95,12 @@ Speed Factor~
 @20611 = ~1d8+3~
 @20612 = ~1d8+4~
 @20613 = ~1d8+5~
+
+///////////////////////////////////////////////////////////////////////////
+// Halberd                                                               //
+///////////////////////////////////////////////////////////////////////////
+@20700 = ~Critical Threat: 20/x2+1d10
+Speed Factor~
 
 ///////////////////////////////////////////////////////////////////////////
 // Spears                                                                //
