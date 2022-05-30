@@ -64,7 +64,6 @@ OUTER_SPRINT newhamm03   @20611  // 1d8+3
 OUTER_SPRINT newhamm04   @20612  // 1d8+4
 OUTER_SPRINT newhamm05   @20613  // 1d8+5
 
-
 OUTER_SPRINT speardmgold @20900  // 1d6
 OUTER_SPRINT speardmgnew @20901  // 1d8
 OUTER_SPRINT spearcrit   @20902
@@ -625,7 +624,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldscrush%~ ~~
+            REPLACE_TEXTUALLY ~%oldcrush%~ ~~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newcrush%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
             REPLACE_TEXTUALLY ~%oldhamm01%~ ~%speardmgnew%~
