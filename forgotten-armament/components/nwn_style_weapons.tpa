@@ -46,7 +46,8 @@ OUTER_SPRINT gesen       @20022
 OUTER_SPRINT critthreat  @20023
 OUTER_SPRINT olddartdmg1 @20028
 OUTER_SPRINT olddartdmg2 @20029
-OUTER_SPRINT oldweight   @20030  
+OUTER_SPRINT oldweight   @20030
+OUTER_SPRINT newslpie2   @20032
 
 OUTER_SPRINT bstddmgold  @20100  // 2d4
 OUTER_SPRINT bstddmgnew  @20101  // 1d10
@@ -892,6 +893,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
             REPLACE_TEXTUALLY ~%oldpierc%~ ~~
             REPLACE_TEXTUALLY ~%oldslpie1%~ ~~
             REPLACE_TEXTUALLY ~%oldslpie2%~ ~~
+            REPLACE_TEXTUALLY ~%newslpie2%~ ~%speedfactor%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslpie%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%halbcrit%~
           END

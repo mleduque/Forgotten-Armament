@@ -48,6 +48,8 @@ Weight~
 @20030 = ~Weight~
 @20031 = ~Damage type:  crushing
 Weight~
+@20032 = ~Damage Type: Slashing or piercing, whichever is better
+Speed Factor~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Swords                                                        //
