@@ -20,6 +20,7 @@ OUTER_SPRINT oldslash    @20001
 OUTER_SPRINT oldpierc    @20002
 OUTER_SPRINT oldcrush    @20003
 OUTER_SPRINT oldcrush2   @20031
+OUTER_SPRINT oldcrush3   @20033
 OUTER_SPRINT oldslpie1   @20004
 OUTER_SPRINT oldmissi    @20005
 OUTER_SPRINT oldmagic    @20018
@@ -744,6 +745,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         END ELSE BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%oldcrush%~ ~~
+            REPLACE_TEXTUALLY ~%oldcrush3%~ ~%oldweight%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newcrush%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
           END
@@ -1046,14 +1048,15 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE PATCH_IF found_index2 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldpierc%~ ~~
+            REPLACE_TEXTUALLY ~%oldpierc%~    ~~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldcrush%~ ~~
+            REPLACE_TEXTUALLY ~%oldcrush%~    ~~
+            REPLACE_TEXTUALLY ~%oldcrush3%~   ~%oldweight%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newcrush%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
           END
