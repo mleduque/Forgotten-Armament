@@ -554,7 +554,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 
   // Warhammer
   END ELSE PATCH_IF (prof = 97) BEGIN
-    PATCH_PRINT ~%item_name% is a Warhammer~
+
     // Update to 1d8 Damage
     PATCH_IF ("%item_name%" STRING_EQUAL_CASE "HAMM09.ITM") BEGIN
       LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = 3 END
