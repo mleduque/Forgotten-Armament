@@ -988,10 +988,18 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
       PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
         READ_STRREF ~%offset%~ desc
         found_index1 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newcrush%~ ~%desc%~)
+        found_index2 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%oldpierc%~ ~%desc%~)
 
         PATCH_IF found_index1 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        PATCH_IF found_index2 > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldpierc%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
