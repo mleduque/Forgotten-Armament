@@ -967,6 +967,72 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 
   // Mace
   END ELSE PATCH_IF (prof = 101) BEGIN
+    
+    // Check if existing keen property
+    FOR (index = 0 ; index < fx_num ; ++index) BEGIN
+      READ_SHORT (fx_off + 0x30 * index) opcode
+      PATCH_IF (opcode = 301) BEGIN
+        SET critmatch = 1
+        READ_LONG (fx_off + 0x30 * index + 4) param1
+      END
+    END
+
+    // Update Crit Threat Range 
+    PATCH_IF critmatch BEGIN
+      LPF ALTER_EFFECT INT_VAR match_opcode = 301 parameter1 = param1 END
+    END
+
+    // Update Item Description
+    PATCH_FOR_EACH offset IN 0x50 0x54 BEGIN
+      READ_LONG ~%offset%~ desc_strref
+      PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+        READ_STRREF ~%offset%~ desc
+        found_index1 = INDEX (CASE_INSENSITIVE EXACT_MATCH ~%newcrush%~ ~%desc%~)
+
+        PATCH_IF found_index1 > "-1" BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END ELSE BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%oldcrush%~ ~~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%newcrush%~
+            REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+      END
+    
+      PATCH_IF critmatch BEGIN
+        // 19-20
+        PATCH_IF param1 = 1 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang2%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 18-20
+        END ELSE PATCH_IF param1 = 2 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang3%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 17-20
+        END ELSE PATCH_IF param1 = 3 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang4%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        // 16-20 
+        END ELSE PATCH_IF param1 = 4 BEGIN
+          INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+            REPLACE_TEXTUALLY ~%critrang1%~ ~%critrang5%~
+          END
+          SAY_EVALUATED ~%offset%~ ~%desc%~
+        END
+      END
+    END
 
   // Quarterstaff
   END ELSE PATCH_IF (prof = 102) BEGIN
