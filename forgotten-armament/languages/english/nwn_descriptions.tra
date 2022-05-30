@@ -35,6 +35,19 @@ Speed Factor~
 @20022 = ~Damage Type: Missile
 Critical Threat~
 @20023 = ~Critical Threat~
+@20024 = ~(cold)~
+@20025 = ~(fire)~
+@20026 = ~Damage Type: Cold
+Speed Factor~
+@20027 = ~Damage Type: Fire
+Speed Factor~
+@20028 = ~Damage type:  missile (piercing)
+Weight~
+@20029 = ~Damage type: missile (piercing)
+Weight~
+@20030 = ~Weight~
+@20031 = ~Damage type:  crushing
+Weight~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Swords                                                        //
@@ -117,6 +130,8 @@ Speed Factor~
 @20803 = ~1d6\+4~
 @20804 = ~1d6\+5~
 @20805 = ~1d6\+6~
+@20806 = ~1d6 \+ 5~
+
 
 ///////////////////////////////////////////////////////////////////////////
 // Spears                                                                //
