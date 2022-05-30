@@ -556,7 +556,11 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   END ELSE PATCH_IF (prof = 97) BEGIN
 
     // Update to 1d8 Damage
-    LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = ench END
+    PATCH_IF ("%item_name%" STRING_EQUAL_CASE "hamm09") BEGIN
+      LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = 3 END
+    END ELSE BEGIN 
+      LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = ench END
+    END
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
 
     // Check if existing keen property
@@ -586,26 +590,12 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
             REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
-            REPLACE_TEXTUALLY ~%oldhamm01%~ ~%speardmgnew%~
-            REPLACE_TEXTUALLY ~%oldhamm02%~ ~%newhamm01%~
-            REPLACE_TEXTUALLY ~%oldhamm03%~ ~%newhamm02%~
-            REPLACE_TEXTUALLY ~%oldhamm04%~ ~%newhamm03%~
-            REPLACE_TEXTUALLY ~%oldhamm05%~ ~%newhamm05%~
-            REPLACE_TEXTUALLY ~%oldhamm06%~ ~%newhamm04%~
-            REPLACE_TEXTUALLY ~%oldhamm07%~ ~%newhamm05%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE PATCH_IF found_index2 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%oldthrown3%~ ~%newthrown3%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
-            REPLACE_TEXTUALLY ~%oldhamm01%~ ~%speardmgnew%~
-            REPLACE_TEXTUALLY ~%oldhamm02%~ ~%newhamm01%~
-            REPLACE_TEXTUALLY ~%oldhamm03%~ ~%newhamm02%~
-            REPLACE_TEXTUALLY ~%oldhamm04%~ ~%newhamm03%~
-            REPLACE_TEXTUALLY ~%oldhamm05%~ ~%newhamm05%~
-            REPLACE_TEXTUALLY ~%oldhamm06%~ ~%newhamm04%~
-            REPLACE_TEXTUALLY ~%oldhamm07%~ ~%newhamm05%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE PATCH_IF found_index3 > "-1" BEGIN
@@ -613,13 +603,6 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
             REPLACE_TEXTUALLY ~%oldmagic%~ ~~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newmagic%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
-            REPLACE_TEXTUALLY ~%oldhamm01%~ ~%speardmgnew%~
-            REPLACE_TEXTUALLY ~%oldhamm02%~ ~%newhamm01%~
-            REPLACE_TEXTUALLY ~%oldhamm03%~ ~%newhamm02%~
-            REPLACE_TEXTUALLY ~%oldhamm04%~ ~%newhamm03%~
-            REPLACE_TEXTUALLY ~%oldhamm05%~ ~%newhamm05%~
-            REPLACE_TEXTUALLY ~%oldhamm06%~ ~%newhamm04%~
-            REPLACE_TEXTUALLY ~%oldhamm07%~ ~%newhamm05%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
@@ -627,16 +610,19 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
             REPLACE_TEXTUALLY ~%oldcrush%~ ~~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newcrush%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
-            REPLACE_TEXTUALLY ~%oldhamm01%~ ~%speardmgnew%~
-            REPLACE_TEXTUALLY ~%oldhamm02%~ ~%newhamm01%~
-            REPLACE_TEXTUALLY ~%oldhamm03%~ ~%newhamm02%~
-            REPLACE_TEXTUALLY ~%oldhamm04%~ ~%newhamm03%~
-            REPLACE_TEXTUALLY ~%oldhamm05%~ ~%newhamm05%~
-            REPLACE_TEXTUALLY ~%oldhamm06%~ ~%newhamm04%~
-            REPLACE_TEXTUALLY ~%oldhamm07%~ ~%newhamm05%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END
+        INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+          REPLACE_TEXTUALLY ~%oldhamm01%~ ~%speardmgnew%~
+          REPLACE_TEXTUALLY ~%oldhamm02%~ ~%newhamm01%~
+          REPLACE_TEXTUALLY ~%oldhamm03%~ ~%newhamm02%~
+          REPLACE_TEXTUALLY ~%oldhamm04%~ ~%newhamm03%~
+          REPLACE_TEXTUALLY ~%oldhamm05%~ ~%newhamm03%~
+          REPLACE_TEXTUALLY ~%oldhamm06%~ ~%newhamm04%~
+          REPLACE_TEXTUALLY ~%oldhamm07%~ ~%newhamm05%~
+        END
+        SAY_EVALUATED ~%offset%~ ~%desc%~
       END
     
       PATCH_IF critmatch BEGIN
