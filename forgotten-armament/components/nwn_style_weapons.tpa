@@ -20,6 +20,7 @@ OUTER_SPRINT oldslash    @20001
 OUTER_SPRINT oldpierc    @20002
 OUTER_SPRINT oldpierc1   @20034
 OUTER_SPRINT oldpierc2   @20035
+OUTER_SPRINT oldpierc3   @20036
 OUTER_SPRINT oldcrush    @20003
 OUTER_SPRINT oldcrush2   @20031
 OUTER_SPRINT oldcrush3   @20033
@@ -303,34 +304,35 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         PATCH_IF found_index1 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
-            REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
+            REPLACE_TEXTUALLY ~%olddmgtyp%~   ~%newdmgtyp%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE PATCH_IF found_index2 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldthrown2%~ ~%newthrown2%~
+            REPLACE_TEXTUALLY ~%oldthrown2%~  ~%newthrown2%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE PATCH_IF found_index3 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldmissi%~ ~~
+            REPLACE_TEXTUALLY ~%oldmissi%~    ~~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newmissi%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE PATCH_IF found_index4 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldslash%~ ~~
+            REPLACE_TEXTUALLY ~%oldslash%~    ~~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslash%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldpierc%~ ~~
-            REPLACE_TEXTUALLY ~%oldpierc1%~ ~%oldweight%~
-            REPLACE_TEXTUALLY ~%oldpierc2%~ ~%oldweight%~
+            REPLACE_TEXTUALLY ~%oldpierc%~    ~~
+            REPLACE_TEXTUALLY ~%oldpierc1%~   ~%oldweight%~
+            REPLACE_TEXTUALLY ~%oldpierc2%~   ~%oldweight%~
+            REPLACE_TEXTUALLY ~%oldpierc3%~   ~%oldweight%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
           END
