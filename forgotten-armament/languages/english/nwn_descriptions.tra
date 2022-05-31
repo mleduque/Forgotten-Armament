@@ -60,6 +60,8 @@ Weight~
 Weight~
 @20037 = ~Damage type:  piercing
 Weight~
+@20038 = ~Damage type:  slashing
+Weight~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Swords                                                        //

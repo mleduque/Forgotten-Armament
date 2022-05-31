@@ -17,6 +17,7 @@ COPY ~forgotten-armament/spl/MOSPR04.SPL~ ~override~ // +1d12 DMG on Crit Strike
 ///////////////////////////////////////////////////////////////////////////
 OUTER_SPRINT speedfactor @20000  // Speed Factor
 OUTER_SPRINT oldslash    @20001
+OUTER_SPRINT oldslash1   @20038
 OUTER_SPRINT oldpierc    @20002
 OUTER_SPRINT oldpierc1   @20034
 OUTER_SPRINT oldpierc2   @20035
@@ -510,10 +511,11 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldslash%~ ~~
+            REPLACE_TEXTUALLY ~%oldslash%~    ~~
+            REPLACE_TEXTUALLY ~%oldslash1%~   ~%oldweight%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslash%~
-            REPLACE_TEXTUALLY ~%oldtwohand%~ ~%newtwohand%~
-            REPLACE_TEXTUALLY ~%bstddmgnew%~ ~%newtwohand%~
+            REPLACE_TEXTUALLY ~%oldtwohand%~  ~%newtwohand%~
+            REPLACE_TEXTUALLY ~%bstddmgnew%~  ~%newtwohand%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
