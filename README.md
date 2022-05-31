@@ -28,9 +28,17 @@ A list of the item locations is [here](https://github.com/Gibberlings3/Forgotten
 
 This component replaces Boots of Speed (Paws of the Cheetah) with other boot options.
 
-### Improved Spears
+### Add Breach Scrolls to Sorcerous Sundries
 
-This component improves Spears by increasing their base damage from 1d6 to 1d8. Additionally, on critical hits Spears will now deal an additional +1d8 damage.
+This component adds a couple of Breach scrolls to Sorcerous Sundries.
+
+### NWN2 Style Weapons
+
+This component updates all weapons to match weapons in NWN2 to include damage, damage type, and critical threat range/damage. This includes all weapons added by mods. A detailed description of the new base weapon stats is [here](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/NWN2_STYLE_WEAPONS.md).
+
+### Update Items Setting an Ability Score to Increment the Increase
+
+This component will update all items that set an ability score to instead increment the stat. For example, the Belt of Hill Giant normally sets Strength to 19. This component will update the item to increment Strength by +2. All items that set ability scores, included those added by other mods, will be updated to increment with this component.
 
 ## Compatibility
 
@@ -38,7 +46,9 @@ If you are upgrading from an earlier version of this mod, I recommend uninstalli
 
 I have reviewed and deconflicted any compatibility issues with multiple item mods to include: Made in Heaven: Item Pack, Sod2BG2 items, and The Calling Exotic Item Pack. If you do notice a compatibility issue with other mods, especially the ones listed here, please let me know so I can correct it.
 
-Do not install the Improved Spears component with other mods that alter spear damage like Scales of Balance.  
+NWN2 Style Weapons and Update Items Setting an Ability Score to Increment the Increase components should be installed AFTER any mods that add new weapons or items to the game.
+
+Do not install the NWN2 Style Weapons component with other mods that alter weapons like Scales of Balance.  
 
 ## Special Thanks
 

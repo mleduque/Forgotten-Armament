@@ -74,7 +74,7 @@ LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 INCLUDE ~forgotten-armament/components/replace_speed_boots.tpa~
 
 ///////////////////////////////////////////////////////////////////////////
-// Update Stat Increasing Items to Increment the Increase                //
+// Update Items Setting an Ability Score to Increment the Increase       //
 ///////////////////////////////////////////////////////////////////////////
 BEGIN @4 DESIGNATED 4 LABEL ForgottenArmament-StatIncreaseItems
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
