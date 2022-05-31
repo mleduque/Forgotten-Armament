@@ -30,6 +30,7 @@ OUTER_SPRINT oldpierc4   @20037
 OUTER_SPRINT oldcrush    @20003
 OUTER_SPRINT oldcrush2   @20031
 OUTER_SPRINT oldcrush3   @20033
+OUTER_SPRINT oldcrush4   @20043
 OUTER_SPRINT oldslpie1   @20004
 OUTER_SPRINT oldmissi    @20005
 OUTER_SPRINT oldmagic    @20018
@@ -642,16 +643,10 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   // Warhammer
   END ELSE PATCH_IF (prof = 97) BEGIN
 
-    /*
-    PATCH_IF ("%item_name%" STRING_EQUAL_CASE "HAMM09.ITM") BEGIN
-      LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = 3 END
-    END ELSE PATCH_IF !("%item_name%" STRING_EQUAL_CASE "MH#HAMM2.ITM") BEGIN 
+    // Update to 1d8 Damage
+    PATCH_IF !("%item_name%" STRING_EQUAL_CASE "MH#HAMM2.ITM") BEGIN
       LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = ench END
     END
-    */
-
-    // Update to 1d8 Damage
-    LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = ench END
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
 
     // Check if existing keen property
@@ -705,14 +700,15 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END
         INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-          REPLACE_TEXTUALLY ~%oldhamm08%~ ~%newhamm06%~
-          REPLACE_TEXTUALLY ~%oldhamm01%~ ~%speardmgnew%~
-          REPLACE_TEXTUALLY ~%oldhamm02%~ ~%newhamm01%~
-          REPLACE_TEXTUALLY ~%oldhamm03%~ ~%newhamm02%~
-          REPLACE_TEXTUALLY ~%oldhamm04%~ ~%newhamm03%~
-          REPLACE_TEXTUALLY ~%oldhamm05%~ ~%newhamm03%~
-          REPLACE_TEXTUALLY ~%oldhamm06%~ ~%newhamm04%~
-          REPLACE_TEXTUALLY ~%oldhamm07%~ ~%newhamm05%~
+          REPLACE_TEXTUALLY ~%oldhamm08%~  ~%newhamm06%~
+          REPLACE_TEXTUALLY ~%oldhamm01%~  ~%speardmgnew%~
+          REPLACE_TEXTUALLY ~%oldhamm02%~  ~%newhamm01%~
+          REPLACE_TEXTUALLY ~%oldhamm03%~  ~%newhamm02%~
+          REPLACE_TEXTUALLY ~%oldhamm04%~  ~%newhamm03%~
+          REPLACE_TEXTUALLY ~%oldhamm05%~  ~%newhamm03%~
+          REPLACE_TEXTUALLY ~%oldhamm06%~  ~%newhamm04%~
+          REPLACE_TEXTUALLY ~%oldhamm07%~  ~%newhamm05%~
+          REPLACE_TEXTUALLY ~%bstddmgnew%~ ~%speardmgnew%~
         END
         SAY_EVALUATED ~%offset%~ ~%desc%~
       END
@@ -773,13 +769,14 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         PATCH_IF found_index1 > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
-            REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
+            REPLACE_TEXTUALLY ~%olddmgtyp%~   ~%newdmgtyp%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldcrush%~ ~~
-            REPLACE_TEXTUALLY ~%oldcrush3%~ ~%oldweight%~
+            REPLACE_TEXTUALLY ~%oldcrush%~    ~~
+            REPLACE_TEXTUALLY ~%oldcrush2%~   ~%oldweight%~
+            REPLACE_TEXTUALLY ~%oldcrush3%~   ~%oldweight%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newcrush%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
           END
@@ -1091,7 +1088,9 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         END ELSE BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%oldcrush%~    ~~
+            REPLACE_TEXTUALLY ~%oldcrush2%~   ~%oldweight%~
             REPLACE_TEXTUALLY ~%oldcrush3%~   ~%oldweight%~
+            REPLACE_TEXTUALLY ~%oldcrush4%~   ~%oldweight%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newcrush%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%throwncrit%~
           END
