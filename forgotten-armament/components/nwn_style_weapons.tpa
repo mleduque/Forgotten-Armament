@@ -76,11 +76,13 @@ OUTER_SPRINT oldhamm04   @20605  // 1d4+4
 OUTER_SPRINT oldhamm05   @20606  // 2d4+3
 OUTER_SPRINT oldhamm06   @20607  // 2d4+4
 OUTER_SPRINT oldhamm07   @20608  // 2d4+5
+OUTER_SPRINT oldhamm08   @20614  // 2d4+3, +5 electrical
 OUTER_SPRINT newhamm01   @20609  // 1d8+1
 OUTER_SPRINT newhamm02   @20610  // 1d8+2
 OUTER_SPRINT newhamm03   @20611  // 1d8+3
 OUTER_SPRINT newhamm04   @20612  // 1d8+4
 OUTER_SPRINT newhamm05   @20613  // 1d8+5
+OUTER_SPRINT newhamm06   @20615  // 1d8+5, +5 electrical
 
 OUTER_SPRINT oldflail1   @20800  // 1d6+1
 OUTER_SPRINT oldflail2   @20801  // 1d6+2
@@ -613,12 +615,16 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   // Warhammer
   END ELSE PATCH_IF (prof = 97) BEGIN
 
-    // Update to 1d8 Damage
+    /*
     PATCH_IF ("%item_name%" STRING_EQUAL_CASE "HAMM09.ITM") BEGIN
       LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = 3 END
     END ELSE PATCH_IF !("%item_name%" STRING_EQUAL_CASE "MH#HAMM2.ITM") BEGIN 
       LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = ench END
     END
+    */
+
+    // Update to 1d8 Damage
+    LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = ench END
     LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
 
     // Check if existing keen property
@@ -672,6 +678,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END
         INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+          REPLACE_TEXTUALLY ~%oldhamm08%~ ~%newhamm06%~
           REPLACE_TEXTUALLY ~%oldhamm01%~ ~%speardmgnew%~
           REPLACE_TEXTUALLY ~%oldhamm02%~ ~%newhamm01%~
           REPLACE_TEXTUALLY ~%oldhamm03%~ ~%newhamm02%~
