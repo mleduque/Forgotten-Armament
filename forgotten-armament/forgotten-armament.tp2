@@ -37,9 +37,7 @@ LANGUAGE ~French~
 ///////////////////////////////////////////////////////////////////////////
 // Add New Forgotten Armament Items into the Game                        //
 ///////////////////////////////////////////////////////////////////////////
-
 BEGIN @1 DESIGNATED 1 LABEL ForgottenArmament-AddIWDItems
-
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
@@ -48,11 +46,17 @@ INCLUDE ~forgotten-armament/components/add_items_iwd.tpa~
 INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
 
 ///////////////////////////////////////////////////////////////////////////
+// Add Breach Scrolls to Sorcerous Sundries                              //
+///////////////////////////////////////////////////////////////////////////
+BEGIN @11 DESIGNATED 11 LABEL ForgottenArmament-Breach
+REQUIRE_PREDICATE GAME_IS ~bgee eet~ @3004
+
+INCLUDE ~forgotten-armament/components/breach.tpa~
+
+///////////////////////////////////////////////////////////////////////////
 // NWN2 Style Weapons                                                    //
 ///////////////////////////////////////////////////////////////////////////
-
 BEGIN @10 DESIGNATED 10 LABEL ForgottenArmament-NWNStyleWeapons
-
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/nwn_descriptions.tra~
@@ -62,9 +66,7 @@ INCLUDE ~forgotten-armament/components/nwn_style_weapons.tpa~
 ///////////////////////////////////////////////////////////////////////////
 // Replace Boots of Speed (Paws of the Cheetah)                          //
 ///////////////////////////////////////////////////////////////////////////
-
 BEGIN @8 DESIGNATED 8 LABEL ForgottenArmament-ReplaceSpeedBoots
-
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
@@ -74,9 +76,7 @@ INCLUDE ~forgotten-armament/components/replace_speed_boots.tpa~
 ///////////////////////////////////////////////////////////////////////////
 // Update Stat Increasing Items to Increment the Increase                //
 ///////////////////////////////////////////////////////////////////////////
-
 BEGIN @4 DESIGNATED 4 LABEL ForgottenArmament-StatIncreaseItems
-
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~

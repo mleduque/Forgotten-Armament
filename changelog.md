@@ -4,8 +4,9 @@ June xx, 2022
 
 ### Changed
 
-- Added component to update all stat increasing items to increment instead of set the value
+- Added component to update all stat increasing items to increment instead of set the value.
 - Added component to update all weapons to NWN2 Style stats.
+- Added component to add breach scrolls to Sorcerous Sundries.
 
 ## Version 0.5 BETA
 

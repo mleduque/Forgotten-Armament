@@ -1,0 +1,8 @@
+// Forgotten Armament - Add Breach Scrolls to Sorcerous Sundries
+
+///////////////////////////////////////////////////////////////////////////
+// Gives Sorcerous Sundries the Breach Spell                             //
+///////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~sto0703.sto~ ~override~
+    ADD_STORE_ITEM ~SCRL6U~ #0 #0 #0 ~IDENTIFIED~ #2
+
