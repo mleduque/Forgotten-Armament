@@ -27,6 +27,7 @@ OUTER_SPRINT oldpierc1   @20034
 OUTER_SPRINT oldpierc2   @20035
 OUTER_SPRINT oldpierc3   @20036
 OUTER_SPRINT oldpierc4   @20037
+OUTER_SPRINT oldpierc5   @20044
 OUTER_SPRINT oldcrush    @20003
 OUTER_SPRINT oldcrush2   @20031
 OUTER_SPRINT oldcrush3   @20033
@@ -852,6 +853,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%oldpierc%~    ~~
             REPLACE_TEXTUALLY ~%oldpierc2%~   ~%oldweight%~
+            REPLACE_TEXTUALLY ~%oldpierc5%~   ~%oldweight%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc%~
             REPLACE_TEXTUALLY ~%speardmgold%~ ~%speardmgnew%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
