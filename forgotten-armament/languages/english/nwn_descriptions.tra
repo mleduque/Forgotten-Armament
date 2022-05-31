@@ -64,6 +64,11 @@ Weight~
 Weight~
 @20039 = ~Damage type: slashing
 Weight~
+@20040 = ~Damage type:  Slashing
+Weight~
+@20041 = ~Damage Type: Slashing
+Proficiency Type~
+@20042 = ~Proficiency Type~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Swords                                                        //
