@@ -38,7 +38,7 @@ This component updates all weapons to match weapons in NWN2 to include damage, d
 
 ### Update Items Setting an Ability Score to Increment the Increase
 
-This component will update all items that set an ability score to instead increment the stat. For example, the Belt of Hill Giant normally sets Strength to 19. This component will update the item to increment Strength by +2. All items that set ability scores, included those added by other mods, will be updated to increment with this component.
+This component updates all items to increment increases to ability scores instead of setting them. For example, the Belt of Hill Giant normally sets Strength to 19. This component will update the item to increment Strength by +2. All items that set ability scores, included those added by other mods, will be updated to increment with this component.
 
 ## Compatibility
 
