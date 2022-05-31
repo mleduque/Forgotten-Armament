@@ -52,6 +52,8 @@ Weight~
 Speed Factor~
 @20033 = ~Damage type: crushing
 Weight~
+@20034 = ~Damage type piercing
+Weight~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Swords                                                        //
