@@ -54,6 +54,8 @@ Speed Factor~
 Weight~
 @20034 = ~Damage type piercing
 Weight~
+@20035 = ~Damage type: piercing
+Weight~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Swords                                                        //
