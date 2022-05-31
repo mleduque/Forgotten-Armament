@@ -18,6 +18,7 @@ COPY ~forgotten-armament/spl/MOSPR04.SPL~ ~override~ // +1d12 DMG on Crit Strike
 OUTER_SPRINT speedfactor @20000  // Speed Factor
 OUTER_SPRINT oldslash    @20001
 OUTER_SPRINT oldslash1   @20038
+OUTER_SPRINT oldslash2   @20039
 OUTER_SPRINT oldpierc    @20002
 OUTER_SPRINT oldpierc1   @20034
 OUTER_SPRINT oldpierc2   @20035
@@ -58,6 +59,7 @@ OUTER_SPRINT newslpie2   @20032
 OUTER_SPRINT bstddmgold  @20100  // 2d4
 OUTER_SPRINT bstddmgnew  @20101  // 1d10
 OUTER_SPRINT bstdcrit    @20102
+OUTER_SPRINT bstddmgold1 @20103  // 3d6
 
 OUTER_SPRINT throwncrit  @20200
 OUTER_SPRINT oldthrown1  @20201
@@ -156,16 +158,19 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 
         PATCH_IF found_index > "-1" BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%bstddmgold%~ ~%bstddmgnew%~
+            REPLACE_TEXTUALLY ~%bstddmgold%~  ~%bstddmgnew%~
+            REPLACE_TEXTUALLY ~%bstddmgold1%~ ~%bstddmgnew%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
-            REPLACE_TEXTUALLY ~%olddmgtyp%~ ~%newdmgtyp%~
+            REPLACE_TEXTUALLY ~%olddmgtyp%~   ~%newdmgtyp%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-            REPLACE_TEXTUALLY ~%oldslash%~ ~~
+            REPLACE_TEXTUALLY ~%oldslash%~    ~~
+            REPLACE_TEXTUALLY ~%oldslash2%~   ~%oldweight%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslash%~
-            REPLACE_TEXTUALLY ~%bstddmgold%~ ~%bstddmgnew%~
+            REPLACE_TEXTUALLY ~%bstddmgold%~  ~%bstddmgnew%~
+            REPLACE_TEXTUALLY ~%bstddmgold1%~ ~%bstddmgnew%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%bstdcrit%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
