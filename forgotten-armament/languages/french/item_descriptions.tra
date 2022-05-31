@@ -502,7 +502,7 @@ PARAMÈTRES :
 
 TAC0 : +1
 Dégâts : 1d10+1, +1 dégât de feu
-Type de dégâts : Perforant ou Tranchant
+Type de dégâts : Perforant
 Facteur de vitesse : 8
 Type de compétence : Hallebarde
 Type : arme à deux mains
@@ -1340,11 +1340,6 @@ Nécessite :
 
 Poids : 3~
 
-///////////////////////////////////////////////////////////////////////////
-// Improved Spears                                                       //
-///////////////////////////////////////////////////////////////////////////
-@11408 = ~Dégâts Critiques : Inflige 1d8 dégâts supplémentaire en cas de coup critique
-Facteur de vitesse~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
