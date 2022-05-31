@@ -52,6 +52,17 @@ STATISTICS:
   - 3 Strength
 - Weight: 1
 
+## Darts 
+
+STATISTICS:
+- Damage: 1d4 
+- Damage Type: Missile
+- Critical Threat: 20/x2
+- Speed Factor: 2
+- Proficiency Type: Dart
+- Type: One-handed
+- Weight: 0
+
 ## Flails
 
 STATISTICS:
@@ -78,6 +89,19 @@ STATISTICS:
   -  13 Strength
 - Weight: 15
 
+## Heavy Crossbows
+
+STATISTICS:
+- Damage: +2 
+- Damage Type: Missile
+- Critical Threat: 19-20/x2
+- Speed Factor: 10
+- Proficiency Type: Crossbow
+- Type: Two-handed
+- Requires:
+  - 12 Strength
+- Weight: 14
+
 ## Katanas
 
 STATISTICS:
@@ -90,6 +114,31 @@ STATISTICS:
 - Requires:
   - 6 Strength
 - Weight: 6
+
+## Light Crossbows
+
+STATISTICS:
+- Damage Type: Missile
+- Critical Threat: 19-20/x2
+- Speed Factor: 5
+- Proficiency Type: Crossbow
+- Type: Two-handed
+- Requires:
+  - 8 Strength
+- Weight: 7
+
+## Longbows
+
+STATISTICS:
+- THAC0: +1
+- Damage Type: Missile
+- Critical Threat: 20/x2+1d6
+- Speed Factor: 7
+- Proficiency Type: Longbow
+- Type: Two-handed
+- Requires:
+  - 6 Strength
+- Weight: 3
 
 ## Long Swords
 
@@ -171,6 +220,18 @@ STATISTICS:
   - 10 Strength
 - Weight: 4
 
+## Shortbow
+
+STATISTICS:
+- Damage Type: Missile
+- Critical Threat: 20/x2+1d6
+- Speed Factor: 6
+- Proficiency Type: Shortbow
+- Type: Two-handed
+- Requires:
+  - 3 Strength
+- Weight: 2
+
 ## Short Swords
 
 STATISTICS:
@@ -183,6 +244,18 @@ STATISTICS:
 - Requires:
   - 5 Strength
 - Weight: 3
+
+## Slings
+
+STATISTICS:
+- Damage Type: Missile
+- Critical Threat: 20/x2
+- Speed Factor: 6
+- Proficiency Type: Sling
+- Type: One-handed
+- Requires:
+  - 3 Strength
+- Weight: 0
 
 ## Spears
 
