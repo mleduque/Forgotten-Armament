@@ -1,3 +1,11 @@
+## Version 0.6.1 BETA
+
+June 1, 2022
+
+### Changed
+
+- Corrected bug with weapons receiving extra damage on critical hit.
+
 ## Version 0.6 BETA
 
 May 31, 2022

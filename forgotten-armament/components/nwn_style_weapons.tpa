@@ -7,10 +7,12 @@
 ///////////////////////////////////////////////////////////////////////////
 // Import Files                                                          //
 ///////////////////////////////////////////////////////////////////////////
-COPY ~forgotten-armament/spl/MOSPR01.SPL~ ~override~ // +1d8 DMG on Crit Strike
-COPY ~forgotten-armament/spl/MOSPR02.SPL~ ~override~ // +1d10 DMG on Crit Strike
-COPY ~forgotten-armament/spl/MOSPR03.SPL~ ~override~ // +1d6 DMG on Crit Strike
-COPY ~forgotten-armament/spl/MOSPR04.SPL~ ~override~ // +1d12 DMG on Crit Strike
+COPY ~forgotten-armament/spl/MOSPR01.SPL~ ~override~ // +1d8 Piercing on Crit Strike
+COPY ~forgotten-armament/spl/MOSPR02.SPL~ ~override~ // +1d10 Slashing on Crit Strike
+COPY ~forgotten-armament/spl/MOSPR03.SPL~ ~override~ // +1d6 Missile on Crit Strike
+COPY ~forgotten-armament/spl/MOSPR04.SPL~ ~override~ // +1d12 Slashing on Crit Strike
+COPY ~forgotten-armament/spl/MOSPR05.SPL~ ~override~ // +1d8 Slashing on Crit Strike
+COPY ~forgotten-armament/spl/MOSPR06.SPL~ ~override~ // +1d8 Blunt on Crit Strike
 
 ///////////////////////////////////////////////////////////////////////////
 // Review and Update all Weapons                                         //
@@ -484,7 +486,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
     END
 
     PATCH_IF meleeaxe AND !twohand BEGIN
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR05~ END
     END
 
   // Two-Handed Sword
@@ -648,7 +650,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
     PATCH_IF !("%item_name%" STRING_EQUAL_CASE "MH#HAMM2.ITM") BEGIN
       LPF ALTER_ITEM_HEADER INT_VAR dicesize=8 dicenumber=1 damage_bonus = ench END
     END
-    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR01~ END
+    LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~MOSPR06~ END
 
     // Check if existing keen property
     FOR (index = 0 ; index < fx_num ; ++index) BEGIN
