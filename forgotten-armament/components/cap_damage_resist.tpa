@@ -438,3 +438,4 @@ COPY_EXISTING ~KITLIST.2DA~ ~override~
 		END
 	END
   END
+  END
