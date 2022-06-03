@@ -54,16 +54,6 @@ REQUIRE_PREDICATE GAME_IS ~bgee eet~ @3004
 INCLUDE ~forgotten-armament/components/breach.tpa~
 
 ///////////////////////////////////////////////////////////////////////////
-// NWN2 Style Weapons                                                    //
-///////////////////////////////////////////////////////////////////////////
-BEGIN @10 DESIGNATED 10 LABEL ForgottenArmament-NWNStyleWeapons
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
-
-LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/nwn_descriptions.tra~
-
-INCLUDE ~forgotten-armament/components/nwn_style_weapons.tpa~
-
-///////////////////////////////////////////////////////////////////////////
 // Replace Boots of Speed (Paws of the Cheetah)                          //
 ///////////////////////////////////////////////////////////////////////////
 BEGIN @8 DESIGNATED 8 LABEL ForgottenArmament-ReplaceSpeedBoots
@@ -72,6 +62,49 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/replace_speed_boots.tpa~
+
+///////////////////////////////////////////////////////////////////////////
+// Cap Max Physical Damage Resistances                                   //
+///////////////////////////////////////////////////////////////////////////
+BEGIN @13 DESIGNATED 13 SUBCOMPONENT @12 LABEL ForgottenArmament-CapDMG90
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
+
+OUTER_SET dmg_rst=90
+INCLUDE ~skills-and-abilities/components/cap_damage_resist.tpa~
+
+////////////////////////////////////////////////////
+
+BEGIN @14 DESIGNATED 14 SUBCOMPONENT @12 LABEL ForgottenArmament-CapDMG80
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
+
+OUTER_SET dmg_rst=80
+INCLUDE ~skills-and-abilities/components/cap_damage_resist.tpa~
+
+////////////////////////////////////////////////////
+
+BEGIN @15 DESIGNATED 15 SUBCOMPONENT @12 LABEL ForgottenArmament-CapDMG70
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
+
+OUTER_SET dmg_rst=70
+INCLUDE ~skills-and-abilities/components/cap_damage_resist.tpa~
+
+////////////////////////////////////////////////////
+
+BEGIN @16 DESIGNATED 16 SUBCOMPONENT @12 LABEL ForgottenArmament-CapDMG60
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
+
+OUTER_SET dmg_rst=60
+INCLUDE ~skills-and-abilities/components/cap_damage_resist.tpa~
+
+///////////////////////////////////////////////////////////////////////////
+// NWN2 Style Weapons                                                    //
+///////////////////////////////////////////////////////////////////////////
+BEGIN @10 DESIGNATED 10 LABEL ForgottenArmament-NWNStyleWeapons
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
+
+LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/nwn_descriptions.tra~
+
+INCLUDE ~forgotten-armament/components/nwn_style_weapons.tpa~
 
 ///////////////////////////////////////////////////////////////////////////
 // Update Items Setting an Ability Score to Increment the Increase       //

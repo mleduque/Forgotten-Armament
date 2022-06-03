@@ -11,6 +11,11 @@
 @9  = ~Better Equipped Enemies~
 @10 = ~NWN2 Style Weapons~
 @11 = ~Add Breach Scrolls to Sorcerous Sundries~
+@12 = ~Cap Max Physical Damage Resistances~
+@13 = ~Cap at 90% Physical Damage Resistance~
+@14 = ~Cap at 80% Physical Damage Resistance~
+@15 = ~Cap at 70% Physical Damage Resistance~
+@16 = ~Cap at 60% Physical Damage Resistance~
 
 @3000 = ~Component requires BG: EE, BGII: EE, or EET~
 @3001 = ~DLCMerger is needed before modding SoD games~
