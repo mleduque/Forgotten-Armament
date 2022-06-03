@@ -44,7 +44,7 @@ COPY_EXISTING ~splprot.2da~ ~override~
       END ELSE PATCH_IF ~%stat%~ STRING_EQUAL_CASE ~23_RESISTPIERCING>n~ BEGIN
       	SET pierce_res = %row%
       // Missile
-      END ELSE PATCH_IF ~%stat%~ STRING_EQUAL_CASE ~23_RESISTPIERCING>n~ BEGIN
+      END ELSE PATCH_IF ~%stat%~ STRING_EQUAL_CASE ~24_RESISTMISSILE>n~ BEGIN
       	SET miss_res = %row%
       END
     END
