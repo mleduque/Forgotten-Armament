@@ -13,7 +13,7 @@ README ~forgotten-armament/readme.html~
 ASK_EVERY_COMPONENT
 
 ALWAYS
-	ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) THEN BEGIN FAIL @3001 END
+    INCLUDE ~forgotten-armament/lib/always.tph~
 END
 
 AUTO_TRA ~forgotten-armament/languages/%s~
