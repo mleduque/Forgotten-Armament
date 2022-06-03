@@ -19,6 +19,23 @@ ACTION_FOR_EACH resist IN
       COPY ~forgotten-armament/spl/MORESC%resist%.SPL~         ~override~
     END
 
+// Import Blank Wizard/Sorcerer CLAB Files
+ACTION_FOR_EACH wiz_clab IN
+      1
+      2
+      3
+      4
+      5
+      6
+      7
+      8
+      9
+    BEGIN
+      ACTION_IF !FILE_EXISTS_IN_GAME ~CLABMA0%wiz_clab%.2DA~ THEN BEGIN
+        COPY ~forgotten-armament/2da/CLABMA01.2DA~ ~override/CLABMA0%wiz_clab%.2DA~
+      END
+END
+
 ///////////////////////////////////////////////////////////////////////////
 // Update SPLPROT.2da                                                    //
 ///////////////////////////////////////////////////////////////////////////
