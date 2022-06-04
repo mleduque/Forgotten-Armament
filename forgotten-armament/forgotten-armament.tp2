@@ -63,6 +63,7 @@ LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/replace_speed_boots.tpa~
 
+/*
 ///////////////////////////////////////////////////////////////////////////
 // Cap Max Physical Damage Resistances                                   //
 ///////////////////////////////////////////////////////////////////////////
@@ -95,6 +96,7 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 OUTER_SET dmg_rst=60
 INCLUDE ~forgotten-armament/components/cap_damage_resist.tpa~
+*/
 
 ///////////////////////////////////////////////////////////////////////////
 // NWN2 Style Weapons                                                    //
