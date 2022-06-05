@@ -40,10 +40,10 @@ END
 // Dagger of <CHARNAME>                                                  //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~DAGG19.ITM~ BEGIN
-OUTER_SPRINT olddagger1 @31300
-OUTER_SPRINT olddagger2 @31302
-OUTER_SPRINT newdagger1 @31301
-OUTER_SPRINT newdagger2 @31303
+OUTER_SPRINT olddagger1 @30300
+OUTER_SPRINT olddagger2 @30302
+OUTER_SPRINT newdagger1 @30301
+OUTER_SPRINT newdagger2 @30303
 
 
     /*
