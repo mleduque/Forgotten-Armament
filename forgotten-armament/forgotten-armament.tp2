@@ -45,6 +45,7 @@ LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
 
 INCLUDE ~forgotten-armament/components/add_items_iwd.tpa~
 INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
+INCLUDE ~forgotten-armament/components/update_items.tpa~
 
 ////////////////////////////////////////////////////
 

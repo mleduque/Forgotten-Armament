@@ -3,22 +3,22 @@
 ///////////////////////////////////////////////////////////////////////////
 // Speed Factor                                                          //
 ///////////////////////////////////////////////////////////////////////////
-@20000 = ~Speed Factor~
+@20000 = ~Speed Factor:~
 @20001 = ~(slashing)~
 @20002 = ~(piercing)~
 @20003 = ~(crushing)~
 @20004 = ~(slashing or piercing, whichever is better)~
 @20005 = ~(missile)~
 @20006 = ~Damage Type: Slashing
-Speed Factor~
+Speed Factor:~
 @20007 = ~Damage Type: Piercing
-Speed Factor~
+Speed Factor:~
 @20008 = ~Damage Type: Crushing
-Speed Factor~
+Speed Factor:~
 @20009 = ~Damage Type: Piercing or Slashing
-Speed Factor~
+Speed Factor:~
 @20010 = ~Damage Type: Missile
-Speed Factor~
+Speed Factor:~
 @20011 = ~20/~
 @20012 = ~19-20/~
 @20013 = ~18-20/~
@@ -28,19 +28,19 @@ Speed Factor~
 @20017 = ~Damage Type:~
 @20018 = ~(magic)~
 @20019 = ~Damage Type: Magic
-Speed Factor~
+Speed Factor:~
 @20020 = ~(piercing or slashing)~
 @20021 = ~Damage Type: Piercing or Crushing
-Speed Factor~
+Speed Factor:~
 @20022 = ~Damage Type: Missile
 Critical Threat~
 @20023 = ~Critical Threat~
 @20024 = ~(cold)~
 @20025 = ~(fire)~
 @20026 = ~Damage Type: Cold
-Speed Factor~
+Speed Factor:~
 @20027 = ~Damage Type: Fire
-Speed Factor~
+Speed Factor:~
 @20028 = ~Damage type:  missile (piercing)
 Weight~
 @20029 = ~Damage type: missile (piercing)
@@ -49,7 +49,7 @@ Weight~
 @20031 = ~Damage type:  crushing
 Weight~
 @20032 = ~Damage Type: Slashing or piercing, whichever is better
-Speed Factor~
+Speed Factor:~
 @20033 = ~Damage type: crushing
 Weight~
 @20034 = ~Damage type piercing
@@ -80,7 +80,7 @@ Weight~
 @20100 = ~2d4~
 @20101 = ~1d10~
 @20102 = ~Critical Threat: 19-20/x2
-Speed Factor~
+Speed Factor:~
 @20103 = ~3d6~
 
 ///////////////////////////////////////////////////////////////////////////
@@ -88,13 +88,13 @@ Speed Factor~
 ///////////////////////////////////////////////////////////////////////////
 // Thrown
 @20200 = ~Critical Threat: 20/x2
-Speed Factor~
+Speed Factor:~
 @20201 = ~Damage type (melee): Slashing
 Damage type (thrown): Missile
-Speed Factor~
+Speed Factor:~
 @20202 = ~Damage Type (melee): Slashing
 Damage Type (thrown): Missile
-Speed Factor~
+Speed Factor:~
 @20203 = ~2d12~
 
 ///////////////////////////////////////////////////////////////////////////
@@ -107,27 +107,27 @@ Speed Factor~
 // Scimitar/Wakisashi/Ninjato                                            //
 ///////////////////////////////////////////////////////////////////////////
 @20400 = ~Critical Threat: 18-20/x2
-Speed Factor~
+Speed Factor:~
 
 ///////////////////////////////////////////////////////////////////////////
 // Dagger                                                                //
 ///////////////////////////////////////////////////////////////////////////
 @20500 = ~Damage type (melee): Piercing
 Damage type (thrown): Missile
-Speed Factor~
+Speed Factor:~
 @20501 = ~Damage Type (melee): Piercing
 Damage Type (thrown): Missile
-Speed Factor~
+Speed Factor:~
 
 ///////////////////////////////////////////////////////////////////////////
 // Warhammer                                                             //
 ///////////////////////////////////////////////////////////////////////////
 @20600 = ~Damage type (melee): Crushing
 Damage type (thrown): Missile
-Speed Factor~
+Speed Factor:~
 @20601 = ~Damage Type (melee): Crushing
 Damage Type (thrown): Missile
-Speed Factor~
+Speed Factor:~
 @20602 = ~1d4\+1~
 @20603 = ~1d4\+2~
 @20604 = ~1d4\+3~
@@ -147,7 +147,7 @@ Speed Factor~
 // Halberd                                                               //
 ///////////////////////////////////////////////////////////////////////////
 @20700 = ~Critical Threat: 20/x2+1d10
-Speed Factor~
+Speed Factor:~
 
 ///////////////////////////////////////////////////////////////////////////
 // Flail/Morningstar                                                     //
@@ -167,13 +167,13 @@ Speed Factor~
 @20900 = ~1d6~
 @20901 = ~1d8~
 @20902 = ~Critical Threat: 20/x2+1d8
-Speed Factor~
+Speed Factor:~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bows                                                                  //
 ///////////////////////////////////////////////////////////////////////////
 @21000 = ~Critical Threat: 20/x2+1d6
-Speed Factor~
+Speed Factor:~
 
 ///////////////////////////////////////////////////////////////////////////
 // Darts                                                                 //
