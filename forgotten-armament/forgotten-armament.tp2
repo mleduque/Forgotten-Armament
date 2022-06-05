@@ -9,6 +9,7 @@ AUTHOR ~morpheus562~
 
 VERSION ~v0.6.1-beta~
 README ~forgotten-armament/readme.html~
+AUTO_EVAL_STRINGS
 
 ASK_EVERY_COMPONENT
 
@@ -37,7 +38,17 @@ LANGUAGE ~French~
 ///////////////////////////////////////////////////////////////////////////
 // Add New Forgotten Armament Items into the Game                        //
 ///////////////////////////////////////////////////////////////////////////
-BEGIN @1 DESIGNATED 1 LABEL ForgottenArmament-AddIWDItems
+BEGIN @17 DESIGNATED 17 SUBCOMPONENT @1 LABEL ForgottenArmament-AddIWDItems1
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
+
+LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
+
+INCLUDE ~forgotten-armament/components/add_items_iwd.tpa~
+INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
+
+////////////////////////////////////////////////////
+
+BEGIN @18 DESIGNATED 18 SUBCOMPONENT @1 LABEL ForgottenArmament-AddIWDItems2
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @3000
 
 LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/item_descriptions.tra~
