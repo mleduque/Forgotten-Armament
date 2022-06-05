@@ -42,7 +42,7 @@ END
 ACTION_IF FILE_EXISTS_IN_GAME ~DAGG19.ITM~ BEGIN
     COPY ~forgotten-armament/itm/update/DAGG19.ITM~ ~override~
         SAY NAME1 @10300
-        SAY NAME2 @30001
+        SAY NAME2 @30300
         SAY UNIDENTIFIED_DESC @10301
         SAY DESC @30301
 END
