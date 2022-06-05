@@ -65,12 +65,12 @@ OUTER_SPRINT newdagger2 @30303
 
         READ_LONG 0x50 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
-            READ_STRREF 0x54 desc
+            READ_STRREF 0x50 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%olddagger1%~ ~%newdagger1%~
               REPLACE_TEXTUALLY ~%olddagger2%~ ~%newdagger2%~
             END
-            SAY_EVALUATED 0x54 ~%desc%~
+            SAY_EVALUATED 0x50 ~%desc%~
           END
 END
 
