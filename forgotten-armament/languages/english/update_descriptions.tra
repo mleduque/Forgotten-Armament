@@ -36,24 +36,15 @@ Weight: 5~
 ///////////////////////////////////////////////////////////////////////////
 // Dagger                                                                //
 ///////////////////////////////////////////////////////////////////////////
-@30300 = ~Dagger of <CHARNAME>~
-@30301 = ~This dagger was created for <CHARNAME> by <PRO_HISHER> apprentices.
-
-STATISTICS:
+@30300 = ~STATISTICS:~
+@30301 = ~STATISTICS:
 
 Equipped abilities:
 – Can memorize one extra 1st-level spell, one extra 2nd-level spell, and one extra 3rd-level spell
-– Magic Resistance: +10%
+– Magic Resistance: +10%~
 
-THAC0: +2
-Damage: 1d4+2 (piercing)
-Speed Factor: 1 
-Proficiency Type: Dagger
-Type: One-handed
-Requires:
- 3 Strength
-
-Weight: 1~
+@30302 = ~\+1~
+@30303 = ~+2~
 
 
 ///////////////////////////////////////////////////////////////////////////

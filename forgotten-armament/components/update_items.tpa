@@ -40,11 +40,38 @@ END
 // Dagger of <CHARNAME>                                                  //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~DAGG19.ITM~ BEGIN
+OUTER_SPRINT olddagger1 @31300
+OUTER_SPRINT olddagger2 @31302
+OUTER_SPRINT newdagger1 @31301
+OUTER_SPRINT newdagger2 @31303
+
+
+    /*
     COPY ~forgotten-armament/itm/update/DAGG19.ITM~ ~override~
         SAY NAME1 @10300
         SAY NAME2 @30300
         SAY UNIDENTIFIED_DESC @10301
         SAY DESC @30301
+    */
+
+    COPY_EXISTING ~DAGG19.ITM~ ~override~
+        WRITE_LONG 0x60 2
+        LPF ALTER_ITEM_HEADER INT_VAR header_type=1 thac0_bonus = 2 damage_bonus = 2 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 63 timing = 2 resist_dispel = 2 probability1 = 100 END 
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 166 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END 
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 42 target = 1 parameter1 = 10 parameter2 = 2 timing = 2 resist_dispel = 0 probability1 = 100 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 42 target = 1 parameter1 = 10 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 42 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END 
+
+        READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%olddagger1%~ ~%newdagger1%~
+              REPLACE_TEXTUALLY ~%olddagger2%~ ~%newdagger2%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
 END
 
 ///////////////////////////////////////////////////////////////////////////
@@ -56,10 +83,10 @@ END
 ///////////////////////////////////////////////////////////////////////////
 // Yamato +4                                                             //
 ///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW1H66.ITM~ BEGIN
 OUTER_SPRINT oldyamato @31600
 OUTER_SPRINT newyamato @31601
 
-ACTION_IF FILE_EXISTS_IN_GAME ~SW1H66.ITM~ BEGIN
     COPY_EXISTING ~SW1H66.ITM~ ~override~ 
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 1 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
 
