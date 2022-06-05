@@ -16,11 +16,18 @@
 // Mauletar +2                                                           //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~AX1H03.ITM~ BEGIN
-    COPY ~forgotten-armament/itm/update/AX1H03.ITM~ ~override/AX1H03.ITM~
+    COPY ~forgotten-armament/itm/update/AX1H03.ITM~ ~override~
         SAY NAME1 @30000
         SAY NAME2 @30002
         SAY UNIDENTIFIED_DESC @30001
         SAY DESC @30003
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Azuredge                                                              //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~AX1H10.ITM~ BEGIN
+    COPY ~forgotten-armament/itm/update/AX1H10.ITM~ ~override~
 END
 
 ///////////////////////////////////////////////////////////////////////////
