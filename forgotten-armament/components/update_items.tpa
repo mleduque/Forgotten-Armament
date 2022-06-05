@@ -45,15 +45,6 @@ OUTER_SPRINT olddagger2 @30302
 OUTER_SPRINT newdagger1 @30301
 OUTER_SPRINT newdagger2 @30303
 
-
-    /*
-    COPY ~forgotten-armament/itm/update/DAGG19.ITM~ ~override~
-        SAY NAME1 @10300
-        SAY NAME2 @30300
-        SAY UNIDENTIFIED_DESC @10301
-        SAY DESC @30301
-    */
-
     COPY_EXISTING ~DAGG19.ITM~ ~override~
         WRITE_LONG 0x60 2
         LPF ALTER_ITEM_HEADER INT_VAR header_type=1 thac0_bonus = 2 damage_bonus = 2 END
