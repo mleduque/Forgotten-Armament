@@ -109,14 +109,16 @@ OUTER_SPRINT newkata4 @30607
       WRITE_LONG 0x60 3
       LPF ALTER_ITEM_HEADER INT_VAR header_type=1 thac0_bonus = 3 damage_bonus = 3 END
 
-      READ_LONG 0x54 desc_strref
-          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
-            READ_STRREF 0x54 desc
-            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-              REPLACE_TEXTUALLY ~%oldkata4%~ ~%newkata4%~
+      PATCH_FOR_EACH offset IN 0xc 0x54 BEGIN
+        READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~%oldkata4%~ ~%newkata4%~
+              END
+              SAY_EVALUATED ~%offset%~ ~%desc%~
             END
-            SAY_EVALUATED 0x54 ~%desc%~
-          END
+      END
 END
 
 ///////////////////////////////////////////////////////////////////////////
