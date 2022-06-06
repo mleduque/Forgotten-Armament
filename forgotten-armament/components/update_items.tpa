@@ -98,13 +98,15 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Hindo's Doom +3                                                       //
+// Hindo's Doom +3/+4                                                    //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF FILE_EXISTS_IN_GAME ~SW1H70.ITM~ BEGIN
+ACTION_IF FILE_EXISTS_IN_GAME ~SW1H70.ITM~ AND FILE_EXISTS_IN_GAME ~SW1H71.ITM~ BEGIN
 COPY ~forgotten-armament/eff/update_item/MO1H70.EFF~ ~override~
 
 OUTER_SPRINT oldkata1 @30600
 OUTER_SPRINT newkata1 @30601
+OUTER_SPRINT oldkata2 @30602
+OUTER_SPRINT newkata2 @30603
     
     COPY_EXISTING ~SW1H70.ITM~ ~override~
         LPF ADD_ITEM_EFFECT INT_VAR opcode = 177 type = 1 target = 2 parameter1 = 4 parameter2 = 3 timing = 1 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~mo1h70~ END
@@ -114,6 +116,21 @@ OUTER_SPRINT newkata1 @30601
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldkata1%~ ~%newkata1%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+
+    COPY_EXISTING ~SW1H71.ITM~ ~override~
+        LPF ADD_ITEM_EFFECT INT_VAR opcode = 177 type = 1 target = 2 parameter1 = 4 parameter2 = 3 timing = 1 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~mo1h70~ END
+        LPF ADD_ITEM_EFFECT INT_VAR opcode = 177 type = 1 target = 2 parameter1 = 4 parameter2 = 3 timing = 1 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~die~ END
+        LPF ADD_ITEM_EFFECT INT_VAR opcode = 177 type = 1 target = 2 parameter1 = 4 parameter2 = 3 timing = 1 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~mesdie~ END
+
+        READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldkata1%~ ~%newkata1%~
+              REPLACE_TEXTUALLY ~%oldkata2%~ ~%newkata2%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
