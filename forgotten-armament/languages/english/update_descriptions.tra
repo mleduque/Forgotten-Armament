@@ -74,6 +74,10 @@ Damage Type: Slashing~
 Combat abilities:
 – Undead must save vs. Death at -4 or be utterly destroyed~
 
+@30604 = ~ (slashing)~
+@30605 = ~, 2d10+8 vs. undead
+Damage Type: Slashing~
+
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
