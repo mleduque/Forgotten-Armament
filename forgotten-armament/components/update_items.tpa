@@ -256,6 +256,26 @@ OUTER_SPRINT newmace3 @30805
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Krotan's Skullcrusher                                                 //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BLUN11.ITM~ BEGIN
+OUTER_SPRINT oldmace4 @30806
+OUTER_SPRINT newmace4 @30807
+
+    COPY_EXISTING ~BLUN11.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 301 target = 1 parameter1 = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldmace4%~ ~%newmace4%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
