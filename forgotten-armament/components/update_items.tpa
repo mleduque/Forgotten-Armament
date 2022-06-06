@@ -98,6 +98,28 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
+// Crimson Dawn                                                          //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BDSW1H01.ITM~ BEGIN
+
+OUTER_SPRINT oldkata4 @30606
+OUTER_SPRINT newkata4 @30607
+
+    COPY_EXISTING ~BDSW1H01.ITM~ ~override~
+      WRITE_LONG 0x60 3
+      LPF ALTER_ITEM_HEADER INT_VAR header_type=1 thac0_bonus = 3 damage_bonus = 3 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldkata4%~ ~%newkata4%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 // Hindo's Doom +3                                                       //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H70.ITM~ BEGIN
