@@ -101,7 +101,6 @@ END
 // Crimson Dawn                                                          //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~BDSW1H01.ITM~ BEGIN
-
 OUTER_SPRINT oldkata4 @30606
 OUTER_SPRINT newkata4 @30607
 
@@ -126,7 +125,6 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H70.ITM~ BEGIN
 COPY ~forgotten-armament/eff/update_item/MO1H70.EFF~ ~override~
-
 OUTER_SPRINT oldkata1 @30600
 OUTER_SPRINT newkata1 @30601
     
@@ -148,7 +146,6 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H71.ITM~ BEGIN
 COPY ~forgotten-armament/eff/update_item/MO1H71.EFF~ ~override~
-
 OUTER_SPRINT oldkata2 @30602
 OUTER_SPRINT newkata2 @30603
 OUTER_SPRINT oldkata3 @30604
@@ -180,7 +177,6 @@ END
 // Blackrazor                                                            //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~MISCBC.ITM~ BEGIN
-
 OUTER_SPRINT oldlong1 @30700
 OUTER_SPRINT newlong1 @30701
 
@@ -204,7 +200,6 @@ END
 // Daystar                                                               //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H31.ITM~ BEGIN
-
 OUTER_SPRINT oldlong2 @30702
 OUTER_SPRINT newlong2 @30703
 
