@@ -201,6 +201,30 @@ OUTER_SPRINT newlong1 @30701
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Daystar                                                               //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW1H31.ITM~ BEGIN
+
+OUTER_SPRINT oldlong2 @30702
+OUTER_SPRINT newlong2 @30703
+
+    COPY_EXISTING ~SW1H31.ITM~ ~override~
+      WRITE_LONG 0x60 3
+      LPF ALTER_ITEM_HEADER INT_VAR header_type=1 thac0_bonus = 3 damage_bonus = 3 END
+
+      PATCH_FOR_EACH offset IN 0xc 0x54 BEGIN
+        READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~%oldlong2%~ ~%newlong2%~
+              END
+              SAY_EVALUATED ~%offset%~ ~%desc%~
+            END
+      END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
