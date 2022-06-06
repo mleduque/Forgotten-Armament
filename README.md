@@ -8,7 +8,7 @@
 
 **Author**: [morpheus562](https://www.gibberlings3.net/profile/11591-morpheus562/)
 
-**On the Web**: [Discussion Topic](https://www.gibberlings3.net/forums/topic/33923-forgotten-armament-beta/)
+**On the Web**: [Home Page](https://www.gibberlings3.net/mods/items/forgotten_armament/) and [Discussion Topic](https://www.gibberlings3.net/forums/topic/33923-forgotten-armament-beta/)
 
 ## Introduction
 
