@@ -413,6 +413,10 @@ OUTER_SPRINT newscimi4 @31207
     COPY_EXISTING ~SW1H69.ITM~ ~override~
       LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 142 check_headers = 1 parameter2 = 152 duration = 6 END
       LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 54 check_headers = 1 new_opcode = 301 parameter1 = 20 duration = 6 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 215 check_headers = 1 target = 2 STR_VAR resource = ~sppowatk~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 301 opcode = 282 parameter2 = 3 END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 142 opcode = 174 timing = 1 duration = 0 STR_VAR resource = ~eff_p82~ END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 142 opcode = 174 timing = 4 duration = 12 STR_VAR resource = ~eff_e01~ END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
