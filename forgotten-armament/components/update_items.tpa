@@ -287,9 +287,30 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Storm Star                                                            //
+//                                                                       //
+// +2d6 electrical damage                                                //
+// 10% chance of chain lightning                                         //
 ///////////////////////////////////////////////////////////////////////////
-// +2d6 electrical damage
-// 10% chance of chain lightning
+ACTION_IF FILE_EXISTS_IN_GAME ~BLUN29.ITM~ BEGIN
+OUTER_SPRINT oldmace6 @30810
+OUTER_SPRINT newmace6 @30811
+OUTER_SPRINT oldmace7 @30812
+OUTER_SPRINT newmace7 @30813
+
+    COPY_EXISTING ~BLUN29.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 146 check_headers = 1 probability1 = 10 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 dicenumber = 2 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldmace6%~ ~%newmace6%~
+              REPLACE_TEXTUALLY ~%oldmace7%~ ~%newmace7%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
 
 ///////////////////////////////////////////////////////////////////////////
 // Skullcrusher                                                          //
