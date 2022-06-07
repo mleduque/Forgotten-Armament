@@ -67,6 +67,43 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
+// Flails                                                                //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Flail of Ages +5                                                      //
+// Remove Magic Resistance and Free Action                               //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BLUN30.ITM~ BEGIN
+OUTER_SPRINT oldflail1 @30400
+
+    COPY_EXISTING ~BLUN30.ITM~ ~override~
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 46 END
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 267 END
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 142 END
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 163 END
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 101 END
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 296 END
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 166 END
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 126 END
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 169 END
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 206 END
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 162 END
+        LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 240 END
+
+        READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldflail1%~ ~~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
 // Halberd                                                               //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -286,8 +323,7 @@ OUTER_SPRINT newmace4 @30807
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Storm Star                                                            //
-//                                                                       //
+// Storm Star +5                                                         //
 // +2d6 electrical damage                                                //
 // 10% chance of chain lightning                                         //
 ///////////////////////////////////////////////////////////////////////////
