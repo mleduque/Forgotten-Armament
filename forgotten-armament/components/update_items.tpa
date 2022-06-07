@@ -409,8 +409,8 @@ OUTER_SPRINT oldscimi3 @31204
 OUTER_SPRINT newscimi3 @31205
 
     COPY_EXISTING ~SW1H69.ITM~ ~override~
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 142 probability1 = 152 END
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 54 new_opcode = 301 parameter1 = 20 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 142 check_headers = 1 probability1 = 152 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 54 check_headers = 1 new_opcode = 301 parameter1 = 20 END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
