@@ -425,7 +425,7 @@ OUTER_SPRINT newscimi4 @31207
         READ_BYTE (0x38 * i1 + hf) pt //Attack type
         PATCH_IF pt = 3 BEGIN
           PATCH_PRINT ~Found Magic Header~
-          READ_ASCII (0x38 * i1 + hf + 0xe6) icon
+          READ_SHORT (0x38 * i1 + hf + 0xe6) icon
 
           PATCH_PRINT ~icon is set at %icon%~
           PATCH_IF ("%icon%" STRING_EQUAL_CASE "SPPR313B") BEGIN
