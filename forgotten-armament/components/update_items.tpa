@@ -418,7 +418,6 @@ OUTER_SPRINT newscimi4 @31207
       LPF CLONE_EFFECT INT_VAR match_opcode = 142 opcode = 174 timing = 1 duration = 0 STR_VAR resource = ~eff_p82~ END
       LPF CLONE_EFFECT INT_VAR match_opcode = 142 opcode = 174 timing = 4 duration = 12 STR_VAR resource = ~eff_e01~ END
 
-      // /*
       READ_LONG 0x64 hf //Extended header offset
       READ_SHORT 0x68 hc //Extended header count
       FOR (i1 = 0; i1 < hc; i1 += 1) BEGIN //Cycle through headers
@@ -430,7 +429,14 @@ OUTER_SPRINT newscimi4 @31207
           END
         END
       END
-      // */
+
+      ACTION_GET_STRREF ~70621~ pierce_strike
+
+      OUTER_PATCH_SAVE pierce_strike ~%pierce_strike%~ BEGIN
+        REPLACE_TEXTUALLY ~%oldscimi2%~ ~%newscimi2%~
+      END
+
+      STRING_SET_EVALUATE ~70621~ ~%pierce_strike%~
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
