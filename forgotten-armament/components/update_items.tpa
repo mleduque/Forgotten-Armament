@@ -407,10 +407,12 @@ OUTER_SPRINT oldscimi2 @31202
 OUTER_SPRINT newscimi2 @31203
 OUTER_SPRINT oldscimi3 @31204
 OUTER_SPRINT newscimi3 @31205
+OUTER_SPRINT oldscimi4 @31206
+OUTER_SPRINT newscimi4 @31207
 
     COPY_EXISTING ~SW1H69.ITM~ ~override~
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 142 check_headers = 1 parameter2 = 152 END
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 54 check_headers = 1 new_opcode = 301 parameter1 = 20 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 142 check_headers = 1 parameter2 = 152 duration = 6 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 54 check_headers = 1 new_opcode = 301 parameter1 = 20 duration = 6 END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
@@ -418,6 +420,7 @@ OUTER_SPRINT newscimi3 @31205
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldscimi2%~ ~%newscimi2%~
               REPLACE_TEXTUALLY ~%oldscimi3%~ ~%newscimi3%~
+              REPLACE_TEXTUALLY ~%oldscimi4%~ ~%newscimi4%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
@@ -475,3 +478,5 @@ END
 // Dorn 2h make vorpal
 // Silver Sword look at legacy stuff
 // Carsomy +20% magic resist
+// Usuno no oomph
+// water's edge no oomph

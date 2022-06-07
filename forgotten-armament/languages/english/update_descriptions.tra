@@ -151,6 +151,9 @@ Combat abilities:
 @31204 = ~\+10 THAC0 bonus~
 @31205 = ~Every attack roll made while the ability is active is a natural 20, a critical hit.~
 
+@31206 = ~3 rounds~
+@31207 = ~1 round~
+
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
