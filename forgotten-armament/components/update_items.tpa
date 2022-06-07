@@ -426,9 +426,9 @@ OUTER_SPRINT newscimi4 @31207
         PATCH_IF pt = 3 BEGIN
           READ_LONG 0xe6 icon
 
-          PATCH_IF ("%icon%" STRING_EQUAL_CASE "SPPR313B") BEGIN
-            //WRITE_ASCII 0xe6 ~spcl905b~ //Use icon 3
-            WRITE_LONG 0xe6 ~spcl905b~
+          PATCH_IF ("%icon%" STRING_EQUAL_CASE "SPPR313B.BAM") BEGIN
+            WRITE_ASCII 0xe6 ~spcl905b~ //Use icon 3
+            //WRITE_LONG 0xe6 ~spcl905b~
           END
         END
       END
