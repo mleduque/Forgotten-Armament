@@ -235,17 +235,27 @@ OUTER_SPRINT oldmace2 @30802
 OUTER_SPRINT newmace2 @30803
 OUTER_SPRINT oldmace3 @30804
 OUTER_SPRINT newmace3 @30805
+OUTER_SPRINT oldmace5 @30808
+OUTER_SPRINT newmace5 @30809
 
     COPY_EXISTING ~BLUN20.ITM~ ~override~
       WRITE_LONG 0x60 3
       LPF ALTER_ITEM_HEADER INT_VAR header_type=1 thac0_bonus = 3 damage_bonus = 3 END
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 49 target = 1 parameter1 = 2 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 0 savebonus = -2 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 54 savebonus = -2 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 142 savebonus = -2 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 139 savebonus = -2 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 141 savebonus = -2 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 174 savebonus = -2 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 40 savebonus = -2 END
 
       PATCH_FOR_EACH offset IN 0xc 0x54 BEGIN
         READ_LONG ~%offset%~ desc_strref
             PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
               READ_STRREF ~%offset%~ desc
               INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~%oldmace5%~ ~%newmace5%~
                 REPLACE_TEXTUALLY ~%oldmace1%~ ~%newmace1%~
                 REPLACE_TEXTUALLY ~%oldmace2%~ ~%newmace2%~
                 REPLACE_TEXTUALLY ~%oldmace3%~ ~%newmace3%~
@@ -276,6 +286,16 @@ OUTER_SPRINT newmace4 @30807
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Storm Star                                                            //
+///////////////////////////////////////////////////////////////////////////
+// +2d6 electrical damage
+// 10% chance of chain lightning
+
+///////////////////////////////////////////////////////////////////////////
+// Skullcrusher                                                          //
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
@@ -300,3 +320,7 @@ OUTER_SPRINT newyamato @31601
             SAY_EVALUATED 0x54 ~%desc%~
           END
 END
+
+// Dorn 2h make vorpal
+// Silver Sword look at legacy stuff
+// Carsomy +20% magic resist
