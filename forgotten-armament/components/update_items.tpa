@@ -242,13 +242,13 @@ OUTER_SPRINT newmace5 @30809
       WRITE_LONG 0x60 3
       LPF ALTER_ITEM_HEADER INT_VAR header_type=1 thac0_bonus = 3 damage_bonus = 3 END
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 49 target = 1 parameter1 = 2 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 0 savebonus = ~-2~ END
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 54 savebonus = ~-2~ END
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 142 savebonus = ~-2~ END
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 139 savebonus = ~-2~ END
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 141 savebonus = ~-2~ END
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 174 savebonus = ~-2~ END
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 40 savebonus = ~-2~ END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 0 check_headers = 1 savebonus = ~-2~ END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 54 check_headers = 1 savebonus = ~-2~ END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 142 check_headers = 1 savebonus = ~-2~ END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 139 check_headers = 1 savebonus = ~-2~ END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 141 check_headers = 1 savebonus = ~-2~ END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 174 check_headers = 1 savebonus = ~-2~ END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 40 check_headers = 1 savebonus = ~-2~ END
 
       PATCH_FOR_EACH offset IN 0xc 0x54 BEGIN
         READ_LONG ~%offset%~ desc_strref
