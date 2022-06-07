@@ -430,14 +430,6 @@ OUTER_SPRINT newscimi4 @31207
         END
       END
 
-      ACTION_GET_STRREF ~70621~ pierce_strike
-
-      OUTER_PATCH_SAVE pierce_strike ~%pierce_strike%~ BEGIN
-        REPLACE_TEXTUALLY ~%oldscimi2%~ ~%newscimi2%~
-      END
-
-      STRING_SET_EVALUATE ~70621~ ~%pierce_strike%~
-
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
             READ_STRREF 0x54 desc
@@ -448,6 +440,14 @@ OUTER_SPRINT newscimi4 @31207
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
+    
+    ACTION_GET_STRREF ~70621~ pierce_strike
+
+    OUTER_PATCH_SAVE pierce_strike ~%pierce_strike%~ BEGIN
+      REPLACE_TEXTUALLY ~%oldscimi2%~ ~%newscimi2%~
+    END
+
+    STRING_SET_EVALUATE ~70621~ ~%pierce_strike%~
 END
 
 ///////////////////////////////////////////////////////////////////////////
