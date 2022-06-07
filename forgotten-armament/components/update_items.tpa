@@ -378,6 +378,7 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Rashad Talon                                                          //
+// +1d6 Slashing on Crit                                                 //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H23.ITM~ BEGIN
 COPY ~forgotten-armament/eff/update_item/MO1H23.EFF~ ~override~
@@ -385,13 +386,38 @@ OUTER_SPRINT oldscimi1 @31200
 OUTER_SPRINT newscimi1 @31201
 
     COPY_EXISTING ~SW1H23.ITM~ ~override~
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter1 = 1 parameter2 = 2 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~mo1h23~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 341 target = 1 parameter1 = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~mo1h23~ END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldscimi1%~ ~%newscimi1%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Spectral Brand +5                                                     //
+// Replace Piercing Strike with Critical Strike                          //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW1H69.ITM~ BEGIN
+OUTER_SPRINT oldscimi2 @31202
+OUTER_SPRINT newscimi2 @31203
+OUTER_SPRINT oldscimi3 @31204
+OUTER_SPRINT newscimi3 @31205
+
+    COPY_EXISTING ~SW1H69.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 142 probability1 = 152 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 54 new_opcode = 301 parameter1 = 20 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldscimi2%~ ~%newscimi2%~
+              REPLACE_TEXTUALLY ~%oldscimi3%~ ~%newscimi3%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END

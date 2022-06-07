@@ -145,6 +145,12 @@ Equipped abilities:
 Combat abilities:
 – Deals an extra 1d6 points of slashing damage on a critical hit~
 
+@31202 = ~Armor Piercing~
+@31203 = ~Critical~
+
+@31204 = ~\+10 THAC0 bonus~
+@31205 = ~Every attack roll made while the ability is active is a natural 20, a critical hit.~
+
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
