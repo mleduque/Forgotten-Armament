@@ -50,7 +50,7 @@ Equipped abilities:
 // Flails                                                                //
 ///////////////////////////////////////////////////////////////////////////
 @30400 = ~Equipped abilities:
-– Magic Resistance: +5%
+– Magic Resistance: \+5%
 – Free Action
 ~
 @30401 = ~~
