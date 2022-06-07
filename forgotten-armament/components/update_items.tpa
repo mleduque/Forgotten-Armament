@@ -424,11 +424,11 @@ OUTER_SPRINT newscimi4 @31207
       FOR (i1 = 0; i1 < hc; i1 += 1) BEGIN //Cycle through headers
         READ_BYTE (0x38 * i1 + hf) pt //Attack type
         PATCH_IF pt = 3 BEGIN
-          READ_ASCII 0xe6 icon
+          READ_SHORT (0x38 * i1 + hf + 0xe6) icon
 
           PATCH_IF ("%icon%" STRING_EQUAL_CASE "SPPR313B.BAM") BEGIN
-            WRITE_ASCII 0xe6 ~spcl905b~ //Use icon 3
-            //WRITE_SHORT 0xe6 ~spcl905b~
+            //WRITE_ASCII 0xe6 ~spcl905b~ //Use icon 3
+            WRITE_SHORT (0x38 * i1 + hf + 0xe6) ~spcl905b.bam~
           END
         END
       END
