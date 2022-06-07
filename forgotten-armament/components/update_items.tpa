@@ -418,6 +418,22 @@ OUTER_SPRINT newscimi4 @31207
       LPF CLONE_EFFECT INT_VAR match_opcode = 142 opcode = 174 timing = 1 duration = 0 STR_VAR resource = ~eff_p82~ END
       LPF CLONE_EFFECT INT_VAR match_opcode = 142 opcode = 174 timing = 4 duration = 12 STR_VAR resource = ~eff_e01~ END
 
+      // /*
+      READ_LONG 0x64 hf //Extended header offset
+      READ_SHORT 0x68 hc //Extended header count
+      FOR (i1 = 0; i1 < hc; i1 += 1) BEGIN //Cycle through headers
+        READ_BYTE (0x38 * i1 + hf) pt //Attack type
+        PATCH_IF pt = 3 BEGIN
+          READ_LONG 0xe6 icon
+
+          PATCH_IF ("%kit_label%" STRING_EQUAL_CASE "KENSAI") BEGIN
+            //WRITE_ASCII 0xe6 ~spcl905b~ //Use icon 3
+            WRITE_LONG 0xe6 ~spcl905b~
+          END
+        END
+      END
+      // */
+
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
             READ_STRREF 0x54 desc
