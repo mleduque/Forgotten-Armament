@@ -618,6 +618,28 @@ OUTER_SPRINT newtwohand1 @31501
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Ir'revrykal                                                           //
+// Remove Dispel on Hit and Immunity to Charm                            //
+// Add vorpal strike and healing per hit                                 //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~OHREAVER.ITM~ BEGIN
+OUTER_SPRINT oldtwohand2 @31502
+OUTER_SPRINT newtwohand2 @31503
+
+    COPY_EXISTING ~OHREAVER.ITM~ ~override~
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 1 parameter1 = 5 parameter2 = 4194304 timing = 1 resist_dispel = 0 probability1 = 100 special = 0 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldtwohand2%~ ~%newtwohand2%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
@@ -668,7 +690,6 @@ END
 
 // Dorn 2h make vorpal
 // Silver Sword look at legacy stuff
-// Carsomy +xx% magic resist
 // Usuno no oomph
 // Dakkon Zerth 5% chance per hit of restoring a spell
 // Bracers: Mintassan's Miraculous Bracers, Red Guard, Clasps of the Devoted, Bracers of the Inner Planes

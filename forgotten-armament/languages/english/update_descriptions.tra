@@ -197,6 +197,14 @@ Equipped abilities:
 @31500 = ~50%~
 @31501 = ~+50%~
 
+@31502 = ~Equipped abilities:
+– Immunity to charm 
+
+Combat abilities:
+– 50% chance to Dispel Magic on each hit~
+@31503 = ~Combat abilities:
+– Each hit drains 5 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.~
+
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
