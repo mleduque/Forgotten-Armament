@@ -14,6 +14,7 @@
 
 ///////////////////////////////////////////////////////////////////////////
 // Mauletar +2                                                           //
+// Fear Immunity                                                         //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~AX1H03.ITM~ BEGIN
     COPY ~forgotten-armament/itm/update/AX1H03.ITM~ ~override~
@@ -110,6 +111,7 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Suryris Blade                                                         //
+// AC -1                                                                 //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~HALB03.ITM~ BEGIN
 OUTER_SPRINT oldhalb1 @30500
@@ -136,6 +138,7 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Crimson Dawn                                                          //
+// +3 item                                                               //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~BDSW1H01.ITM~ BEGIN
 OUTER_SPRINT oldkata4 @30606
@@ -159,6 +162,7 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Hindo's Doom +3                                                       //
+// 2d10+6 vs undead                                                      //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H70.ITM~ BEGIN
 COPY ~forgotten-armament/eff/update_item/MO1H70.EFF~ ~override~
@@ -180,6 +184,7 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Hindo's Doom +4                                                       //
+// 2d10+8 vs undead, save vs -4 or be destroyed                          //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H71.ITM~ BEGIN
 COPY ~forgotten-armament/eff/update_item/MO1H71.EFF~ ~override~
@@ -212,6 +217,7 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Blackrazor                                                            //
+// +4 weapon                                                             //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~MISCBC.ITM~ BEGIN
 OUTER_SPRINT oldlong1 @30700
@@ -235,6 +241,7 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Daystar                                                               //
+// +3 weapon                                                             //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H31.ITM~ BEGIN
 OUTER_SPRINT oldlong2 @30702
@@ -264,6 +271,7 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Ardulia's Fall                                                        //
+// Better save vs hit, +3 weapon, +2 wisdom                              //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~BLUN20.ITM~ BEGIN
 OUTER_SPRINT oldmace1 @30800
@@ -451,6 +459,27 @@ OUTER_SPRINT newscimi4 @31207
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Water's Edge +3                                                       //
+// +5% crit chance with this weapon                                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW1H52.ITM~ BEGIN
+OUTER_SPRINT oldscimi5 @31208
+OUTER_SPRINT newscimi5 @31209
+
+    COPY_EXISTING ~SW1H52.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 301 target = 1 parameter1 = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldscimi5%~ ~%newscimi5%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
@@ -504,3 +533,4 @@ END
 // Carsomy +20% magic resist
 // Usuno no oomph
 // water's edge no oomph
+// Bracers: Mintassan's Miraculous Bracers, Red Guard, Clasps of the Devoted, Bracers of the Inner Planes
