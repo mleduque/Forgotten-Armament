@@ -53,7 +53,7 @@
 
 #### Ardulia's Fall
 - Save vs. hit -3 (previously +2 save vs hit)
-- +3 weapon
+- +3 weapon (previously +1 weapon)
 - +2 Wisdom
 
 #### Krotan's Skullcrusher
