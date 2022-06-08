@@ -604,7 +604,7 @@ OUTER_SPRINT newtwohand1 @31501
 
     ACTION_FOR_EACH carsomyr IN 10 19 BEGIN
       COPY_EXISTING ~SW2H%carsomyr%.ITM~ ~override~ 
-        LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 166 parameter2 = 0 END
+        LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 166 parameter2 = 0 END
 
         READ_LONG 0x54 desc_strref
             PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
