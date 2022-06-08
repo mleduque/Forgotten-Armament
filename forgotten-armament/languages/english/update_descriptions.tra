@@ -169,6 +169,15 @@ Equipped abilities:
 Combat abilities:
 – Inflicts 2 points of bleeding damage per hit (one point per round)~
 
+@31302 = ~STATISTICS:~
+@31303 = ~STATISTICS:
+
+Equipped abilities: 
+– Non-detectable by magical means such as Detect Invisibility and scrying~
+
+@31304 = ~15% chance with every hit to drain 1 level from opponent~
+@31305 = ~5% chance with every hit to activate the Assassination ability for one round~
+
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //
 ///////////////////////////////////////////////////////////////////////////

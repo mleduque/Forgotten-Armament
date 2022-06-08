@@ -507,6 +507,53 @@ OUTER_SPRINT newshort1 @31301
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Short Sword of Mask                                                   //
+// Non-Detection, Remove Level Drain, 5% chance of proccing assassination//
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW1H58.ITM~ AND FILE_EXISTS_IN_GAME ~SW1H59.ITM~ BEGIN
+OUTER_SPRINT oldshort2 @31302
+OUTER_SPRINT newshort2 @31303
+OUTER_SPRINT oldshort3 @31304
+OUTER_SPRINT newshort3 @31305
+
+    COPY_EXISTING ~SW1H58.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 69 target = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 31 timing = 2 resist_dispel = 0 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldshort2%~ ~%newshort2%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+
+    COPY_EXISTING ~SW1H59.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 69 target = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 31 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF DELETE_EFFECT INT_VAR header_type = 1 match_opcode = 139 END
+      LPF DELETE_EFFECT INT_VAR header_type = 1 match_opcode = 216 END
+      LPF DELETE_EFFECT INT_VAR header_type = 1 match_opcode = 141 END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 303 type = 1 target = 1 parameter2 = 1 timing = 0 resist_dispel = 2 duration = 6 probability1 = 100 probability2 = 95 END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 142 type = 1 target = 1 parameter2 = 156 timing = 0 resist_dispel = 2 duration = 6 probability1 = 100 probability2 = 95 END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 282 type = 1 target = 1 parameter1 = 4 parameter2 = 3 timing = 0 resist_dispel = 2 duration = 6 probability1 = 100 probability2 = 95 END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 174 type = 1 target = 1 timing = 4 resist_dispel = 2 duration = 6 probability1 = 100 probability2 = 95 STR_VAR resource = ~eff_e01~ END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 174 type = 1 target = 1 timing = 1 resist_dispel = 2 duration = 0 probability1 = 100 probability2 = 95 STR_VAR resource = ~wwattack~ END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 215 type = 1 target = 2 parameter2 = 0 timing = 1 resist_dispel = 0 duration = 0 probability1 = 100 probability2 = 95 STR_VAR resource = ~spgrwhrl~ END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldshort2%~ ~%newshort2%~
+              REPLACE_TEXTUALLY ~%oldshort3%~ ~%newshort3%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
