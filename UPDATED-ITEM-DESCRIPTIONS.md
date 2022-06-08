@@ -88,6 +88,13 @@
 #### Cutthroat +4
 - Inflicts 2 points of bleeding damage per hit (one point per round)
 
+#### Short Sword of Mask +4
+- Non-detectable by magical means such as Detect Invisibility and scrying
+
+#### Short Sword of Mask +5
+– 5% chance with every hit to activate the Assassination ability for one round (replaces level drain)
+– Non-detectable by magical means such as Detect Invisibility and scrying
+
 ### Spears
 
 ### Two-Handed Swords
