@@ -629,7 +629,7 @@ OUTER_SPRINT vorpal1     @31504
 
     COPY_EXISTING ~OHREAVER.ITM~ ~override~
       LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 1 parameter1 = 5 parameter2 = 4194304 timing = 1 resist_dispel = 0 probability1 = 100 special = 1 END
-      LPF ADD_ITEM_EFFECT INT_VAR opcode = 139 type = 1 target = 2 timing = 9 resist_dispel = 2 probability1 = 10 savingthrow = 3 savebonus = ~-4~ STR_VAR parameter1 = "%vorpal1%" END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 139 type = 1 target = 2 parameter1 = ~%vorpal1%~ timing = 9 resist_dispel = 2 probability1 = 10 savingthrow = 3 savebonus = ~-4~ END
       LPF ADD_ITEM_EFFECT INT_VAR opcode = 13 type = 1 target = 2 parameter1 = 0 parameter2 = 3 timing = 1 resist_dispel = 2 probability1 = 10 savingthrow = 3 savebonus = ~-4~ END
       LPF ADD_ITEM_EFFECT INT_VAR opcode = 141 type = 1 target = 2 parameter1 = 0 parameter2 = 39 timing = 1 resist_dispel = 2 probability1 = 10 savingthrow = 3 savebonus = ~-4~ END
 
