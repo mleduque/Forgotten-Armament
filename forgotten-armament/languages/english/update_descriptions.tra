@@ -205,6 +205,7 @@ Combat abilities:
 @31503 = ~Combat abilities:
 – Each hit drains 5 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
 – 10% chance of decapitating opponent with each successful attack (Save vs. Death at -4 negates)~
+@31504 = ~Vorpal Hit~ 
 
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //
