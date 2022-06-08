@@ -95,6 +95,9 @@
 – 5% chance with every hit to activate the Assassination ability for one round (replaces level drain)
 – Non-detectable by magical means such as Detect Invisibility and scrying
 
+#### The Shadow's Blade +3 
+- Luck +2
+
 ### Spears
 
 ### Two-Handed Swords
