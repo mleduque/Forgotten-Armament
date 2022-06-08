@@ -554,6 +554,27 @@ OUTER_SPRINT newshort3 @31305
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// The Shadow's Blade +3                                                 //
+// Luck +2                                                               //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW1H10.ITM~ BEGIN
+OUTER_SPRINT oldshort4 @31306
+OUTER_SPRINT newshort4 @31307
+
+    COPY_EXISTING ~SW1H10.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 22 target = 1 parameter1 = 2 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldshort4%~ ~%newshort4%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
