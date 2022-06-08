@@ -627,7 +627,7 @@ OUTER_SPRINT oldtwohand2 @31502
 OUTER_SPRINT newtwohand2 @31503
 
     COPY_EXISTING ~OHREAVER.ITM~ ~override~
-      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 1 parameter1 = 5 parameter2 = 4194304 timing = 1 resist_dispel = 0 probability1 = 100 special = 0 END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 1 parameter1 = 5 parameter2 = 4194304 timing = 1 resist_dispel = 0 probability1 = 100 special = 1 END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
