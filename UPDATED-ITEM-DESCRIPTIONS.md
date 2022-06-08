@@ -103,6 +103,14 @@
 
 ### Two-Handed Swords
 
+#### Carsomyr +5/+6
+- Increments Magic Resistance by 50 instead of sets
+
+#### Ir'revrykal
+- Remove Dispel on Hit and Immunity to Charm
+- Each hit drains 5 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
+- 10% chance of decapitating opponent with each successful attack (Save vs. Death at -4 negates)
+
 ### Wakizashis
 
 #### Yamato +4
