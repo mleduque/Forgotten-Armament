@@ -96,7 +96,8 @@
 - Non-detectable by magical means such as Detect Invisibility and scrying
 
 #### The Shadow's Blade +3 
-- Luck +2
+- Luck +1
+- Backstab Multiplier: +1 (Thieves only)
 
 ### Spears
 
