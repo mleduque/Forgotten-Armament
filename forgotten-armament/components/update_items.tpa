@@ -40,7 +40,7 @@ OUTER_SPRINT oldaxe1 @30002
 OUTER_SPRINT newaxe1 @30003
 
     COPY_EXISTING ~AX1H13.ITM~ ~override~
-      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 12 parameter1 = 2 END
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 parameter1 = 2 END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
