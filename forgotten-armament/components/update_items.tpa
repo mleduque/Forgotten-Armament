@@ -75,6 +75,54 @@ OUTER_SPRINT newclub2 @30203
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Club of Detonation +3                                                 //
+// +20% Fire Resistance                                                  //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BLUN26.ITM~ BEGIN
+OUTER_SPRINT oldclub3 @30204
+OUTER_SPRINT newclub3 @30205
+    
+    COPY_EXISTING ~BLUN26.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 30 target = 1 parameter1 = 20 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 16 timing = 2 resist_dispel = 0 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldclub3%~ ~%newclub3%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END 
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Club of Detonation +5                                                 //
+// +50% Fire Resistance, 10% chance per hit for fireball (previously 5%) //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BLUN27.ITM~ BEGIN
+OUTER_SPRINT oldclub4 @30206
+OUTER_SPRINT newclub4 @30207
+OUTER_SPRINT oldclub5 @30208
+OUTER_SPRINT newclub5 @30209
+    
+    COPY_EXISTING ~BLUN27.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 30 target = 1 parameter1 = 50 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 16 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 146 probability2 = 89 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldclub4%~ ~%newclub4%~
+              REPLACE_TEXTUALLY ~%oldclub5%~ ~%newclub5%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END 
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Dagger                                                                //
 ///////////////////////////////////////////////////////////////////////////
