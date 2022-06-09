@@ -110,7 +110,7 @@ OUTER_SPRINT newclub5 @30209
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 30 target = 1 parameter1 = 50 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 16 timing = 2 resist_dispel = 0 probability1 = 100 END
       LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 146 probability2 = 90 END
-      //LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 match_probability1 = 30 probability1 = 29 END
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 match_probability1 = 30 probability1 = 29 END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
