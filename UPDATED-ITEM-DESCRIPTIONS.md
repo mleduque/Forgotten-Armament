@@ -8,7 +8,7 @@
 - No alignment restriction to use
 
 #### Frostreaver +3
-- +2 cold and acid damage each (previously +1 each)
+- +2 cold and +2 acid damage (previously +1 each)
 
 #### Mauletar +2
 - Fear Immunity
@@ -52,7 +52,7 @@
 
 #### Duskblade
 - +3 weapon (previously +2 weapon)
-- 1d4 cold damage per hit (previously 2 cold damage)
+- +1d6 cold damage per hit (previously 2 cold damage)
 
 #### Dragon's Breath +4 
 - 1d10 +4 damage (previously just 1d10)
@@ -78,7 +78,7 @@
 ### Long Swords
 
 #### Angurvadal +5
-- 2d4+1 fire damage (previously 1d4+1)
+- +2d4+1 fire damage (previously 1d4+1)
 
 #### Blackrazor
 - +4 weapon (previously +3 weapon)
@@ -100,7 +100,7 @@
 - +10% crit chance with this weapon
 
 #### Storm Star +5
-- +2d6 electrical damage per hit (previously +1d6 electical)
+- +2d4+1 electrical damage per hit (previously +1d6 electical)
 - 10% chance of chain lightning (previously 5% chance)
 
 ### Morning Stars
