@@ -17,6 +17,13 @@
 #### Bone Club
 - +5 enchantment vs Undead (previously +3) w/ +10 extra damage to Undead
 
+#### Club of Detonation +3
+- Fire Resistance: +20%
+
+#### Club of Detonation +5
+- Fire Resistance: +50%
+- 10% chance per hit for fireball (previously 4% in the code)
+
 ### Daggers
 
 #### Dagger of CHARNAME
