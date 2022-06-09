@@ -120,6 +120,9 @@
 #### Rashad's Talon
 - +1d6 Slashing on Crit
 
+#### Spectral Brand +4
+- +1d8 cold damage (previously 1d4)
+
 #### Spectral Brand +5
 - Replace Piercing Strike with Critical Strike HLA
 - +2d4+1 cold damage (previously 1d6)
