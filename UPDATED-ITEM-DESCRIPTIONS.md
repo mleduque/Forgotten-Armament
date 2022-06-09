@@ -18,6 +18,9 @@
 
 ### Bastard Swords
 
+#### Blade of Searing +3
+- +1d6 fire damage (previously +1)
+
 ### Clubs
 
 #### Blackblood +3

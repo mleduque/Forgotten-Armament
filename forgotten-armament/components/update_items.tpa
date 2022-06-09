@@ -101,6 +101,21 @@ OUTER_SPRINT newbast1 @30101
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Kondar                                                                //
+//                                                                       //
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Purifier +4                                                           //
+//                                                                       //
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Purifier +5                                                           //
+//                                                                       //
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Club                                                                  //
 ///////////////////////////////////////////////////////////////////////////
@@ -729,6 +744,9 @@ OUTER_SPRINT oldscimi3 @31204
 OUTER_SPRINT newscimi3 @31205
 OUTER_SPRINT oldscimi4 @31206
 OUTER_SPRINT newscimi4 @31207
+OUTER_SPRINT oldscimi6 @31210
+OUTER_SPRINT newscimi6 @31211
+
 
     COPY_EXISTING ~SW1H69.ITM~ ~override~
       LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 142 check_headers = 1 parameter2 = 152 duration = 6 END
@@ -737,6 +755,7 @@ OUTER_SPRINT newscimi4 @31207
       LPF CLONE_EFFECT INT_VAR match_opcode = 301 opcode = 282 parameter2 = 3 END
       LPF CLONE_EFFECT INT_VAR match_opcode = 142 opcode = 174 timing = 1 duration = 0 STR_VAR resource = ~eff_p82~ END
       LPF CLONE_EFFECT INT_VAR match_opcode = 142 opcode = 174 timing = 4 duration = 12 STR_VAR resource = ~eff_e01~ END
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 parameter1 = 1 dicenumber = 2 dicesize = 4 END
 
       READ_LONG 0x64 hf //Extended header offset
       READ_SHORT 0x68 hc //Extended header count
@@ -757,6 +776,7 @@ OUTER_SPRINT newscimi4 @31207
               REPLACE_TEXTUALLY ~%oldscimi2%~ ~%newscimi2%~
               REPLACE_TEXTUALLY ~%oldscimi3%~ ~%newscimi3%~
               REPLACE_TEXTUALLY ~%oldscimi4%~ ~%newscimi4%~
+              REPLACE_TEXTUALLY ~%oldscimi6%~ ~%newscimi6%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
