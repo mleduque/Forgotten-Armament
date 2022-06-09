@@ -43,7 +43,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~BLUN23.ITM~ BEGIN
 COPY ~forgotten-armament/eff/update_item/MOBL231.EFF~ ~override~
-
+COPY ~forgotten-armament/eff/update_item/MOBL232.EFF~ ~override~
 OUTER_SPRINT oldclub1 @30200
 OUTER_SPRINT newclub1 @30201
 OUTER_SPRINT oldclub2 @30202
@@ -58,8 +58,8 @@ OUTER_SPRINT newclub2 @30203
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-              REPLACE_TEXTUALLY ~%oldclub1%~ ~newclub1~
-              REPLACE_TEXTUALLY ~%oldclub2%~ ~newclub2~
+              REPLACE_TEXTUALLY ~%oldclub1%~ ~%newclub1%~
+              REPLACE_TEXTUALLY ~%oldclub2%~ ~%newclub2%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
@@ -68,7 +68,7 @@ OUTER_SPRINT newclub2 @30203
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
             READ_STRREF 0xc desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-              REPLACE_TEXTUALLY ~%oldclub2%~ ~newclub2~
+              REPLACE_TEXTUALLY ~%oldclub2%~ ~%newclub2%~
             END
             SAY_EVALUATED 0xc ~%desc%~
           END
