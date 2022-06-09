@@ -32,9 +32,32 @@ ACTION_IF FILE_EXISTS_IN_GAME ~AX1H10.ITM~ BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Frostreaver +3                                                        //
+// +2 cold and acid damage (previously +1)                               //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~AX1H13.ITM~ BEGIN
+OUTER_SPRINT oldaxe1 @30002
+OUTER_SPRINT newaxe1 @30003
+
+    COPY_EXISTING ~AX1H13.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 12 parameter1 = 2 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldaxe1%~ ~%newaxe1%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 // Stonefire +3                                                          //
 // +1d6 fire damage (previously +2)                                      //
 ///////////////////////////////////////////////////////////////////////////
+
+
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
@@ -227,7 +250,6 @@ OUTER_SPRINT oldhalb1 @30500
 OUTER_SPRINT newhalb1 @30501
 
     COPY_EXISTING ~HALB03.ITM~ ~override~
-        //LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 0 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
         LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode = 39 target = 2 parameter2 = 1 timing = 0 resist_dispel = 2 duration = 3 probability1 = 24 savingthrow = 4 special = 14 END
 
         READ_LONG 0x54 desc_strref
