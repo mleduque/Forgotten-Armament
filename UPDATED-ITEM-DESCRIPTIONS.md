@@ -77,6 +77,9 @@
 
 ### Long Swords
 
+#### Angurvadal +4
+- +1d8 fire damage (previously +1)
+
 #### Angurvadal +5
 - +2d4+1 fire damage (previously 1d4+1)
 
