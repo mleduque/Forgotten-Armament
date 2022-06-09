@@ -13,9 +13,15 @@
 #### Mauletar +2
 - Fear Immunity
 
+#### Stonefire +3
+- +1d6 fire damage (previously +2)
+
 ### Bastard Swords
 
 ### Clubs
+
+#### Blackblood +3
+- +1d6 acid damage (previously +3)
 
 #### Bone Club
 - +5 enchantment vs Undead (previously +3) w/ +10 extra damage to Undead
