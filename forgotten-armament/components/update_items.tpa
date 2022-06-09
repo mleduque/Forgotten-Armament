@@ -307,7 +307,7 @@ END
 // Remove Magic Resistance and Free Action                               //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~BLUN30.ITM~ BEGIN
-OUTER_SPRINT oldflail1 @30400
+OUTER_SPRINT oldflail01 @30400
 
     COPY_EXISTING ~BLUN30.ITM~ ~override~
         LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 46 END
@@ -327,7 +327,7 @@ OUTER_SPRINT oldflail1 @30400
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-              REPLACE_TEXTUALLY ~%oldflail1%~ ~~
+              REPLACE_TEXTUALLY ~%oldflail01%~ ~~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END

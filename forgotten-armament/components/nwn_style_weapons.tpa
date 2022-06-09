@@ -116,6 +116,9 @@ OUTER_SPRINT bowcrit     @21000  // 20/x2+1d6
 OUTER_SPRINT olddrtdmg   @21100  // 1d3
 OUTER_SPRINT newdrtdmg   @21101  // 1d4
 
+OUTER_SPRINT oldscimdmg   @21200  // _1d8
+OUTER_SPRINT newscimdmg   @21201  // _1d6
+
 
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
   READ_BYTE  0x31 prof
@@ -600,7 +603,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
         PATCH_IF (found_index1 > "-1") OR (found_index2 > "-1") BEGIN
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%scimcrit%~
-            REPLACE_TEXTUALLY ~%speardmgnew%~ ~%speardmgold%~
+            REPLACE_TEXTUALLY ~%oldscimdmg%~  ~%newscimdmg%~
             REPLACE_TEXTUALLY ~%olddmgtyp%~   ~%newdmgtyp%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
@@ -608,7 +611,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
           INNER_PATCH_SAVE desc ~%desc%~ BEGIN
             REPLACE_TEXTUALLY ~%oldpierc%~    ~~
             REPLACE_TEXTUALLY ~%oldpierc4%~   ~%oldweight%~
-            REPLACE_TEXTUALLY ~%speardmgnew%~ ~%speardmgold%~
+            REPLACE_TEXTUALLY ~%oldscimdmg%~  ~%newscimdmg%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%scimcrit%~
           END
@@ -618,7 +621,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
             REPLACE_TEXTUALLY ~%oldslash%~    ~~
             REPLACE_TEXTUALLY ~%oldslash1%~   ~%oldweight%~
             REPLACE_TEXTUALLY ~%oldslash4%~   ~%oldslash5%~
-            REPLACE_TEXTUALLY ~%speardmgnew%~ ~%speardmgold%~
+            REPLACE_TEXTUALLY ~%oldscimdmg%~  ~%newscimdmg%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newslash%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%scimcrit%~
           END
