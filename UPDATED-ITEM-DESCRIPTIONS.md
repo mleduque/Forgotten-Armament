@@ -4,11 +4,11 @@
 
 ### Battle Axes
 
-#### Mauletar +2
-- Fear Immunity
-
 #### Azuredge
 - No alignment restriction to use
+
+#### Mauletar +2
+- Fear Immunity
 
 ### Bastard Swords
 
@@ -38,6 +38,9 @@
 
 ### Halberds
 
+#### Dragon's Breath +4 
+- 1d10 +4 damage (previously just 1d10)
+
 #### Suryris Blade
 - AC -1 Bonus
 
@@ -55,14 +58,14 @@
 
 ### Long Swords
 
+#### Angurvadal +5
+- 2d4+1 fire damage (previously 1d4+1)
+
 #### Blackrazor
 - +4 weapon (previously +3 weapon)
 
 #### Daystar
 - +3 weapon (previously +2 weapon)
-
-#### Angurvadal +5
-- 2d4+1 fire damage (previously 1d4+1)
 
 ### Maces
 
@@ -74,12 +77,12 @@
 #### Krotan's Skullcrusher
 - +5% crit chance with this weapon
 
+#### Skullcrusher
+- +10% crit chance with this weapon
+
 #### Storm Star +5
 - +2d6 electrical damage per hit (previously +1d6 electical)
 - 10% chance of chain lightning (previously 5% chance)
-
-#### Skullcrusher
-- +10% crit chance with this weapon
 
 ### Morning Stars
 
@@ -131,11 +134,11 @@
 
 ### Wakizashis
 
-#### Yamato +4
-- +1 APR Bonus
-
 #### Kachiko's Wakizashi +3
 - Increase duration of drain from one round to turns 
+
+#### Yamato +4
+- +1 APR Bonus
 
 ### Warhammers
 
