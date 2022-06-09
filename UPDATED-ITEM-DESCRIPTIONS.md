@@ -46,7 +46,7 @@
 - 1d10 +4 damage (previously just 1d10)
 
 #### Suryris Blade
-- AC -1 Bonus
+- 25% chance of kocking down an opponent with each successful attack (Save vs. Death negates)
 
 #### Wave +4
 - 50% chance of draining the victim of water (previously 15%)

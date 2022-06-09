@@ -80,14 +80,14 @@ Equipped abilities:
 @30500 = ~STATISTICS:~
 @30501 = ~STATISTICS:
 
-Equipped abilities:
-– Armor Class: +1~
+Combat abilities:
+– 25% chance of kocking down an opponent with each successful attack (Save vs. Death negates)~
 
 @30502 = ~1d10~
 @30503 = ~1d10 +4~
 
 @30504 = ~\+2 points~
-@30505 = ~+1d4 points~
+@30505 = ~+1d6 points~
 
 @30506 = ~\+2~
 @30507 = ~+3~

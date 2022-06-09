@@ -32,6 +32,11 @@ ACTION_IF FILE_EXISTS_IN_GAME ~AX1H10.ITM~ BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Stonefire +3                                                          //
+// +1d6 fire damage (previously +2)                                      //
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Club                                                                  //
 ///////////////////////////////////////////////////////////////////////////
@@ -215,14 +220,15 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Suryris Blade                                                         //
-// AC -1                                                                 //
+// 25% chance of kocking down an opponent                                //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~HALB03.ITM~ BEGIN
 OUTER_SPRINT oldhalb1 @30500
 OUTER_SPRINT newhalb1 @30501
 
     COPY_EXISTING ~HALB03.ITM~ ~override~
-        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 0 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+        //LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 0 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+        LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode = 39 target = 2 parameter2 = 1 timing = 0 resist_dispel = 2 duration = 3 probability1 = 24 savingthrow = 4 special = 14 END
 
         READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
@@ -257,7 +263,7 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Duskblade                                                             //
-// +3 item (previously +2), +1d4 cold damage (previously +2)             //
+// +3 item (previously +2), +1d6 cold damage (previously +2)             //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~HALB08.ITM~ BEGIN
 OUTER_SPRINT oldhalb3 @30504
@@ -268,7 +274,7 @@ OUTER_SPRINT newhalb4 @30507
     COPY_EXISTING ~HALB08.ITM~ ~override~
       WRITE_LONG 0x60 3
       LPF ALTER_ITEM_HEADER INT_VAR header_type=1 thac0_bonus = 3 damage_bonus = 3 END
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 parameter1 = 0 dicenumber = 1 dicesize = 4 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 parameter1 = 0 dicenumber = 1 dicesize = 6 END
 
         PATCH_FOR_EACH offset IN 0xc 0x54 BEGIN
         READ_LONG ~%offset%~ desc_strref
@@ -292,7 +298,7 @@ OUTER_SPRINT oldhalb5 @30508
 OUTER_SPRINT newhalb5 @30509
 
     COPY_EXISTING ~HALB09.ITM~ ~override~
-        LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 probability1 = 50 END
+        LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 probability1 = 49 END
 
         READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
@@ -538,7 +544,7 @@ OUTER_SPRINT oldmace7 @30812
 OUTER_SPRINT newmace7 @30813
 
     COPY_EXISTING ~BLUN29.ITM~ ~override~
-      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 146 check_headers = 1 probability1 = 10 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 146 check_headers = 1 probability1 = 9 END
       LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 dicenumber = 2 END
 
       READ_LONG 0x54 desc_strref
