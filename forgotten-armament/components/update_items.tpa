@@ -40,6 +40,38 @@ END
 ///////////////////////////////////////////////////////////////////////////
 // Bone Club vs. Undead                                                  //
 ///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BLUN23.ITM~ BEGIN
+COPY ~forgotten-armament/eff/update_item/MOBL231.EFF~ ~override~
+
+OUTER_SPRINT oldclub1 @30300
+OUTER_SPRINT newclub1 @30301
+OUTER_SPRINT oldclub2 @30302
+OUTER_SPRINT newclub2 @30303
+
+    COPY_EXISTING ~BLUN23.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 344 special = 5 END
+      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 177 STR_VAR resource = ~mobln232~ END
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 177 STR_VAR resource = ~mobln231~ END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldclub1%~ ~newclub1~
+              REPLACE_TEXTUALLY ~%oldclub2%~ ~newclub2~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+
+      READ_LONG 0xc desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0xc desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldclub2%~ ~newclub2~
+            END
+            SAY_EVALUATED 0xc ~%desc%~
+          END
+END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
