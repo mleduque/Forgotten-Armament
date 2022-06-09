@@ -255,6 +255,34 @@ OUTER_SPRINT newhalb2 @30503
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Duskblade                                                             //
+// +3 item (previously +2), +1d4 cold damage (previously +2)             //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~HALB08.ITM~ BEGIN
+OUTER_SPRINT oldhalb3 @30504
+OUTER_SPRINT newhalb3 @30505
+OUTER_SPRINT oldhalb4 @30506
+OUTER_SPRINT newhalb4 @30507
+
+    COPY_EXISTING ~HALB08.ITM~ ~override~
+      WRITE_LONG 0x60 3
+      LPF ALTER_ITEM_HEADER INT_VAR header_type=1 thac0_bonus = 3 damage_bonus = 3 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 parameter1 = 0 dicenumber = 1 dicesize = 4 END
+
+        PATCH_FOR_EACH offset IN 0xc 0x54 BEGIN
+        READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~%oldhalb3%~ ~%newhalb3%~
+                REPLACE_TEXTUALLY ~%oldhalb4%~ ~%newhalb4%~
+              END
+              SAY_EVALUATED ~%offset%~ ~%desc%~
+            END
+      END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Katana                                                                //
 ///////////////////////////////////////////////////////////////////////////

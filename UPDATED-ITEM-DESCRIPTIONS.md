@@ -38,6 +38,10 @@
 
 ### Halberds
 
+#### Duskblade
+- +3 weapon (previously +2 weapon)
+- 1d4 cold damage per hit (previously 2 cold damage)
+
 #### Dragon's Breath +4 
 - 1d10 +4 damage (previously just 1d10)
 
