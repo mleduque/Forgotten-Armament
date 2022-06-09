@@ -31,7 +31,7 @@
 
 #### Club of Detonation +5
 - Fire Resistance: +50%
-- 10% chance per hit for fireball (previously 4% in the code)
+- 10% chance per hit for fireball (previously 5%)
 
 ### Daggers
 
