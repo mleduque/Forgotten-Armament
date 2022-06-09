@@ -39,14 +39,15 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Bone Club vs. Undead                                                  //
+// +5 enchantment vs Undead (previously +3) w/ +10 extra damage to Undead//
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~BLUN23.ITM~ BEGIN
 COPY ~forgotten-armament/eff/update_item/MOBL231.EFF~ ~override~
 
-OUTER_SPRINT oldclub1 @30300
-OUTER_SPRINT newclub1 @30301
-OUTER_SPRINT oldclub2 @30302
-OUTER_SPRINT newclub2 @30303
+OUTER_SPRINT oldclub1 @30200
+OUTER_SPRINT newclub1 @30201
+OUTER_SPRINT oldclub2 @30202
+OUTER_SPRINT newclub2 @30203
 
     COPY_EXISTING ~BLUN23.ITM~ ~override~
       LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 344 special = 5 END

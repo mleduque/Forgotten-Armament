@@ -12,6 +12,11 @@
 
 ### Bastard Swords
 
+### Clubs
+
+#### Bone Club
+- +5 enchantment vs Undead (previously +3) w/ +10 extra damage to Undead
+
 ### Daggers
 
 #### Dagger of CHARNAME
