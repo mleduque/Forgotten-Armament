@@ -7,6 +7,9 @@
 #### Azuredge
 - No alignment restriction to use
 
+#### Frostreaver +3
+- +2 cold and acid damage each (previously +1 each)
+
 #### Mauletar +2
 - Fear Immunity
 

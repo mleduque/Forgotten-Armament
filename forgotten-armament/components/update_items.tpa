@@ -56,7 +56,22 @@ END
 // Stonefire +3                                                          //
 // +1d6 fire damage (previously +2)                                      //
 ///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~AX1H12.ITM~ BEGIN
+OUTER_SPRINT oldaxe2 @30004
+OUTER_SPRINT newaxe2 @30005
 
+    COPY_EXISTING ~AX1H12.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 parameter1 = 0 dicenumber = 1 dicesize = 6 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldaxe2%~ ~%newaxe2%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
 
 
 ///////////////////////////////////////////////////////////////////////////
