@@ -61,6 +61,9 @@
 #### Daystar
 - +3 weapon (previously +2 weapon)
 
+#### Angurvadal +5
+- 2d4+1 fire damage (previously 1d4+1)
+
 ### Maces
 
 #### Ardulia's Fall

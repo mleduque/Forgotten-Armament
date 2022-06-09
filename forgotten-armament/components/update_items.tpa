@@ -368,9 +368,24 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Angurvadal +5                                                         //    
-// Needs more oomph                                                      //
+// 2d4+1 fire damage (previously 1d4+1)                                  //
 ///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW1H61.ITM~ BEGIN
+OUTER_SPRINT oldlong3 @30704
+OUTER_SPRINT newlong3 @30705
 
+    COPY_EXISTING ~SW1H61.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 dicenumber = 2 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldlong3%~ ~%newlong3%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
