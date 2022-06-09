@@ -119,6 +119,7 @@
 
 #### Spectral Brand +5
 - Replace Piercing Strike with Critical Strike HLA
+- +2d4+1 cold damage (previously 1d6)
 
 #### Water's Edge +3
 - +5% crit chance with this weapon
