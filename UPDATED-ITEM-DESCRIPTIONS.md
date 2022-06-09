@@ -48,6 +48,9 @@
 #### Suryris Blade
 - AC -1 Bonus
 
+#### Wave +4
+- 50% chance of draining the victim of water (previously 15%)
+
 ### Katanas
 
 #### Crimson Dawn
