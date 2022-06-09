@@ -83,6 +83,9 @@
 
 ### Morning Stars
 
+#### The Sleeper +2
+- -2 bonus to save (previously +4 bonus)
+
 ### Ninja-Tos
 
 ### Quarterstaves
