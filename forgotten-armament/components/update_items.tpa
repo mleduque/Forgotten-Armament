@@ -239,8 +239,8 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~DAGG19.ITM~ BEGIN
 OUTER_SPRINT olddagger1 @30300
-OUTER_SPRINT olddagger2 @30302
 OUTER_SPRINT newdagger1 @30301
+OUTER_SPRINT olddagger2 @30302
 OUTER_SPRINT newdagger2 @30303
 
     COPY_EXISTING ~DAGG19.ITM~ ~override~
@@ -260,6 +260,27 @@ OUTER_SPRINT newdagger2 @30303
               REPLACE_TEXTUALLY ~%olddagger2%~ ~%newdagger2%~
             END
             SAY_EVALUATED 0x50 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Ice Talon +2                                                          //
+// +1d4 cold damage (previously +1)                                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~MODAG02.ITM~ BEGIN
+OUTER_SPRINT olddagger3 @30304
+OUTER_SPRINT newdagger3 @30305
+
+    COPY_EXISTING ~MODAG02.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 parameter1 = 0 dicenumber = 1 dicesize = 4 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldbast1%~ ~%newbast1%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
           END
 END
 
