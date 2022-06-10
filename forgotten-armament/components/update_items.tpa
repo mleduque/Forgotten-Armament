@@ -941,6 +941,27 @@ OUTER_SPRINT newscimi7 @31213
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Laughing Blade +2                                                     //
+// +1d4 cold damage (previously +1)                                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~MO1H30.ITM~ BEGIN
+OUTER_SPRINT oldscimi8 @31214
+OUTER_SPRINT newscimi8 @31215
+
+    COPY_EXISTING ~MO1H30.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 parameter1 = 0 dicenumber = 1 dicesize = 4 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldscimi8%~ ~%newscimi8%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Short Sword                                                           //
 ///////////////////////////////////////////////////////////////////////////
