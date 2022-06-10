@@ -116,7 +116,14 @@
 
 ### Ninja-Tos
 
+#### Usuno's Blade +4
+- +1d8 electrical damage
+
 ### Quarterstaves
+
+#### Martial Staff +3
+- AC: +1 Bonus
+- Regenerate 1 Hit Point per round
 
 ### Scimitars
 
