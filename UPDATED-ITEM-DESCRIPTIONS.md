@@ -108,6 +108,9 @@
 
 ### Morning Stars
 
+#### Ice Star +4
+- +1d8 cold damage (previously +1d4)
+
 #### The Sleeper +2
 - -2 bonus to save (previously +4 bonus)
 

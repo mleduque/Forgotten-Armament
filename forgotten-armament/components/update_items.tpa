@@ -793,6 +793,27 @@ OUTER_SPRINT newmorning1 @30901
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Ice Star +4                                                           //
+// +1d8 cold damage (previously +1d4)                                    //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BLUN35.ITM~ BEGIN
+OUTER_SPRINT oldmorning2 @30902
+OUTER_SPRINT newmorning2 @30903
+
+    COPY_EXISTING ~BLUN35.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 parameter1 = 0 dicenumber = 1 dicesize = 8 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldmorning2%~ ~%newmorning2%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Scimitar                                                              //
 ///////////////////////////////////////////////////////////////////////////
