@@ -756,7 +756,7 @@ OUTER_SPRINT newmace9 @30817
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-              REPLACE_TEXTUALLY ~%oldmace8%~ ~%newmace8%~
+              REPLACE_TEXTUALLY ~%oldmace9%~ ~%newmace9%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
