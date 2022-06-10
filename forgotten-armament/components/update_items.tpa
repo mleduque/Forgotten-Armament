@@ -842,6 +842,42 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
+// Staff                                                                 //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Cleric's Staff +3                                                     //
+//                                                                       //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~STAF19.ITM~ BEGIN
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Martial Staff +3                                                      //
+// AC: +1 Bonus, Regenerate 1 Hit Point per round                        //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~STAF08.ITM~ BEGIN
+OUTER_SPRINT oldstaff2 @31102
+OUTER_SPRINT newstaff2 @31103
+
+    COPY_EXISTING ~STAF08.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 87 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 98 target = 1 parameter1 = 6 parameter2 = 3 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 0 target = 1 parameter1 = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldstaff2%~ ~%newstaff2%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
 // Scimitar                                                              //
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
