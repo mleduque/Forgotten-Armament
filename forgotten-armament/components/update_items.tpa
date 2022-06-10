@@ -827,7 +827,7 @@ OUTER_SPRINT oldninja1 @31000
 OUTER_SPRINT newninja1 @31001
 
     COPY_EXISTING ~SW1H67.ITM~ ~override~
-      CLONE_EFFECT INT_VAR match_opcode = 12 opcode = 12 probability1 = 100 dicenumber = 1 dicesize = 8 savingthrow = 0 special = 0 END
+      LPF CLONE_EFFECT INT_VAR match_opcode = 12 opcode = 12 probability1 = 100 dicenumber = 1 dicesize = 8 savingthrow = 0 special = 0 END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
