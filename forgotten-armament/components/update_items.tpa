@@ -520,8 +520,6 @@ END
 // +4 weapon                                                             //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~MISCBC.ITM~ BEGIN
-OUTER_SPRINT oldlong1 @30700
-OUTER_SPRINT newlong1 @30701
 
     COPY_EXISTING ~MISCBC.ITM~ ~override\MOBLK01.ITM~
       WRITE_LONG 0x60 4
@@ -1184,6 +1182,51 @@ OUTER_SPRINT newtwohand2 @31503
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Greater Silver Sword                                                  //
+// +4 weapon, -4 to save, immunity psionics                              //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW2H15.ITM~ BEGIN
+
+    COPY_EXISTING ~SW2H15.ITM~ ~override\MO2H15.ITM~
+      WRITE_LONG 0x60 4
+      LPF ALTER_ITEM_HEADER INT_VAR header_type=1 thac0_bonus = 4 damage_bonus = 4 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = ~-1~ check_headers = 1 savebonus = ~-4~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 14780 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 14672 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 8364 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 14791 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 14782 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 52 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 52 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 101 target = 1 parameter2 = 5 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 101 target = 1 parameter2 = 128 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 296 target = 1 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~spnwchrm~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 296 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spflayer~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 296 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spconfus~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 = 43 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 = 47 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 = 2 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 = 3 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spin975~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spin974~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spin912~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spin911~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spin909~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spin910~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spin959~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spin834~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spin774~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spin775~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~sppr709~ END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~spwi401~ END
+      SAY NAME1 @31504
+      SAY NAME2 @31504
+      SAY DESC  @31505
 END
 
 ///////////////////////////////////////////////////////////////////////////

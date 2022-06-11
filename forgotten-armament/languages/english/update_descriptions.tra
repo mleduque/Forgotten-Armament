@@ -311,6 +311,28 @@ Combat abilities:
 – Each hit drains 5 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
 – 10% chance of decapitating opponent with each successful attack (Save vs. Death at -4 negates)~
 
+@31504 = ~Greater Silver Sword~
+@31505 = ~Imbued with the Liquid Mercury, this vorpal weapon becomes a Great Silver Sword. When drawn from the sheath, the blade appears as a column of silvery liquid, and is as much a weapon of the mind as a piece of metal in the hand. 
+
+STATISTICS:
+
+Equipped abilities:
+– Immunity to confusion and all psionic attacks
+– Immunity to charm 
+
+Combat abilities:
+– 25% chance per hit that target must save vs. Death at -4 or die
+
+THAC0: +4
+Damage: 1d10+4 (slashing)
+Speed Factor: 7
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires:
+ 14 Strength
+
+Weight: 15~
+
 
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //
