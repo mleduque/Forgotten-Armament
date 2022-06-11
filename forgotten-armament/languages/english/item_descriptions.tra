@@ -1371,9 +1371,9 @@ Requires:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Heartwood Spear +4 (NWN2)                                             //
+// Heartwood Spear +3 (NWN2)                                             //
 ///////////////////////////////////////////////////////////////////////////
-@11406 = ~Heartwood Spear +4~
+@11406 = ~Heartwood Spear +3~
 @11407 = ~This weapon was a gift from the elven nation to the kingdom of Algarond after the declaration of peace between the two peoples in 1065 DR. Spears of this type are carefully crafted, and rumored to come from the wood of Evereska itself.
 
 STATISTICS:

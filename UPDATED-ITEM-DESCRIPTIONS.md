@@ -123,6 +123,9 @@
 
 ### Quarterstaves
 
+#### Cleric's Staff +3
+- +2 Wisdom
+
 #### Martial Staff +3
 - AC: +1 Bonus
 - Regenerate 1 Hit Point per round
