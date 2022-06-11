@@ -2,3 +2,4 @@
 
 COMPILE ~forgotten-armament/dlg/moblk01.d~
 
+EXTEND_BOTTOM ~BOTSMITH.BCS~ ~forgotten-armament/baf/BOTSMITH.baf~
