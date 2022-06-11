@@ -130,7 +130,7 @@ Damage Type: Slashing~
 ///////////////////////////////////////////////////////////////////////////
 // Long Sword                                                            //
 ///////////////////////////////////////////////////////////////////////////
-@30700 = ~Blackrazor +3~
+@30700 = ~Blackrazor +4~
 @30701 = ~This sword radiates evil like a sour odor, and the owner never knows if <PRO_HESHE> wields the weapon or if it wields <PRO_HIMHER>. In addition to its combat abilities, Blackrazor slowly regenerates its owner with the drained strength of opponents.
 
 STATISTICS:
