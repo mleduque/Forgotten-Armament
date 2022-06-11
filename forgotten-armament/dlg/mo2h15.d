@@ -1,11 +1,11 @@
 EXTEND_BOTTOM BOTSMITH 4
-IF ~PartyHasItem("mo2h15")~ THEN GOTO MO#PartyHasAtLeastOneItem END
+IF ~PartyHasItem("sw2h15")~ THEN GOTO MO#PartyHasAtLeastOneItem END
   
 APPEND BOTSMITH
 IF ~~ THEN BEGIN MO#PartyHasAtLeastOneItem SAY @40010
-	IF ~PartyHasItem("mo2h15")
+	IF ~PartyHasItem("sw2h15")
 		PartyHasItem("compon01")~ THEN GOTO MO#PartyHasAllParts
-	IF ~PartyHasItem("mo2h15")
+	IF ~PartyHasItem("sw2h15")
 		!PartyHasItem("compon01")~ THEN GOTO MO#PartyDoesNotHaveAllParts
 END 
 
@@ -19,8 +19,8 @@ IF ~~ THEN BEGIN MO#PartyHasAllParts SAY @40012
 											 		 SetGlobal("ImpForgeStuff","GLOBAL",1)
 													 TakePartyGold(15000)
 													 DestroyGold(15000)
-													 TakePartyItemNum("mo2h15",1)
-													 DestroyItem("mo2h15")
+													 TakePartyItemNum("sw2h15",1)
+													 DestroyItem("sw2h15")
 													 TakePartyItemNum("compon01",1)
 													 DestroyItem("compon01")~ GOTO 11
 	IF ~~ THEN REPLY #66770 GOTO MO#MovingRightAlong
