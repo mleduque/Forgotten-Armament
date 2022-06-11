@@ -1371,9 +1371,9 @@ Requires:
 Weight: 2~
 
 ///////////////////////////////////////////////////////////////////////////
-// Heartwood Spear +3 (NWN2)                                             //
+// Heartwood Spear +4 (NWN2)                                             //
 ///////////////////////////////////////////////////////////////////////////
-@11406 = ~Heartwood Spear +3~
+@11406 = ~Heartwood Spear +4~
 @11407 = ~This weapon was a gift from the elven nation to the kingdom of Algarond after the declaration of peace between the two peoples in 1065 DR. Spears of this type are carefully crafted, and rumored to come from the wood of Evereska itself.
 
 STATISTICS:
@@ -1381,8 +1381,8 @@ STATISTICS:
 Combat abilities:
 – Target must save vs. Spell or be stunned for 1 round
 
-THAC0: +3
-Damage: 1d6+3, +1d4 acid damage
+THAC0: +4
+Damage: 1d6+4, +1d4 acid damage
 Damage type: Piercing
 Speed Factor: 3
 Proficiency Type: Spear 
