@@ -842,8 +842,8 @@ END
 // +2 Wisdom                                                             //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~STAF19.ITM~ BEGIN
-OUTER_SPRINT oldstaff1 @31104
-OUTER_SPRINT newstaff1 @31105
+OUTER_SPRINT oldstaff1 @31100
+OUTER_SPRINT newstaff1 @31101
 
     COPY_EXISTING ~STAF19.ITM~ ~override~
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 49 target = 1 parameter1 = 2 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
