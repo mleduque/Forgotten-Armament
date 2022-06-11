@@ -170,6 +170,13 @@
 - Each hit drains 5 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
 - 10% chance of decapitating opponent with each successful attack (Save vs. Death at -4 negates)
 
+#### Greater Silver Sword
+- Upgrade from Cespenar for Silver Sword, Liquid Mercury, and 15,000 gold
+- +4 weapon (previously +3)
+- Immunity to confusion and all psionic attacks
+- Immunity to charm 
+- 25% chance per hit that target must save vs. Death at -4 or die (previously -2 save)
+
 ### Wakizashis
 
 #### Kachiko's Wakizashi +3
