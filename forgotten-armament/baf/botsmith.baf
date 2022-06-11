@@ -4,6 +4,6 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("ImpForgeStuff","GLOBAL",0)
-    GiveItemCreate("moblk01",Player1,1,1,1)
+    GiveItemCreate("moblk01",Player1,0,0,0)
     StartDialogueNoSet(Player1)
 END

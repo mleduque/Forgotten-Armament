@@ -83,8 +83,10 @@
 #### Angurvadal +5
 - +2d4+1 fire damage (previously 1d4+1)
 
-#### Blackrazor
+#### Blackrazor +4
+- Upgrade from Cespenar for Blackrazor +3, Balor's Claw, and 10,000 gold
 - +4 weapon (previously +3 weapon)
+- 25% chance of proccing weapon's effects (previously 15%)
 
 #### Daystar
 - +3 weapon (previously +2 weapon)
