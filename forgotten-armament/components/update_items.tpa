@@ -839,9 +839,23 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Cleric's Staff +3                                                     //
-// Wisdom Bonus ()                                                                      //
+// +2 Wisdom                                                             //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~STAF19.ITM~ BEGIN
+OUTER_SPRINT oldstaff1 @31104
+OUTER_SPRINT newstaff1 @31105
+
+    COPY_EXISTING ~STAF19.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 49 target = 1 parameter1 = 2 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldstaff1%~ ~%newstaff1%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
 END
 
 ///////////////////////////////////////////////////////////////////////////
