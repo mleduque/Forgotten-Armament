@@ -17,7 +17,6 @@ IF ~~ THEN BEGIN MO#PartyHasAllParts SAY @40002
 	IF ~PartyGoldLT(10000)~ THEN REPLY #66662 GOTO MO#MovingRightAlong
 	IF ~PartyGoldGT(9999)~ THEN REPLY #66664 DO ~SetGlobal("MO#TOBItemUp","GLOBAL",1)
 											 		 SetGlobal("ImpForgeStuff","GLOBAL",1)
-											 		 SetGlobal("MO#TOBCraft","GLOBAL",1)
 													 TakePartyGold(10000)
 													 DestroyGold(10000)
 													 TakePartyItemNum("miscbc",1)
@@ -31,8 +30,3 @@ IF ~~ THEN BEGIN MO#PartyHasAllParts SAY @40002
 		COPY_TRANS BOTSMITH 4
 	END
 END
-
-IF ~Global("MO#TOBCraft","GLOBAL",1)
-	Global("ImpForgeStuff","GLOBAL",0)~ THEN BEGIN DO ~SetGlobal("MO#TOBCraft","GLOBAL",0)~ GOTO 89
-END 
-	
