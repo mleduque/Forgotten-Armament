@@ -526,6 +526,7 @@ OUTER_SPRINT newlong1 @30701
     COPY_EXISTING ~MISCBC.ITM~ ~override\MOBLK01.ITM~
       WRITE_LONG 0x60 4
       LPF ALTER_ITEM_HEADER INT_VAR header_type=1 thac0_bonus = 4 damage_bonus = 4 END
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = ~-1~ check_headers = 1 probability1 = 24 END
       SAY NAME1 @30700
       SAY NAME2 @30700
       SAY DESC  @30701
