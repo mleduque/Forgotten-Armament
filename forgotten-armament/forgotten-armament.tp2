@@ -50,7 +50,7 @@ LOAD_TRA ~forgotten-armament/languages/%LANGUAGE%/cespenar_dialog.tra~
 INCLUDE ~forgotten-armament/components/add_items_iwd.tpa~
 INCLUDE ~forgotten-armament/components/add_items_nwn.tpa~
 INCLUDE ~forgotten-armament/components/update_items.tpa~
-//INCLUDE ~forgotten-armament/components/cespenar_upgrade.tpa~
+INCLUDE ~forgotten-armament/components/cespenar_upgrade.tpa~
 
 ////////////////////////////////////////////////////
 
