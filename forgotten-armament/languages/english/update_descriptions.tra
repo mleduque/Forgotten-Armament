@@ -130,8 +130,27 @@ Damage Type: Slashing~
 ///////////////////////////////////////////////////////////////////////////
 // Long Sword                                                            //
 ///////////////////////////////////////////////////////////////////////////
-@30700 = ~\+3~
-@30701 = ~+4~
+@30700 = ~Blackrazor +3~
+@30701 = ~This sword radiates evil like a sour odor, and the owner never knows if <PRO_HESHE> wields the weapon or if it wields <PRO_HIMHER>. In addition to its combat abilities, Blackrazor slowly regenerates its owner with the drained strength of opponents.
+
+STATISTICS:
+
+Equipped abilities:
+– Regenerate 1 HP every 5 seconds
+– Immunity to charm and fear
+
+Combat abilities:
+– With every hit, it has a 15% chance of draining 4 levels from the target and healing the wielder by 20 Hit Points as well as hasting <PRO_HIMHER> for 20 seconds and increasing <PRO_HISHER> Strength by 3 points for 20 seconds
+
+THAC0: +4
+Damage: 1d8+4 (slashing)
+Speed Factor: 2
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
 
 @30702 = ~\+2~
 @30703 = ~+3~
