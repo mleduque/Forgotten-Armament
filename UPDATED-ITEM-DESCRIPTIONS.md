@@ -167,6 +167,9 @@
 - Removed Free Action
 - Save vs. Paralysis at -4 negates attack effect (previously no bonus to save)
 
+#### Spear of Kuldahar +3
+- +20% resistance to slashing, piercing, and crushing damage
+
 ### Two-Handed Swords
 
 #### Carsomyr +5/+6
