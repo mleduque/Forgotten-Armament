@@ -354,6 +354,11 @@ Weight: 15~
 @31506 = ~\+1 cold~
 @31507 = ~+1d6 cold~
 
+@31508 = ~\+5~
+@31509 = ~+4~
+
+@31510 = ~Each hit target must save vs. Death (with a -5 penalty) or lose 1 level~
+@31511 = ~Hit target loses 1 point of Strength per hit for 5 rounds~
 
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //
