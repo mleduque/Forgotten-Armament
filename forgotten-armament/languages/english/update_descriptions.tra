@@ -299,6 +299,14 @@ Equipped abilities:
 @31400 = ~\+1d4~
 @31401 = ~+1d8~
 
+@31402 = ~Equipped abilities:
+– Free Action
+
+~
+
+@31403 = ~Save vs. Paralysis negates~
+@31404 = ~Save vs. Paralysis at -4 negates~
+
 ///////////////////////////////////////////////////////////////////////////
 // Two-Handed Sword                                                      //
 ///////////////////////////////////////////////////////////////////////////
@@ -315,7 +323,7 @@ Combat abilities:
 – 10% chance of decapitating opponent with each successful attack (Save vs. Death at -4 negates)~
 
 @31504 = ~Greater Silver Sword~
-@31505 = ~Imbued with the Liquid Mercury, this vorpal weapon becomes a Great Silver Sword. When drawn from the sheath, the blade appears as a column of silvery liquid and is as much a weapon of the mind as a piece of metal in the hand. 
+@31505 = ~Imbued with the Liquid Mercury, this vorpal weapon becomes a Greater Silver Sword. When drawn from the sheath, the blade appears as a column of silvery liquid and is as much a weapon of the mind as a piece of metal in the hand. 
 
 STATISTICS:
 
