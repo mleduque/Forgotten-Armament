@@ -178,6 +178,9 @@
 #### Carsomyr +5/+6
 - Increments Magic Resistance by 50 instead of sets
 
+#### Dragon Blade +3
+- +1d6 cold (previously +1)
+
 #### Ir'revrykal
 - Remove Dispel on Hit and Immunity to Charm
 - Each hit drains 5 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.

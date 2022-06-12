@@ -1345,6 +1345,27 @@ ACTION_IF FILE_EXISTS_IN_GAME ~SW2H15.ITM~ BEGIN
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Dragon Blade +3                                                       //
+// +1d6 cold (previously +1)                                             //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BDSW2H01.ITM~ BEGIN
+OUTER_SPRINT oldtwohand3 @31506
+OUTER_SPRINT newtwohand3 @31507
+    
+    COPY_EXISTING ~BDSW2H01.ITM~ ~override~ 
+        LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 parameter1 = 0 dicenumber = 1 dicesize = 6 END
+
+        READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldtwohand3%~ ~%newtwohand3%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
