@@ -170,6 +170,9 @@
 #### Spear of Kuldahar +3
 - +20% resistance to slashing, piercing, and crushing damage
 
+#### Spear of Withering +4
+- +1d8 poison damage (previously +4)
+
 ### Two-Handed Swords
 
 #### Carsomyr +5/+6
