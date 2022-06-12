@@ -11,6 +11,13 @@
 @9  = ~Ennemis mieux equipes~
 @10 = ~Armes dans le style de NWN2~
 @11 = ~Ajouter le parchemin Breche au Bazar Magique de la Porte de Baldur~
+@12 = ~Définir une limite pour la résistance contre les dégâts physiques~
+@13 = ~Au maximum 90 % de résistance contre les dégâts physiques~
+@14 = ~Au maximum 80 % de résistance contre les dégâts physiques~
+@15 = ~Au maximum 70 % de résistance contre les dégâts physiques~
+@16 = ~Au maximum 60 % de résistance contre les dégâts physiques~
+@17 = ~Mise à jour des objets existants et ajout des nouveaux objets~
+@18 = ~Ajouter SEULEMENT les nouveaux objets~
 
 @3000 = ~Ce composant necessite BG: EE, BGII: EE, ou EET~
 @3001 = ~DLCMerger est necessaire avant d'installer des mods sur les jeux SoD~
