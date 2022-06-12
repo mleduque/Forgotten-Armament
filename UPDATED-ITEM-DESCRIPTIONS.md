@@ -199,6 +199,9 @@
 - Each hit drains 5 Hit Points from the target and transfers them to the wielder. This will not heal beyond the wielder's maximum.
 - 10% chance of decapitating opponent with each successful attack (Save vs. Death at -4 negates)
 
+#### Joril's Dagger +3
+- +1d6 cold (previously +1)
+
 ### Wakizashis
 
 #### Kachiko's Wakizashi +3
