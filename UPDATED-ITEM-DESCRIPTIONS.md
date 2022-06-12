@@ -163,6 +163,10 @@
 
 ### Spears
 
+#### Ixil's Spike +6
+- Removed Free Action
+- Save vs. Paralysis at -4 negates attack effect (previously no bonus to save)
+
 ### Two-Handed Swords
 
 #### Carsomyr +5/+6

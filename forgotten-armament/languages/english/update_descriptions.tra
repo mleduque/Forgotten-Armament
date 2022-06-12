@@ -307,6 +307,10 @@ Equipped abilities:
 @31403 = ~Save vs. Paralysis negates~
 @31404 = ~Save vs. Paralysis at -4 negates~
 
+@31405 = ~Hit Points: \+8~
+@31406 = ~Hit Points: +8
+– +20% resistance to slashing, piercing, and crushing damage~
+
 ///////////////////////////////////////////////////////////////////////////
 // Two-Handed Sword                                                      //
 ///////////////////////////////////////////////////////////////////////////

@@ -1190,6 +1190,29 @@ OUTER_SPRINT newspear3 @31404
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Spear of Kuldahar +3                                                  //
+// Physical Damage Resistance +20%                                       //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~WASPEAR.ITM~ BEGIN
+OUTER_SPRINT oldspear4 @31405
+OUTER_SPRINT newspear4 @31406
+
+    COPY_EXISTING ~WASPEAR.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 86 target = 1 parameter1 = 20 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 87 target = 1 parameter1 = 20 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 88 target = 1 parameter1 = 20 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldspear4%~ ~%newspear4%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Two-Handed Sword                                                      //
 ///////////////////////////////////////////////////////////////////////////
