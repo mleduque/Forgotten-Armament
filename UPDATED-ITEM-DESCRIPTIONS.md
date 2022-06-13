@@ -21,6 +21,14 @@
 #### Blade of Searing +3
 - +1d6 fire damage (previously +1)
 
+#### Purifier +4
+- Remove +4 extra damage vs. chaotic evil
+- Cleanses and protects the wielder and all allies within 15 feet from level drain.
+
+##### Purifier +5
+- Remove +5 extra damage vs. chaotic evil, Dispel Magic, and Mass Cure
+- Cleanses and protects the wielder and all allies within 15 feet from the following status effects: confusion, disease, feeblemindedness, fear, level drain, and poison.
+
 ### Clubs
 
 #### Blackblood +3

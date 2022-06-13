@@ -131,7 +131,6 @@ END
 // Purifier +5                                                           //
 // +20% Magic Resistance (previously +30%)                               //
 // Remove +5 extra damage vs. chaotic evil, Dispel Magic, and Mass Cure  //
-// Remove Dispel Magic and Mass Cure                                     //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H65.ITM~ BEGIN
 COPY ~forgotten-armament/eff/update_item/MO1H65.EFF~ ~override~
