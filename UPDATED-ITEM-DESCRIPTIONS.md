@@ -238,6 +238,12 @@
 
 ### Warhammers
 
+#### Ashideena +2
+- +1d4 electrical damage (previously +1)
+
+#### Borok's Fist +2
+- +1d4 electrical damage (previously +1)
+
 ## Armors
 
 ### Robes
