@@ -247,6 +247,9 @@
 #### Crom Faeyr +5
 - +2d4+1 electrical damage (previously +5)
 
+#### Hammer of Thunderbolts +3
+- +1d6 electrical damage
+
 ## Armors
 
 ### Robes

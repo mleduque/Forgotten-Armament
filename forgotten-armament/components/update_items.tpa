@@ -1736,5 +1736,26 @@ OUTER_SPRINT newhamm2 @31703
           END
 END
 
+///////////////////////////////////////////////////////////////////////////
+// Hammer of Thunderbolts +3                                             //
+// +1d6 electrical damage                                                //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~HAMM07.ITM~ BEGIN
+OUTER_SPRINT oldhamm3 @31704
+OUTER_SPRINT newhamm3 @31705
+
+    COPY_EXISTING ~HAMM07.ITM~ ~override~
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 1 parameter1 = 0 parameter2 = 262144 timing = 1 resist_dispel = 0 probability1 = 100 dicenumber = 1 dicesize = 6 special = 1 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldhamm3%~ ~%newhamm3%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
 // Dakkon Zerth 5% chance per hit of restoring a spell
 // Bracers: Mintassan's Miraculous Bracers, Red Guard, Clasps of the Devoted, Bracers of the Inner Planes

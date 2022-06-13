@@ -427,3 +427,7 @@ Combat abilities:
 
 @31702 = ~\+5 electrical~
 @31703 = ~+2d4+1 electrical damage~
+
+@31704 = ~ (crushing)~
+@31705 = ~, +1d6 electrical damage
+Damage type: Crushing~
