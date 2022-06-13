@@ -133,7 +133,7 @@ OUTER_SPRINT newbast3 @30105
 
     COPY_EXISTING ~SW1H65.ITM~ ~override~
       LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 166 parameter1 = 20 END
-      LPF DELETE_ITEM_HEADER INT_VAR header_type = -1 END
+      LPF DELETE_ITEM_HEADER INT_VAR header_type = ~-1~ END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
