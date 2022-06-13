@@ -1759,5 +1759,26 @@ OUTER_SPRINT newhamm3 @31705
           END
 END
 
+///////////////////////////////////////////////////////////////////////////
+// Rifthammer +3                                                         //
+// +1d6 fire damage (previously +1d4)                                    //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~MOHM02.ITM~ BEGIN
+OUTER_SPRINT oldhamm4 @31706
+OUTER_SPRINT newhamm4 @31707
+
+    COPY_EXISTING ~MOHM02.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 parameter1 = 0 dicenumber = 1 dicesize = 6 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldhamm4%~ ~%newhamm4%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
 // Dakkon Zerth 5% chance per hit of restoring a spell
 // Bracers: Mintassan's Miraculous Bracers, Red Guard, Clasps of the Devoted, Bracers of the Inner Planes
