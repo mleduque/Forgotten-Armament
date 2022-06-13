@@ -114,6 +114,9 @@
 #### Daystar
 - +3 weapon (previously +2 weapon)
 
+#### Tongue of Acid +3
+- +1d6 acid damage (previously +1d3)
+
 ### Maces
 
 #### Ardulia's Fall
@@ -255,6 +258,8 @@
 
 #### Hammer of Thunderbolts +3
 - +1d6 electrical damage
+
+## Ranged Weapons
 
 ## Armors
 
