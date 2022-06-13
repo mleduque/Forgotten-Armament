@@ -1444,7 +1444,7 @@ OUTER_SPRINT newtwohand2 @31503
       LPF DELETE_EFFECT INT_VAR header_type = 1 match_opcode = 142 END
       LPF DELETE_EFFECT INT_VAR header_type = 1 match_opcode = 296 END
       LPF DELETE_EFFECT INT_VAR header_type = 1 match_opcode = 169 END
-      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 1 parameter1 = 5 parameter2 = 4194304 timing = 1 resist_dispel = 0 probability1 = 100 special = 1 END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 1 target = 2 parameter1 = 5 parameter2 = 4194304 timing = 1 resist_dispel = 0 probability1 = 100 special = 1 END
       LPF ADD_ITEM_EFFECT INT_VAR opcode = 139 type = 1 target = 2 parameter1 = 64285 timing = 9 resist_dispel = 2 probability1 = 10 savingthrow = 4 savebonus = ~-4~ END
       LPF ADD_ITEM_EFFECT INT_VAR opcode = 13 type = 1 target = 2 parameter1 = 0 parameter2 = 8 timing = 1 resist_dispel = 2 probability1 = 10 savingthrow = 4 savebonus = ~-4~ END
       LPF ADD_ITEM_EFFECT INT_VAR opcode = 141 type = 1 target = 2 parameter1 = 0 parameter2 = 39 timing = 1 resist_dispel = 2 probability1 = 10 savingthrow = 4 savebonus = ~-4~ END
@@ -1715,6 +1715,7 @@ OUTER_SPRINT newhamm1 @31701
           END
 END
 
+/*
 ///////////////////////////////////////////////////////////////////////////
 // Crom Faeyr +5                                                         //
 // +2d4+1 electrical damage (previously +5)                              //
@@ -1735,6 +1736,7 @@ OUTER_SPRINT newhamm2 @31703
             SAY_EVALUATED 0x54 ~%desc%~
           END
 END
+*/
 
 ///////////////////////////////////////////////////////////////////////////
 // Hammer of Thunderbolts +3                                             //
@@ -1745,7 +1747,7 @@ OUTER_SPRINT oldhamm3 @31704
 OUTER_SPRINT newhamm3 @31705
 
     COPY_EXISTING ~HAMM07.ITM~ ~override~
-      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 1 parameter1 = 0 parameter2 = 262144 timing = 1 resist_dispel = 0 probability1 = 100 dicenumber = 1 dicesize = 6 special = 1 END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 1 target = 2 parameter1 = 0 parameter2 = 262144 timing = 1 resist_dispel = 0 probability1 = 100 dicenumber = 1 dicesize = 6 special = 1 END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
