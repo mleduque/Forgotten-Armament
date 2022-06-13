@@ -1,6 +1,8 @@
 // Forgotten Armament - Cespenar Upgrade
 
-COMPILE ~forgotten-armament/dlg/moblk01.d~
-COMPILE ~forgotten-armament/dlg/mo2h15.d~
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+	COMPILE ~forgotten-armament/dlg/moblk01.d~
+	COMPILE ~forgotten-armament/dlg/mo2h15.d~
 
-EXTEND_BOTTOM ~BOTSMITH.BCS~ ~forgotten-armament/baf/BOTSMITH.baf~
+	EXTEND_BOTTOM ~BOTSMITH.BCS~ ~forgotten-armament/baf/BOTSMITH.baf~
+END
