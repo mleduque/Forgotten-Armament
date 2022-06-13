@@ -65,6 +65,9 @@
 #### Flail of the Ages +5
 - Remove Magic Resistance and Free Action
 
+#### The Thresher +2
+- +10% resistance to slashing, piercing, and crushing damage
+
 ### Halberds
 
 #### Duskblade
