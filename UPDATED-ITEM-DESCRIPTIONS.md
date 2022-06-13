@@ -175,8 +175,11 @@
 
 ### Two-Handed Swords
 
-#### Carsomyr +5/+6
-- Increments Magic Resistance by 50 instead of sets
+#### Carsomyr +5
+- +10% Magic Resistance (previously set to 50%)
+
+#### Carsomyr +6
+- +25% Magic Resistance (previously set to 50%)
 
 #### Dragon Blade +3
 - +1d6 cold (previously +1)
@@ -201,6 +204,9 @@
 
 #### Joril's Dagger +3
 - +1d6 cold (previously +1)
+
+#### The World's Edge +3
+- On a critical hit, the wielder gains +1 Strength bonus for 2 rounds (non-cumulative)
 
 ### Wakizashis
 

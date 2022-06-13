@@ -318,7 +318,7 @@ Equipped abilities:
 // Two-Handed Sword                                                      //
 ///////////////////////////////////////////////////////////////////////////
 @31500 = ~50%~
-@31501 = ~+25%~
+@31501 = ~+10%~
 
 @31502 = ~Equipped abilities:
 – Immunity to charm 
@@ -365,6 +365,8 @@ Weight: 15~
 
 Combat abilities:
 – On a critical hit, the wielder gains +1 Strength bonus for 2 rounds (non-cumulative)~
+
+@31514 = ~+25%~
 
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //

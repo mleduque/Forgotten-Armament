@@ -1240,26 +1240,45 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////
-// Carsomyr +5/+6                                                        //
-// MR increments instead of sets                                         //
+// Carsomyr +5                                                           //
+// +10% Magic Resistance (previously set to 50%)                         //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF FILE_EXISTS_IN_GAME ~SW2H10.ITM~ AND FILE_EXISTS_IN_GAME ~SW2H19.ITM~ BEGIN
+ACTION_IF FILE_EXISTS_IN_GAME ~SW2H10.ITM~ BEGIN
 OUTER_SPRINT oldtwohand1 @31500
 OUTER_SPRINT newtwohand1 @31501
 
-    ACTION_FOR_EACH carsomyr IN 10 19 BEGIN
-      COPY_EXISTING ~SW2H%carsomyr%.ITM~ ~override~ 
-        LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 166 parameter1 = 24 parameter2 = 0 END
+    COPY_EXISTING ~SW2H10.ITM~ ~override~ 
+      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 166 parameter1 = 10 parameter2 = 0 END
 
-        READ_LONG 0x54 desc_strref
-            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
-              READ_STRREF 0x54 desc
-              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-                REPLACE_TEXTUALLY ~%oldtwohand1%~ ~%newtwohand1%~
-              END
-              SAY_EVALUATED 0x54 ~%desc%~
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldtwohand1%~ ~%newtwohand1%~
             END
-    END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Carsomyr +6                                                           //
+// +25% Magic Resistance (previously set to 50%)                         //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW2H19.ITM~ BEGIN
+OUTER_SPRINT oldtwohand7 @31500
+OUTER_SPRINT newtwohand7 @31514
+
+    COPY_EXISTING ~SW2H19.ITM~ ~override~ 
+      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 166 parameter1 = 25 parameter2 = 0 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldtwohand7%~ ~%newtwohand7%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
 END
 
 ///////////////////////////////////////////////////////////////////////////
