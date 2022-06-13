@@ -1927,6 +1927,22 @@ END
 ///////////////////////////////////////////////////////////////////////////
 // Elven Court Bow                                                       //
 ///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BOW12.ITM~ BEGIN
+OUTER_SPRINT oldlbow1 @31900
+OUTER_SPRINT newlbow1 @31901
+
+    COPY_EXISTING ~BOW12.ITM~ ~override\MO2H15.ITM~
+      LPF ALTER_ITEM_HEADER INT_VAR header_type=4 thac0_bonus = 3 damage_bonus = 3 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldlbow1%~ ~%newlbow1%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
