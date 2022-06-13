@@ -261,6 +261,10 @@
 
 ## Ranged Weapons
 
+### Longbow
+
+### Shortbow
+
 ## Armors
 
 ### Robes
