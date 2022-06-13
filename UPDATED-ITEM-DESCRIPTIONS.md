@@ -244,6 +244,9 @@
 #### Borok's Fist +2
 - +1d4 electrical damage (previously +1)
 
+#### Crom Faeyr +5
+- +2d4+1 electrical damage (previously +5)
+
 ## Armors
 
 ### Robes
