@@ -158,6 +158,9 @@
 
 ### Scimitars
 
+#### Dervish Crescent +2
+- +1d4 fire damage (previously +1)
+
 #### Rashad's Talon
 - +1d6 Slashing on Crit
 

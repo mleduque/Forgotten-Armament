@@ -1240,6 +1240,29 @@ OUTER_SPRINT newscimi8 @31215
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Dervish Crescent +2                                                   //
+// +1d4 fire damage (previously +1)                                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BDSW1H08.ITM~ BEGIN
+OUTER_SPRINT oldscimi9 @31216
+OUTER_SPRINT newscimi9 @31217
+
+    COPY_EXISTING ~BDSW1H08.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 parameter1 = 0 dicenumber = 1 dicesize = 4 END
+
+        PATCH_FOR_EACH offset IN 0xc 0x54 BEGIN
+        READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~%oldscimi9%~ ~%newscimi9%~
+              END
+              SAY_EVALUATED ~%offset%~ ~%desc%~
+            END
+      END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Short Sword                                                           //
 ///////////////////////////////////////////////////////////////////////////
