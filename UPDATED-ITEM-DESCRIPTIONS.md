@@ -133,6 +133,9 @@
 
 ### Morning Stars
 
+#### Blazing Glory +3
+- +1d6 fire damage (previously +1)
+
 #### Ice Star +4
 - +1d8 cold damage (previously +1d4)
 
