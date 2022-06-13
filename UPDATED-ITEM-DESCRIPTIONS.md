@@ -70,6 +70,9 @@
 
 ### Halberds
 
+#### Cold Fury +2
+- +1d4 cold damage (previously +1d2) 
+
 #### Duskblade
 - +3 weapon (previously +2 weapon)
 - +1d6 cold damage per hit (previously 2 cold damage)
