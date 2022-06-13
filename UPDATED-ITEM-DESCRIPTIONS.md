@@ -57,6 +57,9 @@
 - Magic Resistance: +20%
 - +2 weapon (previously +1 weapon)
 
+#### Dagger of Troll-fighting +1
+- +1 fire damage (previously +1d4)
+
 ### Flails
 
 #### Flail of the Ages +5
