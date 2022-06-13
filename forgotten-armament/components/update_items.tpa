@@ -452,6 +452,29 @@ OUTER_SPRINT oldflail01 @30400
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// The Thresher +2                                                       //
+// Physical Damage Resistance +10%                                       //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BLUN39.ITM~ BEGIN
+OUTER_SPRINT oldflail2 @30401
+OUTER_SPRINT newflail2 @30402
+
+    COPY_EXISTING ~BLUN39.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 86 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 87 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 88 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldflail2%~ ~%newflail2%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Halberd                                                               //
 ///////////////////////////////////////////////////////////////////////////
