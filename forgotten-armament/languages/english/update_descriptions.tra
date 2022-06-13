@@ -461,6 +461,16 @@ Damage type: Crushing~
 @31901 = ~THAC0: +3
 Damage: +3 (missile)~
 
+@31902 = ~STATISTICS:~
+@31903 = ~STATISTICS:
+
+Equipped abilities:
+– Immunity to charm
+– Immunity to confusion~
+
+@31904 = ~\+2 (missile)~
+@31905 = ~+4 (missile)~
+
 ///////////////////////////////////////////////////////////////////////////
 // Shortbow                                                              //
 ///////////////////////////////////////////////////////////////////////////

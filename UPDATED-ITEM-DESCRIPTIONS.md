@@ -266,6 +266,10 @@
 #### Elven Court Bow
 - +3 Thac0 (previously +4) and +3 Damage (missile)
 
+#### Ripper +2
+- +4 missile Damage (previously +2)
+- Immunity to Charm and Confusion
+
 ### Shortbow
 
 ## Armors
