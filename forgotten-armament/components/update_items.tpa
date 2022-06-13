@@ -1436,6 +1436,26 @@ OUTER_SPRINT newtwohand3 @31507
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// The World's Edge +3                                                   //
+// +1d6 cold (previously +1)                                             //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW2H07.ITM~ BEGIN
+OUTER_SPRINT oldtwohand6 @31512
+OUTER_SPRINT newtwohand6 @31513
+    
+    COPY_EXISTING ~SW2H07.ITM~ ~override~ 
+      LPF
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldtwohand6%~ ~%newtwohand6%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
