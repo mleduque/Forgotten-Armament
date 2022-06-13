@@ -1617,6 +1617,7 @@ OUTER_SPRINT newtwohand6 @31513
             SAY_EVALUATED 0x54 ~%desc%~
           END
 END
+
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Wakizashi                                                             //
@@ -1666,6 +1667,33 @@ OUTER_SPRINT newwaki1 @31603
           END
 END
 
-// Gram Sword of Grief becomes +4 then +5 for upgraded. 
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+// War Hammer                                                            //
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Ashideena +2                                                          //
+// +1d4 electrical damage (previously +1)                                //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~HAMM03.ITM~ BEGIN
+OUTER_SPRINT oldhamm1 @31700
+OUTER_SPRINT newhamm1 @31701
+
+    COPY_EXISTING ~HAMM03.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 parameter1 = 0 dicenumber = 1 dicesize = 4 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldhamm1%~ ~%newhamm1%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+
 // Dakkon Zerth 5% chance per hit of restoring a spell
 // Bracers: Mintassan's Miraculous Bracers, Red Guard, Clasps of the Devoted, Bracers of the Inner Planes
