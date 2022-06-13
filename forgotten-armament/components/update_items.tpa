@@ -1926,12 +1926,13 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Elven Court Bow                                                       //
+// +3 Thac0 (previously +4) and +3 Damage (missile)                      //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~BOW12.ITM~ BEGIN
 OUTER_SPRINT oldlbow1 @31900
 OUTER_SPRINT newlbow1 @31901
 
-    COPY_EXISTING ~BOW12.ITM~ ~override\MO2H15.ITM~
+    COPY_EXISTING ~BOW12.ITM~ ~override~
       LPF ALTER_ITEM_HEADER INT_VAR header_type=4 thac0_bonus = 3 damage_bonus = 3 END
 
       READ_LONG 0x54 desc_strref

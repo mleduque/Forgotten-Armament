@@ -263,6 +263,9 @@
 
 ### Longbow
 
+#### Elven Court Bow
+- +3 Thac0 (previously +4) and +3 Damage (missile)
+
 ### Shortbow
 
 ## Armors
