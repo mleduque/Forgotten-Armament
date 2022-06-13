@@ -674,6 +674,29 @@ OUTER_SPRINT newkata3 @30605
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Master Li's Way +2                                                    //
+// +1d4 acid damage (previously +1)                                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~MO1H55.ITM~ BEGIN
+OUTER_SPRINT oldkata5 @30608
+OUTER_SPRINT newkata5 @30609
+
+    COPY_EXISTING ~MO1H55.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 parameter1 = 0 dicenumber = 1 dicesize = 4 END
+
+        PATCH_FOR_EACH offset IN 0xc 0x54 BEGIN
+        READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~%oldkata5%~ ~%newkata5%~
+              END
+              SAY_EVALUATED ~%offset%~ ~%desc%~
+            END
+      END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Long Sword                                                            //
 ///////////////////////////////////////////////////////////////////////////
