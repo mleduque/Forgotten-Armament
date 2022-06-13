@@ -1,0 +1,372 @@
+// Forgotten Armament – Update Items, American English
+
+///////////////////////////////////////////////////////////////////////////
+// Axe                                                                   //
+///////////////////////////////////////////////////////////////////////////
+@30000 = ~Hache d'armes de Mauletar +2~
+@30001 = ~Pendant la guerre civile de Téthyr, la hache d'armes de Mauletar était entre les mains de la maison d'Ossyind. Cette famille de nobles fut trahie alors qu'elle essayait de fuir le pays. Mauletar, garde en chef et ami personnel de la famille, se saisit de la hache et se sacrifia pour laisser le temps à ses compagnons de s'enfuir. Son cri de bataille eut la faveur des dieux et son écho se répercuta à travers les terres comme un symbole d'amitié et de loyauté. La hache magique sert à préserver ces vertus, contre ceux qui n'ont ni honneur ni courage.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Immunité contre la peur
+
+TAC0 : +2
+Dégâts : 1d8 +2 (tranchant)
+Facteur de vitesse : 5
+Type de compétence : hache d'armes
+Type : arme à une main
+Nécessite : 10 en Force
+
+Poids : 5~
+
+@30002 = ~\+1~
+@30003 = ~+2~
+
+@30004 = ~\+2~
+@30005 = ~+1d6~
+
+///////////////////////////////////////////////////////////////////////////
+// Bastard Sword                                                         //
+///////////////////////////////////////////////////////////////////////////
+@30100 = ~\+1~
+@30101 = ~+1d6~
+
+///////////////////////////////////////////////////////////////////////////
+// Club                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@30200 = ~1d6\+2, \+3~
+@30201 = ~1d6+2, +10~
+
+@30202 = ~\+3~
+@30203 = ~+5~
+
+@30204 = ~PARAMÈTRES :~
+@30205 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance au feu : +20 %~
+
+@30206 = ~PARAMÈTRES :~
+@30207 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance au feu : +50 %~
+
+@30208 = ~5 %~
+@30209 = ~10 %~
+
+@30210 = ~\+3 dégâts d'acide~
+@30211 = ~+1d6 dégâts d'acide~
+
+///////////////////////////////////////////////////////////////////////////
+// Dagger                                                                //
+///////////////////////////////////////////////////////////////////////////
+@30300 = ~PARAMÈTRES :~
+@30301 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Mémorisation d'un sort supplémentaire de 1er, 2ème et 3ème niveau
+– Résistance Magique : +10 %~
+
+@30302 = ~\+1~
+@30303 = ~+2~
+
+@30304 = ~\+1~
+@30305 = ~+1d4~
+
+///////////////////////////////////////////////////////////////////////////
+// Flails                                                                //
+///////////////////////////////////////////////////////////////////////////
+@30400 = ~Capacités d'équipement :
+– Resistance magique : \+5 %
+– Action libre
+
+~
+@30401 = ~~
+
+///////////////////////////////////////////////////////////////////////////
+// Halberds                                                              //
+///////////////////////////////////////////////////////////////////////////
+@30500 = ~PARAMÈTRES :~
+@30501 = ~PARAMÈTRES :
+
+Capacités de combat :
+- 25 % de chances d'assommer son adversaire à chaque coup réussi (Jet de sauvegarde contre la mort pour annuler).~
+
+@30502 = ~1d10~
+@30503 = ~1d10 +4~
+
+@30504 = ~\+2 points~
+@30505 = ~+1d6 points~
+
+@30506 = ~\+2~
+@30507 = ~+3~
+
+@30508 = ~15 %~
+@30509 = ~50 %~
+
+///////////////////////////////////////////////////////////////////////////
+// Katanas                                                               //
+///////////////////////////////////////////////////////////////////////////
+@30600 = ~ (tranchant)~
+@30601 = ~, 2d10+6 contre les morts-vivants
+Type de dégâts : Tranchant~
+
+@30602 = ~Immunité contre toutes les formes de mort magique~
+@30603 = ~Immunité contre toutes les formes de mort magique
+
+Capacités de combat :
+– Les morts-vivants doivent réussir un jet de sauvegarde contre la mort à -4 ou être vaporisé~
+
+@30604 = ~ (tranchant)~
+@30605 = ~, 2d10+8 contre les morts-vivants
+Type de dégâts : Tranchant~
+
+@30606 = ~\+2~
+@30607 = ~+3~
+
+///////////////////////////////////////////////////////////////////////////
+// Long Sword                                                            //
+///////////////////////////////////////////////////////////////////////////
+@30700 = ~Rasoirnoir +4~
+@30701 = ~Améliorer par la magie de la Griffe du balor, Le Rasoirnoir est aujourd’hui plus effrayant que jamais et on ne sait toujours pas si c'est le porteur qui se sert de son arme ou le contraire. Le Rasoirnoir régénère lentement les points de vie de son propriétaire en drainant l'énergie de ses adversaires.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Régénère 1 Point de vie toutes les 5 secondes
+– Immunité au charme et à la peur
+
+Capacités de combat :
+– À chaque coup, l'épée a 25 % de chances d'absorber 4 niveaux de la cible, de régénérer 20 points de vie à son porteur, de le hâter pendant 20 secondes et d'augmenter sa force de 3 points pendant 20 secondes
+
+TAC0 : +4
+Dégâts :  1d8+4 (tranchant)
+Facteur de vitesse : 2
+Type de compétence : Épée longue
+Type : arme à une main
+Nécessite : 6 en Force
+
+Poids : 4~
+
+@30702 = ~\+2~
+@30703 = ~+3~
+
+@30704 = ~1d4~
+@30705 = ~+2d4~
+
+@30706 = ~\+1~
+@30707 = ~+1d8~
+
+@30708 = ~\+1~
+@30709 = ~+1d4~
+
+///////////////////////////////////////////////////////////////////////////
+// Mace                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@30800 = ~\+2~
+@30801 = ~+4~
+
+@30802 = ~\+1~
+@30803 = ~+3~
+
+@30804 = ~PARAMÈTRES :~
+@30805 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Sagesse : +2~
+
+@30806 = ~PARAMÈTRES :~
+@30807 = ~PARAMÈTRES :
+
+Capacités d'équipement : 
+– Chance de coup critique : +5 % (seulement avec cette arme)~
+
+@30808 = ~\+3~
+@30809 = ~-2~
+
+@30810 = ~5 %~
+@30811 = ~10 %~
+
+@30812 = ~\+1d6~
+@30813 = ~+2d4+1~
+
+@30814 = ~PARAMÈTRES :~
+@30815 = ~PARAMÈTRES :
+
+Capacités d'équipement : 
+– Chance de coup critique : +10 % (seulement avec cette arme)~
+
+@30816 = ~\+1~
+@30817 = ~+1d4~
+
+///////////////////////////////////////////////////////////////////////////
+// Morningstars                                                          //
+///////////////////////////////////////////////////////////////////////////
+@30900 = ~\+4~
+@30901 = ~-2~
+
+@30902 = ~\+1d4~
+@30903 = ~+1d8~
+
+///////////////////////////////////////////////////////////////////////////
+// Ninja-To                                                              //
+///////////////////////////////////////////////////////////////////////////
+@31000 = ~ (tranchant)~
+@31001 = ~, +1d8 dégâts d'électricité
+Type de dégâts : Tranchant~
+
+///////////////////////////////////////////////////////////////////////////
+// Quarterstaff                                                          //
+///////////////////////////////////////////////////////////////////////////
+@31100 = ~PARAMÈTRES :~
+@31101 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Sagesse : +2~
+
+@31102 = ~PARAMÈTRES :~
+@31103 = ~PARAMÈTRES :
+
+Capacités d'équipement : 
+– Classe d'armure : +1
+– Régénère 1 Point de vie par round~
+
+///////////////////////////////////////////////////////////////////////////
+// Scimitar                                                              //
+///////////////////////////////////////////////////////////////////////////
+@31200 = ~PARAMÈTRES :~
+@31201 = ~PARAMÈTRES :
+
+Capacités de combat :
+– Inflige 1d6 points de dégâts tranchants supplémentaires en cas de coup critique~
+
+@31202 = ~Perce-armure~
+@31203 = ~Critique~
+
+@31204 = ~\+10 au TAC0~
+@31205 = ~Tous les jets d'attaque effectués pendant que la capacité est active réussissent un 20 naturel, soit un coup critique.~
+
+@31206 = ~3 rounds~
+@31207 = ~1 round~
+
+@31208 = ~PARAMÈTRES :~
+@31209 = ~PARAMÈTRES :
+
+Capacités d'équipement : 
+– Chance de coup critique : +5 % (seulement avec cette arme)~
+
+@31210 = ~\+1d6~
+@31211 = ~+2d4+1~
+
+@31212 = ~\+1d4~
+@31213 = ~+1d8~
+
+@31214 = ~\+1~
+@31215 = ~+1d4~
+
+///////////////////////////////////////////////////////////////////////////
+// Short Sword                                                           //
+///////////////////////////////////////////////////////////////////////////
+@31300 = ~PARAMÈTRES :~
+@31301 = ~PARAMÈTRES :
+
+Capacités de combat :
+– Inflige 2 points de dégâts d'hémorragie à chaque coup (un point par round)~
+
+@31302 = ~PARAMÈTRES :~
+@31303 = ~PARAMÈTRES :
+
+Capacités d'équipement :  
+– Indétectable par des moyens magiques comme la détection de l'invisibilité et la scrutation.~
+
+@31304 = ~15 % de chance de drainer 1 niveau à chaque coup~
+@31305 = ~5 % de chance d'activer la capacité spéciale Assassinat pendant un round à chaque coup~
+
+@31306 = ~PARAMÈTRES :~
+@31307 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Chance : +1
+– Multiplicateur d'attaque sournoise : +1 (Uniquement pour les voleurs)~
+
+///////////////////////////////////////////////////////////////////////////
+// Spear                                                                 //
+///////////////////////////////////////////////////////////////////////////
+@31400 = ~\+1d4~
+@31401 = ~+1d8~
+
+@31402 = ~Capacités d'équipement :
+– Action libre
+
+~
+
+@31403 = ~Jet de sauvegarde contre la paralysie pour annuler~
+@31404 = ~Jet de sauvegarde contre la paralysie à -4 pour annuler~
+
+@31405 = ~Points de vie : \+8~
+@31406 = ~Points de vie : +8
+– +20 % de résistance aux dégâts tranchant, perforant et contondant~
+
+@31407 = ~\+ 4~
+@31408 = ~+1d8~
+
+///////////////////////////////////////////////////////////////////////////
+// Two-Handed Sword                                                      //
+///////////////////////////////////////////////////////////////////////////
+@31500 = ~50 %~
+@31501 = ~+25 %~
+
+@31502 = ~Capacités d'équipement :
+– Immunité au charme 
+
+Capacités de combat :
+– 50 % chance de dissiper la magie à chaque coup~
+
+@31503 = ~Capacités de combat :
+– Chaque coup draine 5 points de vie à la cible pour les ajouter au porteur, qui ne peut pas dépasser son maximum.
+– 10 % de chance de décapiter l'adversaire à chaque coup réussi (jet de sauvegarde contre la mort à -4 pour annuler)~
+
+@31504 = ~Épée d'argent +4~
+@31505 = ~Imprégnée par le Mercure liquide, l'épée vorpale s'améliore considérablement. Tirée de son fourreau, la lame semble être composée d'un fluide argenté, oscillant entre esprit et métal. 
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité à la confusion et à toutes les attaques psioniques
+– Immunité au charme 
+
+Capacités de combat :
+- 25 % de chance que la cible ait à réussir un Jet de Sauvegarde contre la mort à -4 ou mourir
+
+TAC0 : +4
+Dégâts : 1d10 +4 (tranchant)
+Facteur de vitesse : 7
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite :
+ 14 en Force
+
+Poids : 15~
+
+@31506 = ~\+1 dégât de froid~
+@31507 = ~+1d6 dégâts de froid~
+
+@31508 = ~\+5~
+@31509 = ~+4~
+
+@31510 = ~À chaque coup la cible doit réussir un Jet de Sauvegarde contre la mort à -5 ou perdre 1 niveau~
+@31511 = ~À chaque coup la cible perd 1 point de Force pendant 5 rounds~
+
+///////////////////////////////////////////////////////////////////////////
+// Wakisashi                                                             //
+///////////////////////////////////////////////////////////////////////////
+@31600 = ~– Classe d'Armure : \+1~
+@31601 = ~– Classe d'Armure : +1
+
+Capacités de combat :
+– 1 attaque supplémentaire par round~
+
+@31602 = ~round~
+@31603 = ~tour~

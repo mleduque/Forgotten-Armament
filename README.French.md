@@ -8,7 +8,7 @@
 
 **Auteur**: [morpheus562](https://www.gibberlings3.net/profile/11591-morpheus562/)
 
-**Sur le Web**: [Forum de discussion](https://www.gibberlings3.net/forums/topic/33923-forgotten-armament-beta/)
+**Sur le Web**: [Page du mod](https://www.gibberlings3.net/mods/items/forgotten_armament/) et [Forum de discussion](https://www.gibberlings3.net/forums/topic/33923-forgotten-armament-beta/)
 
 ## Introduction
 
@@ -26,6 +26,10 @@ Une liste des descriptions des objets se trouve [ici](https://github.com/Gibberl
 
 Une liste des emplacements des objets se trouve [ici](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-LOCATIONS.md).
 
+#### COMPOSANT OPTIONNEL - Mise à jour des objets existants en plus de l'ajout des nouveaux objets - EN DEVELOPPEMENT
+
+Ce composant secondaire et facultatif met à jour de nombreuses armes, armures et objets du jeu. Il est actuellement en développement actif...
+Une description des nouvelles statistiques pour les objets mis à jour est disponible [ici](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/UPDATED-ITEM-DESCRIPTIONS.md).
 
 ### Remplacer les Bottes de Rapidité (Les Pattes de Guepard)
 
@@ -37,7 +41,9 @@ Ce composant ajoute un couple de parchemins du sort Brèche au Bazar Magique de 
 
 ### Armes dans le style de NWN2
 
-Ce composant met à jour toutes les armes sur le modèle de Neverwinter Nights 2, incluant les dégâts, le type de dégâts et la portée et les dégâts critique. Il modifie toutes les armes ajoutées par les mods. Une description détaillée des nouvelles statistiques est disponible [ici](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/NWN2_STYLE_WEAPONS.md).
+Ce composant met à jour toutes les armes sur le modèle de Neverwinter Nights 2, incluant les dégâts, le type de dégâts et la portée et les dégâts critique. Il modifie toutes les armes ajoutées par les mods.
+
+Une description détaillée des nouvelles statistiques est disponible [ici](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/NWN2_STYLE_WEAPONS.md).
 
 ### Mise a jour des statistiques et scores de capacité des objets améliorés pour une meilleur integration
 

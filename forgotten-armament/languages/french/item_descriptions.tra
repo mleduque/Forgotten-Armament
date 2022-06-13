@@ -39,7 +39,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 - classe d'armure : +2
-- résistance aux dégâts projectiles : +10%
+- résistance aux dégâts projectiles : +10 %
 
 TAC0 : +2
 Dégâts : 1d8 +2 (tranchant)
@@ -60,8 +60,8 @@ Cette arme a été ouvragée par un maître-artisan et de minuscules runes magiq
 PARAMÈTRES :
 
 Capacités de combat :
-- 50% de chances d'infliger +1d3 points de dégâts d'électricité à chaque coup au but
-- 15% de chances d'étourdir la cible pendant 4 secondes à chaque coup au but
+- 50 % de chances d'infliger +1d3 points de dégâts d'électricité à chaque coup au but
+- 15 % de chances d'étourdir la cible pendant 4 secondes à chaque coup au but
 
 TAC0 : +2
 Dégâts : 1d8 +2 (tranchant)
@@ -149,7 +149,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 – Classe d'armure : +1
-– Résistance Magique : +5% 
+– Résistance Magique : +5 % 
 
 TAC0 : +2
 Dégâts : 2d4+2
@@ -172,7 +172,7 @@ Cette arme a été ouvragée par un maître-artisan et de minuscules runes magiq
 PARAMÈTRES :
 
 Capacités de combat :
-- 25% de chances d'infliger +2d3 points de dégâts de feu à chaque coup au but
+- 25 % de chances d'infliger +2d3 points de dégâts de feu à chaque coup au but
 
 TAC0 : +1
 Dégâts : 2d4 +1 (tranchant)
@@ -215,7 +215,7 @@ Poids : 5~
 PARAMÈTRES :
 
 Capacités de combat :
-– 20% de chance à chaque coup réussi de rendre la cible confuse pendant un round (JS contre les sorts annule l'effet)
+– 20 % de chance à chaque coup réussi de rendre la cible confuse pendant un round (JS contre les sorts annule l'effet)
 
 TAC0 : +2
 Dégâts : 2d4+2
@@ -325,7 +325,7 @@ Comme la plupart des dagues, celle-ci possède une lame pointue à double tranch
 PARAMÈTRES :
 
 Capacités de combat :
-- 50% de chances d'infliger +1d3 dégâts d'électricité à chaque coup au but
+- 50 % de chances d'infliger +1d3 dégâts d'électricité à chaque coup au but
 
 TAC0 : +1
 Dégâts : 1d4 +1 (perforant)
@@ -345,7 +345,7 @@ Poids : 1~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– +5% de chance de faire un coup critique.
+– +5 % de chance de faire un coup critique.
 
 Capacités de combat :
 – Inflige 2d10 dégâts perforant supplémentaires en cas de coup critique.
@@ -413,7 +413,7 @@ Le fléau d'armes est une solide poignée en bois attachée à une tringle en fe
 PARAMÈTRES :
 
 Capacités de combat :
-- 50% de chances d'infliger +1d4 points de dégâts perforants à chaque coup au but
+- 50 % de chances d'infliger +1d4 points de dégâts perforants à chaque coup au but
 
 TAC0 : +1
 Dégâts : 1d6 +2 (contondant)
@@ -476,7 +476,7 @@ Poids : 15~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– +5% de chance de faire un coup critique.
+– +5 % de chance de faire un coup critique.
 
 Capacités de combat :
 – Inflige 1d6 dégâts perforant supplémentaires en cas de coup critique.
@@ -583,7 +583,7 @@ Poids : 3~
 PARAMÈTRES :
 
 Capacités de combat :
-– 5% de chance à chaque coup réussi de rendre la cible étourdie pendant un round (JS contre les sorts annule l'effet)
+– 5 % de chance à chaque coup réussi de rendre la cible étourdie pendant un round (JS contre les sorts annule l'effet)
 
 THACO: +1
 Dégâts : 1d10+1
@@ -605,7 +605,7 @@ Poids : 3~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Résistance au feu : +10%
+– Résistance au feu : +10 %
 
 TAC0 : +2
 Dégâts : 1d10+2, +2 dégâts de feu
@@ -753,7 +753,7 @@ Cette arme reçoit parfois le nom d'épée à double tranchant, épée de guerre
 PARAMÈTRES :
 
 Capacités de combat :
-- 25% de chances d'infliger +2d6 dégâts perforants à chaque coup au but
+- 25 % de chances d'infliger +2d6 dégâts perforants à chaque coup au but
 
 TAC0 : +1
 Dégâts : 1d8 +1 (tranchant)
@@ -1005,10 +1005,10 @@ Force nécessaire : 6~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– +5% de chance de faire un coup critique.
+– +5 % de chance de faire un coup critique.
 
 Capacités de combat :
-– 10% de chance que la soit étourdie pendant 2 rounds. (Jet de sauvegarde contre la paralysie annule)
+– 10 % de chance que la soit étourdie pendant 2 rounds. (Jet de sauvegarde contre la paralysie annule)
 
 TAC0 : +2
 Dégâts : 1d8+2
@@ -1052,7 +1052,7 @@ Poids : 4~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Mémorisation d'un sort supplémentaire de 4ème, 5ème, 6ème niveau
+– Mémorisation d'un sort supplémentaire de 4ème, 5ème et 6ème niveau
 
 Capacités spéciales :
 – Charme-personnes une fois par jour ((JS contre les sorts à +3 annule l'effet)
@@ -1081,7 +1081,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 – Classe d'armure : +2
-– Résistance Magique : +10%
+– Résistance Magique : +10 %
 
 TAC0 : +3
 Dégâts : 1d6+3
@@ -1104,7 +1104,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 – Classe d'armure : +2
-– Résistance Magique : +10%
+– Résistance Magique : +10 %
 – Force : -2
 – Constitution : -2
 – Mémorisation d'un sort supplémentaire de 7ème et 8ème niveau
@@ -1200,7 +1200,7 @@ Poids :  4~
 PARAMÈTRES :
 
 Capacités de combat :
-– 10% de chance à chaque coup réussi de rendre la cible confuse pendant un round (JS contre les sorts annule l'effet)
+– 10 % de chance à chaque coup réussi de rendre la cible confuse pendant un round (JS contre les sorts annule l'effet)
 
 TAC0 : +2
 Dégâts : 1d8+2, +1 dégât de froid
@@ -1245,7 +1245,7 @@ L'épée courte est le premier type d'épée à être apparu. Grossièrement, on
 PARAMÈTRES :
 
 Capacités de combat :
-- 10% de chances de ralentir la cible pendant 2 rounds à chaque coup au but
+- 10 % de chances de ralentir la cible pendant 2 rounds à chaque coup au but
 
 TAC0 : +2
 Dégâts : 1d6 +2 (perforant)
@@ -1307,7 +1307,7 @@ Consacré par les prêtres de Malar voici plusieurs siècles, cet épieu est uti
 PARAMÈTRES :
 
 Capacités de combat :
-- 5% des attaques portées infligent 1d6 points de dégâts perforants supplémentaires en raison des barbillons qui ornent le fer
+- 5 % des attaques portées infligent 1d6 points de dégâts perforants supplémentaires en raison des barbillons qui ornent le fer
 
 TAC0 : +3
 Dégâts : 1d8 +3 (perforant)
@@ -1329,8 +1329,8 @@ PARAMÈTRES :
 Capacités de combat :
 – la cible doit réussir un JS contre les sorts ou être étourdie pendant un round
 
-TAC0 : +3
-Dégâts : 1d6+3, +1d4 dégâts d'acide
+TAC0 : +4
+Dégâts : 1d6+4, +1d4 dégâts d'acide
 Type de dégâts : Perforant
 Facteur de vitesse : 3
 Type de compétence : Lance 
@@ -1375,7 +1375,7 @@ L'épée à deux mains est un dérivé de l'épée longue. Les forgerons d'armes
 PARAMÈTRES :
 
 Capacités de combat :
-- 20% de chances d'étourdir la cible pendant 3 secondes à chaque coup au but
+- 20 % de chances d'étourdir la cible pendant 3 secondes à chaque coup au but
 
 TAC0 : +1
 Dégâts : 1d10 +1 (tranchant)
@@ -1398,7 +1398,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 
-- résistance au froid : +10%
+- résistance au froid : +10 %
 
 TAC0 : +1
 Dégâts : 1d10 +1 (tranchant)
@@ -1418,7 +1418,7 @@ Cette gigantesque épée à deux mains en os émet une faible aura bleutée. Il 
 PARAMÈTRES :
 
 Capacités de combat :
-- 20% de chances d'infliger +1d10 dégâts de froid
+- 20 % de chances d'infliger +1d10 dégâts de froid
 
 TAC0 : +3
 Dégâts : 1d10 +3 (tranchant)
@@ -1438,7 +1438,7 @@ Poids : 25~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Résistance Magique : +15%
+– Résistance Magique : +15 %
 
 Capacités spéciales :
 – Peau de pierre 1 fois par jour (une seule peau)
@@ -1532,7 +1532,7 @@ Poids : 2~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– +5% de chance de faire un coup critique.
+– +5 % de chance de faire un coup critique.
 
 Capacités de combat :
 – Inflige 1d10 dégâts perforant supplémentaires en cas de coup critique.
@@ -1637,7 +1637,7 @@ Comme tous les autres marteaux, celui-ci est intégralement en acier. Sa tête c
 PARAMÈTRES :
 
 Capacités de combat :
-- 30% de chances d'infliger 1d4 dégâts d'acide à chaque coup au but
+- 30 % de chances d'infliger 1d4 dégâts d'acide à chaque coup au but
 
 TAC0 : +2
 Dégâts : 1d4 +3 (contondant)
@@ -1770,7 +1770,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 - classe d'armure : 3
-- résistance aux dégâts physiques : +10%
+- résistance aux dégâts physiques : +10 %
 
 Poids : 5~
 
@@ -1785,7 +1785,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 - Classe d'armure : +2
-- Résistance à la magie : +5%
+- Résistance à la magie : +5 %
 - Score de connaissance : +5
 - Permet de mémoriser un sort de magicien de niveau 1 supplémentaire
 
@@ -1802,7 +1802,7 @@ PARAMÈTRES :
 Capacités d'équipement :
 – Classe d'armure : +1 
 – Jets de sauvegarde : +1
-– Résistance Magique : +10%
+– Résistance Magique : +10 %
 
 Poids : 4~
 
@@ -1817,7 +1817,7 @@ PARAMÈTRES :
 Capacités d'équipement :
 – Classe d'armure : +2 
 – Mémorisation d'un sort supplémentaire de 6ème niveau
-– Résistance Magique : +20%
+– Résistance Magique : +20 %
 
 Poids : 3~
 
@@ -1867,7 +1867,7 @@ Poids : 5~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– +5% resistance aux dégâts tranchants et perforants
+– +5 % resistance aux dégâts tranchants et perforants
 
 Classe d'armure : 6 (8 contre perforant et projectile)
 Nécessite :
@@ -1902,7 +1902,7 @@ Force nécessaire : 6~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Résistance au feu : +30%
+– Résistance au feu : +30 %
 
 Classe d'armure : 4 (2 contre tranchant, 3 contre perforant et projectile)
 Nécessite :
@@ -2072,7 +2072,7 @@ Poids : 25~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Résistance Magique : +10%
+– Résistance Magique : +10 %
 – Le porteur est immunisé au sort d'immobilisation des personnes.
 
 Classe d'armure : 1 (-2 contre les armes tranchantes)
@@ -2108,9 +2108,9 @@ Force nécessaire : 15~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Résistance au froid : +10%
-– Résistance à l'électricité : +10%
-– Résistance au feu : +10%
+– Résistance au froid : +10 %
+– Résistance à l'électricité : +10 %
+– Résistance au feu : +10 %
 
 Classe d'armure : 0 (-4 contre tranchant, -3 contre perforant et projectile)
 Nécessite :
@@ -2133,7 +2133,7 @@ Par la suite, elle rentra à Damarie et contacta les prêtres du temple d'où ve
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Resistance aux dégâts magiques : +5%
+– Resistance aux dégâts magiques : +5 %
 
 Classe d'armure : 0 (-4 contre tranchant, -3 contre perforant et projectile)
 Nécessite :
@@ -2259,7 +2259,7 @@ PARAMÈTRES :
 Capacités d'équipement :
 - Classe d'armure : +3 (+2 seulement contre les projectiles)
 - Jets de sauvegarde : +2
-- Résistance à la magie : +10%
+- Résistance à la magie : +10 %
 
 Nécessite : 4 en force
 
@@ -2274,7 +2274,7 @@ Poids : 4~
 Capacités d'équipement :
 – Classe d'armure : +3
 – Ne protège pas contre les projectiles
-– Résistance au froid : +20%
+– Résistance au froid : +20 %
 
 Nécessite :
  4 en force
@@ -2292,7 +2292,7 @@ PARAMÈTRES :
 Capacités d'équipement :
 – Classe d'armure : +3 (+2 contre les projectiles)
 – Ne protège pas contre les projectiles
-– +5% de résistance contre les dégâts tranchants, perforants et contondants
+– +5 % de résistance contre les dégâts tranchants, perforants et contondants
 
 Nécessite :
  4 en force
@@ -2328,7 +2328,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 - Classe d'armure : +3
-- Résistance à la magie : +25%
+- Résistance à la magie : +25 %
 
 Nécessite : 12 en force
 
@@ -2344,7 +2344,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 – Classe d'armure : +2
-– Résistance Magique : +10%
+– Résistance Magique : +10 %
 
 Nécessite :
  12 en force
@@ -2361,7 +2361,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 – Classe d'armure : +3
-– +10% de résistance contre les dégâts tranchants, perforants et contondants
+– +10 % de résistance contre les dégâts tranchants, perforants et contondants
 – Protège contre toute forme de terreur et renforce le moral
 
 Nécessite :
@@ -2421,7 +2421,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 – Classe d'armure : +4
-– Résistance Magique : +10%
+– Résistance Magique : +10 %
 – Immunité aux maladies
 
 Nécessite :
@@ -2459,8 +2459,8 @@ PARAMÈTRES :
 Capacités d'équipement :
 - Classe d'armure : +2, bonus de +1 contre les projectiles
 - Force : +1
-- Résistance aux dégâts tranchants : +10%
-- Résistance aux dégâts perforants : +10%
+- Résistance aux dégâts tranchants : +10 %
+- Résistance aux dégâts perforants : +10 %
 
 Nécessite : 14 en force
 
@@ -2592,9 +2592,9 @@ Ce petit talisman servait d'attache à la cape du célèbre guerrier Bron Balhon
 PARAMÈTRES :
 
 Capacités d'équipement :
-- résistance aux attaques tranchantes : +5%
-- résistance aux attaques perforantes : +5%
-- résistance aux attaques contondantes : +5%
+- résistance aux attaques tranchantes : +5 %
+- résistance aux attaques perforantes : +5 %
+- résistance aux attaques contondantes : +5 %
 
 Poids : 1~
 
@@ -2714,7 +2714,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 – Force : +2
-– +5% de résistance aux dégâts Tranchants, Perforants, et Contondants
+– +5 % de résistance aux dégâts Tranchants, Perforants, et Contondants
 
 Poids : 2~
 
@@ -2743,7 +2743,7 @@ Poids : 2~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Résistance Magique : +10%
+– Résistance Magique : +10 %
 
 
 Poids : 2~
@@ -2883,7 +2883,7 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 – Dextérité : +2
-– Résistance Magique : +10%
+– Résistance Magique : +10 %
 – Protège contre toute forme de terreur et renforce le moral.
 
 Poids : 4~
@@ -2946,8 +2946,8 @@ Le Nuage noir de Madion terrorisa le sud de la Côté des épées pendant cinq a
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Résistance au Feu : +5%
-– Résistance au Froid : +5%
+– Résistance au Feu : +5 %
+– Résistance au Froid : +5 %
 
 Poids : 3~
 
@@ -2978,7 +2978,7 @@ Poids : 3~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Résistance Magique : +10%
+– Résistance Magique : +10 %
 
 Capacités spéciales :
 – Globe mineur d'invulnérabilité une fois par jour
@@ -3117,7 +3117,7 @@ PARAMÈTRES :
 Capacités d'équipement :
 – Classe d'armure : +5
 – Mémorisation d'un sort supplémentaire de 8ème niveau.
-– Resistance aux dégâts magiques : +5%
+– Resistance aux dégâts magiques : +5 %
 
 Poids : 2~
 
@@ -3169,7 +3169,7 @@ Les pèlerins trouvèrent la caravane une heure plus tard, alors que les orques 
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Résistance aux dégâts Perforants : +5%
+– Résistance aux dégâts Perforants : +5 %
 
 Poids : 2~
 
@@ -3199,9 +3199,9 @@ Poids : 0~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– +5% de résistance aux dégâts Tranchants, Perforants, et Contondants
-– Résistance à l'Acide : +10%
-– Résistance au Feu : +10%
+– +5 % de résistance aux dégâts Tranchants, Perforants, et Contondants
+– Résistance à l'Acide : +10 %
+– Résistance au Feu : +10 %
 
 Poids : 2~
 
@@ -3214,7 +3214,7 @@ Poids : 2~
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Résistance Magique : +10%
+– Résistance Magique : +10 %
 – Immunité au charme
 – Immunité à la confusion
 
@@ -3246,7 +3246,7 @@ Cette pierre ionique a connu nombre de propriétaires durant les siècles passé
 PARAMÈTRES :
 
 Capacités d'équipement :
-- résistance à la magie : +5%
+- résistance à la magie : +5 %
 
 Poids : 0~
 
@@ -3318,6 +3318,6 @@ PARAMÈTRES :
 
 Capacités d'équipement :
 – Immunité contre le drainage de niveau
-– +10% de résistance aux dégâts Tranchants et Perforants
+– +10 % de résistance aux dégâts Tranchants et Perforants
 
 Poids : 0~
