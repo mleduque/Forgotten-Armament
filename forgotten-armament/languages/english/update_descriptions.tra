@@ -33,6 +33,21 @@ Weight: 5~
 @30100 = ~\+1~
 @30101 = ~+1d6~
 
+@30102 = ~, \+4 extra vs. chaotic evil~
+@30103 = ~~
+
+@30104 = ~\+30%
+
+Charge abilities:
+– Dispel Magic at level 20 twice per day
+  Range: 40 ft.
+  Area of Effect: 15-ft. radius
+
+– Mass Cure once per day
+  Special: Heals party members 1d8+20 Hit Points
+  Area of Effect: 15-ft. radius~
+@30105 = ~+20%~
+
 ///////////////////////////////////////////////////////////////////////////
 // Club                                                                  //
 ///////////////////////////////////////////////////////////////////////////

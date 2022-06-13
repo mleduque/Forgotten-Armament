@@ -101,17 +101,58 @@ OUTER_SPRINT newbast1 @30101
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Kondar                                                                //
-//                                                                       //
-///////////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////////////////
 // Purifier +4                                                           //
-//                                                                       //
+// Remove +4 extra damage vs. chaotic evil                               //
 ///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW1H64.ITM~ BEGIN
+OUTER_SPRINT oldbast2 @30102
+OUTER_SPRINT newbast2 @30103
+    
+    COPY_EXISTING ~SW1H64.ITM~ ~override~
+      LPF DELETE_EFFECT INT_VAR header_type = 1 match_opcode = 177 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldbast2%~ ~%newbast2%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
 
 ///////////////////////////////////////////////////////////////////////////
 // Purifier +5                                                           //
+// +20% Magic Resistance (previously +30%)                               //
+// Remove +5 extra damage vs. chaotic evil, Dispel Magic, and Mass Cure  //
+// Remove Dispel Magic and Mass Cure                                     //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~SW1H65.ITM~ BEGIN
+OUTER_SPRINT oldbast3 @30104
+OUTER_SPRINT newbast3 @30105
+
+    COPY_EXISTING ~SW1H65.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 166 parameter1 = 20 END
+      LPF DELETE_EFFECT INT_VAR header_type = 1 match_opcode = 177 END
+      LPF DELETE_EFFECT INT_VAR header_type = 1 match_opcode = 146 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldbast3%~ ~%newbast3%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Purifier +5                                                           //
+//                                                                       //
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Kondar                                                                //
 //                                                                       //
 ///////////////////////////////////////////////////////////////////////////
 
