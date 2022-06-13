@@ -1987,6 +1987,27 @@ OUTER_SPRINT newlbow3 @31905
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Taralash +4                                                           //
+// +4 Thac0 (previously +5) and +4 Damage (missile)                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BOW22.ITM~ BEGIN
+OUTER_SPRINT oldlbow4 @31906
+OUTER_SPRINT newlbow4 @31907
+
+    COPY_EXISTING ~BOW22.ITM~ ~override~
+      LPF ALTER_ITEM_HEADER INT_VAR header_type=4 thac0_bonus = 4 damage_bonus = 4 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldlbow4%~ ~%newlbow4%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Shortbow                                                              //
 ///////////////////////////////////////////////////////////////////////////

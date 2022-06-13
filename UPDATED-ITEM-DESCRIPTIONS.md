@@ -270,6 +270,9 @@
 - +4 missile Damage (previously +2)
 - Immunity to Charm and Confusion
 
+#### Taralash +4
+- +4 Thac0 (previously +5) and +4 Damage (missile)
+
 ### Shortbow
 
 ## Armors
