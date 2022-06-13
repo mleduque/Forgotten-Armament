@@ -361,6 +361,27 @@ OUTER_SPRINT newdagger3 @30305
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Acid-Etched Dagger +2                                                 //
+// +1d4 acid damage (previously +1)                                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BDDAGG05.ITM~ BEGIN
+OUTER_SPRINT olddagger4 @30306
+OUTER_SPRINT newdagger4 @30307
+
+    COPY_EXISTING ~BDDAGG05.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 parameter1 = 0 dicenumber = 1 dicesize = 4 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%olddagger4%~ ~%newdagger4%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 // Boneblade +4                                                          //
 ///////////////////////////////////////////////////////////////////////////
 

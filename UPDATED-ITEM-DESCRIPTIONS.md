@@ -49,6 +49,9 @@
 
 ### Daggers
 
+#### Acid-Etched Dagger +2
+- +1d4 acid damage (previously +1)
+
 #### Dagger of CHARNAME
 - Can memorize one extra 1st-level spell, one extra 2nd-level spell, and one extra 3rd-level spell
 - Magic Resistance: +20%
