@@ -7,6 +7,9 @@
 #### Azuredge
 - No alignment restriction to use
 
+#### Chill Axe +2
+- +1d4 cold damage (previously +1)
+
 #### Frostreaver +3
 - +2 cold and +2 acid damage (previously +1 each)
 

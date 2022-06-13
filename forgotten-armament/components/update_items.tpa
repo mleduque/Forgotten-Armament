@@ -74,6 +74,27 @@ OUTER_SPRINT newaxe2 @30005
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Chill Axe +2                                                          //
+// +1d4 cold damage (previously +1)                                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BDAX1H03.ITM~ BEGIN
+OUTER_SPRINT oldaxe3 @30006
+OUTER_SPRINT newaxe3 @30007
+
+    COPY_EXISTING ~BDAX1H03.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_headers = 1 match_opcode = 12 parameter1 = 0 dicenumber = 1 dicesize = 4 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldaxe3%~ ~%newaxe3%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Sword                                                         //
 ///////////////////////////////////////////////////////////////////////////
