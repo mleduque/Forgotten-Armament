@@ -969,6 +969,29 @@ OUTER_SPRINT newmorning2 @30903
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Blazing Glory +3                                                      //
+// +1d6 fire damage (previously +1)                                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BDBLUN09.ITM~ BEGIN
+OUTER_SPRINT oldmorning3 @30904
+OUTER_SPRINT newmorning3 @30905
+
+    COPY_EXISTING ~BDBLUN09.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 12 check_headers = 1 parameter1 = 0 dicenumber = 1 dicesize = 6 END
+
+        PATCH_FOR_EACH offset IN 0xc 0x54 BEGIN
+        READ_LONG ~%offset%~ desc_strref
+            PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+              READ_STRREF ~%offset%~ desc
+              INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                REPLACE_TEXTUALLY ~%oldmorning3%~ ~%newmorning3%~
+              END
+              SAY_EVALUATED ~%offset%~ ~%desc%~
+            END
+      END
+END
+
+///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Ninja-To                                                              //
 ///////////////////////////////////////////////////////////////////////////
