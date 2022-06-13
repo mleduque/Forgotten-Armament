@@ -51,6 +51,14 @@ Charge abilities:
 @30106 = ~, \+5 extra vs. chaotic evil~
 @30107 = ~~
 
+@30108 = ~\+20%~
+@30109 = ~+20%
+– Cleanses and protects the wielder and all allies within 15 feet from level drain.~
+
+@30110 = ~\+20%~
+@30111 = ~+20%
+– Cleanses and protects the wielder and all allies within 15 feet from the following status effects: confusion, disease, feeblemindedness, fear, level drain, and poison.~
+
 ///////////////////////////////////////////////////////////////////////////
 // Club                                                                  //
 ///////////////////////////////////////////////////////////////////////////

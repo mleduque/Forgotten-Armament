@@ -105,17 +105,23 @@ END
 // Remove +4 extra damage vs. chaotic evil                               //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H64.ITM~ BEGIN
+COPY ~forgotten-armament/eff/update_item/MO1H64.EFF~ ~override~
+COPY ~forgotten-armament/spl/update_item/MO1H64.SPL~ ~override~
 OUTER_SPRINT oldbast2 @30102
 OUTER_SPRINT newbast2 @30103
+OUTER_SPRINT oldbast5 @30108
+OUTER_SPRINT newbast5 @30109
     
     COPY_EXISTING ~SW1H64.ITM~ ~override~
       LPF DELETE_EFFECT INT_VAR header_type = 1 match_opcode = 177 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 177 target = 1 parameter1 = 0 parameter2 = 2 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR = ~MO1H64~ END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldbast2%~ ~%newbast2%~
+              REPLACE_TEXTUALLY ~%oldbast5%~ ~%newbast5%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
@@ -132,6 +138,8 @@ OUTER_SPRINT oldbast3 @30104
 OUTER_SPRINT newbast3 @30105
 OUTER_SPRINT oldbast4 @30106
 OUTER_SPRINT newbast4 @30107
+OUTER_SPRINT oldbast6 @30110
+OUTER_SPRINT newbast6 @30111
 
     COPY_EXISTING ~SW1H65.ITM~ ~override~
       LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 166 parameter1 = 20 END
@@ -142,6 +150,7 @@ OUTER_SPRINT newbast4 @30107
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldbast3%~ ~%newbast3%~
+              REPLACE_TEXTUALLY ~%oldbast6%~ ~%newbast6%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
