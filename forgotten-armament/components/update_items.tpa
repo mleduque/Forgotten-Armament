@@ -2196,8 +2196,26 @@ OUTER_SPRINT newrobe4 @32207
     END
 END
 
+///////////////////////////////////////////////////////////////////////////
+// Robes of Vecna                                                        //
+// +3 Bonus to AC (previously set AC to 5)                               //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~WA2ROBE.ITM~ BEGIN
+OUTER_SPRINT oldrobe5 @32208
+OUTER_SPRINT newrobe5 @32209
 
+    COPY_EXISTING ~WA2ROBE.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 0 parameter1 = 3 parameter2 = 0 END
 
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldrobe5%~ ~%newrobe5%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
 
 // Dakkon Zerth 5% chance per hit of restoring a spell
 // Bracers: Mintassan's Miraculous Bracers, Red Guard, Clasps of the Devoted, Bracers of the Inner Planes
