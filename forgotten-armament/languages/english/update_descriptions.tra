@@ -475,6 +475,11 @@ Equipped abilities:
 @31907 = ~THAC0: +4
 Damage: +4 (missile)~
 
+@31908 = ~THAC0: \+6~
+@31909 = ~THAC0: +5
+Damage: 1d6+5, +2 magic damage
+Damage type: Missile~
+
 
 ///////////////////////////////////////////////////////////////////////////
 // Shortbow                                                              //

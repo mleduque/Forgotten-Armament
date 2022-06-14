@@ -1885,7 +1885,7 @@ OUTER_SPRINT oldhamm3 @31704
 OUTER_SPRINT newhamm3 @31705
 
     COPY_EXISTING ~HAMM07.ITM~ ~override~
-      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 1 target = 2 parameter1 = 0 parameter2 = 262144 timing = 1 resist_dispel = 0 probability1 = 100 dicenumber = 1 dicesize = 6 special = 1 END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 1 target = 2 parameter1 = 0 parameter2 = 262144 timing = 1 resist_dispel = 0 probability1 = 100 dicenumber = 1 dicesize = 6 END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
@@ -2005,6 +2005,31 @@ OUTER_SPRINT newlbow4 @31907
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Taralash +5                                                           //
+// +5 Thac0 (previously +6) and +5 Damage (missile)                      //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BOW24.ITM~ BEGIN
+OUTER_SPRINT oldlbow5 @31908
+OUTER_SPRINT newlbow5 @31909
+
+    COPY_EXISTING ~BOW24.ITM~ ~override~
+      LPF ALTER_ITEM_HEADER INT_VAR header_type = 4 thac0_bonus = 5 damage_bonus = 5 dicenumber = 1 projectile = 102 END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 4 target = 2 parameter1 = 2 parameter2 = 4194304 timing = 1 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EFFECT INT_VAR opcode = 12 type = 2 target = 2 parameter1 = 2 parameter2 = 4194304 timing = 1 resist_dispel = 0 probability1 = 100 END
+      LPF ALTER_ITEM_HEADER INT_VAR header_type = 2 thac0_bonus = 5 damage_bonus = 5 dicenumber = 1 projectile = 102 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldlbow5%~ ~%newlbow5%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+
 END
 
 ///////////////////////////////////////////////////////////////////////////
