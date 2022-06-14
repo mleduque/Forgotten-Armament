@@ -2228,7 +2228,8 @@ OUTER_SPRINT oldrobe7 @32212
 OUTER_SPRINT newrobe7 @32213
 
     COPY_EXISTING ~CLCK13.ITM~ ~override~
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 0 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 36 END
+      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 0 parameter2 = 0 END
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 166 target = 1 parameter1 = 5 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 63 timing = 2 resist_dispel = 0 probability1 = 100 END
 
