@@ -2166,8 +2166,11 @@ OUTER_SPRINT newrobe2 @32203
           END
 END
 
-
-
+///////////////////////////////////////////////////////////////////////////
+// Robe of the Evil Archmagi                                             //
+// +5 Bonus to AC (previously set AC to 5)                               //
+// +10% Magic Resistance (previously +5%)                                //
+///////////////////////////////////////////////////////////////////////////
 
 
 
