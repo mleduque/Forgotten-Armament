@@ -500,3 +500,10 @@ Combat abilities:
 Equipped abilities:
 – Detect Illusion: +10%
 – Find Traps: +10%~
+
+///////////////////////////////////////////////////////////////////////////
+// Robe                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@32200 = ~– Armor Class: \+1 vs. crushing attacks
+– Save vs. Petrification/Polymorph: \+1~
+@32201 = ~– +5% resistance to slashing, piercing, and crushing damage~

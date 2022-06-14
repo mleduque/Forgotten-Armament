@@ -285,6 +285,9 @@
 
 ### Robes
 
+#### Adventurer's Robe
+- +5% resistance to slashing, piercing, and crushing damage
+
 ### Leather Armors
 
 ### Studded Leather Armors
