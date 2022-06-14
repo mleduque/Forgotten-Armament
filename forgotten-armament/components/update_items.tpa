@@ -2111,12 +2111,13 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Protector of the Dryads +2                                            //
+// +10% to Detect Illusions and Find Traps                               //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~BOW08.ITM~ BEGIN
 OUTER_SPRINT oldsbow1 @32000
 OUTER_SPRINT newsbow1 @32001
     
-    COPY_EXISTING ~BOW23.ITM~ ~override~
+    COPY_EXISTING ~BOW08.ITM~ ~override~
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 276 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 91 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
 

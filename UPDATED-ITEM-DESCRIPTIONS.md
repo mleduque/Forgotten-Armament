@@ -278,6 +278,9 @@
 
 ### Shortbow
 
+#### Protector of the Dryads +2
+- +10% to Detect Illusions and Find Traps
+
 ## Armors
 
 ### Robes
