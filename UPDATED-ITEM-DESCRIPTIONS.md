@@ -273,6 +273,9 @@
 #### Taralash +4
 - +4 Thac0 (previously +5) and +4 Damage (missile)
 
+#### Taralash +5
+- When no arrows are equipped, the longbow fires missiles that are treated as +5 for the purposes of determining what enemies they can damage. The arrows receive +5 to hit and deal a total of 1d6+5 missile and 2 magic damage.
+
 ### Shortbow
 
 ## Armors

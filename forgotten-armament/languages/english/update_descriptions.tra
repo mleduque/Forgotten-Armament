@@ -482,6 +482,15 @@ Damage type: Missile~
 
 @31910 = ~Nonmagical Arrows~
 
+@31911 = ~and powerful.~
+@31912 = ~and powerful. With the bowstring of Gond, Taralash will never run out enchanted arrows, so there is no need for ammunition.~
+
+@31913 = ~STATISTICS:~
+@31914 = ~STATISTICS:
+
+Combat abilities:
+– When no arrows are equipped, the longbow fires missiles that are treated as +5 for the purposes of determining what enemies they can damage. The arrows receive +5 to hit, including the bonus listed below, and deal a total of 1d6+5 missile and 2 magic damage.~
+
 
 ///////////////////////////////////////////////////////////////////////////
 // Shortbow                                                              //

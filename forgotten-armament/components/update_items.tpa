@@ -2014,6 +2014,10 @@ END
 ACTION_IF FILE_EXISTS_IN_GAME ~BOW23.ITM~ BEGIN
 OUTER_SPRINT oldlbow5 @31908
 OUTER_SPRINT newlbow5 @31909
+OUTER_SPRINT oldlbow6 @31911
+OUTER_SPRINT newlbow6 @31912
+OUTER_SPRINT oldlbow7 @31913
+OUTER_SPRINT newlbow7 @31914
 OUTER_SET arow01_name = RESOLVE_STR_REF (@31910)
 
     COPY_EXISTING ~arow01.itm~ ~override~
@@ -2091,6 +2095,8 @@ OUTER_SET arow01_name = RESOLVE_STR_REF (@31910)
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldlbow5%~ ~%newlbow5%~
+              REPLACE_TEXTUALLY ~%oldlbow6%~ ~%newlbow6%~
+              REPLACE_TEXTUALLY ~%oldlbow7%~ ~%newlbow7%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
