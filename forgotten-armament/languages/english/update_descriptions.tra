@@ -480,6 +480,8 @@ Damage: +4 (missile)~
 Damage: 1d6+5, +2 magic damage
 Damage type: Missile~
 
+@31910 = ~Nonmagical Arrows~
+
 
 ///////////////////////////////////////////////////////////////////////////
 // Shortbow                                                              //
