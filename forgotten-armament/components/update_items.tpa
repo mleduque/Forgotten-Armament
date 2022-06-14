@@ -2145,6 +2145,8 @@ END
 ACTION_IF FILE_EXISTS_IN_GAME ~CLCK14.ITM~ BEGIN
 OUTER_SPRINT oldrobe1 @32200
 OUTER_SPRINT newrobe1 @32201
+OUTER_SPRINT oldrobe2 @32202
+OUTER_SPRINT newrobe2 @32203
   
     COPY_EXISTING ~CLCK14.ITM~ ~override~
       LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 0 END
@@ -2158,6 +2160,7 @@ OUTER_SPRINT newrobe1 @32201
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldrobe1%~ ~%newrobe1%~
+              REPLACE_TEXTUALLY ~%oldrobe2%~ ~%newrobe2%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
