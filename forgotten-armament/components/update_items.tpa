@@ -2143,8 +2143,8 @@ END
 // +5% Damage Resistance to all physical damage                          //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~CLCK14.ITM~ BEGIN
-OUTER_SPRINT oldrobe1 @32000
-OUTER_SPRINT newrobe1 @32001
+OUTER_SPRINT oldrobe1 @32200
+OUTER_SPRINT newrobe1 @32201
   
     COPY_EXISTING ~CLCK14.ITM~ ~override~
       LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 0 END
