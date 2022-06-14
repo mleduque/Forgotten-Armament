@@ -2217,5 +2217,31 @@ OUTER_SPRINT newrobe5 @32209
           END
 END
 
+///////////////////////////////////////////////////////////////////////////
+// Traveler's Robe                                                       //
+// +1 AC, +5% Magic Resistance                                           //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~CLCK13.ITM~ BEGIN
+OUTER_SPRINT oldrobe6 @32210
+OUTER_SPRINT newrobe6 @32211
+OUTER_SPRINT oldrobe7 @32212
+OUTER_SPRINT newrobe7 @32213
+
+    COPY_EXISTING ~CLCK13.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 0 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 166 target = 1 parameter1 = 5 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 63 timing = 2 resist_dispel = 0 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldrobe6%~ ~%newrobe6%~
+              REPLACE_TEXTUALLY ~%oldrobe7%~ ~%newrobe7%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
 // Dakkon Zerth 5% chance per hit of restoring a spell
 // Bracers: Mintassan's Miraculous Bracers, Red Guard, Clasps of the Devoted, Bracers of the Inner Planes

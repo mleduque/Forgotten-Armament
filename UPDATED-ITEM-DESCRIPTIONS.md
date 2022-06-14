@@ -288,6 +288,18 @@
 #### Adventurer's Robe
 - +5% resistance to slashing, piercing, and crushing damage
 
+#### Traveler's Robe
+- Remove all previous stats
+- +1 Bonus to AC
+- +5% Magic Resistance
+
+#### Robes of the <Good/Neutral/Evil> Archmagi
+- +5 Bonus to AC (previously set AC to 5)
+- +10% Magic Resistance (previously +5%)
+
+#### Robes of Vecna
+- +3 Bonus to AC (previously set AC to 5)
+
 ### Leather Armors
 
 ### Studded Leather Armors

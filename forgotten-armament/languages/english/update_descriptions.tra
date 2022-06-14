@@ -519,3 +519,11 @@ Equipped abilities:
 
 @32208 = ~Armor Class: 5~
 @32209 = ~Armor Class: +3~
+
+@32210 = ~Its enchantments provide protection from the bandit's arrow and from the jealous mage/thief that lies in ambush with his Stinking Cloud.~
+@32211 = ~Its enchantments provide protection from a bandit's attack or a jealous spellcaster that lies in ambush.~
+
+@32212 = ~\+1 vs. missile attacks
+– Save vs. Breath: +1~
+@32213 = ~+1
+– Magic Resistance: +5%~
