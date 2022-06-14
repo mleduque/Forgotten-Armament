@@ -491,9 +491,12 @@ Damage type: Missile~
 Combat abilities:
 – When no arrows are equipped, the longbow fires missiles that are treated as +5 for the purposes of determining what enemies they can damage. The arrows receive +5 to hit, including the bonus listed below, and deal a total of 1d6+5 missile and 2 magic damage.~
 
-
 ///////////////////////////////////////////////////////////////////////////
 // Shortbow                                                              //
 ///////////////////////////////////////////////////////////////////////////
-@32000 = ~~
-@32001 = ~~
+@32000 = ~STATISTICS:~
+@32001 = ~STATISTICS:
+
+Equipped abilities:
+– Detect Illusion: +10%
+– Find Traps: +10%~

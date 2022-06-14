@@ -2109,5 +2109,26 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
+///////////////////////////////////////////////////////////////////////////
+// Protector of the Dryads +2                                            //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BOW08.ITM~ BEGIN
+OUTER_SPRINT oldsbow1 @32000
+OUTER_SPRINT newsbow1 @32001
+    
+    COPY_EXISTING ~BOW23.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 276 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 91 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldsbow1%~ ~%newsbow1%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
 // Dakkon Zerth 5% chance per hit of restoring a spell
 // Bracers: Mintassan's Miraculous Bracers, Red Guard, Clasps of the Devoted, Bracers of the Inner Planes
