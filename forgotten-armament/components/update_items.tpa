@@ -2355,7 +2355,6 @@ END
 // Movement rate increased by 2                                          //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~LEAT09.ITM~ BEGIN
-COPY ~forgotten-armament/eff/update_item/MO1H10.EFF~ ~override/MOLT17.EFF~
 OUTER_SPRINT oldleat3 @32404
 OUTER_SPRINT newleat3 @32405
 
@@ -2367,6 +2366,27 @@ OUTER_SPRINT newleat3 @32405
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldleat3%~ ~%newleat3%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Protector of the Second                                               //
+//                                           //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~LEAT03.ITM~ BEGIN
+OUTER_SPRINT oldleat4 @32406
+OUTER_SPRINT newleat4 @32407
+
+    COPY_EXISTING ~LEAT03.ITM~ ~override~
+      //LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 126 target = 1 parameter1 = 2 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldleat4%~ ~%newleat4%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
