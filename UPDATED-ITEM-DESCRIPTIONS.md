@@ -320,6 +320,11 @@
 
 ### Chain Mail Armors
 
+### Splint Mail Armors
+
+#### Ashen Scales +2
+- Save vs. Paralyze/Poison/Death: +4
+
 ### Plate Mail Armors
 
 ### Full Plate Mail Armors

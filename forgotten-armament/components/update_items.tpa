@@ -2395,6 +2395,7 @@ OUTER_SPRINT newleat3 @32405
           END
 END
 
+/*
 ///////////////////////////////////////////////////////////////////////////
 // Protector of the Second                                               //
 //                                           //
@@ -2411,6 +2412,28 @@ OUTER_SPRINT newleat4 @32407
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldleat4%~ ~%newleat4%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+*/
+
+///////////////////////////////////////////////////////////////////////////
+// Ashen Scales +2                                                       //
+// Save vs. Paralyze/Poison/Death: +4                                    //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~CHAN19.ITM~ BEGIN
+OUTER_SPRINT oldsplint1 @32700
+OUTER_SPRINT newsplint1 @32701
+
+    COPY_EXISTING ~CHAN19.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 33 target = 1 parameter1 = 4 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldsplint1%~ ~%newsplint1%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
