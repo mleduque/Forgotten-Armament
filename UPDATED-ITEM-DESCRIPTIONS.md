@@ -288,6 +288,10 @@
 #### Adventurer's Robe
 - +5% resistance to slashing, piercing, and crushing damage
 
+#### Knave's Robe
+- Each time the wearer is hit, there is a 10% chance of him/her turning invisible
+- While hidden or invisible, the wearer is non-detectable by magical means such as Detect Invisibility and scrying
+
 #### Traveler's Robe
 - Remove all previous stats
 - +1 Bonus to AC

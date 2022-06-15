@@ -2270,28 +2270,32 @@ END
 // Knave's Robe                                                          //
 // 10% chance of turning invisible when hit, Non-Detection               //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF FILE_EXISTS_IN_GAME ~CLCK12.ITM~ BEGIN
+ACTION_IF FILE_EXISTS_IN_GAME ~CLCK12.ITM~ OR FILE_EXISTS_IN_GAME ~CLCK18.ITM~ BEGIN
 OUTER_SPRINT oldrobe8 @32214
 OUTER_SPRINT newrobe8 @32215
 OUTER_SPRINT oldrobe9 @32216
 OUTER_SPRINT newrobe9 @32217
 
-    COPY_EXISTING ~CLCK12.ITM~ ~override~
-      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 0 END
-      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 33 END
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 232 target = 1 parameter1 = 0 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 9 STR_VAR resource = ~spwi206~ END
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 31 timing = 2 resist_dispel = 0 probability1 = 100 END
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 69 target = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
+    ACTION_FOR_EACH robe IN 2 8 BEGIN
+      ACTION_IF FILE_EXISTS_IN_GAME ~CLCK1%robe%.ITM~ BEGIN
+        COPY_EXISTING ~CLCK1%robe%.ITM~ ~override~
+          LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 0 END
+          LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 33 END
+          LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 232 target = 1 parameter1 = 0 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 9 STR_VAR resource = ~spwi206~ END
+          LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 31 timing = 2 resist_dispel = 0 probability1 = 100 END
+          LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 69 target = 1 timing = 2 resist_dispel = 0 probability1 = 100 END
 
-      READ_LONG 0x54 desc_strref
-          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
-            READ_STRREF 0x54 desc
-            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-              REPLACE_TEXTUALLY ~%oldrobe8%~ ~%newrobe8%~
-              REPLACE_TEXTUALLY ~%oldrobe9%~ ~%newrobe9%~
-            END
-            SAY_EVALUATED 0x54 ~%desc%~
-          END
+          READ_LONG 0x54 desc_strref
+              PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+                READ_STRREF 0x54 desc
+                INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                  REPLACE_TEXTUALLY ~%oldrobe8%~ ~%newrobe8%~
+                  REPLACE_TEXTUALLY ~%oldrobe9%~ ~%newrobe9%~
+                END
+                SAY_EVALUATED 0x54 ~%desc%~
+              END
+      END
+    END
 END
 
 
