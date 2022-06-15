@@ -548,11 +548,25 @@ Equipped abilities:
 ///////////////////////////////////////////////////////////////////////////
 // Leather Armor                                                         //
 ///////////////////////////////////////////////////////////////////////////
-@32300 = ~~ 
+@32300 = ~STATISTICS:~
+@32301 = ~STATISTICS:
+
+Equipped abilities:
+– Hide In Shadows: +10%
+– Move Silently: +10%
+– Backstab Multiplier: +1 (Thieves only)~ 
 
 ///////////////////////////////////////////////////////////////////////////
 // Studded Leather Armor                                                 //
 ///////////////////////////////////////////////////////////////////////////
-@32400 = ~– Hide In Shadows: +15%~
+@32400 = ~– Hide In Shadows: \+15%~
 @32401 = ~– Hide In Shadows: +15%
 – Move Silently: +15%~
+
+@32402 = ~STATISTICS:~
+@32403 = ~STATISTICS:
+
+Equipped abilities:
+– Hide In Shadows: +10%
+– Move Silently: +10%
+– Backstab Multiplier: +1 (Thieves only)~ 

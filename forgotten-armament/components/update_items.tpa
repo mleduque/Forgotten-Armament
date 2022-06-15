@@ -2309,8 +2309,8 @@ END
 // Move Silently: +15%                                                   //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~LEAT08.ITM~ BEGIN
-OUTER_SPRINT oldsleat1 @32400
-OUTER_SPRINT newsleat1 @32401
+OUTER_SPRINT oldleat1 @32400
+OUTER_SPRINT newleat1 @32401
 
     COPY_EXISTING ~LEAT08.ITM~ ~override~
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 59 target = 1 probability1 = 15 probability2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
@@ -2319,7 +2319,32 @@ OUTER_SPRINT newsleat1 @32401
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-              REPLACE_TEXTUALLY ~%oldsleat1%~ ~%newsleat1%~
+              REPLACE_TEXTUALLY ~%oldleat1%~ ~%newleat1%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Armor of the Deep Night +4                                            //
+// Hide in Shadows and Move Silently: +10%                               //
+// Backstab Multiplier: +1 (Thieves only)                                //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~LEAT17.ITM~ BEGIN
+COPY ~forgotten-armament/eff/update_item/MO1H10.EFF~ ~override/MOLT17.EFF~
+OUTER_SPRINT oldleat2 @32402
+OUTER_SPRINT newleat2 @32403
+
+    COPY_EXISTING ~LEAT17.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 275 target = 1 probability1 = 10 probability2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 59 target = 1 probability1 = 10 probability2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 177 target = 1 parameter1 = 205 parameter2 = 5 timing = 2 resist_dispel = 0 probability1 = 100 STR_VAR resource = ~molt17~ END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldleat2%~ ~%newleat2%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END

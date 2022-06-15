@@ -311,6 +311,9 @@
 
 ### Studded Leather Armors
 
+#### Shadow Armor +3
+- Move Silently: +15%
+
 ### Chain Mail Armors
 
 ### Plate Mail Armors
