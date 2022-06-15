@@ -578,6 +578,11 @@ Equipped abilities:
 @32601 = ~Spellcasting is not disabled
 – Saving Throws: +1~
 
+@32602 = ~Spellcasting is not disabled~
+@32603 = ~Spellcasting is not disabled
+– Vocalize
+– Bard song effects linger on for 2 additional rounds after the bard stops singing~
+
 
 ///////////////////////////////////////////////////////////////////////////
 // Splint Mail Armor                                                     //

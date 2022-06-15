@@ -333,6 +333,8 @@
 - Saving Throws: +1
 
 #### Melodic Chain +3
+- Vocalize
+- Bard song effects linger on for 2 additional rounds after the bard stops singing
 - Saving Throws: +1
 
 #### Sylvan Chain +2
