@@ -897,7 +897,7 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Storm Star +5                                                         //
-// +2d4+1 electrical damage                                                //
+// +2d4+1 electrical damage                                              //
 // 10% chance of chain lightning                                         //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~BLUN29.ITM~ BEGIN
@@ -1383,7 +1383,7 @@ OUTER_SPRINT newshort4 @31307
 END
 
 ///////////////////////////////////////////////////////////////////////////
-// Short Sword of Singing                                                //
+// The Whistling Sword                                                   //
 // Vocalize                                                              //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H09.ITM~ BEGIN
@@ -2304,6 +2304,26 @@ OUTER_SPRINT newrobe9 @32217
     END
 END
 
+///////////////////////////////////////////////////////////////////////////
+// Shadow Armor +3                                                       //
+// Move Silently: +15%                                                   //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~LEAT08.ITM~ BEGIN
+OUTER_SPRINT oldsleat1 @32400
+OUTER_SPRINT newsleat1 @32401
+
+    COPY_EXISTING ~LEAT08.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 59 target = 1 probability1 = 15 probability2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldsleat1%~ ~%newsleat1%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
 
 // Dakkon Zerth 5% chance per hit of restoring a spell
 // Bracers: Mintassan's Miraculous Bracers, Red Guard, Clasps of the Devoted, Bracers of the Inner Planes

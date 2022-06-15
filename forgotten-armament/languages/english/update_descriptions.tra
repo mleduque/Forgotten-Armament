@@ -544,3 +544,15 @@ Equipped abilities:
 
 @32216 = ~shield its wearer from the blades and poisons of any darkened alley. ~
 @32217 = ~turn the user invisible when struck in combat and to ensure <PRO_HESHE> is undetectable by magical means.~
+
+///////////////////////////////////////////////////////////////////////////
+// Leather Armor                                                         //
+///////////////////////////////////////////////////////////////////////////
+@32300 = ~~ 
+
+///////////////////////////////////////////////////////////////////////////
+// Studded Leather Armor                                                 //
+///////////////////////////////////////////////////////////////////////////
+@32400 = ~– Hide In Shadows: +15%~
+@32401 = ~– Hide In Shadows: +15%
+– Move Silently: +15%~

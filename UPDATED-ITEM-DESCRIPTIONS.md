@@ -193,6 +193,9 @@
 - Luck +1
 - Backstab Multiplier: +1 (Thieves only)
 
+#### The Whistling Sword
+- Vocalize
+
 ### Spears
 
 #### Ixil's Spike +6
