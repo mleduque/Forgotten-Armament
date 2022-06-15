@@ -2419,7 +2419,7 @@ END
 */
 
 ///////////////////////////////////////////////////////////////////////////
-// Elven Chain                                                           //
+// ALL Elven Chain                                                       //
 // Saving Throws: +1                                                     //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~CHAN12.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN13.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN14.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN15.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN16.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN19.ITM~ BEGIN

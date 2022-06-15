@@ -320,10 +320,22 @@
 
 ### Chain Mail Armors
 
+#### Aslyferund Elven Chain +5
+- Saving Throws: +1
+
+#### Bladesinger Chain +4
+- Saving Throws: +1
+
 #### Elven Chain +1
 - Saving Throws: +1
 
 #### Elven Chain Mail
+- Saving Throws: +1
+
+#### Melodic Chain +3
+- Saving Throws: +1
+
+#### Sylvan Chain +2
 - Saving Throws: +1
 
 ### Splint Mail Armors
