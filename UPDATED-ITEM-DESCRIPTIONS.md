@@ -338,6 +338,8 @@
 - Saving Throws: +1
 
 #### Sylvan Chain +2
+- Movement rate increased by 2 (base is 9)
+- Improves casting speed by 1
 - Saving Throws: +1
 
 ### Splint Mail Armors

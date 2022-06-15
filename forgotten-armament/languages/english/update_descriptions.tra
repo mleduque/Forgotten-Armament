@@ -583,6 +583,11 @@ Equipped abilities:
 – Vocalize
 – Bard song effects linger on for 2 additional rounds after the bard stops singing~
 
+@32604 = ~Spellcasting is not disabled~
+@32605 = ~Spellcasting is not disabled
+– Movement rate increased by 2 (base is 9)
+– Improves casting speed by 1~
+
 
 ///////////////////////////////////////////////////////////////////////////
 // Splint Mail Armor                                                     //
