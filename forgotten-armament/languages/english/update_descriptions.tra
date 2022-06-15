@@ -574,8 +574,8 @@ Equipped abilities:
 ///////////////////////////////////////////////////////////////////////////
 // Chain Mail Armor                                                      //
 ///////////////////////////////////////////////////////////////////////////
-@32600 = ~Equipped abilities:~
-@32601 = ~Equipped abilities:
+@32600 = ~Spellcasting is not disabled~
+@32601 = ~Spellcasting is not disabled
 – Saving Throws: +1~
 
 
