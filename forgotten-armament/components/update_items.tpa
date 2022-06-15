@@ -1382,17 +1382,23 @@ OUTER_SPRINT newshort4 @31307
           END
 END
 
-/*
 ///////////////////////////////////////////////////////////////////////////
 // Short Sword of Singing                                                //
-//                                                                       //
+// Vocalize                                                              //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SW1H09.ITM~ BEGIN
 OUTER_SPRINT oldshort5 @31308
 OUTER_SPRINT newshort5 @31309
+OUTER_SET silenced = RESOLVE_STR_REF (@31310)
+OUTER_SET silence = RESOLVE_STR_REF (@31311)
 
     COPY_EXISTING ~SW1H09.ITM~ ~override~
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = ~%silenced%~ timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = ~%silence%~ timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 103 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 101 target = 1 parameter2 = 38 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 = 34 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 48 target = 1 timing = 1 resist_dispel = 2 probability1 = 100 END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
@@ -1403,7 +1409,7 @@ OUTER_SPRINT newshort5 @31309
             SAY_EVALUATED 0x54 ~%desc%~
           END
 END
-*/
+
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 // Spear                                                                 //
