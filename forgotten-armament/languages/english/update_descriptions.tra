@@ -3,23 +3,11 @@
 ///////////////////////////////////////////////////////////////////////////
 // Axe                                                                   //
 ///////////////////////////////////////////////////////////////////////////
-@30000 = ~Battle Axe of Mauletar +2~
-@30001 = ~During the Tethyrian civil war, the Battle Axe of Mauletar was in the possession of the house of Ossyind. This noble family was betrayed while trying to flee the country, and Mauletar, lead guard and personal friend, took up the axe and sacrificed himself to buy enough time for his companions to flee. His battle cry was favored by the gods and was echoed across the lands as a symbol of devoted friendship and loyalty. Thus, the magical axe was used to uphold these virtues against those who lacked honor and courage.
-
-STATISTICS:
+@30000 = ~STATISTICS:~
+@30001 = ~STATISTICS:
 
 Equipped abilities: 
-– Immunity to fear
-
-THAC0: +2
-Damage: 1d8+2 (slashing)
-Speed Factor: 5
-Proficiency Type: Axe
-Type: One-handed
-Requires:
- 10 Strength
-
-Weight: 5~
+– Immunity to fear~
 
 @30002 = ~\+1~
 @30003 = ~+2~
@@ -29,6 +17,9 @@ Weight: 5~
 
 @30006 = ~\+1 cold~
 @30007 = ~+1d4 cold~
+
+@30008 = ~Panic~
+@30009 = ~Morale Failure: Panic~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Sword                                                         //

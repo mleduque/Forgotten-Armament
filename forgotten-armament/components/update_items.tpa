@@ -17,11 +17,33 @@
 // Fear Immunity                                                         //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~AX1H03.ITM~ BEGIN
-    COPY ~forgotten-armament/itm/update/AX1H03.ITM~ ~override~
-        SAY NAME1 @10000
-        SAY NAME2 @30000
-        SAY UNIDENTIFIED_DESC @10001
-        SAY DESC @30001
+OUTER_SPRINT oldaxe4 @30000
+OUTER_SPRINT newaxe4 @30001
+OUTER_SET panic = RESOLVE_STR_REF (@30008)
+OUTER_SET morale = RESOLVE_STR_REF (@30009)
+
+    COPY_EXISTING ~AX1H03.ITM~ ~override~
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = ~%panic%~ timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = ~%morale%~ timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 37 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 101 target = 1 parameter2 = 24 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 101 target = 1 parameter2 = 23 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 101 target = 1 parameter2 = 106 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 296 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 STR_VAR resource = ~cdhorror~END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 106 target = 1 parameter1 = 1 parameter2 = 1 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 = 36 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 161 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 240 target = 1 parameter2 = 36 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 23 target = 1 timing = 2 resist_dispel = 2 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldaxe4%~ ~%newaxe4%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
 END
 
 ///////////////////////////////////////////////////////////////////////////
