@@ -348,6 +348,12 @@ Equipped abilities:
 – Luck: +1
 – Backstab Multiplier: +1 (Thieves only)~
 
+@31308 = ~STATISTICS:~
+@31309 = ~STATISTICS:
+
+Equipped abilities:
+– Vocalize~
+
 ///////////////////////////////////////////////////////////////////////////
 // Spear                                                                 //
 ///////////////////////////////////////////////////////////////////////////
@@ -527,3 +533,11 @@ Equipped abilities:
 – Save vs. Breath: \+1~
 @32213 = ~+1
 – Magic Resistance: +5%~
+
+@32214 = ~Armor Class: \+1 vs. slashing attacks
+– Save vs. Death: \+1~
+@32215 = ~Each time the wearer is hit, there is a 10% chance of <PRO_HIMHER> turning invisible
+– While hidden or invisible, the wearer is non-detectable by magical means such as Detect Invisibility and scrying~
+
+@32216 = ~shield its wearer from the blades and poisons of any darkened alley. ~
+@32217 = ~turn the user invisible when struck in combat and to ensure <PRO_HESHE> is undetectable by magical means.~
