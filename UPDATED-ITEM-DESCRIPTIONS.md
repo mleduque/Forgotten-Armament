@@ -321,6 +321,8 @@
 ### Chain Mail Armors
 
 #### Aslyferund Elven Chain +5
+- Remove immunity to normal weapons
+- Physical Damage Resistance: +10%
 - Saving Throws: +1
 
 #### Bladesinger Chain +4
