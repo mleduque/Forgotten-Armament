@@ -309,6 +309,14 @@
 
 ### Leather Armors
 
+#### Armor of the Deep Night +4
+- Hide In Shadows: +10%
+- Move Silently: +10%
+- Backstab Multiplier: +1 (Thieves only)
+
+#### Karajah's Life and Death +3
+- Movement rate increased by 2 (base is 9)
+
 ### Studded Leather Armors
 
 #### Shadow Armor +3
