@@ -2422,11 +2422,11 @@ END
 // Elven Chain                                                           //
 // Saving Throws: +1                                                     //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF FILE_EXISTS_IN_GAME ~CHAN12.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN13.ITM~ BEGIN
+ACTION_IF FILE_EXISTS_IN_GAME ~CHAN12.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN13.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN14.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN15.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN16.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN19.ITM~ BEGIN
 OUTER_SPRINT oldchain1 @32600
 OUTER_SPRINT newchain1 @32601
 
-    ACTION_FOR_EACH chain IN 2 3 BEGIN
+    ACTION_FOR_EACH chain IN 2 3 4 5 6 9 BEGIN
       ACTION_IF FILE_EXISTS_IN_GAME ~CHAN1%chain%.ITM~ BEGIN
         COPY_EXISTING ~CHAN1%chain%.ITM~ ~override~
           LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 33 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
