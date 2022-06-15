@@ -2419,14 +2419,43 @@ END
 */
 
 ///////////////////////////////////////////////////////////////////////////
+// Elven Chain                                                           //
+// Saving Throws: +1                                                     //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~CHAN12.ITM~ OR FILE_EXISTS_IN_GAME ~CHAN13.ITM~ BEGIN
+OUTER_SPRINT oldchain1 @32600
+OUTER_SPRINT newchain1 @32601
+
+    ACTION_FOR_EACH chain IN 2 3 BEGIN
+      ACTION_IF FILE_EXISTS_IN_GAME ~CHAN1%chain%.ITM~ BEGIN
+        COPY_EXISTING ~CHAN1%chain%.ITM~ ~override~
+          LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 33 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+          LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 34 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+          LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 35 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+          LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 36 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+          LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 37 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
+
+          READ_LONG 0x54 desc_strref
+              PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+                READ_STRREF 0x54 desc
+                INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+                  REPLACE_TEXTUALLY ~%oldchain1%~ ~%newchain1%~
+                END
+                SAY_EVALUATED 0x54 ~%desc%~
+              END
+      END
+    END
+END
+
+///////////////////////////////////////////////////////////////////////////
 // Ashen Scales +2                                                       //
 // Save vs. Paralyze/Poison/Death: +4                                    //
 ///////////////////////////////////////////////////////////////////////////
-ACTION_IF FILE_EXISTS_IN_GAME ~CHAN19.ITM~ BEGIN
+ACTION_IF FILE_EXISTS_IN_GAME ~CHAN17.ITM~ BEGIN
 OUTER_SPRINT oldsplint1 @32700
 OUTER_SPRINT newsplint1 @32701
 
-    COPY_EXISTING ~CHAN19.ITM~ ~override~
+    COPY_EXISTING ~CHAN17.ITM~ ~override~
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 33 target = 1 parameter1 = 4 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
 
       READ_LONG 0x54 desc_strref

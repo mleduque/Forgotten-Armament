@@ -320,6 +320,12 @@
 
 ### Chain Mail Armors
 
+#### Elven Chain +1
+- Saving Throws: +1
+
+#### Elven Chain Mail
+- Saving Throws: +1
+
 ### Splint Mail Armors
 
 #### Ashen Scales +2
