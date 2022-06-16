@@ -334,6 +334,11 @@
 #### Elven Chain Mail
 - Saving Throws: +1
 
+#### Jester's Chain +4
+- Cold Resistance: +10%
+- Fire Resistance: +10%
+- Electrical Resistance: +10%
+
 #### Melodic Chain +3
 - Vocalize
 - Bard song effects linger on for 2 additional rounds after the bard stops singing
