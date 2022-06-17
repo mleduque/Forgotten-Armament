@@ -2699,7 +2699,7 @@ END
 
 ///////////////////////////////////////////////////////////////////////////
 // Red Dragon Plate                                                      //
-// Electrical Resistance: +40% (previously +50%)                         //
+// Fire Resistance: +40% (previously +50%)                               //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~PLAT18.ITM~ BEGIN
 OUTER_SPRINT oldplate4 @32906

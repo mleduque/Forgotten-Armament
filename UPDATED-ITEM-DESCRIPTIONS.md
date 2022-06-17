@@ -362,15 +362,18 @@
 #### Delver's Plate +2
 - Saving Throws: +1
 
+#### Red Dragon Plate
+- Fire Resistance: +40% (previously +50%)
+
 ### Full Plate Mail Armors
+
+#### Blue Dragon Plate
+- Electrical Resistance: +40% (previously +90%)
 
 #### Plate of Balduran
 - Remove Hit Point Bonus
 - Charisma: +3 (previously +1)
 - Regenerate 1 Hit Point per round
-
-#### Blue Dragon Plate
-- Electrical Resistance: +40% (previously +90%)
 
 ## Shields
 
