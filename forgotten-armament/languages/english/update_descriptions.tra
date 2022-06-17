@@ -613,3 +613,11 @@ Equipped abilities:
 
 Equipped abilities:
 – Save vs. Paralyze/Poison/Death: +4~
+
+///////////////////////////////////////////////////////////////////////////
+// Plate Armor                                                           //
+///////////////////////////////////////////////////////////////////////////
+@32900 = ~Charisma: \+1
+– Hit Points: \+4~
+@32901 = ~Charisma: +3
+– Regenerate 1 Hit Point per round~

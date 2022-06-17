@@ -2575,6 +2575,16 @@ OUTER_SPRINT newchain6 @32611
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// Crimson Chain +5                                                      //
+//              //
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
+// Mail of the Dead +2                                                   //
+//             //
+///////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////
 // Ashen Scales +2                                                       //
 // Save vs. Paralyze/Poison/Death: +4                                    //
 ///////////////////////////////////////////////////////////////////////////
@@ -2590,6 +2600,31 @@ OUTER_SPRINT newsplint1 @32701
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldsplint1%~ ~%newsplint1%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Plate of Balduran                                                     //
+// Remove Hit Point Bonus                                                //
+// Charisma: +3 (previously +1) and Regenerate 1 Hit Point per round     //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~WA2PLAT.ITM~ BEGIN
+OUTER_SPRINT oldplate1 @32900
+OUTER_SPRINT newplate1 @32901
+
+    COPY_EXISTING ~WA2PLAT.ITM~ ~override~
+      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 18 END
+      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 6 parameter1 = 3 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 87 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 89 target = 1 parameter1 = 6 parameter2 = 3 timing = 2 resist_dispel = 0 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldplate1%~ ~%newplate1%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
