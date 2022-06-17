@@ -356,7 +356,15 @@
 
 ### Plate Mail Armors
 
+#### Delver's Plate +2
+- Saving Throws: +1
+
 ### Full Plate Mail Armors
+
+#### Plate of Balduran
+- Remove Hit Point Bonus
+- Charisma: +3 (previously +1)
+- Regenerate 1 Hit Point per round
 
 ## Shields
 
