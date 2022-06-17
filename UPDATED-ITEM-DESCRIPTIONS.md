@@ -365,6 +365,10 @@
 #### Delver's Plate +2
 - Saving Throws: +1
 
+#### Doomplate +3
+- Luck: -1
+- Slashing Resistance: +10%
+
 #### Red Dragon Plate
 - Fire Resistance: +40% (previously +50%)
 
