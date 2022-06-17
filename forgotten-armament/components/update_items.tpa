@@ -2676,6 +2676,26 @@ OUTER_SPRINT newplate2 @32903
           END
 END
 
+///////////////////////////////////////////////////////////////////////////
+// Blue Dragon Plate                                                     //
+// Electrical Resistance: +40% (previously +90%)                         //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~PLAT20.ITM~ BEGIN
+OUTER_SPRINT oldplate3 @32904
+OUTER_SPRINT newplate3 @32905
+
+    COPY_EXISTING ~PLAT20.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 29 parameter1 = 40 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldplate3%~ ~%newplate3%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
 /*************************************************************************/
 ///////////////////////////////////////////////////////////////////////////
 // UPDATE SHIELDS                                                        //
