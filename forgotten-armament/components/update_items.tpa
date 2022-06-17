@@ -2618,7 +2618,7 @@ OUTER_SPRINT newplate1 @32901
       LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 18 END
       LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 6 parameter1 = 3 END
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 87 timing = 2 resist_dispel = 0 probability1 = 100 END
-      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 89 target = 1 parameter1 = 6 parameter2 = 3 timing = 2 resist_dispel = 0 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 98 target = 1 parameter1 = 6 parameter2 = 3 timing = 2 resist_dispel = 0 probability1 = 100 END
 
       READ_LONG 0x54 desc_strref
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
