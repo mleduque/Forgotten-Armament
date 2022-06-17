@@ -389,6 +389,9 @@
 - Infravision up to 120 ft.
 - Cold Resistance: +15%
 
+#### Pride of the Legion +2
+- Immunity to level drain
+
 ## Shields
 
 ### Bucklers
