@@ -382,6 +382,10 @@
 - Charisma: +3 (previously +1)
 - Regenerate 1 Hit Point per round
 
+#### Plate of the Dark +1
+- Infravision up to 120 ft.
+- Cold Resistance: +15%
+
 ## Shields
 
 ### Bucklers
