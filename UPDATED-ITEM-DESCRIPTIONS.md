@@ -369,6 +369,9 @@
 - Luck: -1
 - Slashing Resistance: +10%
 
+#### Fallorain's Plate +1
+- Immunity to poison
+
 #### Red Dragon Plate
 - Fire Resistance: +40% (previously +50%)
 
