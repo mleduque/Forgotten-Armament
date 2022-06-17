@@ -2606,6 +2606,27 @@ OUTER_SPRINT newsplint1 @32701
 END
 
 ///////////////////////////////////////////////////////////////////////////
+// White Dragon Scale                                                    //
+// Cold Resistance: +40% (previously +50%)                               //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~CHAN20.ITM~ BEGIN
+OUTER_SPRINT oldsplint2 @32702
+OUTER_SPRINT newsplint2 @32703
+
+    COPY_EXISTING ~CHAN20.ITM~ ~override~
+      LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 28 parameter1 = 40 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldsplint2%~ ~%newsplint2%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
 // Plate of Balduran                                                     //
 // Remove Hit Point Bonus                                                //
 // Charisma: +3 (previously +1) and Regenerate 1 Hit Point per round     //

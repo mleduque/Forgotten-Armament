@@ -354,6 +354,9 @@
 #### Ashen Scales +2
 - Save vs. Paralyze/Poison/Death: +4
 
+#### White Dragon Scale
+- Cold Resistance: +40% (previously +50%)
+
 ### Plate Mail Armors
 
 #### Delver's Plate +2
