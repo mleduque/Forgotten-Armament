@@ -2739,6 +2739,34 @@ OUTER_SPRINT newplate4 @32907
           END
 END
 
+///////////////////////////////////////////////////////////////////////////
+// Enkidu's Plate                                                        //
+// Remove Magic Resistance and Immunity to Backstab                      //
+// +10% resistance to slashing and piercing                              //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~PLAT21.ITM~ BEGIN
+OUTER_SPRINT oldplate5 @32908
+OUTER_SPRINT newplate5 @32909
+OUTER_SPRINT oldplate6 @32910
+OUTER_SPRINT newplate6 @32911
+
+    COPY_EXISTING ~PLAT21.ITM~ ~override~
+      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 142 END
+      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 292 END
+      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 166 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 86 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 88 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
+
+      READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldplate5%~ ~%newplate5%~
+              REPLACE_TEXTUALLY ~%oldplate6%~ ~%newplate6%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
 /*************************************************************************/
 ///////////////////////////////////////////////////////////////////////////
 // UPDATE SHIELDS                                                        //

@@ -373,6 +373,10 @@
 #### Blue Dragon Plate
 - Electrical Resistance: +40% (previously +90%)
 
+#### Enkidu's Plate
+- Remove Magic Resistance and Immunity to Backstab
+- +10% resistance to slashing and piercing
+
 #### Plate of Balduran
 - Remove Hit Point Bonus
 - Charisma: +3 (previously +1)
