@@ -678,3 +678,9 @@ Equipped abilities:
 
 @32925 = ~Poison~
 @32926 = ~Poisoned~
+
+@32927 = ~Dexterity: \+1
+– Fire Resistance: \+20%~
+@32928 = ~Extra 1/2 attack per round
+– Luck: +1
+– Movement rate increased by 2 (base is 9)~

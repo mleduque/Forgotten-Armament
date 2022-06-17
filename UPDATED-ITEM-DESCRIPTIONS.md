@@ -399,6 +399,11 @@
 #### Pride of the Legion +2
 - Immunity to level drain
 
+#### Shuruppak's Plate
+- Extra 1/2 attack per round
+- Luck: +1
+- Movement rate increased by 2 (base is 9)
+
 ## Shields
 
 ### Bucklers
