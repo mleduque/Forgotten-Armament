@@ -370,6 +370,9 @@
 
 ### Full Plate Mail Armors
 
+#### Armor of the Hart +3
+- Immunity to fear
+
 #### Blue Dragon Plate
 - Electrical Resistance: +40% (previously +90%)
 
