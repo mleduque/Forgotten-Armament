@@ -318,6 +318,9 @@
 #### Shadow Armor +3
 - Move Silently: +15%
 
+#### Shadow Dragon Scale
+- Acid Resistance: +40% (previously +50%)
+
 ### Chain Mail Armors
 
 #### Aslyferund Elven Chain +5
