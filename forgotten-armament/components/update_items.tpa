@@ -2957,7 +2957,7 @@ OUTER_SPRINT newshield1 @33300
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-              REPLACE_TEXTUALLY ~%oldplate12%~ ~%newplate12%~
+              REPLACE_TEXTUALLY ~%oldshield1%~ ~%newshield1%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
