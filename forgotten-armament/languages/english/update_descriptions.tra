@@ -684,3 +684,10 @@ Equipped abilities:
 @32928 = ~Extra 1/2 attack per round
 – Luck: +1
 – Movement rate increased by 2 (base is 9)~
+
+///////////////////////////////////////////////////////////////////////////
+// Shields                                                               //
+///////////////////////////////////////////////////////////////////////////
+@33300 = ~\+4 vs. missile attacks~
+@33301 = ~+4 vs. missile attacks
+– +10% resistance to missile damage~

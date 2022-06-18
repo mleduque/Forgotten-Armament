@@ -414,6 +414,9 @@
 
 ### Large Shields
 
+#### Shield of the Falling Stars +1
+- +10% resistance to missile damage
+
 ## Accessories
 
 ### Amulets
