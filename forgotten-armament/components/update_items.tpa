@@ -2948,7 +2948,7 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~SHLD07.ITM~ BEGIN
 OUTER_SPRINT oldshield1 @33300
-OUTER_SPRINT newshield1 @33300
+OUTER_SPRINT newshield1 @33301
 
     COPY_EXISTING ~SHLD07.ITM~ ~override~
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 89 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
