@@ -3,22 +3,11 @@
 ///////////////////////////////////////////////////////////////////////////
 // Axe                                                                   //
 ///////////////////////////////////////////////////////////////////////////
-@30000 = ~Hache d'armes de Mauletar +2~
-@30001 = ~Pendant la guerre civile de Téthyr, la hache d'armes de Mauletar était entre les mains de la maison d'Ossyind. Cette famille de nobles fut trahie alors qu'elle essayait de fuir le pays. Mauletar, garde en chef et ami personnel de la famille, se saisit de la hache et se sacrifia pour laisser le temps à ses compagnons de s'enfuir. Son cri de bataille eut la faveur des dieux et son écho se répercuta à travers les terres comme un symbole d'amitié et de loyauté. La hache magique sert à préserver ces vertus, contre ceux qui n'ont ni honneur ni courage.
-
-PARAMÈTRES :
+@30000 = ~PARAMÈTRES :~
+@30001 = ~PARAMÈTRES :
 
 Capacités d'équipement :
-- Immunité contre la peur
-
-TAC0 : +2
-Dégâts : 1d8 +2 (tranchant)
-Facteur de vitesse : 5
-Type de compétence : hache d'armes
-Type : arme à une main
-Nécessite : 10 en Force
-
-Poids : 5~
+- Immunité contre la peur~
 
 @30002 = ~\+1~
 @30003 = ~+2~
@@ -26,11 +15,43 @@ Poids : 5~
 @30004 = ~\+2~
 @30005 = ~+1d6~
 
+@30006 = ~\+1 dégât de froid~
+@30007 = ~+1d4 dégâts de froid~
+
+@30008 = ~Panique~
+@30009 = ~Perte de moral : Panique~
+
 ///////////////////////////////////////////////////////////////////////////
 // Bastard Sword                                                         //
 ///////////////////////////////////////////////////////////////////////////
 @30100 = ~\+1~
 @30101 = ~+1d6~
+
+@30102 = ~, \+4 points de dégâts supplémentaires contre les adversaires chaotiques mauvais~
+@30103 = ~~
+
+@30104 = ~\+30 %
+
+Capacités de charge :
+- Dissipation de la magie de niveau 20, deux fois par jour
+  Portée : 12 m
+  Zone d'effet : rayon de 4,5 m
+
+- Guérison de masse une fois par jour
+  Spécial : soigne les membres du groupe de 1d8+20 points de vie
+  Zone d'effet : rayon de 4,5 m~
+@30105 = ~+20 %~
+
+@30106 = ~, \+5 points de dégâts supplémentaires contre les adversaires chaotiques mauvais~
+@30107 = ~~
+
+@30108 = ~\+20 %~
+@30109 = ~+20 %
+– Purifie et protège le porteur ainsi que tous ses alliés contre le drainage de niveau dans un rayon de 4,5 m.~
+
+@30110 = ~\+20 %~
+@30111 = ~+20 %
+– Purifie et protège le porteur ainsi que tous ses alliés contre les effets suivants : confusion, maladie, débilité mentale, peur, drainage de niveau et poison.~
 
 ///////////////////////////////////////////////////////////////////////////
 // Club                                                                  //
@@ -75,6 +96,12 @@ Capacités d'équipement :
 @30304 = ~\+1~
 @30305 = ~+1d4~
 
+@30306 = ~ (acide)~
+@30307 = ~+1d4 dégâts d'acide~
+
+@30308 = ~+1d4 dégâts  de feu~
+@30309 = ~ dégâts de feu~
+
 ///////////////////////////////////////////////////////////////////////////
 // Flails                                                                //
 ///////////////////////////////////////////////////////////////////////////
@@ -83,7 +110,11 @@ Capacités d'équipement :
 – Action libre
 
 ~
-@30401 = ~~
+@30401 = ~PARAMÈTRES :~
+@30402 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– +10% de résistance contre les dégâts tranchants, perforants et contondants~
 
 ///////////////////////////////////////////////////////////////////////////
 // Halberds                                                              //
@@ -106,6 +137,9 @@ Capacités de combat :
 @30508 = ~15 %~
 @30509 = ~50 %~
 
+@30510 = ~\+1d2~
+@30511 = ~+1d4~
+
 ///////////////////////////////////////////////////////////////////////////
 // Katanas                                                               //
 ///////////////////////////////////////////////////////////////////////////
@@ -125,6 +159,9 @@ Type de dégâts : Tranchant~
 
 @30606 = ~\+2~
 @30607 = ~+3~
+
+@30608 = ~\+1 dégâts d'acide~
+@30609 = ~+1d4 dégâts d'acide~
 
 ///////////////////////////////////////////////////////////////////////////
 // Long Sword                                                            //
@@ -161,6 +198,9 @@ Poids : 4~
 
 @30708 = ~\+1~
 @30709 = ~+1d4~
+
+@30710 = ~\+1d3 (acide)~
+@30711 = ~+1d6 dégâts d'acide~
 
 ///////////////////////////////////////////////////////////////////////////
 // Mace                                                                  //
@@ -209,6 +249,10 @@ Capacités d'équipement :
 
 @30902 = ~\+1d4~
 @30903 = ~+1d8~
+
+@30904 = ~ (contondant) \+1 (feu)~
+@30905 = ~, +1d6 dégâts  de feu
+Type de dégâts : Contondant~
 
 ///////////////////////////////////////////////////////////////////////////
 // Ninja-To                                                              //
@@ -266,6 +310,9 @@ Capacités d'équipement :
 @31214 = ~\+1~
 @31215 = ~+1d4~
 
+@31216 = ~\+1 dégât de feu~
+@31217 = ~+1d4 dégât de feu~
+
 ///////////////////////////////////////////////////////////////////////////
 // Short Sword                                                           //
 ///////////////////////////////////////////////////////////////////////////
@@ -291,6 +338,15 @@ Capacités d'équipement :
 – Chance : +1
 – Multiplicateur d'attaque sournoise : +1 (Uniquement pour les voleurs)~
 
+@31308 = ~PARAMÈTRES :~
+@31309 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Vocaliser~
+
+@31310 = ~Réduit au silence~
+@31311 = ~Silence~
+
 ///////////////////////////////////////////////////////////////////////////
 // Spear                                                                 //
 ///////////////////////////////////////////////////////////////////////////
@@ -312,18 +368,20 @@ Capacités d'équipement :
 @31407 = ~\+ 4~
 @31408 = ~+1d8~
 
+@31409 = ~\+2 dégâts de poison~
+@31410 = ~+1d4 dégâts de poison~
+
 ///////////////////////////////////////////////////////////////////////////
 // Two-Handed Sword                                                      //
 ///////////////////////////////////////////////////////////////////////////
 @31500 = ~50 %~
-@31501 = ~+25 %~
+@31501 = ~+10 %~
 
 @31502 = ~Capacités d'équipement :
 – Immunité au charme 
 
 Capacités de combat :
 – 50 % chance de dissiper la magie à chaque coup~
-
 @31503 = ~Capacités de combat :
 – Chaque coup draine 5 points de vie à la cible pour les ajouter au porteur, qui ne peut pas dépasser son maximum.
 – 10 % de chance de décapiter l'adversaire à chaque coup réussi (jet de sauvegarde contre la mort à -4 pour annuler)~
@@ -359,6 +417,14 @@ Poids : 15~
 @31510 = ~À chaque coup la cible doit réussir un Jet de Sauvegarde contre la mort à -5 ou perdre 1 niveau~
 @31511 = ~À chaque coup la cible perd 1 point de Force pendant 5 rounds~
 
+@31512 = ~PARAMÈTRES :~
+@31513 = ~PARAMÈTRES :
+
+Capacités de combat :
+– En cas de coup critique, le porteur bénéficie d'un bonus de 1 à la Force pendant 2 rounds (non cumulables).~
+
+@31514 = ~+25 %~
+
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //
 ///////////////////////////////////////////////////////////////////////////
@@ -370,3 +436,258 @@ Capacités de combat :
 
 @31602 = ~round~
 @31603 = ~tour~
+
+///////////////////////////////////////////////////////////////////////////
+// War Hammer                                                            //
+///////////////////////////////////////////////////////////////////////////
+@31700 = ~\+1~
+@31701 = ~+1d4~
+
+@31702 = ~\+5 dégâts d'électricité~
+@31703 = ~+2d4+1 dégâts d'électricité~
+
+@31704 = ~ (contondant)~
+@31705 = ~, +1d6 dégâts d'électricité
+Type de dégâts : Contondant~   
+
+@31706 = ~\+1d4~
+@31707 = ~+1d6~
+
+///////////////////////////////////////////////////////////////////////////
+// Longbow                                                               //
+///////////////////////////////////////////////////////////////////////////
+@31900 = ~TAC0: \+4~
+@31901 = ~TAC0: +3
+Dégâts : +3 (projectile)~
+
+@31902 = ~PARAMÈTRES :~
+@31903 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité à la confusion
+– Immunité au charme~
+
+@31904 = ~\+2 (projectile)~
+@31905 = ~+4 (projectile)~
+
+@31906 = ~TAC0: \+5~
+@31907 = ~TAC0: +4
+Dégâts : +4 (projectile)~
+
+@31908 = ~TAC0: \+6~
+@31909 = ~TAC0: +5
+Dégâts : 1d6+5, +2 dégâts de magie
+Type de dégâts : Projectile~
+
+@31910 = ~Flèches non magique~
+
+@31911 = ~et plus puissant.~
+@31912 = ~et plus puissant. Désormais Taralash ne sera jamais à court de flèches enchantées et n'a donc plus besoin de munitions.~
+
+@31913 = ~PARAMÈTRES :~
+@31914 = ~PARAMÈTRES :
+
+Capacités de combat :
+– Lorsque aucune flèche n'est équipée, cet arc long tire des projectiles considérés comme +5 pour déterminer le type d'ennemis qu'ils peuvent toucher. Les flèches bénéficieront d'un bonus de 5 au toucher, ainsi que les bonus indiqués ci-dessous, elles infligeront un total de 1d6+5 points de dégâts de projectiles et 2 points de dégâts magiques.~
+
+///////////////////////////////////////////////////////////////////////////
+// Shortbow                                                              //
+///////////////////////////////////////////////////////////////////////////
+@32000 = ~PARAMÈTRES ~
+@32001 = ~PARAMÈTRES 
+
+Capacités d'équipement :
+– Detection des Illusions : +10 %
+– Detection des pièges : +10 %~
+
+///////////////////////////////////////////////////////////////////////////
+// Robe                                                                  //
+///////////////////////////////////////////////////////////////////////////
+@32200 = ~– Classe d'armure : \+1 contre les armes contondantes
+– Jet de sauvegarde contre la Pétrification/Métamorphose : \+1~
+@32201 = ~– +5 % de résistance contre les dégâts tranchants, perforants et contondants~
+
+@32202 = ~Cette robe a été spécialement enchantée pour satisfaire les besoins éclectiques du mage aventurier. Elle protège non seulement contre diverses formes de dégâts contondants, mais aussi contre le regard pétrifiant du Basilic et les pouvoirs de métamorphoses des mages rivaux. Tout comme d'autres robes de ce type, la robe de l'aventurier ne peut être portée que par ceux qui suivent la voie du magicien.~
+@32203 = ~Autrefois, Vangerdahast l'ancien magicien royal du roi Azoun IV de Cormyr était un aventurier accompli et de grande renommée. La raison principale de sa popularité parmi les sorciers était « la Robe d'Aventurier », une de ses créations les plus appréciées. Les mages ont toujours lutté pour lever les restrictions imposées par leur capacité à lancer des sorts. En absorbant une partie des dégâts reçus, ces robes donnent au mage un atout supplémentaire pour survivre aux mauvaises rencontres avec des combattants spécialisés en combats rapprochés.~
+
+@32204 = ~Classe d'armure : 5~
+@32205 = ~Classe d'armure : +5~
+
+@32206 = ~Résistance à la magie : \+5 %~
+@32207 = ~Résistance à la magie : +10 %~
+
+@32208 = ~Classe d'armure : 5~
+@32209 = ~Classe d'armure : +3~
+
+@32210 = ~Ses enchantements protègent de la flèche du bandit et de la jalousie du mage-voleur qui incante Nuage puant, tapi en embuscade.~
+@32211 = ~Ses enchantements protègent de la flèche du bandit ou de la jalousie du mage-voleur, tapi en embuscade.~
+
+@32212 = ~\+1 contre les projectiles
+– Jets de sauvegarde contre les souffles : \+1~
+@32213 = ~+1
+– Résistance à la magie: +5 %~
+
+@32214 = ~Classe d'armure : \+1 contre les attaques tranchantes
+– Jets de sauvegarde contre la mort : \+1~
+@32215 = ~Il y a 10 % de chance que l'utilisateur devienne invisible à chaque fois que celui-ci est touché par une attaque.
+– Si le porteur est invisible ou caché dans l'ombre, celui-ci est indétectable par des moyens magiques comme la détection de l'invisibilité et de la scrutation~
+
+@32216 = ~protège son porteur contre les coups de lames et l'empoisonnement, très répandus dans les ruelles sombres.~
+@32217 = ~rend l'utilisateur invisible et indétectable par des moyens magiques lorsque celui-ci est touché en combat.~
+
+///////////////////////////////////////////////////////////////////////////
+// Leather Armor                                                         //
+///////////////////////////////////////////////////////////////////////////
+@32300 = ~PARAMÈTRES :~
+@32301 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Se cacher dans l'ombre : +10 %
+– Furtivité : +10 %
+– Multiplicateur d'attaque sournoise : +1 (Uniquement pour les voleurs)~ 
+
+///////////////////////////////////////////////////////////////////////////
+// Studded Leather Armor                                                 //
+///////////////////////////////////////////////////////////////////////////
+@32400 = ~– Se cacher dans l'ombre : +15 %~
+@32401 = ~– Se cacher dans l'ombre : +15 %
+– Furtivité : +15 %~
+
+@32402 = ~PARAMÈTRES :~
+@32403 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Se cacher dans l'ombre : +10 %
+– Furtivité : +10 %
+– Multiplicateur d'attaque sournoise : +1 (Uniquement pour les voleurs)~ 
+
+@32404 = ~PARAMÈTRES :~
+@32405 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Vitesse de déplacement augmentée de 2 (la base est de 9).~
+
+@32406 = ~~
+@32407 = ~~
+
+@32408 = ~Résistance à l'acide : \+50 %~
+@32409 = ~Résistance à l'acide : +40 %~
+
+///////////////////////////////////////////////////////////////////////////
+// Chain Mail Armor                                                      //
+///////////////////////////////////////////////////////////////////////////
+@32600 = ~Le lancer de sorts n'est pas désactivé~
+@32601 = ~Le lancer de sorts n'est pas désactivé
+– Jets de sauvegarde : +1~
+
+@32602 = ~Le lancer de sorts n'est pas désactivé~
+@32603 = ~Le lancer de sorts n'est pas désactivé
+– Vocaliser
+– Les effets du Chant du Barde persistent pendant 2 rounds supplémentaires quand celui-ci arrête de chanter~
+
+@32604 = ~Le lancer de sorts n'est pas désactivé~
+@32605 = ~Le lancer de sorts n'est pas désactivé
+– Vitesse de déplacement augmentée de 2 (la base est de 9)
+– Augmente la vitesse d'incantation de 1~
+
+@32606 = ~Capacités d'équipement :
+– Immunité contre toutes les armes non magiques~
+@32607 = ~Capacités d'équipement :~
+
+@32608 = ~Le lancer de sorts n'est pas désactivé~
+@32609 = ~Le lancer de sorts n'est pas désactivé
+– Résistance aux dégâts physique : +10 %~
+
+@32610 = ~PARAMÈTRES :~
+@32611 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance au froid : +10 %
+– Résistance au feu : +10 %
+– Résistance à l'électricité : +10 %~
+
+///////////////////////////////////////////////////////////////////////////
+// Splint Mail Armor                                                     //
+///////////////////////////////////////////////////////////////////////////
+@32700 = ~PARAMÈTRES :~
+@32701 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Jets de sauvegarde contre la Paralysie, le Poison et la Mort : +4~
+
+@32702 = ~Résistance au froid : \+50 %~
+@32703 = ~Résistance au froid : +40 %~
+
+///////////////////////////////////////////////////////////////////////////
+// Plate Armor                                                           //
+///////////////////////////////////////////////////////////////////////////
+@32900 = ~Charisme : \+1
+– Points de vie : \+4~
+@32901 = ~Charisme : +3
+– Régénère 1 Point de vie par round~
+
+@32902 = ~Jets de sauvegarde contre les sorts : \+2~
+@32903 = ~Jets de sauvegarde : +1~
+
+@32904 = ~Résistance à l'électricité : \+90 %~
+@32905 = ~Résistance à l'électricité : +40 %~
+
+@32906 = ~Résistance au feu : \+50 %~
+@32907 = ~Résistance au feu : +40 %~
+
+@32908 = ~Résistance à la magie : \+5 %
+– Immunité contre les attaques sournoises~
+@32909 = ~+10 % de résistance aux attaques tranchantes et perforantes~
+
+@32910 = ~le dos.~
+@32911 = ~le dos. Son armure a été élaborée de manière à empêcher une telle couardise de se concrétiser, protégeant la vie du porteur, mais également l'honneur de ses assaillants qui se couvriraient de honte en arrivant à leurs fins. Des répliques ont été confectionnées, sans que leur puissance ne soit comparable à l'original.~ 
+
+@32912 = ~PARAMÈTRES :~
+@32913 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Infravision jusqu'à 36,5 m.
+– Résistance au froid : +15 %~
+
+@32914 = ~PARAMÈTRES :~
+@32915 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité contre le drain de niveau~
+
+@32916 = ~Cinq niveaux absorbés~
+@32917 = ~Quatre niveaux absorbés~
+@32918 = ~Trois niveaux absorbés~
+@32919 = ~Deux niveaux absorbés~
+@32920 = ~Un niveaux absorbés~
+
+@32921 = ~PARAMÈTRES :~
+@32922 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Chance : -1
+– Résistance contre les dégâts tranchants : +10 %~
+
+@32923 = ~PARAMÈTRES :~
+@32924 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité au poison~
+
+@32925 = ~Poison~
+@32926 = ~Empoisonné~
+
+@32927 = ~Dextérité : \+1
+– Résistance au feu : \+20 %~
+@32928 = ~1/2 attaque supplémentaire par round
+– Chance : +1
+– Vitesse de déplacement augmentée de 2 (la base est de 9)~
+
+///////////////////////////////////////////////////////////////////////////
+// Shields                                                               //
+///////////////////////////////////////////////////////////////////////////
+@33300 = ~\+4  contre les projectiles~
+@33301 = ~+4  contre les projectiles
+– +10 % de résistance aux dégâts de projectiles~ 
+
+
