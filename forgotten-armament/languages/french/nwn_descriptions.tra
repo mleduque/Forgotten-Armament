@@ -168,6 +168,8 @@ Facteur de vitesse :~
 @20901 = ~1d8~
 @20902 = ~Dégâts Critiques : 20/x2+1d8
 Facteur de vitesse :~
+@20903 = ~et 1d8\+5 dégâts supplémentaires~
+@20904 = ~et 1d6+5 dégâts supplémentaires~
 
 ///////////////////////////////////////////////////////////////////////////
 // Bows                                                                  //
