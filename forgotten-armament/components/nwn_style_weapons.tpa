@@ -110,6 +110,8 @@ OUTER_SPRINT halbcrit    @20700  // 20/x2+1d10
 OUTER_SPRINT speardmgold @20900  // 1d6
 OUTER_SPRINT speardmgnew @20901  // 1d8
 OUTER_SPRINT spearcrit   @20902  // 20/x2+1d8
+OUTER_SPRINT ixil1       @20903
+OUTER_SPRINT ixil2       @20904
 
 OUTER_SPRINT bowcrit     @21000  // 20/x2+1d6
 
@@ -852,6 +854,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
             REPLACE_TEXTUALLY ~%speardmgold%~ ~%speardmgnew%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
             REPLACE_TEXTUALLY ~%olddmgtyp%~   ~%newdmgtyp%~
+            REPLACE_TEXTUALLY ~%ixil1%~       ~%ixil2%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END ELSE BEGIN
@@ -862,6 +865,7 @@ COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%newpierc%~
             REPLACE_TEXTUALLY ~%speardmgold%~ ~%speardmgnew%~
             REPLACE_TEXTUALLY ~%speedfactor%~ ~%spearcrit%~
+            REPLACE_TEXTUALLY ~%ixil1%~       ~%ixil2%~
           END
           SAY_EVALUATED ~%offset%~ ~%desc%~
         END

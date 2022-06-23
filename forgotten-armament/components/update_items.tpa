@@ -287,6 +287,8 @@ OUTER_SPRINT oldclub4 @30206
 OUTER_SPRINT newclub4 @30207
 OUTER_SPRINT oldclub5 @30208
 OUTER_SPRINT newclub5 @30209
+OUTER_SPRINT oldclub7 @30212
+OUTER_SPRINT newclub7 @30213
     
     COPY_EXISTING ~BLUN27.ITM~ ~override~
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 30 target = 1 parameter1 = 50 parameter2 = 0 timing = 2 resist_dispel = 0 probability1 = 100 END
@@ -300,6 +302,7 @@ OUTER_SPRINT newclub5 @30209
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldclub4%~ ~%newclub4%~
               REPLACE_TEXTUALLY ~%oldclub5%~ ~%newclub5%~
+              REPLACE_TEXTUALLY ~%oldclub7%~ ~%newclub7%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END 
@@ -927,6 +930,8 @@ OUTER_SPRINT oldmace6 @30810
 OUTER_SPRINT newmace6 @30811
 OUTER_SPRINT oldmace7 @30812
 OUTER_SPRINT newmace7 @30813
+OUTER_SPRINT oldmace10 @30818
+OUTER_SPRINT newmace10 @30819
 
     COPY_EXISTING ~BLUN29.ITM~ ~override~
       LPF ALTER_ITEM_EFFECT INT_VAR match_opcode = 146 check_headers = 1 probability1 = 9 END
@@ -938,6 +943,7 @@ OUTER_SPRINT newmace7 @30813
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldmace6%~ ~%newmace6%~
               REPLACE_TEXTUALLY ~%oldmace7%~ ~%newmace7%~
+              REPLACE_TEXTUALLY ~%oldmace10%~ ~%newmace10%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
@@ -1467,6 +1473,8 @@ ACTION_IF FILE_EXISTS_IN_GAME ~SPER12.ITM~ BEGIN
 OUTER_SPRINT oldspear2 @31402
 OUTER_SPRINT oldspear3 @31403
 OUTER_SPRINT newspear3 @31404
+OUTER_SPRINT oldspear7 @31411
+OUTER_SPRINT newspear7 @31412
 
 
     COPY_EXISTING ~SPER12.ITM~ ~override~
@@ -1490,6 +1498,7 @@ OUTER_SPRINT newspear3 @31404
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldspear2%~ ~~
               REPLACE_TEXTUALLY ~%oldspear3%~ ~%newspear3%~
+              REPLACE_TEXTUALLY ~%oldspear7%~ ~%newspear7%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END

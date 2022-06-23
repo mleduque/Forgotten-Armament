@@ -80,6 +80,13 @@ Equipped abilities:
 @30210 = ~\+3 acid~
 @30211 = ~+1d6 acid~
 
+@30212 = ~Combat Abilities:
+30% chance target will take an additional 15 points of fire damage with each successful attack 
+5% chance a fireball will automatically detonate with each successful attack save)~
+@30213 = ~Combat abilities:
+– 30% chance per hit target will take an additional 15 points of fire damage
+– 10% chance per hit a 15-ft. radius fireball will automatically detonate (10d6 fire damage; Save vs. Spell for half)~
+
 ///////////////////////////////////////////////////////////////////////////
 // Dagger                                                                //
 ///////////////////////////////////////////////////////////////////////////
@@ -242,6 +249,14 @@ Equipped abilities:
 @30816 = ~\+1~
 @30817 = ~+1d4~
 
+@30818 = ~Equipped Abilities: \+20% to electrical resistance 
+Combat Abilities: 5% chance of casting chain lightning on target with each successful attack ~
+@30819 = ~Equipped abilities:
+– Electrical Resistance: +20%
+
+Combat abilities:
+– 10% chance of casting Chain Lightning on target with each successful attack (10d6 electrical damage to all in path; Save vs. Spell for half)~
+
 ///////////////////////////////////////////////////////////////////////////
 // Morningstars                                                          //
 ///////////////////////////////////////////////////////////////////////////
@@ -371,6 +386,11 @@ Equipped abilities:
 
 @31409 = ~\+2 poison~
 @31410 = ~+1d4 poison~
+
+@31411 = ~Equipped Abilities: Permanent Free Action 
+Combat Abilities: With each successful hit opponent must save or be pinned for 3 rounds, taking an additional 1D6+5 damage each round. ~
+@31412 = ~Combat abilities:
+– Hit target is pinned for 3 rounds and takes an additional 1d6+5 piercing damage each round (Save vs. Paralysis at -4 negates)~
 
 ///////////////////////////////////////////////////////////////////////////
 // Two-Handed Sword                                                      //
