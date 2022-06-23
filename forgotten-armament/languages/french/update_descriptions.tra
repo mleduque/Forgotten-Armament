@@ -80,6 +80,13 @@ Capacités d'équipement :
 @30210 = ~\+3 dégâts d'acide~
 @30211 = ~+1d6 dégâts d'acide~
 
+@30212 = ~Capacités de combat :
+30 % de chance d'infliger 15 points de dégâts de feu supplémentaires à la cible pour chaque coup réussi
+5 % de chance qu'une boule de feu explose à chaque coup réussi~
+@30213 = ~Capacités de combat :
+– 30 % de chance d'infliger 15 points de dégâts de feu supplémentaires à la cible à chaque coup réussi
+– 10 % chance qu'une boule de feu d'un rayon de 4,5 m explose à chaque coup réussi (inflige 10d6 points de dégâts de feu ; jet de sauvegarde contre les sorts pour diviser par deux)~
+
 ///////////////////////////////////////////////////////////////////////////
 // Dagger                                                                //
 ///////////////////////////////////////////////////////////////////////////
@@ -241,6 +248,14 @@ Capacités d'équipement :
 @30816 = ~\+1~
 @30817 = ~+1d4~
 
+@30818 = ~Capacités d'équipement : \+20 % de résistance à l'électricité 
+Capacités de combat : 5 % de chances de lancer le sort Chaîne d'éclairs sur la cible à chaque coup réussi~
+@30819 = ~Capacités d'équipement :
+– Résistance à l'électricité : +20 %
+
+Capacités de combat :
+– 10 % de chances de lancer le sort Chaîne d'éclairs sur la cible à chaque coup réussi ((inflige 10d6 points de dégâts électriques dans son sillage, jet de sauvegarde contre les sorts pour diviser par deux))~
+
 ///////////////////////////////////////////////////////////////////////////
 // Morningstars                                                          //
 ///////////////////////////////////////////////////////////////////////////
@@ -370,6 +385,11 @@ Capacités d'équipement :
 
 @31409 = ~\+2 dégâts de poison~
 @31410 = ~+1d4 dégâts de poison~
+
+@31411 = ~Capacités d'équipement : Action libre en permanence 
+Capacités de combat : À chaque coup réussi l'adversaire doit effectuer un jet de sauvegarde ou être immobiliser pendant 3 rounds et subit 1d6+5 points de dégâts supplémentaires par round~
+@31412 = ~Capacités de combat :
+– La cible est empalée au sol pour 3 rounds et subit 1d6+5 points de dégâts perforants par round (jet de sauvegarde contre la paralysie à -4 pour annuler)~
 
 ///////////////////////////////////////////////////////////////////////////
 // Two-Handed Sword                                                      //
