@@ -1,10 +1,10 @@
 ## Version 0.7 BETA
 
-June xx, 2022
+June 23, 2022
 
 ### Changed
 
-- Added sub-component to update existing items.
+- Added sub-component to update over 100 existing items.
 
 ## Version 0.6.1 BETA
 
