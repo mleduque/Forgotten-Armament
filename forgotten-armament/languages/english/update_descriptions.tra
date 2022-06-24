@@ -123,6 +123,91 @@ Equipped abilities:
 Equipped abilities:
 – +10% resistance to slashing, piercing, and crushing damage~
 
+@30403 = ~STATISTICS:
+
+Equipped Abilities:
+   Free Action 
+   5% bonus to Magic Resistance
+
+Combat Abilities: 
+   33% chance each hit that target will be slowed (no saving throw)
+
+THAC0:  \+5 bonus
+Damage:  1D6 \+ 6, \+2 Acid Damage, \+2 Cold Damage, \+2 Fire Damage, \+2 Poison Damage,  \+2 Electrical Damage
+Damage type:  crushing
+Weight: 8
+Speed Factor: 2
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength~
+@30404 = ~STATISTICS:
+
+Combat abilities: 
+– 33% chance each hit that target will be slowed for 20 seconds
+
+THAC0: +5
+Damage: 1d6+6, +2 acid damage, +2 cold damage, +2 fire damage, +2 poison damage, +2 electrical damage
+Damage Type: Crushing
+Speed Factor: 2
+Proficiency Type: Flail/Morningstar
+Type: One-handed
+Requires:
+ 13 Strength~
+
+ @30405 = ~STATISTICS:
+
+Combat Abilities:
+   33% chance with each successful attack that the target is slowed (No Save)
+
+THAC0: \+4
+Damage:  1D6 \+ 5, \+1 Fire Damage, \+1 Cold Damage, \+1 Acid Damage, \+1 Electrical Damage
+Damage type:  crushing
+Weight: 9
+Speed Factor: 3
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength~
+ @30406 = ~STATISTICS:
+
+Combat abilities:
+– 33% chance each hit that target will be slowed for 20 seconds
+
+THAC0: +4
+Damage: 1d6+5, +1 fire damage, +1 cold damage, +1 acid damage, +1 electrical damage
+Damage Type: Crushing
+Speed Factor: 3
+Proficiency Type: Flail/Morningstar
+Type: One-handed
+Requires:
+ 13 Strength~
+
+ @30407 = ~STATISTICS:
+
+Combat Abilities:
+   33% chance with each successful attack that the target is slowed (No Save)
+
+THAC0: \+4
+Damage:  1D6 \+ 5, \+1 Fire Damage, \+1 Cold Damage, \+1 Acid Damage, \+1 Poison Damage
+Damage type:  crushing
+Weight: 9
+Speed Factor: 3
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength~
+ @30408 = ~STATISTICS:
+
+Combat abilities:
+– 33% chance each hit that target will be slowed for 20 seconds
+
+THAC0: +4
+Damage: 1d6+5, +1 fire damage, +1 cold damage, +1 acid damage, +1 poison damage
+Damage Type: Crushing
+Speed Factor: 3
+Proficiency Type: Flail/Morningstar
+Type: One-handed
+Requires:
+ 13 Strength~
+
 ///////////////////////////////////////////////////////////////////////////
 // Halberds                                                              //
 ///////////////////////////////////////////////////////////////////////////
@@ -445,6 +530,44 @@ Combat abilities:
 – On a critical hit, the wielder gains +1 Strength bonus for 2 rounds (non-cumulative)~
 
 @31514 = ~+25%~
+
+@31515 = ~STATISTICS
+
+Equipped Abilities: 
+    50% Magic Resistance
+    Dispel magic 3 times per day
+Combat Abilities: 
+    \+6 damage to chaotic evil opponents in addition to other bonuses.
+    Dispels magic whenever the sword strikes an opponent
+THAC0: \+6 bonus
+Damage:  1D12 \+ 6
+Damage type:  slashing
+Weight:  6
+Speed Factor: 4
+Proficiency Type: Two-handed sword 
+Type:  2-handed
+Requires: 14 Strength~
+@31516 = ~STATISTICS:
+
+Equipped abilities:
+– Magic Resistance: +25%
+
+Combat abilities: 
+– Dispel Magic at level 30 whenever the sword strikes an opponent
+
+Charge abilities:
+– Dispel Magic at level 15 three times per day
+  Range: 40 ft.
+  Area of Effect: 15-ft. radius
+
+THAC0: +6
+Damage: 1d12+6, +6 extra vs. chaotic evil
+Damage Type: Slashing
+Speed Factor: 4
+Proficiency Type: Two-handed sword 
+Type: Two-handed
+Requires:
+ 14 Strength~
 
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //

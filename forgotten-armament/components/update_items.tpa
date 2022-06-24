@@ -451,6 +451,8 @@ END
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~BLUN30.ITM~ BEGIN
 OUTER_SPRINT oldflail01 @30400
+OUTER_SPRINT oldflail03 @30403
+OUTER_SPRINT oldflail03 @30404
 
     COPY_EXISTING ~BLUN30.ITM~ ~override~
         LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 46 END
@@ -471,6 +473,45 @@ OUTER_SPRINT oldflail01 @30400
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
               REPLACE_TEXTUALLY ~%oldflail01%~ ~~
+              REPLACE_TEXTUALLY ~%oldflail03%~ ~%newflail03%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Flail of Ages +4                                                      //
+// Update Description if UB is installed                                 //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BLUN30D.ITM~ BEGIN
+OUTER_SPRINT oldflail04 @30405
+OUTER_SPRINT oldflail04 @30406
+
+    COPY_EXISTING ~BLUN30D.ITM~ ~override~
+        READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldflail04%~ ~%newflail04%~
+            END
+            SAY_EVALUATED 0x54 ~%desc%~
+          END
+END
+
+///////////////////////////////////////////////////////////////////////////
+// Flail of Ages +4                                                      //
+// Update Description if UB is installed                                 //
+///////////////////////////////////////////////////////////////////////////
+ACTION_IF FILE_EXISTS_IN_GAME ~BLUN30C.ITM~ BEGIN
+OUTER_SPRINT oldflail05 @30407
+OUTER_SPRINT oldflail05 @30408
+
+    COPY_EXISTING ~BLUN30C.ITM~ ~override~
+        READ_LONG 0x54 desc_strref
+          PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
+            READ_STRREF 0x54 desc
+            INNER_PATCH_SAVE desc ~%desc%~ BEGIN
+              REPLACE_TEXTUALLY ~%oldflail05%~ ~%newflail05%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
@@ -481,8 +522,8 @@ END
 // Physical Damage Resistance +10%                                       //
 ///////////////////////////////////////////////////////////////////////////
 ACTION_IF FILE_EXISTS_IN_GAME ~BLUN39.ITM~ BEGIN
-OUTER_SPRINT oldflail2 @30401
-OUTER_SPRINT newflail2 @30402
+OUTER_SPRINT oldflail02 @30401
+OUTER_SPRINT newflail02 @30402
 
     COPY_EXISTING ~BLUN39.ITM~ ~override~
       LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 86 target = 1 parameter1 = 10 parameter2 = 0 timing = 2 resist_dispel = 2 probability1 = 100 END
@@ -493,7 +534,7 @@ OUTER_SPRINT newflail2 @30402
           PATCH_IF (desc_strref >= 0 && desc_strref < 2147483646) BEGIN
             READ_STRREF 0x54 desc
             INNER_PATCH_SAVE desc ~%desc%~ BEGIN
-              REPLACE_TEXTUALLY ~%oldflail2%~ ~%newflail2%~
+              REPLACE_TEXTUALLY ~%oldflail02%~ ~%newflail02%~
             END
             SAY_EVALUATED 0x54 ~%desc%~
           END
@@ -1605,6 +1646,8 @@ END
 ACTION_IF FILE_EXISTS_IN_GAME ~SW2H19.ITM~ BEGIN
 OUTER_SPRINT oldtwohand7 @31500
 OUTER_SPRINT newtwohand7 @31514
+OUTER_SPRINT oldtwohand8 @31515
+OUTER_SPRINT newtwohand8 @31516
 
     COPY_EXISTING ~SW2H19.ITM~ ~override~ 
       LPF ALTER_ITEM_EFFECT INT_VAR check_globals = 1 match_opcode = 166 parameter1 = 25 parameter2 = 0 END
