@@ -26,7 +26,7 @@ A list of the item descriptions is [here](https://github.com/Gibberlings3/Forgot
 
 A list of the item locations is [here](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-LOCATIONS.md).
 
-#### OPTIONAL SUBCOMPONENT - Update Existing Items in Addition to Adding New Ones - IN DEVELOPMENT
+#### OPTIONAL SUBCOMPONENT - Update Existing Items in Addition to Adding New Ones
 
 This subcomponent is optional and updates many weapons, armors, and items within the game. This is actively in development, and the current changes to items can be found [here](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/UPDATED-ITEM-DESCRIPTIONS.md).
 
