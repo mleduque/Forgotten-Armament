@@ -121,7 +121,92 @@ Capacités d'équipement :
 @30402 = ~PARAMÈTRES :
 
 Capacités d'équipement :
-– +10% de résistance contre les dégâts tranchants, perforants et contondants~
+– +10 % de résistance contre les dégâts tranchants, perforants et contondants~
+
+@30403 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+	Action libre 
+	+5 % de résistance à la magie
+
+Capacités de combat : 
+   33 % de chances que la cible soit ralentie pendant 20 s à chaque coup réussi (Pas de jet de sauvegarde)
+
+TAC0 :  \+5 bonus
+Dégâts :  1D6 \+ 6, \+2 dégâts d'acide, \+2 dégâts de froid, \+2 dégâts de feu, \+2 dégâts de poison,  \+2 dégâts d'électricité
+Type de dégâts :  contondant
+Poids : 8
+Facteur de vitesse : 2
+Type de compétence : Fléau d'armes / morgenstern
+Type : arme à une main
+Nécessite : 13 en Force~
+@30404 = ~PARAMÈTRES :
+
+Capacités de combat :
+– 33 % de chances que la cible soit ralentie pendant 20 s à chaque coup réussi
+
+TAC0 : +5
+Dégâts : 1d6+6, +2 dégâts d'acide, +2 dégâts de froid, +2 dégâts de feu, +2 dégâts de poison, +2 dégâts d'électricité
+Type de dégâts : contondant
+Facteur de vitesse : 2
+Type de compétence : Fléau d'armes / morgenstern
+Type : arme à une main
+Nécessite :
+ 13 en Force~
+
+@30405 = ~PARAMÈTRES :
+
+Capacités de combat : 
+   33 % de chances que la cible soit ralentie pendant 20 s à chaque coup réussi (Pas de jet de sauvegarde)
+
+TAC0 : \+4
+Dégâts :  1D6 \+ 5, \+1 dégât de feu, \+1 dégât de froid, \+1 dégât d'acide, \+1 dégât d'électricité
+Type de dégâts :  contondant
+Poids : 9
+Facteur de vitesse : 3
+Type de compétence : Fléau d'armes / morgenstern
+Type : arme à une main
+Nécessite : 13 en Force~
+@30406 = ~PARAMÈTRES :
+
+Capacités de combat : 
+– 33 % de chances que la cible soit ralentie pendant 20 s à chaque coup réussi
+
+TAC0 : +4
+Dégâts : 1d6+5, +1 dégât de feu, +1 dégât de froid, +1 dégât d'acide, +1 dégâts d'électricité
+Type de dégâts : contondant
+Facteur de vitesse : 3
+Type de compétence : Fléau d'armes / morgenstern
+Type : arme à une main
+Nécessite :
+ 13 en Force~
+
+@30407 = ~PARAMÈTRES :
+
+Capacités de combat : 
+   33 % de chances que la cible soit ralentie pendant 20 s à chaque coup réussi (Pas de jet de sauvegarde)
+
+TAC0 : \+4
+Dégâts :  1D6 \+ 5, \+1 dégât de feu, \+1 dégât de froid, \+1 dégât d'acide, \+1 dégât de poison
+Type de dégâts :  contondant
+Poids : 9
+Facteur de vitesse : 3
+Type de compétence : Fléau d'armes / morgenstern
+Type : arme à une main
+Nécessite : 13 en Force~
+@30408 = ~PARAMÈTRES :
+
+Capacités de combat : 
+– 33 % de chances que la cible soit ralentie pendant 20 s à chaque coup réussi
+
+TAC0 : +4
+Dégâts : 1d6+5, +1 dégât de feu, +1 dégât de froid, +1 dégât d'acide, +1 dégât de poison
+Type de dégâts : contondant
+Facteur de vitesse : 3
+Type de compétence : Fléau d'armes / morgenstern
+Type : arme à une main
+Nécessite :
+ 13 en Force~
 
 ///////////////////////////////////////////////////////////////////////////
 // Halberds                                                              //
@@ -444,6 +529,44 @@ Capacités de combat :
 – En cas de coup critique, le porteur bénéficie d'un bonus de 1 à la Force pendant 2 rounds (non cumulables).~
 
 @31514 = ~+25 %~
+
+@31515 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+    50% de résistance à la magie
+    Dissipation de la magie trois fois par jour
+Capacités de combat : 
+    \+6 points de dégâts contre les adversaires chaotiques mauvais en plus des autres bonus.
+    Dissipation de la magie à chaque coup réussi
+TAC0 : \+6
+Dégâts :  1D12 \+ 6
+Type de dégâts : tranchant
+Poids :  6
+Facteur de vitesse : 4
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite : 14 en force~
+@31516 = ~PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance à la magie : +2 5%
+
+Capacités de combat : 
+– Dissipation de la magie au niveau 30 à chaque coup réussi
+
+Capacités de charge :
+– Dissipation de la magie au niveau 15 trois fois par jour
+  Portée : 12 m.
+  Zone d'effet : rayon de 4,5 m
+
+TAC0 : +6
+Dégâts : 1d12+6, +6 points de dégâts contre les adversaires chaotiques mauvais
+Type de dégâts : tranchant
+Facteur de vitesse : 4
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite :
+ 14 en force~
 
 ///////////////////////////////////////////////////////////////////////////
 // Wakisashi                                                             //

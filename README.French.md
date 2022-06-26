@@ -26,7 +26,7 @@ Une liste des descriptions des objets se trouve [ici](https://github.com/Gibberl
 
 Une liste des emplacements des objets se trouve [ici](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/ITEM-LOCATIONS.md).
 
-#### COMPOSANT OPTIONNEL - Mise à jour des objets existants en plus de l'ajout des nouveaux objets - EN DEVELOPPEMENT
+#### COMPOSANT OPTIONNEL - Mise à jour des objets existants en plus de l'ajout des nouveaux objets
 
 Ce composant secondaire et facultatif met à jour de nombreuses armes, armures et objets du jeu. Il est actuellement en développement actif...
 Une description des nouvelles statistiques pour les objets mis à jour est disponible [ici](https://github.com/Gibberlings3/Forgotten-Armament/blob/main/UPDATED-ITEM-DESCRIPTIONS.md).

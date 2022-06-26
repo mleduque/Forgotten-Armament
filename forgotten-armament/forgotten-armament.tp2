@@ -27,9 +27,16 @@ LANGUAGE ~English~
          ~forgotten-armament/languages/english/update_descriptions.tra~
 LANGUAGE ~French~
          ~french~
+         ~forgotten-armament/languages/english/setup.tra~
+         ~forgotten-armament/languages/english/item_descriptions.tra~
+         ~forgotten-armament/languages/english/style_descriptions.tra~
+         ~forgotten-armament/languages/english/nwn_descriptions.tra~
+         ~forgotten-armament/languages/english/update_descriptions.tra~
          ~forgotten-armament/languages/french/setup.tra~
          ~forgotten-armament/languages/french/item_descriptions.tra~
          ~forgotten-armament/languages/french/style_descriptions.tra~
+         ~forgotten-armament/languages/french/nwn_descriptions.tra~
+         ~forgotten-armament/languages/french/update_descriptions.tra~
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
