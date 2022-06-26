@@ -1,3 +1,11 @@
+## Version 0.7.1 BETA
+
+June 26, 2022
+
+### Changed
+
+- Corrected bug with NWN style weapons.
+
 ## Version 0.7 BETA
 
 June 23, 2022
