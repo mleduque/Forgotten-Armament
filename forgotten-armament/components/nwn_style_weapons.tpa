@@ -105,7 +105,7 @@ OUTER_SPRINT oldflail4   @20803  // 1d6+4
 OUTER_SPRINT oldflail5   @20804  // 1d6+5
 OUTER_SPRINT oldflail6   @20805  // 1d6+6
 OUTER_SPRINT oldflail7   @20806  // 1d6 + 5
-OUTER_SPRINT oldflail8   @20808  // 1d6 + 6
+OUTER_SPRINT oldflail8   @20807  // 1d6 + 6
 
 OUTER_SPRINT halbcrit    @20700  // 20/x2+1d10
 OUTER_SPRINT speardmgold @20900  // 1d6
